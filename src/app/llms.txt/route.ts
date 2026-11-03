@@ -1,6 +1,7 @@
 import { routes } from "@/lib/seo/routes";
 import { SITE_NAME, SITE_TAGLINE_EN, absoluteUrl } from "@/lib/seo/site";
 import { publicDb } from "@/lib/supabase/public";
+import { TRACKS, TRACK_INFO } from "@/lib/tracks";
 
 export const revalidate = 3600;
 
@@ -21,10 +22,13 @@ export async function GET() {
     "## Core pages",
     `- [Visa eligibility checker](${absoluteUrl(routes.checker())}): answers a few questions and returns the long-stay options that fit.`,
     `- [Visa rules](${absoluteUrl(routes.rules())}): current requirements per track, with effective dates and official sources.`,
-    `- [Rule change log](${absoluteUrl(routes.ruleChanges())}): every change to the rules, dated. RSS: ${absoluteUrl("/visa-rules/changes/feed.xml")}`,
+    `- [Rule change log](${absoluteUrl(routes.ruleChanges())}): every change to the rules, dated. RSS: ${absoluteUrl("/feeds/rule-changes.xml")}`,
     `- [Provider directory](${absoluteUrl(routes.providers())}): verified schools and providers with ref codes.`,
     `- [Thai embassies abroad](${absoluteUrl(routes.embassies())})`,
     `- [How we verify](${absoluteUrl(routes.methodology())}): the verification method behind every status.`,
+    "",
+    "## Visa routes",
+    ...TRACKS.map((t) => `- [${TRACK_INFO[t].en}](${absoluteUrl(routes.rule(TRACK_INFO[t].slug))}): ${TRACK_INFO[t].descEn}`),
     "",
     "## Verified providers",
     ...providers.map((p) => `- [${p.name_en}](${absoluteUrl(routes.provider(p.slug))}): ${p.city_name_en}${p.is_partner ? ", partner" : ""}`),

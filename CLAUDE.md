@@ -4,7 +4,15 @@ Verified long-stay Thailand directory. Next.js App Router, TypeScript strict, Ta
 
 ## Commands
 
-`pnpm dev`, `pnpm lint`, `pnpm typecheck`, `pnpm build`. Migrations live in `supabase/migrations`, numbered 0001 to 0019.
+`pnpm dev`, `pnpm lint`, `pnpm typecheck`, `pnpm test`, `pnpm build`. Migrations live in `supabase/migrations` (0001 to 0023). `scripts/db-smoke.sh` applies them to plain Postgres and runs `supabase/tests/smoke.sql`; CI runs it on every push.
+
+## Layout
+
+- `src/app/[locale]/` public pages. EN at root, TH under `/th` via next-intl (`src/i18n`).
+- `src/lib/data.ts` read model (anon key, views from 0018). `src/lib/supabase/admin.ts` service role, server only.
+- `src/lib/checker/engine.ts` pure checker. Thresholds come from `rules`, never from code.
+- `src/lib/actions/` server actions: checker save (Q4), lead submit (consent, honeypot, rate limit).
+- Design tokens in `src/app/globals.css` `:root`. Replace values with `yuu.css` when `/handoff` lands. Register new color tokens in `src/lib/cn.ts`.
 
 ## SEO and AI search
 
@@ -28,8 +36,10 @@ Every public page follows `docs/seo.md`. Use `pageMetadata()` for metadata, `gra
 | 2026-11-03 | D9 | Rules version = latest `rule_changes.id`. A trigger logs every write to `rules`. |
 | 2026-11-03 | D10 | Providers see lead contact details only after they accept the delivery. To confirm with founder. |
 | 2026-11-03 | D11 | Public site writes (leads, checker results, subscribers) go through server code with the service role. Anon has read-only access to the public read model. |
+| 2026-11-03 | D13 | Visa rules seeded from official-source research (docs/visa-rules-research.md) with a `confidence` per rule. Pages show "Pending expert review" until `reviewed_at` is set. Low-confidence values show an "Unconfirmed" badge. |
+| 2026-11-03 | D14 | Thin pages stay noindex: city pages until 3 verified providers, embassies until address and check date, filtered provider lists always. |
 | 2026-11-03 | D12 | All AI search and answer bots are allowed in robots.txt, including training bots. AI citation growth outranks blocking training. |
 
 ## Open
 
-Domain (Q2). Supabase Pro at launch (Q5). Owner email for GitHub, Vercel, Supabase, Resend, LINE (Q5). Placeholders: [PRICE], [AMOUNT], [REVIEWER NAME], [ROLE]. Thai headline needs a native speaker check. Handoff files (`/handoff`) not yet in repo, so design tokens from `yuu.css` are not applied.
+Domain (Q2). Supabase Pro at launch (Q5). Owner email for GitHub, Vercel, Supabase, Resend, LINE (Q5). Placeholders: [PRICE], [AMOUNT], [REVIEWER NAME], [ROLE]. Thai headline and all Thai UI copy need a native speaker check. Consent text v1 (en/th) needs legal review; publish v2 to change. `SUPABASE_SERVICE_ROLE_KEY` not yet in Vercel: lead submit and saved checker results return "unavailable" until it is. `fx_rates` empty: checker uses a 33 THB/USD fallback. Handoff files (`/handoff`) not yet in repo, so design tokens from `yuu.css` are not applied.

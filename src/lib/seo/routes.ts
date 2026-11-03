@@ -4,15 +4,16 @@ export const routes = {
   home: () => "/",
   checker: () => "/checker",
   rules: () => "/visa-rules",
+  rule: (trackSlug: string) => `/visa-rules/${trackSlug}`,
   ruleChanges: () => "/visa-rules/changes",
   providers: () => "/providers",
   provider: (slug: string) => `/providers/${slug}`,
   city: (slug: string) => `/cities/${slug}`,
   embassies: () => "/embassies",
   embassy: (slug: string) => `/embassies/${slug}`,
+  checkerResult: (id: string) => `/checker/r/${id}`,
   methodology: () => "/how-we-verify",
-  about: () => "/about",
 } as const;
 
 // Never indexed: private, personal or internal surfaces.
-export const NOINDEX_PREFIXES = ["/admin", "/portal", "/api", "/dev", "/r/", "/auth"] as const;
+export const NOINDEX_PREFIXES = ["/admin", "/portal", "/api", "/dev", "/checker/r", "/auth"] as const;

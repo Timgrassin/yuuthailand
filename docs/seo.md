@@ -19,7 +19,7 @@ Yuu owns three facts nobody else publishes in one place. Each must appear as vis
 | Robots | `src/app/robots.ts` | All AI search and answer bots are allowed by name. `/admin`, `/portal`, `/api`, `/dev`, `/r/`, `/auth` are disallowed. |
 | Sitemap | `src/app/sitemap.ts` | Lists static routes, cities, embassies and non-suspended providers, with hreflang alternates and real `lastModified`. |
 | llms.txt | `src/app/llms.txt/route.ts` | Plain-text site map for AI engines. Lists every verified provider. |
-| Rule change feed | `src/app/visa-rules/changes/feed.xml/route.ts` | RSS of the last 50 rule changes. |
+| Rule change feed | `src/app/feeds/rule-changes.xml/route.ts` | RSS of the last 50 rule changes. |
 | JSON-LD | `src/lib/seo/schema.ts` | Organization and WebSite site-wide. Builders for provider, program, embassy, FAQ, breadcrumb, item list and article. |
 | Answer block | `src/components/seo/answer-block.tsx` | Answer-first summary with a visible "Last checked" date and source links. |
 
