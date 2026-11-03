@@ -23,9 +23,9 @@ export default async function CheckerPage() {
   const [rules, fx] = await Promise.all([getRules(), getUsdRate()]);
   return (
     <Container className="py-10">
-      <Breadcrumbs items={[{ name: "Yuu", path: "/" }, { name: t.title, path: routes.checker() }]} />
+      <Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: t.title, path: routes.checker() }]} />
       <SectionHeading as="h1" title={t.title} />
-      <AnswerBlock answer={"The Yuu checker compares your age, purpose, savings and income against the current thresholds for eight Thai long-stay visas. Every threshold comes from a dated rule with an official source, so a rule change updates your result."} checkedAt={latestDate(rules)} />
+      <AnswerBlock answer={"The Staylong checker compares your age, purpose, savings and income against the current thresholds for eight Thai long-stay visas. Every threshold comes from a dated rule with an official source, so a rule change updates your result."} checkedAt={latestDate(rules)} />
       <div className="mt-8">
         <CheckerForm usdRate={fx.rate} rules={rules.map((r) => ({ key: r.key, track: r.track, value_num: r.value_num, value_json: r.value_json, confidence: r.confidence }))} />
       </div>

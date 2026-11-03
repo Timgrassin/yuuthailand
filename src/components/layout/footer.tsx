@@ -10,7 +10,7 @@ export async function Footer() {
     <footer className="mt-20 border-t border-line bg-surface">
       <Container className="grid gap-8 py-10 sm:grid-cols-3">
         <div>
-          <p className="text-xl font-extrabold text-primary">Yuu</p>
+          <p className="text-xl font-extrabold text-primary">Staylong</p>
           <p className="mt-2 text-sm text-muted">{t.tagline}</p>
         </div>
         <nav aria-label="Footer" className="flex flex-col gap-2 text-sm">

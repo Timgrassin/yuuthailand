@@ -5,7 +5,7 @@ exception when others then return 'ok: ' || label || ' -> ' || sqlerrm; end $$;
 
 insert into cities (slug, code, name_en) values ('smoke-town','SMK','Smoke Town');
 insert into providers (slug, name_en, provider_type, city_id) select 'fake-school','FAKE School','language_school',id from cities where code = 'SMK';
-select 'ref_code ' || ref_code || case when ref_code ~ '^YU-[2-9A-HJ-NP-Z]{4}-SMK$' then ' ok' else ' FAIL' end from providers;
+select 'ref_code ' || ref_code || case when ref_code ~ '^SL-[2-9A-HJ-NP-Z]{4}-SMK$' then ' ok' else ' FAIL' end from providers;
 select pg_temp.expect_error($$update providers set partner_since = current_date$$, 'partner blocked while unverified');
 update providers set status = 'verified';
 select 'verified_at set: ' || (verified_at is not null) from providers;

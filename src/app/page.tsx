@@ -14,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return pageMetadata({
     path: "/",
     // Thai headline needs a native speaker check (CLAUDE.md Open).
-    title: "Yuu: Verified long-stay visa schools and rules in Thailand",
+    title: "Staylong: Verified long-stay visa schools and rules in Thailand",
     description: "Check which Thai long-stay visa fits you and find verified schools and providers. Every rule is dated and sourced.",
   });
 }
@@ -33,7 +33,7 @@ export default async function Home() {
           </h1>
           <div className="mt-6 max-w-2xl text-lg text-muted">
             <AnswerBlock
-              answer={"Yuu compares Thailand's eight long-stay visa routes, from the DTV to retirement and LTR, against current rules with official sources and dates. It lists schools and providers with a verification status and the date we last checked them."}
+              answer={"Staylong compares Thailand's eight long-stay visa routes, from the DTV to retirement and LTR, against current rules with official sources and dates. It lists schools and providers with a verification status and the date we last checked them."}
               checkedAt={lastRuleUpdate}
             />
           </div>

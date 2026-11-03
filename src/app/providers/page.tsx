@@ -34,9 +34,9 @@ export default async function ProvidersPage({ searchParams }: P) {
 
   return (
     <Container className="py-10">
-      <Breadcrumbs items={[{ name: "Yuu", path: "/" }, { name: "Providers", path: routes.providers() }]} />
+      <Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Providers", path: routes.providers() }]} />
       <SectionHeading as="h1" title={"Visa schools and providers in Thailand"} />
-      <AnswerBlock answer={"Every provider on Yuu carries a status: Verified means we checked its licence, address and visa support documents. Contacted means checks are in progress. Unverified means listed from public records only. Each card shows the date of our last check."} />
+      <AnswerBlock answer={"Every provider on Staylong carries a status: Verified means we checked its licence, address and visa support documents. Contacted means checks are in progress. Unverified means listed from public records only. Each card shows the date of our last check."} />
 
       <form className="mt-8 grid gap-3 rounded-card border border-line bg-surface p-4 sm:grid-cols-4" role="search">
         <label className="flex flex-col text-sm font-semibold">{"City"}

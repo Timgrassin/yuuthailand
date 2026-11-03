@@ -67,7 +67,7 @@ export function providerSchema(p: ProviderInput): Thing {
     name: p.name,
     description: p.description ?? undefined,
     url: absoluteUrl(routes.provider(p.slug)),
-    identifier: { "@type": "PropertyValue", propertyID: "Yuu ref", value: p.refCode },
+    identifier: { "@type": "PropertyValue", propertyID: "Staylong ref", value: p.refCode },
     address: p.address ? { "@type": "PostalAddress", streetAddress: p.address, addressLocality: p.city, addressCountry: "TH" } : undefined,
     geo: p.lat != null && p.lng != null ? { "@type": "GeoCoordinates", latitude: p.lat, longitude: p.lng } : undefined,
     sameAs: p.showCtas && p.website ? [p.website] : undefined,

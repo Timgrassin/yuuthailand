@@ -68,7 +68,7 @@ export default async function TrackPage({ params }: P) {
 
   return (
     <Container className="py-10">
-      <Breadcrumbs items={[{ name: "Yuu", path: "/" }, { name: "Visa rules", path: routes.rules() }, { name, path: routes.rule(slug) }]} />
+      <Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Visa rules", path: routes.rules() }, { name, path: routes.rule(slug) }]} />
       <SectionHeading as="h1" title={`${name}: requirements, fees and stay`} />
       <AnswerBlock
         answer={`${TRACK_INFO[track].desc} ${suits && typeof suits.value_json === "string" ? suits.value_json : ""}`.trim()}
@@ -113,7 +113,7 @@ export default async function TrackPage({ params }: P) {
       <Faq title={"Questions people ask"} items={faqFrom(rules, track)} />
 
       {updated ? (
-        <JsonLd data={graph(articleSchema({ path: routes.rule(slug), headline: `${name}`, description: TRACK_INFO[track].desc, publishedAt: rules.map((r) => r.effective_from).sort()[0] ?? updated, updatedAt: updated, authorName: "Yuu", citations: sources }))} />
+        <JsonLd data={graph(articleSchema({ path: routes.rule(slug), headline: `${name}`, description: TRACK_INFO[track].desc, publishedAt: rules.map((r) => r.effective_from).sort()[0] ?? updated, updatedAt: updated, authorName: "Staylong", citations: sources }))} />
       ) : null}
     </Container>
   );

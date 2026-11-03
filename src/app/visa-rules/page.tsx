@@ -48,7 +48,7 @@ export default async function RulesPage() {
   const rules = await getRules();
   return (
     <Container className="py-10">
-      <Breadcrumbs items={[{ name: "Yuu", path: "/" }, { name: "Visa rules", path: routes.rules() }]} />
+      <Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Visa rules", path: routes.rules() }]} />
       <SectionHeading as="h1" title={"Thailand long-stay visa rules compared"} />
       <AnswerBlock
         answer={"Thailand has eight main long-stay routes. The DTV needs 500,000 THB and suits remote workers. Retirement needs age 50 and 800,000 THB or 65,000 THB a month. LTR needs high income or assets. Privilege needs only a membership fee. Each route below links to its full rules and sources."}

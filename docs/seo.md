@@ -4,7 +4,7 @@ Every public page must pass this before merge. The goal is to rank in Google and
 
 ## The moat
 
-Yuu owns three facts nobody else publishes in one place. Each must appear as visible text, in JSON-LD and in llms.txt.
+Staylong owns three facts nobody else publishes in one place. Each must appear as visible text, in JSON-LD and in llms.txt.
 
 1. Verification status and the date it was last checked, per provider.
 2. Visa rules with typed values, effective dates and official source links.
@@ -56,8 +56,8 @@ AI engines cite third-party sources about 6.5 times more often than a brand's ow
 1. Create Google Business Profile, LINE OA and Facebook pages. Then add them to `organizationSchema().sameAs`.
 2. Answer long-stay visa threads on r/Thailand, r/ThailandTourism, r/digitalnomad and the Thaivisa forum, linking to the rule change log.
 3. Pitch the rule change log to expat news sites as a dated, citable source.
-4. Create a Wikidata item for Yuu once there is press coverage.
+4. Create a Wikidata item for Staylong once there is press coverage.
 
 ## Monitoring
 
-Every month, run the top 20 queries through ChatGPT, Perplexity, Google AI Overviews and Gemini. Log whether Yuu is cited, who is cited instead, and which page. Track AI referral traffic in PostHog by referrer: chatgpt.com, perplexity.ai, gemini.google.com, copilot.microsoft.com, claude.ai.
+Every month, run the top 20 queries through ChatGPT, Perplexity, Google AI Overviews and Gemini. Log whether Staylong is cited, who is cited instead, and which page. Track AI referral traffic in PostHog by referrer: chatgpt.com, perplexity.ai, gemini.google.com, copilot.microsoft.com, claude.ai.

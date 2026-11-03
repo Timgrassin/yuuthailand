@@ -3,7 +3,7 @@ export const copy = {
   nav: { providers: "Schools & providers", rules: "Visa rules", checker: "Visa checker", embassies: "Embassies", method: "How we verify", skip: "Skip to content", menu: "Menu" },
   footer: {
     tagline: "Verified long-stay Thailand directory.",
-    disclaimer: "Yuu is not a law firm or a government agency. Rules change. Always confirm with the Thai embassy or Immigration Bureau before you apply.",
+    disclaimer: "Staylong is not a law firm or a government agency. Rules change. Always confirm with the Thai embassy or Immigration Bureau before you apply.",
     changes: "Rule change log",
     feed: "RSS feed",
     about: "About",
@@ -62,7 +62,7 @@ export const copy = {
     nationality: "Nationality",
     start: "When do you want to start?",
     message: "Anything else we should know?",
-    consent: "I agree that Yuu may share my details with up to three verified providers for this request.",
+    consent: "I agree that Staylong may share my details with up to three verified providers for this request.",
     marketing: "Email me when visa rules change.",
     submit: "Send request",
     sent: "Request sent. Check your email for a copy.",

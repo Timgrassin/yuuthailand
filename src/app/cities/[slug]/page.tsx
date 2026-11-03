@@ -45,9 +45,9 @@ export default async function CityPage({ params }: P) {
   const name = c.name_en;
   return (
     <Container className="py-10">
-      <Breadcrumbs items={[{ name: "Yuu", path: "/" }, { name: "Providers", path: routes.providers() }, { name, path: routes.city(slug) }]} />
+      <Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Providers", path: routes.providers() }, { name, path: routes.city(slug) }]} />
       <SectionHeading as="h1" title={`Long-stay visa schools and providers in ${name}`} />
-      <AnswerBlock answer={`Yuu lists ${providers.length} providers in ${name}, ${verified} of them verified. Each listing shows its visa programs, prices in THB and the date Yuu last checked it.`} />
+      <AnswerBlock answer={`Staylong lists ${providers.length} providers in ${name}, ${verified} of them verified. Each listing shows its visa programs, prices in THB and the date Staylong last checked it.`} />
       <div className="mt-6 flex flex-wrap gap-2 text-sm">
         {(["ed", "dtv", "retirement"] as const).map((t) => (
           <Link key={t} href={routes.rule(TRACK_INFO[t].slug)} className="rounded-full border border-line bg-surface px-3 py-1 hover:border-primary">{trackName(t)}</Link>

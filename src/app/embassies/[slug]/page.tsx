@@ -27,7 +27,7 @@ export default async function EmbassyPage({ params }: P) {
   const name = e.name_en;
   return (
     <Container className="py-10">
-      <Breadcrumbs items={[{ name: "Yuu", path: "/" }, { name: "Embassies", path: routes.embassies() }, { name, path: routes.embassy(slug) }]} />
+      <Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Embassies", path: routes.embassies() }, { name, path: routes.embassy(slug) }]} />
       <SectionHeading as="h1" title={name} />
       <AnswerBlock answer={e.notes_en ?? `${e.name_en} in ${e.city} handles Thai visa applications for its area.${e.evisa_supported ? " Applications go through the Thai e-visa portal." : ""}`} checkedAt={e.last_checked_at ?? undefined} />
       <Card className="mt-6 text-sm">

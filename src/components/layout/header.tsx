@@ -15,7 +15,7 @@ export async function Header() {
     <header className="sticky top-0 z-30 border-b border-line bg-bg/95 backdrop-blur">
       <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-2 focus:z-50 focus:rounded focus:bg-surface focus:px-3 focus:py-2">{t.skip}</a>
       <Container className="flex h-16 items-center justify-between gap-4">
-        <Link href="/" className="text-2xl font-extrabold tracking-tight text-primary">Yuu</Link>
+        <Link href="/" className="text-2xl font-extrabold tracking-tight text-primary">Staylong</Link>
         <nav aria-label="Main" className="hidden gap-6 text-sm font-semibold md:flex">
           {items.map((i) => (
             <Link key={i.href} href={i.href} className="hover:text-primary">{i.label}</Link>

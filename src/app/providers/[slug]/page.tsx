@@ -42,16 +42,16 @@ export default async function ProviderPage({ params }: P) {
   const name = p.name_en;
   const city = p.city_name_en;
   const statusLine: Record<string, string> = {
-    verified: "Yuu has verified this provider's licence, address and visa support documents.",
-    contacted: "Yuu has contacted this provider and verification is in progress.",
-    unverified: "Yuu lists this provider from public records. It is not verified yet.",
-    suspended: "Yuu has suspended this listing. Contact details are hidden.",
+    verified: "Staylong has verified this provider's licence, address and visa support documents.",
+    contacted: "Staylong has contacted this provider and verification is in progress.",
+    unverified: "Staylong lists this provider from public records. It is not verified yet.",
+    suspended: "Staylong has suspended this listing. Contact details are hidden.",
   };
   const statusText = statusLine[p.status] ?? statusLine.unverified;
 
   return (
     <Container className="py-10">
-      <Breadcrumbs items={[{ name: "Yuu", path: "/" }, { name: "Providers", path: routes.providers() }, { name: city, path: routes.city(p.city_slug) }, { name, path: routes.provider(slug) }]} />
+      <Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Providers", path: routes.providers() }, { name: city, path: routes.city(p.city_slug) }, { name, path: routes.provider(slug) }]} />
       <div className="grid gap-10 lg:grid-cols-[1fr_22rem]">
         <div>
           <div className="flex flex-wrap items-center gap-3">

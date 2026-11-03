@@ -7,7 +7,7 @@ import { pageMetadata } from "@/lib/seo/metadata";
 import { routes } from "@/lib/seo/routes";
 
 export async function generateMetadata(): Promise<Metadata> {
-  return pageMetadata({ path: routes.methodology(), title: "How Yuu verifies visa schools and providers", description: "What each status means, what we check, how often, and how partners are kept separate from verification." });
+  return pageMetadata({ path: routes.methodology(), title: "How Staylong verifies visa schools and providers", description: "What each status means, what we check, how often, and how partners are kept separate from verification." });
 }
 
 const STEPS: string[] = [
@@ -21,9 +21,9 @@ const STEPS: string[] = [
 export default async function MethodPage() {
   return (
     <Container className="max-w-3xl py-10">
-      <Breadcrumbs items={[{ name: "Yuu", path: "/" }, { name: "How we verify", path: routes.methodology() }]} />
-      <SectionHeading as="h1" title={"How Yuu verifies providers"} />
-      <AnswerBlock answer={"Yuu gives a provider the Verified status only after checking its licence, address, visa support documents and prices. Verification cannot be bought. Partner is a separate commercial label, shown only while a provider stays Verified, and it is removed if the provider is suspended."} />
+      <Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "How we verify", path: routes.methodology() }]} />
+      <SectionHeading as="h1" title={"How Staylong verifies providers"} />
+      <AnswerBlock answer={"Staylong gives a provider the Verified status only after checking its licence, address, visa support documents and prices. Verification cannot be bought. Partner is a separate commercial label, shown only while a provider stays Verified, and it is removed if the provider is suspended."} />
       <div className="prose-yu mt-8">
         <h2>{"What each status means"}</h2>
         <ul className="!list-none !pl-0 space-y-3">

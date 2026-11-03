@@ -19,7 +19,7 @@ export default async function EmbassiesPage() {
   const dn = new Intl.DisplayNames(["en"], { type: "region" });
   return (
     <Container className="py-10">
-      <Breadcrumbs items={[{ name: "Yuu", path: "/" }, { name: "Embassies", path: routes.embassies() }]} />
+      <Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Embassies", path: routes.embassies() }]} />
       <SectionHeading as="h1" title={"Thai embassies and consulates"} />
       <AnswerBlock answer={"Most long-stay visas are applied for at the Thai embassy or consulate covering your country, usually through the thaievisa.go.th e-visa portal. From 31 August 2026 DTV applicants must apply in their country of nationality or permanent residence."} sources={[{ label: "thaievisa.go.th", url: "https://www.thaievisa.go.th" }]} />
       <div className="mt-8">
