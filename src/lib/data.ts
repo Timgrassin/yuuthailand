@@ -3,35 +3,35 @@ import { publicDb } from "@/lib/supabase/public";
 
 // Read model only (migration 0018 views + public tables). Every query fails soft to empty.
 export type Provider = {
-  id: string; slug: string; ref_code: string; name_en: string; name_th: string | null; provider_type: string;
-  city_id: string; city_slug: string; city_name_en: string; city_name_th: string; status: string;
+  id: string; slug: string; ref_code: string; name_en: string; provider_type: string;
+  city_id: string; city_slug: string; city_name_en: string; status: string;
   verified_at: string | null; last_checked_at: string | null; is_partner: boolean; show_ctas: boolean;
-  summary_en: string | null; summary_th: string | null; description_en: string | null; description_th: string | null;
+  summary_en: string | null; description_en: string | null;
   website: string | null; email: string | null; phone: string | null; line_id: string | null;
-  address_en: string | null; address_th: string | null; lat: number | null; lng: number | null;
+  address_en: string | null; lat: number | null; lng: number | null;
   founded_year: number | null; languages: string[]; logo_path: string | null; updated_at: string;
 };
 export type Program = {
-  id: string; provider_id: string; provider_slug: string; slug: string; track: string; name_en: string; name_th: string | null;
-  summary_en: string | null; summary_th: string | null; duration_months: number | null; hours_per_week: number | null;
-  price_thb: number | null; price_note_en: string | null; price_note_th: string | null; supports_visa: boolean;
+  id: string; provider_id: string; provider_slug: string; slug: string; track: string; name_en: string;
+  summary_en: string | null; duration_months: number | null; hours_per_week: number | null;
+  price_thb: number | null; price_note_en: string | null; supports_visa: boolean;
   sort_order: number; provider_status: string; is_partner: boolean; show_ctas: boolean;
 };
-export type City = { id: string; slug: string; code: string; name_en: string; name_th: string; province_en: string | null; province_th: string | null; lat: number | null; lng: number | null; sort_order: number; updated_at: string };
+export type City = { id: string; slug: string; code: string; name_en: string; province_en: string | null; lat: number | null; lng: number | null; sort_order: number; updated_at: string };
 export type Rule = {
-  id: string; key: string; track: string; label_en: string; label_th: string | null; value_num: number | null; value_json: unknown;
-  unit: string | null; note_en: string | null; note_th: string | null; source_url: string | null; effective_from: string;
+  id: string; key: string; track: string; label_en: string; value_num: number | null; value_json: unknown;
+  unit: string | null; note_en: string | null; source_url: string | null; effective_from: string;
   effective_until: string | null; sort_order: number; confidence: "high" | "medium" | "low"; source_date: string | null;
   reviewed_at: string | null; reviewed_by: string | null; updated_at: string;
 };
-export type RuleChange = { id: number; rule_key: string; track: string; action: string; summary_en: string | null; summary_th: string | null; changed_at: string };
+export type RuleChange = { id: number; rule_key: string; track: string; action: string; summary_en: string | null; changed_at: string };
 export type Embassy = {
-  id: string; slug: string; country_code: string; kind: string; name_en: string; name_th: string | null; city: string;
+  id: string; slug: string; country_code: string; kind: string; name_en: string; city: string;
   address: string | null; website: string | null; email: string | null; phone: string | null; evisa_supported: boolean | null;
-  tracks: string[]; notes_en: string | null; notes_th: string | null; last_checked_at: string | null; updated_at: string;
+  tracks: string[]; notes_en: string | null; last_checked_at: string | null; updated_at: string;
 };
-export type Faq = { question: string; answer: string; locale: string; sort_order: number };
-export type Accreditation = { id: string; body_en: string; body_th: string | null; reference: string | null; valid_from: string | null; valid_until: string | null; is_checked: boolean; checked_at: string | null };
+export type Faq = { question: string; answer: string; sort_order: number };
+export type Accreditation = { id: string; body_en: string; reference: string | null; valid_from: string | null; valid_until: string | null; is_checked: boolean; checked_at: string | null };
 
 async function q<T>(fn: (db: NonNullable<ReturnType<typeof publicDb>>) => PromiseLike<{ data: unknown; error: unknown }>): Promise<T[]> {
   const db = publicDb();
@@ -65,11 +65,11 @@ export const getPrograms = cache((f: { providerId?: string; track?: string } = {
   }),
 );
 
-export const getProviderFaqs = cache((providerId: string, locale: string) =>
-  q<Faq>((db) => db.from("provider_faqs").select("question, answer, locale, sort_order").eq("provider_id", providerId).eq("locale", locale).order("sort_order")),
+export const getProviderFaqs = cache((providerId: string) =>
+  q<Faq>((db) => db.from("provider_faqs").select("question, answer, locale, sort_order").eq("provider_id", providerId).eq("locale", "en").order("sort_order")),
 );
 export const getAccreditations = cache((providerId: string) =>
-  q<Accreditation>((db) => db.from("provider_accreditations").select("id, body_en, body_th, reference, valid_from, valid_until, is_checked, checked_at").eq("provider_id", providerId).order("sort_order")),
+  q<Accreditation>((db) => db.from("provider_accreditations").select("id, body_en, reference, valid_from, valid_until, is_checked, checked_at").eq("provider_id", providerId).order("sort_order")),
 );
 export const getVerificationEvents = cache((providerId: string) =>
   q<{ id: number; event_type: string; from_status: string | null; to_status: string | null; created_at: string }>((db) =>

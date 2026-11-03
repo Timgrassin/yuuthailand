@@ -18,7 +18,7 @@ export type Answers = z.infer<typeof answersSchema>;
 
 export type RuleLike = { key: string; track: string; value_num: number | null; value_json: unknown; confidence: string };
 export type Verdict = "likely" | "maybe" | "unlikely";
-export type Reason = { ok: boolean | null; en: string; th: string };
+export type Reason = { ok: boolean | null; text: string };
 export type TrackResult = { track: Track; verdict: Verdict; score: number; reasons: Reason[] };
 
 const n = (v: number) => new Intl.NumberFormat("en-US").format(Math.round(v));
@@ -44,24 +44,24 @@ export function evaluate(a: Answers, rules: RuleLike[], usdRate: number): TrackR
   const funds = (track: string, key = "eligibility.min_funds"): Reason | null => {
     const min = num(track, key);
     if (min == null) return null;
-    return { ok: a.fundsThb >= min, en: `Savings of at least ${n(min)} THB (you: ${n(a.fundsThb)})`, th: `เงินออมอย่างน้อย ${n(min)} บาท (ของคุณ: ${n(a.fundsThb)})` };
+    return { ok: a.fundsThb >= min, text: `Savings of at least ${n(min)} THB (you: ${n(a.fundsThb)})` };
   };
   const age = (track: string, key = "eligibility.min_age"): Reason | null => {
     const r = get(track, key);
     const min = r?.value_num != null ? Number(r.value_num) : undefined;
     if (min == null) return null;
     const ok = a.age >= min;
-    return { ok: ok ? true : r?.confidence === "low" ? null : false, en: `Age ${min}+ (you: ${a.age})`, th: `อายุ ${min} ปีขึ้นไป (ของคุณ: ${a.age})` };
+    return { ok: ok ? true : r?.confidence === "low" ? null : false, text: `Age ${min}+ (you: ${a.age})` };
   };
 
   // DTV: remote work or soft-power study, 500k THB.
   {
     const r = [funds("dtv"), age("dtv")].filter(Boolean) as Reason[];
-    r.unshift({ ok: has("remote_work") || has("study"), en: "Remote work for foreign clients, or a soft-power activity", th: "ทำงานทางไกลให้ต่างประเทศ หรือกิจกรรม Soft Power" });
+    r.unshift({ ok: has("remote_work") || has("study"), text: "Remote work for foreign clients, or a soft-power activity" });
     push("dtv", r, has("remote_work") || has("study"));
   }
   // ED: study.
-  push("ed", [{ ok: has("study"), en: "Enrolment at an approved school", th: "ลงทะเบียนเรียนกับสถาบันที่ได้รับอนุมัติ" }], has("study"));
+  push("ed", [{ ok: has("study"), text: "Enrolment at an approved school" }], has("study"));
 
   // Retirement Non-O and O-A: age 50, 800k or 65k/month or combination.
   for (const t of ["retirement", "retirement_oa"] as const) {
@@ -69,10 +69,10 @@ export function evaluate(a: Answers, rules: RuleLike[], usdRate: number): TrackR
     const minI = num(t, "eligibility.min_income_month") ?? 65000;
     const moneyOk = a.fundsThb >= minF || a.incomeThbMonth >= minI || a.fundsThb + a.incomeThbMonth * 12 >= minF;
     const r: Reason[] = [
-      age(t) ?? { ok: null, en: "Age rule not loaded", th: "ยังไม่มีข้อมูลเกณฑ์อายุ" },
-      { ok: moneyOk, en: `${n(minF)} THB in a Thai bank, or ${n(minI)} THB a month, or both combined to ${n(minF)} THB a year`, th: `เงินฝากในไทย ${n(minF)} บาท หรือรายได้ ${n(minI)} บาทต่อเดือน หรือรวมกันได้ ${n(minF)} บาทต่อปี` },
+      age(t) ?? { ok: null, text: "Age rule not loaded" },
+      { ok: moneyOk, text: `${n(minF)} THB in a Thai bank, or ${n(minI)} THB a month, or both combined to ${n(minF)} THB a year` },
     ];
-    if (t === "retirement_oa") r.push({ ok: null, en: "Health insurance of USD 100,000 for the whole stay", th: "ประกันสุขภาพ 100,000 ดอลลาร์สหรัฐตลอดการพำนัก" });
+    if (t === "retirement_oa") r.push({ ok: null, text: "Health insurance of USD 100,000 for the whole stay" });
     push(t, r, has("retire") || a.age >= 50);
   }
 
@@ -81,13 +81,13 @@ export function evaluate(a: Answers, rules: RuleLike[], usdRate: number): TrackR
     const minF = num("marriage", "eligibility.min_funds") ?? 400000;
     const minI = num("marriage", "eligibility.min_income_month") ?? 40000;
     push("marriage", [
-      { ok: a.marriedThai, en: "Legally married to a Thai national", th: "สมรสตามกฎหมายกับคนไทย" },
-      { ok: a.fundsThb >= minF || a.incomeThbMonth >= minI, en: `${n(minF)} THB in a Thai bank or ${n(minI)} THB a month`, th: `เงินฝากในไทย ${n(minF)} บาท หรือรายได้ ${n(minI)} บาทต่อเดือน` },
+      { ok: a.marriedThai, text: "Legally married to a Thai national" },
+      { ok: a.fundsThb >= minF || a.incomeThbMonth >= minI, text: `${n(minF)} THB in a Thai bank or ${n(minI)} THB a month` },
     ], a.marriedThai || has("family"));
   }
 
   // Work: Thai job offer.
-  push("work", [{ ok: a.jobOffer, en: "Job offer from a Thai-registered company", th: "ได้รับข้อเสนองานจากบริษัทที่จดทะเบียนในไทย" }], a.jobOffer || has("local_job"));
+  push("work", [{ ok: a.jobOffer, text: "Job offer from a Thai-registered company" }], a.jobOffer || has("local_job"));
 
   // LTR: best of its four categories.
   {
@@ -98,30 +98,30 @@ export function evaluate(a: Answers, rules: RuleLike[], usdRate: number): TrackR
     let fit = false;
     if (a.age >= 50 && (has("retire") || has("invest"))) {
       fit = true;
-      r.push({ ok: incomeUsdYear >= pensioner ? true : incomeUsdYear >= pensioner / 2 ? null : false, en: `Wealthy Pensioner: passive income of ${n(pensioner)} USD a year, or ${n(pensioner / 2)} USD plus a 250,000 USD Thai investment (you: about ${n(incomeUsdYear)} USD)`, th: `ผู้เกษียณที่มีความมั่งคั่ง: รายได้ ${n(pensioner)} ดอลลาร์ต่อปี หรือ ${n(pensioner / 2)} ดอลลาร์พร้อมลงทุนในไทย 250,000 ดอลลาร์ (ของคุณ: ประมาณ ${n(incomeUsdYear)} ดอลลาร์)` });
+      r.push({ ok: incomeUsdYear >= pensioner ? true : incomeUsdYear >= pensioner / 2 ? null : false, text: `Wealthy Pensioner: passive income of ${n(pensioner)} USD a year, or ${n(pensioner / 2)} USD plus a 250,000 USD Thai investment (you: about ${n(incomeUsdYear)} USD)` });
     }
     if (has("remote_work")) {
       fit = true;
-      r.push({ ok: incomeUsdYear >= wft ? null : incomeUsdYear >= wft / 2 ? null : false, en: `Work-from-Thailand: ${n(wft)} USD a year and a large listed or 50M USD revenue employer (you: about ${n(incomeUsdYear)} USD)`, th: `ทำงานจากประเทศไทย: รายได้ ${n(wft)} ดอลลาร์ต่อปี และนายจ้างขนาดใหญ่ (ของคุณ: ประมาณ ${n(incomeUsdYear)} ดอลลาร์)` });
+      r.push({ ok: incomeUsdYear >= wft ? null : incomeUsdYear >= wft / 2 ? null : false, text: `Work-from-Thailand: ${n(wft)} USD a year and a large listed or 50M USD revenue employer (you: about ${n(incomeUsdYear)} USD)` });
     }
     if (has("invest") || a.assetsUsd > 0) {
       fit = true;
-      r.push({ ok: a.assetsUsd >= assets ? null : false, en: `Wealthy Global Citizen: ${n(assets)} USD in assets and a 500,000 USD Thai investment (you: ${n(a.assetsUsd)} USD)`, th: `ผู้มีความมั่งคั่งสูง: ทรัพย์สิน ${n(assets)} ดอลลาร์ และลงทุนในไทย 500,000 ดอลลาร์ (ของคุณ: ${n(a.assetsUsd)} ดอลลาร์)` });
+      r.push({ ok: a.assetsUsd >= assets ? null : false, text: `Wealthy Global Citizen: ${n(assets)} USD in assets and a 500,000 USD Thai investment (you: ${n(a.assetsUsd)} USD)` });
     }
     if (a.jobOffer) {
       fit = true;
-      r.push({ ok: incomeUsdYear >= 80000 ? null : incomeUsdYear >= 40000 ? null : false, en: "Highly Skilled: Thai job in a target industry and 80,000 USD a year (40,000 USD with a master's)", th: "ผู้เชี่ยวชาญทักษะสูง: งานในไทยในอุตสาหกรรมเป้าหมาย รายได้ 80,000 ดอลลาร์ต่อปี (40,000 ดอลลาร์หากมีปริญญาโท)" });
+      r.push({ ok: incomeUsdYear >= 80000 ? null : incomeUsdYear >= 40000 ? null : false, text: "Highly Skilled: Thai job in a target industry and 80,000 USD a year (40,000 USD with a master's)" });
     }
     // Any one passing category is enough.
     const best: Reason[] = r.some((x) => x.ok === true) ? r.filter((x) => x.ok === true) : r.some((x) => x.ok === null) ? r.filter((x) => x.ok !== false) : r;
-    push("ltr", best.length ? best : [{ ok: false, en: "No LTR category matches your answers", th: "ไม่มีประเภท LTR ที่ตรงกับคำตอบของคุณ" }], fit);
+    push("ltr", best.length ? best : [{ ok: false, text: "No LTR category matches your answers" }], fit);
   }
 
   // Privilege: no tests, just the fee.
   {
     const fees = rules.filter((x) => x.track === "privilege" && x.key.startsWith("fee.membership.") && x.value_num != null).map((x) => Number(x.value_num));
     const minFee = fees.length ? Math.min(...fees) : undefined;
-    push("privilege", [minFee != null ? { ok: a.fundsThb >= minFee ? true : null, en: `Membership from ${n(minFee)} THB, paid upfront, no income or age test`, th: `ค่าสมาชิกเริ่มต้น ${n(minFee)} บาท ชำระล่วงหน้า ไม่มีเกณฑ์รายได้หรืออายุ` } : { ok: null, en: "Membership fee, no income or age test", th: "ค่าสมาชิก ไม่มีเกณฑ์รายได้หรืออายุ" }], true);
+    push("privilege", [minFee != null ? { ok: a.fundsThb >= minFee ? true : null, text: `Membership from ${n(minFee)} THB, paid upfront, no income or age test` } : { ok: null, text: "Membership fee, no income or age test" }], true);
   }
 
   const order: Record<Verdict, number> = { likely: 0, maybe: 1, unlikely: 2 };

@@ -14,10 +14,10 @@ Yuu owns three facts nobody else publishes in one place. Each must appear as vis
 
 | Piece | File | Rule |
 |---|---|---|
-| Metadata | `src/lib/seo/metadata.ts` | Every page calls `pageMetadata()`. It sets canonical, hreflang (en, th, x-default), OG and Twitter. |
+| Metadata | `src/lib/seo/metadata.ts` | Every page calls `pageMetadata()`. It sets canonical, OG and Twitter. |
 | Indexing guard | `src/lib/seo/site.ts` | Only production on the real domain is indexable. Previews are noindex and robots blocks them. |
 | Robots | `src/app/robots.ts` | All AI search and answer bots are allowed by name. `/admin`, `/portal`, `/api`, `/dev`, `/r/`, `/auth` are disallowed. |
-| Sitemap | `src/app/sitemap.ts` | Lists static routes, cities, embassies and non-suspended providers, with hreflang alternates and real `lastModified`. |
+| Sitemap | `src/app/sitemap.ts` | Lists static routes, visa pages, indexable cities and embassies, and non-suspended providers, with real `lastModified`. |
 | llms.txt | `src/app/llms.txt/route.ts` | Plain-text site map for AI engines. Lists every verified provider. |
 | Rule change feed | `src/app/feeds/rule-changes.xml/route.ts` | RSS of the last 50 rule changes. |
 | JSON-LD | `src/lib/seo/schema.ts` | Organization and WebSite site-wide. Builders for provider, program, embassy, FAQ, breadcrumb, item list and article. |
@@ -34,7 +34,7 @@ Yuu owns three facts nobody else publishes in one place. Each must appear as vis
 7. **JSON-LD.** Each template emits its builder plus `BreadcrumbList` through `graph()`.
 8. **Named author or reviewer.** Guides and rule pages show [REVIEWER NAME], [ROLE] and the review date.
 9. **Internal links.** Each provider links to its city, track and the methodology. Each city links to its providers and the matching rules. Each rule links to the checker.
-10. **Thai parity.** A Thai page is a real translation, never machine-only. Set `hasThai: false` until it exists, so hreflang never points at a 404.
+10. **English only.** One language, one URL per page. No hreflang.
 11. **Server-rendered.** Content and prices are in the initial HTML. No client-only rendering for indexable text.
 12. **No keyword stuffing.** It lowers AI citation. Write plainly, with specific numbers.
 

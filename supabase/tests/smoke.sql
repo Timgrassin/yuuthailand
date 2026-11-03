@@ -3,7 +3,7 @@ create or replace function pg_temp.expect_error(sql text, label text) returns te
 begin execute sql; return 'FAIL (no error): ' || label;
 exception when others then return 'ok: ' || label || ' -> ' || sqlerrm; end $$;
 
-insert into cities (slug, code, name_en, name_th) values ('smoke-town','SMK','Smoke Town','ทดสอบ');
+insert into cities (slug, code, name_en) values ('smoke-town','SMK','Smoke Town');
 insert into providers (slug, name_en, provider_type, city_id) select 'fake-school','FAKE School','language_school',id from cities where code = 'SMK';
 select 'ref_code ' || ref_code || case when ref_code ~ '^YU-[2-9A-HJ-NP-Z]{4}-SMK$' then ' ok' else ' FAIL' end from providers;
 select pg_temp.expect_error($$update providers set partner_since = current_date$$, 'partner blocked while unverified');
@@ -19,9 +19,9 @@ select 'verification events: ' || count(*) || ' (expect 5)' from verification_ev
 
 insert into pricing_plans (code, name_en, price_per_lead_thb) values ('standard','Standard',750);
 update providers set pricing_plan_id = (select id from pricing_plans);
-insert into consent_texts (key, locale, version, body, published_at) values ('lead_form','en',1,'FAKE consent', now());
-select pg_temp.expect_error($$update consent_texts set body = 'x'$$, 'published consent immutable');
-insert into leads (full_name, email, consent_text_id) select 'FAKE Lead','fake@example.com',id from consent_texts;
+insert into consent_texts (key, locale, version, body, published_at) values ('smoke_form','en',1,'FAKE consent', now());
+select pg_temp.expect_error($$update consent_texts set body = 'x' where key = 'smoke_form'$$, 'published consent immutable');
+insert into leads (full_name, email, consent_text_id) select 'FAKE Lead','fake@example.com',id from consent_texts where key = 'smoke_form';
 select pg_temp.expect_error($$insert into lead_deliveries (lead_id, provider_id) select l.id, p.id from leads l, providers p$$, 'unqualified lead not deliverable');
 update leads set status = 'qualified';
 insert into lead_deliveries (lead_id, provider_id) select l.id, p.id from leads l, providers p;
@@ -59,7 +59,7 @@ reset role;
 -- Provider member visibility
 insert into auth.users (id) values ('00000000-0000-0000-0000-000000000001');
 insert into provider_users (provider_id, user_id) select id, '00000000-0000-0000-0000-000000000001' from providers;
-insert into leads (full_name, email, consent_text_id, status) select 'FAKE Lead 2','fake2@example.com',id,'qualified' from consent_texts;
+insert into leads (full_name, email, consent_text_id, status) select 'FAKE Lead 2','fake2@example.com',id,'qualified' from consent_texts where key = 'smoke_form';
 insert into lead_deliveries (lead_id, provider_id) select l.id, p.id from leads l, providers p where l.full_name = 'FAKE Lead 2';
 set role authenticated; set request.jwt.claim.sub = '00000000-0000-0000-0000-000000000001';
 select 'member sees deliveries: ' || count(*) || ' (expect 2)' from lead_deliveries;

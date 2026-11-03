@@ -1,41 +1,38 @@
-export const pick = <T,>(locale: string, en: T, th: T | null | undefined): T => (locale === "th" && th != null && th !== "" ? th : en);
-
-export function fmtDate(iso: string | null | undefined, locale: string): string {
+export function fmtDate(iso: string | null | undefined): string {
   if (!iso) return "";
-  return new Date(iso).toLocaleDateString(locale === "th" ? "th-TH" : "en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "Asia/Bangkok" });
+  return new Date(iso).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "Asia/Bangkok" });
 }
 
-export function fmtNumber(n: number, locale: string): string {
-  return new Intl.NumberFormat(locale === "th" ? "th-TH" : "en-US").format(n);
+export function fmtNumber(n: number): string {
+  return new Intl.NumberFormat("en-US").format(n);
 }
 
-const UNIT: Record<string, { en: string; th: string }> = {
-  THB: { en: "THB", th: "บาท" },
-  USD: { en: "USD", th: "ดอลลาร์สหรัฐ" },
-  years: { en: "years", th: "ปี" },
-  months: { en: "months", th: "เดือน" },
-  days: { en: "days", th: "วัน" },
-  THB_per_month: { en: "THB a month", th: "บาทต่อเดือน" },
-  USD_per_year: { en: "USD a year", th: "ดอลลาร์สหรัฐต่อปี" },
-  percent: { en: "%", th: "%" },
+const UNIT: Record<string, string> = {
+  THB: "THB",
+  USD: "USD",
+  years: "years",
+  months: "months",
+  days: "days",
+  THB_per_month: "THB a month",
+  USD_per_year: "USD a year",
 };
 
-export function fmtValue(r: { value_num: number | null; value_json: unknown; unit: string | null }, locale: string): string {
-  const u = r.unit ? UNIT[r.unit]?.[locale === "th" ? "th" : "en"] ?? r.unit : "";
-  if (r.value_num != null) return r.unit === "percent" ? `${fmtNumber(Number(r.value_num), locale)}%` : `${fmtNumber(Number(r.value_num), locale)}${u ? ` ${u}` : ""}`;
+export function fmtValue(r: { value_num: number | null; value_json: unknown; unit: string | null }): string {
+  const u = r.unit ? UNIT[r.unit] ?? r.unit : "";
+  if (r.value_num != null) return r.unit === "percent" ? `${fmtNumber(Number(r.value_num))}%` : `${fmtNumber(Number(r.value_num))}${u ? ` ${u}` : ""}`;
   const v = r.value_json;
-  if (v === true) return locale === "th" ? "ใช่" : "Yes";
-  if (v === false) return locale === "th" ? "ไม่ใช่" : "No";
-  if (v === "none") return locale === "th" ? "ไม่มีเกณฑ์" : "No requirement";
-  if (v === "with_work_permit") return locale === "th" ? "ได้ หากมีใบอนุญาตทำงาน" : "Only with a work permit";
+  if (v === true) return "Yes";
+  if (v === false) return "No";
+  if (v === "none") return "No requirement";
+  if (v === "with_work_permit") return "Only with a work permit";
   if (typeof v === "string") return v;
   if (Array.isArray(v)) return v.join(" · ");
   if (v && typeof v === "object") {
     const o = v as Record<string, unknown>;
-    if ("usd" in o) return `${fmtNumber(Number(o.usd), locale)} USD${"thb" in o ? ` / ${fmtNumber(Number(o.thb), locale)} THB` : ""}`;
-    return Object.entries(o)
-      .map(([k, val]) => `${k.replace(/_/g, " ")}: ${typeof val === "number" ? fmtNumber(val, locale) : Array.isArray(val) ? val.join(", ") : typeof val === "object" && val ? Object.entries(val).map(([a, b]) => `${a} ${typeof b === "number" ? fmtNumber(b, locale) : String(b)}`).join("; ") : String(val)}`)
-      .join(" · ");
+    if ("usd" in o) return `${fmtNumber(Number(o.usd))} USD${"thb" in o ? ` / ${fmtNumber(Number(o.thb))} THB` : ""}`;
+    const show = (val: unknown): string =>
+      typeof val === "number" ? fmtNumber(val) : Array.isArray(val) ? val.join(", ") : val && typeof val === "object" ? Object.entries(val).map(([a, b]) => `${a} ${show(b)}`).join("; ") : String(val);
+    return Object.entries(o).map(([k, val]) => `${k.replace(/_/g, " ")}: ${show(val)}`).join(" · ");
   }
   return "";
 }

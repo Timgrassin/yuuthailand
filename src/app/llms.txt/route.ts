@@ -1,5 +1,5 @@
 import { routes } from "@/lib/seo/routes";
-import { SITE_NAME, SITE_TAGLINE_EN, absoluteUrl } from "@/lib/seo/site";
+import { SITE_NAME, SITE_TAGLINE, absoluteUrl } from "@/lib/seo/site";
 import { publicDb } from "@/lib/supabase/public";
 import { TRACKS, TRACK_INFO } from "@/lib/tracks";
 
@@ -15,9 +15,9 @@ export async function GET() {
   const lines = [
     `# ${SITE_NAME}`,
     "",
-    `> ${SITE_TAGLINE_EN}. Yuu checks long-stay visa providers in Thailand and records when each one was last verified. Visa rules carry an effective date and a source link. Every rule change is logged publicly.`,
+    `> ${SITE_TAGLINE}. Yuu checks long-stay visa providers in Thailand and records when each one was last verified. Visa rules carry an effective date and a source link. Every rule change is logged publicly.`,
     "",
-    "Content is in English (no prefix) and Thai (/th). Prices are in THB.",
+    "Content is in English. Prices are in THB.",
     "",
     "## Core pages",
     `- [Visa eligibility checker](${absoluteUrl(routes.checker())}): answers a few questions and returns the long-stay options that fit.`,
@@ -28,13 +28,12 @@ export async function GET() {
     `- [How we verify](${absoluteUrl(routes.methodology())}): the verification method behind every status.`,
     "",
     "## Visa routes",
-    ...TRACKS.map((t) => `- [${TRACK_INFO[t].en}](${absoluteUrl(routes.rule(TRACK_INFO[t].slug))}): ${TRACK_INFO[t].descEn}`),
+    ...TRACKS.map((t) => `- [${TRACK_INFO[t].name}](${absoluteUrl(routes.rule(TRACK_INFO[t].slug))}): ${TRACK_INFO[t].desc}`),
     "",
     "## Verified providers",
     ...providers.map((p) => `- [${p.name_en}](${absoluteUrl(routes.provider(p.slug))}): ${p.city_name_en}${p.is_partner ? ", partner" : ""}`),
     "",
     "## Optional",
-    `- [Thai version](${absoluteUrl("/", "th")})`,
     `- [Sitemap](${absoluteUrl("/sitemap.xml")})`,
   ];
 

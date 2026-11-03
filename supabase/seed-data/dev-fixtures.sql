@@ -4,14 +4,14 @@ insert into public.pricing_plans (code, name_en, price_per_lead_thb, monthly_fee
 values ('fake_standard', 'FAKE Standard', 750, 0, false), ('fake_partner', 'FAKE Partner', 500, 4900, true)
 on conflict (code) do nothing;
 
-insert into public.providers (slug, name_en, name_th, provider_type, city_id, summary_en, website, phone, line_id, address_en, languages, pricing_plan_id)
-select v.slug, v.name_en, v.name_th, v.ptype, c.id, v.summary, 'https://example.com', '+66 2 000 0000', 'fake_line', v.addr, array['en','th'], (select id from public.pricing_plans where code = 'fake_standard')
+insert into public.providers (slug, name_en, provider_type, city_id, summary_en, website, phone, line_id, address_en, languages, pricing_plan_id)
+select v.slug, v.name_en, v.ptype, c.id, v.summary, 'https://example.com', '+66 2 000 0000', 'fake_line', v.addr, array['en','th'], (select id from public.pricing_plans where code = 'fake_standard')
 from (values
-  ('fake-sukhumvit-thai-school', 'FAKE Sukhumvit Thai School', 'โรงเรียนภาษาไทยสุขุมวิท (ตัวอย่าง)', 'language_school', 'bangkok', 'FAKE. Thai language courses with ED visa support.', 'FAKE 1 Sukhumvit Rd'),
-  ('fake-nimman-language-centre', 'FAKE Nimman Language Centre', 'ศูนย์ภาษานิมมาน (ตัวอย่าง)', 'language_school', 'chiang-mai', 'FAKE. Small-group Thai classes.', 'FAKE 2 Nimmanhaemin Rd'),
-  ('fake-patong-muay-thai', 'FAKE Patong Muay Thai Camp', 'ค่ายมวยไทยป่าตอง (ตัวอย่าง)', 'muay_thai_camp', 'phuket', 'FAKE. Muay Thai training for DTV soft-power applicants.', 'FAKE 3 Patong Beach'),
-  ('fake-bkk-visa-agency', 'FAKE Bangkok Visa Agency', null, 'visa_agent', 'bangkok', 'FAKE. Retirement and marriage visa paperwork.', 'FAKE 4 Silom Rd')
-) as v(slug, name_en, name_th, ptype, city, summary, addr)
+  ('fake-sukhumvit-thai-school', 'FAKE Sukhumvit Thai School', 'language_school', 'bangkok', 'FAKE. Thai language courses with ED visa support.', 'FAKE 1 Sukhumvit Rd'),
+  ('fake-nimman-language-centre', 'FAKE Nimman Language Centre', 'language_school', 'chiang-mai', 'FAKE. Small-group Thai classes.', 'FAKE 2 Nimmanhaemin Rd'),
+  ('fake-patong-muay-thai', 'FAKE Patong Muay Thai Camp', 'muay_thai_camp', 'phuket', 'FAKE. Muay Thai training for DTV soft-power applicants.', 'FAKE 3 Patong Beach'),
+  ('fake-bkk-visa-agency', 'FAKE Bangkok Visa Agency', 'visa_agent', 'bangkok', 'FAKE. Retirement and marriage visa paperwork.', 'FAKE 4 Silom Rd')
+) as v(slug, name_en, ptype, city, summary, addr)
 join public.cities c on c.slug = v.city
 on conflict (slug) do nothing;
 

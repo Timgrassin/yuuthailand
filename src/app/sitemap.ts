@@ -8,13 +8,11 @@ export const revalidate = 3600;
 
 type Entry = MetadataRoute.Sitemap[number];
 
-// Each URL is listed once with en + th alternates (hreflang in the sitemap).
-function entry(path: string, lastModified?: string | Date, priority = 0.5, hasThai = true): Entry {
+function entry(path: string, lastModified?: string | Date, priority = 0.5): Entry {
   return {
-    url: absoluteUrl(path, "en"),
+    url: absoluteUrl(path),
     lastModified: lastModified ?? new Date(),
     priority,
-    alternates: hasThai ? { languages: { en: absoluteUrl(path, "en"), th: absoluteUrl(path, "th") } } : undefined,
   };
 }
 

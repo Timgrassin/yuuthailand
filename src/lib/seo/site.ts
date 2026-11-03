@@ -1,10 +1,7 @@
-// Single source for site identity and URL building.
+// Single source for site identity and URL building. English only.
 // Production URL comes from NEXT_PUBLIC_SITE_URL once the domain (Q2) is bought.
 export const SITE_NAME = "Yuu";
-export const SITE_TAGLINE_EN = "Verified long-stay Thailand directory";
-export const DEFAULT_LOCALE = "en" as const;
-export const LOCALES = ["en", "th"] as const;
-export type Locale = (typeof LOCALES)[number];
+export const SITE_TAGLINE = "Verified long-stay Thailand directory";
 
 export function siteUrl(): string {
   if (process.env.NEXT_PUBLIC_SITE_URL) return process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/, "");
@@ -18,12 +15,6 @@ export function isIndexable(): boolean {
   return process.env.VERCEL_ENV === "production" && Boolean(process.env.NEXT_PUBLIC_SITE_URL);
 }
 
-// D2: English has no prefix. Thai lives under /th.
-export function localePath(path: string, locale: Locale): string {
-  const clean = path === "/" ? "" : path.replace(/\/$/, "");
-  return locale === "th" ? `/th${clean}` || "/th" : clean || "/";
-}
-
-export function absoluteUrl(path: string, locale: Locale = "en"): string {
-  return `${siteUrl()}${localePath(path, locale)}`;
+export function absoluteUrl(path: string): string {
+  return `${siteUrl()}${path === "/" ? "" : path}` || siteUrl();
 }

@@ -20,7 +20,6 @@ const leadSchema = z.object({
   message: z.string().trim().max(2000).optional().or(z.literal("")),
   consent: z.literal("on"),
   marketing: z.literal("on").optional(),
-  locale: z.enum(["en", "th"]),
   source_path: z.string().max(300).optional(),
 });
 
@@ -47,7 +46,7 @@ export async function submitLead(_prev: LeadState, form: FormData): Promise<Lead
   }
 
   // Consent: point at the exact published text shown on the form.
-  const { data: consent } = await db.from("consent_texts").select("id").eq("key", "lead_form").eq("locale", d.locale).not("published_at", "is", null).order("version", { ascending: false }).limit(1).single();
+  const { data: consent } = await db.from("consent_texts").select("id").eq("key", "lead_form").eq("locale", "en").not("published_at", "is", null).order("version", { ascending: false }).limit(1).single();
   if (!consent) return { error: "unavailable" };
 
   const { error } = await db.from("leads").insert({
@@ -62,7 +61,6 @@ export async function submitLead(_prev: LeadState, form: FormData): Promise<Lead
     start_month: d.start_month ? `${d.start_month}-01` : null,
     message: empty(d.message),
     answers: d.provider_id ? { requested_provider_id: d.provider_id } : {},
-    locale: d.locale,
     consent_text_id: consent.id,
     marketing_opt_in: d.marketing === "on",
     source_path: d.source_path ?? null,

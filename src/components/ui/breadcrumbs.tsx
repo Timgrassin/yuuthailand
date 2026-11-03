@@ -1,12 +1,11 @@
-import { Link } from "@/i18n/navigation";
+import Link from "next/link";
 import { JsonLd } from "@/components/seo/json-ld";
 import { breadcrumbSchema, graph } from "@/lib/seo/schema";
-import type { Locale } from "@/lib/seo/site";
 
-export function Breadcrumbs({ items, locale }: { items: { name: string; path: string }[]; locale: Locale }) {
+export function Breadcrumbs({ items }: { items: { name: string; path: string }[] }) {
   return (
     <nav aria-label="Breadcrumb" className="mb-4 text-sm text-muted">
-      <JsonLd data={graph(breadcrumbSchema(items, locale))} />
+      <JsonLd data={graph(breadcrumbSchema(items))} />
       <ol className="flex flex-wrap gap-1">
         {items.map((it, i) => (
           <li key={it.path} className="flex gap-1">

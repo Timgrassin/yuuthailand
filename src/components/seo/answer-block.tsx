@@ -5,18 +5,17 @@ type Props = {
   answer: string;
   checkedAt?: string;
   sources?: { label: string; url: string }[];
-  locale?: "en" | "th";
 };
 
-export function AnswerBlock({ question, answer, checkedAt, sources = [], locale = "en" }: Props) {
-  const t = locale === "th" ? { checked: "ตรวจสอบล่าสุด", sources: "แหล่งที่มา" } : { checked: "Last checked", sources: "Sources" };
+export function AnswerBlock({ question, answer, checkedAt, sources = [] }: Props) {
+  const t = { checked: "Last checked", sources: "Sources" };
   return (
     <section aria-label={question ?? "Summary"} data-answer-block>
       {question ? <h2>{question}</h2> : null}
       <p>{answer}</p>
       {checkedAt ? (
         <p>
-          {t.checked}: <time dateTime={checkedAt}>{new Date(checkedAt).toLocaleDateString(locale === "th" ? "th-TH" : "en-GB", { day: "numeric", month: "short", year: "numeric" })}</time>
+          {t.checked}: <time dateTime={checkedAt}>{new Date(checkedAt).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}</time>
         </p>
       ) : null}
       {sources.length ? (
