@@ -6,6 +6,10 @@ Verified long-stay Thailand directory. Next.js App Router, TypeScript strict, Ta
 
 `pnpm dev`, `pnpm lint`, `pnpm typecheck`, `pnpm build`. Migrations live in `supabase/migrations`, numbered 0001 to 0019.
 
+## SEO and AI search
+
+Every public page follows `docs/seo.md`. Use `pageMetadata()` for metadata, `graph()` builders for JSON-LD, and `AnswerBlock` above the fold. Never index previews. Never show a date that is not from the database.
+
 ## A2 decisions log
 
 | Date | ID | Decision |
@@ -24,6 +28,7 @@ Verified long-stay Thailand directory. Next.js App Router, TypeScript strict, Ta
 | 2026-11-03 | D9 | Rules version = latest `rule_changes.id`. A trigger logs every write to `rules`. |
 | 2026-11-03 | D10 | Providers see lead contact details only after they accept the delivery. To confirm with founder. |
 | 2026-11-03 | D11 | Public site writes (leads, checker results, subscribers) go through server code with the service role. Anon has read-only access to the public read model. |
+| 2026-11-03 | D12 | All AI search and answer bots are allowed in robots.txt, including training bots. AI citation growth outranks blocking training. |
 
 ## Open
 
