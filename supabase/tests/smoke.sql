@@ -3,9 +3,9 @@ create or replace function pg_temp.expect_error(sql text, label text) returns te
 begin execute sql; return 'FAIL (no error): ' || label;
 exception when others then return 'ok: ' || label || ' -> ' || sqlerrm; end $$;
 
-insert into cities (slug, code, name_en, name_th) values ('bangkok','BKK','Bangkok','กรุงเทพ');
-insert into providers (slug, name_en, provider_type, city_id) select 'fake-school','FAKE School','language_school',id from cities;
-select 'ref_code ' || ref_code || case when ref_code ~ '^YU-[2-9A-HJ-NP-Z]{4}-BKK$' then ' ok' else ' FAIL' end from providers;
+insert into cities (slug, code, name_en, name_th) values ('smoke-town','SMK','Smoke Town','ทดสอบ');
+insert into providers (slug, name_en, provider_type, city_id) select 'fake-school','FAKE School','language_school',id from cities where code = 'SMK';
+select 'ref_code ' || ref_code || case when ref_code ~ '^YU-[2-9A-HJ-NP-Z]{4}-SMK$' then ' ok' else ' FAIL' end from providers;
 select pg_temp.expect_error($$update providers set partner_since = current_date$$, 'partner blocked while unverified');
 update providers set status = 'verified';
 select 'verified_at set: ' || (verified_at is not null) from providers;
@@ -37,11 +37,12 @@ update lead_deliveries set status = 'disputed'; update lead_deliveries set statu
 select 'billable after refund: ' || count(*) from billable_deliveries;
 select pg_temp.expect_error($$update lead_deliveries set status = 'accepted'$$, 'refunded is final');
 
-select 'rules version before: ' || current_rules_version();
-insert into rules (key, track, label_en, value_num, effective_from) values ('min_hours_week','ed','Min hours',4,'2026-01-01');
-update rules set value_num = 5;
-update rules set value_num = 5;
-select 'rules version after insert+update+noop: ' || current_rules_version() || ' (expect 2)';
+create temp table v0 as select current_rules_version() v;
+grant select on v0 to public;
+insert into rules (key, track, label_en, value_num, effective_from) values ('smoke.min_hours_week','ed','Min hours',4,'2026-01-01');
+update rules set value_num = 5 where key = 'smoke.min_hours_week';
+update rules set value_num = 5 where key = 'smoke.min_hours_week';
+select 'rules version delta after insert+update+noop: ' || (select count(*) from rule_changes where rule_key = 'smoke.min_hours_week') || case when (select count(*) from rule_changes where rule_key = 'smoke.min_hours_week') = 2 then ' ok' else ' FAIL' end;
 select 'audit rows: ' || count(*) from audit_log;
 
 -- RLS as anon
