@@ -3,6 +3,7 @@ import { routes } from "@/lib/seo/routes";
 import { absoluteUrl } from "@/lib/seo/site";
 import { publicDb } from "@/lib/supabase/public";
 import { TRACKS, TRACK_INFO } from "@/lib/tracks";
+import { GUIDES } from "@/content";
 
 export const revalidate = 3600;
 
@@ -26,6 +27,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     entry(routes.embassies(), undefined, 0.6),
     entry(routes.methodology(), undefined, 0.6),
     ...TRACKS.map((t) => entry(routes.rule(TRACK_INFO[t].slug), undefined, 0.9)),
+    entry(routes.guides(), undefined, 0.7),
+    ...GUIDES.map((g) => entry(routes.guide(g.slug), g.updated, g.kind === "change" ? 0.9 : 0.8)),
   ];
 
   const db = publicDb();

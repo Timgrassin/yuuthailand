@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
+import { PageHero } from "@/components/marketing/page-hero";
 import { AnswerBlock } from "@/components/seo/answer-block";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
-import { Card, Container, EmptyState, SectionHeading } from "@/components/ui/primitives";
+import { Card, Container, EmptyState } from "@/components/ui/primitives";
 import Link from "next/link";
 import { getEmbassies } from "@/lib/data";
 import { pageMetadata } from "@/lib/seo/metadata";
@@ -18,10 +19,9 @@ export default async function EmbassiesPage() {
   const byCountry = embassies.reduce<Record<string, typeof embassies>>((m, e) => ((m[e.country_code] ??= []).push(e), m), {});
   const dn = new Intl.DisplayNames(["en"], { type: "region" });
   return (
-    <Container className="py-10">
-      <Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Embassies", path: routes.embassies() }]} />
-      <SectionHeading as="h1" title={"Thai embassies and consulates"} />
-      <AnswerBlock answer={"Most long-stay visas are applied for at the Thai embassy or consulate covering your country, usually through the thaievisa.go.th e-visa portal. From 31 August 2026 DTV applicants must apply in their country of nationality or permanent residence."} sources={[{ label: "thaievisa.go.th", url: "https://www.thaievisa.go.th" }]} />
+    <>
+    <PageHero crumbs={<Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Embassies", path: routes.embassies() }]} />} eyebrow="Where to apply" title={"Thai embassies and consulates"} lead={<AnswerBlock answer={"Most long-stay visas are applied for at the Thai embassy or consulate covering your country, usually through the thaievisa.go.th e-visa portal. From 31 August 2026 DTV applicants must apply in their country of nationality or permanent residence."} sources={[{ label: "thaievisa.go.th", url: "https://www.thaievisa.go.th" }]} />} />
+    <Container className="py-12">
       <div className="mt-8">
         {embassies.length ? (
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -35,5 +35,6 @@ export default async function EmbassiesPage() {
         ) : <EmptyState>{"The embassy directory is being compiled. Use thaievisa.go.th to find your mission."}</EmptyState>}
       </div>
     </Container>
+    </>
   );
 }

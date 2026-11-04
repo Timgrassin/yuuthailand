@@ -119,7 +119,7 @@ export function evaluate(a: Answers, rules: RuleLike[], usdRate: number): TrackR
 
   // Privilege: no tests, just the fee.
   {
-    const fees = rules.filter((x) => x.track === "privilege" && x.key.startsWith("fee.membership.") && x.value_num != null).map((x) => Number(x.value_num));
+    const fees = rules.filter((x) => x.track === "privilege" && x.key.startsWith("fee.membership.") && x.value_num != null && x.confidence !== "low").map((x) => Number(x.value_num));
     const minFee = fees.length ? Math.min(...fees) : undefined;
     push("privilege", [minFee != null ? { ok: a.fundsThb >= minFee ? true : null, text: `Membership from ${n(minFee)} THB, paid upfront, no income or age test` } : { ok: null, text: "Membership fee, no income or age test" }], true);
   }

@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Fraunces, Inter } from "next/font/google";
 import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
 import { JsonLd } from "@/components/seo/json-ld";
@@ -7,8 +7,8 @@ import { graph, organizationSchema, websiteSchema } from "@/lib/seo/schema";
 import { SITE_NAME, isIndexable, siteUrl } from "@/lib/seo/site";
 import "./globals.css";
 
-// Placeholder type until the design's font from /handoff lands.
-const sans = Inter({ variable: "--font-sans-yu", subsets: ["latin"], display: "swap" });
+const body = Inter({ variable: "--font-body", subsets: ["latin"], display: "swap" });
+const display = Fraunces({ variable: "--font-display-face", subsets: ["latin"], display: "swap", axes: ["opsz", "SOFT"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
@@ -18,12 +18,12 @@ export const metadata: Metadata = {
   alternates: { types: { "application/rss+xml": "/feeds/rule-changes.xml", "text/plain": "/llms.txt" } },
 };
 
-export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#0f5c55" };
+export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#0b5e4f" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className={`${sans.variable} antialiased`}>
+    <html lang="en" className={`${body.variable} ${display.variable}`}>
+      <body className="antialiased">
         <JsonLd data={graph(organizationSchema(), websiteSchema())} />
         <Header />
         <main id="main">{children}</main>

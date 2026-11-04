@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
+import { PageHero } from "@/components/marketing/page-hero";
 import { AnswerBlock } from "@/components/seo/answer-block";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
-import { Container, EmptyState, SectionHeading } from "@/components/ui/primitives";
+import { Container, EmptyState } from "@/components/ui/primitives";
 import { getRuleChanges } from "@/lib/data";
 import { fmtDate } from "@/lib/format";
 import { pageMetadata } from "@/lib/seo/metadata";
@@ -21,10 +22,9 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function ChangesPage() {
   const changes = await getRuleChanges(200);
   return (
-    <Container className="py-10">
-      <Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Visa rules", path: routes.rules() }, { name: "Change log", path: routes.ruleChanges() }]} />
-      <SectionHeading as="h1" title={"Visa rule change log"} />
-      <AnswerBlock answer={"Every time a rule in Staylong changes, the change is logged here with the date. Saved checker results compare against this log and tell you when the rules moved since you checked."} checkedAt={changes[0]?.changed_at} />
+    <>
+    <PageHero crumbs={<Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Visa rules", path: routes.rules() }, { name: "Change log", path: routes.ruleChanges() }]} />} eyebrow="Change log" title={"Visa rule change log"} lead={<AnswerBlock answer={"Every time a rule in Staylong changes, the change is logged here with the date. Saved checker results compare against this log and tell you when the rules moved since you checked."} checkedAt={changes[0]?.changed_at} />} />
+    <Container className="py-12">
       <p className="mt-3 text-sm"><a className="text-primary underline" href="/feeds/rule-changes.xml">RSS</a></p>
       {changes.length ? (
         <ol className="mt-8 divide-y divide-line rounded-card border border-line bg-surface">
@@ -37,5 +37,6 @@ export default async function ChangesPage() {
         </ol>
       ) : <div className="mt-8"><EmptyState>{"No changes logged yet."}</EmptyState></div>}
     </Container>
+    </>
   );
 }

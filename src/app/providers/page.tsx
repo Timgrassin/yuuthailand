@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import { PageHero } from "@/components/marketing/page-hero";
 import { ProviderCard } from "@/components/blocks/provider-card";
 import { AnswerBlock } from "@/components/seo/answer-block";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
-import { Container, EmptyState, SectionHeading } from "@/components/ui/primitives";
+import { Container, EmptyState } from "@/components/ui/primitives";
 import { getCities, getPrograms, getProviders } from "@/lib/data";
 import { pageMetadata } from "@/lib/seo/metadata";
 import { routes } from "@/lib/seo/routes";
@@ -33,10 +34,9 @@ export default async function ProvidersPage({ searchParams }: P) {
   const list = all.filter((p) => (!withTrack || withTrack.has(p.id)) && (!needle || `${p.name_en} ${p.ref_code}`.toLowerCase().includes(needle)));
 
   return (
-    <Container className="py-10">
-      <Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Providers", path: routes.providers() }]} />
-      <SectionHeading as="h1" title={"Visa schools and providers in Thailand"} />
-      <AnswerBlock answer={"Every provider on Staylong carries a status: Verified means we checked its licence, address and visa support documents. Contacted means checks are in progress. Unverified means listed from public records only. Each card shows the date of our last check."} />
+    <>
+    <PageHero crumbs={<Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Providers", path: routes.providers() }]} />} eyebrow="Directory" title={"Visa schools and providers in Thailand"} lead={<AnswerBlock answer={"Every provider on Staylong carries a status: Verified means we checked its licence, address and visa support documents. Contacted means checks are in progress. Unverified means listed from public records only. Each card shows the date of our last check."} />} />
+    <Container className="py-12">
 
       <form className="mt-8 grid gap-3 rounded-card border border-line bg-surface p-4 sm:grid-cols-4" role="search">
         <label className="flex flex-col text-sm font-semibold">{"City"}
@@ -66,5 +66,6 @@ export default async function ProvidersPage({ searchParams }: P) {
       </div>
       {list.length ? <JsonLd data={graph(itemListSchema("Visa providers in Thailand", list.map((p) => ({ name: p.name_en, path: routes.provider(p.slug) }))))} /> : null}
     </Container>
+    </>
   );
 }

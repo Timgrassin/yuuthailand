@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { PageHero } from "@/components/marketing/page-hero";
 import { notFound } from "next/navigation";
 import { ProviderCard } from "@/components/blocks/provider-card";
 import { AnswerBlock } from "@/components/seo/answer-block";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
-import { Container, EmptyState, SectionHeading } from "@/components/ui/primitives";
+import { Container, EmptyState } from "@/components/ui/primitives";
 import Link from "next/link";
 import { getCities, getCity, getProviders } from "@/lib/data";
 import { pageMetadata } from "@/lib/seo/metadata";
@@ -44,10 +45,9 @@ export default async function CityPage({ params }: P) {
   const verified = providers.filter((p) => p.status === "verified").length;
   const name = c.name_en;
   return (
-    <Container className="py-10">
-      <Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Providers", path: routes.providers() }, { name, path: routes.city(slug) }]} />
-      <SectionHeading as="h1" title={`Long-stay visa schools and providers in ${name}`} />
-      <AnswerBlock answer={`Staylong lists ${providers.length} providers in ${name}, ${verified} of them verified. Each listing shows its visa programs, prices in THB and the date Staylong last checked it.`} />
+    <>
+    <PageHero crumbs={<Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Providers", path: routes.providers() }, { name, path: routes.city(slug) }]} />} eyebrow="City directory" title={`Long-stay visa schools and providers in ${name}`} lead={<AnswerBlock answer={`Staylong lists ${providers.length} providers in ${name}, ${verified} of them verified. Each listing shows its visa programs, prices in THB and the date Staylong last checked it.`} />} />
+    <Container className="py-12">
       <div className="mt-6 flex flex-wrap gap-2 text-sm">
         {(["ed", "dtv", "retirement"] as const).map((t) => (
           <Link key={t} href={routes.rule(TRACK_INFO[t].slug)} className="rounded-full border border-line bg-surface px-3 py-1 hover:border-primary">{trackName(t)}</Link>
@@ -58,5 +58,6 @@ export default async function CityPage({ params }: P) {
       </div>
       {providers.length ? <JsonLd data={graph(itemListSchema(name, providers.map((p) => ({ name: p.name_en, path: routes.provider(p.slug) }))))} /> : null}
     </Container>
+    </>
   );
 }

@@ -1,5 +1,6 @@
 import { cache } from "react";
 import { publicDb } from "@/lib/supabase/public";
+import { fixtureTable } from "@/lib/fixtures";
 
 // Read model only (migration 0018 views + public tables). Every query fails soft to empty.
 export type Provider = {
@@ -33,7 +34,29 @@ export type Embassy = {
 export type Faq = { question: string; answer: string; sort_order: number };
 export type Accreditation = { id: string; body_en: string; reference: string | null; valid_from: string | null; valid_until: string | null; is_checked: boolean; checked_at: string | null };
 
+// Minimal query builder over fixture rows, so the same query code runs in fixture mode.
+function fixtureDb() {
+  const from = (table: string) => {
+    let rows = [...(fixtureTable(table) ?? [])] as Record<string, unknown>[];
+    const b = {
+      select: () => b,
+      eq: (k: string, v: unknown) => ((rows = rows.filter((r) => r[k] === v)), b),
+      neq: (k: string, v: unknown) => ((rows = rows.filter((r) => r[k] !== v)), b),
+      not: () => b,
+      order: () => b,
+      limit: (n: number) => ((rows = rows.slice(0, n)), b),
+      then: (res: (v: { data: unknown; error: null }) => unknown) => Promise.resolve({ data: rows, error: null }).then(res),
+    };
+    return b;
+  };
+  return { from, rpc: async () => ({ data: 4, error: null }) };
+}
+
 async function q<T>(fn: (db: NonNullable<ReturnType<typeof publicDb>>) => PromiseLike<{ data: unknown; error: unknown }>): Promise<T[]> {
+  if (process.env.STAYLONG_FIXTURES === "1") {
+    const { data } = await fn(fixtureDb() as unknown as NonNullable<ReturnType<typeof publicDb>>);
+    return (data as T[]) ?? [];
+  }
   const db = publicDb();
   if (!db) return [];
   try {

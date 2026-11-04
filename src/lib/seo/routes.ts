@@ -12,6 +12,8 @@ export const routes = {
   embassies: () => "/embassies",
   embassy: (slug: string) => `/embassies/${slug}`,
   checkerResult: (id: string) => `/checker/r/${id}`,
+  guides: () => "/guides",
+  guide: (slug: string) => `/guides/${slug}`,
   methodology: () => "/how-we-verify",
 } as const;
 
