@@ -129,3 +129,18 @@ export function articleSchema(a: { path: string; headline: string; description: 
 export function graph(...nodes: (Thing | null | undefined)[]): Thing {
   return { "@context": "https://schema.org", "@graph": nodes.filter(Boolean) };
 }
+
+// Free tool pages: WebApplication rich result.
+export function webAppSchema(t: { path: string; name: string; description: string }): Thing {
+  return {
+    "@type": "WebApplication",
+    name: t.name,
+    description: t.description,
+    url: absoluteUrl(t.path),
+    applicationCategory: "UtilitiesApplication",
+    operatingSystem: "Any",
+    isAccessibleForFree: true,
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+    publisher: { "@id": ORG_ID() },
+  };
+}

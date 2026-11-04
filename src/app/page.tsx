@@ -11,6 +11,7 @@ import { pageMetadata } from "@/lib/seo/metadata";
 import { routes } from "@/lib/seo/routes";
 import { graph, itemListSchema } from "@/lib/seo/schema";
 import { TRACK_INFO, trackName, type Track } from "@/lib/tracks";
+import { TOOLS } from "@/lib/tools";
 import { visaFacts } from "@/lib/visa-facts";
 
 export const revalidate = 3600;
@@ -132,6 +133,26 @@ export default async function Home() {
                 </Link>
               );
             })}
+          </div>
+        </Container>
+      </Section>
+
+      {/* Free tools */}
+      <Section className="pt-0">
+        <Container>
+          <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
+            <SectionHeading eyebrow="Free tools" title="Plan your stay with real numbers" className="mb-0" />
+            <Link href={routes.tools()} className="inline-flex items-center gap-1 text-sm font-semibold text-primary">All tools <ArrowRight className="size-4" aria-hidden /></Link>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {TOOLS.slice(0, 4).map((t) => (
+              <Link key={t.slug} href={routes.tool(t.slug)} className="group">
+                <Card className="h-full transition-all group-hover:-translate-y-0.5 group-hover:shadow-lift">
+                  <p className="font-display text-lg leading-snug">{t.name}</p>
+                  <p className="mt-2 text-sm text-ink-2">{t.short}</p>
+                </Card>
+              </Link>
+            ))}
           </div>
         </Container>
       </Section>

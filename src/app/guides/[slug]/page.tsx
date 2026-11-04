@@ -10,6 +10,7 @@ import { AnswerBlock } from "@/components/seo/answer-block";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { Faq } from "@/components/ui/faq";
+import { EmailCapture } from "@/components/blocks/email-capture";
 import { Button, Card, Container } from "@/components/ui/primitives";
 import { GUIDES, getGuide } from "@/content";
 import { md } from "@/content/render";
@@ -62,6 +63,7 @@ export default async function GuidePage({ params }: P) {
               </section>
             ))}
           </div>
+          <div className="mt-14"><EmailCapture title="Get rule-change alerts" body="We email you when the rules on this page change, with the official source and what it means for you." leadMagnet={`guide_${g.slug}`} button="Alert me" tracks={g.tracks} /></div>
           <Faq title="Questions people ask" items={g.faqs} />
           <section className="mt-14 rounded-card border border-line bg-surface p-6">
             <h2 className="text-xl">Sources</h2>

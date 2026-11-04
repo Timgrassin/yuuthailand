@@ -14,6 +14,11 @@ export const routes = {
   checkerResult: (id: string) => `/checker/r/${id}`,
   guides: () => "/guides",
   guide: (slug: string) => `/guides/${slug}`,
+  tools: () => "/tools",
+  tool: (slug: string) => `/tools/${slug}`,
+  faq: () => "/faq",
+  country: (slug: string) => `/visas-for/${slug}`,
+  countries: () => "/visas-for",
   methodology: () => "/how-we-verify",
 } as const;
 

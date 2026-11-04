@@ -4,6 +4,8 @@ import { absoluteUrl } from "@/lib/seo/site";
 import { publicDb } from "@/lib/supabase/public";
 import { TRACKS, TRACK_INFO } from "@/lib/tracks";
 import { GUIDES } from "@/content";
+import { COUNTRIES } from "@/content/countries";
+import { TOOLS } from "@/lib/tools";
 
 export const revalidate = 3600;
 
@@ -28,6 +30,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     entry(routes.methodology(), undefined, 0.6),
     ...TRACKS.map((t) => entry(routes.rule(TRACK_INFO[t].slug), undefined, 0.9)),
     entry(routes.guides(), undefined, 0.7),
+    entry(routes.tools(), undefined, 0.8),
+    ...TOOLS.map((t) => entry(routes.tool(t.slug), undefined, 0.8)),
+    entry(routes.faq(), "2026-11-04", 0.8),
+    entry(routes.countries(), undefined, 0.7),
+    ...COUNTRIES.map((c) => entry(routes.country(c.slug), c.updated, 0.7)),
     ...GUIDES.map((g) => entry(routes.guide(g.slug), g.updated, g.kind === "change" ? 0.9 : 0.8)),
   ];
 

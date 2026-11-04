@@ -4,14 +4,15 @@ Verified long-stay Thailand directory at staylong.co. Next.js App Router, TypeSc
 
 ## Commands
 
-`pnpm dev`, `pnpm lint`, `pnpm typecheck`, `pnpm test`, `pnpm build`. Migrations live in `supabase/migrations` (0001 to 0025). `scripts/db-smoke.sh` applies them to plain Postgres and runs `supabase/tests/smoke.sql`; CI runs it on every push.
+`pnpm dev`, `pnpm lint`, `pnpm typecheck`, `pnpm test`, `pnpm build`. Migrations live in `supabase/migrations` (0001 to 0027). `scripts/db-smoke.sh` applies them to plain Postgres and runs `supabase/tests/smoke.sql`; CI runs it on every push.
 
 ## Layout
 
 - `src/app/` public pages. English only. UI copy lives in `src/lib/copy.ts`.
 - `src/lib/data.ts` read model (anon key, views from 0018). `src/lib/supabase/admin.ts` service role, server only.
 - `src/lib/checker/engine.ts` pure checker. Thresholds come from `rules`, never from code.
-- `src/lib/actions/` server actions: checker save (Q4), lead submit (consent, honeypot, rate limit).
+- `src/lib/actions/` server actions call the public write functions from 0026 (`subscribe`, `submit_lead`, `save_checker_result`, `get_checker_result`) with the publishable key.
+- `src/lib/tools.ts` + `src/components/tools/` free tools at `/tools/<slug>`; each has an answer, FAQs, WebApplication schema and an `EmailCapture` lead magnet. `src/content/faq.ts` feeds `/faq`; `src/content/countries.ts` feeds `/visas-for/<country>`.
 - `src/content/` editorial layer: `guides/*.ts` (Guide) render at `/guides/<slug>`, `visas/<track>.ts` (VisaContent) render inside `/visa-rules/<slug>`. Register new files in `src/content/index.ts`. Writing rules: see `docs/editorial-brief.md`; research in `docs/research/`.
 - Local design previews without Supabase: `STAYLONG_FIXTURES=1 pnpm dev` (FAKE providers, real seeded rules).
 - Design tokens in `src/app/globals.css` `:root`. Replace values with `yuu.css` when `/handoff` lands. Register new color tokens in `src/lib/cn.ts`.
@@ -37,15 +38,17 @@ Every public page follows `docs/seo.md`. Use `pageMetadata()` for metadata, `gra
 | 2026-11-03 | D8 | Design sample data lives in dev fixtures only, marked FAKE. |
 | 2026-11-03 | D9 | Rules version = latest `rule_changes.id`. A trigger logs every write to `rules`. |
 | 2026-11-03 | D10 | Providers see lead contact details only after they accept the delivery. To confirm with founder. |
-| 2026-11-03 | D11 | Public site writes (leads, checker results, subscribers) go through server code with the service role. Anon has read-only access to the public read model. |
+| 2026-11-03 | D11 | ~~Public writes use the service role.~~ Superseded by D19. |
 | 2026-11-03 | D13 | Visa rules seeded from official-source research (docs/visa-rules-research.md) with a `confidence` per rule. Pages show "Pending expert review" until `reviewed_at` is set. Low-confidence values show an "Unconfirmed" badge. |
 | 2026-11-03 | D14 | Thin pages stay noindex: city pages until 3 verified providers, embassies until address and check date, filtered provider lists always. |
 | 2026-11-03 | D15 | English-only website. No Thai routes, copy, columns or consent texts (migration 0024). Database `locale` enums stay but only `en` is used. |
 | 2026-11-03 | D16 | Brand is Staylong. Domain staylong.co (bought 3 Nov 2026), www redirects to apex. `NEXT_PUBLIC_SITE_URL=https://staylong.co` in Vercel production turns on indexing. |
 | 2026-11-04 | D17 | Design system: Fraunces display + Inter body, ink/jade/saffron tokens. Placeholder until /handoff designs land. |
 | 2026-11-04 | D18 | Editorial content lives in typed TS modules in `src/content`, not the database. Facts that are thresholds stay in `rules`; prose may only reference them. Unverified facts are worded as "reported" and pages with conflicts carry `confidence: "low"`. |
+| 2026-11-04 | D19 | Public writes go through SECURITY DEFINER functions (migration 0026) callable with the publishable key: validation, consent pinning and rate limits live in Postgres. No service role key needed on Vercel. |
+| 2026-11-04 | D20 | Lead capture: every tool, guide, visa and country page has an `EmailCapture` with a named `lead_magnet`; subscribers store `lead_magnet`, `tracks` and `meta` for segmentation. Emails need Resend (not yet set up). |
 | 2026-11-03 | D12 | All AI search and answer bots are allowed in robots.txt, including training bots. AI citation growth outranks blocking training. |
 
 ## Open
 
-Supabase Pro at launch (Q5). Owner email for GitHub, Vercel, Supabase, Resend, LINE (Q5). Placeholders: [PRICE], [AMOUNT], [REVIEWER NAME], [ROLE]. Consent text v1 needs legal review; publish v2 to change. `SUPABASE_SERVICE_ROLE_KEY` not yet in Vercel: lead submit and saved checker results return "unavailable" until it is. `fx_rates` empty: checker uses a 33 THB/USD fallback. Handoff files (`/handoff`) not yet in repo, so design tokens from `yuu.css` are not applied.
+Supabase Pro at launch (Q5). Owner email for GitHub, Vercel, Supabase, Resend, LINE (Q5). Placeholders: [PRICE], [AMOUNT], [REVIEWER NAME], [ROLE]. Consent text v1 needs legal review; publish v2 to change. Resend not set up: email captures are stored but no email is sent yet. `fx_rates` empty: checker uses a 33 THB/USD fallback. Handoff files (`/handoff`) not yet in repo, so design tokens from `yuu.css` are not applied.

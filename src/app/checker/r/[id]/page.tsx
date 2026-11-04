@@ -7,7 +7,7 @@ import { Card, Container, SectionHeading } from "@/components/ui/primitives";
 import { answersSchema, evaluate } from "@/lib/checker/engine";
 import { getRules, getRulesVersion, getUsdRate } from "@/lib/data";
 import { fmtDate } from "@/lib/format";
-import { adminDb } from "@/lib/supabase/admin";
+import { publicDb } from "@/lib/supabase/public";
 
 export const dynamic = "force-dynamic";
 export const metadata: Metadata = { robots: { index: false, follow: false } };
@@ -18,13 +18,13 @@ type P = { params: Promise<{ id: string }>; searchParams: Promise<{ saved?: stri
 export default async function SavedResult({ params, searchParams }: P) {
   const { id } = await params;
   if (!/^[0-9a-f-]{36}$/.test(id)) notFound();
-  const db = adminDb();
+  const db = publicDb();
   if (!db) notFound();
-  const { data } = await db.from("checker_results").select("answers, rules_version, created_at").eq("id", id).single();
+  const { data: rows } = await db.rpc("get_checker_result", { p_id: id });
+  const data = (rows as { answers: unknown; rules_version: number; created_at: string }[] | null)?.[0];
   if (!data) notFound();
   const parsed = answersSchema.safeParse(data.answers);
   if (!parsed.success) notFound();
-  await db.from("checker_results").update({ last_viewed_at: new Date().toISOString() }).eq("id", id);
   const [rules, fx, version, { saved }] = await Promise.all([getRules(), getUsdRate(), getRulesVersion(), searchParams]);
   const t = copy.checker;
   const results = evaluate(parsed.data, rules, fx.rate);

@@ -67,3 +67,11 @@ select 'member sees leads: ' || count(*) || ' (expect 1: refunded one, not the u
 update providers set name_en = 'hack';
 select 'member edit blocked by RLS, name: ' || (select name_en from providers);
 reset role;
+
+-- 0026 public write functions as anon
+set role anon;
+select 'subscribe ok: ' || public.subscribe('smoke@example.com', '/tools/x', 'smoke', array['dtv'], '{}');
+select 'save checker ok: ' || (public.save_checker_result('{"age":30}') is not null);
+select pg_temp.expect_error($$select public.subscribe('not-an-email')$$, 'subscribe rejects bad email');
+select pg_temp.expect_error($$select public.submit_lead('{"full_name":"FAKE","email":"a@b.co"}')$$, 'lead needs consent');
+reset role;

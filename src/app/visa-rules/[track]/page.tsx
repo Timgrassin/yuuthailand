@@ -16,6 +16,7 @@ import { Button, Card, Container } from "@/components/ui/primitives";
 import { VISA_CONTENT, getGuide, guidesForTrack } from "@/content";
 import { md } from "@/content/render";
 import { visaFacts } from "@/lib/visa-facts";
+import { EmailCapture } from "@/components/blocks/email-capture";
 import { getPrograms, getRules, latestDate, type Rule } from "@/lib/data";
 import { fmtValue } from "@/lib/format";
 import { pageMetadata } from "@/lib/seo/metadata";
@@ -184,6 +185,8 @@ export default async function TrackPage({ params }: P) {
               <ul className="grid gap-3 sm:grid-cols-2">{programs.slice(0, 8).map((g) => <li key={g.id}><Link href={routes.provider(g.provider_slug)}><Card className="hover:border-primary/40"><p className="font-semibold">{g.name_en}</p></Card></Link></li>)}</ul>
             </section>
           ) : null}
+
+          <EmailCapture title={`Get ${trackName(track, true)} rule alerts`} body={`We email you the day a ${trackName(track, true)} requirement changes, with the official source. Plus a printable document checklist.`} leadMagnet={`visa_alerts_${track}`} button="Alert me" tracks={[track]} />
 
           <Faq title={`${trackName(track, true)} visa questions`} items={faqs} />
 

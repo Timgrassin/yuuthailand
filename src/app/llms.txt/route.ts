@@ -3,6 +3,8 @@ import { SITE_NAME, SITE_TAGLINE, absoluteUrl } from "@/lib/seo/site";
 import { publicDb } from "@/lib/supabase/public";
 import { TRACKS, TRACK_INFO } from "@/lib/tracks";
 import { GUIDES } from "@/content";
+import { COUNTRIES } from "@/content/countries";
+import { TOOLS } from "@/lib/tools";
 
 export const revalidate = 3600;
 
@@ -30,6 +32,15 @@ export async function GET() {
     "",
     "## Visa routes",
     ...TRACKS.map((t) => `- [${TRACK_INFO[t].name}](${absoluteUrl(routes.rule(TRACK_INFO[t].slug))}): ${TRACK_INFO[t].desc}`),
+    "",
+    "## Free tools",
+    ...TOOLS.map((t) => `- [${t.name}](${absoluteUrl(routes.tool(t.slug))}): ${t.answer}`),
+    "",
+    "## FAQ",
+    `- [Thailand long-stay FAQ](${absoluteUrl(routes.faq())}): 150 short answers on visas, reports, money, tax and daily life.`,
+    "",
+    "## By nationality",
+    ...COUNTRIES.map((c) => `- [Thailand long-stay visas for ${c.demonym}s](${absoluteUrl(routes.country(c.slug))})`),
     "",
     "## Guides and comparisons",
     ...GUIDES.map((g) => `- [${g.title}](${absoluteUrl(routes.guide(g.slug))}): ${g.answer}`),
