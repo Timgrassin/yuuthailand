@@ -36,6 +36,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     entry(routes.faq(), "2026-11-04", 0.8),
     entry(routes.countries(), undefined, 0.7),
     ...COUNTRIES.map((c) => entry(routes.country(c.slug), c.updated, 0.7)),
+    entry("/mcp-server", "2026-11-04", 0.6),
     entry(routes.places(), "2026-11-04", 0.8),
     ...PLACES.map((p) => entry(routes.place(p.slug), p.updated, 0.8)),
     entry(routes.offices(), "2026-11-04", 0.7),

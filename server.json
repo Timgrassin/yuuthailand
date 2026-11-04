@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.timgrassin/staylong",
+  "title": "Staylong: Thailand long-stay visas",
+  "description": "Thai visa rules, eligibility checks, 90-day reports, immigration offices, places to live and schools.",
+  "version": "1.0.0",
+  "websiteUrl": "https://staylong.co/mcp-server",
+  "repository": { "url": "https://github.com/Timgrassin/yuuthailand", "source": "github" },
+  "remotes": [{ "type": "streamable-http", "url": "https://staylong.co/mcp" }]
+}

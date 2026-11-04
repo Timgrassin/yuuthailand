@@ -16,6 +16,7 @@ Verified long-stay Thailand directory at staylong.co. Next.js App Router, TypeSc
 - `src/content/` editorial layer: `guides/*.ts` (Guide) render at `/guides/<slug>`, `visas/<track>.ts` (VisaContent) render inside `/visa-rules/<slug>`. Register new files in `src/content/index.ts`. Writing rules: see `docs/editorial-brief.md`; research in `docs/research/`.
 - Places: `src/content/places.ts` (28 places) and `src/content/immigration-offices.ts` (20 offices) render at `/places/<slug>` and `/immigration-offices/<slug>`. POIs come from `src/content/data/pois.json`, written by `.github/workflows/pois.yml` (OpenStreetMap via Nominatim, monthly). Maps use `src/components/map/poi-map.tsx` (MapLibre).
 - Schools pipeline: `scripts/apify/*` run by `.github/workflows/schools.yml` (manual). Scrape Google Maps, import, fetch site text, then apply quoted facts written per `data/schools/brief.md`.
+- MCP server: `src/app/mcp/route.ts` (Streamable HTTP, stateless, read-only) with tools in `src/lib/mcp/tools.ts` and a search corpus in `src/lib/mcp/corpus.ts`. Docs at `/mcp-server`, card at `/.well-known/mcp/server-card.json`. Registry entry `server.json`, published by `.github/workflows/mcp-registry.yml` (manual, GitHub OIDC). Bump its version before each publish.
 - Local design previews without Supabase: `STAYLONG_FIXTURES=1 pnpm dev` (FAKE providers, real seeded rules).
 - Design tokens in `src/app/globals.css` `:root`. Replace values with `yuu.css` when `/handoff` lands. Register new color tokens in `src/lib/cn.ts`.
 
@@ -52,6 +53,7 @@ Every public page follows `docs/seo.md`. Use `pageMetadata()` for metadata, `gra
 | 2026-11-04 | D21 | Place pages and immigration office pages are editorial TS modules. POIs are OpenStreetMap data (ODbL, attributed), fetched by a GitHub Action, never edited by hand. Office pins are approximate unless the coordinates came from a listing. |
 | 2026-11-04 | D22 | Bulk imports (`import_providers`, `import_provider_facts`, `import_pois`) need a token whose SHA-256 is in `import_keys` (migration 0030). No client role can read that table. Tokens live only in GitHub secrets. |
 | 2026-11-04 | D23 | Scraped listings start Unverified and stay noindex until verified, given a description, or enriched with 3+ facts whose quotes match the provider's own site. Google ratings are shown with attribution and never marked up as aggregateRating. |
+| 2026-11-04 | D24 | Staylong runs a public MCP server at staylong.co/mcp so assistants can query rules and content directly. Every tool result carries the canonical page URL for citation. Registry name `io.github.timgrassin/staylong` until domain auth is set up. |
 | 2026-11-03 | D12 | All AI search and answer bots are allowed in robots.txt, including training bots. AI citation growth outranks blocking training. |
 
 ## Open
