@@ -27,7 +27,7 @@ importers:
         specifier: ^1.67.0
         version: 1.67.0(@types/react@19.3.0)(react@19.1.0)
       maplibre-gl:
-        specifier: '5'
+        specifier: ^5.24.0
         version: 5.24.0
       marked:
         specifier: '15'
