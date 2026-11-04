@@ -12,6 +12,8 @@ Verified long-stay Thailand directory at staylong.co. Next.js App Router, TypeSc
 - `src/lib/data.ts` read model (anon key, views from 0018). `src/lib/supabase/admin.ts` service role, server only.
 - `src/lib/checker/engine.ts` pure checker. Thresholds come from `rules`, never from code.
 - `src/lib/actions/` server actions: checker save (Q4), lead submit (consent, honeypot, rate limit).
+- `src/content/` editorial layer: `guides/*.ts` (Guide) render at `/guides/<slug>`, `visas/<track>.ts` (VisaContent) render inside `/visa-rules/<slug>`. Register new files in `src/content/index.ts`. Writing rules: see `docs/editorial-brief.md`; research in `docs/research/`.
+- Local design previews without Supabase: `STAYLONG_FIXTURES=1 pnpm dev` (FAKE providers, real seeded rules).
 - Design tokens in `src/app/globals.css` `:root`. Replace values with `yuu.css` when `/handoff` lands. Register new color tokens in `src/lib/cn.ts`.
 
 ## SEO and AI search
@@ -40,6 +42,8 @@ Every public page follows `docs/seo.md`. Use `pageMetadata()` for metadata, `gra
 | 2026-11-03 | D14 | Thin pages stay noindex: city pages until 3 verified providers, embassies until address and check date, filtered provider lists always. |
 | 2026-11-03 | D15 | English-only website. No Thai routes, copy, columns or consent texts (migration 0024). Database `locale` enums stay but only `en` is used. |
 | 2026-11-03 | D16 | Brand is Staylong. Domain staylong.co (bought 3 Nov 2026), www redirects to apex. `NEXT_PUBLIC_SITE_URL=https://staylong.co` in Vercel production turns on indexing. |
+| 2026-11-04 | D17 | Design system: Fraunces display + Inter body, ink/jade/saffron tokens. Placeholder until /handoff designs land. |
+| 2026-11-04 | D18 | Editorial content lives in typed TS modules in `src/content`, not the database. Facts that are thresholds stay in `rules`; prose may only reference them. Unverified facts are worded as "reported" and pages with conflicts carry `confidence: "low"`. |
 | 2026-11-03 | D12 | All AI search and answer bots are allowed in robots.txt, including training bots. AI citation growth outranks blocking training. |
 
 ## Open
