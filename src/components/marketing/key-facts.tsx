@@ -12,7 +12,7 @@ export function KeyFacts({ facts }: { facts: Fact[] }) {
             {f.icon ? <f.icon className="size-4 text-primary-2" aria-hidden /> : null}
             {f.label}
           </dt>
-          <dd className="font-display mt-2 text-2xl leading-tight text-ink sm:text-[1.7rem]">{f.value}</dd>
+          <dd className="font-display mt-2 text-2xl leading-tight text-ink hyphens-auto [overflow-wrap:anywhere] sm:text-[1.7rem]">{f.value}</dd>
           {f.note ? <dd className="mt-1 text-sm text-muted">{f.note}</dd> : null}
         </div>
       ))}

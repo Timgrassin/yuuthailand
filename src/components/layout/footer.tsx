@@ -20,7 +20,7 @@ export async function Footer() {
         <FooterCol title="Visas" links={TRACKS.map((tr) => ({ href: routes.rule(TRACK_INFO[tr].slug), label: TRACK_INFO[tr].short === "Education" ? "Education (ED)" : TRACK_INFO[tr].short }))} />
         <FooterCol title="Free tools" links={[{ href: routes.checker(), label: "Visa checker" }, ...TOOLS.map((x) => ({ href: routes.tool(x.slug), label: x.name.replace("Thailand ", "") }))]} />
         <FooterCol title="Learn" links={[{ href: routes.guides(), label: "Guides" }, { href: routes.faq(), label: "FAQ" }, { href: routes.countries(), label: "By nationality" }, { href: routes.ruleChanges(), label: "Rule change log" }, { href: routes.embassies(), label: "Thai embassies" }]} />
-        <FooterCol title="Directory" links={[{ href: routes.providers(), label: "All providers" }, { href: routes.city("bangkok"), label: "Bangkok" }, { href: routes.city("chiang-mai"), label: "Chiang Mai" }, { href: routes.city("phuket"), label: "Phuket" }, { href: routes.methodology(), label: "How we verify" }]} />
+        <FooterCol title="Directory" links={[{ href: routes.places(), label: "Where to live" }, { href: routes.offices(), label: "Immigration offices" }, { href: routes.providers(), label: "All providers" }, { href: routes.city("bangkok"), label: "Bangkok" }, { href: routes.city("chiang-mai"), label: "Chiang Mai" }, { href: routes.city("phuket"), label: "Phuket" }, { href: routes.methodology(), label: "How we verify" }]} />
       </Container>
       <Container className="border-t border-line py-6 text-xs leading-relaxed text-muted">
         <p>{t.disclaimer}</p>

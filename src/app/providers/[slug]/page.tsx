@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Fragment } from "react";
 import { LeadForm } from "@/components/blocks/lead-form";
 import { AnswerBlock } from "@/components/seo/answer-block";
 import { JsonLd } from "@/components/seo/json-ld";
@@ -8,7 +9,11 @@ import { Faq } from "@/components/ui/faq";
 import { Badge, Card, Container } from "@/components/ui/primitives";
 import { StatusBadge } from "@/components/ui/status-badge";
 import Link from "next/link";
-import { getAccreditations, getPrograms, getProvider, getProviderFaqs, getVerificationEvents } from "@/lib/data";
+import { Clock, ExternalLink, MapPin, Quote, Star } from "lucide-react";
+import { PoiMap } from "@/components/map/poi-map";
+import { KeyFacts } from "@/components/marketing/key-facts";
+import { getAccreditations, getPrograms, getProvider, getProviderFaqs, getProviders, getVerificationEvents } from "@/lib/data";
+import { IMMIGRATION_OFFICES, PLACES, POI_META, distanceKm, officePinNote, poisFor } from "@/lib/places";
 import { fmtDate, fmtNumber } from "@/lib/format";
 import { pageMetadata } from "@/lib/seo/metadata";
 import { routes } from "@/lib/seo/routes";
@@ -29,7 +34,8 @@ export async function generateMetadata({ params }: P): Promise<Metadata> {
     path: routes.provider(slug),
     title: `${name}, ${city}: visa support, programs and verification`,
     description: p.summary_en ?? `${name} in ${city}. Verification status, programs and prices.`,
-    noindex: p.status === "suspended",
+    // D14: scraped listings stay noindex until verified or enriched with at least 3 quoted facts.
+    noindex: p.status === "suspended" || (p.status !== "verified" && (p.facts?.length ?? 0) < 3 && !p.description_en),
     updatedAt: p.updated_at,
   });
 }
@@ -48,6 +54,36 @@ export default async function ProviderPage({ params }: P) {
     suspended: "Staylong has suspended this listing. Contact details are hidden.",
   };
   const statusText = statusLine[p.status] ?? statusLine.unverified;
+  const facts = p.facts ?? [];
+  const hours = p.opening_hours ?? [];
+  const here = p.lat != null && p.lng != null ? { lat: Number(p.lat), lng: Number(p.lng) } : null;
+  const office = here ? [...IMMIGRATION_OFFICES].sort((a, b) => distanceKm(here, a) - distanceKm(here, b))[0] : IMMIGRATION_OFFICES.find((o) => o.citySlug === p.city_slug);
+  const place = here ? [...PLACES].sort((a, b) => distanceKm(here, a) - distanceKm(here, b))[0] : undefined;
+  const nearPois = here && place ? poisFor(place.slug).filter((x) => distanceKm(here, x) < 3) : [];
+  const others = (await getProviders({ city: p.city_slug }).catch(() => [])).filter((x) => x.id !== p.id && x.status !== "suspended")
+    .map((x) => ({ x, d: here && x.lat != null && x.lng != null ? distanceKm(here, { lat: Number(x.lat), lng: Number(x.lng) }) : null }))
+    .sort((a, b) => (a.d ?? 1e9) - (b.d ?? 1e9)).slice(0, 6);
+  const supportsVisa = programs.some((g) => g.supports_visa);
+  const autoFaqs = [
+    ...(p.address_en ? [{ question: `Where is ${name}?`, answer: `${name} is at ${p.address_en}.` }] : []),
+    ...(p.google_rating != null ? [{ question: `What is ${name}'s Google rating?`, answer: `${p.google_rating} out of 5 from ${fmtNumber(p.google_reviews ?? 0)} Google reviews, as of ${fmtDate(p.data_checked_at ?? p.updated_at)}.` }] : []),
+    ...(hours.length ? [{ question: `What are ${name}'s opening hours?`, answer: hours.map((h) => `${h.day}: ${h.hours}`).join(". ") + "." }] : []),
+    { question: `Can ${name} support a visa?`, answer: supportsVisa ? `Yes. At least one program at ${name} is listed as visa-supporting. Confirm the school's licence before you pay.` : `Staylong has no visa-supporting program on file for ${name}. Ask the provider directly and check its licence.` },
+    ...(office ? [{ question: `Which immigration office is closest to ${name}?`, answer: `${office.name}${here ? `, about ${Math.round(distanceKm(here, office))} km away` : ""}. ${office.address}.` }] : []),
+  ];
+  const allFaqs = [...faqs.map((f) => ({ question: f.question, answer: f.answer })), ...autoFaqs];
+  const mapPoints = here ? [
+    { id: "this", name, lat: here.lat, lng: here.lng, cat: "this", sub: p.address_en ?? undefined },
+    ...(office ? [{ id: `imm-${office.slug}`, name: office.name, lat: office.lat, lng: office.lng, cat: "immigration", sub: officePinNote(office), href: routes.office(office.slug) }] : []),
+    ...others.filter((o) => o.x.lat != null && o.x.lng != null).map((o) => ({ id: o.x.id, name: o.x.name_en, lat: Number(o.x.lat), lng: Number(o.x.lng), cat: "provider", sub: o.x.provider_type.replace(/_/g, " "), href: routes.provider(o.x.slug) })),
+    ...nearPois.map((x) => ({ id: x.id, name: x.name, lat: x.lat, lng: x.lng, cat: x.cat, sub: x.street || undefined, href: x.website || undefined })),
+  ] : [];
+  const mapCats = [
+    { id: "this", label: name.length > 24 ? "This listing" : name, color: "#c08a06" },
+    { id: "immigration", label: "Immigration", color: POI_META.immigration.color },
+    { id: "provider", label: "Other providers", color: "#5f3dc4" },
+    ...(["bank", "hospital", "coworking", "gym", "supermarket"] as const).map((c) => ({ id: c, label: POI_META[c].plural, color: POI_META[c].color })),
+  ];
 
   return (
     <Container className="py-10">
@@ -63,7 +99,52 @@ export default async function ProviderPage({ params }: P) {
           <div className="mt-6">
             <AnswerBlock answer={`${statusText} ${p.summary_en ?? ""}`.trim()} checkedAt={p.last_checked_at ?? p.verified_at ?? undefined} />
           </div>
+          <div className="mt-8">
+            <KeyFacts facts={[
+              { label: "Google rating", value: p.google_rating != null ? `${p.google_rating} / 5` : "Not rated", note: p.google_reviews ? `${fmtNumber(p.google_reviews)} reviews` : undefined, icon: Star },
+              { label: "Type", value: p.provider_type.replace(/_/g, " ").replace(/^./, (c) => c.toUpperCase()), note: city },
+              { label: "Price from", value: p.price_from_thb != null ? `${fmtNumber(Number(p.price_from_thb))} THB` : programs.some((g) => g.price_thb != null) ? `${fmtNumber(Math.min(...programs.filter((g) => g.price_thb != null).map((g) => Number(g.price_thb))))} THB` : "Ask", note: "as published" },
+              { label: "Immigration", value: office ? office.city : city, note: office && here ? `${Math.round(distanceKm(here, office))} km to office` : "nearest office", icon: MapPin },
+            ]} />
+          </div>
           {p.description_en ? <div className="prose-yu mt-6 whitespace-pre-line">{p.description_en ?? ""}</div> : null}
+
+          {facts.length ? (
+            <section className="mt-10">
+              <h2 className="mb-2 text-2xl font-bold">Facts from {name}&apos;s website</h2>
+              <p className="mb-4 text-sm text-muted">Every fact below is quoted word for word from the provider&apos;s own site{p.data_checked_at ? `, checked ${fmtDate(p.data_checked_at)}` : ""}. Staylong has not verified them.</p>
+              <div className="divide-y divide-line overflow-hidden rounded-card border border-line bg-surface">
+                {facts.map((f) => (
+                  <div key={f.key} className="grid gap-2 px-5 py-4 sm:grid-cols-[11rem_1fr]">
+                    <p className="font-semibold">{f.label}</p>
+                    <div>
+                      <p className="text-ink">{f.value}</p>
+                      <p className="mt-1 flex gap-2 text-sm text-muted"><Quote className="mt-0.5 size-3.5 shrink-0" aria-hidden /><span>&ldquo;{f.quote}&rdquo; <a href={f.source_url} rel="noopener nofollow" target="_blank" className="underline">source</a></span></p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
+          ) : null}
+
+          {hours.length ? (
+            <section className="mt-10">
+              <h2 className="mb-4 flex items-center gap-2 text-2xl font-bold"><Clock className="size-6 text-primary-2" aria-hidden />Opening hours</h2>
+              <dl className="grid max-w-md grid-cols-[8rem_1fr] gap-y-1.5 text-sm">{hours.map((h) => <Fragment key={h.day}><dt className="font-semibold">{h.day}</dt><dd className="text-ink-2">{h.hours}</dd></Fragment>)}</dl>
+              <p className="mt-2 text-xs text-muted">From Google Maps{p.data_checked_at ? `, ${fmtDate(p.data_checked_at)}` : ""}. Holiday hours may differ.</p>
+            </section>
+          ) : null}
+
+          {mapPoints.length ? (
+            <section className="mt-10">
+              <h2 className="mb-4 text-2xl font-bold">Location and what is nearby</h2>
+              <PoiMap points={mapPoints} categories={mapCats} center={[here!.lng, here!.lat]} zoom={14} height={420} showList={false} />
+              <p className="mt-2 flex flex-wrap gap-x-4 text-sm">
+                {p.google_maps_url ? <a href={p.google_maps_url} rel="noopener nofollow" target="_blank" className="inline-flex items-center gap-1 font-semibold text-primary">Open in Google Maps <ExternalLink className="size-3.5" aria-hidden /></a> : null}
+                {place ? <Link href={routes.place(place.slug)} className="font-semibold text-primary underline">Living in {place.name}</Link> : null}
+              </p>
+            </section>
+          ) : null}
 
           {programs.length ? (
             <section className="mt-10">
@@ -115,7 +196,22 @@ export default async function ProviderPage({ params }: P) {
             </section>
           ) : null}
 
-          <Faq title={"Questions about this provider"} items={faqs.map((f) => ({ question: f.question, answer: f.answer }))} />
+          {others.length ? (
+            <section className="mt-10">
+              <h2 className="mb-4 text-2xl font-bold">Other providers in {city}</h2>
+              <ul className="grid gap-3 sm:grid-cols-2">{others.map(({ x, d }) => <li key={x.id}><Link href={routes.provider(x.slug)} className="block rounded-card border border-line bg-surface p-4 hover:border-primary/40"><span className="font-semibold">{x.name_en}</span><span className="block text-xs text-muted">{x.provider_type.replace(/_/g, " ")}{d != null ? ` · ${d < 1 ? "<1" : Math.round(d)} km away` : ""}</span></Link></li>)}</ul>
+            </section>
+          ) : null}
+
+          <Faq title={"Questions about this provider"} items={allFaqs} />
+
+          {p.status !== "verified" ? (
+            <Card className="mt-10">
+              <h2 className="text-xl font-bold">Is this your school?</h2>
+              <p className="mt-2 text-sm text-ink-2">Claim the listing to correct details, add programs and prices, and get verified. Verified providers receive student enquiries.</p>
+              <Link href={`${routes.methodology()}#claim`} className="mt-3 inline-block text-sm font-semibold text-primary underline">Claim or correct this listing</Link>
+            </Card>
+          ) : null}
         </div>
 
         <aside className="space-y-4 lg:sticky lg:top-20 lg:self-start">

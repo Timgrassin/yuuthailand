@@ -1,0 +1,42 @@
+name: Scrape schools
+# Google Maps listings for schools, Muay Thai camps and visa agents via Apify, then import.
+# Needs repository secrets: APIFY_TOKEN, STAYLONG_IMPORT_TOKEN, SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY.
+on:
+  workflow_dispatch:
+    inputs:
+      cities: { description: "Comma-separated city slugs (blank = all 10)", required: false, default: "" }
+      max: { description: "Max places per search", required: false, default: "25" }
+permissions:
+  contents: write
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+      STAYLONG_IMPORT_TOKEN: ${{ secrets.STAYLONG_IMPORT_TOKEN }}
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_PUBLISHABLE_KEY: ${{ secrets.SUPABASE_PUBLISHABLE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: pnpm }
+      - run: pnpm install --frozen-lockfile
+      - name: Scrape
+        env:
+          MAX: ${{ inputs.max }}
+          CITIES: ${{ inputs.cities }}
+        run: pnpm tsx scripts/apify/scrape-schools.ts --max "$MAX" ${CITIES:+--cities "$CITIES"}
+      - run: pnpm tsx scripts/apify/import-schools.ts
+      - run: pnpm tsx scripts/apify/fetch-sites.ts
+      - run: pnpm tsx scripts/apify/apply-facts.ts
+      - name: Commit listings and site text
+        run: |
+          git config user.name "staylong-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/schools
+          git diff --cached --quiet && exit 0
+          git commit -m "data: refresh school listings"
+          git pull --rebase origin main
+          git push origin HEAD:main

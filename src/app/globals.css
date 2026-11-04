@@ -102,3 +102,11 @@ h1 { font-weight: 600; }
 .prose-sl table { width: 100%; border-collapse: collapse; font-size: .95rem; }
 .prose-sl th, .prose-sl td { text-align: left; padding: .7rem .8rem; border-bottom: 1px solid var(--sl-line); vertical-align: top; }
 .prose-sl thead th { background: var(--sl-sunken); color: var(--sl-ink); font-family: var(--font-sans); font-weight: 600; }
+
+/* Map pins and popups */
+.sl-pin { width: 16px; height: 16px; border-radius: 99px; border: 2.5px solid #fff; box-shadow: 0 1px 4px rgb(0 0 0 / .35); cursor: pointer; padding: 0; }
+.sl-pin:hover { transform: scale(1.25); }
+.maplibregl-popup-content { border-radius: 12px !important; padding: 10px 12px !important; box-shadow: var(--sl-shadow-lg) !important; font-family: var(--font-sans); }
+.sl-pop { display: grid; gap: 2px; font-size: 13px; color: var(--sl-ink); }
+.sl-pop span { color: var(--sl-muted); }
+.sl-pop a { color: var(--sl-primary); font-weight: 600; margin-top: 4px; }

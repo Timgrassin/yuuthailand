@@ -6,6 +6,7 @@ import { TRACKS, TRACK_INFO } from "@/lib/tracks";
 import { GUIDES } from "@/content";
 import { COUNTRIES } from "@/content/countries";
 import { TOOLS } from "@/lib/tools";
+import { IMMIGRATION_OFFICES, PLACES } from "@/lib/places";
 
 export const revalidate = 3600;
 
@@ -35,6 +36,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     entry(routes.faq(), "2026-11-04", 0.8),
     entry(routes.countries(), undefined, 0.7),
     ...COUNTRIES.map((c) => entry(routes.country(c.slug), c.updated, 0.7)),
+    entry(routes.places(), "2026-11-04", 0.8),
+    ...PLACES.map((p) => entry(routes.place(p.slug), p.updated, 0.8)),
+    entry(routes.offices(), "2026-11-04", 0.7),
+    ...IMMIGRATION_OFFICES.map((o) => entry(routes.office(o.slug), o.updated, 0.7)),
     ...GUIDES.map((g) => entry(routes.guide(g.slug), g.updated, g.kind === "change" ? 0.9 : 0.8)),
   ];
 

@@ -144,3 +144,30 @@ export function webAppSchema(t: { path: string; name: string; description: strin
     publisher: { "@id": ORG_ID() },
   };
 }
+
+// Place pages: a destination with coordinates, contained in its city.
+export function placeSchema(p: { path: string; name: string; city: string; description: string; lat: number; lng: number }): Thing {
+  return {
+    "@type": "Place",
+    name: p.name,
+    description: p.description,
+    url: absoluteUrl(p.path),
+    geo: { "@type": "GeoCoordinates", latitude: p.lat, longitude: p.lng },
+    containedInPlace: { "@type": "City", name: p.city, containedInPlace: { "@type": "Country", name: "Thailand" } },
+  };
+}
+
+// Thai immigration offices.
+export function officeSchema(o: { path: string; name: string; city: string; address: string; lat: number; lng: number; phone?: string | null; website?: string | null; hours?: string | null; exactGeo: boolean }): Thing {
+  return {
+    "@type": "GovernmentOffice",
+    name: o.name,
+    url: absoluteUrl(o.path),
+    address: { "@type": "PostalAddress", streetAddress: o.address, addressLocality: o.city, addressCountry: "TH" },
+    geo: o.exactGeo ? { "@type": "GeoCoordinates", latitude: o.lat, longitude: o.lng } : undefined,
+    telephone: o.phone ?? undefined,
+    sameAs: o.website ? [o.website] : undefined,
+    openingHours: o.hours ?? undefined,
+    parentOrganization: { "@type": "GovernmentOrganization", name: "Immigration Bureau, Royal Thai Police", url: "https://www.immigration.go.th/en/" },
+  };
+}

@@ -11,7 +11,13 @@ export type Provider = {
   website: string | null; email: string | null; phone: string | null; line_id: string | null;
   address_en: string | null; lat: number | null; lng: number | null;
   founded_year: number | null; languages: string[]; logo_path: string | null; updated_at: string;
+  // Enrichment (migration 0028). Optional until 0028 is applied in production.
+  google_maps_url?: string | null; google_rating?: number | null; google_reviews?: number | null;
+  opening_hours?: { day: string; hours: string }[] | null; categories?: string[] | null;
+  facts?: ProviderFact[] | null; price_from_thb?: number | null; data_source?: string | null; data_checked_at?: string | null;
 };
+// A fact taken from the provider's own website. `quote` is an exact substring of `source_url` at fetch time.
+export type ProviderFact = { key: string; label: string; value: string; quote: string; source_url: string };
 export type Program = {
   id: string; provider_id: string; provider_slug: string; slug: string; track: string; name_en: string;
   summary_en: string | null; duration_months: number | null; hours_per_week: number | null;

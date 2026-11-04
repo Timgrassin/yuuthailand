@@ -1,0 +1,32 @@
+name: Refresh POIs
+# Fetches OpenStreetMap points of interest for every place page and commits src/content/data/pois.json.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 20 1 * *" # 03:17 Bangkok on the 2nd of each month
+  push:
+    branches: [main]
+    paths: ["scripts/osm/**", "src/content/places.ts"]
+permissions:
+  contents: write
+concurrency: { group: pois, cancel-in-progress: true }
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: pnpm }
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm tsx scripts/osm/fetch-pois.ts
+      - name: Commit if changed
+        run: |
+          git config user.name "staylong-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/content/data/pois.json
+          git diff --cached --quiet && exit 0
+          git commit -m "data: refresh OpenStreetMap POIs"
+          git pull --rebase origin main
+          git push origin HEAD:main

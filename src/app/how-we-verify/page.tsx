@@ -1,3 +1,4 @@
+import { EmailCapture } from "@/components/blocks/email-capture";
 import type { Metadata } from "next";
 import { PageHero } from "@/components/marketing/page-hero";
 import { AnswerBlock } from "@/components/seo/answer-block";
@@ -36,7 +37,12 @@ export default async function MethodPage() {
         <ol>{STEPS.map((s) => <li key={s}>{s}</li>)}</ol>
         <h2>{"How visa rules are kept current"}</h2>
         <p>{"Every rule has a value, an effective date and a link to the official source, such as the Ministry of Foreign Affairs, the Immigration Bureau or the Board of Investment. Every change is logged publicly with its date."}</p>
+        <h2>{"Where unverified listings come from"}</h2>
+        <p>{"Unverified listings start from public data: Google Maps details such as address, hours and rating, and facts quoted word for word from the provider's own website. A script drops any fact whose quote it cannot find on the page. These listings are marked Unverified until we run the checks above."}</p>
+        <h2 id="claim" className="scroll-mt-24">{"Claim or correct a listing"}</h2>
+        <p>{"If you run a school, camp or agency listed here, leave your work email below. We reply with the documents we need to verify the listing and correct its details."}</p>
       </div>
+      <div className="mt-8"><EmailCapture title="Claim your listing" body="Use an email at your school's domain if you have one." leadMagnet="provider_claim" button="Start my claim" /></div>
     </Container>
     </>
   );

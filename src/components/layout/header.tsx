@@ -55,6 +55,7 @@ export async function Header() {
           <Dropdown label="Visas" items={visas} footer={{ href: routes.rules(), label: "Compare all eight visas" }} />
           <Dropdown label="Free tools" items={tools} footer={{ href: routes.tools(), label: "All tools" }} />
           <Dropdown label="Learn" items={learn} />
+          <Dropdown label="Places" items={[{ href: routes.places(), label: "Where to live", sub: "28 places with maps" }, { href: routes.place("chiang-mai-nimman"), label: "Chiang Mai: Nimman", sub: "Cafes, coworking, schools" }, { href: routes.place("bangkok-sukhumvit"), label: "Bangkok: Sukhumvit", sub: "BTS, malls, hospitals" }, { href: routes.place("phuket-rawai-nai-harn"), label: "Phuket: Rawai", sub: "Beaches and Muay Thai" }, { href: routes.offices(), label: "Immigration offices", sub: "Hours, address, tips" }]} footer={{ href: routes.places(), label: "See every place on the map" }} />
           <Link href={routes.providers()} className="transition-colors hover:text-ink">Schools &amp; providers</Link>
         </nav>
         <div className="flex items-center gap-2">
@@ -63,7 +64,7 @@ export async function Header() {
             <summary className="flex size-10 cursor-pointer list-none items-center justify-center rounded-full border border-line-strong bg-surface" aria-label={t.menu}><Menu className="size-5" aria-hidden /></summary>
             <nav aria-label="Mobile" className="absolute right-0 mt-2 flex max-h-[75vh] w-72 flex-col overflow-y-auto rounded-card border border-line bg-surface p-2 shadow-lift">
               <Link href={routes.checker()} className="rounded-sm px-4 py-3 font-semibold text-primary hover:bg-primary-soft">Check my visa</Link>
-              {[{ href: routes.rules(), label: "Visas" }, { href: routes.tools(), label: "Free tools" }, { href: routes.guides(), label: "Guides" }, { href: routes.faq(), label: "FAQ" }, { href: routes.countries(), label: "By nationality" }, { href: routes.providers(), label: "Schools & providers" }, { href: routes.ruleChanges(), label: "Rule changes" }, { href: routes.methodology(), label: "How we verify" }].map((i) => <Link key={i.href} href={i.href} className="rounded-sm px-4 py-3 hover:bg-sunken">{i.label}</Link>)}
+              {[{ href: routes.rules(), label: "Visas" }, { href: routes.tools(), label: "Free tools" }, { href: routes.guides(), label: "Guides" }, { href: routes.faq(), label: "FAQ" }, { href: routes.countries(), label: "By nationality" }, { href: routes.places(), label: "Where to live" }, { href: routes.offices(), label: "Immigration offices" }, { href: routes.providers(), label: "Schools & providers" }, { href: routes.ruleChanges(), label: "Rule changes" }, { href: routes.methodology(), label: "How we verify" }].map((i) => <Link key={i.href} href={i.href} className="rounded-sm px-4 py-3 hover:bg-sunken">{i.label}</Link>)}
             </nav>
           </details>
         </div>

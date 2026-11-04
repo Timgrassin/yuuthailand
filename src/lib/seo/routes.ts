@@ -20,6 +20,10 @@ export const routes = {
   country: (slug: string) => `/visas-for/${slug}`,
   countries: () => "/visas-for",
   methodology: () => "/how-we-verify",
+  places: () => "/places",
+  place: (slug: string) => `/places/${slug}`,
+  offices: () => "/immigration-offices",
+  office: (slug: string) => `/immigration-offices/${slug}`,
 } as const;
 
 // Never indexed: private, personal or internal surfaces.

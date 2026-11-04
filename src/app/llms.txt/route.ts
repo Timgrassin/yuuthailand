@@ -5,6 +5,7 @@ import { TRACKS, TRACK_INFO } from "@/lib/tracks";
 import { GUIDES } from "@/content";
 import { COUNTRIES } from "@/content/countries";
 import { TOOLS } from "@/lib/tools";
+import { IMMIGRATION_OFFICES, PLACES } from "@/lib/places";
 
 export const revalidate = 3600;
 
@@ -41,6 +42,13 @@ export async function GET() {
     "",
     "## By nationality",
     ...COUNTRIES.map((c) => `- [Thailand long-stay visas for ${c.demonym}s](${absoluteUrl(routes.country(c.slug))})`),
+    "",
+    "## Where to live",
+    `- [All long-stay places](${absoluteUrl(routes.places())}): neighbourhoods, towns and islands with immigration offices, banks and hospitals mapped.`,
+    ...PLACES.map((p) => `- [${p.name}, ${p.city}](${absoluteUrl(routes.place(p.slug))}): ${p.tagline}`),
+    "",
+    "## Immigration offices",
+    ...IMMIGRATION_OFFICES.map((o) => `- [${o.name}](${absoluteUrl(routes.office(o.slug))}): ${o.address}${o.hours ? `. ${o.hours}` : ""}`),
     "",
     "## Guides and comparisons",
     ...GUIDES.map((g) => `- [${g.title}](${absoluteUrl(routes.guide(g.slug))}): ${g.answer}`),
