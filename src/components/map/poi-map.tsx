@@ -83,8 +83,8 @@ export function PoiMap({ points, categories, center, zoom, height = 520, initial
           );
         })}
       </div>
-      <div className={showList ? "grid lg:grid-cols-[1fr_20rem]" : ""}>
-        <div ref={el} style={{ height }} className="w-full bg-sunken" />
+      <div className={showList ? "grid min-w-0 lg:grid-cols-[minmax(0,1fr)_20rem]" : "min-w-0"}>
+        <div ref={el} style={{ height }} className="relative w-full min-w-0 overflow-hidden bg-sunken" />
         {showList ? (
           <ul className="max-h-[520px] divide-y divide-line overflow-y-auto border-t border-line text-sm lg:border-l lg:border-t-0" style={{ maxHeight: height }}>
             {visible.slice(0, 300).map((p) => (

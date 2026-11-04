@@ -112,7 +112,7 @@ export default async function PlacePage({ params }: P) {
               <h2 className="mb-5 text-3xl">Banks, hospitals and services nearby</h2>
               <div className="grid gap-4 sm:grid-cols-2">
                 {POI_ORDER.filter((c) => count(c)).map((c) => (
-                  <Card key={c} className="p-5">
+                  <Card key={c} className="min-w-0 p-5">
                     <h3 className="mb-3 flex items-center gap-2 font-sans text-base font-semibold"><span className="size-2.5 rounded-full" style={{ background: POI_META[c].color }} aria-hidden />{POI_META[c].plural} <span className="text-sm font-normal text-muted">{count(c)}</span></h3>
                     <ul className="space-y-1.5 text-sm text-ink-2">
                       {pois.filter((x) => x.cat === c).slice(0, 8).map((x) => <li key={x.id} className="truncate">{x.website ? <a href={x.website} rel="noopener nofollow" target="_blank" className="hover:text-primary hover:underline">{x.name}</a> : x.name}{x.street ? <span className="text-muted"> · {x.street}</span> : null}</li>)}

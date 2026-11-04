@@ -7,7 +7,7 @@ import type { MapCategory, MapPoint } from "@/components/map/poi-map";
 
 export type PoiCat = "bank" | "hospital" | "coworking" | "gym" | "muay_thai" | "language_school" | "international_school" | "supermarket";
 type Row = [PoiCat, string, number, number, string, string, string];
-const DATA = poisData as { source: string; license: string; fetchedAt: string | null; places: Record<string, Row[]> };
+const DATA = poisData as unknown as { source: string; license: string; fetchedAt: string | null; places: Record<string, Row[]> };
 
 export const POI_META: Record<PoiCat | "immigration" | "place", { label: string; plural: string; color: string }> = {
   immigration: { label: "Immigration office", plural: "Immigration", color: "#b4232c" },

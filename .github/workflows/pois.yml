@@ -21,6 +21,7 @@ jobs:
         with: { node-version: 22, cache: pnpm }
       - run: pnpm install --frozen-lockfile
       - run: pnpm tsx scripts/osm/fetch-pois.ts
+      - run: pnpm typecheck
       - name: Commit if changed
         run: |
           git config user.name "staylong-bot"
