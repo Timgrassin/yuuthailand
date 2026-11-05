@@ -1,0 +1,20 @@
+-- One-off cleanup of scraped listings (5 Nov 2026): English-only names, no doubled city in slugs, remove non-providers. Touches Unverified rows only.
+update public.providers set name_en = 'Duke Language School', slug = 'duke-language-school-bangkok' where google_place_id = 'ChIJfyHKn-ae4jAR0EoWmoIX0XU' and status = 'unverified';
+update public.providers set name_en = 'Thai Solutions', slug = 'thai-solutions-bangkok' where google_place_id = 'ChIJgWFPseKe4jARHedXDUZS-0k' and status = 'unverified';
+update public.providers set name_en = 'International House Bangkok', slug = 'international-house-bangkok' where google_place_id = 'ChIJmfFlcSyf4jAR1Cq4Qp1SwHM' and status = 'unverified';
+update public.providers set name_en = 'Pro Language School Bangkok', slug = 'pro-language-school-bangkok' where google_place_id = 'ChIJR8LGwuOe4jAR9QNWwu8_PGY' and status = 'unverified';
+update public.providers set name_en = 'BananaThai', slug = 'bananathai-bangkok' where google_place_id = 'ChIJ2WzIXdWf4jARZRk9eeecCRM' and status = 'unverified';
+update public.providers set name_en = 'Yokkao Training Center Bangkok & Store', slug = 'yokkao-training-center-bangkok-store' where google_place_id = 'ChIJY3QAYhyf4jARQlQC-j46aTI' and status = 'unverified';
+update public.providers set name_en = 'Khongsittha Muay Thai', slug = 'khongsittha-muay-thai-bangkok' where google_place_id = 'ChIJL0YWsoKd4jARLpst8aK8XJQ' and status = 'unverified';
+update public.providers set name_en = 'Rachanon Boxing Muay Thai Training Camp', slug = 'rachanon-boxing-muay-thai-training-camp-bangkok' where google_place_id = 'ChIJ_zOQCWJ9HTERdVfzjRkz6Ls' and status = 'unverified';
+update public.providers set name_en = 'The Box Thailand Boxing Academy & Training Camp, Bangkok', slug = 'the-box-thailand-boxing-academy-training-camp-bangkok' where google_place_id = 'ChIJNUdVL72f4jARbK1IV5EOfkI' and status = 'unverified';
+update public.providers set name_en = 'LKT Muay Thai Gym', slug = 'lkt-muay-thai-gym-bangkok' where google_place_id = 'ChIJbQPhqjme4jARVYLEQINYGaQ' and status = 'unverified';
+update public.providers set name_en = 'Sor. Vorapin Muay Thai Training Gym 2', slug = 'sor-vorapin-muay-thai-training-gym-2-bangkok' where google_place_id = 'ChIJ126lVRqa4jARF2qtPXJJz-g' and status = 'unverified';
+delete from public.providers where google_place_id = 'ChIJEyraT0CZ4jAREz5xKJKTLDM' and status = 'unverified';
+update public.providers set name_en = 'Massive Thai Bangkok Visa Services', slug = 'massive-thai-bangkok-visa-services' where google_place_id = 'ChIJHWGJSACf4jARyVoKQcIaWrI' and status = 'unverified';
+update public.providers set name_en = 'Bangkok Buddy', slug = 'bangkok-buddy' where google_place_id = 'ChIJL9oV4-Oe4jARW0Rr_kd9Uqw' and status = 'unverified';
+update public.providers set name_en = 'Pro Visa Bangkok', slug = 'pro-visa-bangkok' where google_place_id = 'ChIJ25s8oiVhHTER61pr-vFwheg' and status = 'unverified';
+update public.providers set name_en = 'Siam Thai Visa, Bangkok', slug = 'siam-thai-visa-bangkok' where google_place_id = 'ChIJAUAiRoaf4jARJxd35ATQfEw' and status = 'unverified';delete from public.providers where google_place_id = 'ChIJj9EyXnqdIzERwe7XYsa8iwM' and status = 'unverified';
+delete from public.providers where google_place_id = 'ChIJj2vFk8UH1zARwVo1IfunuYM' and status = 'unverified';
+delete from public.providers where google_place_id = 'ChIJ7XVX62cG1zARcWeYD6MYfxY' and status = 'unverified';
+delete from public.providers where google_place_id = 'ChIJTYw_SbkxUDARKC6XvLH2lJo' and status = 'unverified';

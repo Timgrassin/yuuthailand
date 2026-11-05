@@ -24,7 +24,7 @@ const KEEP: Record<string, RegExp> = {
 };
 
 // Not a provider even when Google matches the search (stadiums, shops, hotels, government offices).
-const DROP = /stadium|arena|store|shop|hotel|hostel|resort|restaurant|embassy|immigration office|consulate/i;
+const DROP = /stadium|arena|store|shop|hotel|hostel|resort|restaurant|embassy|consulate|police|travel agency|tour operator|tour agency/i;
 
 async function main() {
   const token = env("APIFY_TOKEN");
@@ -52,7 +52,7 @@ async function main() {
     if (!city || !search) continue;
     const cats = [it.categoryName, ...(it.categories ?? [])].filter(Boolean).join(" ");
     if (!KEEP[search.type].test(`${cats} ${it.title}`)) continue;
-    if (DROP.test(it.categoryName ?? "") || /stadium/i.test(it.title)) continue;
+    if (DROP.test(it.categoryName ?? "") || /stadium|\bimmigration\b/i.test(it.title)) continue;
     const name = cleanName(it.title);
     if (name.length < 3 || !/[A-Za-z]/.test(name)) continue;
     if (seen.has(it.placeId)) continue;
