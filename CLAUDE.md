@@ -53,7 +53,7 @@ Every public page follows `docs/seo.md`. Use `pageMetadata()` for metadata, `gra
 | 2026-11-04 | D21 | Place pages and immigration office pages are editorial TS modules. POIs are OpenStreetMap data (ODbL, attributed), fetched by a GitHub Action, never edited by hand. Office pins are approximate unless the coordinates came from a listing. |
 | 2026-11-04 | D22 | Bulk imports (`import_providers`, `import_provider_facts`, `import_pois`) need a token whose SHA-256 is in `import_keys` (migration 0030). No client role can read that table. Tokens live only in GitHub secrets. |
 | 2026-11-04 | D23 | Scraped listings start Unverified and stay noindex until verified, given a description, or enriched with 3+ facts whose quotes match the provider's own site. Google ratings are shown with attribution and never marked up as aggregateRating. |
-| 2026-11-04 | D24 | Staylong runs a public MCP server at staylong.co/mcp so assistants can query rules and content directly. Every tool result carries the canonical page URL for citation. Registry name `io.github.timgrassin/staylong` until domain auth is set up. |
+| 2026-11-04 | D24 | Staylong runs a public MCP server at staylong.co/mcp so assistants can query rules and content directly. Every tool result carries the canonical page URL for citation. Registry name `io.github.Timgrassin/staylong` until domain auth is set up. |
 | 2026-11-03 | D12 | All AI search and answer bots are allowed in robots.txt, including training bots. AI citation growth outranks blocking training. |
 
 ## Open

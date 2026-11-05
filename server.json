@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.timgrassin/staylong",
+  "name": "io.github.Timgrassin/staylong",
   "title": "Staylong: Thailand long-stay visas",
   "description": "Thai visa rules, eligibility checks, 90-day reports, immigration offices and places to live.",
   "version": "1.0.0",
