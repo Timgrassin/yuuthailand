@@ -55,3 +55,11 @@ export function cleanName(raw: string) {
     .replace(/^[^A-Za-z0-9]+/, "")
     .trim();
 }
+
+// Quote matching shared by check-facts (local, no secrets) and apply-facts (pushes to the database).
+export const normQuote = (s: string) => s.replace(/\s+/g, " ").replace(/[‘’]/g, "'").replace(/[“”]/g, '"').trim().toLowerCase();
+export type ExtractedFact = { key: string; label: string; value: string; quote: string };
+export function verifiedFacts(facts: ExtractedFact[], siteText: string) {
+  const body = normQuote(siteText);
+  return facts.filter((x) => x.quote && x.quote.length >= 8 && body.includes(normQuote(x.quote)));
+}
