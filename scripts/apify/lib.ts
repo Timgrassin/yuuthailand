@@ -43,3 +43,15 @@ export const SEARCHES: { q: string; type: "language_school" | "muay_thai_camp" |
 export function slugify(s: string) {
   return s.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 80);
 }
+
+// English-only site (D15): drop Thai script and SEO tails such as "| Thai Language School Bangkok".
+export function cleanName(raw: string) {
+  return raw
+    .replace(/\([^)]*[\u0E00-\u0E7F][^)]*\)/g, "")
+    .replace(/[\u0E00-\u0E7F]+/g, "")
+    .split(/\s+[|\u2013\u2014]\s+/)[0]
+    .replace(/\s+[&-]\s*$/, "")
+    .replace(/\s{2,}/g, " ")
+    .replace(/^[^A-Za-z0-9]+/, "")
+    .trim();
+}

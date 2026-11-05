@@ -3,7 +3,7 @@
 // and write data/schools/listings.json. Needs APIFY_TOKEN.
 // Usage: pnpm tsx scripts/apify/scrape-schools.ts [--cities bangkok,phuket] [--max 25]
 import { mkdirSync, writeFileSync } from "node:fs";
-import { CITIES, SEARCHES, env, slugify } from "./lib";
+import { CITIES, SEARCHES, cleanName, env, slugify } from "./lib";
 
 type ApifyPlace = {
   placeId?: string; title?: string; categoryName?: string; categories?: string[]; address?: string; website?: string;
@@ -22,6 +22,9 @@ const KEEP: Record<string, RegExp> = {
   muay_thai_camp: /muay|boxing|martial|kickbox|gym|fitness|sports/i,
   visa_agent: /visa|immigration|consult|legal|law|service|agency/i,
 };
+
+// Not a provider even when Google matches the search (stadiums, shops, hotels, government offices).
+const DROP = /stadium|arena|store|shop|hotel|hostel|resort|restaurant|embassy|immigration office|consulate/i;
 
 async function main() {
   const token = env("APIFY_TOKEN");
@@ -49,9 +52,13 @@ async function main() {
     if (!city || !search) continue;
     const cats = [it.categoryName, ...(it.categories ?? [])].filter(Boolean).join(" ");
     if (!KEEP[search.type].test(`${cats} ${it.title}`)) continue;
+    if (DROP.test(it.categoryName ?? "") || /stadium/i.test(it.title)) continue;
+    const name = cleanName(it.title);
+    if (name.length < 3 || !/[A-Za-z]/.test(name)) continue;
     if (seen.has(it.placeId)) continue;
+    const base = slugify(name);
     seen.set(it.placeId, {
-      google_place_id: it.placeId, name: it.title, slug: slugify(`${it.title} ${city.query}`), city_slug: city.slug, provider_type: search.type,
+      google_place_id: it.placeId, name, slug: base.includes(slugify(city.query)) ? base : `${base}-${slugify(city.query)}`, city_slug: city.slug, provider_type: search.type,
       address: it.address ?? "", website: it.website ?? "", phone: it.phone ?? "",
       lat: it.location?.lat ?? "", lng: it.location?.lng ?? "", google_rating: it.totalScore ?? "", google_reviews: it.reviewsCount ?? "",
       google_maps_url: it.url ?? "", opening_hours: it.openingHours?.length ? it.openingHours : null,
