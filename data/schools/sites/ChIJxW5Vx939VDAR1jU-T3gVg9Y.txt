@@ -1,0 +1,130 @@
+URL: https://chayseemuaythai.com/
+
+Chaysee Muay Thai Gym | Next-Gen Combat Studio 
+ CHAYSEE MUAY THAI 
+ 📍 Thong Sala, Koh Phangan 
+ ⚡ Overview 
+ 🥊 Packages & Rates 
+ 🖼️ Gallery 
+ Schedule 
+ 📍 Contact 
+ AUTHENTIC • FAMILY LEGACY • PERFORMANCE 
+ Real Muay Thai.
+ Passed Down for Generations. 
+ Welcome to Chaysee Muay Thai , an intimate, traditional gym owned by Kru Reeb — born into the legendary Jomhod fighting family . Reeb is renowned for his relentless Muay Khao style.
+ Why Train With Us?
+ Training Packages & Rates
+ Select any package below to instantly book your spot. Transparent pricing, no hidden fees.
+ Training Media & Gallery
+ Take a look inside our gym facilities, coaching sessions, and ring action.
+ Class & Training Schedule
+ Plan your workouts ahead. Daily group sessions and private coaching available.
+ Connect & Visit Us
+ Have questions about training or finding our gym? Get in touch with us directly below.
+ Quick Actions
+ 💬 Chat on WhatsApp 
+ 📍 Google Maps Location 
+ 📞 Phone: 093-775-0494 
+ &copy; 2026 Chaysee Muay Thai Gym. Next-Gen Martial Arts. 
+ Console Access 
+ × 
+ ‹ 
+ › 
+ Book Package
+ Your Name 
+ Email Address 
+ Payment Method 
+ Target Start Date 
+ mm/dd/yyyy 
+ Confirm & Proceed 
+ Cancel 
+ Booking Confirmed!
+ Scan QR code to complete payment:
+ Bank Transfer Instructions: 
+ To finalize booking via card payment, follow your gateway link below (Stripe / Omise / 2C2P / PayPal):
+ Open Card Payment Gateway 
+ 📥 Save / Print Receipt 
+ Got it, Done! 
+ Admin Login
+ Security Code 
+ Open Admin Console 
+ Cancel 
+ 🏋️‍♂️ Admin Console
+ 🇬🇧 English 
+ 🇹🇭 ไทย (Thai) 
+ Logout 
+ 🎨 Brand & Navigation Button Labels
+ Gym Logo 
+ 📁 Choose Logo File 
+ Address Tag 
+ Badge Text 
+ Headline 
+ Story 
+ Navigation Tab Button Texts
+ Overview Tab Text 
+ Packages Tab Text 
+ Gallery Tab Text 
+ Schedule Tab Text 
+ Contact Tab Text 
+ ✅ Features
+ ➕ Add Feature 
+ 💰 Packages, Bank & Payment Settings
+ Packages Management
+ ➕ Add Package 
+ Accepted Payment Methods
+ Bank Info Details & Gateway Configuration
+ Bank Transfer Details & Instructions 
+ Card Payment Gateway Link (Stripe / Omise / 2C2P / PayPal) 
+ PromptPay QR Image 
+ 📁 Choose PromptPay File 
+ 🖼️ Gallery & Unlimited Photo Management
+ Add unlimited albums and unlimited photo uploads per album.
+ Gallery Section Heading 
+ Gallery Section Description 
+ ➕ Add New Album 
+ 📞 Contacts
+ Contact Section Heading 
+ Contact Section Description 
+ Quick Actions Heading 
+ WhatsApp Link 
+ Google Map URL 
+ Phone Number 
+ WhatsApp Button Text 
+ Google Maps Button Text 
+ Phone Button Text 
+ 📅 Schedule
+ Schedule Section Heading 
+ Schedule Section Description 
+ ➕ Add Schedule 
+ 🌐 Social Links
+ ➕ Add Social 
+ 🎨 Theme & Color Customizer
+ Customize all colors of your website. Check the live preview below to see changes in real time before publishing.
+ Background Canvas Color 
+ Primary Accent / Button Color 
+ Secondary Button Color 
+ Text Color 
+ Header Nav Glass Background 
+ Glass Card Background Color 
+ 👁️ Full Website Live Preview
+ Real-time preview of your layout, cards, headings, and interactive elements.
+ Primary Action 
+ Secondary Action 
+ Sample Package / Card View
+ This box demonstrates how text and card backgrounds look together in real-time.
+ 📧 EmailJS Booking Alerts Engine
+ Configure owner/customer notification modes for booking alerts.
+ Notification Recipient Mode 
+ Owner only 
+ Customer only 
+ Owner and customer 
+ Owner Email Address 
+ EmailJS Public Key 
+ EmailJS Service ID 
+ EmailJS Template ID 
+ 🔒 Security Settings
+ Current Password 
+ New Password 
+ Update Security Code 
+ 🚀 Save & Publish Live 
+ ↺ Reset & Reload Defaults

@@ -1,0 +1,882 @@
+URL: https://unionspace.co.th/thailand/
+
+was placed BEFORE — moved inside 
+ 2. aggregateRating.worstRating was "4" — corrected to "1" (broken schema,
+ any validator would flag this; a 5/4 scale is non-standard and
+ suppresses rich-result eligibility)
+ 3. data-aos-duration used WITHOUT data-aos on several elements — added
+ data-aos="fade-up" to all orphaned duration attributes
+ 4. Multiple tags with alt="" (empty) on meaningful images — fixed
+ 5. Hero background had no alt, no fetchpriority, no explicit
+ width/height — fixed (causes LCP penalty)
+ SEO IMPROVEMENTS
+ 6. was 180+ chars — trimmed to ≤70 chars (primary keyword first)
+ 7. Added and dns-prefetch for all third-party
+ origins (Google reCAPTCHA, Maps, Fonts) — reduces TTFB
+ 8. Added for LCP hero image
+ 9. Added width/height on key images to eliminate CLS
+ 10. Added twitter:site meta tag
+ 11. Added for mobile browser chrome
+ 12. Added to prevent iOS auto-linking
+ 13. Added geo meta tags (ICBM, geo.region, geo.placename) for local SEO
+ 14. Added / apple equivalents
+ 15. og:image updated to a proper 1200×630 promotional image URL
+ (replace placeholder below with real image)
+ 16. Added hreflang self-referencing (extend for zh/ru/th variants later)
+ AISEO IMPROVEMENTS
+ 17. Added 
+ (was outside before, critical fix)
+ ═══════════════════════════════════════════════════════════ -->
+ Company Incorporation Thailand | Visa, Accounting & Offices – UnionSPACE 
+ WhatsApp 
+ @usth 
+ WeChat 
+ (+66) 02 036 0600 
+ ดูหน้าเว็บในภาษาไทย 
+ 中文网站 
+ UnionSPACE 
+ Services & Fees 
+ Office & Facilities Rental 
+ Virtual Office 
+ DBD Compliant Office 
+ Serviced Office 
+ Offset your Gov't Compliant Office Rental 
+ Mini Warehouse + Office 
+ Unfurnished Office Rental 
+ Live Streaming Studio Rental 
+ Podcast Studio Rental 
+ Meeting Room Rental 
+ Event Space Rental 
+ MailBox Service (Bangkok, Chiang Mai, Pattaya, Hat Yai) 
+ Thai Company Set Up 
+ Thai Limited Company 
+ Shelf Company / Pre-Registered Company 
+ Sole Proprietorship 
+ Partnership 
+ Foreign-Owned Company Setup 
+ Manufacturing-Only Company 
+ Export-Only Company 
+ Export-Only Company (Free Zone) 
+ Branch Office 
+ Representative Office 
+ US–Thailand Treaty of Amity Company 
+ BOI-Promoted Company 
+ Management Company (FBL Exempted) 
+ Financial Services 
+ Monthly Accounting & Tax Filings 
+ Accounting Service for BOI / Branch Office 
+ Payroll Service 
+ Tax Filing Only 
+ Hire your Dedicated Accountant 
+ Audit & Year-End Closing 
+ Company Compliance Health Check - THB2,500 only 
+ Corporate Services 
+ Appoint New Director 
+ Change Business Address 
+ Apply for VAT Registration 
+ Residence Certificate Application 
+ New TIN Registration (Personal) 
+ Change Company Objective 
+ Change Company Objective 
+ Register Branch Office 
+ Increase Registered Capital 
+ Transfer Shareholder 
+ Appoint new Auditor 
+ Close Bank Account 
+ Thailand Licenses & Permits 
+ Factory License (Ror Ngor 4) 
+ Digital Assets License 
+ E-Payment Service License 
+ Hazardous Substances License 
+ Hotel License 
+ FDA Certification 
+ Entertainment License 
+ Alcohol License 
+ Food & Beverages License 
+ NBTC Permit 
+ Recruitment Agency License 
+ Spa & Massage License 
+ TISI Application 
+ Inbound / Outbound Tour License 
+ Go-To-Market Service 
+ Thai Company Compliance Health Check 
+ Market Entry Service for Food & Cosmetics 
+ OEM Manufacturing Service 
+ Int'l Market Entry Service 
+ Start a Thai company with 100% American ownership 
+ Malaysia to Thailand Business Expansion 
+ Complete Factory Licenses Solution 
+ People Solutions 
+ Hire Thai in Thailand Without a Thai Company 
+ EOR + Visa Package - For hiring foreigner in Thailand 
+ Cross-Border EOR and Payroll Service 
+ Factory Manpower Placement 
+ Recruitment & Head Hunting 
+ Payroll Management 
+ Talent & People Management 
+ HR Advisory & Mediation 
+ Corporate Personnel Support 
+ Visas & Work Permits 
+ Non-B Visa & Work Permit 
+ Non-O / Marriage Visa 
+ LTR Visa by BOI 
+ Retirement Visa 
+ Thai Permanent Residency 
+ Thailand Long-Term Visa (Golden/Elite Visa) 
+ Thai Residency Visa through Investment 
+ Import & Export Support 
+ Customs Clearance 
+ Import to Thailand Without a Thai Company 
+ Importer of Record (IOR) 
+ Marketing & Branding 
+ Product Localization 
+ KOL Sourcing & Management 
+ Billboards 
+ BTS Showroom 
+ Tuk Tuk & Vehicles Ads 
+ Packaging Design & Sourcing 
+ Other Services 
+ Certified Translation Services 
+ Debt Recovery Support 
+ Company Address Change 
+ VAT Registration 
+ Social Security Registration 
+ Company Dissolution (Thailand) 
+ Corporate Background Checks 
+ OEM Factory Sourcing (Thailand & China) 
+ Join the UnionSPACE Franchise Programme 
+ Trademark Registration 
+ Obtain Thailand Tax Resident Certificate 
+ Record Vault / Document Storage 
+ Order Official Company Documents (BOJ5, Affidavit and more) 
+ Complete E-Commerce Shop Setup Service 
+ Transfer Property as a Gift 
+ Research Papers (pdf) 
+ Profit Repatriation Strategies - China 
+ Profit Repatriation Strategies - Indonesia 
+ Profit Repatriation Strategies - Russia 
+ Profit Repatriation Strategies - Germany 
+ Profit Repatriation Strategies - Malaysia 
+ Profit Repatriation Strategies - Japan 
+ Profit Repatriation Strategies - South Korea 
+ Profit Repatriation Strategies - Vietnam 
+ Profit Repatriation Strategies - Netherlands 
+ Office & Facilities Rental 
+ Company Incorporation 
+ Go-To-Market Service 
+ License & Permits 
+ Accounting & Audit 
+ Import & Export Support 
+ Visas & Other Services 
+ Corporate Services 
+ People Solutions 
+ Marketing & Localization Service 
+ Go-To-Market Service 
+ Research Papers (pdf) 
+ Registered Office & Serviced Office
+ Virtual Office 
+ Prestigious Thailand Address for your Business 
+ DBD Compliant Office 
+ Meets the minimum requirement for Company Incorporation in Thailand 
+ Serviced Office 
+ 24/7 Access. Fits 3 to 8 people. Can be used for VAT / SSO / Visa applications 
+ The Better Office 
+ Offset your Gov't Compliant Office Rental 
+ Mini Warehouse + Office 
+ Great for Ecommerce Business. Store > Pack > Ship 
+ Other Facilities Rental
+ Meeting Rooms 
+ Available across Ekkamai, Thong Lo, Silom, Sathorn, Phrom Phong, Khao San, Sai Mai, Chiang Mai, Pattaya, and Hat Yai. 
+ Event Space 
+ Available across Ekkamai, Phrom Phong, Sai Mai, Chiang Mai, and Hat Yai. 
+ Live Streaming Studio 
+ Suitable for live streaming, studio photography, and podcast recording. 
+ Unfurnished Office Space for Rent 
+ You can furnished it however you like. 24/7 Access. Cheaper per sqm 
+ Private Mailing Address - Only THB3,600/year 
+ Available in Bangkok, Chiang Mai, Pattaya, Hat Yai 
+ Book a Free Consultation with our Multilingual Business Support Team today!
+ Our Business team in Bangkok speaks English, Thai, Chinese, Russian and Burmese
+ Contact Us Now 
+ For Thai Nationals
+ Thai Limited Company 
+ From THB 33,500; at least 51% of shares must be held by Thai shareholders. 
+ Shelf Company / Pre-Registered Thai Company 
+ Clean & Compliant Shelf Company. Age: from 1 - 7 years. 
+ 100% Foreign-Owned Structures
+ Manufacturing-Only Company 
+ Enables 100% foreign ownership; manufacture in Thailand and export internationally. 
+ Branch Office 
+ Held by an overseas company; may generate revenue in Thailand. 
+ Representative Office 
+ Held by an overseas company; may not generate revenue in Thailand. 
+ US–Thailand Treaty of Amity Company 
+ Majority ultimate beneficial ownership must be US citizens or US entities. 
+ BOI-Promoted Company 
+ Eligible businesses may access tax incentives, 100% foreign ownership, and other BOI privileges. 
+ Export Only Company 
+ Can only receive Foreign Revenue. Can be 100% foreign owned. 
+ Export-Only Company (Free Zone) 
+ May benefit from 100% foreign ownership and preferential import/export duty treatment (including 0% duty in certain cases). 
+ Book a Free Consultation with our Multilingual Business Support Team today!
+ Our Business team in Bangkok speaks English, Thai, Chinese, Russian and Burmese
+ Contact Us Now 
+ Accounting & Tax Compliance
+ Monthly Accounting & Tax Filings 
+ Businesses registered for VAT are generally required to submit monthly tax filings. 
+ Accounting Service for BOI / Branch Office 
+ BOI / Branch Office compliant accounting service and reporting service. 
+ Dedicated Accountant (Multi Language) 
+ Includes a dedicated accountant just for your company and an
+Account Manager (Chinese, Russian, Burmese, English) 
+ Tax Filing Service Only 
+ Suitable for those using your own Accountant but does the License for Tax Filing 
+ Payroll Management 
+ Includes Payroll processing, Social Security Calculation & Filing, Employee Personal Income Tax (Withheld) Calculation 
+ Audit Service
+ Audit & Year-End Closing 
+ Delivered with end-to-end support from our Chinese-speaking team and tax advisers. 
+ Company Compliance Health Check 
+ Only THB2,500 - Get a one page comprehensive report on your VAT, WHT, Accounting, Tax status 
+ Book a Free Consultation with our Multilingual Business Support Team today!
+ Our Business team in Bangkok speaks English, Thai, Chinese, Russian and Burmese
+ Contact Us Now 
+ License & Permits
+ Complete Factory Licenses Support 
+ Ror Ngor 4 Support, Site, Zoning & Industrial Location Review, Building, Construction & Renovation Permits, Environmental & Pollution Compliance, Hazardous Substance & Chemical Compliance 
+ Factory License (Ror Ngor 4) 
+ Factories that use machinery exceeding 50 horsepower or employ more than 50 workers. 
+ Hazardous Substances License 
+ Businesses that manufacture, import, export, or possess hazardous substances in Thailand. 
+ TISI Application 
+ TISI (Thai Industrial Standards Institute) certification is required for products impacting safety, health, or the environment. 
+ NBTC Permit 
+ Products emitting radio frequencies, telecommunication, and wireless devices require NBTC certification 
+ Digital Assets License 
+ For business dealing in exchange, brokerage, dealer services, fund management, or custodial services 
+ E-Payment Service License 
+ For business dealing in payment transfer or payment processing 
+ License & Permits
+ FDA Certification 
+ Foods, pharmaceuticals, medical devices, cosmetics, hazardous substances, and narcotics/psychotropic substances sold in Thailand must be FDA certified 
+ Hotel License 
+ Hotel License is mandatory for those operating a hotel or hostel. 
+ Tourism (TAT) License 
+ If you are handling tourist (inbound or outbound), you need a Tourism License 
+ Food & Beverage (F&B) Licence 
+ Generally required for businesses selling food or beverages. 
+ Entertainment Licence 
+ Generally required for businesses offering karaoke, dance venues, performances, and other entertainment activities. 
+ Alcohol Licence 
+ Generally required for businesses selling any kinds of alcohol. 
+ SPA / Massage Licence 
+ Generally required for businesses offering SPA, Wellness or Massage activities. 
+ Recruitment Agency Licence 
+ Generally required for businesses offering Recruitment or Job Placement services. 
+ Book a Free Consultation with our Multilingual Business Support Team today!
+ Our Business team in Bangkok speaks English, Thai, Chinese, Russian and Burmese
+ Contact Us Now 
+ Visa Services
+ Non-B Visa 
+ Non-B Visa is for those who intend to work or start a business in Thailand 
+ Non-O / Marriage Visa 
+ Practical, efficient support for Non-O visa applications, with a focus on timely filing. 
+ Thai Residency Visa through Investment 
+ Guaranteed Thai Long Stay Visa 
+ LTR Visa by BOI 
+ Long-Term Resident (LTR) Visa is a 10-year renewable visa aimed at high-potential foreigners, offering significant tax and non-tax benefits 
+ Retirement Visa 
+ Support for retirement visa applications, including assistance with financial evidence documentation. 
+ Thai Permanent Residency 
+ Support to help streamline and expedite the Thai permanent residency application process. 
+ Thailand Long-Term Visa (Golden Visa) 
+ A government long-stay programme for foreign nationals, offering longer-term residency benefits subject to eligibility. 
+ Other Services
+ Certified Translation Services 
+ Chinese-to-Thai or Chinese-to-English document translation for legal use and compliance requirements. 
+ Structured Debt Recovery Support 
+ Structured, compliant debt recovery solutions delivered by licensed legal professionals. 
+ Thai Limited Company Dissolution 
+ Support to complete the Thai company dissolution process lawfully and comprehensively. 
+ Corporate Background Checks 
+ Comprehensive due diligence and background review support on target counterparties. 
+ Trademark Registration 
+ Early trademark filing support to help protect your brand in Thailand. 
+ Thailand Tax Resident Certificate 
+ Your proof as a Thai Tax Resident. Can be used overseas. 
+ Records Vault / Document Storage 
+ Compliance-led corporate document archiving service. 
+ Order Official Company Documents (BOJ5, Affidavit and more) 
+ BOJ.5, Company Affidavit, Latest Company Financial, BOJ.2, BOJ.3 and meeting minutes/articles 
+ Join the UnionSPACE Franchise Programme 
+ Operate your own business centre in Thailand or China. 
+ Book a Free Consultation with our Multilingual Business Support Team today!
+ Our Business team in Bangkok speaks English, Thai, Chinese, Russian and Burmese
+ Contact Us Now 
+ Import & Export Support
+ Customs Clearance 
+ Expedited customs clearance support for commercial shipments, aimed at facilitating timely release. 
+ Importer of Record (IOR) 
+ Import goods into Thailand with support, without the need to establish your own Thai company. 
+ Express Import & FDA Application Support 
+ One-stop support across import logistics and FDA application requirements. 
+ Book a Free Consultation with our Multilingual Business Support Team today!
+ Our Business team in Bangkok speaks English, Thai, Chinese, Russian and Burmese
+ Contact Us Now 
+ Marketing & Localization Service
+ Product Localization 
+ Let our team help you localize your product for Thai market 
+ KOL Sourcing & Management 
+ Select from over 1,000 KOLs from our ready database 
+ Billboards Placement & Design 
+ We can find you the best Billboard placement in town 
+ BTS Showroom & Set Up 
+ We're a licensed BTS Showroom Design & Set Up Contractor 
+ TukTuk & Vehicles Ads Placement & Design 
+ We put brands on the road in Bangkok, Pattaya, Phuket 
+ Book a Free Consultation with our Multilingual Business Support Team today!
+ Our Business team in Bangkok speaks English, Thai, Chinese, Russian and Burmese
+ Contact Us Now 
+ Complete Market Entry Service
+ Integrated FDA & Market Entry Solutions 
+ FDA Registration > Company Setup > Warehouse > Label Design & Review > Packaging > KOL Marketing 
+ Outsource your Manufacturing to OEM Factories in Thailand 
+ Manufacture > Register > Launch > Export 
+ Malaysia to Thailand Business Expansion 
+ Comprehensive service for Malaysian Business wanting to expand or enter to Thailand market 
+ Int'l Market Entry Service 
+ We empower Thai Companies expand overseas. From Company Set Up, Hiring to Marketing 
+ Thai Company Compliance Health Check 
+ Get an evaluation report for your Company Compliance status for only THB350 
+ Start a Thai company with 100% American ownership 
+ 100% Foreign Owned Thai Company Setup · Business Visa Document Preparation · Bank Opening Documentation · Thai Staff Recruitment 
+ Transferring a Property in Thailand as a Gift 
+ Safe & secure way to gift your property in Thailand and how it can also be a powerful wealth planning tool 
+ Book a Free Consultation with our Multilingual Business Support Team today!
+ Our Business team in Bangkok speaks English, Thai, Chinese, Russian and Burmese
+ Contact Us Now 
+ Corporate Services
+ Appoint New Director 
+ Remove Director (Not Self Resignation) 
+ Change Director Signing Authority 
+ Change Managing Director Title / Role 
+ Buy/Sell Shares (Between Existing Shareholders) 
+ Buy/Sell Shares (To Foreign Shareholders) 
+ Increase Company Registered Capital 
+ Reduce Company Registered Capital 
+ Open Additional Bank Account 
+ Annual General Meeting (AGM) + Minutes + DBD Filing 
+ Annual General Meeting (AGM) Notice & Circulation 
+ Emergency General Meeting (EGM) + DBD Filing 
+ Emergency General Meeting (EGM) Notice & Circulation 
+ Residence Certificate Application 
+ New TIN Registration – Personal (Foreign Individual) 
+ Registration of New Foreign Employee at Revenue Department 
+ New Social Security Registration for Company 
+ Corporate Services
+ Close Bank Account 
+ Apply for Credit Facility / Loan 
+ Change Company Registered Address (Same Province) 
+ Change Company Registered Address (Different Province) 
+ Registered New Branch Office 
+ Close Branch Office 
+ Appoint / Change Company Auditor 
+ Approve Annual Financial Statement 
+ Company VAT Registration 
+ Cancel VAT Registration 
+ Register First Employee with SSO 
+ Terminate Employee (SSO Update) 
+ Authorize 3rd Party to Sign Contract on behlaf of Company 
+ Change Company Name 
+ Change Company Objectives 
+ Change Company Fiscal Year 
+ Appoint Authorized Representative To Represent Company 
+ For Revenue Department, SSO, DBD, Labor Department or Police Query 
+ Book a Free Consultation with our Multilingual Business Support Team today!
+ Our Business team in Bangkok speaks English, Thai, Chinese, Russian and Burmese
+ Contact Us Now 
+ People Solutions
+ EOR + Visa Package - For foreigners wanting to work in Thailand 
+ We'll be your Employer of Record and sponsor for your Non-B Visa and Work Permit 
+ Hire Thai in Thailand Without a Thai Company 
+ Let us handle your Thai Employees Employment Contract and Payroll 
+ Cross-Border EOR and Payroll Service 
+ Pay your employees in China, Hong Kong, USA, London, Singapore and we will pay them in Thailand 
+ Factory Manpower Placement 
+ Myanmar & Laos Factory or Agriculture Worker Placement 
+ Recruitment & Head Hunting 
+ Let us find you the best talent for your business 
+ Payroll Management 
+ Outsource your company payroll to us 
+ Talent & People Management 
+ Outsource the people management to us while you focus on your business. 
+ HR Advisory & Mediation 
+ Finding it difficult to understand the local culture and managing the local team, let us guide you. 
+ Corporate Personnel Support 
+ Employee Support in Thailand. Accomodation, Logistic and more 
+ Book a Free Consultation with our Multilingual Business Support Team today!
+ Our Business team in Bangkok speaks English, Thai, Chinese, Russian and Burmese
+ Contact Us Now 
+ UnionSPACE Global Strategy & Advisory Division
+ Profit Repatriation Strategies - China 
+ Profit Repatriation Strategies - Indonesia 
+ Profit Repatriation Strategies - Russia 
+ Profit Repatriation Strategies - Germany 
+ Profit Repatriation Strategies - Malaysia 
+ Profit Repatriation Strategies - Japan 
+ Profit Repatriation Strategies - South Korea 
+ Profit Repatriation Strategies - Vietnam 
+ Profit Repatriation Strategies - Netherlands 
+ Book a Free Consultation with our Multilingual Business Support Team today!
+ Our Business team in Bangkok speaks English, Thai, Chinese, Russian and Burmese
+ Contact Us Now 
+ International Business Set-Up 
+ Global Company Incorporation 
+ Partner with UnionSPACE to expand your international footprint. 
+ Overview
+ Dubai, Abu Dhabi & Sharjah 
+ United Arab Emirates 
+ UAE Tourist Visa — Expedited Processing 
+ Expedited and standard visa application support. 
+ Private Wealth Planning for Thai Businesses 
+ Enjoy 0% Personal Income Tax, Corporate Income Tax and Capital Gain Tax in Dubai 
+ Shenzhen, Wuhan, Xi’an, Shanghai 
+ China 
+ Hong Kong & China Dual-Structure Setup 
+ Tax-optimized holding structure 
+ Hong Kong 
+ Kuala Lumpur, Penang 
+ Malaysia 
+ 5 years Visa by Investment in Malaysia - MM2H 
+ Guaranteed approval. USD150,000 investment into Interest Earning Fixed Deposit. Family members can join. 
+ Singapore 
+ Jakarta, Bali, Surabaya, Medan 
+ Indonesia 
+ Manila, Cebu 
+ Philippines 
+ Ho Chi Minh City 
+ Vietnam 
+ Phnom Penh 
+ Cambodia 
+ Bangkok, Pattaya, Chiang Mai, Hat Yai 
+ Thailand 
+ Locations 
+ Thailand 
+ &middot; Ekkamai (Bangkok) 
+ &middot; Thong Lo (Bangkok) 
+ &middot; Ratchada (Bangkok) 
+ &middot; Chit Lom (Bangkok) 
+ &middot; Silom (Bangkok) 
+ &middot; Huai Khwang (Bangkok) 
+ &middot; Koh Chang (Thailand) 
+ &middot; Lat Phrao (Bangkok) 
+ &middot; Ekkamai 63 (Bangkok) 
+ &middot; Central Pattaya Road (Pattaya) 
+ &middot; Sathorn (Bangkok) 
+ &middot; Khao San (Bangkok) 
+ &middot; Sai Mai (Bangkok) 
+ &middot; Bang Kae (Bangkok) 
+ &middot; Chiang Mai 
+ &middot; Hat Yai 
+ Indonesia 
+ &middot; PIK Avenue 
+ &middot; Metropolitan Tower 
+ &middot; Wisma Barito 
+ &middot; Satrio Tower 
+ &middot; City Hub (Kelapa Gading) 
+ &middot; Centennial Tower (Jakarta) 
+ &middot; Office 8 (SCBD) 
+ &middot; Treasury Tower (SCBD) 
+ &middot; GKM Green Tower (Simatupang) 
+ &middot; NextSPACE (Bandung) 
+ &middot; Eccos Living (Bali) 
+ &middot; Terminal 3 (Soekarno-Hatta) 
+ Philippines 
+ &middot; Finman Building (Makati) 
+ &middot; 111 Paseo de Roxas (Makati) 
+ &middot; Phinma Plaza (Rockwell) 
+ &middot; Fort Legend Tower (BGC) 
+ &middot; One Global Place (BGC) 
+ &middot; The Peak (Makati) 
+ &middot; Suntree Tower (Ortigas) 
+ &middot; Sun Plaza (Mandaluyong) 
+ Other Countries 
+ China &middot; Shenzhen 
+ UAE &middot; Dubai 
+ Thailand 
+ Indonesia 
+ Philippines 
+ Malaysia 
+ China 
+ Dubai & Other Markets 
+ Bangkok — 13 Business Centres
+ Ekkamai 61 &mdash; 30 Sukhumvit Soi 61 
+ Thong Lo &mdash; 808 Sukhumvit Soi 55 
+ Ratchada &mdash; 110 Vibhavadi Rangsit Rd. 
+ Silom &mdash; 942 Rama IV Rd. 
+ Chit Lom &mdash; 25 Chit Lom Alley 
+ Huai Khwang &mdash; 785/5 Pracha Uthit Rd. 
+ Udomsuk &mdash; 222/4 Udom Suk Rd. 
+ Ekkamai 63 &mdash; 34 Sukhumvit Soi 63 
+ Sathorn &mdash; 28 Soi Chan 16 
+ Suan Luang X Redd &mdash; 866 Rama 9 Rd. 
+ Phrom Phong &mdash; 29 Sukhumvit Soi 39 
+ Khao San &mdash; 250 Krung Kasem Rd. 
+ Sai Mai &mdash; 29-30 Sukhaphiban 5 Alley 
+ Other Cities
+ Koh Chang &mdash; 40/11/1 Kai Bae Beach 
+ Phuket &mdash; 365 Srisoonthorn Rd, Cherngtalay 
+ Pattaya &mdash; 460/8 Pattaya Klang Rd 
+ Chiang Mai &mdash; 29/4 Soi 1, Samlan Rd, Phra Sing 
+ Hat Yai &mdash; 347 Thumnoonvithi Rd, Hat Yai, Songkhla 
+ Jakarta
+ PIK Avenue &mdash; Jakarta 
+ Metropolitan Tower &mdash; Jakarta 
+ Wisma Barito Pacific &mdash; Jakarta 
+ Satrio Tower &mdash; Jakarta 
+ The CEO Building &mdash; Cilandak, Jakarta 
+ Atria &mdash; Sudirman, Jakarta 
+ APL Tower &mdash; West Jakarta 
+ Gold Coast Tower &mdash; PIK, Jakarta 
+ Treasury Tower &mdash; SCBD, Jakarta 
+ Office 8 &mdash; SCBD, Jakarta 
+ Menara Rajawali &mdash; Kuningan, Jakarta 
+ Centennial Tower &mdash; Gatot Subroto, Jakarta 
+ Other Cities
+ Eccos Living Plaza &mdash; Bali 
+ Kembali Hub &mdash; Bali 
+ Jimbaran Hub &mdash; Bali 
+ Menara BRI &mdash; Bandung 
+ Pollux Mall Business &mdash; Bekasi 
+ Spazio &mdash; Surabaya 
+ Grand Jati Junction &mdash; Medan 
+ Menara Aria Office &mdash; Batam 
+ Bonifacio Global City (BGC)
+ One Global Place &mdash; 5th Avenue 
+ Fort Legend Tower &mdash; 3rd Avenue 
+ Manila & Other Cities
+ 111 Paseo de Roxas &mdash; Legazpi Village 
+ Phinma Plaza &mdash; Rockwell Center 
+ The Peak &mdash; Makati 
+ Suntree Tower &mdash; Ortigas 
+ Sun Plaza &mdash; Mandaluyong 
+ Kuala Lumpur
+ Plaza Mont Kiara &mdash; Mont Kiara 
+ Empire Tower &mdash; Subang Jaya 
+ Coming Soon
+ Penang 
+ Johor Bahru 
+ Shenzhen
+ Shenzhen &mdash; Office 22, Garden City Cyberport Building 
+ Coming Soon
+ Tianjin 
+ Xi’an 
+ Shanghai 
+ Wuhan 
+ Guangzhou 
+ Hong Kong 
+ United Arab Emirates
+ Dubai &mdash; Level 22, Prime Tower, Business Bay 
+ Coming Soon
+ Bang Na &mdash; Bangkok, Thailand 
+ Ari &mdash; Bangkok, Thailand 
+ Rama 9 &mdash; Bangkok, Thailand 
+ Phaya Thai &mdash; Bangkok, Thailand 
+ On Nut &mdash; Bangkok, Thailand 
+ Phuket &mdash; Thailand 
+ Singapore 
+ Ho Chi Minh City &mdash; Vietnam 
+ Phnom Penh &mdash; Cambodia 
+ Why UnionSPACE 
+ UnionSPACE Thailand Company Profile 
+ A quick overview of how we can be your partner of growth in Thailand and beyond. 
+ Donwload
+ Join our Franchise Program 
+ Open your own profitable Coworking & Business Hub in Thailand and beyond. 
+ Vantage by UnionSPACE 
+ Your Business Operating System 
+ UnionSPACE Business Matching Program 
+ Meet businesses within our network. Over 8,500 active businesses with whom you can grow. 
+ UnionSPACE Business News 
+ Get the real updates and tips on doing business and living in Thailand. 
+ **Updated**
+ Pay Securely Here 
+ We gladly accept credit card, crypto, bank transfer, Alipay, WeChat Pay. 
+ Secured
+ WhatsApp Us 
+ Contact Us 
+ Your One-Stop Hub to Start Your Business in Thailand 
+ Thailand's #1 Company Incorporation, Visa, Business Licenses, Gov't Compliant Offices, Accounting & Tax
+ Dependable, Honest, Trustworthy &mdash; Trusted by over 68,000 businesses globally.
+ Explore Services 
+ Download Company Profile 
+ 13,835+ 
+ Projects Completed 
+ 97% 
+ Client Satisfaction 
+ 12 
+ Offices in Thailand 
+ Making Business in Thailand Easy
+ UnionSPACE is Thailand's most comprehensive business-setup and compliance partner, with dedicated expert teams for every stage of business life in Thailand.
+ Founded in Indonesia and operating in Thailand since 2018, UnionSPACE serves entrepreneurs, SMEs, and international corporations across Bangkok (12 locations), Chiang Mai, Pattaya, and Hat Yai.
+ Services span the full business lifecycle: Office and Facilities rental, Company Incorporation, Accounting and Tax, Visa and Work Permit, Corporate Secretarial services, FDA and Business License applications, Import and Export support, People Solutions, and Marketing and Localization.
+ 8+
+ Years in Thailand
+ 7
+ Supported Languages
+ 70+
+ Team Members
+ Discover Our Offices 
+ Meet Our Team 
+ Excellence Award
+ Digital Innovation 2025 
+ Featured Service 
+ Gov't Compliant Offices
+ Thailand's Department of Business Development (DBD) regulatory update effective January 2026 requires all registered Thai companies to maintain a verifiable primary office leased from a licensed commercial space provider — virtual address registrations are no longer sufficient for most business types.
+ UnionSPACE provides affordable inspection-ready, DBD-compliant offices in four cities: Bangkok, Chiang Mai, Pattaya, and Hat Yai.
+ *New* You can now offset your Office Cost by subletting your office if you don't use it.
+ Our Office & Facilities Rental 
+ Serviced Office 
+ A fully private, furnished, lockable office suite with ergonomic furniture designed for comfort &mdash; with 24/7 access and all-inclusive pricing.
+ More details 
+ 01
+ DBD Compliant Office 
+ The most affordable physical office option for new company incorporation in Thailand — compliant with the January 2026 DBD requirements.
+ More details 
+ 02
+ Mini Warehouse + Office 
+ A combined storage and working space ideal for e-commerce operators who need a registered address, inventory storage and packing space, and FDA product storage approval.
+ More details 
+ 03
+ Semi Furnished Office 
+ Bring your own furniture and configure the space to your specification. Free two-week fit-out period and direct MEA electrical meter connection included.
+ More details 
+ 04
+ Virtual Office 
+ Prestigious Bangkok address for existing registered companies — suitable for marketing, mail handling, and business stationery.
+ More details 
+ 05
+ Company Incorporation Service
+ Full company registration in Thailand with the Department of Business Development (DBD). Includes limited company setup, BOI applications, and 100% foreign-owned structures. Compliant with January 2026 DBD office requirements.
+ As low as
+ THB 33,500
+ Explore 
+ Download Brochure 
+ Corporate Secretary Service
+ Outsource your company general affairs to our Corporate Secretary Team — On Demand or Retainer Based.
+ Starts from
+ THB 5,500
+ View Details 
+ Download Brochure 
+ Business Licenses
+ Our expert business license team can assist you with all Business License Applications in Thailand, including FDA, e-commerce, food, cosmetic, and restaurant licenses.
+ Starts from
+ THB 35,000
+ Discover 
+ Download Service Brochure 
+ People Solutions
+ Recruitment, Payroll, Talent Management, Employee Employer Mediation — We cover all.
+ Starts from
+ THB 500/person
+ Explore 
+ Download Brochure 
+ Accounting & Tax
+ Our multilingual accountants help you understand your business and stay on top of all Thai Revenue Department compliance requirements including VAT, corporate income tax, and payroll.
+ Starts from
+ THB 5,500 /mth
+ View Details 
+ Download Brochure 
+ International Business Expansion
+ Together with our regional offices, we enable Thai companies to expand to Asia & Middle East markets — efficiently, confidently, and at scale.
+ Starts from
+ THB 37,500 /mth
+ Discover 
+ Download Service Brochure 
+ Import & Export
+ We help businesses with customs clearance, import export documentation, warehousing and logistics including stuck goods release with Thai Customs Department.
+ Starts from
+ THB 20,000
+ Explore 
+ Download Brochure 
+ Market Entry Services
+ Our expert teams combine company setup, licensing, accounting, office, and marketing to enable foreign businesses to jumpstart operations in Thailand efficiently.
+ Starts from
+ THB 75,000
+ View Details 
+ Download Service Brochure 
+ Marketing & Branding
+ Hyperscale your business by localizing your marketing for the Thai market. SEO, AISEO, KOL Management, LINE OA, and Above-the-Line Marketing.
+ Starts from
+ THB 37,500
+ Discover 
+ Download Service Brochure 
+ Private Wealth Advisory
+ In partnership with our Dubai team, we help Thai family offices, business owners, and high-net-worth individuals establish secure, tax-efficient structures in the UAE.
+ Schedule a Private Consultation
+ Discover 
+ Download Service Brochure 
+ Cross Border EOR Service
+ Employ in Thailand while arranging the commercial relationship and payment flow closer to your headquarters, where an appropriate structure is available.
+ Our Fees
+ 16% - 22%
+ Discover 
+ Download Service Brochure 
+ Myanmar & Laos Workforce Solutions
+ Outsource your manpower requirements to us. Our end-to-end recruitment team can recruit, provide basic training, handles visa and work permit for you.
+ Starts from
+ THB 7,500/month
+ Discover 
+ Download Service Brochure 
+ Frequently Asked Questions
+ Get to know UnionSPACE in 30 seconds.
+ How long has UnionSPACE been in business?
+ UnionSPACE has been operating globally for over 18 years as of 2026, with its headquarters in Indonesia. The Thailand operations were established in Bangkok in 2018, giving us over 8 years of experience in the Thai market. Our largest footprint is in Indonesia, followed by Thailand, Philippines, Malaysia, Hong Kong, China, and Dubai, UAE.
+ What is UnionSPACE Thailand's primary expertise?
+ Our core services include Office Space & Facilities rental, Company Formation, Accounting & Tax, Visa & Work Permit, Corporate Secretarial Services, and Business License Applications. Each of these services is operated by its own dedicated expert team.
+ Who is behind UnionSPACE?
+ UnionSPACE is a privately held company headquartered in Indonesia. It has over 70 offices and more than 500 team members across Asia and Dubai, UAE. The Thailand operation has been active since 2018, with the main head office at Phrom Phong, Sukhumvit Soi 39, Bangkok, and a team of 70+ staff across 12 locations in Thailand.
+ Is UnionSPACE an AMLO compliant company?
+ All transactions are subject to Thailand's Anti-Money Laundering Office (AMLO) standards review and we reserve the right to decline clients who are unable or refuse to comply with AMLO requirements.
+ We've systemize our approach to serve you better. 
+ What to expect from first chat to your tailored proposal
+ 01 
+ Chat with us
+ Start a conversation with our team.
+ 02 
+ Share your needs
+ Give our New Customer Coordinator a few initial details.
+ 03 
+ Meet your consultant
+ The most suitable consultant for your needs contacts you.
+ 04 
+ Proposal or questions
+ We share a proposed solution and fee, or ask for a little more information.
+ 05 
+ Expert team review
+ Our specialists map out the right solution and fee for you.
+ Your proposal
+ We present a solution and fee tailored to your business.
+ &mdash; If Needed
+ Proposal usually within 72 hours*
+ Manage your company, visa, business licenses, due dates all on one screen 
+ UnionSPACE VANTAGE - Your company, on one screen
+ VANTAGE Your company overview 
+ A clear view of your day. Deadlines, updates and the next action.
+ Next filing 6 days VAT return
+P.P.30 Upcoming 
+ Visa expiry 148 days 90-day report
+in 23 days Active 
+ Mail today 1 new Scanned
+Ready to view Mail received 
+ Company documents Ready to download 
+ Your service cases Milestones & updates 
+ Illustrative dashboard · Sample values, not a live portal screenshot.
+ Take a closer look 
+ What would you like to see?
+ Explore a few examples of how VANTAGE makes day-to-day business easier to follow.
+ Deadlines Documents Mail & calls Case progress 
+ Your next action The dates that matter, in view.
+ See the next filing and its countdown. Keep visa reporting windows and licence renewals alongside your business calendar.
+ Upcoming items
+ VAT return · P.P.30 6 days 
+ 90-day report 23 days 
+ Visa expiry 148 days 
+ Your company records The right document, within reach.
+ View or download company records in Thai and English. Request a new board resolution from inside the portal.
+ Compliance vault
+ Company affidavit View / download 
+ Shareholder list View / download 
+ Board resolution Request a new document 
+ Your front desk Know what arrived and who called.
+ Choose immediate, weekly, monthly or on-request mail forwarding. Set attended-transfer rules and receive alerts by email, SMS or WhatsApp.
+ Mail & communications
+ New letter received Scan available 
+ Mail forwarding instruction Weekly 
+ Incoming call Message logged 
+ Your service cases Follow the work as it moves.
+ See milestones, the officer handling your case and timestamped updates. When the team needs something from you, the next action is visible.
+ Company change · Example case
+ Officer assigned Case opened 
+ Documents prepared Update recorded 
+ Signed document required Your action needed 
+ Illustrative views only; these are not live portal screens or actual client records. Features shown relate to the services you use. Filing applicability and dates depend on your company.
+ Our Presence in Thailand and Beyond
+ Be where your business needs to be — across Southeast Asia and beyond. From Thailand's key cities to China, Indonesia, Malaysia, Philippines, and Dubai's global hub, build with confidence.
+ All
+ Bangkok
+ Other City
+ Other Country
+ Our Main Head Office in Phrom Phong, Sukhumvit 39 — where our core operations team is based to support company formation, visa services, accounting, and business enquiries across Thailand.
+ Our largest serviced office and coworking space in Ekkamai, Sukhumvit Soi 61 — featuring private offices, dedicated on-site receptionist support, meeting rooms, a fully equipped podcast studio, and the popular Capybara Café.
+ A hybrid serviced office and mini warehouse space on main Ekkamai Road (Sukhumvit 63) — ideal for SMEs and e-commerce businesses needing office space, livestreaming setup, product storage, and fulfilment support.
+ A dedicated mini warehouse and storage hub in Huai Khwang, Bangkok — ideal for SMEs and e-commerce businesses requiring product storage and operational space.
+ One of our prestigious business locations in Bangkok — offering private offices, meeting rooms, training facilities, and virtual office solutions. Strategically located 3 minutes from Chidlom BTS.
+ A prime office in Bangkok's CBD — ideal for company setup and visa services. Located on the ground floor of Charn Issara Tower 1, Rama IV Road, just 4 minutes from Sala Daeng BTS.
+ Thailand's #1 Business Hub in Pattaya — providing visa services, company formation, business licenses, accounting & tax, virtual office, coworking space, and podcast studio. Located in Central Pattaya.
+ A mini warehouse in the heart of Sathorn, Bangkok's central business district — ideal for SMEs and e-commerce businesses requiring storage and operational space within a prime CBD address.
+ A serviced office and mini warehouse hub in the Khaosan area — designed for SMEs and e-commerce businesses requiring office space, product storage, and livestream studio setup.
+ One of our larger Business Hub. You can find over 80 serviced offices here as well as numerous Live Selling Studio, Conference Room, Training Room here.
+ Mini Warehouse & Live Selling Studio
+ A business hub in Chiang Mai Old Town — offering serviced offices, registered office solutions, visa services, and livestream-ready spaces for entrepreneurs and SMEs in Northern Thailand.
+ A mini warehouse and serviced office hub in Hat Yai, Songkhla — providing office space, storage solutions, and visa services for SMEs in Southern Thailand near cross-border trade routes.
+ A strategic business hub in Nanshan District, Shenzhen — company registration, visa services, and Chinese marketing solutions for ASEAN companies entering the Greater Bay Area.
+ One of the most popular coworking spaces in Rockwell, Manila. We offer coworking, virtual office, serviced office, meeting rooms, studio, and company incorporation and visa assistance.
+ This is one of our most prestigious center in SE Asia. Located in the same building as Rolex and in the heart of Jakarta.
+ You can also find us on this sun filled island in Bali, Indonesia. Our local team here can assist you to setup your company in Indonesia and SE Asia.
+ Located in Business Bay, Dubai, we bridge businesses from Middle East to Asia.
+ In 2026, we entered Hong Kong to provide our customers from China better access to other financial market and services.
+ Near Greenbelt, Makati's premier shopping and business haven. We offer coworking seats, serviced office suites, meeting rooms, and a large event space, plus company incorporation and visa support.
+ Multilingual, Multi-Disciplinary Team 
+ Thailand, Asia & Dubai Business Hub
+ Our multilingual team — fluent in English, Chinese (Mandarin), Russian, Kazakh, Burmese, Thai, and Indonesian — helps businesses navigate Thailand's regulatory requirements efficiently and without surprises.
+ Fast, Clear Responses
+ We provide direct, accurate information so your organisation can make faster, better-informed decisions.
+ Private & Confidential
+ All client discussions and business information are covered by UnionSPACE's Customer Confidentiality Policy by default.
+ Talk to Us Now 
+ Learn More 
+ Money Back Guarantee 
+ 4.8 Rating 
+ 10k+ Customers 
+ Customer Feedback
+ Recent feedback from our clients.
+ Marcus Wee
+ Singtel 
+ We're fortunate to choose UnionSPACE as our market entry partner in Thailand. Your team performs well under stress and exceeded our expectations.
+ Peter Xie
+ China Digital 
+ We're delighted to work with your Bangkok and Shenzhen team. Your creative yet systematic approach in Thailand meets our expectations.
+ Ryo
+ Asahi Beverages Specialist 
+ Thank you for your professionalism in handling our business license and our management team Visa matters.
+ Tat'yana Shishki
+ Baltic Trade 
+ Your accounting team is knowledgeable in international trade and we are very happy with their work.
+ Mohammad
+ Dubai Confectionary 
+ Your local team in Dubai and your Bangkok team helped us decide to expand to Thailand and we highly recommend your firm to our friends back in Dubai.
+ Contact Our Multilingual Team in Thailand
+ Our team speaks English, Chinese (Mandarin), Russian, Kazakh, Burmese, Thai, and Indonesian — Monday to Friday, 9AM–6PM Bangkok time.
+ Location
+ Level 2, 29 Sukhumvit Soi 39, Phrom Phong, Bangkok 10110, Thailand 
+ Email
+ for crawlability and click-to-email -->
+ sales@unionspace.com 
+ Call
+ for mobile tap-to-call -->
+ (+66) 02 0360 600 
+ Open Hours
+ Monday–Friday: 9AM – 6PM 
+ Get in Touch
+ Leave us a message and a UnionSPACE representative will contact you within 12 hours.
+ Leave this field empty 
+ elements for accessibility (screen readers & form usability) -->
+ Your Name 
+ Your Email 
+ Your Contact Number 
+ Subject 
+ Your Message 
+ Loading
+ Your message has been sent. Thank you!
+ Send Message 
+ Let’s stay in the loop—we’ll keep yo

@@ -1,0 +1,93 @@
+URL: https://www.abc-global.com/
+
+ABC GROUP OF COMPANIES 
+ English 
+ Deutsch 
+ ไทย 
+ Home 
+ About Us 
+ About Us 
+ Team 
+ Office 
+ Partner 
+ Legal Services 
+ Legal Services 
+ Agreements and Contacts 
+ Accounting and Auditing 
+ Certified translation and oral interpretation 
+ Company Formation and Restructurings 
+ Conciliation 
+ Last Will and Testament in Thailand 
+ Legal advisory 
+ Litigation 
+ Mediation 
+ Notary Service 
+ Taxation 
+ Visas 
+ Work Permits 
+ Business 
+ Business Consulting 
+ Financing 
+ Insurance 
+ Investment 
+ Negotiations 
+ Money Handling 
+ Trademarks and Patents 
+ Tax planning 
+ Investment 
+ Development 
+ Investment in Thailand 
+ Project Management 
+ Current Projects 
+ Current Projects 
+ Elderly Care Residence "Difference" 
+ Siam Montain Living Homes 
+ The Cottage Village (Huai Yai) 
+ Co-op Project "Palm Springs Residence" 
+ Import to Thailand 
+ Export from Thailand 
+ Events 
+ News 
+ Contact us 
+ ABC GROUP OF COMPANIES
+ Incorporated in 2000
+ Legal Services 
+ ABC Asian Legal Service Co., Ltd
+Assistance to privates and businesses
+​Civil, commercial, tax, labor legislation
+ Read more 
+ Business Consulting 
+ ABC Asian Business Consulting Co., Ltd
+Professional advisory for prosperous and safe business
+​Setting up, tax planning, disposal of assets, and current support
+ Read more 
+ Development 
+ ABC Asian Business Development Co., Ltd
+Investment opportunities and rulings
+​International trade, entering new markets
+ Read more 
+ Think Twice!
+ Many foreigners who have tried to settle in Thailand have unfortunately lost their money, property and business in making a wrong decision. In many cases they have depended too much on a private relationship.
+ Please be careful in the first place.
+ Whatever you are planning to do be it establishing your own business, buying a property, or choosing Thailand as your new home you should contact us first. Our experience can help you make the correct decisions.
+ Think ABC!
+ ABC Group of Companies
+ "ABC Group of Companies", consisting of the companies ABC Asian Business Consulting Co. Ltd., ABC Asian Legal Service Co. Ltd., and ABC Asian Business Development Co. Ltd., has been offering its clients a comprehensive service in the three main areas of legal advice, management consultancy and project development since 2000.
+ About us 
+ Contact us
+ +66-38-252531-2
+ admin@abc-global.com
+ 352/329 Moo 12, Pratamnak Rd. Soi 5 Nongprue, Banglamung, Chonburi 20150, Thailand
+ Hours of Operation
+ Monday to Friday
+09:00 am - 06:00 pm
+ Closed on Saturdays, Sundays, and Public Holidays.
+ Follow us
+ FACEBOOK 
+ Terms and Condtions | Data protection policy | Privacy Policy 
+ Copyright &copy; 2017. ABC Global.
+if ($('#slider638').length) {
+ $('#slider592').nivoSlider({
+ effect: 'boxRainReverse'
+ });
+}

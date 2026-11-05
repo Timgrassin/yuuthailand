@@ -1,0 +1,14 @@
+URL: https://thailegalprotection.com/
+
+Thai Legal Protection is now SiamLynk · siamlynk.com 
+ ',1)[1].split(' ',1)[0];print('sha256-'+base64.b64encode(hashlib.sha256(j.encode('utf-8')).digest()).decode())"
+-->
+ Thai Legal Protection is now SiamLynk .
+ Thai Legal Protection เปลี่ยนชื่อเป็น SiamLynk แล้ว
+ The same legal company, with broader support. Our website has moved to siamlynk.com .
+ บริษัทตามกฎหมายเดิม ดูแลได้กว้างขึ้น เว็บไซต์ของเราย้ายไปที่ siamlynk.com 
+ Go to siamlynk.com · ไปที่ siamlynk.com 
+ Open this page on SiamLynk · เปิดหน้านี้บน SiamLynk 
+ Members: sign in on siamlynk.com with your usual email and password.
+ สมาชิกเดิม: เข้าสู่ระบบที่ siamlynk.com ด้วยอีเมลและ รหัสผ่านเดิม 
+ บริษัท ไทย ลีเกิ้ล โพรเทคชั่น จำกัด · Thai Legal Protection Co., Ltd. · info@siamlynk.com

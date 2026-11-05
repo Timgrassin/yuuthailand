@@ -1,0 +1,205 @@
+URL: https://www.dsd.go.th/rayong
+
+สถาบันพัฒนาฝีมือแรงงาน 17 ระยอง 
+ สถาบันพัฒนาฝีมือแรงงาน 17 ระยอง - หน่วยงานส่วนภูมิภาค 
+ การแสดงผล
+ ก 
+ ก 
+ ก 
+ + 
+ ก
+ - 
+0-3868-3951
+ สถาบันพัฒนาฝีมือแรงงาน 17 ระยอง 
+ หน้าแรก (current) 
+ เกี่ยวกับหน่วยงาน
+ โครงสร้างบุคลากร 
+ โครงสร้างหน่วยงาน 
+ วิสัยทัศน์ / พันธกิจ / ค่านิยม / ภารกิจ 
+ ประวัติหน่วยงาน 
+ คลังความรู้ 
+ ระบบสารสนเทศสำหรับประชาชน
+ สมัครฝึกอบรม 
+ ทดสอบมาตรฐานฝีมือแรงงาน 
+ ยื่นคำขอรับรองความรู้ความสามารถ/ คำขอสมุดประจำตัว/ คำขอเป็นผู้ประเมิน
+ ค้นหาวุฒิบัตรและหนังสือรับรองอิเล็กทรอนิกส์
+ ร้องเรียน/ร้องทุกข์
+ ติดต่อเรา 
+ this.src=this.src, delay);
+ }else{
+ this.onerror=null;
+ this.parentNode.style.background = '#fff';
+ this.style.display = 'none';
+ }
+ ">
+ this.src=this.src, delay);
+ }else{
+ this.onerror=null;
+ this.parentNode.style.background = '#fff';
+ this.style.display = 'none';
+ }
+ ">
+ this.src=this.src, delay);
+ }else{
+ this.onerror=null;
+ this.parentNode.style.background = '#fff';
+ this.style.display = 'none';
+ }
+ ">
+ this.src=this.src, delay);
+ }else{
+ this.onerror=null;
+ this.parentNode.style.background = '#fff';
+ this.style.display = 'none';
+ }
+ ">
+ this.src=this.src, delay);
+ }else{
+ this.onerror=null;
+ this.parentNode.style.background = '#fff';
+ this.style.display = 'none';
+ }
+ ">
+ this.src=this.src, delay);
+ }else{
+ this.onerror=null;
+ this.parentNode.style.background = '#fff';
+ this.style.display = 'none';
+ }
+ ">
+ this.src=this.src, delay);
+ }else{
+ this.onerror=null;
+ this.parentNode.style.background = '#fff';
+ this.style.display = 'none';
+ }
+ ">
+ this.src=this.src, delay);
+ }else{
+ this.onerror=null;
+ this.parentNode.style.background = '#fff';
+ this.style.display = 'none';
+ }
+ ">
+ ประชาสัมพันธ์
+ + ดูทั้งหมด 
+ {
+ this.src = this.src.split('?')[0] + '?retry=' + Date.now();
+ }, 300);
+ }else{
+ this.onerror=null;
+ this.parentNode.style.background = '#fff';
+ this.style.display='none';
+ }
+ ">
+เปิดรับสมัครฝึกอบรม หลักสูตร การพัฒนาองค์กรสู่ความเป็นกลางทางคาร์บอน เพื่อความยั่งยืนในอุตสาหกรรมโลจิสติกส์
+ 5 พ.ย. 2569
+ {
+ this.src = this.src.split('?')[0] + '?retry=' + Date.now();
+ }, 300);
+ }else{
+ this.onerror=null;
+ this.parentNode.style.background = '#fff';
+ this.style.display='none';
+ }
+ ">
+เปิดรับสมัครฝึกอบรม หลักสูตร การจัดการการขนส่งสินค้าระหว่างประเทศทางอากาศ (Air Freight Management)
+ 5 พ.ย. 2569
+ {
+ this.src = this.src.split('?')[0] + '?retry=' + Date.now();
+ }, 300);
+ }else{
+ this.onerror=null;
+ this.parentNode.style.background = '#fff';
+ this.style.display='none';
+ }
+ ">
+เปิดรับสมัครฝึกอบรม หลักสูตร การประยุกต์ใช้ปัญญาประดิษฐ์ (AI) เพื่ออุตสาหกรรมโลจิสติกส์สีเขียว (AI for Green Logistics)
+ 4 พ.ย. 2569
+ 5 
+ {
+ this.src = this.src.split('?')[0] + '?retry=' + Date.now();
+ }, 300);
+ }else{
+ this.onerror=null;
+ this.parentNode.style.background = '#fff';
+ this.style.display='none';
+ }
+ ">
+เปิดรับสมัครเข้าฝึกอบรม หลักสูตร การประยุกต์ใช้เทคโนโลยีปัญญาประดิษฐ์สำหรับงานโลจิสติกส์” (AI for Logistics)
+ 4 พ.ย. 2569
+ 3 
+ else ประชาสัมพันธ์-->
+ ปฏิทินกิจกรรม
+ + ดูทั้งหมด 
+ 14
+ พ.ย.
+ กิจกรรมทดสอบมาตรฐานฝีมือแรงงาน
+ เอกสารดาวน์โหลด
+ + ดูทั้งหมด 
+ ใบสมัครวิทยากรภายนอก (set).pdf
+ 25 ก.ย. 2568 
+ 54 
+ QA213ใบสมัครเข้ารับการฝึกอบรมฝีมือแรงงาน.docx
+ 24 ม.ค. 2568 
+ 657 
+ แบบฟอร์ม มฐ.8 คำขอใบแทนฯ.pdf
+ 27 ส.ค. 2567 
+ 274 
+ แบบแจ้งข้อมูล KTB.xlsx
+ 6 มี.ค. 2567 
+ 422 
+ บริการประชาชนและสถานประกอบการ
+ เว็บไซต์ แนะนำ
+ facebook สถาบันพัฒนาฝีมือแรงงาน 17 ระยอง 
+ ระบบ E-Learning สำนักงานคณะกรรมการข้อมูลข่าวสารของราชการ 
+ ระบบจดหมายอิเล็กทรอนิกส์กลางเพื่อการสื่อสารในภาครัฐ 
+ facebook กรมพัฒนาฝีมือแรงงาน 
+ สำนักงานจัดหางานจังหวัดระยอง 
+ สำนักงานสวัสดิการและคุ้มครองแรงงานจังหวัดระยอง 
+ สำนักงานประกันสังคมจังหวัดระยอง 
+ ศูนย์ข่าวสารตลาดแรงงานจังหวัดระยอง 
+ สำนักงานแรงงานจังหวัดระยอง 
+ เว็บไซต์จังหวัดระยอง 
+ สถาบันพัฒนาฝีมือแรงงาน 17 ระยอง ขอเชิญรับชมวีดิทัศน์ผลงาน รางวัลนวัตกรรมต้นแบบการฝึกอบรมฝีมือแรงงาน 
+ ?? "DSD Smart Quiz ตอบสนุก ปลุกสกิล" 
+ ร่วมรับชมและติดตามผลงานนวัตกรรมที่ช่วยยกระดับการฝึกอบรมฝีมือแรงงานให้มีความทันสมัย สนุก และสร้างการเรียนรู้ได้อย่างมีประสิทธิภาพ
+ ?? สามารถรับชมได้ผ่าน 5 ช่องทาง ดังนี้ 
+ YouTube: https://... https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9_85q9fxcxA%26fbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExOThodjlaV1ptUE5DRzEwV3NydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR7uULcY428ofMcvOpNbsNJ0cHzjxoGI4e1JvpcO7cuZh0cfgfqfpj2wJPiPSw_aem_bjvKOfvMqNo_jpqCD_ytIQ&h=AUDKi_XVDWj9TD-2zSA05uZXaP94IbNs81ky4fJqxAfF7nIDrDUtaJSt6tY7deMW-jmWietIDlW4EWDc-aqNwlHzJVMOJORgd3rs14dbQtIwHWe1fbenRRRpc5nxgkbrL1h3k9rGlvHmIbfD&__tn__=R]-R&c[0]=AUDVVAKzG92UYHYPYo2dcS0X2pwXCPoe8evltC-hpWE4VR8BVKjNNvSBHCvTe7HF6rgwKEg-MFb1UGCXs-93_G9ea5uskpgkuEPQQ6pAAJeIZTHRAhN1KpeRuq4JoLEdX9bg7eTkkxkC76it0W63hL99lmoaLYAdz6sQcjasg2QPfXFZPEKojqUEvy5KsMaVgzq6asyLrVY&c[1]=AUDVVAKzG92UYHYPYo2dcS0X2pwXCPoe8evltC-hpWE4VR8BVKjNNvSBHCvTe7HF6rgwKEg-MFb1UGCXs-93_G9ea5uskpgkuEPQQ6pAAJeIZTHRAhN1KpeRuq4JoLEdX9bg7eTkkxkC76it0W63hL99lmoaLYAdz6sQcjasg2QPfXFZPEKojqUEvy5KsMaVgzq6asyLrVY
+ Facebook: https://... https://www.facebook.com/reel/1687823396030914/
+ TikTok: https://... https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.tiktok.com%2F%40rayongskill%2Fvideo%2F7661851504940223764%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExOThodjlaV1ptUE5DRzEwV3NydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR69yEnr4wGU29504993yXf8oO6FfDuVlsVoVP6TgSOgGfOMSbz2_QipzYBpJw_aem_aslq94GJu2b9g8iNFscX2g&h=AUDw81JNqHxJfa2fBLicGBTkMe0h4xNbhnt5pnr-qMdEBGFuyQq791zvPe8SCcCLB9TzQqikqFepZT14P1RhmzOgLob2iv3utko8EU1-YECwr2lVck3GjXFLqslJqWfaq9UTQs82bBQP62KR&__tn__=R]-R&c[0]=AUDVVAKzG92UYHYPYo2dcS0X2pwXCPoe8evltC-hpWE4VR8BVKjNNvSBHCvTe7HF6rgwKEg-MFb1UGCXs-93_G9ea5uskpgkuEPQQ6pAAJeIZTHRAhN1KpeRuq4JoLEdX9bg7eTkkxkC76it0W63hL99lmoaLYAdz6sQcjasg2QPfXFZPEKojqUEvy5KsMaVgzq6asyLrVY&c[1]=AUDVVAKzG92UYHYPYo2dcS0X2pwXCPoe8evltC-hpWE4VR8BVKjNNvSBHCvTe7HF6rgwKEg-MFb1UGCXs-93_G9ea5uskpgkuEPQQ6pAAJeIZTHRAhN1KpeRuq4JoLEdX9bg7eTkkxkC76it0W63hL99lmoaLYAdz6sQcjasg2QPfXFZPEKojqUEvy5KsMaVgzq6asyLrVY
+ Instagram: https://... https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDat-kJYs4Ko%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExOThodjlaV1ptUE5DRzEwV3NydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR7uULcY428ofMcvOpNbsNJ0cHzjxoGI4e1JvpcO7cuZh0cfgfqfpj2wJPiPSw_aem_bjvKOfvMqNo_jpqCD_ytIQ&h=AUBERXTqq2FjKF5TMsc8zDl-ct2XWy7mLc8VKKpZRvP-Xgy9B7_WOqkJaolrb0RwI1uuVutQUJun7RMuefjWQCe00q6hl08doMX1hXS3dndnerLt1NDGyRljOJzBeH5tJMpIf437Yhq_PZZq&__tn__=R]-R&c[0]=AUDVVAKzG92UYHYPYo2dcS0X2pwXCPoe8evltC-hpWE4VR8BVKjNNvSBHCvTe7HF6rgwKEg-MFb1UGCXs-93_G9ea5uskpgkuEPQQ6pAAJeIZTHRAhN1KpeRuq4JoLEdX9bg7eTkkxkC76it0W63hL99lmoaLYAdz6sQcjasg2QPfXFZPEKojqUEvy5KsMaVgzq6asyLrVY&c[1]=AUDVVAKzG92UYHYPYo2dcS0X2pwXCPoe8evltC-hpWE4VR8BVKjNNvSBHCvTe7HF6rgwKEg-MFb1UGCXs-93_G9ea5uskpgkuEPQQ6pAAJeIZTHRAhN1KpeRuq4JoLEdX9bg7eTkkxkC76it0W63hL99lmoaLYAdz6sQcjasg2QPfXFZPEKojqUEvy5KsMaVgzq6asyLrVY
+ X: https://... https://l.facebook.com/l.php?u=https%3A%2F%2Fx.com%2Frayongskill%2Fstatus%2F2076510340637151489%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExOThodjlaV1ptUE5DRzEwV3NydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR69yEnr4wGU29504993yXf8oO6FfDuVlsVoVP6TgSOgGfOMSbz2_QipzYBpJw_aem_aslq94GJu2b9g8iNFscX2g&h=AUAqz_Ar1XpNftxyY-naLQ7M7E5JZqZAaaOByS9DwGWbsgpT3cO4iKSLbY7OZTz7QG0MeB85Ofa2k9M3pDY62sU6FGjTcrBDWIL1Ae7bnJExW9ELL7x-1kWUlbB7aht1UI6YBqyKLULncPuU&__tn__=R]-R&c[0]=AUDVVAKzG92UYHYPYo2dcS0X2pwXCPoe8evltC-hpWE4VR8BVKjNNvSBHCvTe7HF6rgwKEg-MFb1UGCXs-93_G9ea5uskpgkuEPQQ6pAAJeIZTHRAhN1KpeRuq4JoLEdX9bg7eTkkxkC76it0W63hL99lmoaLYAdz6sQcjasg2QPfXFZPEKojqUEvy5KsMaVgzq6asyLrVY&c[1]=AUDVVAKzG92UYHYPYo2dcS0X2pwXCPoe8evltC-hpWE4VR8BVKjNNvSBHCvTe7HF6rgwKEg-MFb1UGCXs-93_G9ea5uskpgkuEPQQ6pAAJeIZTHRAhN1KpeRuq4JoLEdX9bg7eTkkxkC76it0W63hL99lmoaLYAdz6sQcjasg2QPfXFZPEKojqUEvy5KsMaVgzq6asyLrVY
+ ขอเชิญทุกท่านร่วมรับชมและเป็นกำลังใจให้กับผลงานนวัตกรรมของสถาบันพัฒนาฝีมือแรงงาน 17 ระยอง
+ เข้าสู่เว็บไซต์. 
+ 18 มีนาคม 2564
+ ชื่อหน่วยงาน :: 
+ ปิด 
+ จำนวนผู้เข้าชม
+ 138,817
+ สถาบันพัฒนาฝีมือแรงงาน 17 ระยอง
+ สถาบันพัฒนาฝีมือแรงงาน 17 ระยอง 
+ Rayong Institute for Skill Development 
+ เลขที่ 22 ถ.ไอหนึ่ง ทางเข้านิคมอุตสาหกรรมมาบตาพุด
+ ต.มาบตาพุด อ.เมืองระยอง จ.ระยอง 21150
+ โทรศัพท์: 0-3868-3951 ถึง 3 และ 0-3868-3199
+ โทรสาร: 0-3868-3198
+ จำนวนผู้เข้าชม : 138,817 คน
+ นโยบายเว็บไซต์และการปฏิเสธความรับผิด |
+ นโยบายการคุ้มครองข้อมูลส่วนบุคคล |
+ นโยบายความปลอดภัย |
+ |
+ &copy;Copyright 2021 . All rights reserved
+ เว็บไซต์นี้ใช้คุกกี้เพื่อวัตถุประสงค์ในการปรับปรุงประสบการณ์ของผู้ใช้ให้ดีขึ้น ท่านสามารถศึกษารายละเอียดเพิ่มเติมเกี่ยวกับประเภทคุกกี้ที่เราจัดเก็บ เหตุผลในการใช้คุกกี้ และวิธีการตั้งค่าคุกกี้ได้ใน 
+ นโยบายคุกกี้ และ คำแถลงเกี่ยวกับนโยบายส่วนบุคคลของเรา 
+ การตั้งค่าคุกกี้ 
+ ยอมรับ 
+ การตั้งค่าความเป็นส่วนตัว
+ &times; 
+ คุกกี้ที่จำเป็นต่อการใช้งาน (Strictly Necessary Cookies)
+ เปิดใช้งานตลอดเวลา
+ คุกกี้ประเภทนี้มีความจำเป็นต่อการให้บริการเว็บไซต์ของ กรมพัฒนาฝีมือแรงงาน เพื่อให้ท่านสามารถ เข้าใช้งานในส่วนต่าง ๆ ของเว็บไซต์ได้ รวมถึงช่วยจดจำข้อมูลที่ท่านเคยให้ไว้ผ่านเว็บไซต์ การปิด การใช้งานคุกกี้ประเภทนี้จะ ส่งผลให้ท่านไม่สามารถใช้บริการในสาระสำคัญของกรมพัฒนาฝีมือแรงงาน ซึ่งจำเป็นต้องเรียกใช้คุกกี้ได้
+ คุกกี้เพื่อการวิเคราะห์และประเมินผลใช้งาน (Performance Cookies)
+ คุกกี้ประเภทนี้ช่วยให้ กรมพัฒนาฝีมือแรงงาน เห็นการปฏิสัมพันธ์ของผู้ใช้งานในการใช้บริการเว็บไซต์ ของ สพธอ. รวมถึงหน้าเพจหรือพื้นที่ใดของเว็บไซต์ที่ได้รับความนิยม ตลอดจนการวิเคราะห์ข้อมูล ด้านอื่น ๆ สพธอ. ยังใช้ข้อมูลนี้เพื่อการปรับปรุงการทำงานของเว็บไซต์ และเพื่อเข้าใจพฤติกรรม ของผู้ใช้งาน อย่างไรก็ดี ข้อมูลที่คุกกี้นี้เก็บรวบรวมจะเป็นข้อมูลที่ไม่สามารถระบุตัวตนได้ และนำมา ใช้วิเคราะห์ทางสถิติเท่านั้น การปิดการใช้งานคุกกี้ประเภทนี้จะส่งผลให้ กรมพัฒนาฝีมือแรงงาน ไม่สามารถทราบปริมาณผู้เข้าเยี่ยมชมเว็บไซต์ และไม่สามารถประเมินคุณภาพการให้บริการได้
+ ยืนยันตัวเลือก 
+ ยอมรับทั้งหมด
