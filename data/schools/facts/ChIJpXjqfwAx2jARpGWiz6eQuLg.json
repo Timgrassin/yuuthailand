@@ -1,0 +1,13 @@
+{
+  "summary": "Rambong Muay Thai Gym is a Muay Thai gym just south of the Old City in Chiang Mai, led by ONE Championship fighter Rambong Therapat, offering group and private training and fight preparation.",
+  "price_from_thb": 600,
+  "facts": [
+    {"key": "price_session", "label": "Group session", "value": "600 THB per group session", "quote": "1 group session — 600 THB"},
+    {"key": "price_month", "label": "Monthly group", "value": "9,500 THB for 1 month, one group session daily", "quote": "1 month 1 group session daily — 9,500 THB"},
+    {"key": "price_session", "label": "Private session", "value": "900 THB per private session", "quote": "1 private session — 900 THB"},
+    {"key": "training_sessions", "label": "Schedule", "value": "Morning and afternoon sessions, Monday to Saturday", "quote": "We run Muay Thai sessions each morning and afternoon, Monday to Saturday, closed Sundays."},
+    {"key": "training_sessions", "label": "Class length", "value": "60 to 90 minutes", "quote": "Our Muay Thai classes usually run for 60 to 90 minutes"},
+    {"key": "trainers", "label": "Head trainer", "value": "Led by ONE Championship fighter Rambong Therapat", "quote": "led by ONE Championship fighter Rambong Therapat"},
+    {"key": "location_note", "label": "Location", "value": "79/2 Sripingmuang 3 Road, Haiya, south of the Old City", "quote": "We are located just south of the Old City"}
+  ]
+}

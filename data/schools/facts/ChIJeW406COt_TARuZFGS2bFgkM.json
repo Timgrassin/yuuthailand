@@ -1,0 +1,30 @@
+{
+  "summary": "Thai Nexus Visa Hub is an online visa and expat assistant for Thailand with service pages for DTV, education, retirement, business, marriage and LTR visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "Lists a DTV visa service",
+      "quote": "DTV Visa Service"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Lists an education visa service",
+      "quote": "Education Visa Service"
+    },
+    {
+      "key": "retirement_visa",
+      "label": "Retirement visa",
+      "value": "Lists a retirement visa service",
+      "quote": "Retirement Visa Service"
+    },
+    {
+      "key": "ltr_visa",
+      "label": "LTR visa",
+      "value": "Lists an LTR visa service",
+      "quote": "LTR Visa Service"
+    }
+  ]
+}

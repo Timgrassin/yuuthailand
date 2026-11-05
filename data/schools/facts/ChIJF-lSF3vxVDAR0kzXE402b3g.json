@@ -1,0 +1,12 @@
+{
+  "summary": "Mee Fah Samui is a language school site with pages on academic programs, enrollment and education visa applications.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Has education visa guidance and application pages",
+      "quote": "education visa guidance"
+    }
+  ]
+}

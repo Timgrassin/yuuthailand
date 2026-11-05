@@ -1,0 +1,8 @@
+{
+  "summary": "Muay Thai gym in Chalong, Phuket that takes students of all levels.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "location_note", "label": "Location", "value": "Chalong, Phuket", "quote": "we are a Muay Thai Gym located in Chalong Phuket Thailand"},
+    {"key": "levels", "label": "Levels", "value": "All levels", "quote": "We cater to all levels and everyone is welcome to our gym"}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "Deutsches Sprachzentrum Samui is a German language centre on Koh Samui offering A1 test preparation, private German lessons and Thai for beginners taught in German.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "German, plus Thai for German speakers",
+      "quote": "Thai für Einsteiger"
+    },
+    {
+      "key": "course_length",
+      "label": "Course validity",
+      "value": "Courses are valid for a full year",
+      "quote": "Dein Sprachkurs ist ein ganzes Jahr gültig!"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "A1 German test preparation",
+      "quote": "A1 Testvorbereitung"
+    }
+  ]
+}

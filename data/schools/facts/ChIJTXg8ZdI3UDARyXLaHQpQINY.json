@@ -1,0 +1,12 @@
+{
+  "summary": "Muay Thai and Western boxing gym in Choeng Thale, Phuket offering training and conditioning classes for beginners to advanced fighters.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "training_sessions", "label": "Training hours", "value": "Daily from 8:00 AM to 5:00 PM", "quote": "Muay Thai training sessions are conducted daily from 8:00 AM to 5:00 PM"},
+    {"key": "levels", "label": "Levels", "value": "Beginner, intermediate and advanced", "quote": "Our Muay Thai training is suitable for beginners, intermediate, and advanced levels."},
+    {"key": "trainers", "label": "Coach", "value": "Coach with nearly 200 fights and almost 30 years of coaching experience", "quote": "With almost 30 years of coaching experience"},
+    {"key": "disciplines", "label": "Disciplines", "value": "Muay Thai, Western boxing and conditioning", "quote": "he teaches both traditional Muay Thai and international boxing"},
+    {"key": "sparring", "label": "Sparring", "value": "Sparring is optional and supervised", "quote": "No, sparring is not mandatory."},
+    {"key": "location_note", "label": "Location", "value": "Choeng Thale, Thalang District, Phuket", "quote": "13/52 al.4, Choeng Thale, Thalang District, Phuket 83110, Thailand"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "summary": "Beginner-focused martial arts camp near Pattaya offering all-inclusive Muay Thai, Western boxing, weight loss and self defence programs with on-site resort accommodation and meals.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "course_length", "label": "Stay length", "value": "On-site stays from one week to six months or more", "quote": "Stay on-site with meals and accommodation from one week to six month or more."},
+    {"key": "accommodation", "label": "Accommodation", "value": "On-site rooms in a resort setup with daily meals", "quote": "Accommodation options on-site in a resort setup"},
+    {"key": "levels", "label": "Levels", "value": "Beginners and intermediates", "quote": "Martial Arts Camp in Thailand for Beginners and Intermediates"},
+    {"key": "founded", "label": "Founder", "value": "Founded by Christian Daghio", "quote": "Christian Daghio &#8211; The Camp Founder"},
+    {"key": "programs", "label": "Programs", "value": "Muay Thai, Western boxing, weight loss and self defence programs", "quote": "Structured Boxing, Muay Thai, and Weight Loss programs with coach-led sessions"},
+    {"key": "open_all_year", "label": "Season", "value": "Open all year", "quote": "Open all year!"}
+  ]
+}

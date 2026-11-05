@@ -1,0 +1,13 @@
+{
+  "summary": "Chiangmai Muay Thai Gym offers group and private Muay Thai training, beginner, fighter and Kru Muay instructor programs, and ED, DTV and retirement visa support.",
+  "price_from_thb": 390,
+  "facts": [
+    {"key": "price_session", "label": "Group class", "value": "390 baht per person", "quote": "Regular Group Training Classes 390 B/Person"},
+    {"key": "price_session", "label": "Private training", "value": "1,000 baht for 1 hour, 1 person", "quote": "Private Trainig 1,000B for 1 Hr 1 person"},
+    {"key": "ed_visa", "label": "ED visa", "value": "Muay Thai ED visa for 6 months to 1 year at 28,000 to 36,000 baht", "quote": "ED Visa ( Education Visa) 6 Month - 1 Year 28,000-36,000B"},
+    {"key": "ed_visa", "label": "ED visa attendance", "value": "No minimum class attendance required", "quote": "No minimum class attendance is required."},
+    {"key": "dtv_support", "label": "DTV", "value": "DTV support for 6 months to 1 year at 28,000 to 36,000 baht", "quote": "DTV ( Destination Thailand Visa ) 6 Month - 1 Year 28,000-36,000B"},
+    {"key": "retirement_visa", "label": "Retirement visa", "value": "36,000 baht per year", "quote": "Retirement VISA 36,000 B/Year"},
+    {"key": "levels", "label": "Programs", "value": "Beginner, fighter and weight cut programs", "quote": "– Beginner Program – Fighter Program – Weight Cut Program"}
+  ]
+}

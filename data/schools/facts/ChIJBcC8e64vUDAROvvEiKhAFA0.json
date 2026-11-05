@@ -1,0 +1,13 @@
+{
+  "summary": "Visa and immigration consultancy in Phuket handling visa extensions, retirement, marriage and dependent visas, 90-day reports, work permits, company setup, bank accounts and driving licences.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "founded", "label": "Founded", "value": "Operating since 2004", "quote": "with reliability since 2004"},
+    {"key": "retirement_visa", "label": "Retirement visa", "value": "Retirement visa (Non O)", "quote": "such as a Retirement Visa (non-O)"},
+    {"key": "marriage_visa", "label": "Marriage visa", "value": "Thai marriage visa", "quote": "such as a Thai marriage Visa"},
+    {"key": "report_90_day", "label": "90-day report", "value": "90-day report service", "quote": "We also provide a 90-day report service"},
+    {"key": "fee_terms", "label": "Fee terms", "value": "No win, no fee service", "quote": "Our Thai visa agency offers a no-win-no fee service."},
+    {"key": "work_permit", "label": "Work permit", "value": "Company setup, work permits and Thai bank accounts", "quote": "Our Service contains Company Setup , Work Permits , Visa and Immigration Services & Opening a Thai Bank Account"},
+    {"key": "location_note", "label": "Location", "value": "28/118 Luang Pho Sham Rd, Vichit, Phuket", "quote": "28/118 Luang Pho Sham Rd. T.Vichit"}
+  ]
+}

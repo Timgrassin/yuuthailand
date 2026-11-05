@@ -1,0 +1,9 @@
+{
+  "summary": "Yak Siam Muaythai Gym is a Muay Thai gym in Chiang Mai near Nimman offering beginner, intermediate, private and kids classes and monthly class packages.",
+  "price_from_thb": 390,
+  "facts": [
+    {"key": "price_session", "label": "Group class", "value": "390 THB per class", "quote": "390 THB / class"},
+    {"key": "price_session", "label": "Private class", "value": "800 THB per 60 minute one to one class", "quote": "800 THB / class"},
+    {"key": "price_month", "label": "Monthly package", "value": "10-class monthly membership", "quote": "10-Class Monthly Membership"}
+  ]
+}

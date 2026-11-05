@@ -1,0 +1,12 @@
+{
+  "summary": "Vera Visa Agency is a visa agent in Chiang Mai handling DTV, education, marriage, retirement, guardian and business visas, plus extensions and 90-day reports.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "dtv_support", "label": "DTV", "value": "Handles Destination Thailand Visa applications", "quote": "Five-year, multiple-entry visa for remote workers and freelancers."},
+    {"key": "ed_visa", "label": "ED visa", "value": "Handles education visas for students at language schools, universities or training programs", "quote": "For students enrolled in Thai language schools, universities, or training programs."},
+    {"key": "retirement_visa", "label": "Retirement visa", "value": "Retirement visas for applicants aged 50 and over", "quote": "For applicants aged 50 and over, with a clear path to annual renewal."},
+    {"key": "free_consultation", "label": "Consultation", "value": "Free eligibility assessment over WhatsApp", "quote": "A free WhatsApp consultation to confirm the right visa for your situation and timeline."},
+    {"key": "ongoing_support", "label": "After approval", "value": "Handles extensions, 90-day reports and re-entry permits", "quote": "handling extensions, 90-day reports, and re-entry permits"},
+    {"key": "location_note", "label": "Location", "value": "Room 215, Icon Park Hotel, Manee Nopparat Rd, Chiang Mai", "quote": "2F, Room 215 Icon Park Hotel"}
+  ]
+}

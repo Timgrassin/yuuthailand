@@ -1,0 +1,12 @@
+{
+  "summary": "British Learning Centre offers British National Curriculum tuition, IGCSE, A-Level, IELTS and English courses, one-to-one or in small groups, at centres in Pattaya and Bangkok and online.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "licence", "label": "Licence", "value": "Accredited by the Ministry of Education, Thailand", "quote": "Accredited by the Ministry of Education, Thailand"},
+    {"key": "founded", "label": "Founded", "value": "2020", "quote": "Est. 2020 · Pattaya · Bangkok · Online"},
+    {"key": "levels", "label": "Levels", "value": "Primary through IGCSE, A-Level and IELTS", "quote": "from primary through IGCSE, A-Level and IELTS, in Pattaya, Bangkok and online"},
+    {"key": "class_size", "label": "Class format", "value": "One-to-one and small-group tuition", "quote": "One-to-one and small-group tuition, tailored to each learner."},
+    {"key": "trainers", "label": "Teachers", "value": "Certified native-speaking teachers", "quote": "Certified native-speaking teachers"},
+    {"key": "location_note", "label": "Pattaya centre", "value": "Padtanakan 1, Nong Prue, Bang Lamung", "quote": "79/17 Padtanakan 1, Nong Prue, Bang Lamung, Chonburi 20150."}
+  ]
+}

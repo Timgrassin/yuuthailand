@@ -1,0 +1,11 @@
+{
+  "summary": "Pattaya agency running scheduled minivan border runs to the Laos border at Mukdahan and offering ED visa service.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "visa_run", "label": "Border run", "value": "Minivan border runs to Mukdahan at the Laos border on Sundays and Wednesdays", "quote": "We go to Mukdahan city at Laos border every Sun. & Wed."},
+    {"key": "price_border_run", "label": "Border run price", "value": "8000 THB for a 30-day stamp", "quote": "Price: 8000 THB ($245) for a 30-day stamp."},
+    {"key": "ed_visa", "label": "ED visa", "value": "Offers ED visa service", "quote": "BORDER-RUN & ED visa service"},
+    {"key": "deposit", "label": "Deposit", "value": "Minimum deposit of 5000 THB, balance paid in the van", "quote": "Minimum deposit payment is 5000 THB and remaining pay on sitting in the van."},
+    {"key": "non_b_laos", "label": "Non-B in Laos", "value": "Non-B visa applications in Laos for Indian and Chinese passport holders, 18 000 THB", "quote": "You can apply for a NON-B visa in LAOS since August 1 st 2026. Price: 18 000 THB"}
+  ]
+}

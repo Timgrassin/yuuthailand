@@ -1,0 +1,24 @@
+{
+  "summary": "Infinity Accounting & Legal is a Bophut, Koh Samui firm offering company registration, visa and work permit assistance, accounting, tax and licensing.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Visas",
+      "value": "Help with visas and work permits",
+      "quote": "Stay legal and stress-free with help securing visas and work permits."
+    },
+    {
+      "key": "company_registration",
+      "label": "Company registration",
+      "value": "Thai company setup including BOI, FBL, FBC or Treaty",
+      "quote": "Set up your Thai company for Foreign Business and BOI, FBL, FBC or TREATY"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "108/14, Bo Put, Koh Samui",
+      "quote": "108/14, Bo Put, Koh Samui, Surat Thani, 84320"
+    }
+  ]
+}

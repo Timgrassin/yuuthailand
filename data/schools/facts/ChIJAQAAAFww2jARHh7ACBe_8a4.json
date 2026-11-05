@@ -1,0 +1,10 @@
+{
+  "summary": "Assist Thai Visa Service is a Chiang Mai visa agency handling retirement, marriage, business, ED visas, 90-day reporting, re-entry permits and accounting services.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "founded", "label": "Founded", "value": "Operating in Chiang Mai since 2008", "quote": "helping it’s clients obtain their Thai Visas in Chiang Mai, since 2008"},
+    {"key": "ed_visa", "label": "ED visa", "value": "Works with a range of schools, prepares paperwork and organises extensions", "quote": "We work with a range of different schools and offer a comprehensive service. Where we not only prepare all your paperwork, but we also organise all of your extensions"},
+    {"key": "retirement_visa", "label": "Retirement visa", "value": "Assists with retirement visas", "quote": "Are you thinking of retiring to Thailand?"},
+    {"key": "location_note", "label": "Location", "value": "Chiang Mai Land Road, Chang Klan, Chiang Mai", "quote": "410/4-5 Chiang Mai Land Road,"}
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "summary": "Thailand Expat Language School near Krabi town teaches Thai in 12, 24 and 48 week courses online or onsite and helps students obtain an education visa.",
+  "price_from_thb": 9800,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Level 1 group",
+      "value": "9,800 THB for 12 weeks, ED visa not included",
+      "quote": "Group Lessons: 9,800 THB(ED VISA Not Included)"
+    },
+    {
+      "key": "price_course",
+      "label": "Level 1 private",
+      "value": "15,600 THB for private lessons",
+      "quote": "Private Lessons: 15,600 THB"
+    },
+    {
+      "key": "course_length",
+      "label": "Course length",
+      "value": "12, 24 and 48 week levels",
+      "quote": "48 week classes"
+    },
+    {
+      "key": "licence",
+      "label": "Licence",
+      "value": "Certificates endorsed by the Ministry of Education",
+      "quote": "endorsed by the Ministry of Education"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Students can obtain an education visa",
+      "quote": "students can obtain education visa with us"
+    },
+    {
+      "key": "ed_visa",
+      "label": "In-country change",
+      "value": "Visa exemption or TR visa can be changed to ED visa, up to 30 days",
+      "quote": "you can change your visa exemptions, and 60 day TR visa to ED visa. The whole process takes up to 30 days."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "298/1 Moo 3, Sai Thai, Mueang Krabi",
+      "quote": "298/1 moo-3 , sai Thai Krabi 81000"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "New Language School teaches Thai, English and Chinese in Bophut, Koh Samui, with programs for all levels.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Thai, English and Chinese",
+      "quote": "Learn Thai, English & Chinese in Koh Samui"
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "2013",
+      "quote": "Founded in 2013, the school was brought to life"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Programs for all levels",
+      "quote": "Flexible programs for all levels."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "123/152 Moo 1, Bophut, Samui",
+      "quote": "123/152 Moo 1, Bophut, Samui"
+    }
+  ]
+}

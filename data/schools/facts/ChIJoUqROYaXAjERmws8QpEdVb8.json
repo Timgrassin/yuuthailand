@@ -1,0 +1,14 @@
+{
+  "summary": "Visa agency in Nong Prue, Pattaya handling retirement, marriage, education and DTV visas, extensions, border runs, airport fast track, 90-day reports, bank accounts and driving licences.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "founded", "label": "Founded", "value": "Experience since 2005", "quote": "THAILAND'S TRUSTED VISA AGENCY WITH EXPERIENCE SINCE 2005"},
+    {"key": "ed_visa", "label": "ED visa", "value": "Education visa with 3, 12 or 15-month options for ages 14 to 49", "quote": "3, 12, or 15-month options. The perfect solution for foreigners aged 14–49"},
+    {"key": "dtv_support", "label": "DTV", "value": "DTV visa support, including Muay Thai or Thai cooking soft power activities", "quote": "I'm interested in a DTV visa (Freelancer / Muay Thai or Thai cooking)"},
+    {"key": "retirement_visa", "label": "Retirement visa", "value": "Non O retirement visa for ages 50 and over", "quote": "The most popular choice for expats aged 50 and over."},
+    {"key": "price_90_day", "label": "90-day report", "value": "90-day report service from 500 THB", "quote": "From 500 THB — we submit it for you."},
+    {"key": "price_residence_cert", "label": "Residence certificate", "value": "1,500 THB", "quote": "→ 1,500 THB · Quick turnaround"},
+    {"key": "fee_terms", "label": "Guarantee", "value": "Service fee refunded if the visa cannot be obtained", "quote": "We refund our service fee if we cannot obtain your visa."},
+    {"key": "hours", "label": "Hours", "value": "Mon to Fri 9:30 to 17:00, Sat 10:00 to 16:00", "quote": "Mon–Fri 9:30–17:00 | Sat 10:00–16:00"}
+  ]
+}

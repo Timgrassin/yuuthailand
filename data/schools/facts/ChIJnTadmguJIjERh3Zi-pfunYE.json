@@ -1,0 +1,36 @@
+{
+  "summary": "Thai Law and Accounting Services is a Khon Kaen accounting firm offering company setup, BOI, bookkeeping, tax, payroll and visa and work permit paperwork for foreign-owned businesses.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Visa and work permits",
+      "value": "English-speaking desk handles visa and work permit paperwork for foreign-owned companies",
+      "quote": "Our English-speaking desk handles accounting, tax, payroll and the official filings foreign-owned companies need"
+    },
+    {
+      "key": "work_permits",
+      "label": "Work permits",
+      "value": "Corporate setup, BOI, FBL and work permits",
+      "quote": "Full-scope corporate setup, BOI promotion, Foreign Business Licenses (FBL), work permits, bilingual bookkeeping, and cross-border tax compliance across Thailand."
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Incorporated 1 April 2021",
+      "quote": "Date of incorporation 1 April 2021"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Head office on Na Mueang Road, Khon Kaen, with a Bangkok branch",
+      "quote": "Our head office is at 680/45 Na Mueang Road, Khon Kaen, with a Bangkok branch on Soi Lat Phrao 95."
+    },
+    {
+      "key": "offices",
+      "label": "Offices",
+      "value": "Offices in Khon Kaen, Bangkok, Udon Thani and Nong Khai",
+      "quote": "We operate 4 offices: Khon Kaen (head office), Bangkok, Udon Thani, and Nong Khai, serving clients nationwide."
+    }
+  ]
+}

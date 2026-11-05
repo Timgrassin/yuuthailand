@@ -1,0 +1,54 @@
+{
+  "summary": "Koh Samui Language and Vocational School in Maenam teaches Thai and English courses for adults and children and offers education visa packages.",
+  "price_from_thb": 15000,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "2003",
+      "quote": "founded back in 2003"
+    },
+    {
+      "key": "licence",
+      "label": "Licence",
+      "value": "Language and Vocational School License; Ministry of Education Quality School Award three times",
+      "quote": "having just been granted our Language and Vocational School License"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Assists with non-immigrant ED visas",
+      "quote": "we can assist you in obtaining an Education Visa"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Hours per week",
+      "value": "8 hours per week, 4 days per week",
+      "quote": "8 hours per week\n 4 days per week"
+    },
+    {
+      "key": "price_course",
+      "label": "Thai ED visa course",
+      "value": "3 months, 120 hours for 15,000 baht",
+      "quote": "15,000฿\n 120 hours"
+    },
+    {
+      "key": "price_course",
+      "label": "Thai one year plus",
+      "value": "15 months, 460 hours for 35,000 baht",
+      "quote": "35,000฿\n 460 hours"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Thai and English",
+      "quote": "We offer up-to-date and affordable language courses in Thai and English"
+    },
+    {
+      "key": "hours",
+      "label": "Opening hours",
+      "value": "Monday to Friday 8am to 6pm, Saturday 8am to 4pm",
+      "quote": "Monday to Friday 8am to 6pm. Saturday 8am to 4pm."
+    }
+  ]
+}

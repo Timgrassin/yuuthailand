@@ -1,0 +1,12 @@
+{
+  "summary": "Muay Thai Fever is a Muay Thai gym in Suthep, Chiang Mai, offering group and private classes, rooms to stay and train, and DTV application support.",
+  "price_from_thb": 400,
+  "facts": [
+    {"key": "price_session", "label": "Session price", "value": "Group classes from 400 THB, private from 700 THB", "quote": "Group classes start @400THB, Private @700THB."},
+    {"key": "dtv_support", "label": "DTV", "value": "Sends an invitation letter and certificates for a DTV application after training is paid", "quote": "Pay for your training, and we will send you an invitation letter and all required certificates for your application at your local embassy."},
+    {"key": "trainers", "label": "Coaches", "value": "Coaching team holds 4 Lumpinee, 2 Thailand and 4 Northern Thailand titles", "quote": "Our coaching team boasts 4 Lumpinee titles, 2 Thailand titles and 4 Northern Thailand titles"},
+    {"key": "levels", "label": "Levels", "value": "Complete beginners to professional fighters", "quote": "From complete beginners to professional fighters"},
+    {"key": "training_sessions", "label": "Drop-in", "value": "Daily training accepted without a membership", "quote": "We accept daily training"},
+    {"key": "location_note", "label": "Location", "value": "At the Almag Sports Complex, Suthep, Chiang Mai", "quote": "Located at The Almag Sports Complex"}
+  ]
+}

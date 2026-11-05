@@ -1,0 +1,36 @@
+{
+  "summary": "Solutions Thailand is a relocation company on Koh Samui handling visas, health insurance advice, property, tax ID, company registration, accounting and driving licences, working remotely.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "DTV visa, including for Muay Thai or cooking",
+      "quote": "DTV for Muay Thai or cooking"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Education visa service",
+      "quote": "A language, a dive course on Koh Tao, Muay Thai or Thai cooking. Learning is a reason to stay."
+    },
+    {
+      "key": "services",
+      "label": "Services",
+      "value": "Visas, insurance advice, property, tax ID, company registration, accounting, driving licences",
+      "quote": "Our 30+ professionals across 5 specialised departments handle visas, health insurance advice, property, tax ID, company registration, accounting and local services such as driving licences."
+    },
+    {
+      "key": "remote",
+      "label": "Remote service",
+      "value": "Works remotely, anywhere in Thailand or from abroad",
+      "quote": "We work remotely, so we can help you anywhere in Thailand, or from abroad before you move."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "16/15 Moo 6, Maret, Koh Samui",
+      "quote": "16/15 Moo 6, Maret, Koh Samui, Surat Thani"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "Lesson Learned Thailand is a relocation concierge offering long-stay visa applications, long-term rentals in Bangkok and Pattaya and door-to-door moving support.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Visa services",
+      "value": "Long-stay visa applications including LTR and Elite, plus 90-day reporting",
+      "quote": "Long-stay visa applications including LTR and Elite, end-to-end. We handle documents, embassies, and 90-day reporting."
+    },
+    {
+      "key": "accommodation",
+      "label": "Rentals",
+      "value": "Portfolio of long-term rentals in Bangkok and Pattaya",
+      "quote": "A private portfolio of long-term rentals in Bangkok and Pattaya."
+    },
+    {
+      "key": "relocation",
+      "label": "Relocation",
+      "value": "Shipping, transfers, banking and health insurance",
+      "quote": "Shipping, transfers, banking, health insurance."
+    },
+    {
+      "key": "free_consultation",
+      "label": "Consultation",
+      "value": "Free consultation offered",
+      "quote": "Contact for free consultation"
+    }
+  ]
+}

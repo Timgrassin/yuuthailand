@@ -1,0 +1,14 @@
+{
+  "summary": "Muay Thai stay and train camp on Thepprasit Road, Pattaya with passes from a single session to three months, covering Muay Thai, boxing, MMA, strength training, pool, sauna and ice bath.",
+  "price_from_thb": 700,
+  "facts": [
+    {"key": "price_session", "label": "Single session", "value": "700 THB per day", "quote": "Single Session Pass - 700 THB/day (choose morning or afternoon)"},
+    {"key": "price_month", "label": "Monthly pass", "value": "16,000 THB for 24 training days", "quote": "1 Month Pass (24 days) - 16,000 THB"},
+    {"key": "price_course", "label": "3 month pass", "value": "42,000 THB for 72 training days", "quote": "3 Month Pass (72 days) - 42,000 THB"},
+    {"key": "training_sessions", "label": "Training days", "value": "6 days a week, closed Sundays", "quote": "We train 6 days a week, and are closed on Sundays."},
+    {"key": "trainers", "label": "Head trainers", "value": "Head trainers include Namsaknoi and former Lumpinee champion Kaolan", "quote": "Our head trainers include Namsaknoi"},
+    {"key": "accommodation", "label": "Accommodation", "value": "On-site accommodation", "quote": "We provide ample parking, on-site accommodation, and a safe environment"},
+    {"key": "levels", "label": "Levels", "value": "Complete beginners to professional fighters", "quote": "from complete beginners to professional fighters"},
+    {"key": "location_note", "label": "Location", "value": "Thepprasit Rd, Bang Lamung District, Pattaya", "quote": "Pattaya City, Thepprasit Rd., Bang Lamung District, Chon Buri 20150, Thailand"}
+  ]
+}

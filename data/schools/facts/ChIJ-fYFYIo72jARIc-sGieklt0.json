@@ -1,0 +1,12 @@
+{
+  "summary": "Thai Teacher Chiang Mai is a private Thai language teaching service offering private lessons, intensive courses and half-day holiday courses in Chiang Mai and online.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "course_length", "label": "Intensive courses", "value": "Intensive courses of 2 days and 5 days", "quote": "Intensive Thai language courses available 2 days and 5 days"},
+    {"key": "class_size", "label": "Class format", "value": "One on one tutoring, with couples and small private groups on request", "quote": "Couples and small private group classes can also be made available by request."},
+    {"key": "levels", "label": "Levels", "value": "All levels", "quote": "Private Thai Language Course in Chiang Mai for all Levels"},
+    {"key": "languages_taught", "label": "Northern Thai", "value": "Northern Thai offered to advanced students", "quote": "More advanced students have the opportunity to learn the Northern Thai language as well"},
+    {"key": "trainers", "label": "Teacher", "value": "Founder Kru Salad has over 25 years of experience teaching Thai to foreigners", "quote": "with over 25 years of experience teaching Thai to foreign students"},
+    {"key": "ed_visa", "label": "ED visa", "value": "Does not issue Thai Education Visas", "quote": "Apologies but we cannot facilitate or issue Thai Education Visas"}
+  ]
+}

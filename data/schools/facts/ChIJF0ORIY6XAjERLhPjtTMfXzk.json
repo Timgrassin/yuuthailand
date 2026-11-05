@@ -1,0 +1,8 @@
+{
+  "summary": "Visa Experts (ECS Co., Ltd.) offers visa and immigration advice in Thailand through one-on-one sessions with an advisor.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "staff", "label": "Team", "value": "Immigration advisors, attorneys and former visa officers", "quote": "We’re a friendly team of immigration advisors, attorneys, and former visa officers"},
+    {"key": "consultation", "label": "Consultation", "value": "One-on-one sessions with an advisor can be booked", "quote": "Book a one-on-one session with an advisor"}
+  ]
+}

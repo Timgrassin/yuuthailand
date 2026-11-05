@@ -1,0 +1,42 @@
+{
+  "summary": "Legal Services Hua Hin is a law firm in Hua Hin offering property, litigation, family law, notary and immigration representation services for foreigners.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "2013",
+      "quote": "Founded in 2013, Legal Services Hua Hin operates as a specialized legal practice"
+    },
+    {
+      "key": "immigration_services",
+      "label": "Immigration",
+      "value": "Visa and administrative representation before the Thai Immigration Bureau",
+      "quote": "Immigration Representation: Navigating formal visa structures, financial seasoning compliance, and administrative representation before the Thai Immigration Bureau."
+    },
+    {
+      "key": "elite_visa",
+      "label": "Thailand Elite",
+      "value": "Lists itself as an official Thailand Elite Visa agent",
+      "quote": "Official Thailand Elite Visa Agent"
+    },
+    {
+      "key": "free_consultation",
+      "label": "Consultation",
+      "value": "Free initial consultation",
+      "quote": "Explore your options with a free initial consultation."
+    },
+    {
+      "key": "languages",
+      "label": "Languages",
+      "value": "Thai and English",
+      "quote": "dual-language (Thai/English)"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Units 1 and 2, Makro Food Services, Soi 4, Hua Hin",
+      "quote": "Makro Food Services"
+    }
+  ]
+}

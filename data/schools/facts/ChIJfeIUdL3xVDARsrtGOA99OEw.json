@@ -1,0 +1,42 @@
+{
+  "summary": "Superpro Samui is a Koh Samui training resort offering Muay Thai, BJJ, MMA, Judo and HYROX classes with on-site rooms that include a training membership.",
+  "price_from_thb": 500,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Drop-in",
+      "value": "500 THB per drop-in class",
+      "quote": "Drop-in class 500 THB"
+    },
+    {
+      "key": "price_course",
+      "label": "Muay Thai week",
+      "value": "2,500 THB for a Muay Thai week",
+      "quote": "Muay Thai week 2,500 THB"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Rooms from 700 THB per night with a Platinum training membership included",
+      "quote": "Rooms from 700 THB/night Platinum training membership included"
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "2006",
+      "quote": "Established 2006"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Schedule",
+      "value": "Classes Monday to Saturday",
+      "quote": "Mon – Sat"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "48/10 Moo 3, Koh Samui",
+      "quote": "48/10 Moo 3, Koh Samui, Surat Thani 84320"
+    }
+  ]
+}

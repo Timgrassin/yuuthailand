@@ -1,0 +1,11 @@
+{
+  "summary": "Hua Hin Visa Services is a Hua Hin agency handling Thai visas, retirement visa renewals, visa runs, passport renewals, Yellow House Book and Pink ID applications and insurance.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "founded", "label": "Founded", "value": "Since 2017", "quote": "Since 2017, Hua Hin Visa Services has been helping clients with all types of Thai visas"},
+    {"key": "price_service", "label": "15-month retirement visa", "value": "56,000 THB", "quote": "15 months retirement visa 56,000 THB"},
+    {"key": "price_service", "label": "Retirement visa renewal", "value": "21,000 THB for a 1 year renewal", "quote": "Renew 1 year retirement visa 21,000 THB"},
+    {"key": "yellow_book", "label": "Yellow House Book", "value": "Assists with Yellow House Book and Pink ID Card applications", "quote": "we also assist with applying for the Yellow House Book (Tabien Baan Leuang) and the Pink ID Card"},
+    {"key": "location_note", "label": "Location", "value": "Soi Hua Hin 94, Hua Hin", "quote": "250/115-116 Soi HuaHin 94, HuaHin"}
+  ]
+}

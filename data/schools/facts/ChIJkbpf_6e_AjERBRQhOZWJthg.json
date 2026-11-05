@@ -1,0 +1,13 @@
+{
+  "summary": "Traditional Muay Thai gym in Pattaya run by Sudsakorn Klinmee, offering daily, weekly and monthly training for beginners, fighters and weight loss.",
+  "price_from_thb": 400,
+  "facts": [
+    {"key": "trainers", "label": "Head of gym", "value": "Gym of Sudsakorn Klinmee", "quote": "This is the gym of SUDSAKORN KLINMEE"},
+    {"key": "training_sessions", "label": "Session times", "value": "Monday to Saturday, 08:00 to 11:00 and 16:00 to 19:00", "quote": "Monday - Saturday\n 08:00 - 11:00\n 16:00 - 19:00"},
+    {"key": "price_session", "label": "Day price", "value": "400 baht for one session a day", "quote": "Daily / 1 session per day - 400 BAHT"},
+    {"key": "price_week", "label": "Weekly price", "value": "1800 baht for one session a day, 3000 baht for two", "quote": "Weekly / 1 session per day - 1800 BAHT"},
+    {"key": "price_month", "label": "Monthly price", "value": "6000 baht for one session a day", "quote": "Monthly / 1 session per day - 6000 BAHT"},
+    {"key": "price_month", "label": "Monthly price, 2 sessions", "value": "9000 baht for two sessions a day", "quote": "Monthly / 2 sessions per day - 9000 BAHT"},
+    {"key": "levels", "label": "Levels", "value": "Beginner friendly, plus fighter programs", "quote": "Beginner friendly: discover the culture of Muay Thai"}
+  ]
+}

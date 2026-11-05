@@ -1,0 +1,11 @@
+{
+  "summary": "HH Premium Visa Consulting is a Chiang Mai visa agency assisting with Thailand Privilege (Elite), LTR and retirement visas and related paperwork.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "privilege_visa", "label": "Privilege visa fees", "value": "No extra agency fee; the agency is paid commission by Thailand Privilege", "quote": "There are no additional fees to work with us (we receive commission from Thailand Privilege)"},
+    {"key": "price_course", "label": "Privilege packages", "value": "Privilege packages start at 650,000 THB for 5 years", "quote": "Packages start at 5 years for 650,000 THB / $20,000 USD"},
+    {"key": "retirement_visa", "label": "Retirement visa", "value": "Retirement visa assistance only once you are in Thailand", "quote": "We only provide retirement visa assistance once you're already in Thailand."},
+    {"key": "location_note", "label": "Location", "value": "Based in Chiang Mai, Elite visa assistance done online nationwide", "quote": "We are based in Chiang Mai but we offer Elite visa assistance throughout Thailand."},
+    {"key": "extensions", "label": "Reporting", "value": "Handles extensions, residency certificates, TM30 and 90-day reporting", "quote": "handles essential government documents such as visa extensions, Residency Certificates, TM30s, and 90-day reporting"}
+  ]
+}

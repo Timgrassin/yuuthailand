@@ -1,0 +1,11 @@
+{
+  "summary": "Hand to Hand Combat is a self-defense school in Chiang Mai that offers a 12-month education visa program with weekend classes.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "ed_visa", "label": "ED visa", "value": "12-month ED visa course without leaving Thailand, 90-day reporting included", "quote": "12-month ED visa 90-day reporting included"},
+    {"key": "price_course", "label": "ED visa course price", "value": "34,500 BHT", "quote": "Only 34,500 BHT"},
+    {"key": "training_sessions", "label": "Schedule", "value": "Classes held only on weekends, a few hours a day", "quote": "Our classes are held only on weekends, for just a few hours a day"},
+    {"key": "trainers", "label": "Trainers", "value": "Thai Military Police instructors", "quote": "You will be trained by a team of Thai Military Police instructors under the direction of an elite VIP bodyguard."},
+    {"key": "location_note", "label": "Location", "value": "Rat Uthit 5 Alley, Wat Ket, Chiang Mai", "quote": "63/15 Rat Uthit 5 Alley, Wat Ket, Mueang Chiang Mai District, Chiang Mai 50000"}
+  ]
+}

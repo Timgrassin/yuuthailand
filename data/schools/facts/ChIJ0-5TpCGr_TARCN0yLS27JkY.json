@@ -1,0 +1,10 @@
+{
+  "summary": "Anna Visa Services is a Hua Hin visa agency assisting with education, marriage, retirement and long-stay visas, extensions, work permits and driving licences.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "ed_visa", "label": "ED visa", "value": "Assists with education visas and language school applications", "quote": "Language School Applications"},
+    {"key": "free_consultation", "label": "Consultation", "value": "Free consultation offered", "quote": "Free Consultation"},
+    {"key": "service_scope", "label": "Support", "value": "Team assists from paperwork to the bank and the immigration office", "quote": "from making the necessary papers, to the bank, and to the Immigration office"},
+    {"key": "location_note", "label": "Location", "value": "Immigration consulting in Hua Hin", "quote": "Consulting In Hua Hin."}
+  ]
+}

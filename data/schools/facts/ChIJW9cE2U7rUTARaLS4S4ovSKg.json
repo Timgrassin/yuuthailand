@@ -1,0 +1,11 @@
+{
+  "summary": "Over The Top is a gym in Ao Nang, Krabi offering Muay Thai, MMA and Brazilian Jiu-Jitsu training, with drop-in sessions and weekly passes.",
+  "price_from_thb": 250,
+  "facts": [
+    {"key": "price_session", "label": "Session price", "value": "From 250 baht per session", "quote": "Train from ฿250 / session"},
+    {"key": "levels", "label": "Levels", "value": "Beginners, intermediate students, fighters and fitness travelers", "quote": "offers authentic training for beginners, intermediate students, fighters, and fitness travelers"},
+    {"key": "trainers", "label": "Trainers", "value": "Thai coaches", "quote": "Train Muay Thai in Krabi with professional Thai coaches in Ao Nang."},
+    {"key": "training_sessions", "label": "Disciplines", "value": "Muay Thai, MMA and Brazilian Jiu-Jitsu", "quote": "Muay Thai, MMA & BJJ in Ao Nang, Krabi"},
+    {"key": "location_note", "label": "Location", "value": "Ao Nang, Krabi 81180", "quote": "Ao Nang, Krabi 81180, Thailand"}
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "summary": "Mind Your Language Thailand is a language school in Bophut, Koh Samui teaching Thai, English and Italian, with a 2-week Thai intensive and ED and DTV visa support options.",
+  "price_from_thb": 17900,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "2-week Thai intensive",
+      "value": "17,900 THB per course",
+      "quote": "Course fee: 17,900 THB per course."
+    },
+    {
+      "key": "course_length",
+      "label": "Course length",
+      "value": "2 weeks, 4 hours a day, Monday to Friday",
+      "quote": "Duration : 2 weeks; 4 hours a day; 5 days a week, from Monday to Friday"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Maximum 10 students per class",
+      "quote": "Max . 10 students per class"
+    },
+    {
+      "key": "licence",
+      "label": "Licence",
+      "value": "Ministry of Education approved (2011)",
+      "quote": "Ministry of Education Approved (2011)"
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "2001",
+      "quote": "Founded in 2001"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "2-week Thai intensive with a DTV visa support option",
+      "quote": "2-WEEK THAI INTENSIVE WITH DTV VISA SUPPORT OPTION"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "On request",
+      "quote": "Accommodation : on request."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Bophut Beach, Koh Samui",
+      "quote": "BOPHUT BEACH, KOH SAMUI"
+    }
+  ]
+}

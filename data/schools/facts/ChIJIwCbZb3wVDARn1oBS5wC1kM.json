@@ -1,0 +1,48 @@
+{
+  "summary": "Koh Samui Language & Vocational School near Mae Nam teaches Thai and English to adults and children and assists students with Education visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "2003",
+      "quote": "founded back in 2003"
+    },
+    {
+      "key": "licence",
+      "label": "Licence",
+      "value": "Language and Vocational School License, Ministry of Education Quality School Award three times",
+      "quote": "having just been granted our Language and Vocational School License"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Courses of more than 8 hours per week qualify for an Education visa",
+      "quote": "which entail more than 8 hours per week of study, you automatically qualify for an Education Visa"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Thai and English",
+      "quote": "We offer up-to-date and affordable language courses in Thai and English"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Adult class times",
+      "value": "Weekdays 10am to 12pm and 1pm to 3pm",
+      "quote": "From 10am to 12pm and 1pm to 3pm weekdays."
+    },
+    {
+      "key": "hours",
+      "label": "Opening hours",
+      "value": "Mon to Fri 8am to 6pm, Sat 8am to 4pm",
+      "quote": "Monday to Friday 8am to 6pm. Saturday 8am to 4pm."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Central north coast of Koh Samui, near Mae Nam",
+      "quote": "Located on the central north coast of Koh Samui, near Mae Nam."
+    }
+  ]
+}

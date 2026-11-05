@@ -1,0 +1,42 @@
+{
+  "summary": "Dowden Muay Thai is a gym in Choeng Mon, Koh Samui offering group and private Muay Thai classes with daily, weekly and monthly memberships, and DTV visa services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "Government-approved DTV full service provider",
+      "quote": "Dowden Muay Thai is now a government-approved Destination Thailand Visa (DTV) full service provider!"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All skill levels, beginners to advanced",
+      "quote": "designed for all skill levels, from beginners to advanced fighters"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Sessions",
+      "value": "Group and private classes",
+      "quote": "In addition to group classes, we offer private classes"
+    },
+    {
+      "key": "price_month",
+      "label": "Memberships",
+      "value": "Daily, weekly and monthly memberships",
+      "quote": "Daily, Weekly and Monthly Memberships"
+    },
+    {
+      "key": "hours",
+      "label": "Opening hours",
+      "value": "Mon to Sat 7am to 8pm, Sunday private classes only",
+      "quote": "Mon-Sat: 7AM to 8PM"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "88/99 Moo 5 Choeng Mon, Bophut, Koh Samui",
+      "quote": "88/99 Moo 5 Choeng Mon, Bophut, Koh Samui"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "Elite Fight Center on Koh Samui offers Muay Thai, MMA, Brazilian Jiu-Jitsu, HYROX and functional training, with classes and private sessions.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "January 2025",
+      "quote": "Elite Fight Center opened its doors in January 2025"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Muay Thai for all levels",
+      "quote": "We offer all levels."
+    },
+    {
+      "key": "training_sessions",
+      "label": "Sessions",
+      "value": "Classes and one-on-one personal training",
+      "quote": "We offer both Classes and \n1 on 1 with a personal trainer."
+    }
+  ]
+}

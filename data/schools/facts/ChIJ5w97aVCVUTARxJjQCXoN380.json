@@ -1,0 +1,42 @@
+{
+  "summary": "E.N. Muaythai Gym in Ao Nang, Krabi offers drop-in group Muay Thai classes Monday to Saturday, private training, kids training and fight camps.",
+  "price_from_thb": 400,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Group drop-in",
+      "value": "400 THB, no advance booking",
+      "quote": "Group drop-in 400 THB No advance booking"
+    },
+    {
+      "key": "price_session",
+      "label": "One-day pass",
+      "value": "600 THB for two classes",
+      "quote": "One-day pass \n 600 THB"
+    },
+    {
+      "key": "price_session",
+      "label": "Private for two",
+      "value": "1,200 THB for a one-hour session for two",
+      "quote": "A one-hour private session for two students with one coach is listed at 1,200 THB"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Schedule",
+      "value": "Morning 08:00 to 10:00 and afternoon 16:00 to 18:00, Monday to Saturday",
+      "quote": "Morning class 08:00–10:00 Monday through Saturday"
+    },
+    {
+      "key": "gear",
+      "label": "Gear",
+      "value": "Gloves, wraps and shin guards free to borrow",
+      "quote": "Gloves, hand wraps and shin guards are free to borrow at the gym"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Ao Nang, Krabi",
+      "quote": "Authentic Muay Thai in Ao Nang, Krabi"
+    }
+  ]
+}

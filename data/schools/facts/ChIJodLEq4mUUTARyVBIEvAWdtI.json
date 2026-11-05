@@ -1,0 +1,13 @@
+{
+  "summary": "KMAX is a Muay Thai gym in Krabi Town offering group and private classes for adults and kids, a fitness gym, and Muay Chaiya lessons on request.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "price_session", "label": "Group class price", "value": "17 US dollars per class", "quote": "$17 per class"},
+    {"key": "price_session", "label": "Private session price", "value": "32 US dollars per hour", "quote": "$32 per hour"},
+    {"key": "training_sessions", "label": "Session length", "value": "Every session is one hour", "quote": "Every session is one hour."},
+    {"key": "training_sessions", "label": "Schedule", "value": "Group classes Saturday to Thursday, closed Fridays", "quote": "Group classes run Saturday to Thursday."},
+    {"key": "licence", "label": "Certification", "value": "Certified by the Board of Boxing Sport, Sports Authority of Thailand", "quote": "KMAX Gym is certified by the Board of Boxing Sport, Sports Authority of Thailand, under the Ministry of Tourism and Sports."},
+    {"key": "trainers", "label": "Head trainer", "value": "Kru Rak, former stadium fighter and 67 kg champion", "quote": "Former stadium fighter and 67 kg champion."},
+    {"key": "location_note", "label": "Location", "value": "Krabi Town, about 25 minutes from Ao Nang", "quote": "About 25 minutes from Ao Nang by car or songthaew."}
+  ]
+}

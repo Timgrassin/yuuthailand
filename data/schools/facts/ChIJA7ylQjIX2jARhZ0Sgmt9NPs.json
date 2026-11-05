@@ -1,0 +1,12 @@
+{
+  "summary": "Tiger Muay Thai Chiang Mai is a Muay Thai training camp in San Sai, north of Chiang Mai, with onsite accommodation, a pool, a weight room and yoga classes.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "founded", "label": "Opened", "value": "1 November 2019", "quote": "We commenced operations on 1st November 2019"},
+    {"key": "accommodation", "label": "Accommodation", "value": "Onsite accommodation for 20 or more guests", "quote": "has accommodation for up to 20 or more quests, a swimming pool and weight-room"},
+    {"key": "location_note", "label": "Location", "value": "San Sai, about 24 km north of Chiang Mai city and airport", "quote": "approximately 24 kilometers north of the city and airport"},
+    {"key": "levels", "label": "Levels", "value": "Beginner through advanced", "quote": "provides courses from beginner through advanced levels of Muay Thai"},
+    {"key": "trainers", "label": "Trainer certification", "value": "Trainers certified by the World Muay Thai Alliance Association", "quote": "All Tiger Muay Thai Chiang Mai Trainers now certified by World Muay Thai Alliance Association"},
+    {"key": "trainers", "label": "Trainers", "value": "Trainers are experienced former fighters", "quote": "Our Muay Thai trainers are all extremely experienced former fighters"}
+  ]
+}

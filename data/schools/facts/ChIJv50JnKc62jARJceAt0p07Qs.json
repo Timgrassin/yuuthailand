@@ -1,0 +1,15 @@
+{
+  "summary": "TSL Chiang Mai is a Ministry of Education accredited school at Pantip Plaza teaching Thai, English and Japanese, with one-year ED visa courses and DTV soft-power support.",
+  "price_from_thb": 3600,
+  "facts": [
+    {"key": "licence", "label": "Licence", "value": "Ministry of Education accredited", "quote": "Official MOE-accredited school with ED Visa and DTV support"},
+    {"key": "price_course", "label": "ED visa course", "value": "One-year Thai education visa course 55,000 THB", "quote": "One-Year Education Visa (Thai): 55,000 THB ED Visa Course"},
+    {"key": "price_month", "label": "Group course", "value": "24 hours per month for 3,600 THB, Advanced and Mastery 3,900 THB", "quote": "Group Course (24 hrs/month): 3,600 THB (Advanced/Mastery 3,900 THB )"},
+    {"key": "price_month", "label": "Intensive group course", "value": "72 hours per month for 9,900 THB", "quote": "Intensive Group Course (72 hrs/month): 9,900 THB"},
+    {"key": "price_session", "label": "Private lessons", "value": "30 hours for 15,000 THB at school, 500 THB per hour", "quote": "30 hrs / 15,000 THB (500 THB/hr)"},
+    {"key": "dtv_support", "label": "DTV", "value": "DTV Thai culture and activities soft-power program", "quote": "DTV: Thai Culture & Activities (Soft Power)"},
+    {"key": "levels", "label": "Levels", "value": "20 textbook levels from CEFR A1 to B2, plus Advanced and Mastery C1 to C2", "quote": "Structured textbooks: 20 levels from CEFR A1"},
+    {"key": "languages_taught", "label": "Languages", "value": "Thai, English and Japanese", "quote": "we provide practical Thai, English, and Japanese courses"},
+    {"key": "location_note", "label": "Location", "value": "4th floor of Pantip Plaza near the Night Bazaar", "quote": "Located on the 4th floor of Pantip Plaza , just steps from the Night Bazaar"}
+  ]
+}

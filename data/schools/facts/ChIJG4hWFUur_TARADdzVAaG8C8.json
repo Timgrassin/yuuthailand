@@ -1,0 +1,12 @@
+{
+  "summary": "Hua Hin Muay Thai School is a Muay Thai gym in Hua Hin offering 1 on 1, class and group training with single sessions, packages and monthly memberships.",
+  "price_from_thb": 400,
+  "facts": [
+    {"key": "founded", "label": "Founded", "value": "2017", "quote": "Hua Hin Muay Thai School began its journey in 2017"},
+    {"key": "trainers", "label": "Head coach", "value": "Head coach Kaisuwit has over 20 years of experience", "quote": "Our head coach Kaisuwit, with over 20 years of experience"},
+    {"key": "price_session", "label": "Single session", "value": "400 THB", "quote": "1 single session 400 THB"},
+    {"key": "price_course", "label": "Session packages", "value": "5, 10, 15 or 20 session packages from 1850 THB", "quote": "5, 10, 15 or 20 sessions package from 1850 THB"},
+    {"key": "price_month", "label": "Monthly membership", "value": "From 6000 THB", "quote": "from 6000 THB"},
+    {"key": "levels", "label": "Levels", "value": "Beginners to pro fighters", "quote": "whether you are a beginner or a pro fighter"}
+  ]
+}

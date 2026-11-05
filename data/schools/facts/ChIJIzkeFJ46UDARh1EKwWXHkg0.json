@@ -1,0 +1,13 @@
+{
+  "summary": "Language school with branches in Patong and Robinson Chalong, Phuket offering a Thai language ED visa course, other language courses, TEFL and visa services.",
+  "price_from_thb": 320,
+  "facts": [
+    {"key": "founded", "label": "Founded", "value": "2010", "quote": "Genius was established in 2010"},
+    {"key": "ed_visa", "label": "ED visa", "value": "Thai course with a 1 year education visa included", "quote": "Learn Thai with an Education Visa, valid for 1 year."},
+    {"key": "course_length", "label": "Course length", "value": "100 hour ED visa course", "quote": "Choose a 100 hrs course which works out to be only 320 Baht per hour."},
+    {"key": "price_session", "label": "Hourly price", "value": "320 baht per hour on the 100 hour course", "quote": "only 320 Baht per hour"},
+    {"key": "licence", "label": "Accreditation", "value": "Course is described as official government accredited", "quote": "Our course is an official government accredited course."},
+    {"key": "languages_taught", "label": "Languages", "value": "Thai, English, Chinese, French, German, Russian, Italian and Spanish", "quote": "study English, Chinese, French, German, Russian, Italian or Spanish"},
+    {"key": "location_note", "label": "Locations", "value": "Two schools, in Patong and Robinson Chalong", "quote": "We currently have 2 language schools located in Patong and Robinson Chalong."}
+  ]
+}

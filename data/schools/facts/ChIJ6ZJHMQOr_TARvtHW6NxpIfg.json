@@ -1,0 +1,13 @@
+{
+  "summary": "Hyena Muay Thai is a Muay Thai gym in Hua Hin offering drop-in group sessions, session packs, memberships and private training with head trainer Kru Louis.",
+  "price_from_thb": 350,
+  "facts": [
+    {"key": "price_session", "label": "Drop-in", "value": "350 baht per group session, first session free", "quote": "Drop-in ฿350 Per session"},
+    {"key": "price_session", "label": "Private session", "value": "1,000 baht per one-to-one session, sixth free when booking five", "quote": "One-to-one with Kru Louis at ฿1,000 a session"},
+    {"key": "price_month", "label": "Monthly membership", "value": "1 month: 7,000 baht once daily, 10,000 baht unlimited", "quote": "1 month ฿7,000 ฿10,000"},
+    {"key": "training_sessions", "label": "Schedule", "value": "Morning 08:00 to 11:00 and afternoon 16:30 to 19:00, Monday to Saturday", "quote": "Morning training Mon – Sat 08:00 – 11:00 Afternoon training Mon – Sat 16:30 – 19:00"},
+    {"key": "levels", "label": "Levels", "value": "Beginners, experienced and fight team", "quote": "Never thrown a kick? Start here."},
+    {"key": "trainers", "label": "Head trainer", "value": "Kru Louis leads every session", "quote": "Louis leads every session at Hyena."},
+    {"key": "location_note", "label": "Location", "value": "Poon Suk Rd, Soi Selakham, Hua Hin", "quote": "Poon Suk Rd (Phulsuk Road), Soi Selakham"}
+  ]
+}

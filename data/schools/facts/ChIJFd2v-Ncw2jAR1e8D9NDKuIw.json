@@ -1,0 +1,11 @@
+{
+  "summary": "The Camp is a Muay Thai campus in Hang Dong, Chiang Mai, with a training gym, onsite accommodation, a cafe, a coworking space and visa support.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "training_sessions", "label": "Session length", "value": "Standard sessions are 90 minutes", "quote": "90 min Standard Muay Thai sessions"},
+    {"key": "class_size", "label": "Coach ratio", "value": "2 students per coach", "quote": "2:1 Students per coach"},
+    {"key": "trainers", "label": "Trainers", "value": "More than 10 trainers", "quote": "10+ Trainers"},
+    {"key": "accommodation", "label": "Accommodation", "value": "Onsite accommodation with coworking", "quote": "with a spacious training gym, onsite accommodation, a café and a dedicated coworking space"},
+    {"key": "location_note", "label": "Location", "value": "417 Moo 12, Nong Khwai, Hang Dong, Chiang Mai", "quote": "417 Moo 12, Nong Khwai, Hang Dong, Chiang Mai 50230"}
+  ]
+}

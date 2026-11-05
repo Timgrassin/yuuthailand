@@ -1,0 +1,48 @@
+{
+  "summary": "PM Payu Muaythai is a small Thai-owned Muay Thai gym in Bophut, Koh Samui, offering group, private, small-group and kids classes plus a fight camp.",
+  "price_from_thb": 400,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Group class",
+      "value": "400 THB per group session",
+      "quote": "Group training\n 400 THB"
+    },
+    {
+      "key": "price_session",
+      "label": "Private class",
+      "value": "800 THB per private session",
+      "quote": "Private training\n 800 THB"
+    },
+    {
+      "key": "price_course",
+      "label": "Training packs",
+      "value": "10 private sessions for 7,000 THB",
+      "quote": "10 x Private 7,000 THB"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Group schedule",
+      "value": "Monday to Saturday at 8:00 AM and 4:00 PM, 1h 30m",
+      "quote": "Monday to Saturday · 1h 30m"
+    },
+    {
+      "key": "hours",
+      "label": "Opening hours",
+      "value": "Open every day 7am to 8pm",
+      "quote": "Open every day 7am to 8pm"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels train together, beginners welcome",
+      "quote": "All levels train together, and beginners are welcome."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "3 minutes walk from Fisherman's Village, Bophut",
+      "quote": "from Fisherman's Village"
+    }
+  ]
+}

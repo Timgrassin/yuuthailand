@@ -1,0 +1,11 @@
+{
+  "summary": "Pro Language School teaches Thai, English and Chinese at branches in Bangkok, Chiang Mai and Pattaya and online, with Education Visa and DTV programs and corporate training.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "ed_visa", "label": "ED visa", "value": "Student visa program for language study", "quote": "Apply today for the Student Visa, designed for those eager to study a language in Thailand under an education visa program"},
+    {"key": "dtv_support", "label": "DTV", "value": "Destination Thailand Visa program listed", "quote": "Destination Thailand Visa (DTV)"},
+    {"key": "languages_taught", "label": "Languages", "value": "English, Chinese and Thai corporate training", "quote": "English Corporate Training Chinese Corporate Training Thai Corporate Training"},
+    {"key": "location_note", "label": "Chiang Mai branch", "value": "6/4-5 Nimmanahaeminda Rd., Suthep, Chiang Mai", "quote": "6/4-5 Nimmanahaeminda Rd., Suthep, Mueang, Chiang Mai, 50200"},
+    {"key": "opening_hours", "label": "Chiang Mai hours", "value": "Monday to Saturday 9:00 AM to 6:00 PM", "quote": "Mon-Sat (9:00 AM – 6:00 PM)"}
+  ]
+}

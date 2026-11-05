@@ -1,0 +1,13 @@
+{
+  "summary": "MJ & Co is a visa and legal services firm in Chiang Mai handling DTV, retirement, education, marriage, business and LTR visas, work permits, company registration, accounting and legal work.",
+  "price_from_thb": 1500,
+  "facts": [
+    {"key": "price_session", "label": "Visa consultation", "value": "1,500 THB per hour for visa and work permit consultations", "quote": "DTV, retirement, education, marriage, business visas and work permit consultations. 1,500 THB/hr"},
+    {"key": "founded", "label": "Founded", "value": "Serving clients in Chiang Mai since 2018", "quote": "Trusted by expats & digital nomads in Chiang Mai since 2018"},
+    {"key": "dtv_support", "label": "DTV", "value": "DTV visa services, described as their specialty", "quote": "Digital nomad visa for remote workers and freelancers. Our specialty."},
+    {"key": "ed_visa", "label": "ED visa", "value": "ED visa for language school or martial arts study", "quote": "ED visa for language school or martial arts study programs."},
+    {"key": "extensions", "label": "Extensions", "value": "Handles extensions, 90-day reports, TM30 and re-entry permits at Chiang Mai Immigration", "quote": "We handle annual visa extensions, 90-day reporting, TM30 address registration, re-entry permits"},
+    {"key": "languages_spoken", "label": "Languages", "value": "Bilingual team in English and Thai", "quote": "Bilingual team (English & Thai)"},
+    {"key": "location_note", "label": "Location", "value": "ICON PARK Hotel 2nd floor, 310 Manee Nopparat Rd, Chiang Mai, by appointment", "quote": "ICON PARK Hotel, 2nd Floor 310 Manee Nopparat Rd"}
+  ]
+}

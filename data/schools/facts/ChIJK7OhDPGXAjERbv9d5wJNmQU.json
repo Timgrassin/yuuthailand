@@ -1,0 +1,10 @@
+{
+  "summary": "Pattaya4all is a Thai legal and accounting firm in Pattaya that helps foreigners with retirement, marriage, education, business and other visas, visa runs, driving licences, company registration and bank accounts.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "ed_visa", "label": "ED visa", "value": "Assists with education visas", "quote": "We help apply for Thai visas for foreigners whether it is Retirement Visas, Marriage Visas, Education Visas"},
+    {"key": "retirement_visa", "label": "Retirement visa", "value": "Can handle initial application and annual renewals on your behalf", "quote": "The entire process — from the initial application to annual renewals — can be handled by our team on your behalf."},
+    {"key": "border_runs", "label": "Visa runs", "value": "Visa run services to Laos and Cambodia", "quote": "we offer professional visa run services to Laos and Cambodia"},
+    {"key": "company_type", "label": "Company type", "value": "Thai legal and accounting firm", "quote": "Our Company is a Thai legal and accounting firm"}
+  ]
+}

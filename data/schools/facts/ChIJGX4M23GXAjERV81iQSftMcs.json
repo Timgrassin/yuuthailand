@@ -1,0 +1,10 @@
+{
+  "summary": "One Stop Service Pattaya handles visa extensions, retirement visas, driving licences, bank account opening, company registration and work permits on clients' behalf.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "retirement_visa", "label": "Visa services", "value": "Visa extensions and retirement visas", "quote": "Whether it is a visa extension a retirement visa ,driving licence or vehicle transfer we can deal with all these agencies on your behalf"},
+    {"key": "work_permit", "label": "Business services", "value": "Company registrations, work permits and business licences", "quote": "company registrations, work permits and all forms of business licence"},
+    {"key": "bank_account", "label": "Bank accounts", "value": "Bank account opening with major Thai banks", "quote": "We offer a bank account opening services with all the major Thai banks."},
+    {"key": "free_consultation", "label": "Consultation", "value": "Free advice and consultation", "quote": "happy to give you free advice and consultation"}
+  ]
+}

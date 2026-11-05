@@ -1,0 +1,42 @@
+{
+  "summary": "Samui Visa Run is a Koh Samui service company offering border runs, DTV, retirement, education, marriage and business visa help, plus work permits and company setup.",
+  "price_from_thb": 4500,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Border run",
+      "value": "Group day trip to the Malaysian border for 4,500 THB",
+      "quote": "for a fresh 60-day stamp — 4,500 THB, four departures a week, door to door."
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "Offers DTV visa service",
+      "quote": "DTV (Destination Thailand Visa)"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Offers education visa service",
+      "quote": "Education Visa (ED)"
+    },
+    {
+      "key": "licence",
+      "label": "Licence",
+      "value": "Department of Tourism licence No. 44/00368",
+      "quote": "Tourism Business Licence No. 44/00368 , Department of Tourism"
+    },
+    {
+      "key": "hours",
+      "label": "Office hours",
+      "value": "09:00 to 16:00, Monday to Saturday",
+      "quote": "Office: 09:00–16:00, Monday to Saturday"
+    },
+    {
+      "key": "free_consultation",
+      "label": "Consultation",
+      "value": "Consultations are free",
+      "quote": "consultations are free and we reply in your language"
+    }
+  ]
+}

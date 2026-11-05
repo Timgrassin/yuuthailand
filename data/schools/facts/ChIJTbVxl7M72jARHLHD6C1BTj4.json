@@ -1,0 +1,11 @@
+{
+  "summary": "Kru Frame Muay Thai Training Club is a Muay Thai and fitness gym near the Night Bazaar in Chiang Mai offering small group classes, private sessions and long-term programs.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "trainers", "label": "Coaching experience", "value": "Over 10 years of coaching experience", "quote": "With over 10 years of coaching experience"},
+    {"key": "class_size", "label": "Class size", "value": "Small group classes and private sessions", "quote": "our small group classes and private sessions"},
+    {"key": "dtv_support", "label": "DTV", "value": "Long-term training programs for DTV visa applicants", "quote": "structured long-term training programs ideal for extended stays and DTV visa applicants"},
+    {"key": "location_note", "label": "Location", "value": "Near Night Bazaar and the Old City", "quote": "Convenient location in Chiang Mai near Night Bazaar / Old City"},
+    {"key": "facilities", "label": "Gym", "value": "Indoor air-conditioned gym with PM2.5 filtration", "quote": "Indoor air-conditioned gym with PM2.5 filtration"}
+  ]
+}

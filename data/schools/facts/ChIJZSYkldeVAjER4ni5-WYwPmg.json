@@ -1,0 +1,13 @@
+{
+  "summary": "Honour Muay Thai is a Muay Thai gym near Ao Nang, Krabi offering twice-daily training six days a week, with on-site rooms and meal packages.",
+  "price_from_thb": 500,
+  "facts": [
+    {"key": "price_session", "label": "Daily training price", "value": "500 THB for one session a day, 800 THB for two", "quote": "Daily Training costs: 500 THB for one session/day, 800 THB two sessions/day."},
+    {"key": "training_sessions", "label": "Training schedule", "value": "Training every day from Monday to Saturday", "quote": "Training sessions take place every day from monday to Saturday."},
+    {"key": "training_sessions", "label": "Session times", "value": "Morning training starts 8:00 am, afternoon at 4:00 pm", "quote": "Training Starts 8:00 am"},
+    {"key": "accommodation", "label": "Accommodation", "value": "Rooms next to the gym with Wi-Fi, a/c or fan", "quote": "Room are next to the gym, have Wi-Fi throughout, with several options to suit."},
+    {"key": "accommodation", "label": "Room types", "value": "Two 4-person rooms, 2 single rooms and 3 double rooms", "quote": "Two 4 person rooms, 2 single rooms and 3 double rooms."},
+    {"key": "levels", "label": "Levels", "value": "All levels, from beginners to professional fighters", "quote": "from professional fighters to beginners"},
+    {"key": "location_note", "label": "Location", "value": "905 Tambon Ao Nang, Mueang Krabi", "quote": "905, Tambon Ao Nang"}
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "summary": "Samui Language School in Maret, Koh Samui teaches Thai and English in group and private classes, with Education and DTV visa support.",
+  "price_from_thb": 18000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "3 months",
+      "value": "18,000 THB for 3 months of group classes, material and visa support",
+      "quote": "3 Months\n 18,000 THB"
+    },
+    {
+      "key": "price_course",
+      "label": "12 months",
+      "value": "48,000 THB for 12 months",
+      "quote": "12 Months\n 48,000 THB"
+    },
+    {
+      "key": "course_length",
+      "label": "Course length",
+      "value": "3, 6 or 9 month courses",
+      "quote": "pick the right course and length (3, 6 or 9 months)"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Full Education visa support",
+      "quote": "We provide full Education (ED) visa support from start to finish."
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "DTV visa support",
+      "quote": "with Education & DTV visa support"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Thai and English, all levels",
+      "quote": "Thai & English, all levels"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "142/24-25 Moo 4, Maret, Koh Samui",
+      "quote": "142/24-25 Moo 4, T. Maret,"
+    }
+  ]
+}

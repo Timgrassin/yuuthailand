@@ -1,0 +1,48 @@
+{
+  "summary": "Punch it Gym is a Muay Thai camp in Lamai, Koh Samui with group and private training, on-site accommodation, a cafe and a fitness centre.",
+  "price_from_thb": 400,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Group class",
+      "value": "400 THB for one class per day",
+      "quote": "THB \n400\n 1 Class per day"
+    },
+    {
+      "key": "price_month",
+      "label": "Monthly",
+      "value": "9,600 THB per month",
+      "quote": "1 Month 9‘600 THB"
+    },
+    {
+      "key": "price_session",
+      "label": "Private lesson",
+      "value": "1,000 THB for a one-hour private lesson",
+      "quote": "THB \n1000\n private lessons 1 hour"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "On-site accommodation with training packages",
+      "quote": "IN-HOUSE ACCOMMODATION AND MUAY THAI PACKAGES FROM ONE SOURCE"
+    },
+    {
+      "key": "licence",
+      "label": "Recognition",
+      "value": "Awarded by the Sports Authority of Thailand as a professional Muay Thai gym",
+      "quote": "AWARDED BY THE SPORTS AUTHORITY OF THAILAND AS A PROFESSIONAL MUAY THAI GYM"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Beginners, advanced students and active fighters",
+      "quote": "TRAINING FOR BEGINNERS, ADVANCED STUDENTS AND ACTIVE FIGHTERS"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Lamai, Koh Samui",
+      "quote": "Located in Lamai on one of the most beautiful islands in South Thailand"
+    }
+  ]
+}

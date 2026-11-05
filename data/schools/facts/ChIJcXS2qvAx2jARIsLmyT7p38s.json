@@ -1,0 +1,9 @@
+{
+  "summary": "Xlion Muaythai Gym is a Muay Thai gym in Chiang Mai offering training for all levels under Kru Xlion and a coaching team.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "facilities", "label": "Training area", "value": "Over 600 square meters, semi-open", "quote": "a spacious training area of over 600 square meters"},
+    {"key": "facilities", "label": "Equipment", "value": "8x8 meter ring, 12 punching bags and training tires", "quote": "a standard 8×8 meter boxing ring, 12 high-quality punching bags, and training tires"},
+    {"key": "levels", "label": "Levels", "value": "All levels", "quote": "Professional Training for All Levels"}
+  ]
+}

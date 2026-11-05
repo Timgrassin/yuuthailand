@@ -1,0 +1,42 @@
+{
+  "summary": "Yodyut Muaythai is a Muay Thai gym on Koh Samui offering group and private training for beginners and fighters, with class, weekly and monthly prices.",
+  "price_from_thb": 400,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "2014, by former champion Yodyut Kiatyongyut",
+      "quote": "Founded in 2014 by former Muaythai champion Yodyut Kiatyongyut."
+    },
+    {
+      "key": "training_sessions",
+      "label": "Group class times",
+      "value": "Monday to Saturday, 08:00 to 10:00 and 17:00 to 19:00",
+      "quote": "Morning: 08:00-10:00"
+    },
+    {
+      "key": "price_session",
+      "label": "Group class",
+      "value": "400 THB per group class",
+      "quote": "1 Group Class — 400 THB"
+    },
+    {
+      "key": "price_month",
+      "label": "Monthly",
+      "value": "5,500 THB for 1 class per day, 8,000 THB for 2",
+      "quote": "1 Month — 5,500 THB 1 class per day / 8,000 THB 2 class per day"
+    },
+    {
+      "key": "price_session",
+      "label": "Private session",
+      "value": "1,000 THB per private session",
+      "quote": "1 Session — 1,000 THB"
+    },
+    {
+      "key": "policy",
+      "label": "Policies",
+      "value": "Memberships cannot be paused and no refunds",
+      "quote": "Memberships can not be paused."
+    }
+  ]
+}

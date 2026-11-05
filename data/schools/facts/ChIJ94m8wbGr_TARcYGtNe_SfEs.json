@@ -1,0 +1,13 @@
+{
+  "summary": "Sirada The Learning Centre is a language and computer school in central Hua Hin teaching Thai and English, with ED visa courses.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "licence", "label": "Licence", "value": "Thai curriculum approved by the Ministry of Education", "quote": "Our Thai language curriculum has been approved by the Thailand Ministry of Education."},
+    {"key": "levels", "label": "Levels", "value": "Beginner, Intermediate and Advanced", "quote": "Three levels are offered: Beginner, Intermediate and Advanced."},
+    {"key": "languages_taught", "label": "Languages", "value": "Thai and English", "quote": "Thai language ::: Our Thai language curriculum"},
+    {"key": "class_size", "label": "Class format", "value": "Group classes, private classes available", "quote": "We are offering group classes, however private classes are available"},
+    {"key": "trainers", "label": "Teachers", "value": "Thai teachers are graduates of Thai universities", "quote": "Our Thai language teachers are graduates of well-known Thai universities"},
+    {"key": "ed_visa", "label": "ED visa", "value": "Lists ED visa courses", "quote": "Education Visa – English"},
+    {"key": "location_note", "label": "Location", "value": "Central Hua Hin, under 5 minutes' walk from Hua Hin Municipality", "quote": "less than 5 minutes&#8217; walk from Hua Hin Municipality"}
+  ]
+}

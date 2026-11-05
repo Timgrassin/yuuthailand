@@ -1,0 +1,36 @@
+{
+  "summary": "Nong Bee Muay Thai is a Muay Thai gym in Mae Nam, Koh Samui, offering group and private classes for all levels with champion trainers.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Group classes",
+      "value": "Monday to Saturday, 08:00 to 09:30 and 17:00 to 18:30",
+      "quote": "Group Classes Mon–Sat 08:00–09:30 & 17:00–18:30"
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "5 champion trainers with 800+ combined pro fights",
+      "quote": "Champion Trainers\n 2\n Classes Daily\n 800+\n Combined Pro Fights"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels welcome",
+      "quote": "All Levels Welcome"
+    },
+    {
+      "key": "price_note",
+      "label": "Pricing",
+      "value": "Drop-in classes to monthly memberships, tax included",
+      "quote": "All prices include tax."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Soi Ying Phian Fa Priya Phong, Mae Nam",
+      "quote": "Soi Ying Phian Fa Priya Phong, Mae Nam, Ko Samui District, Surat Thani 84330"
+    }
+  ]
+}

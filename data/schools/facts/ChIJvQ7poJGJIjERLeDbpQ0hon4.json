@@ -1,0 +1,30 @@
+{
+  "summary": "Next Level Language Khon Kaen School offers English, Thai for foreigners and basic Chinese courses, online English lessons and translation services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "English, Thai for foreigners and Chinese",
+      "quote": "Thai Courses \n for foreigners"
+    },
+    {
+      "key": "course_format",
+      "label": "Online lessons",
+      "value": "Online English lessons on the ClassIn platform",
+      "quote": "Next Level offers online English lessons using ClassIn teaching platform."
+    },
+    {
+      "key": "hours",
+      "label": "Opening hours",
+      "value": "Tuesday to Sunday 9 a.m. to 8 p.m.",
+      "quote": "Tuesday - Sunday 9 a.m. - 8 p.m."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Si Thatprachasante Road, Nai Muang, Khon Kaen",
+      "quote": "no. 11/9, Si Thatprachasante Road, Nai Muang, Mueang Khon Kaen District, Khon Kaen Province 40000"
+    }
+  ]
+}

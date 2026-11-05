@@ -1,0 +1,11 @@
+{
+  "summary": "Learn Thai with Lah is a private Thai teacher in Chiang Mai offering Thai and Northern Thai lessons for all levels using her own textbooks.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "trainers", "label": "Teacher", "value": "Teaching Thai to foreigners for more than 15 years", "quote": "teaching the Thai language to foreigners for more than 15 years"},
+    {"key": "languages_taught", "label": "Languages", "value": "Thai and Northern Thai", "quote": "teaching the Thai language and NORTHERN Thai language"},
+    {"key": "hours_per_week", "label": "Hours per week", "value": "Students choose their own hours per week", "quote": "It is the students&#8217; decision as to how many hours per week they choose to study."},
+    {"key": "levels", "label": "Levels", "value": "All levels", "quote": "serve all levels of learner"},
+    {"key": "ed_visa", "label": "ED visa", "value": "ED visa not provided", "quote": "Education (ED) visa is  not provided for this course"}
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "summary": "Lionheart Samui is a Muay Thai and fitness camp in Ban Tai, Koh Samui, offering Muay Thai, weight loss and fitness packages for all levels with accommodation options and an onsite cafe.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels, from beginners to professionals",
+      "quote": "We accept all levels at our camp, from fitness enthusiasts and beginner trainees to seasoned professionals"
+    },
+    {
+      "key": "course_length",
+      "label": "Package length",
+      "value": "1, 2 and 4 week options, longer stays on request",
+      "quote": "You can book your package for as long as you like"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Range of accommodation for different budgets",
+      "quote": "We offer a range of accommodation to suit all budgets"
+    },
+    {
+      "key": "hours",
+      "label": "Gym hours",
+      "value": "Open 8am to 8pm",
+      "quote": "The gym is open between 8am and 8pm."
+    },
+    {
+      "key": "price_note",
+      "label": "Taxes and fees",
+      "value": "Prices are subject to 7% tax and 3% transaction fee",
+      "quote": "Prices are subject to 7% government tax and 3% transaction fee."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Moo 5, Bantai, Mae Nam, 200 m from Ban Tai beach",
+      "quote": "32/8, Moo 5, Bantai, Mae Nam, Koh Samui District, Surat Thani 84330"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "summary": "Salisa Language School in Pattaya runs a 4-week TEFL course and teaches English, exam preparation (IELTS, TOEIC, TOEFL), Thai, Japanese, Mandarin and other languages.",
+  "price_from_thb": 39500,
+  "facts": [
+    {"key": "course_length", "label": "TEFL course length", "value": "120 hours over 4 weeks", "quote": "120 Hours &ndash; 4 Week Course"},
+    {"key": "licence", "label": "Approval", "value": "TEFL course approved by the Thai Education Ministry", "quote": "Thai Education Ministry approved"},
+    {"key": "price_course", "label": "TEFL price", "value": "Regular price 39,500 baht", "quote": "Regular Price: Baht 39,500"},
+    {"key": "languages_taught", "label": "Languages taught", "value": "English, Thai, Mandarin, Japanese and Russian", "quote": "Language Courses (English, Thai, Mandarin, Japanese, Russian)"},
+    {"key": "class_size", "label": "Class format", "value": "Courses for singles, couples, small and large groups", "quote": "Courses may be for singles, couples, small and large groups."}
+  ]
+}

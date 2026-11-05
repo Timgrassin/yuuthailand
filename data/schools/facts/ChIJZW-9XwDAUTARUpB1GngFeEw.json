@@ -1,0 +1,12 @@
+{
+  "summary": "Alongkorn Language School is a Thai language school in central Ao Nang, Krabi offering group, private and online Thai courses with ED visa support.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "licence", "label": "Licence", "value": "Permit from the Ministry of Education for a Thai course for foreigners", "quote": "Alongkorn Language School has a permit from the Ministry of Education to conduct a Thai Language Course for Foreigners"},
+    {"key": "founded", "label": "Founded", "value": "19 July 2012", "quote": "Established on July 19, 2012"},
+    {"key": "ed_visa", "label": "ED visa", "value": "ED visa consultancy for students", "quote": "we also provide comprehensive ED Visa consultancy"},
+    {"key": "course_length", "label": "Course length", "value": "10 to 200 hours, group, one-on-one, online or classroom", "quote": "Learn Thai 10 - 200 hours choose to study in a group, one-on-one, online or in a classroom and an ED visa is available."},
+    {"key": "levels", "label": "Levels", "value": "Beginner, intermediate and advanced", "quote": "from Beginner, intermediate to Advanced levels"},
+    {"key": "location_note", "label": "Location", "value": "Main road in central Ao Nang, 500 meters from the beach", "quote": "located on the main road in Central Ao Nang only 500 meters from the beach front in Ao Nang Krabi"}
+  ]
+}

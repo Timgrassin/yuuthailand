@@ -1,0 +1,12 @@
+{
+  "summary": "Language school with branches in Bangkok, Chiang Mai and Pattaya offering Thai, English and Chinese courses, online lessons, corporate training and Education and DTV visa programs.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "ed_visa", "label": "ED visa", "value": "Student visa program for those studying a language in Thailand", "quote": "Apply today for the Student Visa, designed for those eager to study a language in Thailand under an education visa program"},
+    {"key": "dtv_support", "label": "DTV", "value": "Offers a Destination Thailand Visa (DTV) program", "quote": "Destination Thailand Visa (DTV)"},
+    {"key": "languages_taught", "label": "Languages", "value": "English, Chinese and Thai corporate training", "quote": "English Corporate Training \n Chinese Corporate Training \n Thai Corporate Training"},
+    {"key": "course_format", "label": "Online lessons", "value": "Flexible online lessons", "quote": "Experience language learning through our flexible online lessons"},
+    {"key": "location_note", "label": "Pattaya branch", "value": "116/33 Mu 9 Central Pattaya Rd, Nongprue, Banglamung", "quote": "116/33 Mu 9 Central Pattaya Rd., Nongprue, Banglamung, Chon Buri, 20260"},
+    {"key": "hours", "label": "Office hours", "value": "Mon to Fri 9:00 to 20:00, Sat 9:00 to 18:00, closed Sunday", "quote": "Mon-Fri (9:00 AM – 8:00 PM)"}
+  ]
+}

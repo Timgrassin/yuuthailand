@@ -1,0 +1,13 @@
+{
+  "summary": "Key Visa Thailand is a Pattaya visa agency offering Thai retirement, marriage, education and DTV visa services, 90-day reporting, UK and US passport renewals, and UK, Australian and Irish visas for Thai nationals.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "ed_visa", "label": "ED visa", "value": "Assists with education visas", "quote": "Education Visas"},
+    {"key": "dtv_support", "label": "DTV", "value": "Assists with DTV visas", "quote": "DTV Visas"},
+    {"key": "retirement_visa", "label": "Retirement visa", "value": "Assists with retirement visas and renewals", "quote": "Worried about renewing your retirement visa?"},
+    {"key": "reporting", "label": "90-day reports", "value": "Handles 90-day reports on your behalf", "quote": "Don&#8217;t want to queue at immigration for your 90 day report?"},
+    {"key": "founded", "label": "Experience", "value": "More than 18 years in business", "quote": "For more than 18 years, Key Visa have been helping foreigners of all nationalities to stay in Thailand long term"},
+    {"key": "staff", "label": "Staff", "value": "English owned and managed, bilingual English and Thai staff", "quote": "An English owned and managed company with bilingual English / Thai staff"},
+    {"key": "location_note", "label": "Location", "value": "Opposite Big C South Pattaya, open Monday to Friday 10am to 5pm", "quote": "Opposite Big C South Pattaya"}
+  ]
+}

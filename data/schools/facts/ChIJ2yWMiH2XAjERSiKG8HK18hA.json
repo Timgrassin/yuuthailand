@@ -1,0 +1,13 @@
+{
+  "summary": "Pattaya Service Market is a Pattaya agency handling retirement, marriage, ED, DTV and other long-stay visas, extensions, border runs and reporting, plus driving licences and motorbike rental.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "ed_visa", "label": "ED visa", "value": "Education visa, 12 to 15 month programs", "quote": "Education Visa &#8211; Non ED: 12–15 month programs"},
+    {"key": "dtv_support", "label": "DTV", "value": "Assists with the 5-year multiple-entry DTV", "quote": "Destination Thailand Visa &#8211; DTV: 5-year multiple entry"},
+    {"key": "retirement_visa", "label": "Retirement visa", "value": "Non O retirement visa, 3-month initial and 1-year extension", "quote": "Retirement Visa – Non O: 3-month initial and 1-year extension"},
+    {"key": "reporting", "label": "Reporting", "value": "90-day reporting (TM47)", "quote": "90-day Reporting (TM47)"},
+    {"key": "border_runs", "label": "Border runs", "value": "Cambodia and Laos routes", "quote": "Border Runs: Cambodia and Laos routes"},
+    {"key": "free_consultation", "label": "Consultation", "value": "Free consultation", "quote": "Free consultation before you decide"},
+    {"key": "location_note", "label": "Location", "value": "Phra Tam Nak 4 Alley, Pattaya", "quote": "389, 15-16 Phra Tam Nak 4 Alley,"}
+  ]
+}

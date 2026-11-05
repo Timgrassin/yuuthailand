@@ -1,0 +1,13 @@
+{
+  "summary": "Muay Thai gym and camp by a lake in Kathu, Phuket with group classes for all levels, private lessons, recovery facilities and lakeside bungalows, plus DTV and ED visa information.",
+  "price_from_thb": 400,
+  "facts": [
+    {"key": "training_sessions", "label": "Classes", "value": "3 classes a day, six days a week", "quote": "3 classes a day, six days a week"},
+    {"key": "levels", "label": "Levels", "value": "All levels, from first timers to fighters", "quote": "All levels first timers to fighters"},
+    {"key": "price_session", "label": "Class price", "value": "Classes from 400 THB", "quote": "Classes from 400 THB"},
+    {"key": "accommodation", "label": "Accommodation", "value": "Eleven air-conditioned lakeside bungalows one minute from the gym; group Muay Thai included when booking a room", "quote": "Eleven air-conditioned lakeside bungalows, one minute from the gym."},
+    {"key": "trainers", "label": "Head coach", "value": "Head Muay Thai coach Kru Max", "quote": "Head Muay Thai coach\n Kru Max"},
+    {"key": "dtv_support", "label": "DTV", "value": "Has a DTV visa page", "quote": "Muay Thai in Kathu · DTV visa · ED visa"},
+    {"key": "location_note", "label": "Location", "value": "40/2 Kathu, Phuket", "quote": "40/2 Kathu, Phuket 83120, Thailand"}
+  ]
+}

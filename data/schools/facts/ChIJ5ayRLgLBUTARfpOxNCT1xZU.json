@@ -1,0 +1,36 @@
+{
+  "summary": "Khunsuek Muay Thai in Krabi offers group classes, day passes and private training for all levels, with a hostel for students.",
+  "price_from_thb": 600,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Group class",
+      "value": "600 THB sale price for one group session (regular 1,000 THB)",
+      "quote": "Sale price \n 600.00 ฿ THB"
+    },
+    {
+      "key": "price_course",
+      "label": "One week",
+      "value": "3,990 THB sale price for one week of group training",
+      "quote": "Sale price \n 3,990.00 ฿ THB"
+    },
+    {
+      "key": "price_session",
+      "label": "Private session",
+      "value": "1,200 THB for a 1-on-1 private session",
+      "quote": "1-on-1 Private Muay Thai Training | 1 Session\n 1,200.00 ฿ THB"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Schedule",
+      "value": "Daily beginner and intermediate classes, mornings and afternoons",
+      "quote": "daily beginner and intermediate classes in the mornings and afternoons"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Hostel available to book",
+      "quote": "Book our hostel"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "summary": "Santai Muay Thai Gym is a Muay Thai camp near San Kamphaeng, Chiang Mai, training beginners to professional fighters with accommodation packages close to the gym.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "levels", "label": "Levels", "value": "Beginners to professional fighters", "quote": "teach all levels of students, from beginners to professional fighters"},
+    {"key": "accommodation", "label": "Accommodation", "value": "Accommodation and services such as laundry, food and bike rental near the gym", "quote": "We can provide accommodation and several other services close to the gym. (laundry, food, bike rental)"},
+    {"key": "accommodation", "label": "Room types", "value": "From fighter rooms up to a pool villa", "quote": "From fighter rooms up to a Pool Villa."},
+    {"key": "trainers", "label": "Trainers", "value": "Trainers who fought at top Thai stadiums, including Lumpinee", "quote": "who have fought at the top Muay Thai Stadiums in Thailand"},
+    {"key": "location_note", "label": "Location", "value": "Close to Santai Gym and San Kamphaeng", "quote": "within close range of Santai Gym and SanKamphaeng"}
+  ]
+}

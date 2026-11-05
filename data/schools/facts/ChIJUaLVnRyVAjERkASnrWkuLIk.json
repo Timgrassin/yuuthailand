@@ -1,0 +1,12 @@
+{
+  "summary": "Silk Muay Thai is a Pattaya Muay Thai gym offering training packages with private on-site rooms, meals, pool and sauna access, and airport transfers.",
+  "price_from_thb": 16900,
+  "facts": [
+    {"key": "price_course", "label": "Train and stay price", "value": "From 16,900 baht for 1 week (Package 1)", "quote": "1 week ฿16,900"},
+    {"key": "price_month", "label": "Monthly train and stay", "value": "34,900 baht for 1 month (Package 1)", "quote": "1 month ฿34,900"},
+    {"key": "training_sessions", "label": "Sessions", "value": "1 or 2 Muay Thai sessions plus 1 Fundamentals class, depending on package", "quote": "2 Muay Thai sessions + 1 Fundamentals class"},
+    {"key": "accommodation", "label": "Accommodation", "value": "Private rooms with bathroom, air conditioning, mini fridge, Wi-Fi and outdoor space", "quote": "All our rooms are private, with their own bathroom, air conditioning, mini fridge, Wi-Fi and a private outdoor space."},
+    {"key": "accommodation", "label": "Facilities", "value": "Pool, sauna and shared laundry included with every stay", "quote": "Every stay includes access to the swimming pool, sauna and shared laundry area."},
+    {"key": "location_note", "label": "Hours", "value": "Monday to Saturday, 8:00 AM to 7:00 PM", "quote": "Monday - Saturday 08:00 AM - 07:00 PM"}
+  ]
+}

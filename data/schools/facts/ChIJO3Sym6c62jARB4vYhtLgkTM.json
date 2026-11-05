@@ -1,0 +1,10 @@
+{
+  "summary": "Manna Thai Language School teaches Thai with the TPR method in Chiang Mai, Pai, Chiang Rai and Mae Sot and offers an Education Visa for long stays.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "ed_visa", "label": "ED visa", "value": "Education Visa for 6 months or 1 year", "quote": "Our Thai school offers you an Education Visa for long stay in Thailand (6 months or 1 year.)"},
+    {"key": "teaching_method", "label": "Method", "value": "Total Physical Response (TPR) method, no English phonetics", "quote": "We don’t use English phonetics in our courses."},
+    {"key": "levels", "label": "Levels", "value": "Beginner to advanced", "quote": "experience teaching Thai for beginners as well as for advanced students"},
+    {"key": "location_note", "label": "Location", "value": "Pantip Plaza 4th floor, Chang Klan Rd, Chiang Mai", "quote": "PANTIP PLAZA 4TH FLOOR, Chang Klan Rd, Mueang, Chiang Mai"}
+  ]
+}

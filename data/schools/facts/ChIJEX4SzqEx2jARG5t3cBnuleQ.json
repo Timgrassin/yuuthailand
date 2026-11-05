@@ -1,0 +1,11 @@
+{
+  "summary": "The Colonel Company is a visa agency in Chiang Mai, opposite Chiang Mai Immigration, assisting with retirement, marriage, dependent, guardian, Elite, education and tourist visas and visa changes.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "licence", "label": "Registration", "value": "Says it is a legally registered visa company", "quote": "We are legally registered visa company in Chiang mai."},
+    {"key": "ed_visa", "label": "ED visa", "value": "Assists with student and education visas", "quote": "Eligible for a foreign national who studies or attends any classes in Thailand"},
+    {"key": "retirement_visa", "label": "Retirement visa", "value": "Assists with retirement visas for people aged 50+", "quote": "Eligible for a foreign national whose age is 50 years or above"},
+    {"key": "location_note", "label": "Location", "value": "Pimantip Leisure Avenue, opposite Chiang Mai Immigration", "quote": "(In the Pimantip Leisure Avenue, opposite to Chiangmai Immigration)"},
+    {"key": "opening_hours", "label": "Hours", "value": "Monday to Friday 08.00 to 17.00", "quote": "Open : Mon - Fri 08.00 - 17.00"}
+  ]
+}

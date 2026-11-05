@@ -1,0 +1,42 @@
+{
+  "summary": "Elite Fight Club Hua Hin is an all-inclusive Muay Thai camp with on-site bungalows, two training sessions a day, meals and recovery facilities, plus a training-only option.",
+  "price_from_thb": 9900,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Training sessions",
+      "value": "Two sessions a day plus a morning run",
+      "quote": "Two sessions a day with the coaches, plus a morning run to get you going."
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels, from first-timers to experienced fighters",
+      "quote": "Classes are open to every level, from first-timers to experienced fighters."
+    },
+    {
+      "key": "price_month",
+      "label": "Training only",
+      "value": "9,900 THB before tax for 30 days",
+      "quote": "Training only is 9,900 THB before tax for 30 days."
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Eight private bungalows around a pool",
+      "quote": "Eight private bungalows around the pool, on 7,000 m² of greenery."
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "Team includes a Muay Thai world champion",
+      "quote": "The camp team includes a Muay Thai world champion."
+    },
+    {
+      "key": "meals",
+      "label": "Meals",
+      "value": "Breakfast and lunch, six days a week",
+      "quote": "Breakfast and lunch, six days a week"
+    }
+  ]
+}

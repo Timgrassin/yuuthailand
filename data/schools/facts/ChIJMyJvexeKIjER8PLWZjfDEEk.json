@@ -1,0 +1,36 @@
+{
+  "summary": "Gumpun Muay Thai Academy in Khon Kaen offers Muay Thai and MMA training for beginners to advanced students with former professional boxers as trainers and ED and DTV visa documentation support.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "ED and DTV",
+      "value": "Supports ED and DTV visa documentation",
+      "quote": "We Support ED & DTV Documentation"
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "Retired professional Muay Thai boxers",
+      "quote": "Gumpun Muay Thai Academy was developed to recruit retired professional and passionate Muay Thai boxers."
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Beginners and advanced boxers",
+      "quote": "whether you are just a beginner or already an advanced boxer"
+    },
+    {
+      "key": "hours",
+      "label": "Opening hours",
+      "value": "Monday to Friday 11:00 to 20:00, weekends 10:00 to 20:00",
+      "quote": "MONDAY – FRIDAY: 11:00 – 20:00"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Khon Kaen District 40000",
+      "quote": "192 32 Khon Kaen District 40000"
+    }
+  ]
+}

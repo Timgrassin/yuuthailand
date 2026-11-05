@@ -1,0 +1,11 @@
+{
+  "summary": "Visa Support Thailand is a visa consultancy with a Chiang Mai head office assisting with retirement, education, marriage and DTV visas, work permits, extensions, 90-day reporting and company registration.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "ed_visa", "label": "ED visa", "value": "Non-ED visa support for students at Thai institutions, including enrolment, reporting and renewals", "quote": "Non-ED visa support for students and language learners at Thai institutions"},
+    {"key": "retirement_visa", "label": "Retirement visa", "value": "Guidance on Non-O and Non-O-A retirement routes and renewals", "quote": "Guidance on Non-O and Non-O-A retirement routes, renewals, financial requirements, and 90-day reporting for retirees in Thailand."},
+    {"key": "re_entry_permit", "label": "Re-entry permit", "value": "Handles re-entry permits as part of the standard service", "quote": "We can handle this for you as part of our standard service."},
+    {"key": "accommodation", "label": "Accommodation", "value": "Optional condominium next to Central Festival Chiang Mai for visa clients", "quote": "Stay in our modern condominium located next to Central Festival Chiang Mai"},
+    {"key": "location_note", "label": "Location", "value": "Head office at Anusawaree Singha, Chang Phueak, Chiang Mai, with offices in Chiang Mai and Bangkok", "quote": "305 Anusawaree Singha, Chang Phueak, Amphoe Mueang Chiang Mai, Chiang Mai 50300"}
+  ]
+}

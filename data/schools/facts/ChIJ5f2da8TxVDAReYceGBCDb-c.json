@@ -1,0 +1,48 @@
+{
+  "summary": "Chor Ratchawat Muay Thai runs two Muay Thai gyms in Bo Phut and Plai Laem, Koh Samui, with group, private, kids and fighter programs and DTV visa document support.",
+  "price_from_thb": 400,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Drop-in",
+      "value": "400 THB per drop-in",
+      "quote": "400 THB Drop-in"
+    },
+    {
+      "key": "price_month",
+      "label": "Monthly",
+      "value": "5,500 THB per month",
+      "quote": "5,500 THB Monthly"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "Helps with documents for the DTV visa",
+      "quote": "We help you get the documents for the Thailand DTV visa, up to 180 days."
+    },
+    {
+      "key": "training_sessions",
+      "label": "Group training",
+      "value": "Morning and afternoon group sessions",
+      "quote": "Morning and afternoon sessions with pad work, bag work, clinching, and conditioning."
+    },
+    {
+      "key": "hours",
+      "label": "Opening hours",
+      "value": "Open 6 days a week, 7 AM to 8 PM",
+      "quote": "Open 6 days a week from 7 AM to 8 PM."
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "2020",
+      "quote": "Since 2020"
+    },
+    {
+      "key": "location_note",
+      "label": "Locations",
+      "value": "Two camps in Bo Phut and Plai Laem",
+      "quote": "with two locations in Bo Phut and Plai Laem"
+    }
+  ]
+}

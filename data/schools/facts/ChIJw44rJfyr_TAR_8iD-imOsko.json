@@ -1,0 +1,36 @@
+{
+  "summary": "Yaksha Muay Thai Retreat in Hua Hin sells all-inclusive Muay Thai packages of 1 to 4 weeks with private accommodation, training and activities.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "Package length",
+      "value": "1 to 4 weeks",
+      "quote": "1 – 4 Weeks"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Training sessions",
+      "value": "2 sessions a day, 6 days a week",
+      "quote": "2 Training Sessions/Day"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Private accommodation with pool and gym",
+      "quote": "Private Accommodation\n with Pool & Gym"
+    },
+    {
+      "key": "price_course",
+      "label": "Package price",
+      "value": "Essential package from 299 to 799 euros",
+      "quote": "€299 – €799"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Khao Noi Village Alley, Hua Hin",
+      "quote": "14 Khao Noi Village Alley, Hua Hin District, Prachuap Khiri Khan 77110"
+    }
+  ]
+}

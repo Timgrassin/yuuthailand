@@ -1,0 +1,42 @@
+{
+  "summary": "Fas Muay Thai Gym in Bo Put, Koh Samui offers group classes three times a day, private sessions, kids classes and fight preparation, with accommodation and airport pickup on request.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Group classes",
+      "value": "Group classes three times per day plus private sessions",
+      "quote": "3x per day group classes Private sessions"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Private lessons",
+      "value": "Private lessons available from 10am",
+      "quote": "Private Lessons: 10am"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Airport pickup, accommodation near the gym and motorbike rental",
+      "quote": "We offer airport pickups, accommodation near the gym and motorbike rental"
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "All trainers speak English, one also speaks German",
+      "quote": "All trainers speak English"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Beginner, advanced, pro and kids programs",
+      "quote": "Our Muay Thai camp covers every level."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "16/13 Moo 3, Bo Put, Koh Samui",
+      "quote": "Tambon Bo Put, Ko Samui District, Surat Thani 84320"
+    }
+  ]
+}

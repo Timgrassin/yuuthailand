@@ -1,0 +1,11 @@
+{
+  "summary": "Emerald Muay Thai runs Muay Thai camps at Ao Nang Beach in Krabi and Rawai Beach in Phuket, with training for all levels and arranged accommodation.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "location_note", "label": "Locations", "value": "Two camps, at Rawai Beach in Phuket and Ao Nang Beach in Krabi", "quote": "Emerald gym provides 2 Muay Thai camps located in the South of Thailand"},
+    {"key": "trainers", "label": "Trainers", "value": "Classes run by former champions and active competitors", "quote": "Our classes are run by former champions and active competitors"},
+    {"key": "accommodation", "label": "Accommodation", "value": "Several standards of accommodation arranged by the gym", "quote": "We have different standards of accommodation to choose from."},
+    {"key": "training_sessions", "label": "Opening days", "value": "Open Monday to Saturday", "quote": "We are open Monday to Saturday"},
+    {"key": "languages_taught", "label": "Languages spoken", "value": "English and French", "quote": "We speak English and French."}
+  ]
+}

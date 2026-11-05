@@ -1,0 +1,36 @@
+{
+  "summary": "Wall Street English is an English language school offering in-center and online English courses, including IELTS preparation and one-to-one online coaching.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Language",
+      "value": "English",
+      "quote": "A leading English language school with expert teachers, coaches, and support for your goals."
+    },
+    {
+      "key": "course_format",
+      "label": "Format",
+      "value": "Self-study combined with teacher-led classes",
+      "quote": "Combining self-study with teacher-led classes makes learning fast and effective."
+    },
+    {
+      "key": "schedule",
+      "label": "Schedule",
+      "value": "No fixed timetable, online and in-center learning",
+      "quote": "No fixed timetable. Control when, where and how you study with flexible online and in-center learning."
+    },
+    {
+      "key": "course_ielts",
+      "label": "IELTS",
+      "value": "IELTS course online and in schools",
+      "quote": "Study online and in our schools with full support from teachers, coaches, and a complete English environment."
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Small group sessions in the IELTS course",
+      "quote": "Small group sessions"
+    }
+  ]
+}

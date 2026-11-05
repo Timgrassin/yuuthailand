@@ -1,0 +1,36 @@
+{
+  "summary": "P.D.C. Visa Plus+ is a visa agency that helps with retirement, marriage, child-support Non-O and tourist visas, 90-day reports and house registration; its site gives an Udon Thani office.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "retirement_visa",
+      "label": "Retirement visa",
+      "value": "Retirement visa help for people aged 50 or older",
+      "quote": "If you are 50 years of age or older, P.D.C. Visa Plus+ can help you obtain a Retirement Visa."
+    },
+    {
+      "key": "marriage_visa",
+      "label": "Marriage visa",
+      "value": "Marriage visa help for clients with a Thai wife",
+      "quote": "can help you and your Thai wife with all the required steps to obtain a Marriage Visa."
+    },
+    {
+      "key": "immigration_services",
+      "label": "90-day report",
+      "value": "Help completing 90-day reports",
+      "quote": "PDC Visa Plus can help you complete your 90 Day Report"
+    },
+    {
+      "key": "hours",
+      "label": "Opening hours",
+      "value": "Monday to Saturday 9AM to 5PM, closed Sundays and public holidays",
+      "quote": "Monday thru Saturday 9AM to 5PM - Closed Sundays & Thailand Public Holidays"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Prajak Road, Preecha Market, Udon Thani",
+      "quote": "322/18 Prajak Road, Preecha Market,"
+    }
+  ]
+}

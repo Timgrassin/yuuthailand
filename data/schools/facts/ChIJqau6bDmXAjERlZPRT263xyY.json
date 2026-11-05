@@ -1,0 +1,12 @@
+{
+  "summary": "Visa agency in Nongprue, Pattaya handling visa extensions and renewals, Non O and marriage visas, visa runs, residence certificates, bank accounts and driving licences.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "services", "label": "Visa services", "value": "Non O visas, visa extensions and visa renewals", "quote": "Non 'O' Visas \n Visa Extensions \n Visa Renewals"},
+    {"key": "visa_run", "label": "Visa runs", "value": "Visa runs to Laos or Cambodia", "quote": "Visa Run to Laos or Cambodia"},
+    {"key": "marriage_visa", "label": "Marriage visa", "value": "Marriage visa and certificate", "quote": "Marriage Visa & Certificate"},
+    {"key": "other_services", "label": "Other services", "value": "Residence certificate, Thai bank account set up and Thai driving licence", "quote": "Thai Bank Account Set Up"},
+    {"key": "hours", "label": "Hours", "value": "Monday to Saturday, 9:00 to 17:00", "quote": "Hours: Mon-Sat 9:00AM - 5:00PM"},
+    {"key": "location_note", "label": "Location", "value": "313/160 Moo.10, Nongprue, Banglamung, Pattaya", "quote": "313/160 Moo.10 T.Nongprue, Banglamung, Pattaya, Chonburi, 20150"}
+  ]
+}

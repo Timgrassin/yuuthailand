@@ -1,0 +1,11 @@
+{
+  "summary": "Best Language School Pattaya teaches Thai and English at basic, intermediate and advanced levels near Jomtien Beach, and lists education visa services.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "languages_taught", "label": "Languages taught", "value": "Thai and English", "quote": "Best Basic Thai"},
+    {"key": "levels", "label": "Thai levels", "value": "Basic, intermediate and advanced Thai", "quote": "Best Advanced Thai"},
+    {"key": "ed_visa", "label": "ED visa", "value": "Lists education visa services", "quote": "Best Language School Pattaya | Education Visa"},
+    {"key": "location_note", "label": "Location", "value": "Soi Watboon Kanjanaram, Nongprue, a 10-minute walk from Jomtien Beach", "quote": "Nestled just a 10-minute walk from Jomtien Beach"},
+    {"key": "hours_per_week", "label": "Opening hours", "value": "Open daily 09:00 to 21:00", "quote": "Our school is open daily from 09:00 to 21:00 hrs"}
+  ]
+}

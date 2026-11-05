@@ -1,0 +1,12 @@
+{
+  "summary": "Visa agency in Patong, Phuket offering business, retirement, education, family, dependent and guardian visas, work permits, company registration and visa runs.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "ed_visa", "label": "ED visa", "value": "Education visa service for Thai language students", "quote": "This type of visa is for foreigners who wish to study Thai Language Student visa"},
+    {"key": "retirement_visa", "label": "Retirement visa", "value": "Retirement visa (Non O) for people over 50", "quote": "Retirement Visa service for senior citizens above the age of 50"},
+    {"key": "work_permit", "label": "Work permit", "value": "Business visa (Non B) and work permit service", "quote": "Business Visa (NON-B)"},
+    {"key": "family_visa", "label": "Family visa", "value": "Thai family, dependent and guardian visas (Non O)", "quote": "Thai Family Visa (NON-O)"},
+    {"key": "visa_run", "label": "Visa run", "value": "Visa runs and embassy applications in Laos or Malaysia", "quote": "Request visa at Thai embassy in Laos or Malaysia"},
+    {"key": "location_note", "label": "Location", "value": "236/9 Phangmuang Sai Kor Road, Patong, Kathu, Phuket", "quote": "236/9 Phangmuang Sai Kor Road, Patong, Kathu, Phuket 83150"}
+  ]
+}

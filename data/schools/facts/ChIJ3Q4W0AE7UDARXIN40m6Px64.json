@@ -1,0 +1,11 @@
+{
+  "summary": "Family-owned Muay Thai gym in Patong, Phuket offering training for beginners, fitness students and professional fighters with a team of former stadium fighters as trainers.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "founded", "label": "Established", "value": "Over 20 years in Patong", "quote": "has been a pillar of the Muay Thai community for over 20 years"},
+    {"key": "levels", "label": "Levels", "value": "Complete beginners, fitness students and professional fighters", "quote": "whether you’re a complete beginner, a fitness enthusiast, or a seasoned fighter"},
+    {"key": "training_sessions", "label": "Session times", "value": "Morning 9 to 11 and afternoon 4 to 6", "quote": "9-11 Afternoon 4-6"},
+    {"key": "trainers", "label": "Trainers", "value": "Trainers include JJ, with 160 fights including Lumpinee and Rajadamnern", "quote": "With an impressive 160 fights in his career, 130 wins, 27 losses, and 3 draws"},
+    {"key": "location_note", "label": "Location", "value": "140 21 Nanai Rd, Patong, Kathu District, Phuket", "quote": "140 21 Nanai Rd, Patong, Kathu District, Phuket 83150, Thailand"}
+  ]
+}

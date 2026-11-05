@@ -1,0 +1,11 @@
+{
+  "summary": "Insight English is a language school with branches in Silom, Lad Prao and Hua Hin teaching English, exam preparation and Thai, with Thai or English education visa courses.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "ed_visa", "label": "ED visa", "value": "Thai or English education visa through a language course", "quote": "A Thai or English education visa with Insight gives you the chance to learn a new language and stay in Thailand"},
+    {"key": "ed_visa", "label": "ED visa process", "value": "School submits the application to the Ministry of Education", "quote": "We submit your application to the Minsitry of Education."},
+    {"key": "languages_taught", "label": "Thai courses", "value": "Thai courses at the Silom and Hua Hin schools", "quote": "Thai language courses are available at our Silom, Bangkok language school and our Hua Hin language school."},
+    {"key": "course_format", "label": "Courses", "value": "Academic, General Training and Life Skills IELTS courses", "quote": "With Academic IELTS, General Training IELTS and IELTS Life Skills courses available"},
+    {"key": "location_note", "label": "Location", "value": "Hua Hin branch in the center of Hua Hin on Petchkasem Road", "quote": "Our Hua Hin language school is conveniently located in the center of Hua Hin on Petchkasame Road"}
+  ]
+}

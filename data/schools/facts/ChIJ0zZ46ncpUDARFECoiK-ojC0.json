@@ -1,0 +1,11 @@
+{
+  "summary": "Language school in Rawai, Phuket offering private, group and online Thai and English classes, a free trial class and 1 year ED visas.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "ed_visa", "label": "ED visa", "value": "Can arrange a 1 year ED visa", "quote": "We can arrange a 1 Year ED Visa for you!"},
+    {"key": "languages_taught", "label": "Languages", "value": "Thai and English", "quote": "Study Thai Language\n Private & Group Classes"},
+    {"key": "class_format", "label": "Class formats", "value": "Private, group and online classes", "quote": "Private Classes \n Group Classes \n Online Classes"},
+    {"key": "free_trial", "label": "Free trial", "value": "One hour trial class for free", "quote": "we are happy to give you this hour of our time for free!"},
+    {"key": "location_note", "label": "Location", "value": "Rawai, Phuket", "quote": "Learn Thai in Phuket at Beyond Language School, Rawai"}
+  ]
+}

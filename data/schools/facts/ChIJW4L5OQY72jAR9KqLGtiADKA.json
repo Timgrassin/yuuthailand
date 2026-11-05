@@ -1,0 +1,11 @@
+{
+  "summary": "Chiang Mai Visa Shop is a visa agency in Chiang Mai's old city handling 90-day reports, visa extensions, retirement, marriage, ED and DTV visas and other expat services.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "location_note", "label": "Location", "value": "Old city, about 200 meters from Thape Gate", "quote": "We are located in the old city center of Chiang Mai, almost 200 meters from Thape Gate in the city."},
+    {"key": "ninety_day_report", "label": "90-day report", "value": "Handles 90-day reports for clients", "quote": "We will do the 90-day report for you."},
+    {"key": "door_to_door", "label": "Door-to-door", "value": "Offers a door-to-door service", "quote": "We even offer a door-to-door service"},
+    {"key": "free_consultation", "label": "Consultation", "value": "Free consultation at the office", "quote": "you can have a free consultation by visiting our office"},
+    {"key": "ed_visa", "label": "ED visa", "value": "Lists student ED visa service", "quote": "Student Ed-Visa"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "summary": "Old School Boxing Hua Hin is a Western boxing and Muay Thai school in Hua Hin for all ages and levels.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "levels", "label": "Levels", "value": "All ages and levels", "quote": "For all ages and levels!"},
+    {"key": "trainers", "label": "Licences", "value": "A, B and C Muay Thai licences", "quote": "A,B,C Muay Thai Licenses"},
+    {"key": "location_note", "label": "Location", "value": "Hua Hin", "quote": "Western Boxing & Muay Thai school located in Hua Hin, Thailand."}
+  ]
+}

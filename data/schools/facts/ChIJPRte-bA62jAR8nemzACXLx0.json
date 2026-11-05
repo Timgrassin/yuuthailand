@@ -1,0 +1,12 @@
+{
+  "summary": "Effective Thai is a Thai language school in Chiang Mai offering 1-to-1, small group and tailor-made corporate Thai courses sold in lesson bundles.",
+  "price_from_thb": 2750,
+  "facts": [
+    {"key": "price_course", "label": "Small group, 10 lessons", "value": "2,750 THB for 10 small group lessons", "quote": "10 2,750 THB"},
+    {"key": "price_course", "label": "1-to-1, 10 lessons", "value": "5,500 THB for 10 private lessons", "quote": "10 5,500 THB"},
+    {"key": "class_size", "label": "Class size", "value": "Small groups of 2 to 6 students", "quote": "Small Group Thai Language Classes (2-6 students)"},
+    {"key": "course_length", "label": "Lesson bundles", "value": "Bundles of 10 to 200 lessons of 50 minutes each", "quote": "bundles of 10, 25, 50, 100, 200 lessons (each lesson 50 minutes)"},
+    {"key": "levels", "label": "Entry", "value": "Placement test and interview required", "quote": "you will be required to complete a placement test and interview"},
+    {"key": "opening_hours", "label": "Hours", "value": "Monday to Friday 8:30am to 7:00pm", "quote": "Monday to Friday: 8:30am – 7:00pm"}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "summary": "Easy Thai Language School in Ao Nang, Krabi offers private, group and online Thai language courses, including long-term programmes.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "levels", "label": "Course formats", "value": "Private, group and online Thai courses", "quote": "Private, group, and online Thai language courses for international students."},
+    {"key": "course_length", "label": "Long-term programmes", "value": "Long-term Thai language programmes available", "quote": "Long-term Thai language programmes are also available."},
+    {"key": "licence", "label": "Licence", "value": "Describes itself as a licensed language school", "quote": "Licensed Language School"},
+    {"key": "location_note", "label": "Location", "value": "Ao Nang, Krabi, with live online lessons", "quote": "Study at our school in Ao Nang, Krabi, or join live online lessons from anywhere."}
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "summary": "Next Step Hua Hin is a visa and expat services office in Hua Hin offering retirement, marriage, DTV, education and LTR visa help plus immigration, licence and insurance services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "Visa services",
+      "value": "Retirement, marriage, DTV, education, LTR and other long-term visa assistance",
+      "quote": "Retirement, marriage, DTV, education, LTR and other long-term visa assistance."
+    },
+    {
+      "key": "immigration_services",
+      "label": "Immigration services",
+      "value": "Extensions, 90-day reporting, re-entry permits, TM30 and residence certificates",
+      "quote": "Extensions, 90-day reporting, re-entry permits, TM30 and residence certificates."
+    },
+    {
+      "key": "hours",
+      "label": "Opening hours",
+      "value": "Monday to Saturday, 9:00 AM to 5:00 PM",
+      "quote": "Open Monday–Saturday 9:00 AM–5:00 PM"
+    },
+    {
+      "key": "languages",
+      "label": "Languages",
+      "value": "English and Thai support",
+      "quote": "English & Thai support"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Soi 94, Mooban Railway West, Hua Hin",
+      "quote": "10/408 Soi 94, Mooban Railway West, Hua Hin, Hua Hin District, Prachuap Khirikhan 77110"
+    }
+  ]
+}

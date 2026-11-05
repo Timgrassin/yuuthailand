@@ -1,0 +1,11 @@
+{
+  "summary": "Muay Thai and fitness sports camp in Nong Prue outside Pattaya with on-site accommodation, group Muay Thai lessons and 1 on 1 training.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "location_note", "label": "Location", "value": "Nong Prue district, about 15 minutes from the beach and Pattaya city center", "quote": "yet the beach and Pattaya&#8217;s city center are just 15 minutes away"},
+    {"key": "training_sessions", "label": "Group lessons", "value": "Muay Thai group lessons daily 9:00 to 11:00 and 17:00 to 19:00", "quote": "9:00 &#8211; 11:00 uur\n17:00 &#8211; 19:00 uur"},
+    {"key": "hours", "label": "Fitness hours", "value": "Fitness open daily 8:00 to 21:00", "quote": "8:00 &#8211; 21:00 uur"},
+    {"key": "accommodation", "label": "Accommodation", "value": "Stay and train at the camp", "quote": "Stay and Train at Thaineth Muay Thai and Fitness Club"},
+    {"key": "private_training", "label": "Private training", "value": "1 on 1 Muay Thai and boxing training", "quote": "muaytai and boxing\n 1 on 1 Training"}
+  ]
+}

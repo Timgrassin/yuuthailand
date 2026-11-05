@@ -1,0 +1,11 @@
+{
+  "summary": "Progress Language School in Pattaya offers Thai education visas and language courses in Thai, Russian and English.",
+  "price_from_thb": 24000,
+  "facts": [
+    {"key": "price_course", "label": "ED visa price", "value": "From 24,000 THB, with extra fees for 90-day renewals and courses", "quote": "Only THB 24,000"},
+    {"key": "licence", "label": "Licence", "value": "Licensed by the Ministry of Education, No. ชบ 0003/2545", "quote": "We are licensed and certified by the Royal Thai Ministry of Education, No : ชบ 0003/2545"},
+    {"key": "founded", "label": "Founded", "value": "Serving visa needs since 2000", "quote": "Proudly serving your visa needs since 2000."},
+    {"key": "ed_visa", "label": "ED visa", "value": "Offers Thai education visas", "quote": "Our Thai(ED) Education Visa costs you as low as"},
+    {"key": "languages_taught", "label": "Languages taught", "value": "Thai, Russian and English", "quote": "Specialized Courses in\nThai\nRussian\nEnglish"}
+  ]
+}

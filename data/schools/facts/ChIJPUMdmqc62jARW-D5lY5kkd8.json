@@ -1,0 +1,13 @@
+{
+  "summary": "We Learn Thai Chiang Mai is a Thai language school at Pantip Plaza offering group, private, online and crash courses plus ED visa and DTV programs.",
+  "price_from_thb": 15000,
+  "facts": [
+    {"key": "price_course", "label": "Price range", "value": "From 15,000 to 43,500 baht", "quote": "Starting From15,000 - 43,500 baht"},
+    {"key": "ed_visa", "label": "ED visa", "value": "Study Thai with an ED visa for 3 months to 1 year", "quote": "Study Thai With Ed Visa 3 Months To 1 year"},
+    {"key": "hours_per_week", "label": "Relaxed schedule", "value": "4 days a week, 2 hours a day", "quote": "Relaxed 4 Days/week 2 Hr/day"},
+    {"key": "hours_per_week", "label": "Intensive schedule", "value": "5 days a week, 3 hours a day", "quote": "Intensive 5 Days/week 3hr/day"},
+    {"key": "class_size", "label": "Class size", "value": "Maximum group sizes are followed", "quote": "We have maximum group sizes which are followed to ensure the success of our students."},
+    {"key": "dtv_support", "label": "DTV", "value": "DTV visa program page listed", "quote": "About DTV Visa program"},
+    {"key": "location_note", "label": "Location", "value": "Pantip Plaza 4th floor, 152/1 Chang Klan Rd, Chiang Mai", "quote": "Pantip Plaza, 4th Flr 152/1 Chang Klan Rd Chiang Mai, 50100"}
+  ]
+}

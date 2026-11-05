@@ -1,0 +1,8 @@
+{
+  "summary": "MrKnock Muay Thai is a Muay Thai camp in Hua Hin offering training for all levels with on-site accommodation.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "accommodation", "label": "Accommodation", "value": "Train and sleep at the camp", "quote": "TRAIN, SLEEP AT MRKNOCK MUAYTHAI CAMP IN HUAHIN"},
+    {"key": "levels", "label": "Levels", "value": "All levels", "quote": "our camp offers authentic Muay Thai training for all levels in a traditional Thai setting"}
+  ]
+}

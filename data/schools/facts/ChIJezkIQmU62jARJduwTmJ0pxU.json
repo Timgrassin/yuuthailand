@@ -1,0 +1,11 @@
+{
+  "summary": "The Language Institute of Chiang Mai University offers language training including a 1-year Thai language program for international learners, plus testing, translation and study abroad programs.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "course_length", "label": "Thai program", "value": "1-year Thai language program for international learners", "quote": "1 Year Thai Language International Learners"},
+    {"key": "levels", "label": "Levels", "value": "Speaking, listening, reading and writing with schedules for all proficiency levels", "quote": "with flexible class schedules to suit all proficiency levels"},
+    {"key": "licence", "label": "Affiliation", "value": "Part of Chiang Mai University", "quote": "LICMU is a centre for translation, editing and interpretation services at Chiang Mai University"},
+    {"key": "location_note", "label": "Location", "value": "239 Huay Kaew Road, Suthep, Chiang Mai", "quote": "239 Hauy Kaew Road,Suthep,Mueang, Chaing Mai 50200"},
+    {"key": "opening_hours", "label": "Hours", "value": "Monday to Friday 8.30 am to 5 pm", "quote": "Monday-Friday (8.30 am - 5pm)"}
+  ]
+}

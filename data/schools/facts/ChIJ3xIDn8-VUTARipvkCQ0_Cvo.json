@@ -1,0 +1,42 @@
+{
+  "summary": "Thai Voice Language School in Ao Nang, Krabi teaches spoken Thai to foreigners in group classes and private lessons in person or online, and lists student, retirement and DTV visa services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Beginner, intermediate, advanced and private lessons",
+      "quote": "Courses for every level"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Small classes with personal feedback",
+      "quote": "Small classes and personal feedback"
+    },
+    {
+      "key": "trainers",
+      "label": "Teachers",
+      "value": "Native Thai teachers",
+      "quote": "Native Thai teachers who correct your pronunciation and tones"
+    },
+    {
+      "key": "format",
+      "label": "Formats",
+      "value": "Group classes in Ao Nang, private lessons in person or online",
+      "quote": "Private lessons in person or online"
+    },
+    {
+      "key": "ed_visa",
+      "label": "Visa services",
+      "value": "Student visa service listed",
+      "quote": "Visa Services Student Visa"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "401/1 Moo 2, Ao Nang, Krabi",
+      "quote": "401/1 Moo 2, Ao Nang, Krabi 81180, Thailand"
+    }
+  ]
+}

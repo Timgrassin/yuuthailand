@@ -1,0 +1,12 @@
+{
+  "summary": "German-language visa and expat service in Pattaya handling DTV, retirement, LTR and Thailand Privilege visas, extensions of stay, Thai bank accounts, driving licences, Schengen visas, marriage paperwork and tax filing.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "languages_spoken", "label": "Language", "value": "Service in German for German-speaking expats and visitors", "quote": "Wir sind DER unabhängige Dienstleister für deutschsprachige Auswanderer und Urlauber in Pattaya und Umgebung."},
+    {"key": "dtv_support", "label": "Visa types", "value": "DTV, retirement, Schengen, Thailand Privilege, LTR and overstay cases", "quote": "DTV | Rentnervisum | Schengenvisum | Thailand Privilege Visa | LTR | Visum Overstay"},
+    {"key": "extension", "label": "Extensions", "value": "30-day extensions, eVisa and extension of stay", "quote": "30-Tage-Verlängerung, das neue eVisa oder die „Extension of stay“"},
+    {"key": "bank_account", "label": "Bank account", "value": "Opens Thai bank accounts only with a valid non-immigrant or other long-term visa", "quote": "Wir eröffnen Ihr persönliches Bankkonto ausschließlich mit einem gültigen Non-Immigrant-Visum oder einem anderen langfristigen Visum für Thailand."},
+    {"key": "driving_licence", "label": "Driving licence", "value": "Thai motorbike and car licence applications, conversions and renewals", "quote": "Beantragung, Umschreibung, Verlängerung oder “Neumachen” des thailändischen Motorrad- und/oder Autoführerscheins."},
+    {"key": "tax", "label": "Tax", "value": "Tax ID applications and annual Thai income tax returns", "quote": "Die Beantragung einer Steuernummer für Privatpersonen sowie die jährliche Einkommensteuererklärung in Thailand."}
+  ]
+}

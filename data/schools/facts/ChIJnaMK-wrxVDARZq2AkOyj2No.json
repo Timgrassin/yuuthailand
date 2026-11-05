@@ -1,0 +1,48 @@
+{
+  "summary": "BoPhut Muay Thai Gym on Koh Samui offers morning and evening group classes, private sessions, kids classes and fighter training.",
+  "price_from_thb": 500,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Group class",
+      "value": "500 baht per class for ages 11 and up",
+      "quote": "฿500 / Class (11+)"
+    },
+    {
+      "key": "price_course",
+      "label": "One week",
+      "value": "2,500 baht for one week of group classes",
+      "quote": "฿2,500 / 1 Week"
+    },
+    {
+      "key": "price_session",
+      "label": "Private session",
+      "value": "800 baht per private session",
+      "quote": "฿800 / Session (11+)"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Group schedule",
+      "value": "Morning 8:00 to 9:30, evening 5:00 to 6:30",
+      "quote": "Morning: 8:00am – 9:30am"
+    },
+    {
+      "key": "levels",
+      "label": "Ages",
+      "value": "Kids classes for ages 6 to 11, adults 12 and up",
+      "quote": "We offer kids classes for ages 6–11 and adult programs for 12 and above."
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "Trainers speak English and are active fighters",
+      "quote": "Our experienced trainers speak excellent English, are active fighters themselves"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "117, 2, Tambon Bo Put, Bophut",
+      "quote": "Address 117, 2, Tambon Bo Put, Bophut,"
+    }
+  ]
+}

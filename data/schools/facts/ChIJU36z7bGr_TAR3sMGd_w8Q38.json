@@ -1,0 +1,13 @@
+{
+  "summary": "TLC The Language Centre is a Ministry of Education licensed school in Hua Hin teaching Thai, English and Chinese, with one-year education visa courses.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "licence", "label": "Licence", "value": "Licensed by the Ministry of Education", "quote": "Licensed by the Thailand Ministry of Education, TLC has taught thousands of students"},
+    {"key": "founded", "label": "Founded", "value": "2008", "quote": "TLC was established in 2008"},
+    {"key": "ed_visa", "label": "ED visa", "value": "One-year education visa with a one-year course, Thai or English lessons included", "quote": "With an education visa you get Thai or English lessons included."},
+    {"key": "course_length", "label": "Course length", "value": "One year course for the education visa", "quote": "attend a one year course in a feature of Thai culture, such as Thai Language lessons"},
+    {"key": "languages_taught", "label": "Languages", "value": "Thai, English and Chinese", "quote": "qualified Thai, English and Chinese instructors"},
+    {"key": "trainers", "label": "Teachers", "value": "All native teachers", "quote": "All native teachers"},
+    {"key": "location_note", "label": "Location", "value": "3rd floor, Wongchomsin Building, Petchkasem Road, opposite Marvest condo", "quote": "Our school is situated on the 3rd floor, Wongchomsin Building, 83/14 Petchkasem Road, Hua Hin."}
+  ]
+}

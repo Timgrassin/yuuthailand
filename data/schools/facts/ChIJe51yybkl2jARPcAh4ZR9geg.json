@@ -1,0 +1,10 @@
+{
+  "summary": "LTR Visa Center, run by Star Visa Service in Chiang Mai, provides information and application assessment for Thailand's 10-year Long-Term Resident visa.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "ltr_support", "label": "LTR visa", "value": "Assessment for the four LTR visa categories and dependents", "quote": "Select Your LTR Type Wealthy Global Citizens Wealthy Pensioners Work-From-Thailand Professionals Highly-Skilled Professionals Spouses and dependents"},
+    {"key": "operator", "label": "Operator", "value": "Run by Star Visa Service", "quote": "LTR Visa by Star Visa Service"},
+    {"key": "location_note", "label": "Branch 1", "value": "419/3 Wichayanon Rd., Chang Moi, near the former US Consulate", "quote": "419/3 Wichayanon Rd., T. Chang Moi, Mueang District, Chiang Mai"},
+    {"key": "location_note", "label": "Branch 2", "value": "114/15-16 M. 4 Nong Pa Khrang, near the new US Consulate and Big C Extra", "quote": "Near The New U.S. Consulate General Chiang Mai, Chiang Mai Business Park and Big C Extra"}
+  ]
+}

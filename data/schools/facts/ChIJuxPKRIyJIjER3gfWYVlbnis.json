@@ -1,0 +1,36 @@
+{
+  "summary": "Lawyers for Expats Thailand is a law firm offering property, company, visa and immigration, work permit and driving services for foreigners, with offices listed in several cities including Khon Kaen.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Visas",
+      "value": "Retirement, LTR, DTV, Non-B visas and extensions",
+      "quote": "Retirement visas, LTR, DTV, Non-B and extensions."
+    },
+    {
+      "key": "licence",
+      "label": "Registration",
+      "value": "Registered members of the Lawyers Council of Thailand",
+      "quote": "Registered Members\n Lawyers Council of Thailand"
+    },
+    {
+      "key": "founded",
+      "label": "Years in practice",
+      "value": "21 years in practice",
+      "quote": "21\n Years in Practice"
+    },
+    {
+      "key": "languages",
+      "label": "Languages",
+      "value": "English-speaking lawyers",
+      "quote": "English-speaking lawyers"
+    },
+    {
+      "key": "hours",
+      "label": "Consultation",
+      "value": "Confidential consultation, Monday to Saturday",
+      "quote": "Confidential consultation. Available Monday to Saturday."
+    }
+  ]
+}

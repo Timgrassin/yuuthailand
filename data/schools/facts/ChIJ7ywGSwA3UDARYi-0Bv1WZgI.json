@@ -1,0 +1,13 @@
+{
+  "summary": "Muay Thai gym in Bangtao, Phuket offering group classes, private lessons, fighter programs and training packages with private villa accommodation.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "training_sessions", "label": "Group sessions", "value": "Two 1.5-hour sessions daily, morning and evening", "quote": "Two sessions daily, morning and evening."},
+    {"key": "hours", "label": "Session times", "value": "Morning from 7:30 AM and afternoon from 4:00 PM", "quote": "Morning sessions from 7:30 AM and afternoon from 4:00 PM."},
+    {"key": "levels", "label": "Levels", "value": "Complete beginners to professional fighters", "quote": "We welcome everyone from complete beginners to professional fighters."},
+    {"key": "accommodation", "label": "Accommodation", "value": "Private villas steps from the gym", "quote": "We have private villas just steps from the gym"},
+    {"key": "course_length", "label": "Training packages", "value": "One to four weeks of daily training with accommodation", "quote": "One to four weeks of daily training combined with accommodation"},
+    {"key": "fights", "label": "Fights", "value": "Coaches arrange bouts at local Phuket stadiums", "quote": "Our coaches arrange bouts at local Phuket stadiums when you're ready to step into the ring."},
+    {"key": "location_note", "label": "Location", "value": "Si Sunthon, Thalang District (Bangtao), about 20 to 25 minutes from Phuket Airport", "quote": "94, Subdistrict, 15, Si Sunthon, Thalang District, Phuket 83110, Thailand"}
+  ]
+}

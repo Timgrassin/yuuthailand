@@ -1,0 +1,48 @@
+{
+  "summary": "Samui Inter Muay Thai Gym in Bo Put, Koh Samui offers Muay Thai group and private classes for beginners, advanced students and fighters, with weekly and monthly packages.",
+  "price_from_thb": 400,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Group class",
+      "value": "400 THB per hour",
+      "quote": "GROUP CLASS / 400 THB/HOUR"
+    },
+    {
+      "key": "price_session",
+      "label": "Private class",
+      "value": "800 THB per hour",
+      "quote": "PRIVATE CLASS / 800 THB/ALL DAY/EVERY HOUR"
+    },
+    {
+      "key": "price_month",
+      "label": "Monthly",
+      "value": "5,000 THB a month for one class a day, 7,500 THB for two",
+      "quote": "1 CLASS = 5,000 THB\n2 CLASS = 7,500 THB"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Schedule",
+      "value": "Morning class 8:00 to 9:30, afternoon 5:00 to 6:30",
+      "quote": "MORNING CLASS / 8:00 AM - 9.30 AM"
+    },
+    {
+      "key": "hours",
+      "label": "Opening hours",
+      "value": "Mon to Sat, 7am to 9pm",
+      "quote": "Open MON-SAT / 7 AM - 9 PM"
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "Thai and international coaches",
+      "quote": "run by experienced Thai and international coaches"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Leam-din Rd, Bo Put, Koh Samui",
+      "quote": "Ko Samui District, Surat Thani 84320"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "summary": "Star Visa Service is a Chiang Mai visa agency with two branches offering Thai visa support, DTV, LTR and Thailand Privilege Card applications, legal services and translation.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "founded", "label": "Experience", "value": "Over 26 years as a visa agency in Chiang Mai", "quote": "As a visa agency has a long experiences for over 26 years in Chiang Mai"},
+    {"key": "dtv_support", "label": "DTV", "value": "Offers Destination Thailand Visa applications", "quote": "Now offering the newly launched Destination Thailand Visa."},
+    {"key": "ed_visa", "label": "Visa types", "value": "Assists with retirement, dependent, business, student and marriage visas", "quote": "Whether you need assistance with your Retirement Visa, Dependent Visa, Business Visa, Student Visa or Thai Marriage Visa."},
+    {"key": "location_note", "label": "Branch 1", "value": "Wichayanon Rd, Chang Moi, near the USA Embassy and Mueang Mai Market", "quote": "419/3 Wichayanon Rd., T. Chang Moi, Mueang District, Chiang Mai Thailand 50300"},
+    {"key": "location_note", "label": "Branch 2", "value": "Nong Pa Khrang, near Big C Extra and Chiang Mai Business Park", "quote": "114/15-16 M. 4 T. Nong Pa Khrang, Mueang District, Chiang Mai Thailand 50000"}
+  ]
+}

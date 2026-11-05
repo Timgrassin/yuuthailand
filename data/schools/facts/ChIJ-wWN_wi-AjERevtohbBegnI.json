@@ -1,0 +1,12 @@
+{
+  "summary": "Easy ABC Language School in South Pattaya teaches German, English, Thai and Russian in group, private and online formats, and offers ED visa study, translations and apartments.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "founded", "label": "Founded", "value": "1 March 2008, in Pattaya", "quote": "On March 1st, 2008, the Easy ABC Language School was founded in Pattaya under German management"},
+    {"key": "licence", "label": "Licence", "value": "Audited and certified as a language school by the Thai Ministry of Education in 2009", "quote": "In 2009, Easy ABC was audited by the Thai Ministry of Education and officially certified as a language school."},
+    {"key": "languages_taught", "label": "Languages taught", "value": "German, English, Thai and Russian", "quote": "We currently teach the following languages: German, English, Thai and Russian."},
+    {"key": "ed_visa", "label": "ED visa", "value": "ED visa for ages 12 to 49", "quote": "This is possible with an ED Visa (eligible ages: 12 to 49 years old)."},
+    {"key": "levels", "label": "Thai levels", "value": "Thai speaking and writing for beginners and advanced", "quote": "*Thai speaking and writing for beginners & advanced"},
+    {"key": "accommodation", "label": "Apartments", "value": "Apartments in Pattaya for holiday or long-term stays", "quote": "If you are looking for a nice and clean apartment in Pattaya for vacation or long term, we have the right offer for you."}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "summary": "DTVThaiVisa, operated by TM Associates Co., Ltd in Pattaya, prepares and submits Destination Thailand Visa applications for remote work, Muay Thai, cooking and medical treatment categories.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "dtv_support", "label": "DTV", "value": "Prepares and submits DTV applications", "quote": "Let us handle your Destination Thailand Visa (DTV) application"},
+    {"key": "dtv_support", "label": "Muay Thai DTV", "value": "6-month Muay Thai course package for the DTV", "quote": "6-Month Muay Thai Course (DTV Approved)"},
+    {"key": "price_course", "label": "Service price", "value": "From 139 US dollars", "quote": "Order DTV from $139.00"},
+    {"key": "licence", "label": "Operator", "value": "Operated by TM Associates Co., Ltd, a licensed visa consultancy in Pattaya, not affiliated with the Thai government", "quote": "DTVThaiVisa is operated by TM Associates Co., Ltd, a licensed visa consultancy based in Pattaya, Thailand."},
+    {"key": "location_note", "label": "Hours", "value": "Monday to Saturday 9:00 to 18:00", "quote": "Mon–Sat 9:00–18:00 (ICT)"}
+  ]
+}

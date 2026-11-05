@@ -1,0 +1,42 @@
+{
+  "summary": "Chatpichit Muay Thai is a family-run gym on Koh Samui offering drop-in group classes, a monthly unlimited plan and private one-on-one training.",
+  "price_from_thb": 300,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Group class",
+      "value": "300 baht per drop-in group session",
+      "quote": "300 ฿ / session"
+    },
+    {
+      "key": "price_month",
+      "label": "Monthly unlimited",
+      "value": "7,000 baht per month",
+      "quote": "7,000 ฿ / month"
+    },
+    {
+      "key": "price_session",
+      "label": "Private session",
+      "value": "800 baht per hour one-on-one",
+      "quote": "800 ฿ / hour"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Group schedule",
+      "value": "Mon to Sat, 8 to 10am and 5 to 7pm",
+      "quote": "Mon–Sat: 8:00 AM – 10:00 AM & 5:00 PM – 7:00 PM"
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "Every coach has fight experience",
+      "quote": "Every coach on our team has real fight experience."
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels, beginners to advanced",
+      "quote": "All levels welcome — beginners to advanced"
+    }
+  ]
+}

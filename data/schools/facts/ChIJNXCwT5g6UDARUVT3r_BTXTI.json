@@ -1,0 +1,10 @@
+{
+  "summary": "Language school in Patong Beach, Phuket teaching Thai, English, German and Japanese courses, with ED visa information.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "founded", "label": "Founded", "value": "Teaching languages since 1983", "quote": "We&#8217;ve been teaching languages since 1983."},
+    {"key": "languages_taught", "label": "Languages", "value": "Thai, English, German and Japanese", "quote": "learn thai \n learn english \n learn german \n learn japanese"},
+    {"key": "ed_visa", "label": "ED visa", "value": "Has an education (ED) visa section for Thai language students", "quote": "education (ED) visa"},
+    {"key": "location_note", "label": "Location", "value": "Patong Beach, Phuket", "quote": "There’s no better place than Patong Beach, Phuket"}
+  ]
+}

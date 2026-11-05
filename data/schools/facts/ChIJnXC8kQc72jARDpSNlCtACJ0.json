@@ -1,0 +1,8 @@
+{
+  "summary": "The Bear Fight Club is a Muay Thai gym in Chiang Mai offering Muay Thai and private training.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "training_sessions", "label": "Training", "value": "Muay Thai and private training", "quote": "Muay Thai & Private Training"},
+    {"key": "location_note", "label": "Location", "value": "13/3 Ratchamanka Soi 6, Phra Sing, Chiang Mai", "quote": "13/3 Ratchamanka Soi 6, Phra Sing, Mueang Chiang Mai District, Chiang Mai 50200"}
+  ]
+}

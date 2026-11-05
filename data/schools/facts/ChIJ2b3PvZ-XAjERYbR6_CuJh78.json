@@ -1,0 +1,12 @@
+{
+  "summary": "TVS Services is a visa consultancy and travel agency in central Pattaya that helps with retirement, marriage, education, LTR and business visas, extensions, driving licences and bank accounts.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "founded", "label": "Founded", "value": "2007", "quote": "Established 2007, Pattaya's Specialist Visa Consultancy and Travel Agency"},
+    {"key": "ed_visa", "label": "ED visa", "value": "Assists with Thailand Education Visas", "quote": "Thailand Education Visa"},
+    {"key": "retirement_visa", "label": "Retirement visa", "value": "Retirement visa applications, renewals and extensions", "quote": "Thailand Retirement Visa/Renewal or Extension Visa"},
+    {"key": "ltr_visa", "label": "LTR visa", "value": "Assists with Long Term Resident visas", "quote": "Thailand's Long Term Resident (LTR) Visa"},
+    {"key": "reporting", "label": "Reporting", "value": "Re-entry permits, TM30 and 90-day reports", "quote": "Re-entry Permits/TM30 / 90 Days Report"},
+    {"key": "location_note", "label": "Location", "value": "Pattaya 2nd Road Soi 13", "quote": "Pattaya 2nd Road Soi 13 (next to The Sportsman Pub)"}
+  ]
+}

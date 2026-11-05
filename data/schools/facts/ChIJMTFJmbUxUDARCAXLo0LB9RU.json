@@ -1,0 +1,14 @@
+{
+  "summary": "Visa agency with an office in Wichit, Phuket handling tourist visas and extensions, 90-day reports, re-entry permits, Non-Immigrant, ED, retirement, DTV, LTR and SMART visas, work permits and Thai driving licences.",
+  "price_from_thb": null,
+  "facts": [
+    {"key": "founded", "label": "Founded", "value": "Operating since 2010", "quote": "Local office in Phuket · Trusted since 2010"},
+    {"key": "ed_visa", "label": "ED visa", "value": "ED visa support for language schools, universities and student visa extensions", "quote": "Language schools, accredited universities and student visa extensions."},
+    {"key": "dtv_support", "label": "DTV", "value": "DTV support with an eligibility pre-check", "quote": "Destination Thailand Visa for long stays and digital nomads. Fast-track eligibility pre-check."},
+    {"key": "retirement_visa", "label": "Retirement visa", "value": "Retirement visa (O-A and O-X)", "quote": "Retirement Visa (O-A / O-X)"},
+    {"key": "processing_time", "label": "Processing", "value": "Processing typically starts within 1 to 3 business days after documents are complete", "quote": "Typical processing starts within 1 to 3 business days after documents are complete"},
+    {"key": "fee_terms", "label": "Quotes", "value": "Quoted on request, with service fee shown separately from government fees", "quote": "Every case is different, so each service is quoted on request."},
+    {"key": "driving_licence", "label": "Driving licence", "value": "Foreign licence conversion to a Thai car and motorbike licence", "quote": "Car and motorbike license conversion, international permit assistance"},
+    {"key": "location_note", "label": "Location", "value": "Office in Wichit, Phuket", "quote": "Visa Service Phuket is a local visa agency with an office in Wichit."}
+  ]
+}
