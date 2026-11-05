@@ -1,0 +1,36 @@
+{
+  "summary": "Lanta Complex Thai Cooking School runs hands-on Thai cooking classes in Klong Dao, Koh Lanta.",
+  "price_from_thb": 1500,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Class price",
+      "value": "Single cooking class costs 1500 Baht",
+      "quote": "Single cooking 1500 Baht"
+    },
+    {
+      "key": "class_size",
+      "label": "Group size",
+      "value": "Small groups",
+      "quote": "Small groups allow us to give personal attention to each participant"
+    },
+    {
+      "key": "curriculum",
+      "label": "Format",
+      "value": "Hands-on, each participant has own cooking station",
+      "quote": "Each participant has their own cooking station"
+    },
+    {
+      "key": "certificate",
+      "label": "Recipe card",
+      "value": "Participants receive a recipe card",
+      "quote": "Receive your very own recipe card with all the dishes you’ve prepared."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Klong Dao, Koh Lanta, with pick-up on request",
+      "quote": "Our school is conveniently located and easy to reach - Klong Dao."
+    }
+  ]
+}

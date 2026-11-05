@@ -1,0 +1,30 @@
+{
+  "summary": "Phuket visa service running daily border runs to Ranong and offering extension and long-term visa help.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Border runs",
+      "value": "Daily visa runs to Ranong with private transport",
+      "quote": "Daily Visa runs to Ranong"
+    },
+    {
+      "key": "ed_visa",
+      "label": "Long-term visa help",
+      "value": "Help with long-term visas including ED, Business, Marriage and Retirement",
+      "quote": "help with long-term visa options (such as ED, Business, Marriage, and Retirement visas)"
+    },
+    {
+      "key": "visa_services",
+      "label": "Other services",
+      "value": "Visa consultation, extension support and 90-day reports",
+      "quote": "visa consultation, extension support, 90-day reports"
+    },
+    {
+      "key": "location_note",
+      "label": "Base",
+      "value": "Based in Phuket",
+      "quote": "Based right here in Phuket"
+    }
+  ]
+}

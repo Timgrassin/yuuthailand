@@ -1,0 +1,36 @@
+{
+  "summary": "Muay Thai gym in central Bangkok (Japanese-language site) offering trial, long-term and private courses plus a student visa and Muay Thai program.",
+  "price_from_thb": 500,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Main session price",
+      "value": "500 THB per session, Monday to Saturday 16:00 to 18:30",
+      "quote": "1セッション500THB"
+    },
+    {
+      "key": "ed_visa",
+      "label": "Student visa program",
+      "value": "Long-stay program combining Muay Thai training with student visa support",
+      "quote": "ムエタイトレーニングと学生ビザサポートを組み合わせた長期滞在向けプログラムをご用意しています。"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Main training hours",
+      "value": "Monday to Saturday 16:00 to 18:30",
+      "quote": "月曜日～土曜日（16:00 ~ 18:30）"
+    },
+    {
+      "key": "course_length",
+      "label": "Course lengths",
+      "value": "From a one-day trial to six-month and one-year courses",
+      "quote": "一日体験から、半年、一年の長期コースも受け付けており"
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Gym established in 2000",
+      "quote": "2000年のジム設立以来"
+    }
+  ]
+}

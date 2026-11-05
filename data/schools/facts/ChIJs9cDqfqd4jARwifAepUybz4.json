@@ -1,0 +1,48 @@
+{
+  "summary": "Muay Thai and MMA gym in the Phaya Thai district of Bangkok offering Muay Thai, MMA, BJJ and boxing classes and DTV visa training packages.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV support",
+      "value": "Provides full DTV support including signed training documents and application help",
+      "quote": "Tiger Eye provides full DTV support:"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV documents",
+      "value": "Signed training documents for the visa application",
+      "quote": "Signed training documents for your visa application"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Classes per week",
+      "value": "More than 40 classes a week across Muay Thai, MMA, BJJ and boxing",
+      "quote": "more than 40 classes a week across Muay Thai, MMA, Brazilian Jiu-Jitsu and boxing"
+    },
+    {
+      "key": "levels",
+      "label": "Beginners",
+      "value": "Beginners welcome in every session",
+      "quote": "Beginners welcome, every session"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Phaya Thai district, a short walk from BTS Ari",
+      "quote": "We are in the Phaya Thai district, a short walk from BTS Ari"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Building accommodation on the property for fighters who stay a while",
+      "quote": "we are building accommodation on the property for fighters who stay a while"
+    },
+    {
+      "key": "founded",
+      "label": "Founder",
+      "value": "Founded by Bashir Ahmad, a former ONE Championship fighter",
+      "quote": "The gym was founded by Bashir Ahmad, who fought for ONE Championship"
+    }
+  ]
+}

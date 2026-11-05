@@ -1,0 +1,18 @@
+{
+  "summary": "Boutique boxing and strength training gym in Chiang Mai with small group classes and personal training.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Maximum 6 people per session",
+      "quote": "Maximum 6 people per session."
+    },
+    {
+      "key": "trainers",
+      "label": "Coaches",
+      "value": "UK and Thai qualified coaches",
+      "quote": "led by UK and Thai qualified coaches"
+    }
+  ]
+}

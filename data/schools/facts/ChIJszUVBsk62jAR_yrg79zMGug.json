@@ -1,0 +1,36 @@
+{
+  "summary": "Chiang Mai Thai cooking studio offering private, morning and evening classes with market tours.",
+  "price_from_thb": 1000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Evening course",
+      "value": "1000 THB, 5 hours, includes market tour",
+      "quote": "1000 THB.\n Evening Course"
+    },
+    {
+      "key": "price_course",
+      "label": "Morning course",
+      "value": "1300 THB, 5 hours, 9.00 am to 2.30 pm",
+      "quote": "1300 THB.\n Morning Course"
+    },
+    {
+      "key": "price_course",
+      "label": "Private class",
+      "value": "5,000 THB for 2 participants, choose 6 dishes",
+      "quote": "5,000 THB."
+    },
+    {
+      "key": "course_length",
+      "label": "Morning course time",
+      "value": "9.00 am to 2.30 pm",
+      "quote": "Time 9.00 am-2.30 pm."
+    },
+    {
+      "key": "location_note",
+      "label": "Hotel pick-up",
+      "value": "Pick-up within the old city and town",
+      "quote": "Within old city and town."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "summary": "Family-run Thai cooking school in Chiang Mai with market tour and herb garden visit.",
+  "price_from_thb": 800,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Class price",
+      "value": "From ฿800-1,200 per person depending on season",
+      "quote": "start from ฿800-1,200 THB per person depending on the season"
+    },
+    {
+      "key": "course_length",
+      "label": "Class duration",
+      "value": "About 3-4 hours",
+      "quote": "approximately 3-4 hours long"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Maximum 30 people",
+      "quote": "maximum 30 people"
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "2000",
+      "quote": "Founded in 2000"
+    },
+    {
+      "key": "curriculum",
+      "label": "Market tour",
+      "value": "Guided visit to a local market and organic herb garden",
+      "quote": "a guided visit to a local market and the school’s organic herb garden"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "Thai massage training school in Chiang Mai with a range of massage courses.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Accreditation",
+      "value": "Accredited by the Thailand Ministry of Education and approved by the Ministry of Public Health",
+      "quote": "ITM is accredited by Thailand Ministry of Education, approved by Ministry of Public Health"
+    },
+    {
+      "key": "course_length",
+      "label": "Program length",
+      "value": "390-hour CAPT program",
+      "quote": "390-Hour CAPT Program"
+    },
+    {
+      "key": "course_length",
+      "label": "Senior teacher program",
+      "value": "400-hour senior teacher training program",
+      "quote": "400-Hour Senior Teacher"
+    }
+  ]
+}

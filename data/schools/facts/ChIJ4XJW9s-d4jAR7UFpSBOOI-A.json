@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok law office offering legal services including foreign nationals and immigration services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Est. 1982",
+      "quote": "Est. 1982"
+    },
+    {
+      "key": "services",
+      "label": "Immigration services",
+      "value": "Offers foreign nationals and immigration services",
+      "quote": "Foreign Nationals and Immigration Services"
+    }
+  ]
+}

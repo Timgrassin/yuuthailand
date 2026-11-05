@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok law firm offering visa and work permit services among general legal services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa and work permit",
+      "value": "Lists visa and work permit service",
+      "quote": "Visa & Work Permit"
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Established in 1969",
+      "quote": "established in 1969"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "Muay Thai gym and training camp in Klong Muang, Krabi, with group classes twice daily Monday to Saturday.",
+  "price_from_thb": 400,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Session price",
+      "value": "400 THB per 2-hour session",
+      "quote": "400 THB per session (2 hours)"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Session times",
+      "value": "8:00 to 10:00 am and 5:00 to 7:00 pm Monday to Saturday",
+      "quote": "Session times: 8:00 to 10:00 am & 5:00 to 7:00 pm MON to SAT"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Beginner, intermediate or professional fighter",
+      "quote": "Whether you are a beginner, an intermediate or professional fighter"
+    }
+  ]
+}

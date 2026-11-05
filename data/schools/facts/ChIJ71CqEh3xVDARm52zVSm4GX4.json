@@ -1,0 +1,42 @@
+{
+  "summary": "Thai cooking class on Koh Samui with a market tour and four dishes, bookable as a private session for two to four people.",
+  "price_from_thb": 3000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Price for 2 people",
+      "value": "3000 baht for 2 persons",
+      "quote": "price 3000 baht for 2 persons."
+    },
+    {
+      "key": "price_course",
+      "label": "Price for up to 4 people",
+      "value": "4500 baht for up to 4 persons",
+      "quote": "Price 4500 Baht up to 4 person"
+    },
+    {
+      "key": "course_length",
+      "label": "Duration",
+      "value": "4 hours",
+      "quote": "Trip Duration : 4 Hours"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Limited to 4 stoves per class",
+      "quote": "Limited to 4 Stoves per Class"
+    },
+    {
+      "key": "curriculum",
+      "label": "Dishes",
+      "value": "Four signature dishes including spring roll, tom yum or tom kha, pad thai and mango sticky rice",
+      "quote": "Master 4 Signature Dishes:"
+    },
+    {
+      "key": "curriculum",
+      "label": "Sessions",
+      "value": "Morning 8.00 am to 12.00 pm or afternoon 14.00 pm to 18.00 pm with market visit",
+      "quote": "Morning sessions 8.00 am -12.00 pm"
+    }
+  ]
+}

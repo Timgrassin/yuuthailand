@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok legal and administrative consultancy offering Thai visa services such as Non-B, Non-OA retirement, Non-O family and Elite visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Visa types",
+      "value": "Business Non-B, Retirement Non-OA, Family Non-O, Investor and Elite visas",
+      "quote": "Retirement Visa Non-OA"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Staff languages",
+      "value": "Consultants speaking Thai, English and French",
+      "quote": "consultants speaking Thai, English and French"
+    },
+    {
+      "key": "location_note",
+      "label": "Office hours",
+      "value": "Monday to Friday, 9:00 AM to 6:00 PM",
+      "quote": "Working Hours: Monday to Friday - 9:00 AM. to 6:00PM."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "Phuket visa service helping retirees and spouses of Thai citizens with Non-Immigrant visas, banking and orientation.",
+  "price_from_thb": 15000,
+  "facts": [
+    {
+      "key": "price_service",
+      "label": "Foreigner service offer",
+      "value": "Special offer for foreigners from 15,000 THB",
+      "quote": "SPECIAL OFFER FOR FOREIGNERS FROM 15,000 THB"
+    },
+    {
+      "key": "visa_services",
+      "label": "Visa types",
+      "value": "Non Immigrant O / B: business, retirement or marriage visa",
+      "quote": "Commonly known as Non O / B"
+    },
+    {
+      "key": "visa_services",
+      "label": "Banking help",
+      "value": "Assistance opening a Thai bank account",
+      "quote": "We can assist you during the process of opening a Thai bank account."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Chalong, Mueang, Phuket",
+      "quote": "19/112 Moo 8, Chalong, Mueang, Phuket 83130"
+    }
+  ]
+}

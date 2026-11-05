@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok and Phuket law firm with English-speaking lawyers covering Thai visas including retirement, marriage, business and student visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Retirement visa",
+      "value": "Retirement visa service listed",
+      "quote": "Retirement Visa in Thailand"
+    },
+    {
+      "key": "services",
+      "label": "Student visa",
+      "value": "Student visa service listed",
+      "quote": "Student Visa Thailand"
+    },
+    {
+      "key": "services",
+      "label": "Conversion",
+      "value": "Conversion to Non-Immigrant visa inside Thailand",
+      "quote": "Conversion Visa to Non-Immigrant Visa inside Thailand"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Staff languages",
+      "value": "English-speaking lawyers in Bangkok and Phuket",
+      "quote": "English Speaking Lawyers in Bangkok & Phuket"
+    }
+  ]
+}

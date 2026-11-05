@@ -1,0 +1,36 @@
+{
+  "summary": "Muay Thai gym in Chalong, Phuket with twice daily classes six days a week.",
+  "price_from_thb": 400,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Single class",
+      "value": "400 baht per class",
+      "quote": "฿400\n from, per class"
+    },
+    {
+      "key": "price_month",
+      "label": "Monthly, 2 classes a day",
+      "value": "9,000 baht",
+      "quote": "Monthly (2 classes/day)\n ฿9,000"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Schedule",
+      "value": "Morning 8:00 to 10:00am and afternoon 4:00 to 6:00pm, Mon to Sat",
+      "quote": "Mon–Sat 8:00–10:00am & 4:00–6:00pm"
+    },
+    {
+      "key": "trainers",
+      "label": "Head trainer",
+      "value": "Former Rajadamnern Stadium champion with over 200 professional fights",
+      "quote": "Head Trainer Kru Maew is a former Rajadamnern Stadium champion with over 200 professional fights"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Soi Ta-iad, Chalong, Phuket",
+      "quote": "21/5 Soi Ta-iad (Fitness Street), Chalong, Mueang Phuket District, Phuket 83130"
+    }
+  ]
+}

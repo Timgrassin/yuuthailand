@@ -1,0 +1,30 @@
+{
+  "summary": "Visa consultancy in Thailand (German-language site) explaining and assisting with DTV, education, family, business and elite visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV visa",
+      "value": "DTV listed as 5 years valid, multiple entry, 180 days per entry",
+      "quote": "DTV Visum\n 5 Jahre gültig (Multiple Entry)\n 180 Tage Aufenthalt pro Einreise"
+    },
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Education visa for language school, study or training",
+      "quote": "Für Sprachschule, Studium oder Ausbildung"
+    },
+    {
+      "key": "ed_visa",
+      "label": "School confirmation",
+      "value": "Confirmation of attendance from the school is required",
+      "quote": "Teilnahmebestätigung der Schule erforderlich"
+    },
+    {
+      "key": "visa_services",
+      "label": "Application support",
+      "value": "Personal consultation, document check and support through the whole application",
+      "quote": "begleiten dich durch den gesamten Antragsprozess"
+    }
+  ]
+}

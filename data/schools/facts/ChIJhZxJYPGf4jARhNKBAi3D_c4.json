@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok visa agency handling Thailand Privilege Card (Elite Visa) applications for 5 to 20 year residency memberships.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Privilege Card term",
+      "value": "Membership gives 5 to 20 years of residency",
+      "quote": "Enjoy 5–20 years of residency with VIP airport services"
+    },
+    {
+      "key": "services",
+      "label": "Consultation",
+      "value": "One-on-one consultation on which package suits the applicant",
+      "quote": "one-on-one consultation about which package will be good for your Thailand Privilege card"
+    },
+    {
+      "key": "services",
+      "label": "Paperwork",
+      "value": "Agency prepares paperwork and submits the application",
+      "quote": "Our Thai visa agency will prepare all the paperwork."
+    }
+  ]
+}

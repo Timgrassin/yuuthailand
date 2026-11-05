@@ -1,0 +1,36 @@
+{
+  "summary": "Chiang Mai Thai massage school offering short courses from one day to one month.",
+  "price_from_thb": 1500,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "10 day course",
+      "value": "10 days (60 hours) of Traditional Thai Massage costs 8,000 THB",
+      "quote": "10 days(60 hours): ฿8,000"
+    },
+    {
+      "key": "price_course",
+      "label": "1 day course",
+      "value": "1 day (6 hours) of Traditional Thai Massage costs 1,500 THB",
+      "quote": "1 day(6 hours): ฿1,500"
+    },
+    {
+      "key": "course_length",
+      "label": "Course options",
+      "value": "One, three and five day courses, or a month of training",
+      "quote": "Short one-, three-, or five-day courses cover the basics"
+    },
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "Tuition includes books, materials and a certificate of completion",
+      "quote": "Tuition fee includes of books, materials, and a certificate of completion"
+    },
+    {
+      "key": "levels",
+      "label": "Prior experience",
+      "value": "No prior experience required",
+      "quote": "No prior experience required"
+    }
+  ]
+}

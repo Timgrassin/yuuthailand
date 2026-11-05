@@ -1,0 +1,24 @@
+{
+  "summary": "Chiang Mai agency focused on Destination Thailand Visa (DTV) applications.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV specialist",
+      "value": "Focuses exclusively on DTV applications",
+      "quote": "We focus exclusively on Destination Thailand Visa (DTV) applications"
+    },
+    {
+      "key": "visa_fee",
+      "label": "DTV cost",
+      "value": "Visa fees from 10,000 to 43,000 Baht depending on embassy",
+      "quote": "10,000 Baht to 43,000 Baht (fees vary by embassy)"
+    },
+    {
+      "key": "visa_duration",
+      "label": "DTV stay",
+      "value": "180 days per entry",
+      "quote": "180 days per entry"
+    }
+  ]
+}

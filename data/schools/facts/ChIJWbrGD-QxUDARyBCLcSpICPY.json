@@ -1,0 +1,18 @@
+{
+  "summary": "Alliance Française in Phuket offering French and Thai courses, a children club and a French-language library.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "French courses",
+      "value": "Offers French language courses",
+      "quote": "COURS DE FRANÇAIS"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Thai courses",
+      "value": "Offers Thai language courses",
+      "quote": "COURS DE THAÏ"
+    }
+  ]
+}

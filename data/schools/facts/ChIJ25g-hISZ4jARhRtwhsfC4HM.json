@@ -1,0 +1,24 @@
+{
+  "summary": "Thai cooking school in Bangkok running daily morning, afternoon and evening classes with a market tour option.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Morning class",
+      "value": "Morning class 08.30 to 12.00, with market tour included",
+      "quote": "08.30 - 12.00 pm."
+    },
+    {
+      "key": "curriculum",
+      "label": "Afternoon class",
+      "value": "Afternoon class 13.00 to 16.00",
+      "quote": "13.00 - 16.00 pm."
+    },
+    {
+      "key": "curriculum",
+      "label": "Evening class",
+      "value": "Evening class 18.00 to 21.00",
+      "quote": "18.00 - 21.00 pm."
+    }
+  ]
+}

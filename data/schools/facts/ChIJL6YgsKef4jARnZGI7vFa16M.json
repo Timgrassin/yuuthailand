@@ -1,0 +1,24 @@
+{
+  "summary": "Evolve MMA (EmSphere) is a martial arts gym in Bangkok teaching Muay Thai, BJJ, boxing, MMA and wrestling.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "trainers",
+      "label": "Instructors",
+      "value": "Trains under World Champions and top-tier instructors",
+      "quote": "you’ll train under World Champions and top-tier instructors"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "EmSphere, 628 Sukhumvit Rd, Bangkok",
+      "quote": "Located in the iconic EmSphere in the heart of Bangkok"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Facilities",
+      "value": "Full Muay Thai, BJJ and MMA training areas",
+      "quote": "Full Muay Thai, Brazilian Jiu-Jitsu, and MMA training areas"
+    }
+  ]
+}

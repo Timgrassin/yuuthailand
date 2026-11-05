@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok language centre focused on IELTS preparation courses in group and private formats.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "IELTS course hours",
+      "value": "48 hours",
+      "quote": "Hours 48 hours"
+    },
+    {
+      "key": "class_size",
+      "label": "Group size",
+      "value": "4-12 students per class",
+      "quote": "Group size 4-12 students/ class"
+    },
+    {
+      "key": "class_size",
+      "label": "Private class",
+      "value": "Private classes for 1, 2, 3 or 4+ students",
+      "quote": "Group size Students can choose from 1, 2, 3, or 4+"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Focus",
+      "value": "IELTS preparation",
+      "quote": "IELTS Private Classes &#8211;"
+    }
+  ]
+}

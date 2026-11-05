@@ -1,0 +1,36 @@
+{
+  "summary": "IB World School in Udon Thani teaching learners from preschool to Year 13.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Accreditation",
+      "value": "School licence with the MOE and CIS accredited",
+      "quote": "School license with the MOE"
+    },
+    {
+      "key": "licence",
+      "label": "CIS accreditation",
+      "value": "PYP, MYP and DP programmes fully accredited by CIS",
+      "quote": "We are a full IB world school with the PYP, MYP and DP programmes fully accredited by CIS"
+    },
+    {
+      "key": "levels",
+      "label": "Year groups",
+      "value": "Classes from Preschool to Year 13 across PYP, MYP and DP",
+      "quote": "Classes from Preschool to Year 13 with our PYP, MYP and DP programmes."
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "UDIS was founded in 2013",
+      "quote": "UDIS was founded in 2013"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Mittrapab Road, 10 minutes north of Udon Thani",
+      "quote": "We are located 10 minutes north of Udon Thani on Mittrapab Road."
+    }
+  ]
+}

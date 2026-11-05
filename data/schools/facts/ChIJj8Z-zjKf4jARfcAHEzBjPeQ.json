@@ -1,0 +1,12 @@
+{
+  "summary": "Agent offering Thailand Privilege Card (Elite) memberships and information on Longstay and DTV visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Programme length",
+      "value": "Privilege entry visa of 5 to 20 years",
+      "quote": "Entry Visa, from 5 &#8211; 20 years"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "summary": "Pattaya legal and accounting firm offering property transfer and company registration services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Property transfer",
+      "value": "Title deed transfers, contracts, stamp duty and tax compliance",
+      "quote": "Stamp duty and tax compliance."
+    },
+    {
+      "key": "services",
+      "label": "Company registration",
+      "value": "Company name search, tax registration, business licenses and corporate bank account setup",
+      "quote": "Corporate bank account setup."
+    }
+  ]
+}

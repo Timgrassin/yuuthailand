@@ -1,0 +1,18 @@
+{
+  "summary": "Muay Thai association offering instructor courses and running the M-ONE Muay Thai school.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Ministry of Education",
+      "value": "M-ONE school courses certified by the Ministry of Education in Thailand",
+      "quote": "Our courses are certified by the Ministry of Education in Thailand"
+    },
+    {
+      "key": "levels",
+      "label": "Instructor course levels",
+      "value": "Instructor licences at Level 1, Level 2, Level 3 and Expert",
+      "quote": "multiple levels of licenses (Level 1, Level 2, Level 3 and Expert)"
+    }
+  ]
+}

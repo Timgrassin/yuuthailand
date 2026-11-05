@@ -1,0 +1,12 @@
+{
+  "summary": "Chiang Mai bakery offering custom cakes and kids baking classes.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Kids class language",
+      "value": "Kids baking classes taught in English and Thai",
+      "quote": "teach in English and Thai"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "summary": "Thai cooking classes in Chiang Mai taught in French in small groups.",
+  "price_from_thb": 1950,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Small groups of up to 6 people, minimum 2 people booking",
+      "quote": "en petit comité de 6 personnes maximum"
+    },
+    {
+      "key": "price_course",
+      "label": "Class price",
+      "value": "1,950 Baht per person, minimum 2 people",
+      "quote": "Prix : 1 950 Baht / personne (minimum 2 personnes)"
+    },
+    {
+      "key": "course_length",
+      "label": "Lunch session",
+      "value": "Lunch session 09:30 to 13:00",
+      "quote": "Session déjeuner : 09:30 – 13:00"
+    },
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "Certificate of completion included",
+      "quote": "Certificat de fin de formation"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Language",
+      "value": "Taught in French only",
+      "quote": "et en français uniquement"
+    }
+  ]
+}

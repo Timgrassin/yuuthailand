@@ -1,0 +1,18 @@
+{
+  "summary": "Culinary arts school in Bangkok with French cuisine, French pastry, bakery and Thai cuisine programmes.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Programmes",
+      "value": "Grand Diplome in French cuisine, French pastry and bakery",
+      "quote": "GRAND DIPL&Ocirc;ME &reg; FRENCH CUISINE FRENCH PASTRY BAKERY"
+    },
+    {
+      "key": "certificate",
+      "label": "Diplomas",
+      "value": "Diplome de Cuisine and Diplome de Patisserie",
+      "quote": "Dipl&ocirc;me de Cuisine &bull; Dipl&ocirc;me de P&acirc;tisserie"
+    }
+  ]
+}

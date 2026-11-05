@@ -1,0 +1,36 @@
+{
+  "summary": "Muay Thai training camp and fitness retreat on Koh Samui with all-inclusive packages, daily drop-in classes and private sessions.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "accommodation",
+      "label": "All-inclusive packages",
+      "value": "Packages include classes, accommodation, meals and private sessions",
+      "quote": "as well as accommodation, meals and private sessions"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Drop-in classes",
+      "value": "Daily drop-in classes with no pre-booking",
+      "quote": "daily drop in classes, no pre booking necessary"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Small class sizes with several experienced trainers",
+      "quote": "Small class sizes with several experienced trainers"
+    },
+    {
+      "key": "trainers",
+      "label": "Head coach",
+      "value": "Co-founder Jordan Watson, former Muay Thai world champion, is head coach",
+      "quote": "Co-Founder - Head Coach - Former Muay Thai World Champion"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Short walk from Lamai Beach",
+      "quote": "only a short walk away from the beautiful Lamai Beach"
+    }
+  ]
+}

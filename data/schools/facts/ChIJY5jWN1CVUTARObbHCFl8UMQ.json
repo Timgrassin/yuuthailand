@@ -1,0 +1,30 @@
+{
+  "summary": "Krabi franchise of Anna's Language School offering English courses, Thai courses, visa services and expat support.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Thai language course with Education Visa offered",
+      "quote": "Thai Language Course (Education Visa)"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "Franchise of a school with 20 years of experience in Trang",
+      "quote": "20 years of experience in Trang"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Opening hours",
+      "value": "Open Monday to Sunday, 9:00 AM to 7:00 PM",
+      "quote": "Hours: Mon-Sun 9:00 AM - 7:00 PM"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "48/31-26 Krabi Road, Pak Nam, Mueang Krabi",
+      "quote": "48/31 - 26 Krabi Road, Pak Nam, Mueang Krabi District, Krabi 81000"
+    }
+  ]
+}

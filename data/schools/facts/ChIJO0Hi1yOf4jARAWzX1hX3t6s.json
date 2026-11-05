@@ -1,0 +1,24 @@
+{
+  "summary": "French cultural centre in Bangkok offering French courses for adults and children, Thai courses and DELF preparation (French-language page).",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Languages taught",
+      "value": "French courses for adults and children, plus Thai courses",
+      "quote": "Cours de thai"
+    },
+    {
+      "key": "founded",
+      "label": "Present in Thailand since",
+      "value": "Present in Thailand since 1912",
+      "quote": "présente en Thaïlande depuis 1912"
+    },
+    {
+      "key": "levels",
+      "label": "Age groups",
+      "value": "Children 3-7, pre-teens 8-11, teens 12-15, adults",
+      "quote": "Pré-adolescents : 8-11 ans"
+    }
+  ]
+}

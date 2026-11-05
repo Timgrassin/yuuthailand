@@ -1,0 +1,36 @@
+{
+  "summary": "Family-run Muay Thai camp in Pai with morning and afternoon group sessions, private tuition and a trainer course.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels welcome, with beginner, advanced and kids classes and private tuition",
+      "quote": "All levels welcome Beginner, Advanced and Kids classes, Private Tuitions"
+    },
+    {
+      "key": "class_size",
+      "label": "Class format",
+      "value": "Training sessions run in small groups with individualized attention",
+      "quote": "training sessions are run in small groups with individualized attention"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Morning session",
+      "value": "8.00 a.m. to 10.00 a.m. from March to October",
+      "quote": "8.00 a.m. – 10.00 a.m."
+    },
+    {
+      "key": "training_sessions",
+      "label": "Private sessions",
+      "value": "Private and after-hours sessions available on request",
+      "quote": "Private / after-hours sessions are available upon request."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Maenatoeng, Pai",
+      "quote": "Sitjemam Muay Thai, 2 moo, 6 Maenatoeng, Pai (MHS), 58130"
+    }
+  ]
+}

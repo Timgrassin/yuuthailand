@@ -1,0 +1,30 @@
+{
+  "summary": "Thai cooking school on Koh Jum offering private lessons taught in English.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Lesson format",
+      "value": "Private lesson cooking Thai dishes from scratch",
+      "quote": "a private lesson to learn to cook Thai dishes from scratch."
+    },
+    {
+      "key": "curriculum",
+      "label": "Dish choice",
+      "value": "Students choose dishes from the menu",
+      "quote": "You may choose the dishes you would like to learn from our wide-ranged menu"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Teaching language",
+      "value": "Taught in English",
+      "quote": "she will do it in ENGLISH language"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Koh Jum (Koh Pu) island",
+      "quote": "in Koh Jum (also known as Koh Pu) island, Thailand"
+    }
+  ]
+}

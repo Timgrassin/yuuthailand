@@ -1,0 +1,42 @@
+{
+  "summary": "Thai cooking school in Ao Nang, Krabi offering three class formats for groups of up to 10 guests.",
+  "price_from_thb": 900,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Street food class",
+      "value": "฿900 per person, 2 hours, 3 dishes",
+      "quote": "฿ 900 per person"
+    },
+    {
+      "key": "price_course",
+      "label": "Half-day class",
+      "value": "฿1,500 per person, 3.5 hours, 4 dishes, hotel pickup",
+      "quote": "฿ 1,500 per person"
+    },
+    {
+      "key": "price_course",
+      "label": "Market and garden class",
+      "value": "฿1,800 per person, 4 hours, 4 dishes, market tour and hotel pickup",
+      "quote": "฿ 1,800 per person"
+    },
+    {
+      "key": "class_size",
+      "label": "Group size",
+      "value": "Small groups of up to 10 guests",
+      "quote": "Each program is designed for small groups of up to 10 guests."
+    },
+    {
+      "key": "curriculum",
+      "label": "Half-day menu",
+      "value": "Pad Thai, Tom Yum Soup, Green Curry, Mango Sticky Rice",
+      "quote": "On the menu : Pad Thai · Tom Yum Soup · Green Curry · Mango Sticky Rice"
+    },
+    {
+      "key": "curriculum",
+      "label": "Included",
+      "value": "Ingredients, recipe booklet, drinking water, hotel pickup and drop-off",
+      "quote": "Hotel pickup and drop-off"
+    }
+  ]
+}

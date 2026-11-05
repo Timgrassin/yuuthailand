@@ -1,0 +1,30 @@
+{
+  "summary": "Language school in Bangkok offering Thai language courses, TESOL/TEFL certification and teacher job placement.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Ministry approval",
+      "value": "Language training approved by the Thai Ministry of Education",
+      "quote": "language training approved by the Thai Ministry of Education"
+    },
+    {
+      "key": "levels",
+      "label": "Thai courses",
+      "value": "Thai language courses for all levels, focused on conversation",
+      "quote": "Our courses are designed for all levels, focusing on conversational skills and practical usage."
+    },
+    {
+      "key": "certificate",
+      "label": "TESOL/TEFL",
+      "value": "TESOL/TEFL certification programs",
+      "quote": "globally recognized TESOL/TEFL certification programs"
+    },
+    {
+      "key": "curriculum",
+      "label": "Job placement",
+      "value": "Job placement services for teaching positions in Thailand",
+      "quote": "comprehensive job placement services"
+    }
+  ]
+}

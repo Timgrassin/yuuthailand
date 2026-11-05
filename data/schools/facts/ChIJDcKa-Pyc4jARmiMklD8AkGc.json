@@ -1,0 +1,24 @@
+{
+  "summary": "TEFL/TESOL certification courses in Bangkok taught in person.",
+  "price_from_thb": 40000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "120-hour TEFL course fee",
+      "value": "120-hour in-class TEFL course costs THB 40,000",
+      "quote": "120-Hour, In-Class TEFL Course for THB 40,000"
+    },
+    {
+      "key": "course_length",
+      "label": "Course length",
+      "value": "120-hour, four-week in-class course",
+      "quote": "The 120-hour, four-week, in-class"
+    },
+    {
+      "key": "certificate",
+      "label": "Certification",
+      "value": "Certificate validated by the Paris University of International Education",
+      "quote": "validated and credit-bearing by the Paris University of International Education"
+    }
+  ]
+}

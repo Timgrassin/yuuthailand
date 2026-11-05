@@ -1,0 +1,24 @@
+{
+  "summary": "Language and skills institute offering English, Thai and other language courses, test preparation and digital skills.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Thai courses",
+      "value": "Thai language courses with immersive lessons",
+      "quote": "Access Thai language with immersive lessons that build cultural understanding and fluency."
+    },
+    {
+      "key": "languages_taught",
+      "label": "Other languages",
+      "value": "Spanish, French, German, Korean and more",
+      "quote": "from Spanish, French, and German to Korean and beyond"
+    },
+    {
+      "key": "curriculum",
+      "label": "Test preparation",
+      "value": "TOEIC and IELTS preparation courses",
+      "quote": "TOEIC & IELTS Preparation"
+    }
+  ]
+}

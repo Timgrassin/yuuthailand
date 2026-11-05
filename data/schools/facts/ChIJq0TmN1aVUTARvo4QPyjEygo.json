@@ -1,0 +1,30 @@
+{
+  "summary": "Law office in Krabi offering visa, extension and work permit services alongside litigation, company registration and notary work.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa and work permit",
+      "value": "Visa applications, extensions and work permits for foreigners",
+      "quote": "Visa applications, extensions and work permits for foreigners."
+    },
+    {
+      "key": "licence",
+      "label": "Attorney licence",
+      "value": "Founder licensed with the Lawyers Council of Thailand, No. 3601/2561",
+      "quote": "License No. 3601/2561"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Service languages",
+      "value": "Thai and English service",
+      "quote": "Thai & English service"
+    },
+    {
+      "key": "location_note",
+      "label": "Offices",
+      "value": "Krabi Town, Koh Lanta and Ao Nang",
+      "quote": "3 Offices"
+    }
+  ]
+}

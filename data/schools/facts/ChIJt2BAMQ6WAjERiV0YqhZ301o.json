@@ -1,0 +1,24 @@
+{
+  "summary": "Pattaya insurance and consulting firm offering visa-compliant health insurance and services for expats in Thailand.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa insurance",
+      "value": "Visa-compliant health insurance can be arranged online",
+      "quote": "Visa-konforme Krankenversicherungen online abschließen"
+    },
+    {
+      "key": "services",
+      "label": "Languages",
+      "value": "German, English and Thai speaking team",
+      "quote": "Unser deutsch-, englisch- und thailändischsprachiges Team"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "30 years of experience",
+      "quote": "Durch unsere 30 Jährige Erfahrung"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+ "summary": "Bangkok DTV visa service run by a Muay Thai school, offering Muay Thai enrolment letters and application review packages.",
+ "price_from_thb": 9000,
+ "facts": [
+  {
+   "key": "dtv_support",
+   "label": "DTV support",
+   "value": "DTV visa service in Bangkok backed by a Muay Thai school that issues the enrolment letter",
+   "quote": "FITFAC runs a DTV visa service in Bangkok from its Sathorn office."
+  },
+  {
+   "key": "licence",
+   "label": "Accreditation",
+   "value": "Accredited by the Ministry of Education and certified by the Board of Boxing Sport",
+   "quote": "Fully accredited by the Ministry of Education and certified by the Board of Boxing Sport."
+  },
+  {
+   "key": "training_sessions",
+   "label": "Training included",
+   "value": "45 private sessions plus 9 months unlimited group classes",
+   "quote": "45 private sessions + 9 months unlimited group classes"
+  },
+  {
+   "key": "location_note",
+   "label": "Embassy fee",
+   "value": "Packages exclude the embassy fee of about 10,000 baht",
+   "quote": "Excluding the embassy visa fee (≈ ฿10,000)."
+  },
+  {
+   "key": "price_course",
+   "label": "Package price range",
+   "value": "9,000 to 41,990 baht, excluding embassy fee",
+   "quote": "฿9,000 – ฿41,990"
+  }
+ ]
+}

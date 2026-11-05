@@ -1,0 +1,36 @@
+{
+  "summary": "Thailand Privilege Card membership programme offering long-term visa memberships in tiers with different fees and validity.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "price_membership",
+      "label": "Bronze membership",
+      "value": "THB 650,000 for 5 years",
+      "quote": "Membership Fee: THB 650,000"
+    },
+    {
+      "key": "price_membership",
+      "label": "Gold membership",
+      "value": "THB 900,000 for 5 years",
+      "quote": "Membership Fee: THB 900,000"
+    },
+    {
+      "key": "price_membership",
+      "label": "Platinum membership",
+      "value": "THB 1,500,000 for 10 years",
+      "quote": "Membership Fee: THB 1,500,000"
+    },
+    {
+      "key": "price_membership",
+      "label": "Diamond membership",
+      "value": "THB 2,500,000 for 15 years",
+      "quote": "Membership Fee: THB 2,500,000"
+    },
+    {
+      "key": "services",
+      "label": "Visa support topics",
+      "value": "Covers 90-day reporting, stay extension and overstay",
+      "quote": "90-Day Reporting Stay Extension Overstay"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "French-language visa and relocation agency based on Koh Samui, covering retirement visas, DTV and extensions.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa services",
+      "value": "Lists retirement visa, DTV, extensions, driving licence and 90-day report",
+      "quote": "Visa retraite DTV Prolongation Permis de conduire 90 jours"
+    },
+    {
+      "key": "price_service",
+      "label": "Service fee from France",
+      "value": "50 euro service fee per visa from France, plus embassy fees",
+      "quote": "50 € de frais de service par visa depuis la France"
+    },
+    {
+      "key": "price_service",
+      "label": "Tourist extension",
+      "value": "30-day tourist extension for 2,300 THB all included",
+      "quote": "Prolongation touristique de 30 jours : 2 300 THB tout compris"
+    },
+    {
+      "key": "location_note",
+      "label": "Base",
+      "value": "Based on Koh Samui",
+      "quote": "Basé à Koh Samui"
+    }
+  ]
+}

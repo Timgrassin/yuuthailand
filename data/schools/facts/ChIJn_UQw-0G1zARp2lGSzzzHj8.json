@@ -1,0 +1,18 @@
+{
+  "summary": "Thai language school in Chiang Rai licensed to teach Thai to foreigners.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Licence",
+      "value": "Licensed by the Ministry of Education to teach Thai to foreigners in Chiang Rai",
+      "quote": "Licensed by the Ministry of Education in Thailand to teach Thai Language courses for foreigners in Chiang Rai."
+    },
+    {
+      "key": "training_sessions",
+      "label": "Class sessions",
+      "value": "Four sessions per day, 08:20 to 16:10, Monday to Friday",
+      "quote": "Session 1 08:20 - 09:50"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai training camp in Ram Inthra, Bangkok, open Monday to Saturday.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Founded in 1999",
+      "quote": "founded in 1999"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Sessions",
+      "value": "Morning 6.00 - 9.00 am and evening 3.00 - 6.00 pm",
+      "quote": "MORNING SESSION"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Opening hours",
+      "value": "6:00am - 7:00pm, Monday - Saturday",
+      "quote": "6:00am - 7:00pm"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Near Ram Inthra Kor Mor 9 MRT Station",
+      "quote": "Located near Ram Inthra Kor Mor 9 MRT Station"
+    }
+  ]
+}

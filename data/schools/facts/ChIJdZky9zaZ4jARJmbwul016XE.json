@@ -1,0 +1,36 @@
+{
+  "summary": "Bangkok culinary school delivering programmes with ALMA, Tsuji and Dusit Thani College plus short courses.",
+  "price_from_thb": 5500,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Duo Tiramisu class",
+      "value": "5,500 THB",
+      "quote": "&#3647; 5,500.00"
+    },
+    {
+      "key": "price_course",
+      "label": "Food Styling class",
+      "value": "12,900 THB",
+      "quote": "&#3647; 12,900.00"
+    },
+    {
+      "key": "curriculum",
+      "label": "Partner schools",
+      "value": "Programmes with ALMA, Tsuji Culinary School and Dusit Thani College",
+      "quote": "Partnerships with culinary schools such as ALMA – the School of Italian Culinary Arts, Tsuji Culinary SChool, and the Dusit Thani College"
+    },
+    {
+      "key": "curriculum",
+      "label": "Formats",
+      "value": "Certified weekday programme with internship and intensive weekend programme",
+      "quote": "Intensive Weekend"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Soi Chula 7, Pathumwan, Bangkok",
+      "quote": "936 Block 28, E102, 1st Floor, Soi Chula 7, Wang Mai, Pathumwan, Bangkok 10330"
+    }
+  ]
+}

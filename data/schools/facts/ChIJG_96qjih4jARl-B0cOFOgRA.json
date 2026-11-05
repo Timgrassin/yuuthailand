@@ -1,0 +1,24 @@
+{
+  "summary": "Language school in Samut Prakan teaching Thai and English, with ED visa support.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa support",
+      "value": "Helps with Thai e-visa submission for ED visas",
+      "quote": "The Thai E-Visa online submission makes it easy to apply for an ED Visa from anywhere."
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages taught",
+      "value": "Thai and English courses",
+      "quote": "Thai Course"
+    },
+    {
+      "key": "course_length",
+      "label": "Delivery",
+      "value": "Courses available online and onsite",
+      "quote": "Available online and onsite"
+    }
+  ]
+}

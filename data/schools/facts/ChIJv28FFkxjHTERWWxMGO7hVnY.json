@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok language school offering Chinese, Thai and English programs.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Chinese, Thai and English programs",
+      "quote": "Chinese | Thai | English Language Programs"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "10+ years",
+      "quote": "10+ years of commitment to quality education"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "Language school in Phuket teaching English, French, Chinese and Thai, with visa services including student visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established in 2013",
+      "quote": "Oriental Bamboo Language School was established in 2013."
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages taught",
+      "value": "English, French, Chinese and Thai",
+      "quote": "A language school with courses in English, French, Chinese, and Thai."
+    },
+    {
+      "key": "course_length",
+      "label": "Long-term courses",
+      "value": "Long-term courses of 3, 6, 9 or 12 months from 2014",
+      "quote": "long-term courses of 3/6/9/12 months"
+    },
+    {
+      "key": "ed_visa",
+      "label": "Student visa",
+      "value": "Provides student visas for students on long courses",
+      "quote": "providing legitimate visas for their convenience"
+    }
+  ]
+}

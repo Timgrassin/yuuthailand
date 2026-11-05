@@ -1,0 +1,48 @@
+{
+  "summary": "Muay Thai train-and-stay gym in Ban Tai, Koh Phangan with private bungalows and two trainings a day.",
+  "price_from_thb": 500,
+  "facts": [
+    {
+      "key": "accommodation",
+      "label": "Bungalow",
+      "value": "Own bungalow with private bathroom and hot water, meals not included",
+      "quote": "Private bathroom, hot water"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Daily sessions",
+      "value": "2 trainings a day included with the bungalow",
+      "quote": "2 trainings a day included"
+    },
+    {
+      "key": "price_session",
+      "label": "Two sessions, same day",
+      "value": "500 THB",
+      "quote": "2 sessions, same day 500 THB"
+    },
+    {
+      "key": "price_course",
+      "label": "10-session pass",
+      "value": "3,500 THB",
+      "quote": "10-session pass 3,500 THB"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Max 15 people per class",
+      "quote": "Max 15 people per class"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Group classes for all levels, from first session to fight preparation",
+      "quote": "Group classes for all levels, from your first session to fight preparation"
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "Fighter with 35 years of experience and 135 fights",
+      "quote": "35 years of experience. 135 fights, 85 wins."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "Thai cooking masterclass run by Mandarin Oriental Bangkok, taught by a Thai chef for individuals or groups.",
+  "price_from_thb": 4900,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Group class price",
+      "value": "THB 4,900 per person for a group class",
+      "quote": "Group class is priced at THB 4,900* per person"
+    },
+    {
+      "key": "price_course",
+      "label": "Private class price",
+      "value": "THB 8,000 per person for a private class",
+      "quote": "Private class is priced at THB 8,000* per person"
+    },
+    {
+      "key": "curriculum",
+      "label": "Format",
+      "value": "Interactive Thai cooking classes led by a Thai chef",
+      "quote": "Our interactive Thai cooking classes, led by our talented Thai chef"
+    },
+    {
+      "key": "curriculum",
+      "label": "Availability",
+      "value": "Available Friday to Tuesday with 72 hours advance booking",
+      "quote": "Available Friday to Tuesday"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+ "summary": "Private Thai cooking lessons taught in a home kitchen in Bangkok, each covering three dishes of the student's choice.",
+ "price_from_thb": 2300,
+ "facts": [
+  {
+   "key": "price_session",
+   "label": "Solo lesson",
+   "value": "THB 4,000 per lesson for 1 person",
+   "quote": "THB 4,000 per lesson"
+  },
+  {
+   "key": "price_session",
+   "label": "Group of 2 to 3",
+   "value": "THB 2,800 per person per lesson",
+   "quote": "THB 2,800/person and lesson"
+  },
+  {
+   "key": "price_session",
+   "label": "Group of 4 to 6",
+   "value": "THB 2,300 per person per lesson",
+   "quote": "THB 2,300/person and lesson"
+  },
+  {
+   "key": "curriculum",
+   "label": "Lesson content",
+   "value": "Each lesson covers three dishes of your choice",
+   "quote": "ach lesson covers three dishes of your choice."
+  },
+  {
+   "key": "founded",
+   "label": "Teaching since",
+   "value": "Teaching Thai cooking in a home kitchen since 2004",
+   "quote": "I have been teaching Thai cooking in my home kitchen since 2004"
+  }
+ ]
+}

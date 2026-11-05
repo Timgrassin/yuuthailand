@@ -1,0 +1,24 @@
+{
+  "summary": "Muay Thai academy that supports ED and DTV visa documentation for students.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "ED and DTV support",
+      "value": "Supports ED and DTV documentation for Muay Thai training",
+      "quote": "Train Muay Thai in Thailand — We Support ED & DTV Documentation"
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "Former champions and passionate boxers",
+      "quote": "we only recruit the best in the business, former champions and passionate boxers"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Opening hours",
+      "value": "Mon to Fri 11:00 to 20:00, Sat and Sun 10:00 to 20:00",
+      "quote": "MONDAY – FRIDAY: 11:00 – 20:00"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "summary": "Bangkok language school offering flexible, semi-private, private and group lessons.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Group class size",
+      "value": "Group lessons for 4 to 10 students",
+      "quote": "Group lesson for 4 to 10 students who enjoy studying"
+    },
+    {
+      "key": "class_size",
+      "label": "Semi-private class size",
+      "value": "Semi-private lessons for 2 to 3 students",
+      "quote": "Semi-private lessons are for 2-3 students"
+    },
+    {
+      "key": "course_length",
+      "label": "Lesson length",
+      "value": "Group lessons last 90 to 120 minutes",
+      "quote": "Each lesson lasts from 90-120 minutes"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Group frequency",
+      "value": "Classes held 2 to 3 times a week",
+      "quote": "Classes are held 2-3 times a week"
+    },
+    {
+      "key": "levels",
+      "label": "Placement test",
+      "value": "Placement test is provided for group lessons",
+      "quote": "Placement test is provided"
+    }
+  ]
+}

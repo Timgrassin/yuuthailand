@@ -1,0 +1,24 @@
+{
+  "summary": "Phuket service company handling visas, property, business and concierge support, including Long-Term Resident and Elite visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "LTR agent",
+      "value": "Describes itself as an LTR certified agent",
+      "quote": "LTR Certified Agent"
+    },
+    {
+      "key": "location_note",
+      "label": "Visa types",
+      "value": "Assists with the Long-Term Resident visa and Elite visa applications",
+      "quote": "Thailand Elite Visa applications"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "17/4 Moo 4 Cherngtalay, Thalang, Phuket",
+      "quote": "17/4 Moo 4 Cherngtalay, Thalang, Phuket 83110 Thailand"
+    }
+  ]
+}

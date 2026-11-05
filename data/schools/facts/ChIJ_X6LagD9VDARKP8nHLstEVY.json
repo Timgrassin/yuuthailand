@@ -1,0 +1,24 @@
+{
+  "summary": "Koh Phangan and Bangkok legal, property and company support group serving long-stay residents and investors.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Offices",
+      "value": "Operates from Koh Phangan and Bangkok",
+      "quote": "IGS Thailand and IGS Law Firm operate from Koh Phangan and Bangkok"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Support in 15 languages",
+      "quote": "Support in 15 languages"
+    },
+    {
+      "key": "visa_services",
+      "label": "Long stay",
+      "value": "Support for people who want to stay longer in Thailand",
+      "quote": "people who want to stay longer"
+    }
+  ]
+}

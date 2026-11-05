@@ -1,0 +1,48 @@
+{
+  "summary": "Bangkok language school offering Thai, English and Japanese courses bundled with ED visa support.",
+  "price_from_thb": 9000,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa support",
+      "value": "Full ED Visa guidance from documents to submission",
+      "quote": "Full ED Visa guidance, from documents to submission."
+    },
+    {
+      "key": "licence",
+      "label": "Ministry of Education",
+      "value": "Licensed by the Ministry of Education",
+      "quote": "Licensed by the Ministry of Education"
+    },
+    {
+      "key": "price_course",
+      "label": "3.5 month ED visa bundle",
+      "value": "9,000 THB (11,500 THB before discount) for Thai or English",
+      "quote": "฿ 9,000 ฿ 11,500"
+    },
+    {
+      "key": "price_course",
+      "label": "7.5 month ED visa bundle",
+      "value": "19,000 THB (25,500 THB before discount) for Thai or English",
+      "quote": "฿ 19,000 ฿ 25,500"
+    },
+    {
+      "key": "course_length",
+      "label": "Course durations",
+      "value": "ED visa bundles of 3.5, 5, 7.5, 10 and 11.5 months",
+      "quote": "11.5 MONTHS ED VISA"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Thai, English or Japanese language courses",
+      "quote": "Explore Thai, English, or Japanese language courses"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Live class",
+      "value": "Live class at the Bangkok school once a week, every Saturday or Sunday",
+      "quote": "Join a live class at our Bangkok school once a week, every Saturday or Sunday."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "summary": "Thai cooking school on Koh Lanta with vegan, vegetarian and pescatarian options.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Years operating",
+      "value": "23 years, described as the original cooking school on Koh Lanta",
+      "quote": "23 INCREDIBLE YEARS"
+    },
+    {
+      "key": "curriculum",
+      "label": "Dietary options",
+      "value": "Vegan, vegetarian and pescatarian classes available",
+      "quote": "Our classes cater to various dietary preferences"
+    }
+  ]
+}

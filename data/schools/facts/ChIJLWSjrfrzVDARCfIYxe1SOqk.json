@@ -1,0 +1,24 @@
+{
+  "summary": "Muay Thai camp on Koh Samui with Muay Thai, strength and conditioning classes, gym, spa and swimming pool.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "At the Koh Fit facility on Koh Samui",
+      "quote": "Located in Koh Samui Island, Thailand, at the amazing Koh Fit multi purpose facility"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Beginner-friendly Muay Thai",
+      "quote": "fun, intense, and beginner-friendly"
+    },
+    {
+      "key": "accommodation",
+      "label": "Facilities",
+      "value": "Spa, gym and swimming pool on site",
+      "quote": "Our onsen spa, gym, and swimming pool"
+    }
+  ]
+}

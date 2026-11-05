@@ -1,0 +1,12 @@
+{
+  "summary": "Community-based school in Hua Hin with kindergarten and primary programs for children aged 3 to 12.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Ages",
+      "value": "Children aged 3 to 12",
+      "quote": "children between the ages of 3 and 12"
+    }
+  ]
+}

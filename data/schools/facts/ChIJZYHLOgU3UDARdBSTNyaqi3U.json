@@ -1,0 +1,18 @@
+{
+  "summary": "Law firm with a Phuket office handling real estate, corporate, immigration and dispute resolution matters.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Law firm established in 2010",
+      "quote": "professional full service law firm established in 2010"
+    },
+    {
+      "key": "location_note",
+      "label": "Immigration",
+      "value": "Specialises in real estate, corporate, immigration and dispute resolution",
+      "quote": "We are specializing in real estate, corporate, immigration and dispute resolution"
+    }
+  ]
+}

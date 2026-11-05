@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok visa, immigration and translation agency.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "In business since",
+      "value": "Since 1991",
+      "quote": "Since 1991, we have prided ourselves on providing a professional one-stop approach"
+    },
+    {
+      "key": "services",
+      "label": "Visa types handled",
+      "value": "Visit, Marriage, Employment and Dependent Child visas",
+      "quote": "Visit, Marriage, Employment and Dependent Child Visas"
+    }
+  ]
+}

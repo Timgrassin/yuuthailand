@@ -1,0 +1,48 @@
+{
+  "summary": "Family-run Muay Thai camp in Bangkok offering drop-in sessions and train-and-stay packages.",
+  "price_from_thb": 400,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Drop-in price",
+      "value": "฿400 per drop-in session",
+      "quote": "Drop In ฿400 /session"
+    },
+    {
+      "key": "price_course",
+      "label": "Full package",
+      "value": "฿8,900 per week with room, two sessions a day and two Thai meals",
+      "quote": "Full Package ฿8,900 /week"
+    },
+    {
+      "key": "price_course",
+      "label": "Training only",
+      "value": "฿4,000 per week for two sessions a day",
+      "quote": "Training Only ฿4,000 /week"
+    },
+    {
+      "key": "price_month",
+      "label": "Monthly training",
+      "value": "From ฿12,000 per month",
+      "quote": "From ฿12,000 per month"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Sessions",
+      "value": "Two sessions daily",
+      "quote": "Two sessions daily"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "On-site room and two Thai meals a day on Train & Stay package",
+      "quote": "Train & Stay package with an on-site room and two Thai meals a day"
+    },
+    {
+      "key": "founded",
+      "label": "Training since",
+      "value": "Trained fighters at this camp since 2008",
+      "quote": "We have trained fighters here since 2008"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "Teacher recruitment and staffing agency in Hat Yai that helps international teachers with visas and work permits.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Based in Hat Yai, Songkhla",
+      "quote": "Based in Hat Yai, Songkhla"
+    },
+    {
+      "key": "visa_services",
+      "label": "Visa services",
+      "value": "Visa and work permit assistance",
+      "quote": "Visa & Work Permit Assistance"
+    },
+    {
+      "key": "visa_services",
+      "label": "Ongoing support",
+      "value": "Support with extensions and visa renewals",
+      "quote": "Ongoing Support & Visa Renewals"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Accommodation support offered",
+      "quote": "Accommodation Support"
+    }
+  ]
+}

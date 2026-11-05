@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkachao bicycle tours and Thai cooking classes in a Thai house.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "TAT licence",
+      "value": "Licensed by the Tourism Authority of Thailand, no. 11/11771",
+      "quote": "tat Licensed no. 11/11771"
+    },
+    {
+      "key": "curriculum",
+      "label": "Cooking class",
+      "value": "Thai cooking class held in a Thai house",
+      "quote": "learning Thai cooking class in Thai house situated in Green area community"
+    }
+  ]
+}

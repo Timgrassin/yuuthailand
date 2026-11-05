@@ -1,0 +1,18 @@
+{
+  "summary": "Private Thai cooking classes in north Pattaya.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Pad Thai class",
+      "value": "Learn to cook Pad Thai including the sauce from scratch",
+      "quote": "learn to cook Pad Thai just like a local"
+    },
+    {
+      "key": "class_size",
+      "label": "Class format",
+      "value": "Described as easy, fun, private and friendly",
+      "quote": "Easy, fun, private and friendly."
+    }
+  ]
+}

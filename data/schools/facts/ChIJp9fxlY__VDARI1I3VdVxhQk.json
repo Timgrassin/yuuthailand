@@ -1,0 +1,42 @@
+{
+  "summary": "Fighter-focused Muay Thai gym in Thong Sala, Koh Phangan, with group classes, private sessions and fight camps with food and accommodation.",
+  "price_from_thb": 500,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Centre of Thong Sala, Koh Phangan",
+      "quote": "Located in the centre of Thong Sala"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Group class hours",
+      "value": "Mon to Sat 8am-10am and 4pm-6pm",
+      "quote": "Mon-Sat: 8am-10am, 4pm-6pm*"
+    },
+    {
+      "key": "price_session",
+      "label": "Single class",
+      "value": "500 THB for one class a day",
+      "quote": "train, 1x/day 500 THB"
+    },
+    {
+      "key": "price_month",
+      "label": "One month, one class a day",
+      "value": "9 000 THB",
+      "quote": "1 month, 1x/day 9 000 THB"
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "All active or former fighters and champions",
+      "quote": "Their team of trainers are all active or former fighters and champions"
+    },
+    {
+      "key": "accommodation",
+      "label": "Fight camp",
+      "value": "Fight camps include food and accommodation",
+      "quote": "fight camp offerings including food and accommodation"
+    }
+  ]
+}

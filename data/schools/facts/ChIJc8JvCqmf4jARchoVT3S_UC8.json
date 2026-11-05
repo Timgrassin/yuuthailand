@@ -1,0 +1,18 @@
+{
+ "summary": "Bangkok Prep is an international school offering an English National Curriculum from nursery to sixth form, with visa support for enrolling families.",
+ "facts": [
+  {
+   "key": "ed_visa",
+   "label": "Student visa support",
+   "value": "Government Liaison Officer helps families with Non-Ed and parent visa applications",
+   "quote": "Our Government Liaison Officer (GLO) supports international families"
+  },
+  {
+   "key": "languages_taught",
+   "label": "Languages taught",
+   "value": "Thai, Japanese, Spanish, French or Mandarin alongside English support",
+   "quote": "Receive English language support while mastering Thai, Japanese, Spanish, French or Mandarin."
+  }
+ ],
+ "price_from_thb": null
+}

@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok private brunch venue that offered cooking and cocktail classes for groups.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Status",
+      "value": "Temporarily closed as of 7 December 2022",
+      "quote": "Bangkok Secret Garden is temporarily closed as of December 7th, 2022"
+    },
+    {
+      "key": "class_size",
+      "label": "Minimum booking",
+      "value": "Bookings of at least 10 people",
+      "quote": "we only accept booking for minimum 10pax"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "Learning centre in Bangkok teaching English, phonics, mathematics and art to learners from age 2.5 to adults in small groups.",
+  "price_from_thb": 2800,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Tuition",
+      "value": "Average tuition starts from approximately THB 2,800",
+      "quote": "Average tuition fees start from approximately THB 2,800."
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Small groups limited to 4 to 7 students per teacher",
+      "quote": "Each small-group class is limited to 4–7 students"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Class frequency",
+      "value": "Classes held once a week, 2 hours each",
+      "quote": "Classes are held once a week, and each class lasts 2 hours."
+    },
+    {
+      "key": "levels",
+      "label": "Ages",
+      "value": "Learners from 2.5 years of age to adults",
+      "quote": "English Corner welcomes learners from 2.5 years of age to adults."
+    }
+  ]
+}

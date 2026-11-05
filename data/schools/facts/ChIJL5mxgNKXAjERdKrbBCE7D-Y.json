@@ -1,0 +1,24 @@
+{
+  "summary": "Multilingual legal, accounting and immigration firm with offices in Phuket and Bangkok, handling Non-B visas, work permits, Thailand Privilege and LTR.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Visa services",
+      "value": "Visas and work permits for foreign founders and staff: Non-B, Thailand Privilege and LTR",
+      "quote": "Visas and work permits for foreign founders and staff"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Client languages",
+      "value": "Works with clients in English, Thai, German and Russian",
+      "quote": "We work with clients in English, Thai, German, and Russian"
+    },
+    {
+      "key": "location_note",
+      "label": "Offices",
+      "value": "Full-service offices in Phuket and Bangkok",
+      "quote": "Full-service offices in Phuket and Bangkok, serving clients throughout Thailand."
+    }
+  ]
+}

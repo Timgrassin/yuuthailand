@@ -1,0 +1,30 @@
+{
+  "summary": "Fitness and weight loss retreat on Koh Samui with weekly packages that include training and accommodation, plus a Muay Thai package.",
+  "price_from_thb": 17000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Complete Fitness package",
+      "value": "From 17,000 THB per week",
+      "quote": "Starting at 17,000 THB / Wk"
+    },
+    {
+      "key": "accommodation",
+      "label": "Included in packages",
+      "value": "Every package includes coached training sessions and accommodation",
+      "quote": "every Lamai Fitness Retreat package includes coached training sessions, accommodation"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Muay Thai package",
+      "value": "Unlimited sessions, trained twice daily",
+      "quote": "Train twice daily under UK Muay Thai Champion Jordan Watson"
+    },
+    {
+      "key": "founded",
+      "label": "Operating history",
+      "value": "18 years of operation",
+      "quote": "18 Years Of Proven Results"
+    }
+  ]
+}

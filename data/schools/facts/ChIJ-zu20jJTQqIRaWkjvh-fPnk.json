@@ -1,0 +1,18 @@
+{
+  "summary": "Professional English Tutors offers private and online English classes via Teams for beginner to advanced levels.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Beginner to Advanced",
+      "quote": "private or online English classes via Teams for a range of levels from beginner to Advanced levels"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Focus areas",
+      "value": "Grammar, vocabulary, pronunciation and conversation",
+      "quote": "can help you with Grammar, Vocabulary, Pronunciation, and Conversation practice"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "Law firm with offices in Chiang Mai and Bangkok offering immigration services including business, retirement and marriage visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Visa services",
+      "value": "Business, retirement and Thai marriage visa services listed",
+      "quote": "Thai Marriage Visa"
+    },
+    {
+      "key": "levels",
+      "label": "Fee structure",
+      "value": "Fixed and capped fee packages",
+      "quote": "fixed and capped fee packages"
+    },
+    {
+      "key": "location_note",
+      "label": "Offices",
+      "value": "Offices in Chang Mai and Bangkok",
+      "quote": "with our offices in Chang Mai and Bangkok"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "summary": "English language school in Bangkok with a 30-hour course offered on site and online.",
+  "price_from_thb": 3000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "30-hour course fee",
+      "value": "3,000 to 4,500 THB for 30 hours",
+      "quote": "Course fee: 3,000 – 4,500 THB for 30 hours"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Schedule",
+      "value": "15 days, 2 hours per day, 30 hours total, Monday to Thursday",
+      "quote": "(15 days, 2 hours per day, total 30 hours)"
+    },
+    {
+      "key": "course_length",
+      "label": "Course length",
+      "value": "30 hours",
+      "quote": "30 hours of high-quality English"
+    },
+    {
+      "key": "location_note",
+      "label": "Format",
+      "value": "Classes available online and on site",
+      "quote": "Available for both online and on-site classes"
+    },
+    {
+      "key": "price_course",
+      "label": "Registration fee",
+      "value": "500 baht first-time registration fee",
+      "quote": "*+500 baht first-time registration fee"
+    }
+  ]
+}

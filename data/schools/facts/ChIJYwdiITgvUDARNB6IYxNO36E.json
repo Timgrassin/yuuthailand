@@ -1,0 +1,24 @@
+{
+  "summary": "Boxing gym in Chalong, Phuket with boxing, strength conditioning and sparring programs.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Opening hours",
+      "value": "Open Mon to Sat 8:00 AM to 8:00 PM, closed Sunday",
+      "quote": "Mon - Sat 8:00 AM - 8:00 PM"
+    },
+    {
+      "key": "levels",
+      "label": "Programs",
+      "value": "Training programs for all skill levels",
+      "quote": "Training programs for all skill levels"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Soi Ta Ied, Chalong, Phuket",
+      "quote": "Soi Ta Ied, Chalong, Phuket, Thailand"
+    }
+  ]
+}

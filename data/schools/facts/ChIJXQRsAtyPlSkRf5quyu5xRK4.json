@@ -1,0 +1,18 @@
+{
+  "summary": "Phuket service for visas, residency and relocation support for foreigners, plus property sales and management.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa services",
+      "value": "Long-stay, retirement and business visas, work permits and relocation help",
+      "quote": "long-stay visas, retirement visas, business visas, work permits, and relocation assistance"
+    },
+    {
+      "key": "founded",
+      "label": "Founder",
+      "value": "Founded by Phuket native Pitchayapa Baker",
+      "quote": "Founder: Pitchayapa Baker (Pitchy)"
+    }
+  ]
+}

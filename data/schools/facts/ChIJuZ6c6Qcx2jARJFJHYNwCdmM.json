@@ -1,0 +1,24 @@
+{
+  "summary": "Muay Thai and boxing gym in Chiang Mai with classes, private and fight prep coaching and women-only sessions.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Opening hours",
+      "value": "Mon to Sat 08:30 to 10:30 and 17:00 to 19:00, Sunday boxing 16:00 to 18:00",
+      "quote": "Mon–Sat · 08:30–10:30 & 17:00–19:00"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Women-only class",
+      "value": "Female-only Muay Thai training every Friday morning",
+      "quote": "Female-only Muay Thai training, every Friday morning."
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "Taeparak Rd, Chang Phueak, Chiang Mai",
+      "quote": "67, 60 Taeparak Rd, Chang Phueak, Amphoe Mueang Chiang Mai, Chiang Mai 50200"
+    }
+  ]
+}

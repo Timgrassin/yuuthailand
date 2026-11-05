@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai gym opening in Krabi with per-session, weekly and monthly training prices.",
+  "price_from_thb": 350,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Nong Thale, Mueang Krabi District",
+      "quote": "386 M.2 , Nong Trale,Mueang Krabi District. Krabi"
+    },
+    {
+      "key": "price_session",
+      "label": "Single session, low season",
+      "value": "350 baht",
+      "quote": "ONE SESSION - 350 BAHT"
+    },
+    {
+      "key": "price_month",
+      "label": "One month, two sessions a day, low season",
+      "value": "13500 baht",
+      "quote": "MONTH - 2 SESSIONS PER DAY - 13500 BAHT"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Pad work",
+      "value": "5 rounds of 3 minutes of pad work",
+      "quote": "5 ROUNDS LASTING 3 MINUTES OF HITTING PADS"
+    }
+  ]
+}

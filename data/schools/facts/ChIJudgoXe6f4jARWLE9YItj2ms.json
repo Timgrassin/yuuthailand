@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok HR outsourcing, payroll and employer of record firm that also handles work visas and work permits for expats.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Work visa team",
+      "value": "Team handling work visa applications for expats, 95% success rate stated",
+      "quote": "has a 95% success rate for obtaining work authorization for our clients"
+    },
+    {
+      "key": "visa_services",
+      "label": "Expat permits",
+      "value": "Expat work permits and visas secured for employees",
+      "quote": "Expat work permits and visas are secured without delays, allowing seamless onboarding."
+    },
+    {
+      "key": "visa_services",
+      "label": "Services",
+      "value": "Payroll, EOR, visa and HR consulting services",
+      "quote": "Employer of Record (EOR)"
+    }
+  ]
+}

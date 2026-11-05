@@ -1,0 +1,30 @@
+{
+  "summary": "Wrestling, Sambo and No-Gi grappling gym in Phuket for all skill levels.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Caters to all levels, most members are beginners",
+      "quote": "Our gym caters to all levels, and since most of our gym members are beginners"
+    },
+    {
+      "key": "curriculum",
+      "label": "Classes",
+      "value": "Wrestling, Sambo and No-Gi grappling",
+      "quote": "Sambo, and No-Gi grappling for all skill levels"
+    },
+    {
+      "key": "trainers",
+      "label": "Coach experience",
+      "value": "23 years of wrestling experience",
+      "quote": "23 years of wrestling experience"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Private coaching",
+      "value": "Private 1-on-1 coaching offered",
+      "quote": "Do you offer private 1-on-1 coaching? Yes, we do."
+    }
+  ]
+}

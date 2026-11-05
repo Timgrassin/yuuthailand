@@ -1,0 +1,24 @@
+{
+  "summary": "Thai cooking school on Koh Samui with an open-air kitchen and small classes.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Small classes of 1 to 6 people",
+      "quote": "from 1 to 6 people"
+    },
+    {
+      "key": "curriculum",
+      "label": "Included",
+      "value": "Hotel transfer, drinks, seasonal fruit and a recipe book",
+      "quote": "Recipe book"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Hin Ta and Hin Yai, Lamai, Koh Samui",
+      "quote": "Hin Ta & Hin Yai Lamai Koh Samui Thailand"
+    }
+  ]
+}

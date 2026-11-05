@@ -1,0 +1,42 @@
+{
+  "summary": "Muay Thai camp in Ao Nang, Krabi, with morning and afternoon classes Monday to Saturday.",
+  "price_from_thb": 400,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Single session",
+      "value": "One session costs 400 baht",
+      "quote": "1 session Morning (08:00) or afternoon (16:00) ฿ 400"
+    },
+    {
+      "key": "price_month",
+      "label": "One month",
+      "value": "One month, two sessions a day, 12,000 baht",
+      "quote": "1 month Two sessions a day ฿ 12,000"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Class times",
+      "value": "Classes Monday to Saturday at 08:00, 16:00 and kids at 18:30",
+      "quote": "Classes Monday to Saturday at 08:00, 16:00 and kids at 18:30"
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "4 Thai trainers holding the pads",
+      "quote": "4 Thai trainers holding the pads"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels welcome, from 4 years old",
+      "quote": "All levels welcome, from 4 years old."
+    },
+    {
+      "key": "accommodation",
+      "label": "Help finding housing",
+      "value": "Help finding condo, hotel or villa near the camp",
+      "quote": "We can help you find a condo, hotel or villa near the camp."
+    }
+  ]
+}

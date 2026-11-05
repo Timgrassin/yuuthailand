@@ -1,0 +1,42 @@
+{
+  "summary": "Agency offering Thailand Privilege Card (Thailand Elite) long-term residency memberships.",
+  "price_from_thb": 650000,
+  "facts": [
+    {
+      "key": "price_service",
+      "label": "Bronze membership fee",
+      "value": "650,000 THB for a 5-year membership",
+      "quote": "Membership fee: 650,000 THB"
+    },
+    {
+      "key": "price_service",
+      "label": "Gold membership fee",
+      "value": "THB 900,000 for 5 years",
+      "quote": "Membership fee: THB 900,000"
+    },
+    {
+      "key": "price_service",
+      "label": "Platinum membership fee",
+      "value": "THB 1.5 million (VAT included) for 10 years",
+      "quote": "Membership fee:  THB 1.5 million (VAT included)"
+    },
+    {
+      "key": "visa_services",
+      "label": "Visa validity",
+      "value": "Privilege Entry Visa valid for 5, 10, 15 or 20 years",
+      "quote": "Privilege Entry Visa valid for 5, 10, 15, or 20 years"
+    },
+    {
+      "key": "course_length",
+      "label": "Processing time",
+      "value": "States approval within 4 weeks",
+      "quote": "You will get the Thailand Elite Visa Approved within 4 weeks"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages spoken",
+      "value": "Chinese, English, French, Turkish and Japanese",
+      "quote": "We speak Chinese, English, French, Turkish, and Japanese."
+    }
+  ]
+}

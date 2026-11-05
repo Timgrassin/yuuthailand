@@ -1,0 +1,36 @@
+{
+  "summary": "Bangkok language school teaching Thai, English and Japanese, with ED visa enrolment and visa support pages.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Has an ED visa student enrollment form and visa refund policy page",
+      "quote": "ED Visa Student Enrollment Form"
+    },
+    {
+      "key": "ed_visa",
+      "label": "Visa support",
+      "value": "Dedicated visa support team",
+      "quote": "Dedicated assistance throughout your visa process"
+    },
+    {
+      "key": "levels",
+      "label": "Thai levels",
+      "value": "Thai in basic, intermediate and advanced levels",
+      "quote": "Thai Language (Basic, Intermediate, Advanced)"
+    },
+    {
+      "key": "levels",
+      "label": "Japanese levels",
+      "value": "Japanese in N5, N4, N3",
+      "quote": "Japanese Language (N5, N4, N3)"
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Founded in Bangkok in 2026",
+      "quote": "Founded in Bangkok in 2026"
+    }
+  ]
+}

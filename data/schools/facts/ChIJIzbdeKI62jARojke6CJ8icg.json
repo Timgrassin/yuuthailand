@@ -1,0 +1,18 @@
+{
+  "summary": "Cooking school in Chiang Mai offering morning and evening Thai cooking courses.",
+  "price_from_thb": 1100,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Course price",
+      "value": "1,100 baht per person",
+      "quote": "Time: 9:30 - 14:00 Price: 1,100 Baht / person"
+    },
+    {
+      "key": "course_length",
+      "label": "Evening course hours",
+      "value": "Evening course runs 16:00 to 20:30",
+      "quote": "Time: 16:00 - 20:30 Price: 1,100 Baht / person"
+    }
+  ]
+}

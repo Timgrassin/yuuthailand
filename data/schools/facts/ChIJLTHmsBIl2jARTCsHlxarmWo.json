@@ -1,0 +1,36 @@
+{
+  "summary": "Thai language school in Chiang Mai offering Thai courses with education visa support.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Thai courses including education visa for foreigners",
+      "quote": "Rak Thai Language School offers Thai language courses including Education visa for foreigners."
+    },
+    {
+      "key": "course_length",
+      "label": "1-year course",
+      "value": "Thai Language 1 Year course",
+      "quote": "Thai Language 1 Year"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Days per week",
+      "value": "4 days per week",
+      "quote": "4 Days / Week"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Hours per day",
+      "value": "2 hours per day",
+      "quote": "2 Hours / Day"
+    },
+    {
+      "key": "course_length",
+      "label": "Total hours",
+      "value": "460 hours per year",
+      "quote": "460 Hours / Year"
+    }
+  ]
+}

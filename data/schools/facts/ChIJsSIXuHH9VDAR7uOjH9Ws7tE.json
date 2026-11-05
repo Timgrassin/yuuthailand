@@ -1,0 +1,30 @@
+{
+  "summary": "Personal strength and conditioning coach on Koh Phangan offering fitness, MMA and Muay Thai preparation training.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Short or long stay",
+      "value": "Flexible plan for short or long stays",
+      "quote": "short stay or long stay, a flexible plan that fits your time on the island"
+    },
+    {
+      "key": "levels",
+      "label": "Beginners",
+      "value": "Teaches beginners from scratch",
+      "quote": "never trained before? I'll teach you from scratch."
+    },
+    {
+      "key": "training_sessions",
+      "label": "Fight preparation",
+      "value": "Conditioning for MMA, Muay Thai and boxing including fight camp preparation",
+      "quote": "including full fight camp preparation"
+    },
+    {
+      "key": "trainers",
+      "label": "Online option",
+      "value": "Online training by video call",
+      "quote": "Train and check in with me online, wherever you are."
+    }
+  ]
+}

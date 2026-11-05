@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok-based US immigration attorney service for clients worldwide, covering US visitor, investor, family and work visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Founded in 2006",
+      "quote": "was founded by Sur Novel in the year 2006"
+    },
+    {
+      "key": "licence",
+      "label": "Attorney licence",
+      "value": "Led by a licensed New York attorney",
+      "quote": "licensed New York attorney (#4018339)"
+    },
+    {
+      "key": "visa_services",
+      "label": "Consultation",
+      "value": "Free initial consultation by email, phone or video call",
+      "quote": "free initial consultation by email, phone or video call"
+    }
+  ]
+}

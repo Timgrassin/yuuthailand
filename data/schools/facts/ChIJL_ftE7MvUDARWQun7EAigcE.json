@@ -1,0 +1,30 @@
+{
+  "summary": "Cafe and fight gear shop in Chalong, Phuket offering private Muay Thai for MMA and grappling sessions plus an ice bath.",
+  "price_from_thb": 1000,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Private session",
+      "value": "1,000 baht per session",
+      "quote": "1 session 1,000 ฿"
+    },
+    {
+      "key": "price_course",
+      "label": "10-session pack",
+      "value": "8,500 baht for 10 sessions",
+      "quote": "10 sessions 8,500 ฿"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Private training",
+      "value": "Private training designed for your needs, including Muay Thai for MMA and grappling",
+      "quote": "Private training designed for your needs."
+    },
+    {
+      "key": "location_note",
+      "label": "Ice bath hours",
+      "value": "Open Wed-Mon 7:30-17:00",
+      "quote": "Open Wed–Mon 7:30–17:00"
+    }
+  ]
+}

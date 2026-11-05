@@ -1,0 +1,48 @@
+{
+  "summary": "Bangkok Thai cooking school near BTS On Nut offering half-day classes, private classes, Worldchefs-approved chef courses and DTV-supported training.",
+  "price_from_thb": 1300,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Half-day class",
+      "value": "1,300 THB per person for the afternoon class with market tour",
+      "quote": "Only 1,300 THB per person"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV courses",
+      "value": "Offers eligible long-term cooking courses for DTV application requirements",
+      "quote": "Bangkok Thai Cooking Academy offers eligible long-term Thai cooking courses that can be used for Thailand’s DTV visa application requirements."
+    },
+    {
+      "key": "course_length",
+      "label": "Chef courses",
+      "value": "Professional chef courses up to 10 weeks",
+      "quote": "intensive programs up to 10 weeks"
+    },
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "Certificate of Achievement awarded",
+      "quote": "Receive a Certificate of Achievement"
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Teaching Thai cooking since 2010",
+      "quote": "Since 2010, Bangkok Thai Cooking Academy"
+    },
+    {
+      "key": "class_size",
+      "label": "Minimum class",
+      "value": "Minimum class size of 1 person",
+      "quote": "Minimum class size: 1 person"
+    },
+    {
+      "key": "curriculum",
+      "label": "Menu",
+      "value": "Choose 5 of 22 Thai dishes",
+      "quote": "You choose 5 dishes to cook"
+    }
+  ]
+}

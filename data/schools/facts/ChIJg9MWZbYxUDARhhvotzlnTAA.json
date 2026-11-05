@@ -1,0 +1,12 @@
+{
+  "summary": "Law firm with offices in Bangkok and Phuket covering corporate, property, dispute and immigration matters.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Immigration",
+      "value": "Lists an Immigration & Employment Law practice",
+      "quote": "Immigration & Employment Law"
+    }
+  ]
+}

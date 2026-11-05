@@ -1,0 +1,12 @@
+{
+  "summary": "Language centre in Rayong offering English courses and Thai language courses for foreigners.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Thai for foreigners",
+      "value": "Thai courses for foreigners for everyday communication, work and living in Thailand",
+      "quote": "AUA Language Center offers Thai Language Courses for foreigners who wish to learn Thai for everyday communication, work, and living in Thailand."
+    }
+  ]
+}

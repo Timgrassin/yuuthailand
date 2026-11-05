@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok academic tutoring centre covering British Key Stage, IGCSE, A-Level and Cambridge English preparation.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established 1996",
+      "quote": "Established 1996"
+    },
+    {
+      "key": "levels",
+      "label": "Programs",
+      "value": "British Key Stage Year 1-9 and IGCSE & A-Level",
+      "quote": "British Key Stage Year 1-9"
+    },
+    {
+      "key": "curriculum",
+      "label": "Exam preparation",
+      "value": "Cambridge English and PTE English preparation",
+      "quote": "Cambridge English"
+    }
+  ]
+}

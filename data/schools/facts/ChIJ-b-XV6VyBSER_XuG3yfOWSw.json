@@ -1,0 +1,18 @@
+{
+  "summary": "Online Thai tutoring with self-paced foundation courses and private sessions.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Language",
+      "value": "Thai for beginners, online",
+      "quote": "Learn Thai for Beginners and Unlock the Beauty of the Thai Language."
+    },
+    {
+      "key": "levels",
+      "label": "Flexible booking",
+      "value": "Class times can be chosen to fit schedule",
+      "quote": "Enjoy the freedom of flexible booking."
+    }
+  ]
+}

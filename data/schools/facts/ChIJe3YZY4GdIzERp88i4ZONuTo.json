@@ -1,0 +1,18 @@
+{
+  "summary": "Law firm in Udon Thani providing legal and notarial services, including visa application help, in English, French and Thai.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Visa help",
+      "value": "Helps with visa applications",
+      "quote": "We can inform and help you with visa application"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Service languages",
+      "value": "Legal advice in English, French and Thai",
+      "quote": "in English, French and Thai"
+    }
+  ]
+}

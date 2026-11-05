@@ -1,0 +1,18 @@
+{
+  "summary": "Trilingual English, Chinese and Thai kindergarten with campuses in Bangkok.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "English, Chinese and Thai",
+      "quote": "Fostering fluency in English, Chinese and Thai from an early age"
+    },
+    {
+      "key": "curriculum",
+      "label": "English curriculum",
+      "value": "Based on British Early Years Foundation Stage",
+      "quote": "The English language curriculum is based on the British Early Years Foundation Stage"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "French-speaking translation and administrative services firm in Pattaya covering visas, work permits and company registration.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Visa services",
+      "value": "Visas and overstay or blacklist matters",
+      "quote": "Visas & Overstays / Blacklist"
+    },
+    {
+      "key": "visa_services",
+      "label": "Work permits",
+      "value": "Licence and work permit service",
+      "quote": "License / Permis de Travail"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Language",
+      "value": "French-speaking translator-interpreter service",
+      "quote": "Service Francophone"
+    },
+    {
+      "key": "location_note",
+      "label": "Office",
+      "value": "Nong Prue, Bang Lamung, Pattaya",
+      "quote": "41/48 Moo 10 Lala Lake South Pattaya Road"
+    }
+  ]
+}

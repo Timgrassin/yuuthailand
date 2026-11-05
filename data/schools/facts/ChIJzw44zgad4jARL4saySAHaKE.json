@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok law firm with offices in several Thai cities offering corporate, litigation, real estate and immigration services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Long-stay visas",
+      "value": "LTR, business, Elite, retirement, marriage and other long-stay visas, work permits and extensions",
+      "quote": "LTR, business, Elite, retirement, marriage and other long-stay visas, together with work permits and extensions"
+    },
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Education Visa listed under immigration services",
+      "quote": "Education Visa"
+    },
+    {
+      "key": "services",
+      "label": "Team",
+      "value": "Bilingual team",
+      "quote": "Bilingual Team"
+    }
+  ]
+}

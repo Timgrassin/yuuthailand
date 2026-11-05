@@ -1,0 +1,24 @@
+{
+  "summary": "The English House is a Rayong language school offering English courses for kids, adults and companies, plus Thai as a foreign language.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Kids class size",
+      "value": "Small groups of up to 12 children",
+      "quote": "teach small groups of up to 12 children"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Thai course",
+      "value": "Thai as a Foreign Language listed among courses",
+      "quote": "Thai as a Foreign Language"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Nongtaphan, Ban Khai, Rayong",
+      "quote": "30/1 Moo.1 T.Nongtaphan A.Bankhai Rayong 21120"
+    }
+  ]
+}

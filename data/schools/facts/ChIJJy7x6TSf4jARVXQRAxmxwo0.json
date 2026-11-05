@@ -1,0 +1,30 @@
+{
+  "summary": "Online Thai cooking courses and subscription cooking clubs, with a DTV information page.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Courses",
+      "value": "11 courses in traditional and plant-based Thai cooking, Thai desserts and street foods",
+      "quote": "11 courses in traditional and plant-based Thai cooking, Thai desserts, and street foods."
+    },
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "Certificate of Achievement or Professional Thai Chef Diploma",
+      "quote": "Earn a Certificate of Achievement or a Professional Thai Chef Diploma"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "Page mentions a 5 year Destination Thailand Visa with Thai cooking",
+      "quote": "Get your 5 year Destination Thailand Visa and learn Thai cooking"
+    },
+    {
+      "key": "price_course",
+      "label": "Course price (USD)",
+      "value": "$50 per course or $249 for the full 6 course set",
+      "quote": "Price: $50/course or $249 for full course (6 courses)"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok service company offering visa services, Thai driver licence help and vehicle rentals.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Services",
+      "value": "Visa services, driver license facilitation and vehicle rentals",
+      "quote": "visa acquiring services, driver license facilitation, and premium vehicle rentals"
+    },
+    {
+      "key": "location_note",
+      "label": "Shop",
+      "value": "Shophouse, 6 On Nut 17 Alley, Suan Luang, Bangkok",
+      "quote": "Shophouse, 6 On Nut 17 Alley, Suan Luang, Bangkok 10250"
+    }
+  ]
+}

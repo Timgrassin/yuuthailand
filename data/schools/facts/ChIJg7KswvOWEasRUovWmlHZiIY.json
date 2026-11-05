@@ -1,0 +1,30 @@
+{
+  "summary": "Thai language school run by a native Thai teacher, with private lessons, a self-paced course and visa services including the DTV.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Language",
+      "value": "Thai taught to foreigners and expats",
+      "quote": "I'm a native Thai and experienced teacher who teach Thai to foreigners and Thailand expats"
+    },
+    {
+      "key": "levels",
+      "label": "Level",
+      "value": "Open to absolute beginners",
+      "quote": "Even though you are an absolute beginner, you can also do it"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV visa service",
+      "value": "Offers a Destination Thailand Visa service for students",
+      "quote": "DESTINATION THAILAND VISA (DTV) at LTWC is designed for foreigners and expats seeking to embrace Thai culture and courses"
+    },
+    {
+      "key": "course_length",
+      "label": "Self-paced course",
+      "value": "Thai for Fun self-paced course",
+      "quote": "Learn at your own pace with my Thai for Fun self-paced course"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "summary": "Children's English reading and literacy programme operating through centres in Thailand.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Focus",
+      "value": "English literacy for children",
+      "quote": "build a strong foundation in English literacy"
+    },
+    {
+      "key": "location_note",
+      "label": "Centre",
+      "value": "Centre listed in the preferred centre options",
+      "quote": "Central Westgate"
+    }
+  ]
+}

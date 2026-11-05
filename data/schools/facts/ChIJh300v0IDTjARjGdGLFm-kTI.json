@@ -1,0 +1,24 @@
+{
+  "summary": "Thai language school on Koh Lanta offering intensive, standard and family courses in small groups.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Course types",
+      "value": "Intensive, Standard and Family courses",
+      "quote": "We have three types of courses for you to choose from, Intensive Course, Standard Course and Family Course."
+    },
+    {
+      "key": "class_size",
+      "label": "Format",
+      "value": "Small groups, no private classes",
+      "quote": "All our courses are taught in smaller groups"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Koh Lanta, Krabi Province",
+      "quote": "We are located on the beautiful island of Koh Lanta in Krabi Province."
+    }
+  ]
+}

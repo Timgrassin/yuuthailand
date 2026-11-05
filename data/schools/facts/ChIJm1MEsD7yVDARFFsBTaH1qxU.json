@@ -1,0 +1,18 @@
+{
+  "summary": "Muay Thai and Western boxing fight camp on Koh Samui with strength and conditioning programs.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels, from beginners to experienced athletes",
+      "quote": "offering Muay Thai, Western Boxing, and strength & conditioning programs for all levels"
+    },
+    {
+      "key": "opening_hours",
+      "label": "Opening times",
+      "value": "Open 7:00am to 7:30pm Monday to Saturday",
+      "quote": "7:00am &#8211; 7:30pm"
+    }
+  ]
+}

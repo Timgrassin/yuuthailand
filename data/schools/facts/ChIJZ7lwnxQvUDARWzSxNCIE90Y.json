@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai gym in Phuket for beginners to fighters, with 2 and 4 week train and stay packages.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "accommodation",
+      "label": "Train and stay",
+      "value": "2 and 4 week train and stay packages with on-site or off-site accommodation",
+      "quote": "2 & 4 week train & stay packages are available with on-site or off-site accommodation"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Caters to all levels, beginners start with the basics",
+      "quote": "We cater to all levels"
+    },
+    {
+      "key": "levels",
+      "label": "Fighters class",
+      "value": "Experienced fighters invited to a fighters class",
+      "quote": "you'll likely be invited to our fighters class"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Class times",
+      "value": "8AM and 4PM classes",
+      "quote": "OUR 8AM & 4PM CLASSES"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "Thai traditional medicine and Thai massage school in Chiang Mai offering a 60-hour Thai massage for health course.",
+  "price_from_thb": 18000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Thai massage for health",
+      "value": "18,000 baht for a 60 hour course",
+      "quote": "18,000 \n &#3647; \n 60 hour course"
+    },
+    {
+      "key": "course_length",
+      "label": "Duration",
+      "value": "60 hours over 2 weeks",
+      "quote": "Duration of study 60 hours"
+    },
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "Certificate listed for the course",
+      "quote": "certificate"
+    },
+    {
+      "key": "curriculum",
+      "label": "Majors",
+      "value": "Thai medicine, Thai pharmacy, Thai massage and Thai midwifery majors",
+      "quote": "Thai massage major"
+    }
+  ]
+}

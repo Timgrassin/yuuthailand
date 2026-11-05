@@ -1,0 +1,18 @@
+{
+  "summary": "Immigration and legal service in Chon Buri that handles Destination Thailand Visa applications.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV handling",
+      "value": "Handles DTV applications: 5-year multi-entry, 180-day stays",
+      "quote": "5-year multi-entry, 180-day stays"
+    },
+    {
+      "key": "location_note",
+      "label": "Office",
+      "value": "299/8 Moo 12, Nong Prue, Bang Lamung, Chon Buri",
+      "quote": "299/8 Moo 12, Nong Prue, Bang Lamung, Chon Buri 20150"
+    }
+  ]
+}

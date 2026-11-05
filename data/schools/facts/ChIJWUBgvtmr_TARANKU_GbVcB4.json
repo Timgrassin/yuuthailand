@@ -1,0 +1,30 @@
+{
+  "summary": "Hua Hin law firm offering family, business, notary and visa services including Thailand Privilege card assistance.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Visa and Elite Card",
+      "value": "Assistance with visa applications, extensions and Privilege Elite Card memberships",
+      "quote": "End-to-end assistance for visa applications, extensions, and streamlined Thailand Privilege Elite Card memberships."
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "Over 10 years",
+      "quote": "With over 10 years of legal excellence"
+    },
+    {
+      "key": "price_course",
+      "label": "Privilege Gold membership",
+      "value": "฿900,000 for a 5-year multiple-entry visa",
+      "quote": "5-year multiple-entry visa for digital nomads and remote professionals."
+    },
+    {
+      "key": "location_note",
+      "label": "Phone",
+      "value": "Call 080-500-2222",
+      "quote": "080-500-2222"
+    }
+  ]
+}

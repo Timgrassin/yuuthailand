@@ -1,0 +1,42 @@
+{
+  "summary": "Traditional Thai massage school in Chiang Mai with a 10 day beginner course, extended combo programs and advanced courses.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Accreditation",
+      "value": "Accredited by the Thai Ministry of Education and Thai Ministry of Health",
+      "quote": "Accredited by the Thai Ministry of Education and Thai Ministry of Health"
+    },
+    {
+      "key": "course_length",
+      "label": "Beginner course",
+      "value": "10 day beginner course",
+      "quote": "Our 10 day beginner's course"
+    },
+    {
+      "key": "course_length",
+      "label": "Start dates",
+      "value": "New beginner class starts every Monday, runs for 2 weeks",
+      "quote": "Monday of every week, all year long, and runs for 2 weeks"
+    },
+    {
+      "key": "course_length",
+      "label": "Combo 5",
+      "value": "Foundation Builder, 5 weeks",
+      "quote": "Combo 5 : Foundation Builder (5 weeks)"
+    },
+    {
+      "key": "course_length",
+      "label": "Combo 8",
+      "value": "Professional Pathway, 8 weeks",
+      "quote": "Combo 8 : Professional Pathway (8 Weeks)"
+    },
+    {
+      "key": "certificate",
+      "label": "Other accreditations",
+      "value": "Also accredited by NHPC, AAMT and NCBTMB",
+      "quote": "Our school is also accredited by:"
+    }
+  ]
+}

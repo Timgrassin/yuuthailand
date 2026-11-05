@@ -1,0 +1,48 @@
+{
+  "summary": "Chiang Mai TEFL certification school running a 4-week, 120-hour onsite course with observed teaching practice and visa support.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Licence",
+      "value": "Training is conducted at a Ministry of Education licensed school",
+      "quote": "Training is conducted at our Ministry of Education licensed school."
+    },
+    {
+      "key": "ed_visa",
+      "label": "Visa support",
+      "value": "Free visa support and help finding work",
+      "quote": "We provide Free visa support and assistance finding work"
+    },
+    {
+      "key": "course_length",
+      "label": "Course length",
+      "value": "4 weeks of onsite classroom skills training",
+      "quote": "4 weeks of onsite classroom skills training"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Schedule",
+      "value": "Monday to Friday 9AM to 4PM",
+      "quote": "Monday to Friday 9AM &ndash; 4PM."
+    },
+    {
+      "key": "class_size",
+      "label": "Group size",
+      "value": "Training groups limited to 20 trainees",
+      "quote": "Training groups are limited to 20 trainees."
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Accommodation arrangements can be made on behalf of the trainee",
+      "quote": "can be made on behalf of the trainee."
+    },
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established in 2006",
+      "quote": "established in 2006"
+    }
+  ]
+}

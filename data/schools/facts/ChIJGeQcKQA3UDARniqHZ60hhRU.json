@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai gym in Phuket with group classes, kids classes, strength and conditioning, private sessions and recommended accommodation.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Opening hours",
+      "value": "Open daily from 08:00",
+      "quote": "Open Daily | 08:00"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Private sessions",
+      "value": "1-on-1 and 2-on-1 private sessions",
+      "quote": "1-ON-1 | 2-ON-1"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Recommends accommodation near the gym",
+      "quote": "recommended accommodations near Jaroonsak Muaythai Gym"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "Thalang District, Phuket",
+      "quote": "142/34 M.6, Srisunthon Subdistrict, Thalang District, Phuket"
+    }
+  ]
+}

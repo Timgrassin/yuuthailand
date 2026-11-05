@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai camp and stadium in Rawai, Phuket, offering group classes, gym pass, and on-site accommodation.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Group classes",
+      "value": "Group classes Monday to Saturday at 8am and 4pm",
+      "quote": "Group Classes Mon-Sat 8am & 4pm"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Rooms available for people training at the camp",
+      "quote": "Need a place to stay while you train?"
+    },
+    {
+      "key": "founded",
+      "label": "Opened",
+      "value": "Camp and stadium opened in 1997",
+      "quote": "opened the Muay Thai Camp & Stadium in 1997"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "43/42 Wiset Rd, Rawai, Phuket",
+      "quote": "43/42 Wiset Rd, Tambon Rawai"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "Legal and immigration services firm in Thailand covering visas, business, property and family law for foreigners.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Immigration services",
+      "value": "Retirement, marriage, LTR, DTV, work permits and residency",
+      "quote": "Retirement, marriage, LTR, DTV, work permits and residency."
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "Lists DTV among its immigration services",
+      "quote": "Retirement, marriage, LTR, DTV"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "Leadership has over 20 years of experience with foreign clients",
+      "quote": "over 20 years of leadership experience"
+    }
+  ]
+}

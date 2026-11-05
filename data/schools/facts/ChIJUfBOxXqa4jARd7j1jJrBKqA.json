@@ -1,0 +1,18 @@
+{
+  "summary": "English language school for young children in Bangkok with branches at Sukhumvit 49 and Ratchapruek.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Age range",
+      "value": "Group classes start from 1.5 years old",
+      "quote": "Our group classes start from 1.5 years old onward."
+    },
+    {
+      "key": "location_note",
+      "label": "Branches",
+      "value": "Sukhumvit 49 and Ratchapruek branches",
+      "quote": "Sukhumvit 49 branch"
+    }
+  ]
+}

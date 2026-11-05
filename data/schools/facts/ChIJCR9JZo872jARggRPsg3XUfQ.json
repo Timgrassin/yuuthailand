@@ -1,0 +1,36 @@
+{
+  "summary": "Chiang Mai Thai massage training centre teaching Thai traditional medicine based massage, with Japanese interpretation.",
+  "price_from_thb": 18000,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "Series length",
+      "value": "6 days (1 day theory plus 5 days practice)",
+      "quote": "期間:6日間(座学1日＋実技5日)"
+    },
+    {
+      "key": "price_course",
+      "label": "Series set price",
+      "value": "18,000 THB for the 6-day series, listed normally at 25,000 THB",
+      "quote": "通常 25,000 THB"
+    },
+    {
+      "key": "price_course",
+      "label": "Series set price",
+      "value": "18,000 THB bundle price",
+      "quote": "18,000 THB"
+    },
+    {
+      "key": "accommodation",
+      "label": "On-site dorm",
+      "value": "Dorm room with toilet and shower",
+      "quote": "1R・トイレ、シャワー付き。"
+    },
+    {
+      "key": "location_note",
+      "label": "Interpreter",
+      "value": "Japanese interpreter available on site",
+      "quote": "現地では日本語通訳が対応するので"
+    }
+  ]
+}

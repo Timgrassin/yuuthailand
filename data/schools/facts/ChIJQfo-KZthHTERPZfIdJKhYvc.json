@@ -1,0 +1,18 @@
+{
+  "summary": "Bartender training academy in Bangkok run by CWW Agency.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Academy launched",
+      "value": "Kossivi Bar Academy launched in Bangkok in 2017",
+      "quote": "2017 A new journey to Asia, CWW AGENCY has launched a concept \"Kossivi Bar Academy\" in Bangkok, Thailand."
+    },
+    {
+      "key": "curriculum",
+      "label": "Training",
+      "value": "Bartender training with international bar experience instructors",
+      "quote": "The academy offers a high-level bartender training"
+    }
+  ]
+}

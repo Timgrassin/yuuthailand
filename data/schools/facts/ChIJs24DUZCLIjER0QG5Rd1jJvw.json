@@ -1,0 +1,18 @@
+{
+  "summary": "Singapore-curriculum international school in Khon Kaen with primary, secondary and sixth form sections.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "School sections",
+      "value": "Primary, secondary and senior (sixth form) school",
+      "quote": "Senior School (Sixth Form)"
+    },
+    {
+      "key": "curriculum",
+      "label": "Programmes",
+      "value": "Gifted Education Programme and Universities Preparation Programme",
+      "quote": "Universities Preparation Programme"
+    }
+  ]
+}

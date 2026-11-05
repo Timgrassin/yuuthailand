@@ -1,0 +1,18 @@
+{
+  "summary": "Western boxing gym in Bangkok with classes for beginners to experienced boxers.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Opened",
+      "value": "Launched in 2021",
+      "quote": "launched in 2021"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "2 minute walk from MRT Phetchaburi exit 2",
+      "quote": "2 min walk from MRT phetchaburi exit 2"
+    }
+  ]
+}

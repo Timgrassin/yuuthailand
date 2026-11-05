@@ -1,0 +1,24 @@
+{
+  "summary": "Law firm in Bangkok offering legal and immigration services including visa support for tourism, retirement, marriage and business stays.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV visa service",
+      "value": "Lists a DTV Visa Thailand service",
+      "quote": "DTV Visa Thailand FAQs"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "Trusted legal advisors in Thailand for over 20 years",
+      "quote": "Trusted Legal Advisors in Thailand for Over 20 Years"
+    },
+    {
+      "key": "levels",
+      "label": "Visa types supported",
+      "value": "Tourism, retirement, marriage and business visas",
+      "quote": "Comprehensive visa support for tourism, retirement, marriage, and business stays in Thailand."
+    }
+  ]
+}

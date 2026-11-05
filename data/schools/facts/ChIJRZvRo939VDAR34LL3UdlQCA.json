@@ -1,0 +1,24 @@
+{
+  "summary": "Tutorial school on Koh Phangan offering English and Thai language courses and educational visa support.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Educational visas",
+      "value": "Lists educational visas as a service",
+      "quote": "EDUCATIONAL VISAS"
+    },
+    {
+      "key": "course_length",
+      "label": "Course lengths",
+      "value": "Courses of 3, 6, 9 and 12 months",
+      "quote": "3, 6, 9, AND 12 MONTH COURSES"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages taught",
+      "value": "English and Thai",
+      "quote": "We provide language courses in both English and Thai."
+    }
+  ]
+}

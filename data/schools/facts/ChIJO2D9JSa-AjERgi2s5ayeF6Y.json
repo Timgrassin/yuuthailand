@@ -1,0 +1,24 @@
+{
+  "summary": "Pattaya accounting and audit firm that also provides Thai visa and work permit services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "In business since",
+      "value": "Since 2008",
+      "quote": "trusted partner Since 2008"
+    },
+    {
+      "key": "services",
+      "label": "Visa services",
+      "value": "Business visa, work permit and other long-stay visas",
+      "quote": "We Provide Services in Business Visa, Workpermit and other Long Stay Visa."
+    },
+    {
+      "key": "location_note",
+      "label": "Office hours",
+      "value": "Monday to Friday, 08:30 to 17:30",
+      "quote": "Mon-Fri 08:30 - 17:30"
+    }
+  ]
+}

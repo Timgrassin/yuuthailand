@@ -1,0 +1,24 @@
+{
+  "summary": "Visa agency offering tourist, DTV, student, retirement, work and family visa services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Student visa",
+      "value": "Student visa for those enrolled in a Thai school, language program or martial arts academy",
+      "quote": "For those enrolled in a Thai school, language program, or martial arts academy."
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV soft-power package",
+      "value": "DTV soft-power packages listed at 35k THB",
+      "quote": "Soft-power Packages 35k THB"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV paths",
+      "value": "DTV paths for remote workers and Thai culture enthusiasts",
+      "quote": "For remote workers and Thai culture enthusiasts wanting a long-stay base in Thailand."
+    }
+  ]
+}

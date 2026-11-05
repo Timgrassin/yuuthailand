@@ -1,0 +1,30 @@
+{
+  "summary": "Ubon Ratchathani agent providing education (ED) visa assistance with Thai language course registration.",
+  "price_from_thb": 49500,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Professional ED visa assistance for foreigners",
+      "quote": "We provide professional ED visa assistance for foreigners"
+    },
+    {
+      "key": "price_course",
+      "label": "Package price",
+      "value": "49,500 baht for course registration, ED visa paperwork and visa support",
+      "quote": "49,500 Baht"
+    },
+    {
+      "key": "course_length",
+      "label": "Visa duration",
+      "value": "Stay up to 15 months with a valid education visa",
+      "quote": "Stay in Thailand legally for up to 15 months with a valid education visa."
+    },
+    {
+      "key": "founded",
+      "label": "Years serving clients",
+      "value": "Serving clients since 2011",
+      "quote": "We've been serving clients since 2011"
+    }
+  ]
+}

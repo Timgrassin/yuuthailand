@@ -1,0 +1,36 @@
+{
+  "summary": "TEFL One is a Bangkok training centre running a 4-week, 120-hour TEFL/TESOL certification course for aspiring English teachers.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "Course length",
+      "value": "4-week, 120-hour TEFL/TESOL course",
+      "quote": "Our 4-week, 120-hour TEFL/TESOL certification course in Bangkok"
+    },
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "Internationally accredited TEFL/TESOL certification",
+      "quote": "Internationally Accredited TEFL / TESOL Certification Course in Bangkok, Thailand"
+    },
+    {
+      "key": "location_note",
+      "label": "Classroom",
+      "value": "Trains in a classroom in Tipco Tower, Bangkok",
+      "quote": "TEFL One trains teachers in a spacious, fully equipped classroom in Tipco Tower in Bangkok"
+    },
+    {
+      "key": "levels",
+      "label": "Requirements",
+      "value": "No prior teaching experience required",
+      "quote": "No prior teaching experience is required."
+    },
+    {
+      "key": "curriculum",
+      "label": "Job placement",
+      "value": "Job placement support including resume preparation and school introductions",
+      "quote": "We provide active job placement support to all TEFL One graduates"
+    }
+  ]
+}

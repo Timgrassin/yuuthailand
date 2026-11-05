@@ -1,0 +1,18 @@
+{
+  "summary": "Phuket law firm covering immigration, real estate, business investment and tax.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established in 2010",
+      "quote": "Established in 2010, previously named Thai Legal & Lawyer"
+    },
+    {
+      "key": "services",
+      "label": "Practice areas",
+      "value": "Real estate, business investment, immigration, taxation, licensing, customs, intellectual property",
+      "quote": "transactional real estate, business investment, immigration, taxation, licensing, customs, intellectual property"
+    }
+  ]
+}

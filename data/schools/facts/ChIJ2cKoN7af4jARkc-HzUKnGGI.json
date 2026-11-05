@@ -1,0 +1,24 @@
+{
+  "summary": "British international school in Bangkok within the Nord Anglia group, covering early years to high school.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Early years",
+      "value": "Early Years Foundation Stage for ages 2 to 5",
+      "quote": "Early Years Foundation Stage Ages 2-5"
+    },
+    {
+      "key": "curriculum",
+      "label": "Qualifications",
+      "value": "Pathways include IBDP, IBCP and BTEC qualifications",
+      "quote": "pathways such as the IBDP , IBCP, and BTEC qualifications"
+    },
+    {
+      "key": "curriculum",
+      "label": "Clubs",
+      "value": "More than 150 clubs and activities",
+      "quote": "With more than 150 clubs and activities to choose from"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "summary": "Muay Thai gym on Koh Phangan with twice-daily group training and on-site accommodation.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Group sessions",
+      "value": "Monday to Saturday, twice daily",
+      "quote": "Group classes run Monday to Saturday, twice daily."
+    },
+    {
+      "key": "training_sessions",
+      "label": "Session length",
+      "value": "Each session is 2 hours",
+      "quote": "Every session is 2 hours"
+    },
+    {
+      "key": "licence",
+      "label": "Registration",
+      "value": "Registered with the Sports Authority of Thailand",
+      "quote": "Officially registered with the Sports Authority of Thailand (SAT)"
+    },
+    {
+      "key": "accommodation",
+      "label": "Bamboo hut package",
+      "value": "From 5,500 THB per week",
+      "quote": "From 5,500 THB / week"
+    },
+    {
+      "key": "trainers",
+      "label": "Head trainer",
+      "value": "100+ pro fights, C-Licence qualified",
+      "quote": "100+ pro fights · C-Licence qualified"
+    }
+  ]
+}

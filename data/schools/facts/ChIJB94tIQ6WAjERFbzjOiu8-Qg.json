@@ -1,0 +1,18 @@
+{
+  "summary": "Visa agency on Jomtien Beach Road, Pattaya, handling Thailand, Schengen, Australian and Canadian visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Jomtien Beach Road, Pattaya area",
+      "quote": "Jomtien Beach Road,TH"
+    },
+    {
+      "key": "location_note",
+      "label": "Visa services",
+      "value": "Handles Thailand, Schengen, Australian and Canadian visas",
+      "quote": "Thailand Visa"
+    }
+  ]
+}

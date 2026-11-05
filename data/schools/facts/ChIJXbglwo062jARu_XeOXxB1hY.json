@@ -1,0 +1,36 @@
+{
+  "summary": "Chiang Mai massage academy teaching sports medicine, trigger point and deep tissue massage courses in English with published fees.",
+  "price_from_thb": 6000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Trigger Point Therapy",
+      "value": "Five days, 20 hours, THB 12,000",
+      "quote": "The five-day course is 20 hours at THB 12,000."
+    },
+    {
+      "key": "price_course",
+      "label": "Weekend course",
+      "value": "Two-day, 8-hour course at THB 6,000",
+      "quote": "The two-day course is eight hours at THB 6,000"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Limited to 14 participants",
+      "quote": "Class size is limited to 14 participants."
+    },
+    {
+      "key": "languages_taught",
+      "label": "Language",
+      "value": "All lessons and materials are in English",
+      "quote": "All lessons, course materials, practical instruction and Q&A are in English"
+    },
+    {
+      "key": "curriculum",
+      "label": "Progression",
+      "value": "Trigger Point Therapy first, then Deep Tissue, then Myofascial Release",
+      "quote": "Trigger Point Therapy (TPT) comes first"
+    }
+  ]
+}

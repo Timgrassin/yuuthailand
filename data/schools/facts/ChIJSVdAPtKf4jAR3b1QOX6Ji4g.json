@@ -1,0 +1,24 @@
+{
+  "summary": "Bread baking classes in Bangkok including basic bread, natural yeast, vegan, kids and private classes.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Class types",
+      "value": "Natural Yeast Class listed among bread classes",
+      "quote": "Natural Yeast Class"
+    },
+    {
+      "key": "curriculum",
+      "label": "Class types",
+      "value": "Healthy Vegan and Kids classes listed",
+      "quote": "Healthy Vegan"
+    },
+    {
+      "key": "curriculum",
+      "label": "Custom classes",
+      "value": "Private Class and Design your own Recipe options",
+      "quote": "Design your own Recipe"
+    }
+  ]
+}

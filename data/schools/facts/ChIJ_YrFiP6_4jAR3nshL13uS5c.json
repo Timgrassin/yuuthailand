@@ -1,0 +1,36 @@
+{
+  "summary": "Thai language school teaching Thai to foreigners online and on site, from beginner to intermediate.",
+  "price_from_thb": 4425,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Speaking Thai courses at A1, A2 and B1",
+      "quote": "Speaking Thai A2 Upper-Beginner"
+    },
+    {
+      "key": "price_course",
+      "label": "Speaking course price",
+      "value": "Sale price of 5,900 THB for a Speaking Thai course",
+      "quote": "Sale Price THB 5,900.00"
+    },
+    {
+      "key": "price_course",
+      "label": "Reading and writing price",
+      "value": "Sale price of 4,425 THB for Reading and Writing A1",
+      "quote": "Sale Price THB 4,425.00"
+    },
+    {
+      "key": "format",
+      "label": "Live class",
+      "value": "LIVE Zoom class starting January 2027",
+      "quote": "LIVE Zoom class in January 2027 is OPEN"
+    },
+    {
+      "key": "trainers",
+      "label": "Teacher",
+      "value": "Founder holds a Teaching Thai to Foreigners certificate from Mahidol University",
+      "quote": "Qualified Certificate \"Teaching Thai to Foreigners\" Mahidol University"
+    }
+  ]
+}

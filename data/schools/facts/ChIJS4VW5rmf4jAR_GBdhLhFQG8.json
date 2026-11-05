@@ -1,0 +1,18 @@
+{
+  "summary": "Thai language school offering online one-to-one Thai lessons with Japanese support.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Format",
+      "value": "Online one-to-one Thai lessons",
+      "quote": "オンラインマンツーマンタイ語レッスン"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Lesson hours",
+      "value": "Lessons available 10:00 to 21:00",
+      "quote": "10時から21時まで"
+    }
+  ]
+}

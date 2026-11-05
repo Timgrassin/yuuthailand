@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok school teaching Thai cooking, fruit carving and soap carving in Japanese.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Teaching language",
+      "value": "Lessons taught in Japanese",
+      "quote": "日本語で丁寧にレッスンを行っています"
+    },
+    {
+      "key": "curriculum",
+      "label": "Courses",
+      "value": "Thai cooking, fruit carving and soap carving",
+      "quote": "タイ料理、フルーツカービング、ソープカービングを学べる"
+    },
+    {
+      "key": "class_size",
+      "label": "Group size",
+      "value": "Open to a single participant",
+      "quote": "お一人様からご参加いただけます"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "About 5 minutes walk from BTS Nana exit 4",
+      "quote": "BTSナナ駅4番出口から徒歩約5分"
+    }
+  ]
+}

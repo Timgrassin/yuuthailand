@@ -1,0 +1,36 @@
+{
+  "summary": "Thai language school for non-Thai speakers in Bangkok with Basic, Intermediate and Advanced communication courses and a Thai competency test course.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Course levels",
+      "value": "Basic, Intermediate and Advanced Communication plus Thai Competency Test",
+      "quote": "BASIC COMMUNICATION"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Teaching language",
+      "value": "All teaching conducted only in Thai",
+      "quote": "All teaching is conducted only in the Thai language"
+    },
+    {
+      "key": "course_length",
+      "label": "Competency test course",
+      "value": "Two month course starting September 23",
+      "quote": "The Competency Test Course will start on September 23, - November 18, 2026. (Two months course)"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "More than 60 years teaching Thai to foreigners",
+      "quote": "MORE THAN 60 YEARS EXPERIENCED IN TEACHING THAI LANGUAGE FOR FOREIGNER"
+    },
+    {
+      "key": "licence",
+      "label": "Teacher certification",
+      "value": "Teachers certified to teach the ULS curriculum",
+      "quote": "are certified to teach the ULS curriculum"
+    }
+  ]
+}

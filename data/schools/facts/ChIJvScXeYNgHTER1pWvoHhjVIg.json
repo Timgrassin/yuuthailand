@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok-based Muay Thai camp with a professional fight team, private lessons, training-only and accommodation options and an MTI course.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Hotel-standard accommodation offered",
+      "quote": "hotel-standard accommodations"
+    },
+    {
+      "key": "location_note",
+      "label": "Registered camp",
+      "value": "Described as a duly registered Bangkok-based Muay Thai camp",
+      "quote": "duly registered Bangkok-based Muay Thai camp"
+    }
+  ]
+}

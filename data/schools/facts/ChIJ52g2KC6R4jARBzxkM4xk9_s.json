@@ -1,0 +1,18 @@
+{
+  "summary": "International kindergarten in Bangkok following the British Early Years Foundation Stage.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Toddler ages",
+      "value": "Toddler classes for ages 12 months to 3 years",
+      "quote": "Toddler 1 & 2 classes (ages 12 months to 3 years)"
+    },
+    {
+      "key": "levels",
+      "label": "Kindergarten ages",
+      "value": "Kindergarten for ages 3 to 6",
+      "quote": "Kindergarten 1, 2 & 3 (ages 3-6 years) classes"
+    }
+  ]
+}

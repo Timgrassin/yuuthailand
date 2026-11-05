@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok-based German-language service for Swiss, German and Austrian clients covering Thailand visas, marriage, emigration and insurance.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Years operating",
+      "value": "Over 25 years serving clients",
+      "quote": "Seit über 25 Jahren steht Swiss Helping Point"
+    },
+    {
+      "key": "visa_services",
+      "label": "Annual visa",
+      "value": "Offers annual visa support",
+      "quote": "Jahresvisum Thailand"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "Lists DTV visa support",
+      "quote": "DTV Visa"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok legal and business advisory firm covering company registration, BOI, and visa and work permit advisory.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Visa advisory",
+      "value": "Business visa (Non-B), BOI visa and work permit processing, LTR/PR",
+      "quote": "Business visa (Non-B),"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "81/1 Soi Sukhumvit 2, Khlong Toei, Bangkok",
+      "quote": "81/1 Soi Sukhumvit 2, Khlong Toei, Bangkok 10110, Thailand"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "summary": "Hua Hin law office offering litigation, company registration, notarial and legal advisory services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Services in Thai and English",
+      "quote": "services available in Thai and English"
+    },
+    {
+      "key": "location_note",
+      "label": "Office hours",
+      "value": "Monday to Friday, 9:00 AM to 4:00 PM",
+      "quote": "Office hours: Monday – Friday | 9:00 AM – 4:00 PM"
+    }
+  ]
+}

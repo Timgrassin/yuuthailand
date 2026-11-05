@@ -1,0 +1,12 @@
+{
+  "summary": "Bangkok law firm offering corporate, property and immigration services including DTV and retirement visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV service",
+      "value": "Lists DTV Visa among its immigration services",
+      "quote": "DTV Visa"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "Phuket law firm focused on Thai immigration law and business formation for foreign nationals.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Visa services",
+      "value": "Retirement, marriage and business visas, renewals, 90-day reporting and re-entry permits",
+      "quote": "Retirement, marriage, and business visas; renewals, 90-day reporting, and re-entry permits — prepared correctly and submitted on time."
+    },
+    {
+      "key": "founded",
+      "label": "Founder experience",
+      "value": "Nine years practicing law in Thailand",
+      "quote": "nine years of experience practicing law in Thailand"
+    },
+    {
+      "key": "licence",
+      "label": "Licence",
+      "value": "Licensed by the Lawyers Council of Thailand",
+      "quote": "License Lawyers Council of Thailand"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok visa consultancy handling visas for Thais going abroad and for foreigners staying in Thailand, including DTV and work permits.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV service",
+      "value": "Handles DTV (Destination Thailand Visa) applications",
+      "quote": "DTV — Destination Thailand Visa"
+    },
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Lists a Non-ED student visa service",
+      "quote": "Non-ED Student"
+    }
+  ]
+}

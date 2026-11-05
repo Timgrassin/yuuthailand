@@ -1,0 +1,30 @@
+{
+  "summary": "The Thailand Investment and Expat Services Center houses the official Long-Term Resident (LTR) visa program with visa and work permit one-stop services in Bangkok.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "6th and 7th floors, One Bangkok, Rama IV Road, Bangkok",
+      "quote": "Location: 6 th and 7 th floors, One Bangkok, PARADE Zone, Rama IV Road, Lumphini, Pathum Wan, Bangkok 10330"
+    },
+    {
+      "key": "dtv_support",
+      "label": "LTR validity",
+      "value": "LTR first granted for five years and extendable for five more",
+      "quote": "Permission will be granted to stay in Thailand the first time for five years which can be extended for 5 more years if qualifications are met."
+    },
+    {
+      "key": "dtv_support",
+      "label": "LTR categories",
+      "value": "Four types: Wealthy Global Citizen, Wealthy Pensioners, Work-from-Thailand Professionals, Highly skilled Professionals",
+      "quote": "There are four types of LTR visas designed to facilitate different types of individuals: Wealthy Global Citizen, Wealthy Pensioners, Work-from-Thailand Professionals, and Highly skilled Professionals."
+    },
+    {
+      "key": "dtv_support",
+      "label": "Reporting",
+      "value": "90-day report extended to 1-year report",
+      "quote": "90-day report extended to 1-year report and exemption of re-entry permit"
+    }
+  ]
+}

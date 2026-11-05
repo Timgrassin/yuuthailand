@@ -1,0 +1,18 @@
+{
+  "summary": "Pattaya law firm offering visa and immigration, work permit and other legal services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Registration",
+      "value": "Registered with the Lawyer's Council of Thailand as a law office",
+      "quote": "registered with the Lawyer's Council of Thailand as a fully legitimate law office"
+    },
+    {
+      "key": "location_note",
+      "label": "Office address",
+      "value": "South Pattaya Road, Pattaya",
+      "quote": "20/173 , Moo 10, South Pattaya Road, Pattaya City, Nongprue, Banglaung, Chonburi 20150"
+    }
+  ]
+}

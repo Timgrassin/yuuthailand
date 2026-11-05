@@ -1,0 +1,24 @@
+{
+  "summary": "Private Thai cooking classes with a local instructor in Koh Samui.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Class format",
+      "value": "One on one private classes",
+      "quote": "one on one private cooking classes"
+    },
+    {
+      "key": "curriculum",
+      "label": "Dishes taught",
+      "value": "Pad Thai, Green Curry, Mango Sticky Rice, Massaman Curry, Tom Yam Kung, Som Tam, Satay, Khao Soi",
+      "quote": "Pad Thai, Green Curry, Mango Sticky Rice, Massaman Curry, Tom Yam Kung Soup, Som Tam (papaya salad), Satay, and Khao Soi"
+    },
+    {
+      "key": "location_note",
+      "label": "Booking hours",
+      "value": "Appointments 7 days a week, 8:30 am to 9:00 pm",
+      "quote": "7 days a week 8:30 am"
+    }
+  ]
+}

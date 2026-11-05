@@ -1,0 +1,18 @@
+{
+  "summary": "British curriculum international school in Bangkok offering Early Years through Sixth Form.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Next to Bearing BTS Station",
+      "quote": "conveniently located next to Bearing BTS Station"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Early Years through Sixth Form",
+      "quote": "from Early Years through Sixth Form"
+    }
+  ]
+}

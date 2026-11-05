@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok cooking class and food tour company focused on groups, families and team building events.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Class formats",
+      "value": "Customizable cooking classes and food tours for team building, groups or families",
+      "quote": "highly customizable cooking classes and food tours for team building events and groups or families"
+    },
+    {
+      "key": "curriculum",
+      "label": "Market option",
+      "value": "Market experience and cooking class offered",
+      "quote": "MARKET EXPERIENCE AND COOKING CLASS"
+    },
+    {
+      "key": "curriculum",
+      "label": "Kids classes",
+      "value": "Cooking classes for kids offered",
+      "quote": "COOKING CLASS FOR KIDS"
+    },
+    {
+      "key": "curriculum",
+      "label": "Private teacher",
+      "value": "Cooking with a personal teacher offered",
+      "quote": "COOKING WITH A PERSONAL TEACHER"
+    }
+  ]
+}

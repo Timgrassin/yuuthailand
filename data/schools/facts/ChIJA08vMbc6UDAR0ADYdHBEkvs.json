@@ -1,0 +1,24 @@
+{
+  "summary": "Gym and combat centre in Patong, Phuket with Muay Thai classes, strength training and a Muay Thai DTV program.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV program",
+      "value": "Destination Thailand Muay Thai Program for the DTV visa",
+      "quote": "Destination Thailand Muay Thai Program"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels welcome in Muay Thai group classes",
+      "quote": "all levels welcome at Maximum Fitness Phuket"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Classes",
+      "value": "Group and private Muay Thai classes",
+      "quote": "Private Classes"
+    }
+  ]
+}

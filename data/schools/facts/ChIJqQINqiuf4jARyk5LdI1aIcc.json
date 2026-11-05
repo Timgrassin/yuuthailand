@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok law firm with practice areas including immigration and foreign employment.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Immigration practice",
+      "value": "Lists immigration and foreign employment as a practice area",
+      "quote": "IMMIGRATION AND FOREIGN EMPLOYMENT"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "More than 45 years working with clients",
+      "quote": "For more than 45 years, our licensed Thai, European, U.S. and Chinese attorneys"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "Phuket visa agency (page in Russian) offering student, retirement, work, e-visa and DTV services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Student visa",
+      "value": "Student visa with English and Thai language study",
+      "quote": "Изучение английского и тайского языка"
+    },
+    {
+      "key": "ed_visa",
+      "label": "VIP student visa",
+      "value": "VIP student visa for 15 months without 90-day reports",
+      "quote": "VIP студенческая виза на 15 мес. Без репорта каждые 90 дней"
+    },
+    {
+      "key": "services",
+      "label": "Retirement visa",
+      "value": "Retirement visa from age 50, Non-O 3 months plus 12 months",
+      "quote": "От 50 лет. Non О 3 мес + 12 месяцев"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "Digital nomad visa (DTV) listed",
+      "quote": "Виза цифрового кочевника (DTV visa)"
+    }
+  ]
+}

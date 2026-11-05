@@ -1,0 +1,12 @@
+{
+  "summary": "Bangkok language club offering programs, holiday camps, events and an online program.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Small class size",
+      "quote": "Small class size"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "summary": "Visa agent in Bangkok, Pattaya and Rayong specialising in Non-O retirement visas and extensions.",
+  "price_from_thb": 9900,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Retirement visa",
+      "value": "New Non-O retirement visa and extension",
+      "quote": "New Non-O Retirement Visa"
+    },
+    {
+      "key": "price_course",
+      "label": "Service fee",
+      "value": "Service starts from THB 9900; official visa fee THB 1900",
+      "quote": "The Visa fee is: THB 1900 / My Service starts from THB 9900"
+    },
+    {
+      "key": "visa_services",
+      "label": "Retirement extension criteria",
+      "value": "Age 50+, 800,000 baht in bank or 65,000 baht monthly income",
+      "quote": "at least 800,000 Thai Baht or a monthly income of at least 65,000 Thai Baht"
+    },
+    {
+      "key": "location_note",
+      "label": "Coverage",
+      "value": "Immigration offices in Bangkok, Pattaya and Rayong",
+      "quote": "Personal accompaniment to immigration offices in Bangkok, Pattaya, and Rayong"
+    },
+    {
+      "key": "visa_services",
+      "label": "Other services",
+      "value": "Marriage visa, re-entry permit, 90 day report help",
+      "quote": "Help with 90 Day Report"
+    }
+  ]
+}

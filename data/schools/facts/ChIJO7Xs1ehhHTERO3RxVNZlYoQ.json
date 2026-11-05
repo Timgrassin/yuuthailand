@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok law firm focused on real estate, with visa and immigration assistance among its services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa services",
+      "value": "Lists visa and immigration assistance among its services",
+      "quote": "visa and immigration assistance"
+    },
+    {
+      "key": "location_note",
+      "label": "Head office",
+      "value": "Head office at Lat Pla Khao Road, Lat Phrao, Bangkok",
+      "quote": "596/161 Lat Pla Khao Road Chorakhe Bua, Lat Phrao, Bangkok 10230"
+    }
+  ]
+}

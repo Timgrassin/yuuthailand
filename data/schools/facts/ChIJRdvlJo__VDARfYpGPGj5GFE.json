@@ -1,0 +1,30 @@
+{
+  "summary": "Kitesurfing school and equipment rental on Koh Phangan with beginner lessons and club membership.",
+  "price_from_thb": 2500,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Customised lesson",
+      "value": "1 hour lesson for 2,500 baht",
+      "quote": "lesson \n 2,500 ฿"
+    },
+    {
+      "key": "price_session",
+      "label": "Discovery lesson",
+      "value": "2 hour discovery lesson for 3,500 baht",
+      "quote": "lesson \n 3,500 ฿"
+    },
+    {
+      "key": "price_course",
+      "label": "6 hour course",
+      "value": "12,000 baht for 3 x 2 hour lessons",
+      "quote": "6 Hour course (3 x 2 hr) \n 12,000 ฿"
+    },
+    {
+      "key": "class_size",
+      "label": "Lesson format",
+      "value": "Courses typically use 2-hour private lessons",
+      "quote": "typically comprise of 2-hour private lessons"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "Private Thai and Akha cooking class in Chiang Rai with a market visit and hands-on cooking at the chef's home.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "Class length",
+      "value": "About 4 hours",
+      "quote": "lasts approximately 4 ho urs"
+    },
+    {
+      "key": "curriculum",
+      "label": "Market visit",
+      "value": "Local market visit with tastings and refreshments",
+      "quote": "Local market visit with tastings and refreshments"
+    },
+    {
+      "key": "curriculum",
+      "label": "Dishes",
+      "value": "One Akha dish and four Thai dishes",
+      "quote": "preparation of a special traditional Akha dish"
+    },
+    {
+      "key": "curriculum",
+      "label": "Dietary",
+      "value": "Vegan and vegetarian substitutions available",
+      "quote": "Vegan and Vegetarian substitutions available"
+    }
+  ]
+}

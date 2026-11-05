@@ -1,0 +1,24 @@
+{
+  "summary": "Thai cooking and fruit and vegetable carving school on Koh Lanta.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Class content",
+      "value": "Three dishes per class: appetizer, soup and main course",
+      "quote": "Each class will teach you to cook three dishes varities of appertizer, soup and main course."
+    },
+    {
+      "key": "curriculum",
+      "label": "Class options",
+      "value": "Lunch, dinner and dinner with local market shopping",
+      "quote": "The class offer lunch, dinner and dinner with local fresh market shopping."
+    },
+    {
+      "key": "certificate",
+      "label": "Chef qualification",
+      "value": "Chefs passed the National Skills Standards test in Thai food",
+      "quote": "who is passed the National Skills Standards test in the Thai food field"
+    }
+  ]
+}

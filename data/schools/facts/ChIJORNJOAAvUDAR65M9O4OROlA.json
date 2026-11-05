@@ -1,0 +1,42 @@
+{
+  "summary": "Private one-on-one Muay Thai training in Phuket with single sessions, session packages and a padholder certificate course.",
+  "price_from_thb": 700,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Single session",
+      "value": "700 baht per session",
+      "quote": "A single session costs ฿700"
+    },
+    {
+      "key": "price_course",
+      "label": "20 session package",
+      "value": "14,000 baht for 20 sessions",
+      "quote": "a 20-session package ฿14,000"
+    },
+    {
+      "key": "price_course",
+      "label": "Padholder course",
+      "value": "12,000 baht for 10 one-hour sessions with certificate",
+      "quote": "padholder certification course ฿12,000"
+    },
+    {
+      "key": "trainers",
+      "label": "Trainer",
+      "value": "Former Southern Thailand Champion with 180 fights and 150 victories",
+      "quote": "a professional record of 180 fights and 150 victories"
+    },
+    {
+      "key": "class_size",
+      "label": "Format",
+      "value": "All training is private one-on-one",
+      "quote": "All training is private 1-on-1 personal training."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Dragon Muay Thai on Fitness Street (Soi Ta-iad), Phuket",
+      "quote": "Dragon Muay Thai on Phuket's famous Fitness Street (Soi Ta-iad)"
+    }
+  ]
+}

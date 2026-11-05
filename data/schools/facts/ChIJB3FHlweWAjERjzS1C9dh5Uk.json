@@ -1,0 +1,18 @@
+{
+  "summary": "Pattaya visa service handling Australia, Schengen, UK, USA and Thai visas, with translation and travel insurance.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Services",
+      "value": "Visa services, air tickets, travel insurance, translation and certification",
+      "quote": "visa services, air tickets, travel insurance, translation & Certification"
+    },
+    {
+      "key": "location_note",
+      "label": "Office",
+      "value": "280/4 Moo 9, Pattaya Central Rd., Nongprue, Banglamung, Chonburi",
+      "quote": "280/4 Moo 9, Pattaya Central Rd., Nongprue, Banglamung, Chonburi, 20150"
+    }
+  ]
+}

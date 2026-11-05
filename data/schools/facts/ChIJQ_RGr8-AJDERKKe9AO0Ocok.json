@@ -1,0 +1,24 @@
+{
+  "summary": "Permaculture and ecovillage learning centre offering residential courses, farm stays and volunteering.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "PDC course",
+      "value": "17-day Permaculture Design Certificate course",
+      "quote": "17-day Permaculture Design Certificate (PDC) Course"
+    },
+    {
+      "key": "course_length",
+      "label": "EDE course",
+      "value": "32-day Ecovillage Design Education course",
+      "quote": "32-day Ecovillage Design Education (EDE) Course"
+    },
+    {
+      "key": "accommodation",
+      "label": "Farm stay",
+      "value": "Eco-farm stay offered",
+      "quote": "Eco-Farm Stay"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "summary": "English and Thai language school in Phuket with ED visa support.",
+  "price_from_thb": 600,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa support",
+      "value": "ED visa support offered",
+      "quote": "ED-Visa* support — study with official legal status"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Group classes of 8 to 16 students",
+      "quote": "Group 8–16 students · 30 hours"
+    },
+    {
+      "key": "course_length",
+      "label": "Long course",
+      "value": "120-hour group course",
+      "quote": "Group 8–16 students · 120 hours"
+    },
+    {
+      "key": "price_course",
+      "label": "30-hour course price",
+      "value": "฿15,000 for 30 hours",
+      "quote": "Price Price : ฿15,000"
+    },
+    {
+      "key": "price_session",
+      "label": "Private class price",
+      "value": "฿600 for personal classes",
+      "quote": "Price Price : ฿600"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Beginner to Upper-Intermediate",
+      "quote": "Level Level : Beginner – Upper-Intermediate"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages taught",
+      "value": "English and Thai",
+      "quote": "English & Thai — for work, daily life and communication on the island"
+    }
+  ]
+}

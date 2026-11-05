@@ -1,0 +1,36 @@
+{
+  "summary": "Thai massage teacher offering small-group courses in Ancient Holistic Thai massage and specialty therapies in Pai, Koh Phangan and Krabi.",
+  "price_from_thb": 15000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Week 1 course, 4 to 6 participants",
+      "value": "15,000 THB per person",
+      "quote": "For 4- 6 participants : 15,000 THB per person"
+    },
+    {
+      "key": "price_course",
+      "label": "Week 1 course, 2 participants",
+      "value": "20,000 THB per person",
+      "quote": "For 2 participants (minimum): 20,000 THB per person"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Maximum of 6 students",
+      "quote": "Small class size (Max 6 students)"
+    },
+    {
+      "key": "course_length",
+      "label": "Main course",
+      "value": "Two-week main course in Ancient Holistic Thai Massage",
+      "quote": "We offer a two-week main course in Ancient Holistic Thai Massage"
+    },
+    {
+      "key": "curriculum",
+      "label": "Specialties",
+      "value": "Abdominal and Karsai massage, Tok Sen, women's healthcare and Sea Gypsy detoxification",
+      "quote": "Tok Sen Massage Training"
+    }
+  ]
+}

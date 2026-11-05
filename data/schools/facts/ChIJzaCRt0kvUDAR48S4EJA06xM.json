@@ -1,0 +1,36 @@
+{
+  "summary": "Fitness and wellbeing retreat in Rawai, Phuket, with all-inclusive packages that include Muay Thai sessions and accommodation.",
+  "price_from_thb": 41000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Total Fitness Retreat price",
+      "value": "41,000 THB for 6 nights",
+      "quote": "41,000 ฿"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Deluxe accommodation included, 6 nights",
+      "quote": "6 Nights Deluxe Accommodation"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Muay Thai sessions",
+      "value": "2 Muay Thai sessions in the 6-night package",
+      "quote": "2 x Muay Thai Sessions"
+    },
+    {
+      "key": "accommodation",
+      "label": "Guest rooms",
+      "value": "12 boutique guest rooms on site",
+      "quote": "12 boutique guest rooms"
+    },
+    {
+      "key": "founded",
+      "label": "Launched",
+      "value": "Launched September 2012",
+      "quote": "Action Point launched in September 2012"
+    }
+  ]
+}

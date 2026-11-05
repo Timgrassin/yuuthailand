@@ -1,0 +1,18 @@
+{
+  "summary": "International language school in Chiang Mai teaching English, Chinese, Thai and other languages.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Years operating",
+      "value": "International language school since 1996",
+      "quote": "International Language School Since 1996"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages taught",
+      "value": "English, Chinese, Thai, Korean, Russian, Italian, French, Spanish, German and Japanese",
+      "quote": "English Chinese Thai Korean Russian Italian French Spanish German"
+    }
+  ]
+}

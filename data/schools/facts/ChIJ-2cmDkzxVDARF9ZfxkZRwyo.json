@@ -1,0 +1,30 @@
+{
+  "summary": "Private visa assistance on Koh Samui covering extensions, DTV, retirement, marriage, student visas and 90-day reports.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV support",
+      "value": "DTV described as a 5-year visa for remote workers and Muay Thai or wellness stays, 180 days per entry",
+      "quote": "The 5-year visa for remote workers and Muay Thai / wellness stays. 180 days per entry."
+    },
+    {
+      "key": "ed_visa",
+      "label": "Student visa support",
+      "value": "Accredited school enrolment, visa and 90-day extensions handled for studying Thai on Samui",
+      "quote": "Study Thai on Samui — accredited school enrolment, visa and 90-day extensions handled."
+    },
+    {
+      "key": "location_note",
+      "label": "Service area",
+      "value": "Based in Koh Samui, serving Samui, Koh Phangan and Koh Tao",
+      "quote": "Based in Koh Samui, serving the three islands"
+    },
+    {
+      "key": "location_note",
+      "label": "Pricing",
+      "value": "No public price list; fees sent privately after case review",
+      "quote": "No public price list. Your situation is assessed first"
+    }
+  ]
+}

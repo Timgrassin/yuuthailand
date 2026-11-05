@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok business legal consultancy listing immigration, DTV visa and work permit services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV visa service",
+      "value": "Lists a DTV visa service",
+      "quote": "DTV Visa Thailand 2024"
+    },
+    {
+      "key": "services",
+      "label": "Work permits",
+      "value": "Lists work permit service",
+      "quote": "Work Permit"
+    },
+    {
+      "key": "services",
+      "label": "Immigration",
+      "value": "Lists immigration service",
+      "quote": "Immigration"
+    }
+  ]
+}

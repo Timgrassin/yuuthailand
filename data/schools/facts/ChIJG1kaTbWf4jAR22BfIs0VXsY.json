@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai, Brazilian Jiu-Jitsu, MMA and Krav Maga gym on Soi Sukhumvit 93, Bangkok.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Soi Sukhumvit 93, Bangkok",
+      "quote": "Located in the heart of the city on Soi Sukhumvit 93"
+    },
+    {
+      "key": "price_session",
+      "label": "Drop-in rate",
+      "value": "Drop-in from 550 baht per class",
+      "quote": "Drop-in rates start at ฿550/class"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Class language",
+      "value": "Classes taught in English; coaches also speak Thai and Portuguese",
+      "quote": "All classes are taught in English"
+    },
+    {
+      "key": "trainers",
+      "label": "Private training",
+      "value": "One-on-one and small group sessions offered",
+      "quote": "offer one-on-one and small group sessions in Muay Thai, BJJ, MMA, and Krav Maga"
+    }
+  ]
+}

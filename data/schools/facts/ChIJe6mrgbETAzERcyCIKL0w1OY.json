@@ -1,0 +1,30 @@
+{
+  "summary": "Thailand law firm with English-speaking lawyers covering immigration, property, family and corporate law.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Retirement visa",
+      "value": "Retirement visa information",
+      "quote": "Retirement Visa"
+    },
+    {
+      "key": "visa_services",
+      "label": "Elite visa",
+      "value": "Elite visa information",
+      "quote": "Elite Visa"
+    },
+    {
+      "key": "founded",
+      "label": "Track record",
+      "value": "More than 16 years of practice",
+      "quote": "more than 16 years of proven track record"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Language",
+      "value": "English-speaking lawyers",
+      "quote": "English-speaking Thailand lawyers"
+    }
+  ]
+}

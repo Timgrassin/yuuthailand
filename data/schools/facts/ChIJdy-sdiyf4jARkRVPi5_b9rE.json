@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok full-service law firm whose practice areas include immigration and work permits.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Immigration practice",
+      "value": "Lists Immigration and Work Permits as a practice area",
+      "quote": "Immigration &#038; Work Permits"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "Silom 64 Building, Silom Road, Bangkok",
+      "quote": "Silom 64 Building No. 64, Room 307, Floor 3"
+    }
+  ]
+}

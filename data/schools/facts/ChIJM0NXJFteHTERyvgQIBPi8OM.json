@@ -1,0 +1,18 @@
+{
+  "summary": "English language school teaching in centres and online, with Full Access, IELTS and Global Online Class programmes.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "format",
+      "label": "Teaching format",
+      "value": "Combines self-study with teacher-led classes",
+      "quote": "Combining self-study with teacher-led classes makes learning fast and effective."
+    },
+    {
+      "key": "format",
+      "label": "Schedule",
+      "value": "No fixed timetable, with flexible online and in-centre study",
+      "quote": "No fixed timetable. Control when, where and how you study with flexible online and in-center learning."
+    }
+  ]
+}

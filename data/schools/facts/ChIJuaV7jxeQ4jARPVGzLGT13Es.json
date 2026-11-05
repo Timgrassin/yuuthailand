@@ -1,0 +1,18 @@
+{
+  "summary": "English language school in Thailand offering in-centre and online courses with coach support.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "Schedule",
+      "value": "No fixed timetable, flexible online and in-center learning",
+      "quote": "No fixed timetable."
+    },
+    {
+      "key": "class_size",
+      "label": "Sessions",
+      "value": "Small group sessions",
+      "quote": "Small group sessions"
+    }
+  ]
+}

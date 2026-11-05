@@ -1,0 +1,18 @@
+{
+  "summary": "Full-service law firm in Pattaya handling litigation, property, company setup, visas and work permits.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Years operating",
+      "value": "Established more than 20 years ago",
+      "quote": "established more than 20 years ago"
+    },
+    {
+      "key": "work_permit",
+      "label": "Visa and work permit",
+      "value": "Helps obtain business visa and work permit",
+      "quote": "We can help you legally work in Thailand by obtaining the proper Business Visa and Work Permit."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok gym on Sukhumvit Soi 24 with a Muay Thai floor and ring, plus bodybuilding, powerlifting and recovery facilities.",
+  "price_from_thb": 550,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Gym pass from",
+      "value": "Passes from 550 THB, walk-ins welcome",
+      "quote": "Walk-ins welcome · Passes from ฿550"
+    },
+    {
+      "key": "trainers",
+      "label": "Muay Thai",
+      "value": "Full Muay Thai floor with a ring and certified coaches",
+      "quote": "a full Muay Thai floor with a proper ring and certified coaches"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Sukhumvit Soi 24, two minutes from Phrom Phong BTS",
+      "quote": "UnReal Gym sits on Sukhumvit Soi 24, two minutes from Phrom Phong BTS"
+    }
+  ]
+}

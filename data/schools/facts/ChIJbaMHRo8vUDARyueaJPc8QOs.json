@@ -1,0 +1,24 @@
+{
+  "summary": "Muay Thai gym in Rawai, Phuket with group, private, strength and fight preparation sessions.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Gym hours",
+      "value": "Monday to Saturday 07:00 to 18:00, Sunday closed",
+      "quote": "Monday – Saturday: 07:00 – 18:00"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Services",
+      "value": "Group classes, private training, strength and conditioning, fight preparation",
+      "quote": "group classes, private training, strength & conditioning, and fight preparation"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Rawai, Phuket",
+      "quote": "69/97 Moo1 Rawai Phuket Thailand 83000"
+    }
+  ]
+}

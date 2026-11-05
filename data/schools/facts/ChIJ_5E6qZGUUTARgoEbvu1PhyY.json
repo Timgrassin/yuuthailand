@@ -1,0 +1,30 @@
+{
+  "summary": "Accounting and legal firm in Krabi and southern Thailand that also supports Non-B visas and work permits.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Work visa support",
+      "value": "Assists with the Non-B visa application and work permit registration",
+      "quote": "We assist with the entire Non-B Visa application process and handle your work permit registration"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "Mentions the Destination Thailand Visa for remote workers and freelancers",
+      "quote": "Destination Thailand Visa (DTV)"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "Over 16 years of professional experience",
+      "quote": "With over 16 years of professional experience"
+    },
+    {
+      "key": "visa_services",
+      "label": "Visa topics",
+      "value": "Page covers Visa Run and Border Bounce",
+      "quote": "Visa Run &#038; Border Bounce"
+    }
+  ]
+}

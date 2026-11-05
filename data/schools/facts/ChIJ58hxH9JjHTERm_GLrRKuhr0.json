@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok translation centre that also provides visa consultation and application services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Established in 1995",
+      "quote": "was established in 1995"
+    },
+    {
+      "key": "visa_services",
+      "label": "Visa services",
+      "value": "Visa consultation and application",
+      "quote": "visa consultation and application"
+    },
+    {
+      "key": "location_note",
+      "label": "Opening hours",
+      "value": "Mon - Fri 7:30am - 4:30pm",
+      "quote": "Mon - Fri: 7:30am - 4:30pm"
+    }
+  ]
+}

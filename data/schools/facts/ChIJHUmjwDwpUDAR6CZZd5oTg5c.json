@@ -1,0 +1,24 @@
+{
+  "summary": "Muay Thai, BJJ and MMA gym with locations in Phuket and Krabi.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Training times",
+      "value": "Monday to Saturday 08:00, 10:00, 16:00 and 18:00",
+      "quote": "Mon to Sat 08:00-10:00-16:00-18:00"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Training for all levels",
+      "quote": "Training for all levels"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Different standards of accommodation offered",
+      "quote": "We have different standards of accommodation to choose from."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "Thai language courses at the Chiang Mai University Language Institute with education visa support.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa support",
+      "value": "Courses come with a Non-Immigrant Education visa supported by CMU for up to 1 year",
+      "quote": "All courses offered through Learn Thai CMU will be accompanied with a Non-Immigrant Education visa supported by Chiang Mai University for up to 1-year."
+    },
+    {
+      "key": "course_length",
+      "label": "Long course",
+      "value": "Thai 6-month course",
+      "quote": "Thai 6-Month Course"
+    },
+    {
+      "key": "course_length",
+      "label": "Short course",
+      "value": "Speak Thai in 15 days",
+      "quote": "Speak Thai in 15-days"
+    },
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "Certificate from Chiang Mai University",
+      "quote": "Certificate from Chiang Mai University"
+    }
+  ]
+}

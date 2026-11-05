@@ -1,0 +1,30 @@
+{
+  "summary": "Thai traditional massage school in Bangkok, a Sukhumvit branch of the Wat Po massage school with courses taught in Japanese and English.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Courses",
+      "value": "About 20 different courses",
+      "quote": "約20種類の多彩なコース"
+    },
+    {
+      "key": "certificate",
+      "label": "Wat Po certificate",
+      "value": "Official Wat Po certificate for eligible courses",
+      "quote": "ワットポー本校発行の"
+    },
+    {
+      "key": "course_length",
+      "label": "One-day course",
+      "value": "Introductory course can be learned in one day",
+      "quote": "1日でタイマッサージを学びたい方"
+    },
+    {
+      "key": "founded",
+      "label": "Branch opened",
+      "value": "Sukhumvit branch opened in 1998",
+      "quote": "1998年、より多くの学習者のニーズに応えるため"
+    }
+  ]
+}

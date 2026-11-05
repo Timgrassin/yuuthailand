@@ -1,0 +1,42 @@
+{
+ "summary": "Jomhod Muay Thai Gym on Koh Phangan offers group and private Muay Thai training with nearby accommodation for longer stays.",
+ "price_from_thb": 300,
+ "facts": [
+  {
+   "key": "price_session",
+   "label": "One class per day",
+   "value": "THB 300 for one group class",
+   "quote": "Train once/day THB 300 One group class (AM or PM)"
+  },
+  {
+   "key": "price_course",
+   "label": "10 class pass",
+   "value": "THB 2,500 for 10 classes",
+   "quote": "10 class pass THB 2,500"
+  },
+  {
+   "key": "price_session",
+   "label": "Two classes per day",
+   "value": "THB 500 for AM and PM group classes",
+   "quote": "Train twice/day THB 500 Two group classes (AM + PM)"
+  },
+  {
+   "key": "training_sessions",
+   "label": "Group schedule",
+   "value": "Morning 8:00 to 9:30 and evening 4:00 to 5:30, Monday to Saturday",
+   "quote": "Morning Session 8:00 - 9:30 AM Monday - Saturday"
+  },
+  {
+   "key": "location_note",
+   "label": "Typical stay",
+   "value": "Most students stay 2 to 8 weeks",
+   "quote": "Most students stay 2–8 weeks"
+  },
+  {
+   "key": "levels",
+   "label": "Levels",
+   "value": "Beginners to advanced fighters",
+   "quote": "From complete beginners to advanced fighters"
+  }
+ ]
+}

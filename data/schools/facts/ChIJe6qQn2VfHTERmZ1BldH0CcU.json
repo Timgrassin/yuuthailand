@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok visa agency offering DTV, ED visa, other Thai visa types, visa extensions, 90-day reporting and TM30 services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV support",
+      "value": "DTV for digital nomads and students enrolled in cooking, boxing or wellness courses",
+      "quote": "Digital nomads, Freelance working online, content creators, students enrolled in cooking / boxing or wellness courses"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Education Visa (ED Visa) service with schools in Bangkok, Chiang Mai, Ko Samui, Pattaya and Phuket",
+      "quote": "Education Visa (ED Visa) : School in"
+    },
+    {
+      "key": "location_note",
+      "label": "Services",
+      "value": "Offers 90 day report service",
+      "quote": "90 days report service"
+    },
+    {
+      "key": "location_note",
+      "label": "Office",
+      "value": "Office in Prawet, Bangkok",
+      "quote": "239/37 Kanchanaphisek Road, Dokmai, Prawet"
+    }
+  ]
+}

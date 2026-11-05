@@ -1,0 +1,18 @@
+{
+  "summary": "Right Lawyer is a Hua Hin law office offering visa, property, family, business and litigation services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Educational visa",
+      "value": "Educational Visa service listed",
+      "quote": "Educational Visa"
+    },
+    {
+      "key": "location_note",
+      "label": "Office",
+      "value": "G Huahin Resort & Mall, Petchkasem Road, Hua Hin",
+      "quote": "G Huahin Resort & Mall, 250/201, Room A204"
+    }
+  ]
+}

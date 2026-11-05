@@ -1,0 +1,24 @@
+{
+  "summary": "Thai language courses in Chiang Mai and online taught by one teacher.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Maximum 6 students",
+      "quote": "Small classes (max 6)"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Format",
+      "value": "Thai courses in Chiang Mai and online",
+      "quote": "Practical Thai language courses in Chiang Mai & online"
+    },
+    {
+      "key": "course_length",
+      "label": "Free trial",
+      "value": "Free trial lesson offered",
+      "quote": "Book a free trial lesson"
+    }
+  ]
+}

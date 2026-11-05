@@ -1,0 +1,24 @@
+{
+  "summary": "Muay Thai training centre on Koh Lanta offering classes, yoga, accommodation and ED visa support.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa support",
+      "value": "Offers ED visa",
+      "quote": "We offerMuay Thai training, YOGA, Breathwork, Ice Bath, Cooking Classes, Accomodadtion, ED VISA and more."
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Offers accommodation",
+      "quote": "We offerMuay Thai training, YOGA, Breathwork, Ice Bath, Cooking Classes, Accomodadtion, ED VISA and more."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Close to Khlong Dao beach on Koh Lanta",
+      "quote": "located close to Khlong Dao beach on the beautiful island of Koh Lanta"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai, MMA and fitness gym in Bang Tao, Phuket, with programs for beginners to professionals and on-site camp rooms.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Partnered hotels and on-site camp rooms available",
+      "quote": "Partnered hotels and onsite"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Muay Thai training for beginners through professional fighters",
+      "quote": "Traditional Muay Thai training for beginners through professional fighters."
+    },
+    {
+      "key": "levels",
+      "label": "Beginners",
+      "value": "No experience needed for beginners",
+      "quote": "No experience needed, just show up."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Walk to Bang Tao Beach in less than 10 minutes",
+      "quote": "Walk to Bang Tao Beach in less than 10 minutes."
+    }
+  ]
+}

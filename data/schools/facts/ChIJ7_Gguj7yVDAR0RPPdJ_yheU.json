@@ -1,0 +1,36 @@
+{
+  "summary": "Muay Thai training camp on Lamai Beach, Koh Samui with group, private, strength and children's classes.",
+  "price_from_thb": 400,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Single session",
+      "value": "400 Thb for a morning or evening class",
+      "quote": "Single Session\n 400 Thb"
+    },
+    {
+      "key": "price_month",
+      "label": "One month",
+      "value": "6500 Thb for 1 class a day or 8000 Thb for 2 classes a day",
+      "quote": "One month\n 6500 / 8000 Thb"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Group classes",
+      "value": "Monday to Saturday 8:30 AM to 10:00 AM and 3:30 PM to 5:00 PM",
+      "quote": "8:30 AM - 10:00 AM (Morning Training)"
+    },
+    {
+      "key": "trainers",
+      "label": "Head coach",
+      "value": "Master Wech, Southern Thailand Champion with 260 fights",
+      "quote": "260 fights"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels and nationalities welcome",
+      "quote": "All levels and nationalities welcome"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "summary": "Bangkok law firm offering legal services and a range of Thai visa services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV service",
+      "value": "Lists DTV Visa Thailand among its visa services",
+      "quote": "DTV Visa Thailand"
+    }
+  ]
+}

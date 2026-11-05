@@ -1,0 +1,18 @@
+{
+  "summary": "Cooking studio in Bangkok running classes for kids and families, with private or group options.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established in 2009",
+      "quote": "established in 2009"
+    },
+    {
+      "key": "curriculum",
+      "label": "Class formats",
+      "value": "Private one-on-one class or group class",
+      "quote": "either private one-on-one class or group class"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok walk-in office offering visa, legal and corporate services for foreigners.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Visa types",
+      "value": "Non-immigrant B, O and ED, retirement, marriage, LTR and Smart Visa, extensions and 90-day reporting",
+      "quote": "Tourist, non-immigrant B / O / ED, retirement, marriage, LTR and Smart Visa applications, extensions of stay, re-entry permits and 90-day reporting."
+    },
+    {
+      "key": "founded",
+      "label": "Operating since",
+      "value": "Since 1989",
+      "quote": "Since 1989"
+    },
+    {
+      "key": "location_note",
+      "label": "Office",
+      "value": "888 Unit 5.1, Ploenchit Road, Pathumwan, Bangkok",
+      "quote": "888 Unit 5.1, Floor 1, Ploenchit Road, Lumpini, Pathumwan, Bangkok 10330"
+    },
+    {
+      "key": "location_note",
+      "label": "Office hours",
+      "value": "Monday to Friday, 8.00 am to 5.00 pm",
+      "quote": "Monday – Friday, 8.00 am – 5.00 pm"
+    }
+  ]
+}

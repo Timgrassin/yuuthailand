@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok law firm offering legal services including visa and work permit applications for foreigners.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa services",
+      "value": "Visa and permit application service",
+      "quote": "Visa and Permit Application"
+    },
+    {
+      "key": "services",
+      "label": "Work permits",
+      "value": "Applying for a work permit for foreigners",
+      "quote": "Applying for a work permit for foreigners."
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "Founded by attorneys with over 10 years of experience",
+      "quote": "founded by a team of attorneys with over 10 years of experience"
+    }
+  ]
+}

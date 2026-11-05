@@ -1,0 +1,30 @@
+{
+  "summary": "Pattaya agent for visas, work permits, company set-up and related permits.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa services",
+      "value": "Visa agent in Pattaya, Sattahip and Chonburi",
+      "quote": "PBA should be your only choice as Visa Agent in Pattaya, Sattahip and Chonburi"
+    },
+    {
+      "key": "services",
+      "label": "Individuals and families",
+      "value": "Visa services for individuals and families",
+      "quote": "PBA also provides comprehensive VISA services for individuals and families in Pattaya and the surrounding areas"
+    },
+    {
+      "key": "services",
+      "label": "Work permits",
+      "value": "Work permit applications and renewals",
+      "quote": "PBA should be your Agent when applying for Work Permits in Pattaya, Sattahip and Chonburi, and renewals"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Staff fluent in English and Thai",
+      "quote": "We are fluent in both English and Thai languages"
+    }
+  ]
+}

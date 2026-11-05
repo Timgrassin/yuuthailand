@@ -1,0 +1,24 @@
+{
+  "summary": "Krabi law office offering visa, work permit, company registration and notary services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa services",
+      "value": "Visa applications, extensions and work permits for foreigners",
+      "quote": "Visa applications, extensions and work permits for foreigners."
+    },
+    {
+      "key": "licence",
+      "label": "Founder licence",
+      "value": "Founder is an Attorney-at-Law registered with the Lawyers Council of Thailand",
+      "quote": "Attorney-at-Law, Lawyers Council of Thailand"
+    },
+    {
+      "key": "location_note",
+      "label": "Offices",
+      "value": "Krabi Town, Koh Lanta and Ao Nang",
+      "quote": "Krabi Town · Koh Lanta · Ao Nang"
+    }
+  ]
+}

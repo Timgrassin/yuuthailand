@@ -1,0 +1,24 @@
+{
+  "summary": "International business law firm in Bangkok and Phuket with immigration and relocation services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Team fluent in Thai, English, German and Russian",
+      "quote": "fluent in Thai, English, German, and Russian"
+    },
+    {
+      "key": "location_note",
+      "label": "Offices",
+      "value": "Bangkok and Phuket",
+      "quote": "offices in Bangkok and Phuket"
+    },
+    {
+      "key": "visa_services",
+      "label": "Immigration",
+      "value": "Business visa, work permit and LTR visa",
+      "quote": "LTR Visa (Long Term Resident)"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "English language centre in Pattaya with courses for children and adults, online and onsite.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Groups of 4 students",
+      "quote": "taught to groups of 4 students"
+    },
+    {
+      "key": "levels",
+      "label": "Adult courses",
+      "value": "Adult Beginner and Elementary English, 60 lessons of 50 minutes",
+      "quote": "Adult Beginner and Elementary English"
+    },
+    {
+      "key": "course_length",
+      "label": "Adult beginner course length",
+      "value": "60 lessons",
+      "quote": "60 Lessons"
+    },
+    {
+      "key": "location_note",
+      "label": "Main branch",
+      "value": "Nongprue, Banglamung, Chonburi",
+      "quote": "33/32 Moo 11, Nongprue, Banglamung, Chonburi Thailand 20150"
+    }
+  ]
+}

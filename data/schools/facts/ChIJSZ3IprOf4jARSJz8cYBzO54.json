@@ -1,0 +1,24 @@
+{
+  "summary": "Boxing gym in Bangkok offering private training, group classes and a fight camp.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Experience needed",
+      "value": "No boxing experience needed",
+      "quote": "You don't need boxing experience"
+    },
+    {
+      "key": "location_note",
+      "label": "Branches",
+      "value": "Branches on Ramkhamhaeng 18 and Rama 4",
+      "quote": "THE CITY LION BRANCH"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Programs",
+      "value": "Private training, group classes and fight camp",
+      "quote": "Find the right class for your interest and experience level"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "summary": "Thai cooking school in Bangkok running half-day group and private cooking classes, including family classes.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Licence",
+      "value": "Accredited by the Ministry of Education of Thailand",
+      "quote": "accredited by the Ministry of Education of Thailand"
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Established April 2002",
+      "quote": "Baipai Thai Cooking School was established in April 2002"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Maximum 12 people per workshop, 24 per session across two workshops",
+      "quote": "12 persons is maximum capacity in one course for Individual Cooking station."
+    },
+    {
+      "key": "curriculum",
+      "label": "Sessions",
+      "value": "Two sessions per day, morning and afternoon",
+      "quote": "There are 2 sessions per day. Morning and afternoon class."
+    },
+    {
+      "key": "course_length",
+      "label": "Class hours",
+      "value": "Morning class 9.30 to 13.30, afternoon class 13.30 to 17.30",
+      "quote": "Our morning class is during 9.30 to 13.30hrs. and afternoon class start is during 13.30 to 17.30."
+    }
+  ]
+}

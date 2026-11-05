@@ -1,0 +1,18 @@
+{
+ "summary": "A Little Something is a Bangkok cooking studio for kids and families offering group and private classes, parties and corporate workshops.",
+ "facts": [
+  {
+   "key": "founded",
+   "label": "Established",
+   "value": "Established in 2009",
+   "quote": "cooking studio for kids and family. established in 2009"
+  },
+  {
+   "key": "curriculum",
+   "label": "Class formats",
+   "value": "Private one-on-one or group classes",
+   "quote": "either private one-on-one class or group class."
+  }
+ ],
+ "price_from_thb": null
+}

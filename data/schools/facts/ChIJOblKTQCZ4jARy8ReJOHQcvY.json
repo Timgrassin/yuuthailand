@@ -1,0 +1,24 @@
+{
+ "summary": "NaiBaan Studio runs Thai cooking classes in a 100-year-old wooden house near Silom, Bangkok.",
+ "facts": [
+  {
+   "key": "curriculum",
+   "label": "Class style",
+   "value": "MSG-free recipes, no experience needed, vegetarian options on request",
+   "quote": "All of our recipes are MSG-free."
+  },
+  {
+   "key": "location_note",
+   "label": "Location",
+   "value": "In a 100-year-old wooden house near Silom",
+   "quote": "nested in a 100-years-old charming wooden house"
+  },
+  {
+   "key": "course_length",
+   "label": "Opening hours",
+   "value": "Monday to Sunday except Wednesday, 9 a.m. to 6 p.m.",
+   "quote": "Monday – Sunday (close on Wednesday)"
+  }
+ ],
+ "price_from_thb": null
+}

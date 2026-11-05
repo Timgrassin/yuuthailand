@@ -1,0 +1,30 @@
+{
+  "summary": "TEFL teacher training college in Chiang Mai with visa and work permit assistance.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "TEFL course",
+      "value": "140 hours over three weeks",
+      "quote": "The Entrust TEFL course is rated at 140-hours of (level 5+) which takes place over three weeks."
+    },
+    {
+      "key": "ed_visa",
+      "label": "Visa package",
+      "value": "Non-immigrant visa package available",
+      "quote": "we have a non-immigrant visa package available"
+    },
+    {
+      "key": "certificate",
+      "label": "Accreditation",
+      "value": "Accredited by the World TEFL Accrediting Commission",
+      "quote": "Entrust TEFL is fully accredited externally by the World TEFL Accrediting Commission"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "Over 20 years of visa and work permit processing",
+      "quote": "Entrust TEFL has over 20 years of Visa and work permit processing experience."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+ "summary": "Belingo World in Phuket teaches English, Mandarin, maths and exam preparation in small-group and private classes.",
+ "facts": [
+  {
+   "key": "class_size",
+   "label": "Class size",
+   "value": "Usually 6 to 8 students",
+   "quote": "Classes are kept intentionally small, usually 6–8 students"
+  },
+  {
+   "key": "levels",
+   "label": "Levels",
+   "value": "English and Mandarin at all levels, with placement assessment",
+   "quote": "English & Mandarin – All levels."
+  },
+  {
+   "key": "languages_taught",
+   "label": "Languages taught",
+   "value": "English and Mandarin plus IGCSE, IB and exam preparation",
+   "quote": "We offer academic enrichment — including Cambridge English, Creative Writing, Maths, Mandarin, IGCSE subjects, IB subjects and Exam Preparation"
+  }
+ ],
+ "price_from_thb": null
+}

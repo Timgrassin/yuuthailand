@@ -1,0 +1,24 @@
+{
+  "summary": "Sports complex and training camp in Phuket offering Muay Thai, MMA, boxing and group fitness classes.",
+  "price_from_thb": 550,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Muay Thai group class",
+      "value": "Group classes from 550 THB (Muay Thai and MMA)",
+      "quote": "from 550 THB"
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "10+ certified trainers",
+      "quote": "Certified Trainers with years of professional experience"
+    },
+    {
+      "key": "location_note",
+      "label": "Opening hours",
+      "value": "Mon to Fri 06:30 to 22:00",
+      "quote": "Mon–Fri: 06:30 – 22:00"
+    }
+  ]
+}

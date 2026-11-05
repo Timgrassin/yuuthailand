@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok cocktail academy running mixology workshops for private, corporate and team-building groups.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Classes",
+      "value": "Classic cocktail, mocktail and gin-based classes",
+      "quote": "Classic Cocktail Mastery"
+    },
+    {
+      "key": "curriculum",
+      "label": "Instructors",
+      "value": "Hands-on workshops led by expert bartenders",
+      "quote": "hands-on workshops led by expert bartenders"
+    }
+  ]
+}

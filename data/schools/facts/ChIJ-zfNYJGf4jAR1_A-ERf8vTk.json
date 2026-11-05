@@ -1,0 +1,36 @@
+{
+  "summary": "Bangkok combat sports gym offering MMA, Muay Thai, BJJ and wrestling classes with drop-in, membership and class pack pricing.",
+  "price_from_thb": 500,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Drop-in",
+      "value": "500 THB per class",
+      "quote": "Drop-in (1 class) 500 THB"
+    },
+    {
+      "key": "price_course",
+      "label": "Tourist package",
+      "value": "2,500 THB for 2 weeks unlimited",
+      "quote": "Tourist package (2 weeks unlimited) 2,500 THB"
+    },
+    {
+      "key": "price_month",
+      "label": "Monthly unlimited",
+      "value": "From 4,000 THB for 1 month unlimited",
+      "quote": "1 month unlimited training from 4,000 THB"
+    },
+    {
+      "key": "price_month",
+      "label": "Student rate",
+      "value": "From 2,000 THB per month with valid student ID",
+      "quote": "1 month unlimited training (student rate) * from 2,000 THB"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Schedule",
+      "value": "Group classes 5-8PM weekdays, closed weekends",
+      "quote": "Group classes 5–8PM weekdays. Closed weekends."
+    }
+  ]
+}

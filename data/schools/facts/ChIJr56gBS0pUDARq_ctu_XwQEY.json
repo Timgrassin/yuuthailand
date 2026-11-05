@@ -1,0 +1,36 @@
+{
+  "summary": "Taekwondo school in Rawai, Phuket, with weekday evening classes for ages 12 and up.",
+  "price_from_thb": 300,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Price per hour",
+      "value": "1 Hour 300 Baht",
+      "quote": "1 Hour 300 Baht"
+    },
+    {
+      "key": "price_month",
+      "label": "Price per month",
+      "value": "1 Month 3000 Baht",
+      "quote": "1 Month 3000 Baht"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Training times",
+      "value": "Monday to Friday, 17.30 to 18.30",
+      "quote": "Training is Monday-Friday"
+    },
+    {
+      "key": "levels",
+      "label": "Minimum age",
+      "value": "Open to Thais and foreigners from age 12",
+      "quote": "from the age of 12 Years"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "34 Wiset Rd, Rawai, Phuket",
+      "quote": "34 Wiset Rd, Rawai, Mueang Phuket District, Phuket 83130"
+    }
+  ]
+}

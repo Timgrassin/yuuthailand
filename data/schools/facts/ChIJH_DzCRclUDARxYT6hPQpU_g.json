@@ -1,0 +1,48 @@
+{
+  "summary": "Cobra Muay Thai is a Muay Thai and boxing gym near Kata Beach, Phuket, with group classes, private sessions and on-site resort stays.",
+  "price_from_thb": 400,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Single session",
+      "value": "Single session 400 THB",
+      "quote": "Single session 400 THB"
+    },
+    {
+      "key": "price_month",
+      "label": "Monthly training",
+      "value": "Monthly training 9,000 THB",
+      "quote": "Monthly training 9,000 THB"
+    },
+    {
+      "key": "price_month",
+      "label": "Long-stay rate",
+      "value": "Long-stay / expat rate of 6,500 THB",
+      "quote": "Long-stay / expat 6,500 THB"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Group classes",
+      "value": "Group Muay Thai Monday to Saturday, 8:00 AM to 10:00 AM and 4:00 PM to 6:00 PM",
+      "quote": "Group Muay Thai Monday to Saturday, 8:00 AM to 10:00 AM"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Small classes",
+      "quote": "Small classes with Thai coaches who know the pads"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Gym sits inside Chalong Chalet Resort with rooms and pool next to it",
+      "quote": "Cobra sits inside Chalong Chalet Resort."
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels, beginners welcome",
+      "quote": "All levels, beginners welcome"
+    }
+  ]
+}

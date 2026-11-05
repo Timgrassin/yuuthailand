@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok school teaching Thai language through private classes for conversation, reading and writing, and test preparation.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Language taught",
+      "value": "Thai",
+      "quote": "Your Gateway to Thai Language"
+    },
+    {
+      "key": "course_length",
+      "label": "Class format",
+      "value": "One-on-one lessons seven days a week at the school, or at the student's home or office",
+      "quote": "One-on-one lessons run seven days a week on the school's premises, but can also be arranged to take place at the student's home or office"
+    },
+    {
+      "key": "curriculum",
+      "label": "Test preparation",
+      "value": "Preparation for the Ministry of Education Thai Competency Test",
+      "quote": "preparation for the Ministry of Education&#8217;s Thai Compentency Test"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "2nd and 3rd floor of Y.M.C.A., Sukhumvit Soi 42, near BTS Ekamai",
+      "quote": "2nd & 3rd Floor of Y.M.C.A., Sukhumvit Soi 42 (Near BTS Ekamai)"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok law firm serving international companies with company formation and related legal work.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Work permits",
+      "value": "Company formation service includes work permits",
+      "quote": "the bank account and your work permits"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Team speaks English, French, Italian, Chinese and Thai",
+      "quote": "English, French, Italian, Chinese, Thai"
+    }
+  ]
+}

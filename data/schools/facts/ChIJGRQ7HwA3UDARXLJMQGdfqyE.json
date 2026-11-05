@@ -1,0 +1,36 @@
+{
+ "summary": "Khunpon Martial Arts is a Muay Thai, BJJ, MMA and Hyrox gym in Cherngtalay, Phuket, selling class passes and open gym access.",
+ "price_from_thb": 450,
+ "facts": [
+  {
+   "key": "price_session",
+   "label": "Single class",
+   "value": "450 baht for one class, valid 1 day",
+   "quote": "1 Class valid 1 day 450฿"
+  },
+  {
+   "key": "price_month",
+   "label": "Open gym, 1 month",
+   "value": "2,500 baht for one month of facility access",
+   "quote": "1 Month 2,500฿"
+  },
+  {
+   "key": "price_course",
+   "label": "10-class pass",
+   "value": "4,000 baht for 10 classes valid 30 days",
+   "quote": "10 Classes valid 30 days 4,000฿"
+  },
+  {
+   "key": "training_sessions",
+   "label": "Opening",
+   "value": "Classes run seven days a week, gym open 08:00 to 20:00",
+   "quote": "Classes run seven days a week, and the gym is open from 08:00 to 20:00."
+  },
+  {
+   "key": "trainers",
+   "label": "Coaches",
+   "value": "Fourteen coaches in three teams",
+   "quote": "Fourteen coaches in three teams: BJJ and MMA, Muay Thai, and Fitness."
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "Italian-language professional firm in Bangkok offering business, visa and work permit services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Visas",
+      "value": "Visa service for Italians in Thailand",
+      "quote": "Visti per Italiani in Thailandia"
+    },
+    {
+      "key": "visa_services",
+      "label": "Work permits",
+      "value": "Work permit service",
+      "quote": "Permessi di Lavoro"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "23 years of experience in Thailand",
+      "quote": "23 anni di esperienza sul territorio thailandese"
+    },
+    {
+      "key": "location_note",
+      "label": "Office",
+      "value": "The Silom Galleria, Silom Road, Bangkok",
+      "quote": "The Silom Galleria"
+    }
+  ]
+}

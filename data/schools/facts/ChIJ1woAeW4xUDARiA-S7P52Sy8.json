@@ -1,0 +1,30 @@
+{
+  "summary": "Phuket-based specialists helping retirees with the Thai retirement visa, documents, bank account and immigration visits.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa routes",
+      "value": "Covers Non-O, Non-O-A and tourist-to-retirement routes",
+      "quote": "Clear route for Non-O, Non-O-A or tourist-to-retirement"
+    },
+    {
+      "key": "services",
+      "label": "Immigration visit",
+      "value": "Attends Phuket Immigration with the client",
+      "quote": "We go to the Phuket Immigration Office with you"
+    },
+    {
+      "key": "location_note",
+      "label": "Office",
+      "value": "29, 46 Wiset Rd, Rawai, Phuket",
+      "quote": "29, 46 Wiset Rd, Rawai, Mueang Phuket District, Phuket 83100"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Hours",
+      "value": "Monday to Saturday by appointment",
+      "quote": "Hours: Monday-Saturday by appointment"
+    }
+  ]
+}

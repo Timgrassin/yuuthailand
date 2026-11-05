@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok law firm advising on immigration, work permits, IP, corporate and tax matters.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established 1986",
+      "quote": "Est. 1986"
+    },
+    {
+      "key": "visa_services",
+      "label": "LTR Visa",
+      "value": "Authorised to submit LTR Visa applications directly to BOI",
+      "quote": "Authorised to submit LTR Visa applications directly to BOI"
+    },
+    {
+      "key": "visa_services",
+      "label": "Immigration services",
+      "value": "Visas, work permits, LTR, 90-day reporting and re-entry permits",
+      "quote": "90-day reporting and re-entry permits for foreign nationals in Thailand"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Working languages",
+      "value": "Filings in Thai, English and Chinese",
+      "quote": "Filings and submissions in Thai, English, and Chinese"
+    }
+  ]
+}

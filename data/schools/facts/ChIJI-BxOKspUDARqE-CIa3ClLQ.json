@@ -1,0 +1,24 @@
+{
+  "summary": "MMA and Muay Thai gym in Rawai, Phuket, with on-site accommodation and fitness holiday packages.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Facility in Rawai, Phuket",
+      "quote": "A fresh new state of the art facility in Rawai, Phuket, Thailand"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "On-site accommodation for overseas visitors",
+      "quote": "we also have on-site accommodation"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Disciplines",
+      "value": "MMA, BJJ, Muay Thai and Wrestling",
+      "quote": "MMA, BJJ, Muay Thai and Wrestling"
+    }
+  ]
+}

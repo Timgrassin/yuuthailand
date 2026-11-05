@@ -1,0 +1,30 @@
+{
+  "summary": "Phuket language school (Russian-language site) that arranges 12-month student visas alongside Thai, English and French study.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Student visa",
+      "value": "Student visa for 12 months",
+      "quote": "студенческой визы на 12 месяцев"
+    },
+    {
+      "key": "licence",
+      "label": "Licence",
+      "value": "Describes itself as a licensed language school in Phuket",
+      "quote": "это лицензированная языковая школа на Пхукете"
+    },
+    {
+      "key": "founded",
+      "label": "Operating since",
+      "value": "Working since 2021",
+      "quote": "Работаем с 2021 года"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Thai, English and French",
+      "quote": "тайский, английский и французский языки"
+    }
+  ]
+}

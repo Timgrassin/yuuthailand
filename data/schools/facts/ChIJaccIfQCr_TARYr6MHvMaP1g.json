@@ -1,0 +1,30 @@
+{
+  "summary": "Hua Hin law firm offering visa, property, company and estate services in English and German.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "Offers DTV visa service for digital nomads and remote workers",
+      "quote": "Destination Thailand Visa (DTV) for digital nomads and remote workers."
+    },
+    {
+      "key": "services",
+      "label": "Visa services",
+      "value": "Retirement, spouse, LTR and Business visas",
+      "quote": "Retirement & Spouse Visa (Non-Immigrant O) Services in Hua Hin"
+    },
+    {
+      "key": "services",
+      "label": "Retiree bundle",
+      "value": "Bundle includes 1 year retirement visa (Non-O), will, bank account help and free 90 day reports",
+      "quote": "1 Year Retirement Visa (Non-O)"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Legal guidance in English and German",
+      "quote": "Clear legal guidance in English and German"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "summary": "American-curriculum international school in Phuket covering kindergarten to high school.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Curriculum",
+      "value": "American curriculum",
+      "quote": "American-curriculum international school"
+    },
+    {
+      "key": "visa_support",
+      "label": "Visa support",
+      "value": "Visa Support page listed under admissions",
+      "quote": "Visa Support"
+    }
+  ]
+}

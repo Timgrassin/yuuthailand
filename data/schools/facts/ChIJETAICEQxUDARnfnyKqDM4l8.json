@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai gym in Phuket led by head trainer Kru Rong, with group classes six days a week and a Destination Thailand Visa page.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Group classes",
+      "value": "Two group classes per day Monday to Saturday, 8am-10am and 4pm-6pm",
+      "quote": "Morning class is from 8am - 10am and afternoon class is 4pm - 6pm"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels, ages and genders welcome",
+      "quote": "We welcome all levels, ages and genders."
+    },
+    {
+      "key": "trainers",
+      "label": "Head trainer",
+      "value": "Kru Rong, former ONE strawweight world champion",
+      "quote": "Our head trainer Kru Rong - Dejdamrong Sor Amnuaysirichoke"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV page",
+      "value": "Has a Destination Thailand Visa (Muay Thai Student Visa) page",
+      "quote": "Destination Thailand Visa (Muay Thai Student Visa)"
+    }
+  ]
+}

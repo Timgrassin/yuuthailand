@@ -1,0 +1,24 @@
+{
+  "summary": "Phuket law firm offering visa and work permit, immigration, accounting and property legal services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Visa and work permit",
+      "value": "Visa and work permit service",
+      "quote": "VISA &#038; WORK PERMIT"
+    },
+    {
+      "key": "visa_services",
+      "label": "Immigration",
+      "value": "Immigration service",
+      "quote": "IMMIGRATION SERVICE"
+    },
+    {
+      "key": "visa_services",
+      "label": "Visa consultant",
+      "value": "Chinese translator and visa consultant on staff",
+      "quote": "Chinese Translator and visa consultant"
+    }
+  ]
+}

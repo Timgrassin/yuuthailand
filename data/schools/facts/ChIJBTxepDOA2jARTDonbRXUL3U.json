@@ -1,0 +1,24 @@
+{
+  "summary": "Small-group Thai cooking class in Pai that starts with a local market visit.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Market visit",
+      "value": "Visit to a local market to learn about ingredients",
+      "quote": "Visit a local market to learn about the ingredients used in Thai cuisine"
+    },
+    {
+      "key": "curriculum",
+      "label": "Hands-on cooking",
+      "value": "Cook a variety of traditional Thai dishes with step-by-step guidance",
+      "quote": "Prepare and cook a variety of traditional Thai dishes"
+    },
+    {
+      "key": "class_size",
+      "label": "Group size",
+      "value": "Small-group class",
+      "quote": "small-group cooking class in Pai"
+    }
+  ]
+}

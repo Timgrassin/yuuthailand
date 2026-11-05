@@ -1,0 +1,36 @@
+{
+  "summary": "Muay Thai camp in Phuket offering monthly training and private room packages.",
+  "price_from_thb": 9000,
+  "facts": [
+    {
+      "key": "price_month",
+      "label": "Group training, 1 month",
+      "value": "9,000 Baht",
+      "quote": "the cost 1 month is 9,000 Baht"
+    },
+    {
+      "key": "accommodation",
+      "label": "Training plus private room, 1 month",
+      "value": "11,500 Baht",
+      "quote": "Training + Private Room (own bathroom ) of 1 month = 11,500 Baht"
+    },
+    {
+      "key": "class_size",
+      "label": "Trainer to student ratio",
+      "value": "Each trainer teaches 1-5 students",
+      "quote": "every single trainer of ours would accept tutoring only 1-5 students"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Daily sessions",
+      "value": "Two sessions a day, morning and evening",
+      "quote": "There are two intensive sessions every day (one in the morning and one in the evening)"
+    },
+    {
+      "key": "founded",
+      "label": "Years operating",
+      "value": "More than 25 years",
+      "quote": "has been functioning for more than 25 years"
+    }
+  ]
+}

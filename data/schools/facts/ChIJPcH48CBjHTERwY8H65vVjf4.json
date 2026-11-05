@@ -1,0 +1,24 @@
+{
+  "summary": "Online English lessons with native teachers for children aged 3 to 17.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Format",
+      "value": "1-on-1 live lessons",
+      "quote": "1-on-1 Live Lessons"
+    },
+    {
+      "key": "levels",
+      "label": "Age range",
+      "value": "Kids and teens 3 to 17 years old",
+      "quote": "Online classes with certified native English teachers for kids and teens 3-17 years old"
+    },
+    {
+      "key": "trainers",
+      "label": "Teachers",
+      "value": "Native English speakers who are certified ESL instructors with a bachelor's degree",
+      "quote": "native speakers & certified ESL instructors with a bachelor’s degree"
+    }
+  ]
+}

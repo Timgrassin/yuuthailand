@@ -1,0 +1,24 @@
+{
+  "summary": "Ubon Ratchathani visa agency handling education, business, retirement, marriage and tourist visas for Thailand and visas for other countries.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Offers education / student visa service",
+      "quote": "Education-, Business- & Retirement-Visa"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "10+ years helping clients obtain visas",
+      "quote": "10+ Years of Your Trust and Recommendation"
+    },
+    {
+      "key": "location_note",
+      "label": "Office",
+      "value": "Office in Ubon Ratchathani",
+      "quote": "Our office is located in Ubon Ratchathani"
+    }
+  ]
+}

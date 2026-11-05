@@ -1,0 +1,30 @@
+{
+  "summary": "Language school in Trang offering English courses and Thai language courses with ED visa support.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Licence",
+      "value": "Licensed with the Ministry of Education",
+      "quote": "we are licensed with the Ministry of Education"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Offers a 1.5 year ED visa with the Thai language course",
+      "quote": "Ready to have 1.5 years ED Visa today?"
+    },
+    {
+      "key": "course_length",
+      "label": "Thai course structure",
+      "value": "3 courses of 6 months each, each with 6 months of visa",
+      "quote": "Our Thai language course for foreigner in the total of 3 courses, each course will be 6 months course and 6 months visa."
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "In business since 2006",
+      "quote": "doing busisess since 2006"
+    }
+  ]
+}

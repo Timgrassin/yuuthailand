@@ -1,0 +1,24 @@
+{
+  "summary": "Phuket visa service for retirement, marriage and non-immigrant visas, plus banking help and orientation.",
+  "price_from_thb": 15000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Foreigner visa package",
+      "value": "Special offer from 15,000 THB",
+      "quote": "SPECIAL OFFER FOR FOREIGNERS FROM 15,000 THB"
+    },
+    {
+      "key": "services",
+      "label": "Visa types",
+      "value": "Retirement visa and marriage visa with a Thai spouse",
+      "quote": "Retirement visa"
+    },
+    {
+      "key": "services",
+      "label": "Non-immigrant visa",
+      "value": "Non-immigrant O and B business, retirement or marriage visa",
+      "quote": "Commonly known as Non O / B"
+    }
+  ]
+}

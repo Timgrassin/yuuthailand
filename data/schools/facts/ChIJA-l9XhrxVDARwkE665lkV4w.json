@@ -1,0 +1,18 @@
+{
+  "summary": "Thai cooking class on Koh Samui teaching dishes in a private classroom.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Dishes per class",
+      "value": "Four dishes explained and prepared",
+      "quote": "Four different dishes will be explained and prepared."
+    },
+    {
+      "key": "certificate",
+      "label": "Course materials",
+      "value": "Complimentary recipe book given on course completion",
+      "quote": "A complimentary recipe book will be given upon course completion."
+    }
+  ]
+}

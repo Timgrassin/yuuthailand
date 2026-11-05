@@ -1,0 +1,30 @@
+{
+  "summary": "Thai cooking school in Bangkok running market-tour cooking classes, a vegan class and a dessert workshop.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "Market tour class length",
+      "value": "Duration 4 hours with market tour and tuk-tuk ride",
+      "quote": "Explore Thai Flavors: Market Tour & Authentic Cooking Experience"
+    },
+    {
+      "key": "course_length",
+      "label": "Vegan class length",
+      "value": "Duration 3 hours",
+      "quote": "Duration: 3 hours"
+    },
+    {
+      "key": "course_length",
+      "label": "Dessert workshop length",
+      "value": "Duration 1.5 hours",
+      "quote": "Duration: 1.5 hours"
+    },
+    {
+      "key": "curriculum",
+      "label": "Market visit",
+      "value": "Each class begins with a trip to the local market",
+      "quote": "Each class begins with a trip to the local market"
+    }
+  ]
+}

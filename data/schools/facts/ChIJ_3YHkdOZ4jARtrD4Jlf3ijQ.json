@@ -1,0 +1,30 @@
+{
+  "summary": "Thai language coaching from a teacher in Khao Tao, Hua Hin, offered onsite and online.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Format",
+      "value": "Onsite in Khao Tao, Hua Hin and online coaching",
+      "quote": "Now Available for Onsite in Khao Tao, Hua Hin"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Sessions",
+      "value": "Sessions Tuesday to Friday 13:00 to 19:00",
+      "quote": "Tuesday to Friday 13:00 - 19:00"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Teaches every level of Thai skills",
+      "quote": "I like to teach every level of Thai skills"
+    },
+    {
+      "key": "curriculum",
+      "label": "Assessment",
+      "value": "45 minute one-on-one oral proficiency interview with feedback",
+      "quote": "oral proficientcy interview (OPI), a one-on-one interview with audio recording for 45 min"
+    }
+  ]
+}

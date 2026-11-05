@@ -1,0 +1,24 @@
+{
+  "summary": "Visa consultancy specialising in the Destination Thailand Visa (DTV), with course-based routes and family DTV applications.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV specialist",
+      "value": "Describes itself as a Thailand DTV visa specialist",
+      "quote": "Thailand DTV Visa Specialists"
+    },
+    {
+      "key": "dtv_support",
+      "label": "Family DTV",
+      "value": "Handles family DTV applications from start to completion",
+      "quote": "We handle every aspect of your Family DTV Visa application, from start to completion."
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV courses",
+      "value": "Lists Muay Thai training and Thai culinary arts among DTV courses",
+      "quote": "Muay Thai Training"
+    }
+  ]
+}

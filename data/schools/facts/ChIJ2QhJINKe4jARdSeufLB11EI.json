@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok tutoring centre preparing students for GED, IGCSE, A-Level, IELTS and SAT exams (mixed Thai and English site).",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "After-school classes for Year 7 to 13, IGCSE and A-Level",
+      "quote": "After School (Year 7 – 13)"
+    },
+    {
+      "key": "curriculum",
+      "label": "IGCSE",
+      "value": "IGCSE courses for Year 7-9 and Year 10-11",
+      "quote": "IGCSE (Year 10-11)"
+    },
+    {
+      "key": "curriculum",
+      "label": "A-Level",
+      "value": "AS and A-Level courses for Year 12 to 13",
+      "quote": "AS/ A- Level (Year 12- 13)"
+    }
+  ]
+}

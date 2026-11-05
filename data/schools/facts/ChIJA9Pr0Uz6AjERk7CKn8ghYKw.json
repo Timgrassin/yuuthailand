@@ -1,0 +1,18 @@
+{
+  "summary": "Kumon math and English enrichment programmes for children, run through local instructors.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Age groups",
+      "value": "Programmes for ages 3-4, 5-12 and 13 and above",
+      "quote": "Age 5-12"
+    },
+    {
+      "key": "languages_taught",
+      "label": "English program",
+      "value": "English as a Foreign Language and Thai Reading Program",
+      "quote": "English as a Foreign Language"
+    }
+  ]
+}

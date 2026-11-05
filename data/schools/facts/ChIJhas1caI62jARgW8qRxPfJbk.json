@@ -1,0 +1,36 @@
+{
+  "summary": "Chiang Mai Thai cooking school on an organic farm with half-day, full-day and rice planting classes.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Included",
+      "value": "Market visit, farm tour, curry paste making and meal",
+      "quote": "Visit the local market"
+    },
+    {
+      "key": "class_size",
+      "label": "Cooking station",
+      "value": "Each person has an individual cooking station",
+      "quote": "An individual cooking station, learn by doing!"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Teaching language",
+      "value": "Instruction in English by a Thai cooking teacher",
+      "quote": "Instruction in English by a Thai cooking teacher"
+    },
+    {
+      "key": "certificate",
+      "label": "Recipe book",
+      "value": "Digital full colour e-recipe book included",
+      "quote": "Digital full color e-recipe book with photo instructions"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "About 17 km from Chiang Mai city",
+      "quote": "approximately 17 kms from Chiang Mai city"
+    }
+  ]
+}

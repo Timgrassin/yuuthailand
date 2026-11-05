@@ -1,0 +1,42 @@
+{
+  "summary": "Family-run Thai cooking class on Koh Phangan offering 6 and 9 month programmes with documents for a Destination Thailand Visa application.",
+  "price_from_thb": 40000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "6-month programme",
+      "value": "THB 40,000 one-time course fee, 24 classes, 72 hours",
+      "quote": "THB 40,000"
+    },
+    {
+      "key": "price_course",
+      "label": "9-month programme",
+      "value": "THB 54,000 one-time course fee, 36 classes, 108 hours",
+      "quote": "THB 54,000"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV support",
+      "value": "Provides enrollment letter, curriculum and receipt for the DTV application",
+      "quote": "Enrollment letter, curriculum and payment receipt, signed and stamped."
+    },
+    {
+      "key": "course_length",
+      "label": "Class rhythm",
+      "value": "One 3-hour class per week",
+      "quote": "One 3-hour class per week."
+    },
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "Certificate of completion at the end of the programme",
+      "quote": "Certificate of completion At the end of your programme"
+    },
+    {
+      "key": "founded",
+      "label": "Years teaching",
+      "value": "Over seven years welcoming travellers and long-stay guests, in small groups",
+      "quote": "For over seven years we have welcomed travellers, families and long-stay guests"
+    }
+  ]
+}

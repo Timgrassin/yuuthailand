@@ -1,0 +1,30 @@
+{
+  "summary": "Thai cooking classes in Phuket taught in English, with optional market tour, plus a food tour.",
+  "price_from_thb": 1800,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Class with market tour",
+      "value": "2,000 baht",
+      "quote": "Classes with Market tour @2,000baht"
+    },
+    {
+      "key": "price_course",
+      "label": "Class without market tour",
+      "value": "1,800 baht",
+      "quote": "Classes with No Market tour @1,800baht"
+    },
+    {
+      "key": "course_length",
+      "label": "Morning class with market tour",
+      "value": "Approximately 3 hours",
+      "quote": "11:00am (Appx. 3 hrs) – With Market Tour"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Teaching language",
+      "value": "Classes in English",
+      "quote": "English Language Authentic Thai Cooking Classes by Chef VJ"
+    }
+  ]
+}

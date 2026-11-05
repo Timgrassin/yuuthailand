@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok law firm handling litigation, labour, family and property law, plus work permits and visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Visa services",
+      "value": "Business startup, work permit and visa services listed",
+      "quote": "Business startup workpermit and visa"
+    },
+    {
+      "key": "location_note",
+      "label": "Office",
+      "value": "Alma Link Building, Chidlom, Bangkok",
+      "quote": "25 Alma Link Building, Soi Chidlom, Ploenchit Road"
+    }
+  ]
+}

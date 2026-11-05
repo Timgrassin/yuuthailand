@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok law firm offering corporate, property, family and immigration services including several visa types.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Education Visa listed under visas and immigration",
+      "quote": "Education Visa"
+    },
+    {
+      "key": "services",
+      "label": "Visa types",
+      "value": "Business, retirement, marriage, education and investment visas and permanent residency",
+      "quote": "Retirement Visa"
+    },
+    {
+      "key": "founded",
+      "label": "Since",
+      "value": "Providing legal services in Thailand since 2002",
+      "quote": "Sun Legal provides expert legal services in Thailand since 2002"
+    },
+    {
+      "key": "services",
+      "label": "Language",
+      "value": "English-speaking lawyers help with visas, work permits and extensions",
+      "quote": "Our English-speaking lawyers can help you today."
+    }
+  ]
+}

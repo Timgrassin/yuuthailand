@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok visa agency handling DTV, retirement, elite, business and education visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV visa",
+      "value": "Offers DTV visa service for remote workers",
+      "quote": "DTV Visa For remote workers and digital nomads"
+    },
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Education visa for approved schools, language centres and universities",
+      "quote": "Study at approved schools, language centers, and universities."
+    },
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established in Bangkok since 2022",
+      "quote": "Established in Bangkok since 2022"
+    },
+    {
+      "key": "services",
+      "label": "Process",
+      "value": "Four-step process from consultation to application",
+      "quote": "A simple four-step process"
+    }
+  ]
+}

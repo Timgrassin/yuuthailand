@@ -1,0 +1,30 @@
+{
+  "summary": "Phuket school offering business, hospitality and language programs including diplomas and internships.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "English course",
+      "value": "Certificate in English for Tourism and Hospitality",
+      "quote": "Certificate in English for Tourism &#038; Hospitality"
+    },
+    {
+      "key": "levels",
+      "label": "Placement test",
+      "value": "English Placement Test listed for prospective students",
+      "quote": "English Placement Test"
+    },
+    {
+      "key": "ed_visa",
+      "label": "Visa application",
+      "value": "Admissions page covers visa application",
+      "quote": "Admissions Process &#038; Visa Application"
+    },
+    {
+      "key": "curriculum",
+      "label": "Diplomas",
+      "value": "Diploma in Business Administration and Hospitality Management programs with internships",
+      "quote": "Diploma in Hospitality Management & Internship"
+    }
+  ]
+}

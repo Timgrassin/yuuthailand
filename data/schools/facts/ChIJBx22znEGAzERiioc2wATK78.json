@@ -1,0 +1,36 @@
+{
+  "summary": "Muay Thai camp near Ban Phe in Rayong offering twice-daily classes, private training and on-site guesthouse rooms.",
+  "price_from_thb": 6000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Summer special per week",
+      "value": "6000 THB per week for room and training",
+      "quote": "SUMMER SPECIAL 6000THB PER WEEK ROOM & TRAINING"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Morning class",
+      "value": "Monday to Saturday, 8-10",
+      "quote": "the morning class from 8-10"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Afternoon class",
+      "value": "16-18",
+      "quote": "And the afternoon / evening class from 16-18"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Homestay on campus within walking distance of Suan Son Beach",
+      "quote": "Our modern homestay at campus is within walking distance to beach at Suan Son Beach Rayong"
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "Ex-stadium fighters and champions",
+      "quote": "all trainers are highly respected ex-stadium fighters and champions"
+    }
+  ]
+}

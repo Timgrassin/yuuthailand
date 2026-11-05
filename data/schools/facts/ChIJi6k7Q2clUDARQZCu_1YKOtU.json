@@ -1,0 +1,36 @@
+{
+  "summary": "Phuket farm-to-table Thai cooking class with morning and afternoon group classes and private classes.",
+  "price_from_thb": 1990,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Afternoon class price",
+      "value": "1,990 THB per person for the afternoon class",
+      "quote": "1,990 THB/pax"
+    },
+    {
+      "key": "price_session",
+      "label": "Morning class price",
+      "value": "2,300 THB per person for the morning class",
+      "quote": "2,300 THB/pax"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Small groups of up to 6 guests",
+      "quote": "(max 6 guests)"
+    },
+    {
+      "key": "course_length",
+      "label": "Morning class hours",
+      "value": "Morning class 09:00 to 12:00",
+      "quote": "Morning class - 09:00-12:00"
+    },
+    {
+      "key": "trainers",
+      "label": "Chef",
+      "value": "Chef Tan has over 21 years of experience",
+      "quote": "professional Thai Chef with over 21 years of experience"
+    }
+  ]
+}

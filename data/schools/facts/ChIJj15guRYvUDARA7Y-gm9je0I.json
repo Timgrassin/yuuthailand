@@ -1,0 +1,30 @@
+{
+  "summary": "Cambridge International school in Rawai, Phuket, with an English Language Learner program.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Accreditation",
+      "value": "Accredited Cambridge International School",
+      "quote": "One of the few accredited Cambridge International Schools in Phuket"
+    },
+    {
+      "key": "class_size",
+      "label": "Capacity",
+      "value": "Maximum capacity of 235 students",
+      "quote": "maximum capacity of 235 students"
+    },
+    {
+      "key": "levels",
+      "label": "ELL program",
+      "value": "English Language Learner program with 70% English study",
+      "quote": "The ELL program consists of 70% English study in separate classes"
+    },
+    {
+      "key": "trainers",
+      "label": "Teachers",
+      "value": "Classroom teachers are native English speakers",
+      "quote": "All of our classroom teachers are native English speakers from around the world."
+    }
+  ]
+}

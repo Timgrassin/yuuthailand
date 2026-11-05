@@ -1,0 +1,18 @@
+{
+  "summary": "CrossFit and Muay Thai gym in Phuket Town with an open-air Muay Thai space.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "hours_per_week",
+      "label": "Opening hours",
+      "value": "Open daily 8am to 9pm",
+      "quote": "OPEN DAILY 8am - 9pm"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "9/56 Moo 5, Vichit, Mueang Phuket",
+      "quote": "9/56 Moo 5 T.Vichit Mueang Phuket 83000"
+    }
+  ]
+}

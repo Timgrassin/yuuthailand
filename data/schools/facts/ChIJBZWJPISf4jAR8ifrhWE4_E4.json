@@ -1,0 +1,18 @@
+{
+  "summary": "Corporate English training in Thailand combining English with business soft skills.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Language taught",
+      "value": "English",
+      "quote": "English plus soft skills training for business professionals."
+    },
+    {
+      "key": "course_length",
+      "label": "Formats",
+      "value": "One-on-one training, group training and workshops",
+      "quote": "One-on-One Training"
+    }
+  ]
+}

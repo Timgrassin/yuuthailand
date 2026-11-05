@@ -1,0 +1,36 @@
+{
+  "summary": "Muay Thai gym in Chiang Mai offering group classes, private training and fighter development.",
+  "price_from_thb": 400,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Group class price",
+      "value": "400 THB per group class",
+      "quote": "400 THB per class"
+    },
+    {
+      "key": "price_session",
+      "label": "Private session price",
+      "value": "1,000 THB per one-hour private session",
+      "quote": "1,000 THB per session"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Group class times",
+      "value": "Daily except Wednesday, three sessions a day",
+      "quote": "Daily except Wed 9:00 – 10:30 AM 4:00 – 5:30 PM 6:00 – 7:30 PM"
+    },
+    {
+      "key": "trainers",
+      "label": "Head trainer",
+      "value": "Led by Pinpetch Banchamek with 200+ professional fights",
+      "quote": "Led by Pinpetch Banchamek (200+ fights of experience)"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels welcome, from beginners to aspiring fighters",
+      "quote": "We welcome all levels, from complete beginners to aspiring fighters."
+    }
+  ]
+}

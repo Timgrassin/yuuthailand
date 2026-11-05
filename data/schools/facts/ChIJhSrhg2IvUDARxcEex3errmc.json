@@ -1,0 +1,36 @@
+{
+  "summary": "Muay Thai, BJJ, MMA and boxing gym in Chalong, Phuket, offering a training package bundled with a 5-year DTV.",
+  "price_from_thb": 450,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV package",
+      "value": "9 months of training plus a 5-year DTV for 74,000 THB all-in",
+      "quote": "9 months training at Lions + 5-year DTV, all-in for 74,000 THB"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Weekly sessions",
+      "value": "40 coached sessions a week, Monday to Saturday",
+      "quote": "40 coached sessions a week, Mon–Sat"
+    },
+    {
+      "key": "price_session",
+      "label": "Drop-in price",
+      "value": "First class or drop-in costs 450 THB",
+      "quote": "Drop in for 450 THB"
+    },
+    {
+      "key": "price_month",
+      "label": "Unlimited monthly pass",
+      "value": "All-inclusive membership at 13,000 THB per month",
+      "quote": "Get All-Inclusive — 13,000 THB/mo"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "45/28 Soi Ta-iad, Chalong, Phuket",
+      "quote": "Lions sits at 45/28 Soi Ta-iad"
+    }
+  ]
+}

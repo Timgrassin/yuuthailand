@@ -1,0 +1,42 @@
+{
+  "summary": "Private Thai cooking classes in Chiang Rai with a farmers' market visit and customised menus.",
+  "price_from_thb": 1300,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Private class",
+      "value": "Four custom dishes with a guided visit to a local farmers' market",
+      "quote": "Exclusive Private Thai Cooking Experience4 Custom Dishes"
+    },
+    {
+      "key": "price_course",
+      "label": "Private class price",
+      "value": "1950 baht",
+      "quote": "&#xE3F;\n 1950"
+    },
+    {
+      "key": "price_course",
+      "label": "Northern Thai Flavours class price",
+      "value": "1300 baht",
+      "quote": "&#xE3F;\n 1300"
+    },
+    {
+      "key": "curriculum",
+      "label": "Northern Thai class",
+      "value": "Three dishes, every Monday and Wednesday",
+      "quote": "Northern Thai Flavours 3 Delicious Dishes"
+    },
+    {
+      "key": "class_size",
+      "label": "Minimum guests",
+      "value": "Minimum 2 guests",
+      "quote": "Minimum 2 guests"
+    },
+    {
+      "key": "location_note",
+      "label": "Transfer",
+      "value": "Free round-trip transfer within 5 km of Chiang Rai city",
+      "quote": "complimentary round-trip transfer within 5 km of Chiang Rai city"
+    }
+  ]
+}

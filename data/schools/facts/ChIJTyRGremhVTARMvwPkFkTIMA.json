@@ -1,0 +1,42 @@
+{
+  "summary": "Muay Thai training camp in Sairee, Koh Tao with group and private classes and accommodation.",
+  "price_from_thb": 300,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established in 2002",
+      "quote": "Established in 2002"
+    },
+    {
+      "key": "class_size",
+      "label": "Group class size",
+      "value": "Group classes of up to 20 students",
+      "quote": "Group Class with up to 20 Students"
+    },
+    {
+      "key": "price_session",
+      "label": "Group class price",
+      "value": "Group class listed at 300 THB",
+      "quote": "300 THB 500 THB"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Class times",
+      "value": "Group classes 8:00am and 4:00pm, private classes 10:00am and 6:00pm",
+      "quote": "Group Class: 8:00am and 4:00pm"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Accommodation offered",
+      "quote": "We also offer accommodation"
+    },
+    {
+      "key": "trainers",
+      "label": "Owner experience",
+      "value": "Owner Kru Rin has over 30 years working with Muay Thai",
+      "quote": "over 30 years working with Muay Thai"
+    }
+  ]
+}

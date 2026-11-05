@@ -1,0 +1,30 @@
+{
+ "summary": "Brilliant Life Muay Thai School in Bangkok runs a one-year licensed Muay Thai course with student application guidance and document support for an extended stay.",
+ "facts": [
+  {
+   "key": "licence",
+   "label": "Ministry of Education",
+   "value": "Course approved by the Ministry of Education",
+   "quote": "Our course approved by Ministry of Education."
+  },
+  {
+   "key": "licence",
+   "label": "Licensed school",
+   "value": "Describes itself as a licensed Muay Thai school",
+   "quote": "We are a licensed Muay Thai school dedicated to helping everyone learn Muay Thai"
+  },
+  {
+   "key": "course_length",
+   "label": "Course length",
+   "value": "One year Muay Thai training course",
+   "quote": "One Year Muay Thai Training Course"
+  },
+  {
+   "key": "ed_visa",
+   "label": "Extended stay support",
+   "value": "Document support and assistance with extended stay; the school does not issue visas",
+   "quote": "We provide expert Muay Thai instruction and assistance with extended stay in Thailand."
+  }
+ ],
+ "price_from_thb": null
+}

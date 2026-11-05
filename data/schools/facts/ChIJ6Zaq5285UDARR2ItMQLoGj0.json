@@ -1,0 +1,42 @@
+{
+  "summary": "Cooking school in Bangkok and Phuket offering daily market tour classes and 9 or 12 month programmes for the DTV Soft Power visa.",
+  "price_from_thb": 1700,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV enrollment letter",
+      "value": "Enrollment letter to apply for the 5-year multiple-entry DTV",
+      "quote": "Enrollment letter to apply for 5-year multiple-entry Destination Thailand Visa (DTV)"
+    },
+    {
+      "key": "price_course",
+      "label": "9-month programme price",
+      "value": "9-month programme costs 48,900 THB",
+      "quote": "Price: THB 48,900"
+    },
+    {
+      "key": "price_course",
+      "label": "12-month programme price",
+      "value": "12-month programme costs 58,900 THB",
+      "quote": "Price: THB 58,900"
+    },
+    {
+      "key": "course_length",
+      "label": "9-month programme",
+      "value": "9 workshop classes plus 18 culinary practice sessions",
+      "quote": "9 Thai Culinary Workshop Classes"
+    },
+    {
+      "key": "price_session",
+      "label": "Daily class price",
+      "value": "Market tour and cooking class at 1,700 baht per person",
+      "quote": "Price: 1700 Baht / Person"
+    },
+    {
+      "key": "class_size",
+      "label": "Daily class size",
+      "value": "Up to 12 participants",
+      "quote": "Maximum Participants: 12 People"
+    }
+  ]
+}

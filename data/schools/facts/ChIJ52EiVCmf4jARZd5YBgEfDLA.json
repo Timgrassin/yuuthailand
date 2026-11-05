@@ -1,0 +1,30 @@
+{
+  "summary": "Berlitz Thailand offers in-person and live online language courses in Bangkok at its Sathorn and Sukhumvit centres, including Thai.",
+  "price_from_thb": 500,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Semi-private lesson",
+      "value": "Semi-private lessons promoted at 500 THB per lesson",
+      "quote": "Semi-private: Only 500 THB/lesson (From 505 THB/lesson )"
+    },
+    {
+      "key": "price_session",
+      "label": "Private lesson",
+      "value": "Private lessons promoted at 900 THB per lesson",
+      "quote": "Private: Only 900 THB/lesson (From 1,040 THB/lesson )"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Thai course",
+      "value": "Thai offered in person and live online",
+      "quote": "Thai\n In-person"
+    },
+    {
+      "key": "location_note",
+      "label": "Centres",
+      "value": "Sathorn Thani 2 Building and Exchange Tower (Sukhumvit)",
+      "quote": "Exchange Tower., 2nd Floor (1 min walk from BTS Asoke and MRT Sukhumvit)"
+    }
+  ]
+}

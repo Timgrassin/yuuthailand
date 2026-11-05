@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok education centre offering Thai and English language training, test preparation and corporate coaching.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Language training",
+      "value": "Thai and English programs for individuals and corporate clients",
+      "quote": "Our language training programs in Thai and English cater to individuals and corporate clients."
+    },
+    {
+      "key": "levels",
+      "label": "Class format",
+      "value": "Group and private classes",
+      "quote": "Group Classes & Private Classes"
+    },
+    {
+      "key": "ed_visa",
+      "label": "Visa support",
+      "value": "Guidance through the student visa application process",
+      "quote": "We guide students through the entire visa application process"
+    }
+  ]
+}

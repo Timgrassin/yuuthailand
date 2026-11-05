@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok law firm advising on corporate, tax and immigration matters.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Office address",
+      "value": "Park Silom, Convent Road, Silom, Bangkok",
+      "quote": "No. 1, Park Silom, 29th Floor, Convent Road, Silom, Bangrak, Bangkok 10500"
+    },
+    {
+      "key": "visa_services",
+      "label": "Immigration law listed",
+      "value": "Immigration law listed among skills",
+      "quote": "Immigration law"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "summary": "Arun Thai Cooking offers Thai cooking classes in Bangkok and Phuket, including 9 and 12-month culinary programs with an enrolment letter for the DTV soft power visa.",
+  "price_from_thb": 48900,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "9-month DTV program",
+      "value": "9-month program priced at THB 48,900",
+      "quote": "Price: THB 48,900"
+    },
+    {
+      "key": "price_course",
+      "label": "12-month DTV program",
+      "value": "12-month program priced at THB 58,900",
+      "quote": "Price: THB 58,900"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV enrolment letter",
+      "value": "Programs include an enrolment letter to apply for the 5-year multiple-entry DTV",
+      "quote": "Enrollment letter to apply for 5-year multiple-entry Destination Thailand Visa (DTV)"
+    },
+    {
+      "key": "course_length",
+      "label": "Program length",
+      "value": "9-month and 12-month options with one class per week",
+      "quote": "Our updated cultural programs (9 and 12-month option) include one class per week"
+    },
+    {
+      "key": "curriculum",
+      "label": "Daily class",
+      "value": "Market tour and cooking of 4 Thai dishes in 3.5 hours",
+      "quote": "Join Our Daily Class: Market Tour & Thai Cooking Experience (3.5 Hours)"
+    },
+    {
+      "key": "price_course",
+      "label": "Visa support package",
+      "value": "Optional visa support package at THB 9,500 plus embassy fee",
+      "quote": "Price: THB 9,500 + Embassy Fee (We collect & pay it for you)"
+    }
+  ]
+}

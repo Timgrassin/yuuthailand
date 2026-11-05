@@ -1,0 +1,24 @@
+{
+  "summary": "English and Chinese school for children in Bangkok.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Small groups of 5 to 8 children",
+      "quote": "Small groups of 5 to 8 children"
+    },
+    {
+      "key": "founded",
+      "label": "Teaching since",
+      "value": "Since 2009",
+      "quote": "since 2009"
+    },
+    {
+      "key": "levels",
+      "label": "Age range",
+      "value": "Children aged 1 to 12",
+      "quote": "children aged 1 to 12"
+    }
+  ]
+}

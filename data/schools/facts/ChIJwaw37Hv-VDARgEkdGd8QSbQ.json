@@ -1,0 +1,18 @@
+{
+  "summary": "Muay Thai gym on Koh Phangan offering group classes and private sessions.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established in 2005",
+      "quote": "Established in 2005"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Class formats",
+      "value": "Group classes and private sessions",
+      "quote": "with group classes and private sessions"
+    }
+  ]
+}

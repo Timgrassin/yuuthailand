@@ -1,0 +1,24 @@
+{
+  "summary": "Corporate language training provider in Bangkok teaching English, Chinese, French, Thai, Japanese and Korean to company staff.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Languages taught",
+      "value": "Business English, Chinese, French, Thai, Japanese and Korean for companies in Bangkok",
+      "quote": "Business English, Chinese, French, Thai, Japanese and Korean lessons for companies in Bangkok"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "From 1-on-1 lessons to classes of up to 16",
+      "quote": "ranging from 1-on-1 lessons, to classes of up to 16"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Scheduling",
+      "value": "Flexible scheduling 7 days a week",
+      "quote": "7 days a week"
+    }
+  ]
+}

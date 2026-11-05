@@ -1,0 +1,30 @@
+{
+  "summary": "Liberty Global Language and Business School in Bangkok teaches Thai and English to international students, with ED visa programmes.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Offers 1-Year ED Visa support for Thai language students",
+      "quote": "we provide 1-Year ED Visa support, allowing"
+    },
+    {
+      "key": "course_length",
+      "label": "English ED programme",
+      "value": "English course with Education Visa of 8 to 12 months",
+      "quote": "This is a long-term English Language course coupled with an"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Thai and English courses in Bangkok",
+      "quote": "we offer Thai and English courses in Bangkok"
+    },
+    {
+      "key": "levels",
+      "label": "Thai online course",
+      "value": "Thai Beginner Online Course for absolute beginners",
+      "quote": "Thai Beginner Online Course"
+    }
+  ]
+}

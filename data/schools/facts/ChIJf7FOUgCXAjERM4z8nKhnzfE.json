@@ -1,0 +1,30 @@
+{
+  "summary": "Pattaya visa agency preparing and filing visas, extensions and work permits for foreigners.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visas",
+      "value": "ED visas arranged with partner schools",
+      "quote": "ED visas with partner schools - language study, Muay Thai and more, extension calendar managed for you."
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "5-year DTV with 180 days per entry for remote workers",
+      "quote": "5 years, 180 days per entry - made for remote workers."
+    },
+    {
+      "key": "curriculum",
+      "label": "Quotes",
+      "value": "Fixed quotes agreed before work starts",
+      "quote": "Fixed quotes agreed before we start"
+    },
+    {
+      "key": "curriculum",
+      "label": "Retirement visa",
+      "value": "Non-O retirement applications and yearly extensions for over-50s",
+      "quote": "Non-O retirement applications and yearly extensions for the over-50s, including bank letter guidance and 90-day reporting."
+    }
+  ]
+}

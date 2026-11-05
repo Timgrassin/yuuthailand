@@ -1,0 +1,30 @@
+{
+  "summary": "Private Thai cooking class in Patong, Phuket, with a market tour and four dishes in a small group.",
+  "price_from_thb": 2500,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Private class",
+      "value": "2,500 THB per person",
+      "quote": "Only 2,500 THB / per person"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Small group of maximum 4 people",
+      "quote": "Our class is a small group with a maximum of 4 people."
+    },
+    {
+      "key": "curriculum",
+      "label": "Dishes",
+      "value": "Cook 4 different authentic Thai dishes",
+      "quote": "cooking 4 different authentic Thai dishes"
+    },
+    {
+      "key": "curriculum",
+      "label": "Market tour",
+      "value": "Local fresh market tour to shop for ingredients",
+      "quote": "local fresh market tour to shop for fresh ingredients"
+    }
+  ]
+}

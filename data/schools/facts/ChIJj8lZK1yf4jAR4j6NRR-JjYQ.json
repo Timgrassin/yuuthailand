@@ -1,0 +1,36 @@
+{
+  "summary": "Bangkok Thai culinary club offering cooking classes with market tours, plus a full Thai food experience and lunch table sessions.",
+  "price_from_thb": 1300,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Joint class with market tour",
+      "value": "1,500 baht, about 3.5 hours",
+      "quote": "1,500 BAHT"
+    },
+    {
+      "key": "price_course",
+      "label": "Joint class without market",
+      "value": "1,300 baht, about 3 hours",
+      "quote": "1,300 BAHT"
+    },
+    {
+      "key": "price_course",
+      "label": "Full experience",
+      "value": "2,500 baht, about 4 hours",
+      "quote": "2,500 BAHT"
+    },
+    {
+      "key": "curriculum",
+      "label": "Cooking class content",
+      "value": "Cook four authentic Thai dishes of your choosing with a market tour",
+      "quote": "Learn to cook four authentic Thai dishes of your choosing from our daily cooking menu."
+    },
+    {
+      "key": "course_length",
+      "label": "Class length",
+      "value": "About 3.5 hours",
+      "quote": "~ 3.5 HOURS"
+    }
+  ]
+}

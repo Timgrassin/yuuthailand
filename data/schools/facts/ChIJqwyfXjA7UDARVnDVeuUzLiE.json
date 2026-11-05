@@ -1,0 +1,30 @@
+{
+  "summary": "Fight and fitness gym in Patong, Phuket, offering Muay Thai, MMA, boxing, BJJ and strength training with group classes and 1-on-1 sessions.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Class format",
+      "value": "Daily group classes and 1-on-1 sessions",
+      "quote": "With daily group classes, 1-on-1 sessions, and a serious training culture"
+    },
+    {
+      "key": "levels",
+      "label": "Kids classes",
+      "value": "Kids Muay Thai classes for children aged 6 and up",
+      "quote": "perfect for children aged 6 and up"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Programs for new trainees through fight preparation",
+      "quote": "Whether you&#8217;re new to training or preparing for your next fight"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "38, 31 Phra Metta Rd, Patong, Kathu District, Phuket",
+      "quote": "38, 31 Phra Metta Rd, Pa Tong, Kathu District, Phuket 83150"
+    }
+  ]
+}

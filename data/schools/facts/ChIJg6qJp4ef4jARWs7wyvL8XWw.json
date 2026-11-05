@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok legal firm for foreign individuals and companies, with visa services including DTV and retirement visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV service",
+      "value": "Lists Destination Thailand Visa (DTV) among its services",
+      "quote": "Destination Thailand Visa (DTV)"
+    },
+    {
+      "key": "services",
+      "label": "Retirement visa",
+      "value": "Lists NON-O retirement visa among its services",
+      "quote": "NON-O Visa (Retirement visa)"
+    },
+    {
+      "key": "location_note",
+      "label": "Office",
+      "value": "UBC II Building 20F, 591 Sukhumvit Rd, Bangkok",
+      "quote": "United Business Center II (UBC II) Building 20F 591 Sukhumvit Rd"
+    }
+  ]
+}

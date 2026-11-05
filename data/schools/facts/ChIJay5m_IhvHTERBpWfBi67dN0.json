@@ -1,0 +1,18 @@
+{
+  "summary": "Sitsarayu is a Muay Thai training centre in Bangkok offering training, accommodation and meals.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "Trained by Muay Thai veterans with decades of experience",
+      "quote": "You’ll train with Muay Thai veterans who bring decades of experience"
+    },
+    {
+      "key": "accommodation",
+      "label": "Stay and meals",
+      "value": "Train, stay and eat on site",
+      "quote": "Train, stay, and eat with us in the capital of Muay Thai"
+    }
+  ]
+}

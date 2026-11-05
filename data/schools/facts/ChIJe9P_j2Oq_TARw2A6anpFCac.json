@@ -1,0 +1,36 @@
+{
+  "summary": "Thai cooking school in Hua Hin running a one-day course that starts with a market visit.",
+  "price_from_thb": 1800,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Running since",
+      "value": "Thai cooking classes running since 1999",
+      "quote": "Our Thai cooking classes have been running since 1999"
+    },
+    {
+      "key": "course_length",
+      "label": "Class hours",
+      "value": "Classes start at 9am and finish around 1pm",
+      "quote": "The classes start at 9am and finish by around 1pm"
+    },
+    {
+      "key": "price_course",
+      "label": "One-day course",
+      "value": "1,800 baht per adult, 1,000 baht for kids 11 and under",
+      "quote": "The fee for the class is 1,800 baht & 1,000 baht for kids 11 and under"
+    },
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "Course includes a certificate, recipe booklet and 4 dishes",
+      "quote": "a Certificate, our own recipe booklet and 4 full size delicious Thai dishes"
+    },
+    {
+      "key": "curriculum",
+      "label": "Market trip",
+      "value": "Course starts with a shopping trip to the morning market",
+      "quote": "Our one day course starts at 9am with a shopping trip to Hua Hin’s 100 year old morning market"
+    }
+  ]
+}

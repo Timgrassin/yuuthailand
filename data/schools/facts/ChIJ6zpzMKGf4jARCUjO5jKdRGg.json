@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok law firm covering Thai visa and immigration law including DTV, LTR, marriage and retirement visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "Handles Destination Thailand Visa (DTV) applications",
+      "quote": "Destination Thailand Visa (DTV)"
+    },
+    {
+      "key": "services",
+      "label": "Visa types",
+      "value": "Long-Term Resident, Marriage and Retirement visas",
+      "quote": "Long-Term Resident (LTR) Visa"
+    },
+    {
+      "key": "services",
+      "label": "Client support",
+      "value": "Bank account opening, marriage registration, MFA legalization, certified translation",
+      "quote": "Bank Account Opening"
+    }
+  ]
+}

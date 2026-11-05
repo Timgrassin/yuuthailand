@@ -1,0 +1,36 @@
+{
+  "summary": "Baan Nate is a family home cooking class near Phuket Old Town where small groups cook Thai dishes and eat together.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Group size",
+      "value": "Up to five guests, private or semi-private",
+      "quote": "Up to five guests"
+    },
+    {
+      "key": "course_length",
+      "label": "Class length",
+      "value": "Morning class of about three to four hours, then lunch",
+      "quote": "Morning at 9:00, about three to four hours, then lunch. Or afternoon at 14:00."
+    },
+    {
+      "key": "curriculum",
+      "label": "Menu",
+      "value": "Four dishes: a starter, main and dessert, plus curry paste",
+      "quote": "A starter, main and dessert, plus curry paste."
+    },
+    {
+      "key": "curriculum",
+      "label": "Hands-on",
+      "value": "Every guest has a cooking station",
+      "quote": "Everyone has a station and cooks."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Five minutes from Phuket Old Town",
+      "quote": "Five minutes from the Old Town"
+    }
+  ]
+}

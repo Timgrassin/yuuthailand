@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok corporate, legal and accounting firm with an immigration practice covering work permits, Thailand Privilege and LTR visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Immigration services",
+      "value": "Visas and work permits for foreign founders and staff: Non-B, Thailand Privilege and LTR",
+      "quote": "Visas and work permits for foreign founders and staff"
+    },
+    {
+      "key": "services",
+      "label": "Work permit",
+      "value": "Work Permit & Business Visa service listed",
+      "quote": "Work Permit & Business Visa"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Team languages",
+      "value": "English, Thai, German and Russian",
+      "quote": "4 languages"
+    },
+    {
+      "key": "services",
+      "label": "Clients",
+      "value": "1,000+ client matters across 63+ countries",
+      "quote": "1,000+ Successful"
+    }
+  ]
+}

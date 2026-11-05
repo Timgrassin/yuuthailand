@@ -1,0 +1,42 @@
+{
+  "summary": "Bangkok visa agent listing retirement, marriage, work, student and tourist visas, work permits and 90-day reports.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Non-ED visa",
+      "value": "Handles Non-ED student visa extensions",
+      "quote": "ต่อ Non-Immigrant Visa (Non-ED)"
+    },
+    {
+      "key": "services",
+      "label": "Retirement visa",
+      "value": "Retirement visa service",
+      "quote": "วีซ่าเกษียณอายุ / Retirement Visa"
+    },
+    {
+      "key": "services",
+      "label": "Student visa",
+      "value": "Student visa service",
+      "quote": "วีซ่านักเรียน / student visa"
+    },
+    {
+      "key": "services",
+      "label": "Translation",
+      "value": "Unlimited document translation",
+      "quote": "Document translation (unlimited)"
+    },
+    {
+      "key": "services",
+      "label": "90-day report",
+      "value": "Report 90 days service",
+      "quote": "Report 90 days"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "Sukhumvit 13, Bangkok",
+      "quote": "No. 10/13 Trendy Plaza Building, G Floor, Sukhumvit 13"
+    }
+  ]
+}

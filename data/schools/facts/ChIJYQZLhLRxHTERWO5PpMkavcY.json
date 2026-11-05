@@ -1,0 +1,30 @@
+{
+  "summary": "English and Chinese language school for children aged 1 to 12 in Bangkok, using small groups and the Montessori method.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Small groups of 5 to 8 children",
+      "quote": "Small groups of 5 to 8 children"
+    },
+    {
+      "key": "levels",
+      "label": "Ages",
+      "value": "Children aged 1 to 12",
+      "quote": "for children aged 1 to 12"
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Teaching since 2009",
+      "quote": "English & Chinese school for kids · since 2009"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "English and Chinese",
+      "quote": "English &#038; Chinese"
+    }
+  ]
+}

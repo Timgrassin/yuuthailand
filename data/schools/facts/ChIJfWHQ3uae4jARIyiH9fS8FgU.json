@@ -1,0 +1,24 @@
+{
+  "summary": "Konrad Legal is a Bangkok law and accounting firm offering company formation, immigration, tax and property services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "retirement_visa",
+      "label": "Retirement visa",
+      "value": "Retirement visa eligibility checks for people over 50",
+      "quote": "Are you more than 50 years in age and wish to retire in Thailand? Check your eligibility for a Thai Retirement Visa with us!"
+    },
+    {
+      "key": "work_permit",
+      "label": "Work permit",
+      "value": "Work permit support alongside non-immigrant visas",
+      "quote": "Simply a Visa never suffices your eligibility to work or do business in Thailand."
+    },
+    {
+      "key": "location_note",
+      "label": "Office",
+      "value": "Klongtoey, Bangkok 10110",
+      "quote": "Klongtoey, Bangkok 10110"
+    }
+  ]
+}

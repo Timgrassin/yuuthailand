@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok education company offering a nano learning app, one-to-one language lessons and education consultancy.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Thai lessons",
+      "value": "Thai: speaking, four skills and kids",
+      "quote": "Speaking, four skills and kids."
+    },
+    {
+      "key": "class_size",
+      "label": "Format",
+      "value": "Personalized 1-on-1 learning",
+      "quote": "Personalized 1-on-1 learning"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Other languages",
+      "value": "English, Japanese, Korean and Chinese offered",
+      "quote": "English · Japanese · Korean · Chinese · Thai"
+    }
+  ]
+}

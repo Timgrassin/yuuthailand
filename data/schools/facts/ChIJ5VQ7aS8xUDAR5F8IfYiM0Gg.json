@@ -1,0 +1,18 @@
+{
+  "summary": "Phuket language school offering Thai, English and German courses and listing Education visa support.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Site has an Education visa FAQ section",
+      "quote": "FAQ EDUCATION VISA"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Thai, English and German courses",
+      "quote": "Language School in Phuket Egnilsh / German"
+    }
+  ]
+}

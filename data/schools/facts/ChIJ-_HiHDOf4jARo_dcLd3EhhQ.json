@@ -1,0 +1,30 @@
+{
+  "summary": "Visa consultancy that prepares and submits visa applications and delivers passports, covering ED, DTV, retirement, LTR and other visa types.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Student/Education visa for studying, training, seminars and Muay Thai courses",
+      "quote": "For studying, training, seminars & Muay Thai courses in Thailand."
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV visa",
+      "value": "5-year Destination Thailand Visa for digital nomads, remote workers and freelancers",
+      "quote": "5-year visa for digital nomads, remote workers & freelancers."
+    },
+    {
+      "key": "levels",
+      "label": "Retirement visas",
+      "value": "Long-stay retirement visas for aged 50+, from 1 to 10 years",
+      "quote": "Long-stay visas for retirees aged 50+, from 1 to 10 years."
+    },
+    {
+      "key": "location_note",
+      "label": "Passport service",
+      "value": "Passport picked up from home or office and delivered to home",
+      "quote": "We&#x27;ll pick up your passport from your home or office"
+    }
+  ]
+}

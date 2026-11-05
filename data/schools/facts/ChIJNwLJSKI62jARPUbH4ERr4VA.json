@@ -1,0 +1,42 @@
+{
+  "summary": "Massage school in Chiang Mai teaching Thai massage and related courses in English with certificates.",
+  "price_from_thb": 2500,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "1-day Thai massage",
+      "value": "2,500 for 1 day (5 hours)",
+      "quote": "Traditional Thai Massage Course (1Day)"
+    },
+    {
+      "key": "price_course",
+      "label": "5-day Thai massage",
+      "value": "9,500 for 1 week (25 hours)",
+      "quote": "Traditional Thai Massage Course (5 Days)"
+    },
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "Certificate on completion; lessons in English",
+      "quote": "Every participant will receive a Sabai De Ka massage course certificate upon the course completion."
+    },
+    {
+      "key": "course_length",
+      "label": "Course lengths",
+      "value": "From 3 hours to 5 days (25 hours)",
+      "quote": "1 week (25 hours)"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Maximum 1-6 students with 1 teacher",
+      "quote": "Class maximum 1-6 students with 1 teacher"
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Founded in 2004",
+      "quote": "founded by Thanyanet Pothamoon (Kloy) in 2004"
+    }
+  ]
+}

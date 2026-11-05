@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok translation and visa service handling tourist, study, work, retirement, Thai spouse and dependent visas and extensions.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Study visa",
+      "value": "Lists visas for those who study abroad",
+      "quote": "Visa for those who study abroad"
+    },
+    {
+      "key": "location_note",
+      "label": "Retirement visa",
+      "value": "Retirement visa service listed",
+      "quote": "Retirement visa"
+    },
+    {
+      "key": "location_note",
+      "label": "Extensions",
+      "value": "Handles visa extensions in Thailand",
+      "quote": "All services of visa extension in Thailand"
+    }
+  ]
+}

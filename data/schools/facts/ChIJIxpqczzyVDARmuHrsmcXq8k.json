@@ -1,0 +1,18 @@
+{
+  "summary": "International primary school on Koh Samui following a British curriculum for ages 3 to 11.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Age range",
+      "value": "Ages 3-11",
+      "quote": "Learning Journey: Ages 3-11"
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Educating students since 2016",
+      "quote": "Since 2016, we have been educating changemakers"
+    }
+  ]
+}

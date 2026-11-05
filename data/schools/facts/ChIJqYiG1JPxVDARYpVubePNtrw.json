@@ -1,0 +1,24 @@
+{
+  "summary": "British curriculum international school on Koh Samui for children aged 2 to 17.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Age range",
+      "value": "Applications for children aged 2 to 17",
+      "quote": "Applications for children aged 2-17"
+    },
+    {
+      "key": "curriculum",
+      "label": "Curriculum",
+      "value": "Based on Cambridge International Standard with STEM+",
+      "quote": "curriculum is based around Cambridge International Standard"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Chinese course",
+      "value": "Mandarin course taught by native-speaking teachers",
+      "quote": "Chinese (Mandarin) Course in Samui taught by native-speaking teachers"
+    }
+  ]
+}

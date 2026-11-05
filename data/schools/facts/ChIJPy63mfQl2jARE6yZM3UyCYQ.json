@@ -1,0 +1,36 @@
+{
+  "summary": "Chiang Mai visa agency offering assistance with LTR, Elite, DTV, Education and Retirement visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Offers a 6-month or 1-year Education Visa without multiple extensions",
+      "quote": "VisaVow offers a 6-month or 1-year Education Visa without the need for multiple extensions"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa validity",
+      "value": "Issued for 6 months or 1 year upfront, avoiding 90-day renewals",
+      "quote": "Unlike traditional ED visas, ours is issued for 6 months or 1 year upfront, eliminating the hassle of 90-day renewals."
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV eligibility",
+      "value": "DTV applicants can join programs like Muay Thai or Thai culinary training",
+      "quote": "join programs like Muay Thai, Thai culinary training, or medical treatment"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV bank balance",
+      "value": "Minimum bank balance of 500,000 THB",
+      "quote": "Minimum bank balance of 500,000 THB"
+    },
+    {
+      "key": "services",
+      "label": "Experience",
+      "value": "Over 16 years of experience delivering visas",
+      "quote": "Over 16 Years Experience"
+    }
+  ]
+}

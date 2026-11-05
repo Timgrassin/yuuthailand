@@ -1,0 +1,18 @@
+{
+  "summary": "Muay Thai academy and gym at a resort on Koh Lanta.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Training",
+      "value": "Daily Muay Thai or fitness training, open to all levels and ages",
+      "quote": "Join us at our daily Muay Thai or Fitness trainings in our gym located right by the hotel and open for all levels and ages."
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Resort accommodation with swimming pool",
+      "quote": "Fine accommodation with swimming pool and full facilities"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "summary": "Ban Suan Cooking School on Koh Chang runs three-hour Thai cooking classes priced by the number of dishes chosen.",
+  "price_from_thb": 1400,
+  "facts": [
+    {"key": "course_length", "label": "Class length", "value": "3 hours per class", "quote": "3 hours of class"},
+    {"key": "price_course", "label": "Price", "value": "1,400 THB per person for 3 dishes, up to 2,000 THB for 7 dishes", "quote": "3 dishes for 1,400 baht per person"},
+    {"key": "training_sessions", "label": "Class times", "value": "12:00 to 15:00 or 17:00 to 20:00", "quote": "Time 12:00 &#8211; 15:00 or 17:00 &#8211; 20:00"},
+    {"key": "curriculum", "label": "Curry pastes", "value": "Students pick a curry paste to make, including red, green, panaeng, yellow, massaman and khao soi", "quote": "Pick a curry paste Red curry paste Green curry paste"}
+  ]
+}

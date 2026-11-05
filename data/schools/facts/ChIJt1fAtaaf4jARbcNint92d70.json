@@ -1,0 +1,24 @@
+{
+  "summary": "Japanese-owned Muay Thai gym on Sukhumvit Soi 39 in Bangkok with general, kids and personal training classes.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Sukhumvit Soi 39, Bangkok; Japanese owner",
+      "quote": "バンコクスクムヴィット・ソイ３９にある、日本人オーナーのムエタイジム"
+    },
+    {
+      "key": "levels",
+      "label": "Beginners",
+      "value": "No professional fighter training; beginners welcome",
+      "quote": "プロ選手育成は行っておりません"
+    },
+    {
+      "key": "training_sessions",
+      "label": "General class length",
+      "value": "About one hour per general class",
+      "quote": "約１時間みっちり動ける"
+    }
+  ]
+}

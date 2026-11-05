@@ -1,0 +1,42 @@
+{
+  "summary": "Muay Thai gym and resort in Rayong with residential training packages that include accommodation and meals.",
+  "price_from_thb": 18850,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "10-day experience",
+      "value": "From 18,850 baht: 10 days, 2 sessions daily, single room, 3 meals",
+      "quote": "From ฿ 18.850"
+    },
+    {
+      "key": "price_course",
+      "label": "6-week course",
+      "value": "From 73,500 baht for 6 weeks",
+      "quote": "From ฿ 73.500"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Sessions",
+      "value": "2 training sessions per day",
+      "quote": "2 training sessions per day"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Single room included in 10-day package",
+      "quote": "Accommodation in a single room"
+    },
+    {
+      "key": "accommodation",
+      "label": "Meals",
+      "value": "3 healthy meals per day",
+      "quote": "3 healthy meals per day"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Chakpong, Klaeng District, Rayong, about 2 hours from Bangkok airport",
+      "quote": "just 2 hours away from Bangkok Airport"
+    }
+  ]
+}

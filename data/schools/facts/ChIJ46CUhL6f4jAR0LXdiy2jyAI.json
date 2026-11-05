@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok international law firm covering visas and work permits, company setup, tax and litigation.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Visa types",
+      "value": "Handles DTV, LTR, retirement, Non-B, Non-O and Elite visas",
+      "quote": "All visa types: DTV, LTR, retirement, Non-B, Non-O, Elite"
+    },
+    {
+      "key": "licence",
+      "label": "Lawyer licence",
+      "value": "Lawyers hold the Thai law licence",
+      "quote": "Experienced lawyers holding the Thai law licence"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Service in English, Thai and French",
+      "quote": "in English, Thai and French"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV visa page",
+      "value": "DTV visa listed among its visa services",
+      "quote": "DTV Visa"
+    }
+  ]
+}

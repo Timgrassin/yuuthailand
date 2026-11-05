@@ -1,0 +1,24 @@
+{
+  "summary": "Thai language school in Chiang Mai that lists Thai visa support alongside its courses.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Visa support",
+      "value": "Lists a Thai visa support service",
+      "quote": "Thai Visa Support"
+    },
+    {
+      "key": "trainers",
+      "label": "Teachers",
+      "value": "Taught by native Thai teachers",
+      "quote": "Native Teachers"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Based in Chiang Mai, Thailand",
+      "quote": "Cornerstone Language School"
+    }
+  ]
+}

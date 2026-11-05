@@ -1,0 +1,36 @@
+{
+  "summary": "Thai cooking school on Koh Lanta running four-hour group classes, private courses and professional courses.",
+  "price_from_thb": 1800,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Class price",
+      "value": "1,800 Baht per person",
+      "quote": "Price: 1,800 Baht per person"
+    },
+    {
+      "key": "price_course",
+      "label": "Lunch course price",
+      "value": "Lunch course with market tour 1,900 Baht per person",
+      "quote": "Lunch: 1,900 Baht per person"
+    },
+    {
+      "key": "course_length",
+      "label": "Course time",
+      "value": "10:00 to 14:00",
+      "quote": "Course Time: 10:00 - 14:00"
+    },
+    {
+      "key": "curriculum",
+      "label": "Dishes",
+      "value": "Group chooses 4 out of 10 dishes",
+      "quote": "The group chooses 4 out of 10 dishes together"
+    },
+    {
+      "key": "curriculum",
+      "label": "Professional courses",
+      "value": "Courses for chefs wanting to add Thai dishes to a restaurant",
+      "quote": "Professional Courses: For Chefs who wants to learn all needed to include professional Thai dishes into their Restaurant"
+    }
+  ]
+}

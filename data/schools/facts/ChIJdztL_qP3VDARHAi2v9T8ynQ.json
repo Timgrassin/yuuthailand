@@ -1,0 +1,12 @@
+{
+  "summary": "Bilingual school on Koh Samui teaching half of the timetable in English and half in Thai.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Languages of instruction",
+      "value": "Half the timetable in English, half in Thai",
+      "quote": "Students follow half of their timetable in English and half in Thai."
+    }
+  ]
+}

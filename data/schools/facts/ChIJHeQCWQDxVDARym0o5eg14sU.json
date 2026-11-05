@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai gym on Koh Samui offering private and group training with experienced trainers.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "trainers",
+      "label": "Head trainer",
+      "value": "Oud, nearly 400 professional fights and 34 years of experience",
+      "quote": "With nearly 400 professional fights across Thailand’s most respected stadiums and international arenas"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Students of all levels",
+      "quote": "students of all levels"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Format",
+      "value": "Private and group training",
+      "quote": "thoughtfully structured private and group training"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Opening hours",
+      "value": "7am to 8pm",
+      "quote": "Timing: 7am -8pm"
+    }
+  ]
+}

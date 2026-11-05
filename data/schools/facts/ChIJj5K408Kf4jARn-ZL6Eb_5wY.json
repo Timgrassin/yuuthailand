@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok visa consultancy handling visa extensions, education and business visas, work permits and driving licences.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Education visa arrangement and renewal for language courses and accredited study programs",
+      "quote": "Education visa arrangement and renewal for language courses and accredited study programs in Thailand."
+    },
+    {
+      "key": "course_length",
+      "label": "Education visa processing time",
+      "value": "5 to 7 business days listed beside education visa",
+      "quote": "5 – 7 business days"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Bangkok licensed visa consultancy",
+      "quote": "Bangkok · Licensed Visa Consultancy"
+    }
+  ]
+}

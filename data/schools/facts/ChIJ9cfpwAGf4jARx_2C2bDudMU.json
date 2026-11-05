@@ -1,0 +1,36 @@
+{
+  "summary": "Muay Thai school in central Bangkok offering one-on-one training and a student visa programme.",
+  "price_from_thb": 800,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "One hour session",
+      "value": "800 Baht, walk-in",
+      "quote": "800 Baht (Unscheduled, walk-in)"
+    },
+    {
+      "key": "price_course",
+      "label": "15 sessions",
+      "value": "6,500 Baht",
+      "quote": "15 sessions 6,500 Baht"
+    },
+    {
+      "key": "ed_visa",
+      "label": "Student visa programme",
+      "value": "7.5 month programme with Thai student visa",
+      "quote": "7.5 month program with Thai student visa"
+    },
+    {
+      "key": "price_course",
+      "label": "Visa programme price",
+      "value": "40,000 Baht",
+      "quote": "40,000 Baht"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Format",
+      "value": "One-on-one training",
+      "quote": "1 hour session with one on one Tutoring"
+    }
+  ]
+}

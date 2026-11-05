@@ -1,0 +1,24 @@
+{
+  "summary": "NYC Legal and Notary Service is a Bangkok-based visa, translation and notary service for foreigners in Thailand and abroad.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "Visa types",
+      "value": "Consultation covers DTV, LTR, Non-B, Marriage, Retirement and Education visas",
+      "quote": "Visa consultation for foreigners in Thailand — DTV, LTR, Non-B, Marriage, Retirement, Education. THB 3,000–50,000."
+    },
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established in 2010 in Bangkok",
+      "quote": "EST. 2010 · BANGKOK · VISA & DOCUMENT CONCIERGE"
+    },
+    {
+      "key": "location_note",
+      "label": "Opening hours",
+      "value": "Office open Monday to Saturday 09:00 to 18:00",
+      "quote": "09:00–18:00"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "summary": "Phuket language school offering an education visa package with English, Thai, French and Chinese lessons (page in Russian).",
+  "price_from_thb": 59000,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Offers a student (education) visa for staying long in Thailand",
+      "quote": "Студенческая виза — самый простой способ остаться в Таиланде надолго"
+    },
+    {
+      "key": "price_course",
+      "label": "One-year visa package",
+      "value": "59,000 baht total per person for one year",
+      "quote": "59000 бат"
+    },
+    {
+      "key": "price_course",
+      "label": "School enrolment part",
+      "value": "32,000 baht for enrolment in the school",
+      "quote": "Поступление в школу 32000 бат"
+    },
+    {
+      "key": "licence",
+      "label": "Certificate",
+      "value": "Certificate licensed by the Ministry of Education",
+      "quote": "лицензированный министерством образования"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "English, Thai, French and Chinese",
+      "quote": "Обучение сразу 4 языкам: английский, тайский, французский, китайский"
+    },
+    {
+      "key": "course_length",
+      "label": "Visa duration",
+      "value": "Student visa can be kept for up to 5 years",
+      "quote": "Оставаться на студенческой визе можно до 5 лет."
+    }
+  ]
+}

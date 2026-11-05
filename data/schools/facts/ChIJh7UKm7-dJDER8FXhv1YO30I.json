@@ -1,0 +1,36 @@
+{
+  "summary": "Non-profit volunteer project in rural Northeast Thailand where participants teach English in village schools and live on a campus.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "accommodation",
+      "label": "Campus accommodation",
+      "value": "Comfortable bungalows and a family room with veranda",
+      "quote": "It includes comfortable bungalows, a family room with veranda upstairs"
+    },
+    {
+      "key": "curriculum",
+      "label": "Volunteer activities",
+      "value": "English teaching at local schools with an interpreter",
+      "quote": "English and language teaching at local schools (with Interpreter)"
+    },
+    {
+      "key": "curriculum",
+      "label": "Teacher training",
+      "value": "Volunteers can receive free teacher training",
+      "quote": "volunteers can receive a Free Teacher Training"
+    },
+    {
+      "key": "founded",
+      "label": "Operating since",
+      "value": "Supporting local villages and schools for more than 10 years",
+      "quote": "for more than 10 years"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Thai language",
+      "value": "Language and cultural exchange including Thai language learning",
+      "quote": "Language and cultural exchange, including Thai language learning"
+    }
+  ]
+}

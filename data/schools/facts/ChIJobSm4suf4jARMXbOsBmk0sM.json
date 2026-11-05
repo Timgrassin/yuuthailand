@@ -1,0 +1,30 @@
+{
+  "summary": "Private school in Bangkok on Sukhumvit 71 teaching Pre-K to Grade 12 through an English program.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Pre-K to G.12 English Program, including Thai and Chinese",
+      "quote": "Pre-K – G.12 English Program, including Thai and Chinese."
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Founded in 1967",
+      "quote": "founded in 1967"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Sukhumvit 71, Bangkok",
+      "quote": "Located on Sukhumvit 71"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Teaching approach",
+      "value": "Emphasis on learning from native speakers",
+      "quote": "We emphasize learning from native speakers."
+    }
+  ]
+}

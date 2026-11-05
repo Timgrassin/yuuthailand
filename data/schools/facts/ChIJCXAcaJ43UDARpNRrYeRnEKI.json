@@ -1,0 +1,42 @@
+{
+  "summary": "Phuket visa service run with Thai lawyers helping foreigners apply for DTV, retirement, family and other Thai visas.",
+  "price_from_thb": 45000,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV application support",
+      "value": "Full DTV Application Support for 45,000 baht, government visa fee included",
+      "quote": "Full DTV Application Support ฿45,000 Government visa fee included"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV for Muay Thai and cooking",
+      "value": "DTV covers Thai activities like Muay Thai or cooking",
+      "quote": "Thai activities like Muay Thai or cooking"
+    },
+    {
+      "key": "price_service",
+      "label": "Retirement visa support",
+      "value": "From 60,000 baht",
+      "quote": "Standard Full Retirement Support from ฿60,000"
+    },
+    {
+      "key": "price_service",
+      "label": "Lawyer consultation",
+      "value": "3,500 baht for a 40-minute video call",
+      "quote": "Lawyer consultation ฿ 3,500 40-minute video call"
+    },
+    {
+      "key": "visa_services",
+      "label": "Document review",
+      "value": "5,000 baht Document Review",
+      "quote": "Document Review ฿ 5,000"
+    },
+    {
+      "key": "location_note",
+      "label": "Office",
+      "value": "Real office in Phuket (Thalang), by appointment",
+      "quote": "Real office in Phuket"
+    }
+  ]
+}

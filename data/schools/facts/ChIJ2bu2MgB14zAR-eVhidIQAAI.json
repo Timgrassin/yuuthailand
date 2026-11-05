@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai training camp on the riverside in Kanchanaburi offering single sessions and 30 day stay and train packages.",
+  "price_from_thb": 350,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "Beginner package length",
+      "value": "30 day Muay Thai training package for beginners",
+      "quote": "Muay Thai Training Package (30 days) &#8211; For Beginners (no experience required)"
+    },
+    {
+      "key": "price_course",
+      "label": "30 day package price",
+      "value": "30 day beginner package from 40,000 THB",
+      "quote": "From THB 40,000"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Package contents",
+      "value": "Daily 2 training sessions, meals and a room included",
+      "quote": "It includes daily 2 training sessions, meals, a comfortable room"
+    },
+    {
+      "key": "price_session",
+      "label": "Single session price",
+      "value": "Single training session from 350 THB",
+      "quote": "From THB 350"
+    }
+  ]
+}

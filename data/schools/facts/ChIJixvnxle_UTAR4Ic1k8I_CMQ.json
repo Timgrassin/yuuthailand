@@ -1,0 +1,18 @@
+{
+  "summary": "Fitness centre in Krabi with gym, Muay Thai training and recovery facilities on membership plans.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Opening hours",
+      "value": "Open 6am to 10pm, 7 days",
+      "quote": "We're Open from 6am - 10pm (7 Days)"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Muay Thai",
+      "value": "Muay Thai sessions led by trainers for all skill levels",
+      "quote": "authentic Muay Thai sessions led by experienced trainers for all skill levels"
+    }
+  ]
+}

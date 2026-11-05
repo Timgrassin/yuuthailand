@@ -1,0 +1,24 @@
+{
+  "summary": "Phuket Thai cooking class at Chef Pui's home with small group and private options, including a vegan option.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Venue",
+      "value": "Classes are held at Chef Pui's home",
+      "quote": "Come to Chef Pui&#8217;s home and join our Thai cooking class in Phuket"
+    },
+    {
+      "key": "course_length",
+      "label": "Class hours",
+      "value": "Morning classes run 9 AM to 12 PM",
+      "quote": "9 AM &#8211; 12 PM Monday Menu"
+    },
+    {
+      "key": "class_size",
+      "label": "Private classes",
+      "value": "Private family classes can be booked in advance with your own menu",
+      "quote": "Book a private family class in advance and choose your own menu."
+    }
+  ]
+}

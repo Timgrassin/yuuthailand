@@ -1,0 +1,18 @@
+{
+  "summary": "Singapore-based primary mathematics enrichment centre with a Bangkok branch.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Maximum of 6 students per class",
+      "quote": "maximum of 6 students per class"
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Thailand branch founded 2025",
+      "quote": "Founded 2025"
+    }
+  ]
+}

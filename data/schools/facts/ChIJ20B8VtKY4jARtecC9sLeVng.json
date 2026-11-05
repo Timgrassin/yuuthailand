@@ -1,0 +1,36 @@
+{
+  "summary": "Thai cooking school in Silom, Bangkok, with morning, afternoon and evening classes, a market tour and private classes.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Market experience",
+      "value": "Local market experience in morning class",
+      "quote": "Discover fresh Thai ingredients and learn how locals use them."
+    },
+    {
+      "key": "curriculum",
+      "label": "Curry paste",
+      "value": "Homemade Thai curry paste making",
+      "quote": "Experience traditional Thai curry paste making."
+    },
+    {
+      "key": "class_format",
+      "label": "Own station",
+      "value": "Students cook at their own station",
+      "quote": "Prepare and cook your own dishes step by step."
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "Soi Silom 13, Bang Rak, Bangkok",
+      "quote": "2/6-2/8 Soi Silom13, Bang rak, Bangkok"
+    },
+    {
+      "key": "hours",
+      "label": "Opening hours",
+      "value": "08:30 to 21:00",
+      "quote": "OPEN DAIRY : 08:30 - 21:00"
+    }
+  ]
+}

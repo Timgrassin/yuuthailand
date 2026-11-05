@@ -1,0 +1,24 @@
+{
+  "summary": "Muay Thai and fitness gym in central Bangkok with private and group classes.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "3-minute walk from BTS Phrom Phong",
+      "quote": "A 3-minute walk from BTS Phrom Phong Station"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Opening hours",
+      "value": "Open until 22:00",
+      "quote": "It's open until 22:00, so you can train on the way home."
+    },
+    {
+      "key": "training_sessions",
+      "label": "Lesson length",
+      "value": "90 minute lessons",
+      "quote": "1回90分のレッスン"
+    }
+  ]
+}

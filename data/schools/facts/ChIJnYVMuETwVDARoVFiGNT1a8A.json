@@ -1,0 +1,30 @@
+{
+  "summary": "Thai cooking class on Koh Samui with a garden setting, teaching four recipes per day.",
+  "price_from_thb": 2300,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Class price",
+      "value": "2,300 baht per person, Monday to Saturday 10:30am to 2:30pm",
+      "quote": "2,300thb per person"
+    },
+    {
+      "key": "curriculum",
+      "label": "Recipes",
+      "value": "Four Thai recipes plus coconut cream and curry pastes made in class",
+      "quote": "Learn 4 Thai recipes | make coconut cream | curry pastes | herbal drink | complimentary dessert !"
+    },
+    {
+      "key": "location_note",
+      "label": "Closure notice",
+      "value": "Closed from October 1st 2026 until further notice",
+      "quote": "We are closed from October 1st 2026 until further notice."
+    },
+    {
+      "key": "class_size",
+      "label": "Minimum age",
+      "value": "Children must be 9 years or older",
+      "quote": "Children must be 9 yrs or older to attend a class"
+    }
+  ]
+}

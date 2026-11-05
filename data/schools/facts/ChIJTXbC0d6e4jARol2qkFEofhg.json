@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok translation centre that also provides visa consultation and application services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established in 1995",
+      "quote": "was established in 1995 by Mr. Rangsi SAPPHAYATOSOK"
+    },
+    {
+      "key": "services",
+      "label": "Visa services",
+      "value": "Visa consultation and application, recognised by the Ministry of Foreign Affairs and embassies",
+      "quote": "visa consultation and application, recognized by the Ministry of Foreign Affairs and embassies since 1995"
+    }
+  ]
+}

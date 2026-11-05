@@ -1,0 +1,30 @@
+{
+  "summary": "Thai language school in Chiang Mai, Pai, Chiang Rai and Mae Sot using the Total Physical Response method.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Offers an Education Visa for 6 months or 1 year",
+      "quote": "Our Thai school offers you an Education Visa for long stay in Thailand (6 months or 1 year.)"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Method",
+      "value": "Total Physical Response method",
+      "quote": "The Total Physical Response (TPR) Method is the latest approach to teaching the Thai language."
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Teachers experienced with beginners and advanced students",
+      "quote": "experience teaching Thai for beginners as well as for advanced students"
+    },
+    {
+      "key": "location_note",
+      "label": "Locations",
+      "value": "Chiang Mai, Pai, Chiang Rai and Mae Sot",
+      "quote": "CHIANG MAI &#8211; PAI &#8211; CHIANG RAI &#8211; MEA SOT"
+    }
+  ]
+}

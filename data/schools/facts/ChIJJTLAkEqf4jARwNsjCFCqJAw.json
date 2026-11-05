@@ -1,0 +1,18 @@
+{
+ "summary": "Nihao Academy in Sathorn teaches Mandarin to children through regular classes, holiday camps and exam preparation.",
+ "facts": [
+  {
+   "key": "curriculum",
+   "label": "Exam preparation",
+   "value": "Short exam preparation course for YCT and HSK",
+   "quote": "A short-term exam preparation program with focused practice, mock tests, and teacher guidance to build confidence for YCT and HSK certifications."
+  },
+  {
+   "key": "course_length",
+   "label": "Trial",
+   "value": "1 hour guided trial",
+   "quote": "A guided 1 hour trial experience"
+  }
+ ],
+ "price_from_thb": null
+}

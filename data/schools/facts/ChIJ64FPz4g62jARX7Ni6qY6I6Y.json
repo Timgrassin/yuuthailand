@@ -1,0 +1,24 @@
+{
+  "summary": "Small-group Thai cooking school in Chiang Mai with morning and evening courses.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "1 to 7 people per class",
+      "quote": "only 1-7 people per class"
+    },
+    {
+      "key": "curriculum",
+      "label": "Courses",
+      "value": "Morning and evening Thai cooking courses",
+      "quote": "Currently Basil Cookery School have 2 courses available"
+    },
+    {
+      "key": "curriculum",
+      "label": "Market visit",
+      "value": "Shopping for fresh ingredients at the market is part of class",
+      "quote": "while we shop for fresh ingredients at the market"
+    }
+  ]
+}

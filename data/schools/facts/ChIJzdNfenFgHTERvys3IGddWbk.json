@@ -1,0 +1,18 @@
+{
+  "summary": "Muay Thai and fitness academy with a Srinakarin branch in Bangkok offering one-on-one and group classes and a DTV visa page.",
+  "price_from_thb": 5890,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV visa",
+      "value": "Has a DTV Visa section",
+      "quote": "DTV Visa"
+    },
+    {
+      "key": "price_course",
+      "label": "Trial pack",
+      "value": "Trial pack of 5 one-on-one sessions at 5,890 THB, regular price 15,990 THB",
+      "quote": "฿5,890 ปกติ ฿15,990"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "English and phonics school in Bangkok for children aged 3 to 14, using the Macmillan English programme.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Licence",
+      "value": "Licensed by the Thai Ministry of Education",
+      "quote": "Licensed by the Thai Ministry of Education"
+    },
+    {
+      "key": "levels",
+      "label": "Ages",
+      "value": "Ages 3 to 14",
+      "quote": "Ages 3-14"
+    },
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Phonics school licensed since 2009",
+      "quote": "Proven Since 2009"
+    },
+    {
+      "key": "trainers",
+      "label": "Teachers",
+      "value": "Certified native English speaking teachers",
+      "quote": "Certified Native English Speaking Teachers"
+    }
+  ]
+}

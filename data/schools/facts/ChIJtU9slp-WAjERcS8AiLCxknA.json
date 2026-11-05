@@ -1,0 +1,24 @@
+{
+  "summary": "Hua Hin network of lawyers, tax advisers and property and insurance specialists helping German-speaking emigrants, including on visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV visa",
+      "value": "Lists a 5-year DTV visa",
+      "quote": "DTV Visum 5 Jahre"
+    },
+    {
+      "key": "services",
+      "label": "Visa advice",
+      "value": "Personal advice on visas, taxes, property and insurance",
+      "quote": "Pers&ouml;nliche Beratung zu Visa, Steuern, Immobilien & Versicherungen"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "Soi 112, Nong Kae, Hua Hin",
+      "quote": "29/22 Soi 112, Nong Kae, Hua Hin"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "summary": "Private and small group Thai language lessons in Bangkok near Sala Daeng BTS and Silom MRT.",
+  "price_from_thb": 14000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "20 hour short course",
+      "value": "14,000 THB for 20 hours of one-on-one lessons",
+      "quote": "Special price : 14,000 THB"
+    },
+    {
+      "key": "course_length",
+      "label": "Hours in full program",
+      "value": "6 levels and 180 hours of private lessons",
+      "quote": "6 levels / 180 hours / Private lessons"
+    },
+    {
+      "key": "class_size",
+      "label": "Small group class",
+      "value": "Small group of 2 students",
+      "quote": "Small Group Class ( 2 Students)"
+    },
+    {
+      "key": "founded",
+      "label": "Year opened",
+      "value": "Open since 2004",
+      "quote": "(open 2004)"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Charn Issara Tower, Rama IV Road, near Sala Daeng BTS and Silom MRT",
+      "quote": "Charn Issara Tower on the 3rd floor"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Teaching hours",
+      "value": "Teaching Monday to Sunday, 9 AM to 9 PM",
+      "quote": "Teaching hours : Monday till Sunday from 9 AM - 9 PM"
+    }
+  ]
+}

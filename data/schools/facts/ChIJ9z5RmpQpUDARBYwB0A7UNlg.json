@@ -1,0 +1,18 @@
+{
+  "summary": "Phuket visa agency helping with visa planning, extensions, 90-day reports and driving licences.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Services",
+      "value": "Visa route planning, document preparation, extensions, 90-day reports and work-permit coordination",
+      "quote": "Phuket Best Service helps with visa route planning, document preparation, visa extensions, 90-day reports and work-permit-related coordination in Phuket."
+    },
+    {
+      "key": "free_consultation",
+      "label": "Free pre-check",
+      "value": "Free visa pre-check offered",
+      "quote": "Free visa pre-check"
+    }
+  ]
+}

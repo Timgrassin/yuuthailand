@@ -1,0 +1,24 @@
+{
+  "summary": "Spa therapist training academy in Phuket offering accredited Thai massage and aromatherapy courses.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established in 2001",
+      "quote": "Established in 2001"
+    },
+    {
+      "key": "licence",
+      "label": "Accreditation",
+      "value": "First in Asia accredited by Thailand's education and health ministries",
+      "quote": "first to be accredited by Thailand's education and health ministries"
+    },
+    {
+      "key": "certificate",
+      "label": "Certifications",
+      "value": "Accredited certifications in Thai massage and aromatherapy",
+      "quote": "earn accredited certifications in Thai massage and aromatherapy"
+    }
+  ]
+}

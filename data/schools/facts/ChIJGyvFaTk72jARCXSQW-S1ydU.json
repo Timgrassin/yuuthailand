@@ -1,0 +1,24 @@
+{
+  "summary": "Thai cooking school in Chiang Mai old town offering half-day courses where students choose which Thai dishes to cook.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "Course format",
+      "value": "Half-day courses",
+      "quote": "engaging half-day courses"
+    },
+    {
+      "key": "curriculum",
+      "label": "Dish selection",
+      "value": "Students learn and cook their preferred selection of Thai dishes",
+      "quote": "learn and cook your preferred selection of Thai dishes"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Old town square of Chiang Mai",
+      "quote": "nestled in the charming old town square of Chiang Mai"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "summary": "Thai cooking class on Koh Phangan offering 6- or 9-month programmes with a DTV document package.",
+  "price_from_thb": 40000,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV support",
+      "value": "6 or 9 month cooking programme with every embassy document prepared",
+      "quote": "Join our 6- or 9-month Thai cooking programme and get every document your embassy needs, prepared by us."
+    },
+    {
+      "key": "price_course",
+      "label": "6 month programme",
+      "value": "THB 40,000 one-time course fee for 6 months",
+      "quote": "From THB 40,000 · full DTV document package included"
+    },
+    {
+      "key": "price_course",
+      "label": "9 month programme",
+      "value": "THB 54,000 one-time course fee for 9 months",
+      "quote": "THB 54,000"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Class rhythm",
+      "value": "One 3-hour class per week",
+      "quote": "One 3-hour class per week"
+    },
+    {
+      "key": "course_length",
+      "label": "Total training 6 months",
+      "value": "72 hours over 24 classes",
+      "quote": "Total training 72 hours"
+    },
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "Certificate of completion at the end of the programme",
+      "quote": "Certificate of completion At the end of your programme"
+    },
+    {
+      "key": "dtv_support",
+      "label": "Refund if refused",
+      "value": "Course fee refunded minus THB 5,000 if the DTV is refused",
+      "quote": "we refund your course fee minus a THB 5,000 processing fee"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "summary": "Language school in Pattaya offering Thai and English courses bundled with a one-year ED visa.",
+  "price_from_thb": 30000,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Thai and English study with a 1-year ED visa",
+      "quote": "You can study Thai language and English with an ED visa for 1 year."
+    },
+    {
+      "key": "price_course",
+      "label": "Course price from",
+      "value": "Starts from THB 30,000 for 120 hours with 1-year ED visa",
+      "quote": "Start from THB 30,000"
+    },
+    {
+      "key": "course_length",
+      "label": "Course hours",
+      "value": "120 hours",
+      "quote": "Thai Language & English 120hrs. with 1-year ED visa"
+    },
+    {
+      "key": "price_course",
+      "label": "Visa extension fee",
+      "value": "THB 5,000 every 3 months",
+      "quote": "Extention Visa fee THB 5,000 every 3 months"
+    },
+    {
+      "key": "founded",
+      "label": "Operating since",
+      "value": "Group operating since 2009",
+      "quote": "which has been operating since 2009"
+    }
+  ]
+}

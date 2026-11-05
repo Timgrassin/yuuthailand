@@ -1,0 +1,18 @@
+{
+  "summary": "Language school in Chiang Rai teaching Thai and English and helping students with ED visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa support",
+      "value": "Works with the Ministry of Education to help Thai and English students obtain ED visas",
+      "quote": "SEAL works directly with the Ministry of Education to help our Thai and English language students obtain ED Visas."
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages taught",
+      "value": "Thai and English",
+      "quote": "THAI & ENGLISH LANGUAGE LEARNING | CHIANG RAI, THAILAND"
+    }
+  ]
+}

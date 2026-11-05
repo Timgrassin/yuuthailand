@@ -1,0 +1,18 @@
+{
+  "summary": "Private language school in Kanchanaburi province for multinational students, publishing enrolment notices on a blog.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Since",
+      "value": "Private self-funded school for multinational students since 2016",
+      "quote": "A Private Self-Funded Language School for Multinational Students Since 2016"
+    },
+    {
+      "key": "levels",
+      "label": "Enrolment",
+      "value": "Multinational pupils enrolment for 2027",
+      "quote": "Multinational Pupils Enrolment 2027"
+    }
+  ]
+}

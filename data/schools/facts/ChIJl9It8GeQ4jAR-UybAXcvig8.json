@@ -1,0 +1,18 @@
+{
+  "summary": "Homestay and Thai cooking experience in Nonthaburi offering one to three day cooking classes.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "Class formats",
+      "value": "One day, one day one night, two days one night and three days two nights classes",
+      "quote": "Three Days Two Nights Cooking Class"
+    },
+    {
+      "key": "accommodation",
+      "label": "Homestay",
+      "value": "Authentic Thai hospitality and home-style cooking class in a teak house",
+      "quote": "Authentic Thai hospitality and home-style Thai cooking class in traditional style teak house."
+    }
+  ]
+}

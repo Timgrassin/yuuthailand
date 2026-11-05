@@ -1,0 +1,18 @@
+{
+  "summary": "First aid, CPR and safety training provider in Bangkok offering face-to-face and e-learning courses.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Courses",
+      "value": "Half-day CPR AED and one-day first aid courses with American Heart Association certificate",
+      "quote": "1-Day American Heart Association® First Aid CPR AED Training - International Certificate - Individual Booking"
+    },
+    {
+      "key": "location_note",
+      "label": "Delivery",
+      "value": "Taught at the Bangkok training centre or at the workplace",
+      "quote": "We can teach at our Bangkok training center or directly at your workplace"
+    }
+  ]
+}

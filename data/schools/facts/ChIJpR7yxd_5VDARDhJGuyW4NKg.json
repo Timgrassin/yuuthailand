@@ -1,0 +1,30 @@
+{
+  "summary": "Fitness camp on Koh Samui offering Muay Thai, fitness and weight-loss programs with on-site accommodation.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Muay Thai levels",
+      "value": "Suitable for all fitness levels, beginners to pro fighters",
+      "quote": "Our Muay Thai program are suitable to all fitness levels."
+    },
+    {
+      "key": "training_sessions",
+      "label": "Program cycles",
+      "value": "Programs run in 1 week, 2 week and 30 day cycles",
+      "quote": "The program runs in 1 week, 2 weeks and 30 days cycle."
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Range of accommodation for different budgets",
+      "quote": "We offer a range of accommodation to suit all budgets"
+    },
+    {
+      "key": "location_note",
+      "label": "Facilities",
+      "value": "2 boxing rings and 1,000 sq. meters of training space",
+      "quote": "2 boxing rings"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "English language school in Bangkok offering speaking, pronunciation, grammar and other English courses.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Educating students since 2003",
+      "quote": "Since 2003, we have been educating children and adults"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Courses",
+      "value": "English speaking and conversation course listed",
+      "quote": "English Speaking And Conversation"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "Thong Lor Rd, Sukhumvit 55, Bangkok",
+      "quote": "34, Soi 1, Thong Lor Rd, Sukhumvit 55, Khlongtan Nua, Wattana, Bangkok 10110"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "Phuket cooking school with one-day Thai cooking classes, market walks and private classes.",
+  "price_from_thb": 900,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Short class",
+      "value": "2 dishes in 45 minutes for 900 Baht per person",
+      "quote": "900 Baht per  person"
+    },
+    {
+      "key": "price_course",
+      "label": "Half-day class",
+      "value": "3 dishes in 3 hours for 2400 Baht per person",
+      "quote": "3 dishes 3 hrs. -2400 Baht  per person"
+    },
+    {
+      "key": "price_course",
+      "label": "Private class",
+      "value": "5000 THB per person, max 2 students",
+      "quote": "5000 THB/PERSON max only 2 students"
+    },
+    {
+      "key": "curriculum",
+      "label": "Market tour",
+      "value": "Visit to the local market included in classes",
+      "quote": "Visit the Local Market"
+    }
+  ]
+}

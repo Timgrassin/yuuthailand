@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok training institute offering English, Thai and other language courses, test preparation and digital skills.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Thai courses",
+      "value": "Immersive Thai language lessons",
+      "quote": "Access Thai language with immersive lessons that build cultural understanding and fluency."
+    },
+    {
+      "key": "languages_taught",
+      "label": "Other languages",
+      "value": "Spanish, French, German, Korean and more",
+      "quote": "from Spanish, French, and German to Korean and beyond"
+    },
+    {
+      "key": "location_note",
+      "label": "Office hours",
+      "value": "Closed Monday, Tuesday to Sunday 10AM to 6PM",
+      "quote": "Tues &#8211; Sun: 10AM &#8211; 6PM"
+    }
+  ]
+}

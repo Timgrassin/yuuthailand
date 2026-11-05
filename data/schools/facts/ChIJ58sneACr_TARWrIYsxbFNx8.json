@@ -1,0 +1,18 @@
+{
+  "summary": "Hua Hin expat service office offering visa, property and vehicle licensing support.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa services",
+      "value": "Retirement, Marriage, LTR and tourist visa extensions",
+      "quote": "Expert assistance with Retirement (O/O-A), Marriage, Long-Term Resident (LTR), and Tourist Visa extensions"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Offices in Hua Hin, Prachuap Khiri Khan",
+      "quote": "Hua Hin Expat Services"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "Chiang Mai martial arts school offering Muay Thai, boxing, MMA and other classes, with DTV and Education visa training packages.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Licence",
+      "value": "Fully licenced by the Ministry of Education",
+      "quote": "fully licenced by the Ministry of Education"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV and ED visa",
+      "value": "DTV and Education visa training packages",
+      "quote": "DTV AND EDUCATION VISA TRAINING PACKAGES"
+    },
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "2013",
+      "quote": "Established in 2013"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels welcome, no experience necessary",
+      "quote": "All levels are welcome, no experience necessary."
+    }
+  ]
+}

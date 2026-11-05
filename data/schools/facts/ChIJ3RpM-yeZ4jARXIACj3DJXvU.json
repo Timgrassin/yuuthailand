@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok Thai law firm focused on litigation, criminal matters and regulatory work, serving clients in Thai, English and other languages.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "trainers",
+      "label": "Team",
+      "value": "More than fifteen licensed Thai lawyers",
+      "quote": "Our team of more than fifteen licensed Thai lawyers"
+    },
+    {
+      "key": "location_note",
+      "label": "Response time",
+      "value": "Usually replies within 24 hours",
+      "quote": "We usually reply within 24 hours."
+    }
+  ]
+}

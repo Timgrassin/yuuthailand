@@ -1,0 +1,30 @@
+{
+  "summary": "Thai massage and Tok Sen school in Chiang Mai taught by Ajarn Somphong.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Courses taught",
+      "value": "Tok Sen, Thai massage, foot massage, stretch massage and towel massage",
+      "quote": "Ajarn Somphong teaches Tok Sen, Thai Massage, Foot Massage, Stretch Massage, Pha-Khaw-Ma(Towel Massage)"
+    },
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "Certificate given for any course",
+      "quote": "Certificate is given to any courses."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Near Chiang Mai gate, about a 3 minute walk",
+      "quote": "Conveniently located near the Chiang Mai gate."
+    },
+    {
+      "key": "curriculum",
+      "label": "Minimum group size",
+      "value": "Classes open for more than 2 people",
+      "quote": "All the classes will open for more than 2 people."
+    }
+  ]
+}

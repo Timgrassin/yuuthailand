@@ -1,0 +1,24 @@
+{
+  "summary": "English-speaking law firm in Pattaya offering visa service, company registration, translation, tax and accounting.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Visa service",
+      "value": "Lists a visa service among its services",
+      "quote": "Visa service"
+    },
+    {
+      "key": "location_note",
+      "label": "Immigration contact",
+      "value": "A team member handles contact with Immigration and the Land Office",
+      "quote": "Responsible for contact with Immigration and Landoffice."
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "Phra Tam Nak 4 Alley, Pattaya City",
+      "quote": "Phra Tam Nak 4 Alley, Pattaya City, Bang Lamung District, Chon Buri 20150, Thailand"
+    }
+  ]
+}

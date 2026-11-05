@@ -1,0 +1,30 @@
+{
+  "summary": "Thai massage and Abdominal Chi massage training school in Chiang Mai with in-person and online courses.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "Abdominal Chi course",
+      "value": "6-day group course running every two weeks",
+      "quote": "runs every two weeks as a 6-day group course"
+    },
+    {
+      "key": "course_length",
+      "label": "Intensive foundation",
+      "value": "One-month intensive Thai massage foundation, held once a year",
+      "quote": "Once a year we organize our unique one month intensive training"
+    },
+    {
+      "key": "curriculum",
+      "label": "Courses offered",
+      "value": "Thai massage foundation, Dynamic Thai Massage, NeuroThai and advanced courses",
+      "quote": "from our 1-month intensive Thai Massage foundation to specialized NeuroThai training"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "Over 25 years of experience and more than 4,000 students taught",
+      "quote": "With over 25 years of experience and more than 4,000 students taught"
+    }
+  ]
+}

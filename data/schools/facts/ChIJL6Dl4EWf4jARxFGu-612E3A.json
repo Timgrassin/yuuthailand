@@ -1,0 +1,36 @@
+{
+  "summary": "Spanish language school in Bangkok with group, private, children, online and company courses taught by native speakers.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "trainers",
+      "label": "Teachers",
+      "value": "Only native Spanish speakers, experienced and certified",
+      "quote": "Only native Spanish speakers."
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Beginner, Intermediate, Advance and Master levels",
+      "quote": "Course level"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Courses",
+      "value": "Group, private, children and online courses",
+      "quote": "Private courses"
+    },
+    {
+      "key": "curriculum",
+      "label": "Exam preparation",
+      "value": "Training for Instituto Cervantes official examination",
+      "quote": "training for the official examination of the Institute Cervantes"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "Bhiraj Tower at Emquartier, level 30, Bangkok",
+      "quote": "Bhiraj Tower at Emquatier, level 30th, room 3038"
+    }
+  ]
+}

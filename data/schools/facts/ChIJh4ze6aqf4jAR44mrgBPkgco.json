@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok home-teaching service offering lessons such as Thai massage, Thai boxing, dance and music, plus online classes.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Thai massage lessons",
+      "value": "Traditional Thai massage lessons at home",
+      "quote": "Traditional Thai massage using stretching and pressure to release tension and support recovery."
+    },
+    {
+      "key": "curriculum",
+      "label": "Home lessons",
+      "value": "Lists Thai Boxing and Thai Dancing activities",
+      "quote": "Thai Dancing"
+    },
+    {
+      "key": "services",
+      "label": "Online classes",
+      "value": "Lists online classes in languages, cooking and more",
+      "quote": "Learn Languages Online"
+    }
+  ]
+}

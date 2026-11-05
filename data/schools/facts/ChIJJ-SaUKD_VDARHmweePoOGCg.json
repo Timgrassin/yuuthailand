@@ -1,0 +1,36 @@
+{
+  "summary": "Muay Thai gym and camp on Koh Phangan with group classes, private training, bungalows and DTV document support.",
+  "price_from_thb": 1000,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV support",
+      "value": "DTV visa document support for stays of six months or more",
+      "quote": "Staying six months or more? DTV visa document support"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Three private garden bungalows on the gym grounds",
+      "quote": "Three private garden bungalows on the same grounds as the gym"
+    },
+    {
+      "key": "price_session",
+      "label": "Private training price",
+      "value": "Private training from 1,000 THB per session",
+      "quote": "One session from 1,000 THB"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Class schedule",
+      "value": "Eight classes across three families, six days a week",
+      "quote": "Eight classes across three families, six days a week."
+    },
+    {
+      "key": "trainers",
+      "label": "Fighters Class",
+      "value": "Fighters Class often led by K-1 champion Pascal Schroth",
+      "quote": "often K-1 champion Pascal Schroth himself"
+    }
+  ]
+}

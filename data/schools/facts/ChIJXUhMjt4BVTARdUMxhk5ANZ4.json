@@ -1,0 +1,42 @@
+{
+  "summary": "Koh Phangan vocational school teaching Thai cooking, massage and yoga, Thai and English language, with ED visa options on longer courses.",
+  "price_from_thb": 600,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa availability",
+      "value": "ED visa options only for longer courses, 3+ months for most subjects",
+      "quote": "Note: ED Visa options are only available for longer courses (3+ months for most subjects)."
+    },
+    {
+      "key": "price_session",
+      "label": "Thai language single group class",
+      "value": "฿600 for 2 hours",
+      "quote": "Single Class \n Any \n ฿600"
+    },
+    {
+      "key": "price_course",
+      "label": "Thai language 1 month group course",
+      "value": "฿6,000 for 24 hours",
+      "quote": "1 Month \n Any \n ฿6,000"
+    },
+    {
+      "key": "price_course",
+      "label": "Thai language 4 month beginner course",
+      "value": "฿20,000 for 100 hours, ED visa",
+      "quote": "4 Months \n Beginner \n ฿20,000"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV processing",
+      "value": "DTV applied for outside Thailand, school fee ฿5,000, government fee ฿10,000",
+      "quote": "DTV \n Outside Thailand \n ฿5,000 \n ฿10,000"
+    },
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established November 2011",
+      "quote": "Established in November 2011 by two passionate Thai sisters"
+    }
+  ]
+}

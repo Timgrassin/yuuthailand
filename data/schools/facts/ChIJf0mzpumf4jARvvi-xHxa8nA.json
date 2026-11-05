@@ -1,0 +1,42 @@
+{
+  "summary": "Thai and English language school in Bangkok near BTS On Nut with group and private classes.",
+  "price_from_thb": 19500,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Languages taught",
+      "value": "Thai and English, plus IELTS, TOEFL, TOEIC and SAT preparation",
+      "quote": "Bubble Language School is a Thai and English language school in Bangkok"
+    },
+    {
+      "key": "price_course",
+      "label": "Thai group class price",
+      "value": "From ฿19,500 for 3 months 3 weeks",
+      "quote": "from ฿19,500 / 3 months 3 weeks"
+    },
+    {
+      "key": "price_course",
+      "label": "Private Thai price",
+      "value": "From ฿25,000 for 30 hours",
+      "quote": "from ฿25,000 / 30 hours"
+    },
+    {
+      "key": "course_length",
+      "label": "Full program length",
+      "value": "Thai group full program is 14 months 2 weeks",
+      "quote": "14 months 2 weeks"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Beginner to intermediate, join any time",
+      "quote": "Beginner to intermediate · join any time"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Near BTS On Nut on Sukhumvit 81",
+      "quote": "a short walk from BTS On Nut on Sukhumvit 81"
+    }
+  ]
+}

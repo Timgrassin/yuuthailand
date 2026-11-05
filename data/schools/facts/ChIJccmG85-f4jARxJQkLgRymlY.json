@@ -1,0 +1,24 @@
+{
+  "summary": "Thai cooking class in Bangkok including a Khlong Toey market tour.",
+  "price_from_thb": 2000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Class price",
+      "value": "THB 2,000 per person",
+      "quote": "THB 2,000"
+    },
+    {
+      "key": "curriculum",
+      "label": "Class format",
+      "value": "Hands-on Thai cooking class with a local market tour",
+      "quote": "with a local market tour in the heart of Khlong Toey community."
+    },
+    {
+      "key": "curriculum",
+      "label": "Schedule",
+      "value": "Classes run Monday to Saturday",
+      "quote": "We run classes every Monday to Saturday"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "summary": "Muay Thai gym in Rawai, Phuket offering drop-in group classes, private training and fight preparation.",
+  "price_from_thb": 300,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Morning class",
+      "value": "Morning group class 8:00 to 9:30 am",
+      "quote": "Morning Class: 8:00- 9:30 am"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Afternoon class",
+      "value": "Afternoon group class 4:00 to 5:30 pm",
+      "quote": "Afternoon Class: 4:00 - 5:30 pm"
+    },
+    {
+      "key": "price_session",
+      "label": "Group class price",
+      "value": "300 THB per group class",
+      "quote": "300 BAHT"
+    },
+    {
+      "key": "price_course",
+      "label": "12 days in 14 days",
+      "value": "3,000 Baht for 12 days of group classes within 14 days",
+      "quote": "12 DAYS WITHIN 14 DAYS -- 3,000 Baht"
+    },
+    {
+      "key": "trainers",
+      "label": "Lead trainer",
+      "value": "Lead trainer Kru K has 35 years of Muay Thai experience",
+      "quote": "Kru K is Uppercuts' lead trainer, bringing 35 years of Muay Thai experience"
+    }
+  ]
+}

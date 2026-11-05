@@ -1,0 +1,30 @@
+{
+  "summary": "Pattaya page of an international law firm offering immigration, property, company and litigation services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV visa",
+      "value": "DTV Visa Thailand service listed",
+      "quote": "DTV Visa Thailand"
+    },
+    {
+      "key": "services",
+      "label": "Long-stay visas",
+      "value": "Thai LTR, marriage and retirement visa services listed",
+      "quote": "Thai LTR Visa"
+    },
+    {
+      "key": "services",
+      "label": "Related services",
+      "value": "90-Day Reporting and Police Clearance for Foreigners listed",
+      "quote": "90-Day Reporting"
+    },
+    {
+      "key": "services",
+      "label": "Notary",
+      "value": "Notarial services attorney in Pattaya",
+      "quote": "Notary Public in Pattaya"
+    }
+  ]
+}

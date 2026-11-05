@@ -1,0 +1,24 @@
+{
+ "summary": "Buakaw Village Samui is a Muay Thai training camp on Koh Samui founded by Buakaw Banchamek, with fitness and private training options.",
+ "facts": [
+  {
+   "key": "levels",
+   "label": "Levels",
+   "value": "Welcomes beginners, fitness enthusiasts and seasoned fighters",
+   "quote": "Whether you are a beginner seeking a new challenge, a fitness enthusiast looking for transformation, or a seasoned fighter"
+  },
+  {
+   "key": "training_sessions",
+   "label": "Opening times",
+   "value": "Open daily 8 AM to 8 PM",
+   "quote": "Monday 8 AM–8 PM"
+  },
+  {
+   "key": "location_note",
+   "label": "Location",
+   "value": "Talad Dao, Chaweng, Koh Samui",
+   "quote": "Talad Dao (Soi Mo Kan), Chaweng, 109/157"
+  }
+ ],
+ "price_from_thb": null
+}

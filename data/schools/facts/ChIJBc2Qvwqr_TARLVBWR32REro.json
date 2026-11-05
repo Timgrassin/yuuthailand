@@ -1,0 +1,36 @@
+{
+  "summary": "Language and computer school in Hua Hin teaching Thai and English and arranging education visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Ed Visa and visa extension pages listed",
+      "quote": "Education Visa – English"
+    },
+    {
+      "key": "licence",
+      "label": "Curriculum approval",
+      "value": "Thai language curriculum approved by the Thailand Ministry of Education",
+      "quote": "Our Thai language curriculum has been approved by the Thailand Ministry of Education."
+    },
+    {
+      "key": "levels",
+      "label": "Thai levels",
+      "value": "Three levels: Beginner, Intermediate and Advanced",
+      "quote": "Three levels are offered: Beginner, Intermediate and Advanced."
+    },
+    {
+      "key": "class_size",
+      "label": "Class format",
+      "value": "Group classes, with private classes by arrangement",
+      "quote": "We are offering group classes, however private classes are available"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Less than 5 minutes' walk from Hua Hin Municipality",
+      "quote": "less than 5 minutes&#8217; walk from Hua Hin Municipality"
+    }
+  ]
+}

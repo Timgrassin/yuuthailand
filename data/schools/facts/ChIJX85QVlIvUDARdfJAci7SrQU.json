@@ -1,0 +1,24 @@
+{
+  "summary": "Thai cooking class in Phuket with small groups and a private option, each cooking three main courses and a dessert.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Maximum 10 guests per session",
+      "quote": "Max 10 guests per session."
+    },
+    {
+      "key": "course_length",
+      "label": "Class length",
+      "value": "3-hour class, 3 main courses and 1 dessert",
+      "quote": "Join a 3-hour Thai cooking class with up to 10 guests Cook 3 main courses and 1 dessert"
+    },
+    {
+      "key": "curriculum",
+      "label": "Menu changes",
+      "value": "One dish can be swapped from the standard menu for free",
+      "quote": "We want your cooking experience to be exactly what you’re craving."
+    }
+  ]
+}

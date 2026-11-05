@@ -1,0 +1,30 @@
+{
+  "summary": "Brazilian jiu-jitsu gym in Sukhumvit, Bangkok, with fundamentals, intermediate and advanced classes and a 4 week intro course.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Started",
+      "value": "Started in June 2016",
+      "quote": "started in June 2016"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Sukhumvit Soi 36, 3 minutes from BTS Thong Lo",
+      "quote": "3 minutes from BTS Thong Lo"
+    },
+    {
+      "key": "course_length",
+      "label": "Intro course",
+      "value": "4 Week BJJ Intro Course",
+      "quote": "4 Week BJJ Intro Course"
+    },
+    {
+      "key": "price_session",
+      "label": "Trial",
+      "value": "Free lesson offered",
+      "quote": "Get a free lesson!"
+    }
+  ]
+}

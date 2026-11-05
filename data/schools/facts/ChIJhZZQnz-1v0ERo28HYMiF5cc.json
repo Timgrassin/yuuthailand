@@ -1,0 +1,36 @@
+{
+  "summary": "Online Thai tutor offering 1:1 lessons and 15-day intensive reading and speaking courses for adult learners.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "Lesson length",
+      "value": "1:1 online private lessons of 50 minutes",
+      "quote": "1:1 online private lessons: 50 minutes"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "1:1 course from beginner (A1) to advanced (C1)",
+      "quote": "Fully tailored to your goals and level — from beginner (A1) to advanced (C1)."
+    },
+    {
+      "key": "course_length",
+      "label": "Intensive courses",
+      "value": "Read Thai in 15 Days and Speak Thai in 15 Days, 15 lessons each",
+      "quote": "Read Thai in 15 Days (15 lessons)"
+    },
+    {
+      "key": "trainers",
+      "label": "Teacher qualification",
+      "value": "Certified Thai Language Instructor for Foreigners, Mahidol University",
+      "quote": "Certified Thai Language Instructor for Foreigners, Mahidol University"
+    },
+    {
+      "key": "location_note",
+      "label": "Format",
+      "value": "Teaches online only",
+      "quote": "I currently teach online only."
+    }
+  ]
+}

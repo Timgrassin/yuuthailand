@@ -1,0 +1,24 @@
+{
+  "summary": "ILSCM is a Chiang Mai visa and law service handling education, retirement, marriage and business visas, work permits and company registration.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Education visa service listed",
+      "quote": "1. Education Visa"
+    },
+    {
+      "key": "location_note",
+      "label": "Office",
+      "value": "Mahidol Road, Chiang Mai, open Monday to Friday 8.00 AM to 5.00 PM",
+      "quote": "No.179/21, CHOC Chiang Mai, Mahidol Road, Hai Ya sub-district, Mueang District, Chiang Mai Province 50100"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Team speaks 4 languages",
+      "quote": "We speak 4 languages"
+    }
+  ]
+}

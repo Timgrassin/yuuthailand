@@ -1,0 +1,18 @@
+{
+  "summary": "University service centre at Mae Fah Luang University in Chiang Rai supporting international students with admission, visas and academic mobility.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Student visa help",
+      "value": "Staff provide documentation and information on student visas and immigration",
+      "quote": "dedicated team of staff to provide documentation and helpful information on all matters to do with student visas and immigration"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "2nd floor of M-Square Building, Mae Fah Luang University",
+      "quote": "Located on 2nd floor of M-Square Building, Mae Fah Luang University"
+    }
+  ]
+}

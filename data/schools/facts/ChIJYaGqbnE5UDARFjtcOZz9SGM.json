@@ -1,0 +1,18 @@
+{
+  "summary": "Phuket law firm offering corporate, property and immigration services including Thai visas and Long-Term Resident visa assistance.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Thai visa services",
+      "value": "Handles tourist visas through Non-Immigrant O and B visas",
+      "quote": "From the simple tourist visa applications to a more complex non-immigrant O or B visas, we got you covered."
+    },
+    {
+      "key": "location_note",
+      "label": "LTR visa",
+      "value": "Assists with Long-Term Resident (LTR) visa applications",
+      "quote": "Interested of obtaining a Long-Term Resident (LTR) Visa? We can help."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok self-defense and tactical training center teaching Krav Maga, Muay Thai and Eskrima classes.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Operating since",
+      "value": "Training in Bangkok since 2010",
+      "quote": "Since 2010, we train people to defend themselves in Bangkok, Thailand."
+    },
+    {
+      "key": "training_sessions",
+      "label": "Class types",
+      "value": "Krav Maga, Muay Thai, Eskrima, OPFIT and air-soft classes",
+      "quote": "KRAV MAGA - MUAY THAI - ESKRIMA - OPFIT - AIR-SOFT GUNS"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Basics through advanced classes, plus kids, teens, women and veterans",
+      "quote": "Basics Krav Maga"
+    },
+    {
+      "key": "levels",
+      "label": "Kids class age",
+      "value": "Kids 9 to 12 years old",
+      "quote": "Open to kids from 9 to 12 years old."
+    }
+  ]
+}

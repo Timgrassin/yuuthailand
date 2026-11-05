@@ -1,0 +1,36 @@
+{
+  "summary": "Bangkok law firm of Thai and foreign lawyers offering visa, work permit, marriage visa and retirement visa services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa lawyers",
+      "value": "Assists with visa issues and work permit applications at Thai immigration",
+      "quote": "Our Thai visa Laywers can assist you with all kind of visa issues and work permit applications at the Thai immigration deparment."
+    },
+    {
+      "key": "services",
+      "label": "Retirement visa",
+      "value": "Retirement visa service listed",
+      "quote": "Retirement Visa"
+    },
+    {
+      "key": "services",
+      "label": "Marriage visa",
+      "value": "Marriage visa service listed",
+      "quote": "Marriage Visa"
+    },
+    {
+      "key": "founded",
+      "label": "Operating since",
+      "value": "Serving clients since 2012",
+      "quote": "in good times and bad since 2012"
+    },
+    {
+      "key": "licence",
+      "label": "Court authorisation",
+      "value": "Attorneys authorised for litigation in all Thai courts",
+      "quote": "Our attorneys are authorized for litigation processes in all courts of first instance, the Court of Appeal and the Supreme Court of Thailand."
+    }
+  ]
+}

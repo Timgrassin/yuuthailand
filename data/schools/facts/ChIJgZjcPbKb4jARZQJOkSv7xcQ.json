@@ -1,0 +1,30 @@
+{
+  "summary": "Visa agency offering to apply for the 5-year Destination Thailand Visa through the Digital Nomad route on the client's behalf.",
+  "price_from_thb": 35000,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV route",
+      "value": "Applies via the Digital Nomad/Remote Worker route on the client's behalf",
+      "quote": "We will apply via the Digital Nomad/Remote Worker route on your behalf."
+    },
+    {
+      "key": "price_service",
+      "label": "Total cost",
+      "value": "35,000 THB or 1,000 EUR",
+      "quote": "Total cost is ฿35,000 Thai Bhat or €1,000 Euro."
+    },
+    {
+      "key": "course_length",
+      "label": "Processing time",
+      "value": "Approval takes between 3 days and 3 weeks",
+      "quote": "between 3 days and 3 weeks"
+    },
+    {
+      "key": "visa_services",
+      "label": "Visa validity",
+      "value": "Multiple-entry, valid 5 years, 6 months per entry",
+      "quote": "It is valid for 5 years from the delivery date and allows stays of 6 months per entry in Thailand."
+    }
+  ]
+}

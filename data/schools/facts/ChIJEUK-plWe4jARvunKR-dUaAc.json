@@ -1,0 +1,30 @@
+{
+  "summary": "English school in Bangkok for non-native learners and international school students aged 4 to 12.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Ages",
+      "value": "Non-native learners and international school students ages 4 to 12",
+      "quote": "For non-native learners and international school students ages 4–12."
+    },
+    {
+      "key": "course_length",
+      "label": "Course length",
+      "value": "About 40 lessons per course with a written progress report",
+      "quote": "At the end of each course (approximately 40 lessons)"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Recommended frequency",
+      "value": "Two lessons per week",
+      "quote": "Recommended frequency: Two lessons per week"
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Teaching since 2012",
+      "quote": "structured, fun-filled learning since 2012"
+    }
+  ]
+}

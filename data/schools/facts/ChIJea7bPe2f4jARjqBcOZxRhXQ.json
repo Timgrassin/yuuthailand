@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok visa consultancy covering tourist, retirement, LTR, marriage, education and DTV visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Student or education visa for studying, training, seminars and Muay Thai courses",
+      "quote": "For studying, training, seminars & Muay Thai courses in Thailand."
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "Destination Thailand Visa listed among services",
+      "quote": "Destination Thailand Visa (DTV)"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "Sunaphlu Soi 6, near Le D'Tel Bangkok",
+      "quote": "Sunaphlu Soi 6, near Le D’Tel Bangkok, Bangkok, Thailand"
+    }
+  ]
+}

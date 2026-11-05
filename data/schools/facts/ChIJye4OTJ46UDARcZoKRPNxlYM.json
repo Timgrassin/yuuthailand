@@ -1,0 +1,30 @@
+{
+  "summary": "Cooking academy in Phuket offering half-day Thai cooking classes with a market tour and hotel pickup.",
+  "price_from_thb": 2300,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Half-day class price",
+      "value": "2,300 Baht for a 3.5 hour half-day class",
+      "quote": "2,300 Baht • 3.5 Hour Half-Day Class"
+    },
+    {
+      "key": "course_length",
+      "label": "Class length",
+      "value": "About 3.5 to 4 hours",
+      "quote": "typically lasts about 3.5 to 4 hours"
+    },
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "Certificate of Achievement after class",
+      "quote": "Receive a Certificate of Achievement after completing your class"
+    },
+    {
+      "key": "curriculum",
+      "label": "Dishes per class",
+      "value": "Cook 4 Thai dishes with a market tour",
+      "quote": "Cook 4 authentic Thai dishes"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "summary": "Culinary school in Bangkok offering professional culinary programmes with partner institutes and short cooking courses.",
+  "price_from_thb": 5500,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Short course price (example)",
+      "value": "Duo Tiramisu class listed at 5,500 THB",
+      "quote": "&#3647; 5,500.00"
+    },
+    {
+      "key": "price_course",
+      "label": "Short course price (example)",
+      "value": "Food Styling class listed at 12,900 THB",
+      "quote": "&#3647; 12,900.00"
+    },
+    {
+      "key": "curriculum",
+      "label": "Thai cuisine programme",
+      "value": "Thai culinary programme in partnership with Dusit Thani College",
+      "quote": "Thailand’s premier institution for hospitality and culinary arts"
+    },
+    {
+      "key": "certificate",
+      "label": "Certified programmes",
+      "value": "Certified weekday and intensive weekend options",
+      "quote": "Certified Weekday"
+    },
+    {
+      "key": "curriculum",
+      "label": "Short courses",
+      "value": "Short courses for those regardless of culinary background",
+      "quote": "Our Short Courses are ideal for those who want to start practicing their cooking skills regardless of culinary background"
+    }
+  ]
+}

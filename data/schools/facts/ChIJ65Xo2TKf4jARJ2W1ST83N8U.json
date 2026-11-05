@@ -1,0 +1,42 @@
+{
+  "summary": "Thai language school in Bangkok with group, semi-private and private Thai lessons.",
+  "price_from_thb": 2500,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Group course, speaking and reading",
+      "value": "7,500 THB for 30 hours",
+      "quote": "7,500THB for 30h"
+    },
+    {
+      "key": "price_course",
+      "label": "Group course, reading only",
+      "value": "2,500 THB for 10 hours",
+      "quote": "2,500THB for 10h"
+    },
+    {
+      "key": "class_size",
+      "label": "Group size",
+      "value": "Small group learning, 3 to 8 students",
+      "quote": "Small group learning (3-8 students)"
+    },
+    {
+      "key": "class_size",
+      "label": "Semi-private size",
+      "value": "Groups of 2 to 5 students",
+      "quote": "small group of 2 to 5 students"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Beginner to advanced",
+      "quote": "Beginner to advanced Thai lessons"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Does not offer an ED visa program at the moment",
+      "quote": "not offer any ED visa program at the moment."
+    }
+  ]
+}

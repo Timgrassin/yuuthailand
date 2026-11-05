@@ -1,0 +1,42 @@
+{
+  "summary": "Brazilian jiu-jitsu and yoga school in Chiang Mai with published membership and drop-in prices in THB.",
+  "price_from_thb": 400,
+  "facts": [
+    {
+      "key": "price_month",
+      "label": "Adult monthly membership",
+      "value": "฿3,000 for unlimited classes",
+      "quote": "Monthly Membership (unlimited classes) ฿3,000"
+    },
+    {
+      "key": "price_session",
+      "label": "Adult drop-in class",
+      "value": "฿400",
+      "quote": "Drop-In Class ฿400"
+    },
+    {
+      "key": "price_session",
+      "label": "Weekly pass",
+      "value": "฿1,300",
+      "quote": "Weekly Pass ฿1,300"
+    },
+    {
+      "key": "price_session",
+      "label": "Private lesson",
+      "value": "฿2,000 for 1 hour with a black belt",
+      "quote": "Black Belt Private Lesson (1 hour) ฿2,000"
+    },
+    {
+      "key": "trainers",
+      "label": "Head instructor",
+      "value": "Led by Ryan Cheng, black belt in Brazilian Jiu-Jitsu and Judo",
+      "quote": "Pure Grappling is led by Ryan Cheng, a black belt in both Brazilian Jiu-Jitsu and Judo."
+    },
+    {
+      "key": "levels",
+      "label": "Visitors",
+      "value": "Visitors welcome in suitable Gi and No-Gi classes",
+      "quote": "Visitors are welcome in suitable Gi and No-Gi classes."
+    }
+  ]
+}

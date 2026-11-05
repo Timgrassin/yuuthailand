@@ -1,0 +1,18 @@
+{
+  "summary": "Chiang Mai visa consultancy handling travel, education, retirement, marriage and work visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Assists with education visas among other visa types",
+      "quote": "Travel visa, work permit / business visa, education visa, marriage or retirement visa."
+    },
+    {
+      "key": "location_note",
+      "label": "Office",
+      "value": "7/1 Soi 8 Charoen Prathet Road, Chiang Mai",
+      "quote": "7/1 Soi 8 Charoen Prathet Road"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "summary": "Pattaya agency (Russian-language site) offering visa and work permit services, company registration, bank accounts, driving licences and vehicle rental.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Visa services",
+      "value": "Selection and processing of visas, work permit and extensions",
+      "quote": "Подбор и оформление виз, Work Permit и продление"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Pattaya, Chon Buri",
+      "quote": "449/20, 17 Thepprasit, Nongprue, Muang Pattaya, Amphoe Bang Lamung, Chang Wat Chon Buri 20150"
+    }
+  ]
+}

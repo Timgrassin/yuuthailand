@@ -1,0 +1,30 @@
+{
+  "summary": "Thai cooking class on Koh Samui with a local market tour and a 2-hour class cooking four dishes plus dessert.",
+  "price_from_thb": 2100,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Price per person",
+      "value": "2100 THB per person",
+      "quote": "2100 THB/person"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Maximum 8 people",
+      "quote": "Class is small (8 persons maximum)"
+    },
+    {
+      "key": "course_length",
+      "label": "Class length",
+      "value": "2-hour cooking class with a 30-minute market tour",
+      "quote": "2 hours cooking class, cook 4 dishes of your choice"
+    },
+    {
+      "key": "curriculum",
+      "label": "Language",
+      "value": "Classes taught in English",
+      "quote": "Class are teach in English"
+    }
+  ]
+}

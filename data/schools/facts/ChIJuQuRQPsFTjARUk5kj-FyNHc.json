@@ -1,0 +1,36 @@
+{
+  "summary": "Koh Lanta cooking class with day and evening sessions, free hotel pick-up and hands-on cooking from scratch.",
+  "price_from_thb": 1750,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Class price",
+      "value": "1750 baht per person",
+      "quote": "The price is 1750 baht per person using a cooking station/spot."
+    },
+    {
+      "key": "course_length",
+      "label": "Day class",
+      "value": "Day class 10:00 to 14:30",
+      "quote": "Day Class from 10:00-14:30"
+    },
+    {
+      "key": "course_length",
+      "label": "Evening class",
+      "value": "Evening class 16:30 to 21:00",
+      "quote": "Evening Class from 16:30-21:00"
+    },
+    {
+      "key": "location_note",
+      "label": "Pick-up",
+      "value": "Free hotel pick-up and drop-off on Koh Lanta",
+      "quote": "We offer a free pick up and drop off service from any hotel on Koh Lanta included in the price."
+    },
+    {
+      "key": "founded",
+      "label": "Operating since",
+      "value": "Running since 2017",
+      "quote": "since 2017"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "summary": "Full service law firm in Phuket with immigration, property and corporate services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV visa",
+      "value": "DTV visa service listed",
+      "quote": "DTV Visa Thailand"
+    },
+    {
+      "key": "location_note",
+      "label": "Offices",
+      "value": "Offices in Chiang Mai, Samui and Bangkok as well as Phuket",
+      "quote": "with offices in Chiang Mai, Samui and Bangkok"
+    }
+  ]
+}

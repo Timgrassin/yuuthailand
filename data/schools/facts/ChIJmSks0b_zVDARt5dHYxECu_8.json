@@ -1,0 +1,12 @@
+{
+  "summary": "Thai cooking classes on Koh Samui taught in French or English.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Class languages",
+      "value": "Classes in French or English",
+      "quote": "Cours de cuisine en français ou en anglais"
+    }
+  ]
+}

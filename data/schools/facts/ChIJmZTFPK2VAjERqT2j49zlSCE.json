@@ -1,0 +1,18 @@
+{
+  "summary": "Pattaya law office offering legal, litigation, tax and accounting services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Attorney licence",
+      "value": "Attorneys hold a lawyer license from the Lawyer Council of Thailand",
+      "quote": "All of our attorneys entitled lawyer license from Lawyer Council of Thailand"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages spoken",
+      "value": "Attorneys speak Thai, English, Russian and Japanese",
+      "quote": "three experienced attorneys spoken Thai, English, Russian and Japanese"
+    }
+  ]
+}

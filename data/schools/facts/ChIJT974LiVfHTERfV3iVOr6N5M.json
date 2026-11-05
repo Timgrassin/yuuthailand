@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai gym in southern Bangkok offering group and private training with accommodation.",
+  "price_from_thb": 400,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Single class",
+      "value": "฿400 per class",
+      "quote": "One Class - ฿400"
+    },
+    {
+      "key": "price_month",
+      "label": "Month pass",
+      "value": "฿12,000 per month",
+      "quote": "Month Pass - ฿12,000"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Group sessions",
+      "value": "Monday to Saturday at 8:00am and 4:00pm",
+      "quote": "Monday - Saturday at 8:00am and 4:00pm"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Private air-conditioned room in the gym with unlimited group training",
+      "quote": "Private Air-conditioned room in the gym. Includes unlimited group training."
+    }
+  ]
+}

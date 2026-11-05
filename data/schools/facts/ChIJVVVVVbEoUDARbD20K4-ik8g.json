@@ -1,0 +1,30 @@
+{
+  "summary": "Private Thai cooking classes in Phuket with a market visit, taught at the guest's villa or in a Kathu kitchen.",
+  "price_from_thb": 8000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Private class price",
+      "value": "Private classes start from 8,000 THB plus VAT for a group of 2",
+      "quote": "Private classes typically start from 8,000 THB + VAT for a group of 2"
+    },
+    {
+      "key": "course_length",
+      "label": "Class length",
+      "value": "Class of about 4 hours",
+      "quote": "Class ~4 h"
+    },
+    {
+      "key": "class_size",
+      "label": "Class format",
+      "value": "Every class is private",
+      "quote": "Every class with Supparin is private and tailored to your schedule, pace and interests."
+    },
+    {
+      "key": "curriculum",
+      "label": "Curriculum",
+      "value": "Start at a local market and choose the dishes to learn",
+      "quote": "Start at a local market. Pick the dishes you want to learn."
+    }
+  ]
+}

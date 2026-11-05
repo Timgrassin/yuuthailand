@@ -1,0 +1,12 @@
+{
+  "summary": "Muay Thai boxing gym in Bangkok with membership options and experienced instructors.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "trainers",
+      "label": "Instructors",
+      "value": "Instructors with years of Muay Thai training, some also fitness trainers",
+      "quote": "Our experienced instructors all have had years of training and lessons in Muay Thai"
+    }
+  ]
+}

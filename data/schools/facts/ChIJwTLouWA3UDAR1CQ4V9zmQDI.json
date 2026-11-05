@@ -1,0 +1,18 @@
+{
+  "summary": "Phuket English school with courses for young learners, adults, academic purposes and exam preparation.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Language taught",
+      "value": "English for young learners and adults",
+      "quote": "English for Adults"
+    },
+    {
+      "key": "curriculum",
+      "label": "Exam courses",
+      "value": "Academic English including TOEFL iBT, IELTS and TOEIC",
+      "quote": "English for Academic Purposes"
+    }
+  ]
+}

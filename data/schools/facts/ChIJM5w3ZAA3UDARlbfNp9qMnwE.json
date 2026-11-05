@@ -1,0 +1,42 @@
+{
+  "summary": "Muay Thai and boxing gym in Phuket with group classes Monday to Saturday, private sessions and a pad holder course.",
+  "price_from_thb": 7500,
+  "facts": [
+    {
+      "key": "price_month",
+      "label": "Monthly price",
+      "value": "1 month, 1 session a day, 7,500 THB",
+      "quote": "1 month 7,500 ฿"
+    },
+    {
+      "key": "price_session",
+      "label": "Single class price",
+      "value": "1 class costs 500 THB",
+      "quote": "1 class · 500 ฿"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Schedule",
+      "value": "Group classes Monday to Saturday, 08:00-10:00 and 16:00-18:00",
+      "quote": "Mon–Sat · 8–10 AM & 4–6 PM"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels, kids aged 5 to 12",
+      "quote": "All levels, kids 5–12"
+    },
+    {
+      "key": "trainers",
+      "label": "Coaches",
+      "value": "4 Thai coaches, 300 fights each",
+      "quote": "4 Thai coaches, 300 fights each"
+    },
+    {
+      "key": "price_course",
+      "label": "Pad holder course",
+      "value": "Muay Thai Pad Holder Certificate, 6 days, 10 hours, 12,000 THB",
+      "quote": "Muay Thai Pad Holder Certificate 6 days · 10 hours in total 12,000 ฿"
+    }
+  ]
+}

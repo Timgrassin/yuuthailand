@@ -1,0 +1,24 @@
+{
+  "summary": "Phuket visa agent handling ED, retirement and Elite visa applications.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa process",
+      "value": "Applies for a Ministry of Education student letter, then files the visa application",
+      "quote": "we make an application for a student letter from the Ministry of Education"
+    },
+    {
+      "key": "price_course",
+      "label": "ED visa service fee",
+      "value": "ED visa service fee 24,500 baht",
+      "quote": "service fee\n 24,500฿"
+    },
+    {
+      "key": "course_length",
+      "label": "ED visa duration",
+      "value": "Switch to an education visa and stay up to three years",
+      "quote": "stay for up to three years"
+    }
+  ]
+}

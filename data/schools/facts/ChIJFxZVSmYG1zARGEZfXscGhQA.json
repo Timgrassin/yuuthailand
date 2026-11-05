@@ -1,0 +1,30 @@
+{
+  "summary": "Thai language school in Chiang Rai offering Thai ED visa courses and short courses.",
+  "price_from_thb": 2500,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa course",
+      "value": "Thai ED visa course offered in Chiang Rai",
+      "quote": "Thai ED visa course in CHIANG RAI."
+    },
+    {
+      "key": "price_course",
+      "label": "Course price",
+      "value": "2,500 Baht for 24 hours",
+      "quote": "2,500 Baht for 24 hours"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Limit of 10 students",
+      "quote": "We limit 10 students."
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Schedule",
+      "value": "Classes every Monday, Wednesday and Friday",
+      "quote": "Study every Mon, Wed, Fri"
+    }
+  ]
+}

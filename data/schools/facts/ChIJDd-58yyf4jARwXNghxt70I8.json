@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok law firm whose practice areas include immigration and visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established in Bangkok in 2005",
+      "quote": "Established in Bangkok in 2005"
+    },
+    {
+      "key": "services",
+      "label": "Immigration practice",
+      "value": "Immigration and visas listed as a practice area",
+      "quote": "Immigration & Visas"
+    }
+  ]
+}

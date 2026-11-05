@@ -1,0 +1,12 @@
+{
+  "summary": "Japanese home cooking workshops run by a Japanese cook living in Thailand.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Workshop focus",
+      "value": "Japanese style home cooking",
+      "quote": "Learn Japanese style home cooking."
+    }
+  ]
+}

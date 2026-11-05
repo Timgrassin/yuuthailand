@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai Boran school in Bangkok led by Kru Suphan Chabairam, offering private and small-group sessions, workshops and a certificate learning path.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "trainers",
+      "label": "Lead teacher",
+      "value": "Kru Suphan Chabairam, 400 fights experience and a Sports Science degree",
+      "quote": "Kru Suphan Chabairam is a kru (teacher) of Muay Thai Boran with 400 fights experience and a Sports Science degree."
+    },
+    {
+      "key": "class_size",
+      "label": "Format",
+      "value": "Private and small-group sessions",
+      "quote": "Personalized learning through private and small-group sessions"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Suitable for beginners, athletes, educators and travelers",
+      "quote": "Whether you are a beginner, athlete, educator, or traveler"
+    },
+    {
+      "key": "course_length",
+      "label": "Certificates",
+      "value": "Learning path with Khan examinations, certificates and instructor development",
+      "quote": "Continue your journey through Khan examinations, certificates, and instructor development."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok legal services firm offering visas, work permits and company registration.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Visa services",
+      "value": "Tourist, business, long-term residency visas and extensions",
+      "quote": "From tourist and business visas to long-term residency and extensions"
+    },
+    {
+      "key": "visa_services",
+      "label": "Work permits",
+      "value": "Eligibility checks, applications and renewals",
+      "quote": "Our work permit services include eligibility assessments, application submissions, renewals"
+    },
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established 2004 as part of the Sutlet Group",
+      "quote": "Established in 2004 as part of the Sutlet Group"
+    },
+    {
+      "key": "location_note",
+      "label": "Hours",
+      "value": "Mon-Thu 10:00am-6:00pm, Fri to 4:30pm",
+      "quote": "Mon - Thu 10:00am - 6:00pm"
+    }
+  ]
+}

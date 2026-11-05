@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok legal firm covering company registration, visas and work permits.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Visa services",
+      "value": "Visa application and extension, business, retirement and marriage visas",
+      "quote": "Visa application and extension"
+    },
+    {
+      "key": "visa_services",
+      "label": "Long-term residence",
+      "value": "Long-Term Resident Visa",
+      "quote": "Long-Term Resident Visa"
+    },
+    {
+      "key": "visa_services",
+      "label": "Work permit",
+      "value": "Work permit service",
+      "quote": "Work Permit"
+    },
+    {
+      "key": "location_note",
+      "label": "Office",
+      "value": "Phetchaburi Road, Makkasan, Bangkok",
+      "quote": "Phetchaburi Road 1818, Makkasan, Ratchathewi, Bangkok 10400"
+    }
+  ]
+}

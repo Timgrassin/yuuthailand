@@ -1,0 +1,36 @@
+{
+  "summary": "Thai cooking class in Hua Hin with a flexible menu, vegan and gluten-free options and optional market tours.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "Class length",
+      "value": "About 2 hours for 2 dishes",
+      "quote": "For 2 dishes it will be about 2 hours."
+    },
+    {
+      "key": "class_size",
+      "label": "Class format",
+      "value": "One-to-one, couple or group classes",
+      "quote": "Classes can be held one-to-one or as a couple or group."
+    },
+    {
+      "key": "curriculum",
+      "label": "Menu",
+      "value": "Flexible menu including Green Curry, Pad Thai and Papaya Salad",
+      "quote": "real classics like Green Curry, Pad Thai Noodles or Papaya Salad"
+    },
+    {
+      "key": "curriculum",
+      "label": "Dietary options",
+      "value": "Vegetarian, vegan and gluten-free requests accommodated",
+      "quote": "special diets (vegetarian, vegan, gluten-free etc.)"
+    },
+    {
+      "key": "hours",
+      "label": "Opening hours",
+      "value": "Open daily 10.00 to 17.00",
+      "quote": "We are open every day from 10.00 h utill 17.00 h"
+    }
+  ]
+}

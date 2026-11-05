@@ -1,0 +1,18 @@
+{
+  "summary": "Extracurricular and school-break programs for children aged 3 to 12 at a centre in Bang Na, Bangkok.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Ages",
+      "value": "Children aged 3 to 12",
+      "quote": "children aged 3 to 12 years old"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "B107 at For You Park Mall, Bang Na, Bangkok",
+      "quote": "B107 at For You Park Mall, Bang Na"
+    }
+  ]
+}

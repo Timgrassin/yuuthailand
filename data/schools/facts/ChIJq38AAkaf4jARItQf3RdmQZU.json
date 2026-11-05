@@ -1,0 +1,36 @@
+{
+  "summary": "Bangkok law firm with an immigration service covering business visas, work permits, retirement visas, marriage visas and 90-day reports.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Retirement visa",
+      "value": "Retirement visa service",
+      "quote": "Retirement Visa"
+    },
+    {
+      "key": "services",
+      "label": "90-day report",
+      "value": "90-day report service",
+      "quote": "90-Day Report"
+    },
+    {
+      "key": "services",
+      "label": "Re-entry permit",
+      "value": "Re-entry permit service",
+      "quote": "Re-Entry Permit"
+    },
+    {
+      "key": "hours",
+      "label": "Opening hours",
+      "value": "Monday to Friday 8:30am to 5:30pm",
+      "quote": "Opening hours 8:30am - 5:30pm"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "Sukhumvit Soi 15, Watthana, Bangkok",
+      "quote": "215 Sukhumvit Soi 15"
+    }
+  ]
+}

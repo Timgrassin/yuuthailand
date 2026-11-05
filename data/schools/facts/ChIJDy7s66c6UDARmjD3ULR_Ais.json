@@ -1,0 +1,54 @@
+{
+  "summary": "Muay Thai gym in Phuket offering training packages with an acceptance letter for the Destination Thailand Visa.",
+  "price_from_thb": 23000,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV support",
+      "value": "Offers certified training and proof of activity for DTV applications",
+      "quote": "We are an official Muay Thai Gym offering certified training and proof of activity for Thailand DTV Visa applications"
+    },
+    {
+      "key": "licence",
+      "label": "Licence",
+      "value": "Licensed by the Office of the Boxing Sport Board, Sports Authority of Thailand",
+      "quote": "We are officially licensed by the Office of the Boxing Sport Board, Sports Authority of Thailand, under the Ministry of Sports and Tourism"
+    },
+    {
+      "key": "price_course",
+      "label": "Basic DTV package",
+      "value": "THB 23,000 for 15 sessions valid for 9 months, with DTV acceptance letter",
+      "quote": "BASIC PACKAGE THB 23,000 * 15 Muay Thai training sessions (valid for 9 months)"
+    },
+    {
+      "key": "price_course",
+      "label": "Champion DTV package",
+      "value": "THB 65,000 for unlimited sessions valid for 6 months",
+      "quote": "THB 65,000 * Unlimited Muay Thai training sessions (valid for 6 months)"
+    },
+    {
+      "key": "course_length",
+      "label": "Program length",
+      "value": "9 months, with an option to extend",
+      "quote": "Duration: 9 months, with an option to extend"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Group classes",
+      "value": "Group classes Monday to Saturday",
+      "quote": "Access group classes (Monday to Saturday)"
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Founded in 1971",
+      "quote": "Founded in 1971 by professional Muay Thai fighter Somsak Junlaka"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "Pisitkoraneee Rd, Patong, Kathu, Phuket",
+      "quote": "109/69 15 Pisitkoraneee Rd, Patong, Kathu District, Phuket 83150"
+    }
+  ]
+}

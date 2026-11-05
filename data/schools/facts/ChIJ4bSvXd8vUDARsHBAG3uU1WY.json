@@ -1,0 +1,36 @@
+{
+  "summary": "Thai cooking class in Rawai, Phuket with morning and afternoon sessions.",
+  "price_from_thb": 2200,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Class price",
+      "value": "2,200 THB per person",
+      "quote": "2,200 THB per person"
+    },
+    {
+      "key": "course_length",
+      "label": "Class length",
+      "value": "3-hour class preparing 4 Thai dishes",
+      "quote": "Preparation of 4 Authentic Thai Dishes (3-Hour Class)"
+    },
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "Certificate of participation included",
+      "quote": "Certificate of Participation"
+    },
+    {
+      "key": "curriculum",
+      "label": "Class times",
+      "value": "Morning 10.30AM-1.30PM and afternoon 2.30PM-5.30PM",
+      "quote": "Morning class 10.30AM-1.30PM"
+    },
+    {
+      "key": "curriculum",
+      "label": "Dietary options",
+      "value": "Adaptable for vegetarian and vegan guests",
+      "quote": "Our cooking classes are fully adaptable for vegetarian and vegan guests."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok education centre offering test preparation, English, Korean and Thai language courses and a test centre.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Thai course",
+      "value": "Thai Language Courses listed",
+      "quote": "Thai Language Courses"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Korean course",
+      "value": "Korean Language Courses listed",
+      "quote": "Korean Language Courses"
+    },
+    {
+      "key": "curriculum",
+      "label": "Test preparation",
+      "value": "IELTS courses listed",
+      "quote": "IELTS Courses"
+    }
+  ]
+}

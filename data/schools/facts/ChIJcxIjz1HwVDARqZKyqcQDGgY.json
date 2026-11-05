@@ -1,0 +1,24 @@
+{
+  "summary": "Muay Thai gym on Koh Samui run by Russian-speaking owners, open to all ages and fitness levels.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Opened",
+      "value": "Opened July 2013",
+      "quote": "Зал был открыт в июле 2013 г."
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Staff speak Russian and English",
+      "quote": "общаться на русском и английском языках"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Open to all regardless of sex, age or fitness level",
+      "quote": "независимо от пола, возраста и уровня физической подготовки"
+    }
+  ]
+}

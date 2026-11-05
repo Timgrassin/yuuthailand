@@ -1,0 +1,42 @@
+{
+  "summary": "French tutor in Bangkok offering in-person and online private lessons.",
+  "price_from_thb": 950,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Online class price",
+      "value": "From 950 THB per class",
+      "quote": "from 950 THB"
+    },
+    {
+      "key": "price_course",
+      "label": "Online package",
+      "value": "Package of 20 classes for 19,000 THB",
+      "quote": "Package of 20 classes · 19,000 THB total"
+    },
+    {
+      "key": "course_length",
+      "label": "Class length",
+      "value": "Every class lasts 50 minutes",
+      "quote": "Every class lasts 50 minutes."
+    },
+    {
+      "key": "languages_taught",
+      "label": "Language taught",
+      "value": "French, with DELF, DALF, TCF Canada, IB and A-Level exam preparation",
+      "quote": "A1 through C2 — full exam preparation"
+    },
+    {
+      "key": "trainers",
+      "label": "Teacher qualification",
+      "value": "Native French teacher with DAEFLE certification",
+      "quote": "DAEFLE certified"
+    },
+    {
+      "key": "class_size",
+      "label": "Format",
+      "value": "One-to-one lessons online or face to face",
+      "quote": "One-to-one, by video call"
+    }
+  ]
+}

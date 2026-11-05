@@ -1,0 +1,48 @@
+{
+  "summary": "Thai cooking school in Bangkok near BTS On Nut offering 2-hour Express and 3-hour Full classes with a market visit.",
+  "price_from_thb": 750,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Express class",
+      "value": "THB 750 per person promotional price (regular THB 1,000), three dishes in two hours",
+      "quote": "THB 750 per person"
+    },
+    {
+      "key": "price_course",
+      "label": "Full class",
+      "value": "THB 900 per person promotional price (regular THB 1,200), five dishes",
+      "quote": "THB 900 per person"
+    },
+    {
+      "key": "course_length",
+      "label": "Express length",
+      "value": "2 hours, three dishes",
+      "quote": "Three dishes in two hours"
+    },
+    {
+      "key": "course_length",
+      "label": "Full length",
+      "value": "3 hours, five dishes",
+      "quote": "Five dishes. More time to explore."
+    },
+    {
+      "key": "languages_taught",
+      "label": "Language",
+      "value": "Classes taught in English",
+      "quote": "Classes are taught in English."
+    },
+    {
+      "key": "curriculum",
+      "label": "Market visit",
+      "value": "Includes a market visit; extended guided market tour in the Full class",
+      "quote": "Extended guided local market tour"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Opposite Big C On Nut, 2-minute walk to local market",
+      "quote": "Opposite Big C On Nut"
+    }
+  ]
+}

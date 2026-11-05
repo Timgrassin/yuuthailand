@@ -1,0 +1,18 @@
+{
+  "summary": "Muay Thai and Dutch kickboxing gym in Pak Kret with beginner to fight team programmes.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Programme levels",
+      "value": "Foundation for beginners, then development, performance and fight team",
+      "quote": "For beginners and anyone returning to training"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Gym in Pak Kret",
+      "quote": "Muay Thai & Dutch Kickboxing Gym, Pak Kret"
+    }
+  ]
+}

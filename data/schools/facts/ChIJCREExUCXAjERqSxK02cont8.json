@@ -1,0 +1,24 @@
+{
+  "summary": "Family-run Muay Thai and weight training gym in Pattaya with sauna and ice bath.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Opening hours",
+      "value": "Open every day 06:00 to 22:00",
+      "quote": "Everyday: 06:00 - 22:00"
+    },
+    {
+      "key": "accommodation",
+      "label": "Phetchabun camp",
+      "value": "All-inclusive Muay Thai camp with coaching, accommodation and meals",
+      "quote": "With expert coaching, accommodation, and meals all included"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Pattaya, Chonburi",
+      "quote": "Pattaya, Chonburi"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "Muay Thai gym in Thong Sala, Koh Phangan, with group sessions and private coaching.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Thong Sala, Koh Phangan",
+      "quote": "Thong Sala, Koh Phangan"
+    },
+    {
+      "key": "trainers",
+      "label": "Head trainer",
+      "value": "Owned by Kru Reeb, from the Jomhod fighting family",
+      "quote": "born into the legendary Jomhod fighting family"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Sessions",
+      "value": "Daily group sessions and private coaching available",
+      "quote": "Daily group sessions and private coaching available."
+    }
+  ]
+}

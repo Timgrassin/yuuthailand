@@ -1,0 +1,24 @@
+{
+  "summary": "Licensed tutorial and vocational school on Koh Phangan for learners aged 6 to 19.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Accreditation",
+      "value": "Accredited by the Ministry of Education",
+      "quote": "Accredited by the Ministry of Education"
+    },
+    {
+      "key": "levels",
+      "label": "Age range",
+      "value": "Licensed to teach learners from 6 to 19 years old",
+      "quote": "We are licensed to teach learners from 6 to 19 years old"
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Founded in 2018",
+      "quote": "was founded in 2018 on the paradise island of Koh Phangan"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "British curriculum day and boarding school in Don Muang, Bangkok.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Age range",
+      "value": "Students aged 18 months to 18 years",
+      "quote": "students aged from 18 months to 18 years"
+    },
+    {
+      "key": "curriculum",
+      "label": "Qualifications",
+      "value": "IGCSE and A Level courses",
+      "quote": "IGCSE and A Level courses are followed"
+    },
+    {
+      "key": "location_note",
+      "label": "Campus",
+      "value": "Don Muang, Bangkok",
+      "quote": "campus at Don Muang"
+    }
+  ]
+}

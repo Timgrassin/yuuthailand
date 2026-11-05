@@ -1,0 +1,24 @@
+{
+ "summary": "De Gym Muay Thai Phuket is a Muay Thai-only gym in Phuket that opened in April 2025, with two air-conditioned bungalows for long-stay trainees.",
+ "facts": [
+  {
+   "key": "founded",
+   "label": "Opened",
+   "value": "Opened on 1 April 2025",
+   "quote": "DE GYM MUAY THAI PHUKET ha aperto l’1 aprile 2025"
+  },
+  {
+   "key": "accommodation",
+   "label": "Accommodation",
+   "value": "Two air-conditioned bungalows with Wi-Fi for athletes staying long periods",
+   "quote": "2 bungalow con aria condizionata e Wi-Fi per ospitare gli atleti che vogliono dormire nel campo per lunghi periodi"
+  },
+  {
+   "key": "trainers",
+   "label": "Head coach",
+   "value": "Johmod Kiatadisak teaches as head coach",
+   "quote": "che insegna come head coach al De Gym Muay Thai Phuket"
+  }
+ ],
+ "price_from_thb": null
+}

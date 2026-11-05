@@ -1,0 +1,24 @@
+{
+  "summary": "Phuket international law firm with an immigration law practice area, notarial service and help with visa applications.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Visa applications",
+      "value": "Assists with private matters such as visa applications",
+      "quote": "can assist you in private matters such as Visa Applications"
+    },
+    {
+      "key": "visa_services",
+      "label": "Immigration practice",
+      "value": "Immigration law practice area",
+      "quote": "Thailand Immigration Law can be complex and confusing."
+    },
+    {
+      "key": "location_note",
+      "label": "Hours",
+      "value": "Mon - Fri 09:00-17:00 by appointment",
+      "quote": "Mon - Fri 09:00-17:00 (By appointment)"
+    }
+  ]
+}

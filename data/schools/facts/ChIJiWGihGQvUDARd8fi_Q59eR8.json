@@ -1,0 +1,36 @@
+{
+  "summary": "Muay Thai gym at Kata Beach, Phuket, with daily classes, personal training and on-site accommodation.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Gym at Kata Beach, Phuket",
+      "quote": "We are a Thai Boxing gym located in the beautiful Kata Beach, Phuket"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Classes",
+      "value": "Daily Muay Thai classes",
+      "quote": "DAIlY MUAY THAI CLASSES"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Private accommodation on site",
+      "quote": "PRIVATE ACCOMODATION ON SITE"
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "Trainers are experienced fighters and certified trainers",
+      "quote": "Our trainers are highly experienced fighters and certified trainers"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV page",
+      "value": "Site has a DTV visa page",
+      "quote": "DTV VISA"
+    }
+  ]
+}

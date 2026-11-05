@@ -1,0 +1,24 @@
+{
+  "summary": "TEFL certificate provider in Bangkok running in-person 120-hour courses with job placement support.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "Course length",
+      "value": "120-hour in-person TEFL certificate",
+      "quote": "in-person 120-hour certification course in Bangkok"
+    },
+    {
+      "key": "licence",
+      "label": "Accreditation",
+      "value": "Accredited by TQUK and approved by the Ministry of Education",
+      "quote": "accredited by TQUK and approved by the Ministry of Education"
+    },
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Started in 2007",
+      "quote": "We started in 2007"
+    }
+  ]
+}

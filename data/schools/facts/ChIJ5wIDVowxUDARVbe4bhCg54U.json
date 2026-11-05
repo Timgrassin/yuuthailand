@@ -1,0 +1,30 @@
+{
+  "summary": "Private Chinese language school in Phuket teaching HSK, YCT and BCT levels, with exam preparation and an HSK test center.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "School licence",
+      "value": "Official school licence No. 7/2013, non-formal education",
+      "quote": "License No. 7/2013 · Non-formal Education"
+    },
+    {
+      "key": "levels",
+      "label": "HSK levels",
+      "value": "Standard HSK levels 1 to 6",
+      "quote": "Standard HSK 1–6"
+    },
+    {
+      "key": "curriculum",
+      "label": "Exam preparation",
+      "value": "HSK, YCT and BCT tutoring",
+      "quote": "HSK/YCT/BCT Tutoring"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Language taught",
+      "value": "Chinese",
+      "quote": "International standard Chinese"
+    }
+  ]
+}

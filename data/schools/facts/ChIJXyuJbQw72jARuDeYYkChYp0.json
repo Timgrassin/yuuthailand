@@ -1,0 +1,42 @@
+{
+  "summary": "Backyard Muay Thai gym in Chiang Mai with twice-daily sessions, drop-in classes and on-site rooms.",
+  "price_from_thb": 400,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Drop-in class",
+      "value": "฿400 per session, all levels",
+      "quote": "Drop-in class ฿400"
+    },
+    {
+      "key": "price_month",
+      "label": "Weekly pass",
+      "value": "From ฿2,000, morning or evening",
+      "quote": "Weekly pass from ฿2,000"
+    },
+    {
+      "key": "accommodation",
+      "label": "Room plus training",
+      "value": "From ฿7,000 per week, 2 sessions a day",
+      "quote": "Room + training from ฿7,000"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Schedule",
+      "value": "Twice daily, six days a week",
+      "quote": "Twice daily. Six days a week."
+    },
+    {
+      "key": "class_size",
+      "label": "Session size",
+      "value": "Never more than 30 per session",
+      "quote": "Never more than 30 per session"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Muay Thai all level",
+      "quote": "Muay Thai all level"
+    }
+  ]
+}

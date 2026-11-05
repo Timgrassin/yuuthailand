@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok visa and work permit consultancy handling Thai visa, extension and immigration reporting services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Education Visa service listed",
+      "quote": "วีซ่านักเรียน,นักศึกษา / Education Visa"
+    },
+    {
+      "key": "services",
+      "label": "Retirement visa",
+      "value": "Retirement Visa service listed",
+      "quote": "วีซ่าเกษียณอายุ / Retirement Visa"
+    },
+    {
+      "key": "services",
+      "label": "90-day report",
+      "value": "90 Day Report to Immigration service",
+      "quote": "90 Day Report to Immigration"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "Combined 10 years of staff experience in immigration and legal issues",
+      "quote": "the combined 10 years experiences of our staff in Immigration and Legal issues"
+    }
+  ]
+}

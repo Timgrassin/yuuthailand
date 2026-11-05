@@ -1,0 +1,12 @@
+{
+  "summary": "Thai cooking classes on Koh Tao run by a local restaurant owner, bookable online.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Operating history",
+      "value": "Cooking school running for over 5 years",
+      "quote": "has been running for over 5 years"
+    }
+  ]
+}

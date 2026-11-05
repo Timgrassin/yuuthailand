@@ -1,0 +1,30 @@
+{
+  "summary": "English and Chinese school for children aged 1 to 12 using the Montessori method, with a preschool programme.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Small groups of 5 to 8 children",
+      "quote": "Small groups of 5 to 8 children"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "English and Chinese for children aged 1 to 12",
+      "quote": "turns English and Chinese into a second home language for children aged 1 to 12"
+    },
+    {
+      "key": "levels",
+      "label": "Level placement",
+      "value": "Every child placed by level after a free assessment",
+      "quote": "Every child is placed by level after a free assessment"
+    },
+    {
+      "key": "founded",
+      "label": "Teaching since",
+      "value": "Teaching since 2009",
+      "quote": "English & Chinese school for kids · since 2009"
+    }
+  ]
+}

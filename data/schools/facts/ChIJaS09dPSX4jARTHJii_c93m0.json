@@ -1,0 +1,18 @@
+{
+  "summary": "English language school offering private and group English courses (page mostly in Thai).",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Adult course",
+      "value": "General English for Adults, private",
+      "quote": "General English for Adults ( Private )"
+    },
+    {
+      "key": "curriculum",
+      "label": "Group courses",
+      "value": "Public speaking and grammar courses, group",
+      "quote": "Public speaking ( Group )"
+    }
+  ]
+}

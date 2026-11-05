@@ -1,0 +1,36 @@
+{
+  "summary": "Thai massage school in Chiang Mai teaching Northern Style Thai massage, with short courses and 30-hour weekly levels.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Northern Style Thai massage taught since 1962",
+      "quote": "started at the Old Medicine Hospital Thai Massage School Shevagakomarapaj in 1962"
+    },
+    {
+      "key": "course_length",
+      "label": "Course range",
+      "value": "2-day foot, 3-day introduction and 5-day complete courses",
+      "quote": "from a 2-day Foot Massage course, a 3-day Introduction to Thai massage, and comprehensive 5-day complete Thai Massage courses"
+    },
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "Certificate of completion for 5-day courses",
+      "quote": "with a certificate of completion"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Level hours",
+      "value": "Foundation levels run Monday to Friday, 30 hours",
+      "quote": "Meets every week Monday to Friday (30-hr) NCBTMB."
+    },
+    {
+      "key": "start_dates",
+      "label": "Start",
+      "value": "Foundation course starts each Monday",
+      "quote": "Foundation course starts each Monday"
+    }
+  ]
+}

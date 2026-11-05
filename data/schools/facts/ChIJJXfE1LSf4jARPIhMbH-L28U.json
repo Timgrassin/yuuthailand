@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok visa and work permit consultancy with Japanese-speaking staff (page in Japanese).",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "One minute from BTS Phrom Phong, ground floor of Terminal building",
+      "quote": "場所はBTSプロンポン駅から１分！"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "More than 15 years of visa experience in Thailand",
+      "quote": "タイで１５年以上のエキスパート"
+    },
+    {
+      "key": "services",
+      "label": "Services",
+      "value": "Visas, work permits, company registration, tax registration, licences, accounting, legal",
+      "quote": "VISA、Oビザ・Bビザ・ビザ各種、労働許可証、会社登記、税務登記、各種ライセンス取得、会計、法律"
+    }
+  ]
+}

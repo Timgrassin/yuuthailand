@@ -1,0 +1,36 @@
+{
+  "summary": "Thai cookery school in Ao Nang with morning, afternoon, dinner and special courses priced per person.",
+  "price_from_thb": 500,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Pineapple fried rice course",
+      "value": "500 Bath per person, minimum 2 persons",
+      "quote": "500 Bath / Person"
+    },
+    {
+      "key": "price_course",
+      "label": "Morning course",
+      "value": "1,300 Bath per person, minimum 2 people",
+      "quote": "1,300 Bath / Person"
+    },
+    {
+      "key": "price_course",
+      "label": "Dinner course",
+      "value": "1,500 Bath per person, minimum 2 people",
+      "quote": "1,500 Bath / Person"
+    },
+    {
+      "key": "price_course",
+      "label": "Full day fruit carving",
+      "value": "2,500 Bath per person",
+      "quote": "2,500 Bath / Person"
+    },
+    {
+      "key": "class_size",
+      "label": "Minimum group",
+      "value": "Minimum 2 people for most courses",
+      "quote": "minimum 2 people"
+    }
+  ]
+}

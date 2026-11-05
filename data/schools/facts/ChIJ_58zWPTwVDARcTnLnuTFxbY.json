@@ -1,0 +1,30 @@
+{
+  "summary": "Cooking school in Bophut, Koh Samui offering private classes, professional training and a 12-month Thai cooking course.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "12-month course",
+      "value": "One-year programme with over 60 recipes and monthly certifications",
+      "quote": "This one-year program combines over 60 authentic recipes with monthly certifications"
+    },
+    {
+      "key": "course_length",
+      "label": "Intensive training",
+      "value": "3 to 6 days to master 24 to 48 dishes, with professional certificate",
+      "quote": "In 3 to 6 days you will master 24 to 48 dishes, with personalized guidance and a professional certificate."
+    },
+    {
+      "key": "curriculum",
+      "label": "3-hour class",
+      "value": "Private class with market tour, two recipes from a menu of over 200 dishes",
+      "quote": "Choose from a menu of more than 200 authentic Thai dishes and prepare two recipes completely from scratch"
+    },
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "Professional certificate on intensive training",
+      "quote": "a professional certificate"
+    }
+  ]
+}

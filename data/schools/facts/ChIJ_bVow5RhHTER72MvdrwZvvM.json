@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok hotel and tourism management school offering diploma and certificate programs, including food and beverage.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "Diploma",
+      "value": "2-year diploma in Hotel and Tourism Management",
+      "quote": "2-Year Diploma Program"
+    },
+    {
+      "key": "course_length",
+      "label": "Certificates",
+      "value": "1-year certificates in Room Division and Food and Beverages Division",
+      "quote": "1-Year Certificate"
+    },
+    {
+      "key": "curriculum",
+      "label": "Intakes",
+      "value": "4 intakes a year with guaranteed internship opportunities",
+      "quote": "4 intakes offer flexible start dates with guaranteed internship opportunities"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Ramkhamhaeng Road Soi 50, Bang Kapi, Bangkok",
+      "quote": "79 Ramkhamhaeng Road Soi 50, Hua-mark"
+    }
+  ]
+}

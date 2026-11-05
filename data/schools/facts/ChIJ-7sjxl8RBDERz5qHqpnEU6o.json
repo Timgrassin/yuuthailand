@@ -1,0 +1,11 @@
+{
+  "summary": "Koh Chang Sports Arena at Kai Bae Beach runs Muay Thai training with a ring alongside six covered pickleball courts.",
+  "price_from_thb": 600,
+  "facts": [
+    {"key": "price_session", "label": "Single session", "value": "600 THB for a 1.5 hour session", "quote": "Single Session 1.5 hours 600 ฿"},
+    {"key": "price_month", "label": "Monthly training", "value": "12,000 THB for a full month, unlimited", "quote": "One Month full month, unlimited 12,000 ฿"},
+    {"key": "price_course", "label": "Weekly training", "value": "3,000 THB for one week of unlimited classes", "quote": "One Week unlimited classes 3,000 ฿"},
+    {"key": "levels", "label": "Levels", "value": "Beginners through advanced fighters", "quote": "Authentic Muay Thai Instruction for beginners through advanced fighters."},
+    {"key": "location_note", "label": "Location", "value": "Rung Rueang Market, Kai Bae Beach, Koh Chang", "quote": "Rung Rueang Market Kai Bae Beach, Koh Chang"}
+  ]
+}

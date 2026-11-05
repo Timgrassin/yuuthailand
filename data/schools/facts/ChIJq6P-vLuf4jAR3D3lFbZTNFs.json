@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok accounting, tax, legal and visa firm for SMEs, offering work permits, business visas and retirement visas at published fees.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Founded in Bangkok in 2015",
+      "quote": "Founded in Bangkok in 2015"
+    },
+    {
+      "key": "location_note",
+      "label": "Fee policy",
+      "value": "Fixed fees agreed before work starts, excluding 7% VAT and government fees",
+      "quote": "Fixed fees, agreed before we start. All prices exclude 7% VAT and government fees."
+    },
+    {
+      "key": "location_note",
+      "label": "Visa services",
+      "value": "Work permits and visas for founders, staff and their families",
+      "quote": "Work permits and visas for founders, staff and their families."
+    }
+  ]
+}

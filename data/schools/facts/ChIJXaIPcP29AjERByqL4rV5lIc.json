@@ -1,0 +1,30 @@
+{
+  "summary": "Law and notary office in Pattaya that also offers real estate, accounting and visa services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Founded in 1986 in Pattaya",
+      "quote": "The German-Thai Group was founded 1986 in Pattaya / Thailand."
+    },
+    {
+      "key": "services",
+      "label": "Services",
+      "value": "Visa services offered alongside accounting",
+      "quote": "we also offer accounting services as well as visa services"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Staff languages",
+      "value": "Team speaks English, Thai and German",
+      "quote": "We speak English, Thai and German."
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "Naklua Road, Banglamung, Chonburi",
+      "quote": "157/142 Moo 5, Naklua Road, Banglamung, Chonburi 20150"
+    }
+  ]
+}

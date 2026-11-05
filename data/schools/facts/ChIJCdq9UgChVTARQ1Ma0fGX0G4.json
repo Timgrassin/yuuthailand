@@ -1,0 +1,36 @@
+{
+  "summary": "Koh Tao centre offering freediving courses and retreats, yoga trainings and dormitory stays.",
+  "price_from_thb": 8500,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "Level 1 freediving retreat",
+      "value": "Three days and three nights with Level 1 certification to 20 metres",
+      "quote": "Three days and three nights: Level 1 certification to 20 metres"
+    },
+    {
+      "key": "price_course",
+      "label": "Freediving retreat price",
+      "value": "Course only price of 8,500 THB",
+      "quote": "course only 8,500 thb"
+    },
+    {
+      "key": "price_session",
+      "label": "Yoga class price",
+      "value": "350 THB per yoga class in the sea-view shala",
+      "quote": "350 thb gets you a class in the sea-view shala"
+    },
+    {
+      "key": "accommodation",
+      "label": "Dorm stay",
+      "value": "Bed and Breakfast from 1,000 THB",
+      "quote": "Bed & Breakfast from 1,000 thb"
+    },
+    {
+      "key": "levels",
+      "label": "Yoga training",
+      "value": "200-hour yoga teacher training from 85,000 THB",
+      "quote": "200-hour training from 85,000 thb"
+    }
+  ]
+}

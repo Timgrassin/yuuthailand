@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok Thai cooking class with joined and private sessions, team building and a farm stay.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Group size",
+      "value": "Groups of 8 to 14 students",
+      "quote": "group size of 8-14 students"
+    },
+    {
+      "key": "course_length",
+      "label": "Class length",
+      "value": "3 hours per class, daily",
+      "quote": "We offer 3 hours of joining class everyday"
+    },
+    {
+      "key": "certificate",
+      "label": "Recipe book",
+      "value": "Each student receives a recipe book after class",
+      "quote": "will be given a recipe book after the class"
+    },
+    {
+      "key": "curriculum",
+      "label": "Team building",
+      "value": "Four dishes in team-building class",
+      "quote": "Bond over 4 different dishes"
+    }
+  ]
+}

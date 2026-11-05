@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok business law firm that also offers Thailand visa and work permit services and real estate advice.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Visa services",
+      "value": "Work visa (work permit) applications through the employing company",
+      "quote": "You can apply for a work visa (work permit) through the company that intends to engage foreign workers."
+    },
+    {
+      "key": "location_note",
+      "label": "Offices",
+      "value": "Bangkok and Phuket offices",
+      "quote": "Phuket Office:"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "Team with over 10 years of experience",
+      "quote": "over 10 years of experience in a variety of fields"
+    }
+  ]
+}

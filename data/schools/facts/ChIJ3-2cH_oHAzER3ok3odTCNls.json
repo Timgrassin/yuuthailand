@@ -1,0 +1,36 @@
+{
+  "summary": "Muay Thai camp in Rayong, 500 metres from Suan Son Beach, with group and private training, accommodation and DTV support.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV support",
+      "value": "Official Muay Thai training camp for DTV applicants with supporting documents",
+      "quote": "official Muay Thai training camp for Destination Thailand Visa (DTV) applicants"
+    },
+    {
+      "key": "licence",
+      "label": "Licensed gym",
+      "value": "Licensed gym providing DTV supporting documentation",
+      "quote": "Our licensed gym provides the official supporting documentation required for long-term DTV applications"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Group training schedule",
+      "value": "Group training twice a day, Monday to Saturday",
+      "quote": "We train twice a day, Monday to Saturday."
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Group training, private lessons and accommodation offered",
+      "quote": "We offer group training, private lessons, and accommodation"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "500 metres from Suan Son Beach",
+      "quote": "Just 500 metres from the sea at Suan Son Beach."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "AUA Language Center branch in Chiang Rai offering English and Thai courses.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Bi-national center established in 1952",
+      "quote": "AUA Language Center was established as a bi-national center in 1952"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "630 Singhakhlai Rd., Wiang, Muang, Chiang Rai 57000",
+      "quote": "630 Singhakhlai Rd., Wiang, Muang, Chiang Rai 57000"
+    },
+    {
+      "key": "location_note",
+      "label": "Branch location",
+      "value": "Directly behind Tung Park in downtown Chiang Rai",
+      "quote": "Located directly behind Tung Park in downtown Chiang Rai."
+    },
+    {
+      "key": "curriculum",
+      "label": "English courses",
+      "value": "Includes English for Communication, English for Business and English for Academic Purposes",
+      "quote": "English for Academic Purposes (EAP)"
+    }
+  ]
+}

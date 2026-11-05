@@ -1,0 +1,30 @@
+{
+  "summary": "Parawan's Thai Home Cooking Classes offers group, private and online Thai cooking classes at a rooftop home school in Sairee Village, Koh Tao.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Group class size",
+      "value": "Group classes of 1 to 7 people, private classes of 1 to 6",
+      "quote": "Group classes (1&ndash;7 people), private classes (1&ndash;6 people)"
+    },
+    {
+      "key": "curriculum",
+      "label": "Menu",
+      "value": "Students choose 3 dishes from the class menu",
+      "quote": "you choose 3 dishes from the class menu"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Rooftop of a house in Sairee Village, Koh Tao",
+      "quote": "located on the rooftop of my house in Sairee Village, Koh Tao"
+    },
+    {
+      "key": "course_length",
+      "label": "Opening hours",
+      "value": "Mon to Fri 9:30 to 18:00, Sat and Sun 14:00 to 18:00",
+      "quote": "Mon - Fri 9:30 - 18:00 Sat - Sun 14:00 - 18:00"
+    }
+  ]
+}

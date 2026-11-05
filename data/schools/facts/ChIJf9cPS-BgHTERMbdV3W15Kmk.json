@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai and Muay Boran school on the outskirts of Bangkok offering classes, instructor certifications and accommodation.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Ministry of Education",
+      "value": "Accredited by Thailand's Ministry of Education",
+      "quote": "Accredited by Thailands Ministry of Education"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Daily classes",
+      "value": "Daily classes in Muay Thai and Muay Boran",
+      "quote": "daily classes in Muay Thai & Muay Boran"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Outskirts of Bangkok",
+      "quote": "Set on the outskirts of Bangkok"
+    },
+    {
+      "key": "certificate",
+      "label": "Certifications",
+      "value": "Muay Thai teacher and student certifications under KMA and WMBF",
+      "quote": "Muay Thai teacher certifications and student certifications under the KMA and WMBF"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "summary": "International law firm advising global investors on cross-border corporate matters and residency or citizenship by investment.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Investment immigration",
+      "value": "Legal support for residency or citizenship by investment, including program selection and application management",
+      "quote": "Strategic legal support for individuals and families pursuing residency or citizenship by investment , including program selection and application management."
+    },
+    {
+      "key": "founded",
+      "label": "Practice",
+      "value": "Corporate law, M&A, regulatory, IP and commercial matters",
+      "quote": "corporate law and M&A , investment immigration , regulatory and compliance"
+    }
+  ]
+}

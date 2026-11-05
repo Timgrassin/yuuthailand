@@ -1,0 +1,24 @@
+{
+  "summary": "Visa service hub on Koh Phi Phi offering Muay Thai ED visa and DTV and long-stay consultation.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Muay Thai ED visa",
+      "value": "Offers a Muay Thai ED visa service",
+      "quote": "Muay Thai ED Visa"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV consultation",
+      "value": "Offers DTV and long-stay consultation",
+      "quote": "DTV & Longstay Consultation"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Describes itself as the first and only visa service hub on Koh Phi Phi",
+      "quote": "Visa Service Hub on Koh Phi Phi"
+    }
+  ]
+}

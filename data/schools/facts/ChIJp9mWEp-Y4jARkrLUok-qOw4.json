@@ -1,0 +1,36 @@
+{
+  "summary": "Thai yoga massage school in Bangkok teaching Thai yoga massage, foot reflexology and Ruesi Datton courses.",
+  "price_from_thb": 3500,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "1 day intensive course",
+      "value": "Basic 3,500 B. and Professional 4,500 B.",
+      "quote": "1 Day Intensive Course (Basic 3,500 B.) (Professional 4,500 B.)"
+    },
+    {
+      "key": "certificate",
+      "label": "Teacher courses",
+      "value": "Teacher courses with authorised certificate",
+      "quote": "We offer “Teacher Courses” with authorised certificate"
+    },
+    {
+      "key": "curriculum",
+      "label": "Courses",
+      "value": "Thai Yoga Massage, Thai Foot Reflexology and Ruesi Datton courses",
+      "quote": "Thai Foot Reflexology Courses"
+    },
+    {
+      "key": "licence",
+      "label": "Instructor licence course",
+      "value": "Advanced Thai yoga massage instructor license course",
+      "quote": "Advance thai yoga massage instructor license course"
+    },
+    {
+      "key": "accommodation",
+      "label": "Nearby accommodation",
+      "value": "Recommended places within 10-15 minutes walk of the school",
+      "quote": "Recommendations for Accommodations (Near our school by walk 10-15 minutes)"
+    }
+  ]
+}

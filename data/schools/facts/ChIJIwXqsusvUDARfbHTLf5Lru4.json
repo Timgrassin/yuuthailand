@@ -1,0 +1,24 @@
+{
+  "summary": "Language school in Phuket teaching English, Thai, Burmese, Chinese, German and French, with student visa support (Russian-language site).",
+  "price_from_thb": 5000,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa support",
+      "value": "Arranges student (ED) visas, plus retirement and marriage visas",
+      "quote": "Да, мы оформляем студенческую (ED), пенсионную и брачную визы"
+    },
+    {
+      "key": "price_course",
+      "label": "Language course from",
+      "value": "Language courses start from 5,000 THB (promotional; visa support is separate)",
+      "quote": "Начни новую жизнь на Пхукете уже сегодня: старт всего за 5 000 ฿"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages taught",
+      "value": "English, Burmese, Chinese, German, French and Thai",
+      "quote": "Английский язык \n Тайский язык \n Бирманский язык \n Китайский язык \n Немецкий язык \n Французский язык"
+    }
+  ]
+}

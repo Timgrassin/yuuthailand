@@ -1,0 +1,24 @@
+{
+ "summary": "Pum Thai Restaurant & Cooking School in Patong offers hands-on Thai cooking classes in Phuket for beginners to aspiring professionals.",
+ "price_from_thb": 1499,
+ "facts": [
+  {
+   "key": "price_session",
+   "label": "Andaman Pum class",
+   "value": "2 hours for 1,499 THB per person",
+   "quote": "2 Hrs &#8211; 1,499 THB"
+  },
+  {
+   "key": "course_length",
+   "label": "Class length",
+   "value": "Quick class of 2 hours, three classic Thai dishes",
+   "quote": "Learn three classic Thai dishes in this quick"
+  },
+  {
+   "key": "curriculum",
+   "label": "Levels",
+   "value": "Classes for every ability, from beginner to aspiring professional",
+   "quote": "We offer a variety of classes for every ability, preference and palate whether you are a beginner or an aspiring professional."
+  }
+ ]
+}

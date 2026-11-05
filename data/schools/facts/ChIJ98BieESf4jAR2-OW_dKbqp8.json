@@ -1,0 +1,36 @@
+{
+  "summary": "Company incorporation, accounting, serviced office and visa services provider with a Phrom Phong head office in Bangkok.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Retirement visa",
+      "value": "Support for retirement visa applications including financial evidence documentation",
+      "quote": "Support for retirement visa applications, including assistance with financial evidence documentation."
+    },
+    {
+      "key": "services",
+      "label": "Non-O visa",
+      "value": "Support for Non-O visa applications",
+      "quote": "Practical, efficient support for Non-O visa applications, with a focus on timely filing."
+    },
+    {
+      "key": "services",
+      "label": "LTR visa",
+      "value": "Offers LTR visa by BOI, a 10-year renewable visa",
+      "quote": "Long-Term Resident (LTR) Visa is a 10-year renewable visa"
+    },
+    {
+      "key": "founded",
+      "label": "Thailand since",
+      "value": "Operating in Thailand since 2018",
+      "quote": "operating in Thailand since 2018"
+    },
+    {
+      "key": "location_note",
+      "label": "Phrom Phong office",
+      "value": "29 Sukhumvit Soi 39",
+      "quote": "Phrom Phong &mdash; 29 Sukhumvit Soi 39"
+    }
+  ]
+}

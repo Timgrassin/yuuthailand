@@ -1,0 +1,48 @@
+{
+  "summary": "Muay Thai camp on Koh Phangan with drop-in classes, weekly and monthly packages, private coaching and an all-inclusive Zero to Hero month.",
+  "price_from_thb": 400,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Drop-in",
+      "value": "฿400 for 1 session, ฿700 for 2 sessions",
+      "quote": "1 entraînement : ฿400 · 2 entraînements : ฿700"
+    },
+    {
+      "key": "price_month",
+      "label": "Monthly pack",
+      "value": "฿7,500 per month for 1 session a day, ฿12,000 for 2 a day",
+      "quote": "1 entraînement / jour : ฿2 000 la semaine, ฿7 500 le mois"
+    },
+    {
+      "key": "price_session",
+      "label": "Private coaching",
+      "value": "฿900 per individual session",
+      "quote": "Séance individuelle : ฿900"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Individual air-conditioned room at the camp, included in stays",
+      "quote": "tu dors au camp, juste à côté du gym, dans une chambre individuelle avec la climatisation"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Class hours",
+      "value": "Monday to Saturday 08:00 to 10:00 and 16:00 to 18:00",
+      "quote": "Lun – Sam 08:00 – 10:00"
+    },
+    {
+      "key": "course_length",
+      "label": "Zero to Hero",
+      "value": "One month at the camp with two sessions a day",
+      "quote": "Un mois au camp, deux sessions par jour"
+    },
+    {
+      "key": "founded",
+      "label": "Opened",
+      "value": "Camp opened in 2019",
+      "quote": "2019 Année de création"
+    }
+  ]
+}

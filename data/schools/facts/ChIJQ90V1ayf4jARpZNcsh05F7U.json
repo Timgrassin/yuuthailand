@@ -1,0 +1,30 @@
+{
+  "summary": "Mandarin language academy for children in Bangkok with weekly classes, themed camps and YCT and HSK exam preparation.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Weekly classes",
+      "value": "Weekly Mandarin program with immersive lessons and homework",
+      "quote": "A weekly Mandarin program featuring immersive lessons, age-appropriate themes, homework"
+    },
+    {
+      "key": "curriculum",
+      "label": "Exam preparation",
+      "value": "Short-term YCT and HSK certification preparation with mock tests",
+      "quote": "A short-term exam preparation program with focused practice, mock tests, and teacher guidance to build confidence for YCT and HSK certifications."
+    },
+    {
+      "key": "languages_taught",
+      "label": "Language taught",
+      "value": "Mandarin",
+      "quote": "A weekly Mandarin program"
+    },
+    {
+      "key": "curriculum",
+      "label": "Trial class",
+      "value": "1 hour trial for parents and children",
+      "quote": "A guided 1 hour trial experience"
+    }
+  ]
+}

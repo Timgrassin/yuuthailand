@@ -1,0 +1,18 @@
+{
+  "summary": "British international school on Koh Phangan for pupils aged 5 to 16.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Ages",
+      "value": "Pupils aged 5 to 16",
+      "quote": "for pupils aged 5&ndash;16"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Koh Phangan, Thailand",
+      "quote": "Si Ri Panya International School | Koh Phangan, Thailand"
+    }
+  ]
+}

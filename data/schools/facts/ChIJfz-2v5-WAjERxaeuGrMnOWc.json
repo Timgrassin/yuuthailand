@@ -1,0 +1,30 @@
+{
+  "summary": "Certified translation and notary office in Pattaya that also prepares documents for visa applications.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Visa documents",
+      "value": "Translation and certification of documents for visa applications and extensions",
+      "quote": "Translation and certification of all documents required for Thai visa applications, extensions, and immigration purposes."
+    },
+    {
+      "key": "course_length",
+      "label": "Turnaround",
+      "value": "Standard certified translation takes 1-2 business days",
+      "quote": "Standard certified translation takes 1–2 business days"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Pratamnak Soi 5, Pattaya",
+      "quote": "Pratamnak Soi 5, Pattaya"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "20+ years of experience",
+      "quote": "Years of Experience"
+    }
+  ]
+}

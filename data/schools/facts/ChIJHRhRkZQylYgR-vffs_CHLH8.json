@@ -1,0 +1,30 @@
+{
+  "summary": "Agent offering Thailand Privilege (Elite) card memberships, with LTR and DTV visa pages.",
+  "price_from_thb": 650000,
+  "facts": [
+    {
+      "key": "price_service",
+      "label": "Bronze membership fee",
+      "value": "THB 650,000 including VAT for 5 years",
+      "quote": "Membership fee: THB 650,000 (VAT included)"
+    },
+    {
+      "key": "visa_services",
+      "label": "Approval time",
+      "value": "Elite visa approval stated as 4 weeks",
+      "quote": "Your Thai Elite Visa will be approved in just 4 weeks."
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Chinese, English, French, Turkish and Japanese",
+      "quote": "We are fluent in Chinese, English, French, Turkish, and Japanese."
+    },
+    {
+      "key": "visa_services",
+      "label": "Bronze validity",
+      "value": "5-year residency",
+      "quote": "providing a 5-year residency in Thailand"
+    }
+  ]
+}

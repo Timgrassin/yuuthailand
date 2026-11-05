@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok legal, accounting and immigration consultancy covering Thai visas for foreigners.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa types",
+      "value": "Business, dependent, retirement and Long-Term Resident visas, and tourist visa conversion",
+      "quote": "Conversion of Tourist Visa"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "15+ years of experience",
+      "quote": "Years of Experience"
+    }
+  ]
+}

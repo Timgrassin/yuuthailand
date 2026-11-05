@@ -1,0 +1,24 @@
+{
+  "summary": "Visa assistance office on Koh Samui offering appointment-based consultations at several island locations.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Appointments",
+      "value": "RSVP required for office hours",
+      "quote": "RSVP required."
+    },
+    {
+      "key": "location_note",
+      "label": "Locations",
+      "value": "Main office plus Lamai, Nathon and Bophut office hours",
+      "quote": "Office hours around Koh Samui"
+    },
+    {
+      "key": "location_note",
+      "label": "Main office hours",
+      "value": "Tuesday 14:00 - 16:00 among other slots",
+      "quote": "Tuesday: 14:00 - 16:00"
+    }
+  ]
+}

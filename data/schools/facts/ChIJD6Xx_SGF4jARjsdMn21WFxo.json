@@ -1,0 +1,18 @@
+{
+  "summary": "Children's English language club branch in Bangkok teaching ages 1 to 13 with songs, stories, movement, games and structured language practice.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Ages",
+      "value": "Welcomes children from one to thirteen years old",
+      "quote": "children from one to thirteen years old"
+    },
+    {
+      "key": "curriculum",
+      "label": "Teaching approach",
+      "value": "Songs, stories, movement, games and structured language practice without screens",
+      "quote": "combines songs, stories, movement, games, and structured language practice without relying on screens"
+    }
+  ]
+}

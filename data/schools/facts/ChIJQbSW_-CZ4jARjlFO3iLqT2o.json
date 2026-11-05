@@ -1,0 +1,24 @@
+{
+  "summary": "School in Bangkok for migrant workers from Burma, run by a foundation, with free legal aid.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Enrolment",
+      "value": "Over 1600 students per semester",
+      "quote": "Student Enrollment: Over 1600 per semester."
+    },
+    {
+      "key": "founded",
+      "label": "Students taught",
+      "value": "Over 26,000 students taught since 2002",
+      "quote": "Dear Burma Students taught: Over 26,000 since 2002."
+    },
+    {
+      "key": "location_note",
+      "label": "Legal aid",
+      "value": "Free legal aid for migrant workers",
+      "quote": "We provide free legal aid"
+    }
+  ]
+}

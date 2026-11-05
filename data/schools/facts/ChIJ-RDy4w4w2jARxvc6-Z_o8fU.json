@@ -1,0 +1,18 @@
+{
+  "summary": "Chiang Mai law firm offering civil and criminal litigation, contracts, business registration, land leases and legal assistance for foreign investors including work permits.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Work permits",
+      "value": "Legal assistance for foreign investors includes land rights and work permits",
+      "quote": "Legal Assistance for Foreign Investors Land Rights Work Permits"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "410/3 Mahidol Road, Chiang Mai 50100",
+      "quote": "410/3 Mahidol Road A.Mung Chiang Mai 50100"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "Muay Thai gym in Ao Nang, Krabi, offering training for guests at all levels.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "trainers",
+      "label": "Trainer experience",
+      "value": "Teacher with more than 20 years of Muay Thai experience",
+      "quote": "a teacher who has more than 20 years of Muay Thai experience"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Ao Nang, Krabi",
+      "quote": "located in Krabi, Ao Nang"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Guests at all levels",
+      "quote": "serving guests at all levels"
+    }
+  ]
+}

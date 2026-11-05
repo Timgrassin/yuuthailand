@@ -1,0 +1,18 @@
+{
+  "summary": "Koh Samui law firm offering property, contract, company, notarial and translation services, plus visas and extensions.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Visa services",
+      "value": "Offers help with visas and extensions",
+      "quote": "Visas and extensions"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Team based in Bophut, Koh Samui",
+      "quote": "Contact our team in Bophut"
+    }
+  ]
+}

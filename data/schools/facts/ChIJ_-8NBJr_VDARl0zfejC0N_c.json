@@ -1,0 +1,30 @@
+{
+  "summary": "Thongbai Kitchen is a home cooking class on Koh Phangan, with optional villa classes and meals.",
+  "price_from_thb": 2000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Class price",
+      "value": "2000 THB per person for a class of 3 Thai dishes and one dessert",
+      "quote": "Price: 2000 THB per person. The class takes about 3 hours."
+    },
+    {
+      "key": "curriculum",
+      "label": "Menu",
+      "value": "3 Thai dishes and one dessert",
+      "quote": "3 Thai dishes and one dessert"
+    },
+    {
+      "key": "course_length",
+      "label": "Class length",
+      "value": "About 3 hours",
+      "quote": "The class takes about 3 hours."
+    },
+    {
+      "key": "price_course",
+      "label": "Villa class price",
+      "value": "3000 Baht per person at your villa",
+      "quote": "Price: 3000 Baht per Person"
+    }
+  ]
+}

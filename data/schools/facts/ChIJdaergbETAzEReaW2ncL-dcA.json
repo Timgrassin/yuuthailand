@@ -1,0 +1,18 @@
+{
+  "summary": "Law firm with a Bangkok office offering company, litigation and visa and work permit services; the page lists a visa package for foreigners.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa service",
+      "value": "Lists Visa & Work Permit and special packages for foreigners arriving in Thailand",
+      "quote": "SPECIAL PACKAGES FOR FOREIGNERS ARRIVED THAILAND"
+    },
+    {
+      "key": "location_note",
+      "label": "Office",
+      "value": "Bhiraj Tower at Emquartier, Sukhumvit Soi 35, Bangkok",
+      "quote": "689 Bhiraj Tower at Emquartier"
+    }
+  ]
+}

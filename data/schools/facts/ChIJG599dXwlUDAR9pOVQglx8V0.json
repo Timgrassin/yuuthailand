@@ -1,0 +1,42 @@
+{
+  "summary": "Thai cooking school in Bangkok and Phuket offering group, private and team classes plus DTV cooking course programs.",
+  "price_from_thb": 29400,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV enrollment letter",
+      "value": "Enrollment letter for a 5-year multiple-entry DTV with the cooking program",
+      "quote": "Enrollment letter for a 5-year multiple-entry Destination Thailand Visa (DTV)"
+    },
+    {
+      "key": "price_course",
+      "label": "9-month DTV program",
+      "value": "THB 29,400 in Bangkok for 12 classes",
+      "quote": "Price: THB 29,400 (Bangkok)"
+    },
+    {
+      "key": "price_course",
+      "label": "12-month DTV program",
+      "value": "THB 38,900 in Bangkok for 16 classes",
+      "quote": "Price: THB 38,900 (Bangkok)"
+    },
+    {
+      "key": "price_course",
+      "label": "Visa support package",
+      "value": "THB 7,000 plus visa application fee",
+      "quote": "Price: THB 7,000 + Visa Application Fee"
+    },
+    {
+      "key": "course_length",
+      "label": "Group class length",
+      "value": "3.5-hour group class with market tour",
+      "quote": "This 3.5-hour class offers you a chance to meet new friends from around the globe."
+    },
+    {
+      "key": "class_size",
+      "label": "Private class size",
+      "value": "1 to 15 people",
+      "quote": "class size of 1–15 people"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "Muay Thai gym in Bangkok offering fighter development and fit and fun packages.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "accommodation",
+      "label": "Accommodation option",
+      "value": "Deluxe package with a private apartment",
+      "quote": "Deluxe - Private Apartment"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Packages",
+      "value": "Fighter Development Package and Muaythai Fit & Fun Package",
+      "quote": "Muaythai Fit & Fun Package"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Vibhavadi Rangsit Rd, Chatuchak, Bangkok",
+      "quote": "270 Vibhavadi Rangsit Rd, Chom Phon, Chatuchak, Bangkok 10900"
+    }
+  ]
+}

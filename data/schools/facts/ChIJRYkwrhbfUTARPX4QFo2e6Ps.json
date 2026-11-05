@@ -1,0 +1,36 @@
+{
+  "summary": "Muay Thai gym on Koh Phi Phi, Krabi with group, private and Education Visa training packages.",
+  "price_from_thb": 700,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Offers Education Visa packages for people who want to stay and train",
+      "quote": "We offer Education Visa packages for international enthusiasts who want to stay and train"
+    },
+    {
+      "key": "price_session",
+      "label": "Single class",
+      "value": "700 THB for 1 class",
+      "quote": "Session/day 700 THB"
+    },
+    {
+      "key": "price_month",
+      "label": "Monthly group training",
+      "value": "18,900 THB per month, 1 class per day",
+      "quote": "Session/month 18,900 THB"
+    },
+    {
+      "key": "price_session",
+      "label": "Private class",
+      "value": "1,500 THB per private session",
+      "quote": "Private class 1,500 THB"
+    },
+    {
+      "key": "levels",
+      "label": "Experience needed",
+      "value": "No prior experience needed",
+      "quote": "No experience is needed!"
+    }
+  ]
+}

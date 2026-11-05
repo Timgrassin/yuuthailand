@@ -1,0 +1,42 @@
+{
+  "summary": "Montessori school in Ao Nang, Krabi for children aged 1.5 to 6, with English as the classroom language.",
+  "price_from_thb": 18000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Term fees",
+      "value": "฿18,000 or ฿24,000 per three-month term depending on age",
+      "quote": "฿18,000 or ฿24,000 per three-month term"
+    },
+    {
+      "key": "levels",
+      "label": "Ages",
+      "value": "Children from 1½ to 6 years in three mixed-age classrooms",
+      "quote": "Children from 1½ to 6 years, in three mixed-age classrooms"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Language",
+      "value": "English is the language of the classroom and Thai is taught alongside it",
+      "quote": "English is the language of the classroom and Thai is taught alongside it"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "School hours",
+      "value": "8:30am to 3:30pm, Monday to Friday",
+      "quote": "8:30am – 3:30pm , Monday to Friday"
+    },
+    {
+      "key": "ed_visa",
+      "label": "Visa documents",
+      "value": "Enrolment letters and documents for visa applications",
+      "quote": "Enrolment letters and documents for visa applications, prepared properly."
+    },
+    {
+      "key": "founded",
+      "label": "Opened",
+      "value": "Operating in Ao Nang, Krabi since 2013",
+      "quote": "Ao Nang, Krabi · since 2013"
+    }
+  ]
+}

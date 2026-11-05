@@ -1,0 +1,30 @@
+{
+  "summary": "Chiang Mai education centre running an English language school and tailor-made Thai language courses.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "OBEC authorisation",
+      "value": "EFL i-High School is OBEC-authorised",
+      "quote": "OBEC-authorised"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "English courses for all ages and levels",
+      "quote": "For all ages and levels"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Thai courses",
+      "value": "Tailor-made Thai language courses",
+      "quote": "Tailor-Made Thai Language Courses"
+    },
+    {
+      "key": "class_size",
+      "label": "Thai course format",
+      "value": "100% personalised Thai courses",
+      "quote": "100% personalised Thai courses"
+    }
+  ]
+}

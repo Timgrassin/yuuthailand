@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok law firm offering visa services including Elite, Retirement, Business and Destination Thailand Visa, plus company registration and divorce.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV page",
+      "value": "Has a Destination Thailand Visa service page",
+      "quote": "Destination Thailand Visa. Thailand has consistently ranked among the most attractive destinations"
+    },
+    {
+      "key": "levels",
+      "label": "Visa types",
+      "value": "Thailand Elite, Retirement and Business visas listed",
+      "quote": "Thai Retirement Visa"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "10+ years of experience in legal services",
+      "quote": "10+ YEARS OF EXPERIENCE IN LEGAL SERVICES."
+    }
+  ]
+}

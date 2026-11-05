@@ -1,0 +1,42 @@
+{
+  "summary": "Chiang Mai gym teaching Western Boxing and Muay Thai, with training camps and a 45 day transformation program.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Every program includes 4-star hotel accommodation",
+      "quote": "Every program includes 4-star hotel accommodation"
+    },
+    {
+      "key": "course_length",
+      "label": "Programs",
+      "value": "Western Boxing (1 month), Muay Thai (1 month or 1 week) and a 45 Days Challenge",
+      "quote": "Western Boxing (1 month), Muay Thai (1 month or 1 week) and the 45 Days Challenge"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Gym hours",
+      "value": "Monday to Saturday 08:00 to 18:00, closed Sunday",
+      "quote": "The gym is open Monday to Saturday, 08:00 to 18:00."
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Beginners through to experienced fighters",
+      "quote": "Training is suitable for beginners through to experienced fighters."
+    },
+    {
+      "key": "trainers",
+      "label": "Muay Thai trainer",
+      "value": "Kru Santos, Muay Thai Ajarn with 500+ fights",
+      "quote": "From Issan, with 500+ fights."
+    },
+    {
+      "key": "licence",
+      "label": "Certification",
+      "value": "DBD certified",
+      "quote": "DBD Certified — Thailand"
+    }
+  ]
+}

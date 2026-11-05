@@ -1,0 +1,18 @@
+{
+  "summary": "German language courses in Pattaya at A1, A2 and B1 levels, plus Schengen visa services.",
+  "price_from_thb": 20000,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "German courses at A1, A2 and B1",
+      "quote": "A1 / A2 / B1 Deutschkurs Pattaya"
+    },
+    {
+      "key": "price_course",
+      "label": "A1 group course",
+      "value": "A1 group exam-prep course costs 20,000 baht",
+      "quote": "ราคา 20,000 บาท"
+    }
+  ]
+}

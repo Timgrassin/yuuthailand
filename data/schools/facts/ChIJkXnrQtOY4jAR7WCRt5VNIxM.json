@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok Silom law and accounting office (Japanese-language site) offering visa application services, work permits, company setup and marriage registration.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Visa services",
+      "value": "Visa application agency for long-term stays in Thailand",
+      "quote": "タイに長期滞在するためのタイビザ申請代行"
+    },
+    {
+      "key": "visa_services",
+      "label": "Work permits",
+      "value": "Work permit application services",
+      "quote": "タイビザ・労働許可証の申請代行"
+    },
+    {
+      "key": "location_note",
+      "label": "Business hours",
+      "value": "Weekdays 9:00 to 18:00, closed weekends and Thai holidays",
+      "quote": "Weekday 9：00～18：00"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Silom Palace Building, Silom Road, Bangkok",
+      "quote": "ITF Silom Palace Building, 160/199, 13th Floor"
+    }
+  ]
+}

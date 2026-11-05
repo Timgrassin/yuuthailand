@@ -1,0 +1,18 @@
+{
+  "summary": "Non-profit association that teaches and grades the Muay Thai and Muay Boran curriculum in Bangkok.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Accreditation",
+      "value": "Accredited by Thailand's Ministry of Culture and Education since 2003",
+      "quote": "Accredited by Thailand’s Ministry of Culture and Education since 2003."
+    },
+    {
+      "key": "curriculum",
+      "label": "Focus",
+      "value": "Teaching and grading curriculum of Muay Thai and Muay Boran",
+      "quote": "focus on the teaching and grading curriculum of Muay Thai and Muay Boran"
+    }
+  ]
+}

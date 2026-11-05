@@ -1,0 +1,36 @@
+{
+  "summary": "Thai massage teachers offering a two-week main course and specialty courses in Ancient Holistic Thai massage in Koh Phangan, Pai and other locations.",
+  "price_from_thb": 15000,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "Main course length",
+      "value": "Two-week main course in Ancient Holistic Thai Massage",
+      "quote": "We offer a two-week main course in Ancient Holistic Thai Massage"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Small classes of up to 6 students",
+      "quote": "Small class size (Max 6 students)"
+    },
+    {
+      "key": "price_course",
+      "label": "Week-long course price",
+      "value": "15,000 THB per person for 4 to 6 participants in the week-long program",
+      "quote": "For 4- 6 participants : 15,000 THB per person"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Daily schedule",
+      "value": "Classes run 9:00 AM to 4:00 PM",
+      "quote": "Daily Classes: 9:00 AM &ndash; 4:00 PM"
+    },
+    {
+      "key": "trainers",
+      "label": "Teacher",
+      "value": "Waree is a certified massage therapist and teacher with more than 15 years of experience",
+      "quote": "a certified massage therapist and teacher with more than 15 years of experience"
+    }
+  ]
+}

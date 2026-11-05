@@ -1,0 +1,30 @@
+{
+  "summary": "British Council registered English learning centre in Hua Hin offering adult, kids and IELTS courses.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Thailand Education Visa programmes offered",
+      "quote": "Thailand Education Visa Programmes"
+    },
+    {
+      "key": "licence",
+      "label": "Exam centre",
+      "value": "Authorised British Council exam centre",
+      "quote": "authorised British Council exam centre"
+    },
+    {
+      "key": "levels",
+      "label": "Cambridge levels",
+      "value": "Cambridge English courses at Pre-A1, A1, and A2 levels",
+      "quote": "Cambridge English courses at Pre-A1, A1, and A2 levels"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "39/20 Soi Mooban Khaonoi, Hua Hin",
+      "quote": "39/20 Soi Mooban Khaonoi"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "summary": "Thai language school in Bangkok and Chonburi (Japanese-language site) offering private and group Thai lessons, a student visa course, online lessons and English conversation.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Student visa course",
+      "value": "Student visa course for those wishing to study Thai in Thailand, with help on visa documents",
+      "quote": "学生ビザを取得して集中してタイ語の学習をすることができます。"
+    },
+    {
+      "key": "ed_visa",
+      "label": "Visa paperwork",
+      "value": "Consultation available on documents and process for visa issuance",
+      "quote": "ビザ発給に必要な書類の作成、ビザ取得までの流れについてなどお気軽にご相談ください。"
+    },
+    {
+      "key": "levels",
+      "label": "Free trial",
+      "value": "30-minute free trial available",
+      "quote": "30分の無料体験がございます。"
+    },
+    {
+      "key": "price_course",
+      "label": "Enrolment fee",
+      "value": "No enrolment fee",
+      "quote": "入学金はございません。"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Opening hours",
+      "value": "Weekdays 9:00 to 21:00, weekends 9:00 to 18:00",
+      "quote": "平日9時から21時、土日は9時から18時です。"
+    }
+  ]
+}

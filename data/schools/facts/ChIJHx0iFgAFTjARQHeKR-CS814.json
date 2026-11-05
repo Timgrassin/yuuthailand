@@ -1,0 +1,30 @@
+{
+  "summary": "Evening Thai cooking class with an organic herb garden on Koh Lanta.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Group size",
+      "value": "Small groups of 10, maximum 14 people",
+      "quote": "small Group of 10 max 14 Person"
+    },
+    {
+      "key": "course_length",
+      "label": "Class time",
+      "value": "Evening class from 4:30 pm to 9:00 pm",
+      "quote": "at 4:30 pm - ends at 9:00 pm"
+    },
+    {
+      "key": "curriculum",
+      "label": "Dishes",
+      "value": "Cook two main dishes plus dessert",
+      "quote": "You are going to cook 2  main Dishes"
+    },
+    {
+      "key": "curriculum",
+      "label": "Recipe book",
+      "value": "Recipe book with 20 dishes to take home",
+      "quote": "your Recipe book with 20 Dish to cook @ Home"
+    }
+  ]
+}

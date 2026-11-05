@@ -1,0 +1,24 @@
+{
+  "summary": "Thai massage school in Chiang Mai offering personalized training in Thai massage, aromatherapy and deep tissue massage.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Introductory course",
+      "value": "Theory including the Sen Sib energy lines",
+      "quote": "The course consists of theory (Introduction to the “Sen Sib” The main line or body energy line)"
+    },
+    {
+      "key": "curriculum",
+      "label": "Advanced content",
+      "value": "Aromatherapy and deep tissue massage",
+      "quote": "Students will learn Aromatherapy Massage and Deep tissue massage"
+    },
+    {
+      "key": "curriculum",
+      "label": "Class size",
+      "value": "Small student numbers so everyone can sit around one table",
+      "quote": "We like only having enough students that we can all sit around a table"
+    }
+  ]
+}

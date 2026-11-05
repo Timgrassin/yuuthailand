@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai and MMA gym in Rawai, Phuket with onsite accommodation and coaches for MMA, BJJ, wrestling and boxing.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "accommodation",
+      "label": "Onsite accommodation",
+      "value": "Onsite accommodation offered",
+      "quote": "Onsite Accommodation"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels welcome",
+      "quote": "All Levels Welcome"
+    },
+    {
+      "key": "trainers",
+      "label": "Head trainer",
+      "value": "Sam is Head Trainer and Co-Founder",
+      "quote": "Head Trainer & Co-Founder. Sam"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "A few minutes from Rawai Beach and Nai Harn",
+      "quote": "We’re only a few minutes from Rawai Beach and Nai Harn"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+ "summary": "Dokbua Gym is a Muay Thai gym in Ubon Ratchathani offering training with optional accommodation on monthly packages.",
+ "price_from_thb": 10000,
+ "facts": [
+  {
+   "key": "price_month",
+   "label": "Training only, per month",
+   "value": "From 10,000 baht per month",
+   "quote": "Training only From 10000 baht / Month"
+  },
+  {
+   "key": "price_month",
+   "label": "Fan room plus training, per month",
+   "value": "From 17,000 baht per month",
+   "quote": "fan room + training from 17000 baht / Month"
+  },
+  {
+   "key": "price_month",
+   "label": "Aircon room plus training, per month",
+   "value": "From 22,000 baht per month",
+   "quote": "aircon room + training from 22000 baht / Month"
+  },
+  {
+   "key": "training_sessions",
+   "label": "Training times",
+   "value": "Morning 8-10 AM and afternoon 4-6 PM",
+   "quote": "Morning training 8-10 AM Afternoon training 4-6 PM."
+  },
+  {
+   "key": "accommodation",
+   "label": "Accommodation",
+   "value": "Standard fan room with shared bathroom, or large air-conditioned room with private bathroom",
+   "quote": "Acommodation in a large aircondition room with private bathroom"
+  },
+  {
+   "key": "trainers",
+   "label": "Trainers",
+   "value": "Three trainers: Kru Dang, Kru Noom and Kru Kie",
+   "quote": "Kru Dang is the senior trainer and Kru Noom and Kru Kie are younger trainers"
+  }
+ ]
+}

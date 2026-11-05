@@ -1,0 +1,12 @@
+{
+  "summary": "Muay Thai gym in Bangkok run under Samart Payakaroon's name.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels welcome, from beginners to professional fighters",
+      "quote": "All levels are welcome. From Beginners to Professional fighters"
+    }
+  ]
+}

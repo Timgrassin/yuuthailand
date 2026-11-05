@@ -1,0 +1,30 @@
+{
+  "summary": "Private Thai massage school in Bangkok run by Loft Thai Spa, with beginner and professional courses.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "certificate",
+      "label": "Certification",
+      "value": "UTTS certification",
+      "quote": "UTTS certification"
+    },
+    {
+      "key": "course_length",
+      "label": "Professional course",
+      "value": "150-hour professional pathway",
+      "quote": "A deeper 150-hour pathway for serious learners who want structured professional training in Bangkok."
+    },
+    {
+      "key": "curriculum",
+      "label": "Interpreter option",
+      "value": "Interpreter available at 3,000 THB per student per half-day",
+      "quote": "Interpreter option available · 3,000 THB per student, per half-day"
+    },
+    {
+      "key": "curriculum",
+      "label": "Training format",
+      "value": "Private, in-person training in Bangkok only",
+      "quote": "Private, in-person training in Bangkok only."
+    }
+  ]
+}

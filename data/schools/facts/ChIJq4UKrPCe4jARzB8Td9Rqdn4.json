@@ -1,0 +1,24 @@
+{
+  "summary": "International school in Sukhumvit, Bangkok, teaching early years to secondary students.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Founded in 2002",
+      "quote": "Founded in 2002"
+    },
+    {
+      "key": "levels",
+      "label": "Stages",
+      "value": "Early Years, Primary and Secondary",
+      "quote": "Early Years"
+    },
+    {
+      "key": "location_note",
+      "label": "Campus",
+      "value": "Sukhumvit Soi 31 campus in Bangkok",
+      "quote": "Soi 31 Campus"
+    }
+  ]
+}

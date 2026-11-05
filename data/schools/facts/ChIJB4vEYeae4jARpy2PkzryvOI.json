@@ -1,0 +1,30 @@
+{
+  "summary": "Gi and No-Gi Brazilian Jiu-Jitsu academy in central Bangkok.",
+  "price_from_thb": 4000,
+  "facts": [
+    {
+      "key": "price_month",
+      "label": "Fundamentals monthly",
+      "value": "4,000 THB",
+      "quote": "Fundamentals Monthly: 4,000 THB"
+    },
+    {
+      "key": "price_month",
+      "label": "All-Access monthly",
+      "value": "5,800 THB",
+      "quote": "All-Access Monthly: 5,800 THB"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Guest passes",
+      "value": "Guest passes for 1 day, 7 days or 30 days",
+      "quote": "GUEST PASSES ARE AVAILABLE FOR 1 DAY, 7 CALENDAR DAYS, OR 30 CALENDAR DAYS"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels welcome",
+      "quote": "All levels welcome"
+    }
+  ]
+}

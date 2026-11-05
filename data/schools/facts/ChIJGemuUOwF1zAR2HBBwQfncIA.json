@@ -1,0 +1,42 @@
+{
+  "summary": "Half-day Thai cooking class in Chiang Rai with a market tour, run from a home-style kitchen.",
+  "price_from_thb": 1550,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Morning class price",
+      "value": "Morning class 1,550 baht per person, 09:30 to 14:00",
+      "quote": "The Morning Class 0 9:30 - 14:00 1,550B. p/p"
+    },
+    {
+      "key": "price_course",
+      "label": "Afternoon class price",
+      "value": "Afternoon class 1,850 baht per person, 16:00 to 20:00",
+      "quote": "The Afternoon Class 16:00 - 20:00 1,850B. p/p"
+    },
+    {
+      "key": "curriculum",
+      "label": "Market tour",
+      "value": "Free market tour and tasting tour with a temple visit",
+      "quote": "Free market tour/tasting tour with a temple visiting"
+    },
+    {
+      "key": "founded",
+      "label": "Running since",
+      "value": "Cooking class running in Chiang Rai since 2007",
+      "quote": "since 2007"
+    },
+    {
+      "key": "licence",
+      "label": "Licensed",
+      "value": "Tour licence number and fully licensed and insured",
+      "quote": "We are fully licensed and insured"
+    },
+    {
+      "key": "course_length",
+      "label": "Class size",
+      "value": "Class size limited to 12 people",
+      "quote": "Class size is limited to 12 persons"
+    }
+  ]
+}

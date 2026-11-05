@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok business and legal consultancy with English-speaking Thai lawyers handling company registration, work permits and immigration paperwork.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Immigration accompaniment",
+      "value": "Completes paperwork and accompanies clients to Thai Immigration",
+      "quote": "accompany you on your trip to Thai Immigration"
+    },
+    {
+      "key": "levels",
+      "label": "Work permits",
+      "value": "Assists with obtaining Thai work permits",
+      "quote": "obtaining Thai work permits"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Language",
+      "value": "Thai registered lawyers are English speaking",
+      "quote": "Our Thai registered lawyers are English speaking"
+    }
+  ]
+}

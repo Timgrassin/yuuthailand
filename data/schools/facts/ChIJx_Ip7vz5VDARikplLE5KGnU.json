@@ -1,0 +1,36 @@
+{
+  "summary": "Private Thai cooking classes on Koh Samui taught in German and English by a chef from Germany.",
+  "price_from_thb": 2200,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Taste class price",
+      "value": "Taste class costs 2,200 THB per person",
+      "quote": "THB 2.200/per person"
+    },
+    {
+      "key": "price_course",
+      "label": "Master class price",
+      "value": "Master class costs 2,900 THB per person",
+      "quote": "THB 2.900/per Person"
+    },
+    {
+      "key": "course_length",
+      "label": "Taste class length",
+      "value": "Taste class takes 2 to 2.5 hours",
+      "quote": "2 to 2,5 hours, cocktail and drinks included."
+    },
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established in 2002",
+      "quote": "Established in 2002."
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "German and English speaking class",
+      "quote": "Sonja's German and English speaking Thai Cooking Class in Maenam."
+    }
+  ]
+}

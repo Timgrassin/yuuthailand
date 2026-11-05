@@ -1,0 +1,24 @@
+{
+  "summary": "Muay Thai gym in Wichit, Phuket with group classes, private training and on-site bungalow packages.",
+  "price_from_thb": 700,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Daily rate",
+      "value": "Muay Thai from 700 baht per day",
+      "quote": "From ฿700 / day"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Muay Thai schedule",
+      "value": "Mon to Sat, 08:00 to 10:00 and 16:00 to 18:00",
+      "quote": "Mon – Sat · 08:00 – 10:00 & 16:00 – 18:00"
+    },
+    {
+      "key": "accommodation",
+      "label": "Bungalow package",
+      "value": "Bungalow and Muay Thai classes in one package",
+      "quote": "Your bungalow and your Muay Thai classes in one package"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "Visa service company with a Thailand division handling extensions, work permits and retirement visa support.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa extensions",
+      "value": "Visa extensions and renewals",
+      "quote": "Visa Extensions & Renewals"
+    },
+    {
+      "key": "services",
+      "label": "Retirement visa",
+      "value": "Retirement visa support",
+      "quote": "Retirement Visa Support"
+    },
+    {
+      "key": "services",
+      "label": "Work permits",
+      "value": "Work permit processing",
+      "quote": "Work Permit Processing"
+    }
+  ]
+}

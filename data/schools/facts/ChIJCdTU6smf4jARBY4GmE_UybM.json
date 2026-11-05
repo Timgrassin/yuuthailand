@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok law and consulting firm offering company registration, visa and work permit services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Staff speak Thai, English or German",
+      "quote": "can converse with you in Thai, English or German"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "More than twenty years serving clients",
+      "quote": "for more than twenty years"
+    }
+  ]
+}

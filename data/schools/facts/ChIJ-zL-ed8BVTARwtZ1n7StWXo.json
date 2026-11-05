@@ -1,0 +1,24 @@
+{
+  "summary": "Vocational school on Koh Phangan teaching Thai cooking, massage, Thai and English language, with ED visa options.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established in November 2011 by two Thai sisters",
+      "quote": "Established in November 2011 by two passionate Thai sisters"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa requirement",
+      "value": "ED visa options only for longer courses, 3+ months for most subjects",
+      "quote": "Note: ED Visa options are only available for longer courses (3+ months for most subjects)."
+    },
+    {
+      "key": "price_session",
+      "label": "Single cooking class",
+      "value": "Single cooking class at 1,800 baht",
+      "quote": "Single Class \n ฿1,800"
+    }
+  ]
+}

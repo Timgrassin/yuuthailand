@@ -1,0 +1,48 @@
+{
+  "summary": "Phuket language school with schools in Patong and Robinson Chalong offering ED visa Thai courses, other languages and TEFL.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa course",
+      "value": "Thai course includes a 1 year Education visa",
+      "quote": "Learn Thai on our popular low cost ED Visa Course (1 Year Education / Student Visa included)"
+    },
+    {
+      "key": "course_length",
+      "label": "ED visa course hours",
+      "value": "100 hour course",
+      "quote": "Choose a 100 hrs course which works out to be only 320 Baht per hour"
+    },
+    {
+      "key": "licence",
+      "label": "Accreditation",
+      "value": "Describes ED visa course as an official government accredited course",
+      "quote": "Our course is an official government accredited course"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "English, Chinese, French, German, Russian, Italian or Spanish",
+      "quote": "English, Chinese, French, German, Russian, Italian or Spanish"
+    },
+    {
+      "key": "course_length",
+      "label": "TEFL course",
+      "value": "120 hours over 6 weeks",
+      "quote": "Our TEFL course (Teach English as Foreign Language) is 120 hrs and takes 6 weeks to complete"
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Established in 2010",
+      "quote": "Genius was established in 2010"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV visa",
+      "value": "Lists a DTV visa service",
+      "quote": "DTV visa"
+    }
+  ]
+}

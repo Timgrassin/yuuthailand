@@ -1,0 +1,18 @@
+{
+  "summary": "Phuket Consultancy is a Phuket business consultancy offering resident permit, Elite Visa, work permit, company registration and translation services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Registered",
+      "value": "Registered as a juristic person on 24 October 2017",
+      "quote": "was registered as a juristic person as per the Civil and Commercial Code on 24 October 2017"
+    },
+    {
+      "key": "location_note",
+      "label": "Head office",
+      "value": "90/5 Village No. 2, Wichit, Mueang Phuket",
+      "quote": "The head office is located at 90/5 Village No. 2, Wichit Sub-district, Mueang Phuket District"
+    }
+  ]
+}

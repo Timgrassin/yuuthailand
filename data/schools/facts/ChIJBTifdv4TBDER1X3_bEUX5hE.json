@@ -1,0 +1,11 @@
+{
+  "summary": "Koh Chang Muay Thai in Klong Prao offers twice-daily group training and private lessons for beginners to experienced fighters.",
+  "price_from_thb": 500,
+  "facts": [
+    {"key": "training_sessions", "label": "Schedule", "value": "Two sessions daily, 8:00 to 10:00 and 16:00 to 18:00", "quote": "Muay Thai training sessions are offered twice daily."},
+    {"key": "price_session", "label": "Single session", "value": "500 THB per session", "quote": "1 session 500 baht"},
+    {"key": "price_month", "label": "Monthly training", "value": "10,000 THB for one month", "quote": "1 month 10,000 baht"},
+    {"key": "price_course", "label": "Weekly training", "value": "3,000 THB for one week, 5,500 THB for two weeks", "quote": "1 week 3,000 baht 2 weeks 5,500 baht"},
+    {"key": "location_note", "label": "Location", "value": "Klong Prao, Koh Chang", "quote": "Muay Thai in Klong Prao"}
+  ]
+}

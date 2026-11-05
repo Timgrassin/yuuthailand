@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai and fitness gym on Koh Phangan offering personal and small group training.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Muay Thai sessions",
+      "value": "Mon-Sat 8AM-10AM and 4PM-6PM",
+      "quote": "Mon-Sat: 8AM-10AM, 4PM-6PM"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Beginners to advanced",
+      "quote": "BEGINNERS TO ADVANCED"
+    },
+    {
+      "key": "class_size",
+      "label": "Format",
+      "value": "Small group training sessions",
+      "quote": "SMALL GROUP TRAINING SESSIONS"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "214/9 M.1 Thongsala, Koh Phangan",
+      "quote": "214/9 M.1 Thongsala, Koh Phangan"
+    }
+  ]
+}

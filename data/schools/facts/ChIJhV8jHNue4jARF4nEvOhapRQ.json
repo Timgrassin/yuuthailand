@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok test preparation centre for US and UK exams and university admission (page mostly in Thai).",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Specialisation",
+      "value": "US/UK test prep and university admission",
+      "quote": "US/UK test prep"
+    },
+    {
+      "key": "curriculum",
+      "label": "Exams covered",
+      "value": "GED, IGCSE, A-Level, SAT, IELTS, IB, ACT, AP, TBAT, TOEFL-MUIC",
+      "quote": "GED IGCSE A-Level SAT IELTS IB ACT AP TBAT TOEFL-MUIC"
+    }
+  ]
+}

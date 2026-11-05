@@ -1,0 +1,24 @@
+{
+  "summary": "Online Thai language course taught through topic-based animated lessons.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Format",
+      "value": "Topic-based Thai lessons in animated series",
+      "quote": "Our online courses bring you topic-based Thai lessons through our signature cartoon animations."
+    },
+    {
+      "key": "curriculum",
+      "label": "Purchase options",
+      "value": "Buy one chapter at a time or the full course",
+      "quote": "Choose to buy one chapter at a time, or enjoy the full course with a special discount."
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Lessons for beginners and advanced learners",
+      "quote": "Whether you are a beginner or an advanced learner"
+    }
+  ]
+}

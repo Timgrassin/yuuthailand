@@ -1,0 +1,24 @@
+{
+  "summary": "Pattaya service company handling Non-O and retirement visas, 90 day reporting, work permits and driving licences.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa types",
+      "value": "Non-O and retirement visas, single and multiple entry",
+      "quote": "Including Multiple & Single Entry Visas"
+    },
+    {
+      "key": "services",
+      "label": "90 day reporting",
+      "value": "Offers 90 days reporting",
+      "quote": "90 Days Reporting"
+    },
+    {
+      "key": "services",
+      "label": "Door to door",
+      "value": "Offers a door-to-door service",
+      "quote": "Tik Tok offers a full door-to-door service and will come to you"
+    }
+  ]
+}

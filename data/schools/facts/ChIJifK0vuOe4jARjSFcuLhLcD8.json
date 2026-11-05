@@ -1,0 +1,18 @@
+{
+ "summary": "Language school in Bangkok teaching English and other languages including Thai, in person and live online, with exam preparation courses.",
+ "price_from_thb": null,
+ "facts": [
+  {
+   "key": "languages_taught",
+   "label": "Exam preparation",
+   "value": "IELTS, TOEFL and academic English preparation",
+   "quote": "Exam preparation"
+  },
+  {
+   "key": "price_course",
+   "label": "Payment plan",
+   "value": "Courses can be paid in up to 4 installments with 0% interest",
+   "quote": "You can pay for the course in up to 4 installments with 0% interest."
+  }
+ ]
+}

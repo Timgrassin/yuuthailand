@@ -1,0 +1,18 @@
+{
+  "summary": "Muay Thai gym on Koh Samui welcoming everyone from kids to professional fighters.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "For everyone, from kids to professional fighters",
+      "quote": "Thai boxing is for everyone, from kids to professional fighters"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "217 Moo 6 Bophut, Ko Samui",
+      "quote": "217 Moo 6 Bophut"
+    }
+  ]
+}

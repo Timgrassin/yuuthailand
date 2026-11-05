@@ -1,0 +1,36 @@
+{
+  "summary": "Home-style Thai cooking studio in Chiang Mai with a daily morning course and private classes.",
+  "price_from_thb": 900,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Half-day morning course",
+      "value": "Half-day morning course 900 THB per person",
+      "quote": "Half day Morning course ( Join class ) : 900 THB/ Person."
+    },
+    {
+      "key": "price_course",
+      "label": "Private course",
+      "value": "Morning half-day private course 1,800 THB per person",
+      "quote": "1,800 THB / Person."
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Maximum 6 people per class",
+      "quote": "maximum 6 people/ per 1 class"
+    },
+    {
+      "key": "course_length",
+      "label": "Duration",
+      "value": "9.00am to 1.30pm",
+      "quote": "Duration: 9.00am.- 1.30pm."
+    },
+    {
+      "key": "curriculum",
+      "label": "Dishes",
+      "value": "Cook 3 dishes: appetizer, main dish and dessert, plus own curry paste",
+      "quote": "Make your own curry paste from scratch"
+    }
+  ]
+}

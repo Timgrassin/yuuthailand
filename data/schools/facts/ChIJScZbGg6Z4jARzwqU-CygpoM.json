@@ -1,0 +1,18 @@
+{
+  "summary": "Online Thai lessons with native teachers.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Language taught",
+      "value": "Thai, taught online",
+      "quote": "learn Thai online"
+    },
+    {
+      "key": "trainers",
+      "label": "Teachers",
+      "value": "Native Thai teachers",
+      "quote": "friendly native teachers"
+    }
+  ]
+}

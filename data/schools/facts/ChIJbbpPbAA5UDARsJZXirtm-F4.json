@@ -1,0 +1,24 @@
+{
+  "summary": "Muay Thai gym in Phuket offering traditional Muay Thai training and personal sessions.",
+  "price_from_thb": 800,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Personal training from",
+      "value": "From 800 THB for 1 hour",
+      "quote": "PERSONAL TRAINING FROM 800 THB"
+    },
+    {
+      "key": "trainers",
+      "label": "Style",
+      "value": "Traditional Muay Thai",
+      "quote": "Our training is traditional Muay Thai."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Choeng Thale, Thalang District, Phuket",
+      "quote": "Tambon Choeng Thale, Thalang District, Phuket 83110"
+    }
+  ]
+}

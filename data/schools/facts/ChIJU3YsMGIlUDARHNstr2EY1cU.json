@@ -1,0 +1,36 @@
+{
+  "summary": "Hotel-run Thai cooking class in Phuket with a market visit and a 3-course menu.",
+  "price_from_thb": 2000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Price",
+      "value": "2,000 THB per person",
+      "quote": "2,000 THB per person"
+    },
+    {
+      "key": "course_length",
+      "label": "Duration",
+      "value": "Approximately 2 hours",
+      "quote": "Programme is approximately 2 hours."
+    },
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "Certificate of participation included",
+      "quote": "Certificate of participation"
+    },
+    {
+      "key": "curriculum",
+      "label": "Recipes",
+      "value": "Recipe booklet with 26 recipes",
+      "quote": "Recipe booklet (26 recipes)"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Class times",
+      "value": "Morning class 11:15 a.m. and afternoon class 03:00 p.m.",
+      "quote": "Morning class: 11:15 a.m. / Afternoon class: 03:00 p.m."
+    }
+  ]
+}

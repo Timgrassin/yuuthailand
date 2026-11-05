@@ -1,0 +1,42 @@
+{
+  "summary": "Cooking school near Bophut, Koh Samui, running evening Thai cooking classes and private classes.",
+  "price_from_thb": 3000,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Evening class price",
+      "value": "3000 THB + 7%VAT",
+      "quote": "3000 THB + 7%VAT"
+    },
+    {
+      "key": "course_length",
+      "label": "Evening class length",
+      "value": "Minimum 4 hours, 17:00 to about 21:00",
+      "quote": "Minimum 4 hours, 17:00 to about 21:00"
+    },
+    {
+      "key": "curriculum",
+      "label": "Class size",
+      "value": "Small groups of up to 8 guests",
+      "quote": "small groups of up to 8 guests"
+    },
+    {
+      "key": "curriculum",
+      "label": "Language",
+      "value": "Classes held in English",
+      "quote": "Classes held in English"
+    },
+    {
+      "key": "price_course",
+      "label": "Private class price",
+      "value": "Private evening class from 24000 THB + 7%VAT",
+      "quote": "From 24000 THB + 7%VAT"
+    },
+    {
+      "key": "founded",
+      "label": "Opened",
+      "value": "Opened August 2019",
+      "quote": "Since opening in August 2019"
+    }
+  ]
+}

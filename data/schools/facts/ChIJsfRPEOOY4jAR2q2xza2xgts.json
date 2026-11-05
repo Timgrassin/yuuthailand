@@ -1,0 +1,30 @@
+{
+  "summary": "Bangkok visa consultancy offering retirement, marriage, business and education visas, work permits and 90-day reporting.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established in 2002",
+      "quote": "Established in 2002"
+    },
+    {
+      "key": "ed_visa",
+      "label": "Education visa",
+      "value": "Assists with Non-Immigrant ED visa for students",
+      "quote": "Non-Immigrant \"ED\" Visa for students"
+    },
+    {
+      "key": "visa_services",
+      "label": "Other services",
+      "value": "Retirement, marriage, business visas, work permit, 90-day report and TM.30",
+      "quote": "90-Days Report and TM.30 services for long-term residents"
+    },
+    {
+      "key": "location_note",
+      "label": "Office hours",
+      "value": "Mon - Fri 8:00 AM to 4:00 PM, Saturday to 12:30 PM",
+      "quote": "Mon - Fri : 8:00 AM – 4 :00PM"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "summary": "Small-group Thai cooking classes in Thonburi, Bangkok.",
+  "price_from_thb": 588,
+  "facts": [
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Maximum 8 guests",
+      "quote": "Maximum 8 guests for personal attention"
+    },
+    {
+      "key": "course_length",
+      "label": "Full class length",
+      "value": "4 dishes, 3 to 3.5 hours",
+      "quote": "3 - 3.5 Hours"
+    },
+    {
+      "key": "price_course",
+      "label": "Full class price",
+      "value": "THB 1,088 per person",
+      "quote": "THB 1,088"
+    },
+    {
+      "key": "price_course",
+      "label": "90 minute class price",
+      "value": "THB 588 per person",
+      "quote": "THB 588 / person"
+    },
+    {
+      "key": "curriculum",
+      "label": "Menu",
+      "value": "Tom Yum Goong, Pad Thai Goong, Green Curry Chicken, Mango Sticky Rice",
+      "quote": "Tom Yum Goong"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "Brazilian Jiu-Jitsu gym in Phuket offering Gi classes for adults, women and kids.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Classes from beginners to advanced grapplers",
+      "quote": "from fundamentals for beginners to advanced techniques for seasoned grapplers"
+    },
+    {
+      "key": "curriculum",
+      "label": "Classes offered",
+      "value": "Gi BJJ for adults and kids, plus a masterclass course",
+      "quote": "They teach Gi Jiu-Jistu for adults and kids, plus a masterclass course in Brazilian Jiu-Jitsu"
+    },
+    {
+      "key": "curriculum",
+      "label": "Women classes",
+      "value": "Women BJJ classes with a female coach",
+      "quote": "Women's BJJ classes provide a unique and empowering environment"
+    }
+  ]
+}

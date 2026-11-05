@@ -1,0 +1,30 @@
+{
+  "summary": "One-day Thai cooking class in Chiang Mai with a market tour and hotel transfers.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "Course length",
+      "value": "One-day class",
+      "quote": "a one-day experience that connects you to the heart of Thai cuisine"
+    },
+    {
+      "key": "curriculum",
+      "label": "Curriculum",
+      "value": "Market tour and hands-on step-by-step class",
+      "quote": "Join our authentic market tour and learn family secrets through a hands-on, step-by-step class."
+    },
+    {
+      "key": "curriculum",
+      "label": "Recipes",
+      "value": "Recipes for over 36 menus to take home",
+      "quote": "take home our top-secret authentic recipes for over 36 menus"
+    },
+    {
+      "key": "location_note",
+      "label": "Hotel transfers",
+      "value": "Hotel transfers included",
+      "quote": "With inclusive hotel transfers"
+    }
+  ]
+}

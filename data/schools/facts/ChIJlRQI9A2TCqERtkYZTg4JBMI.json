@@ -1,0 +1,24 @@
+{
+  "summary": "Online Thai tutor offering self-paced foundation courses and private online lessons.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Level",
+      "value": "Courses for beginners",
+      "quote": "Learn Thai for Beginners"
+    },
+    {
+      "key": "course_length",
+      "label": "Format",
+      "value": "Self-paced Thai foundation course",
+      "quote": "self-paced Thai foundation course"
+    },
+    {
+      "key": "course_length",
+      "label": "Materials",
+      "value": "Lifetime access to notes and files",
+      "quote": "Gain unlimited access to notes and files for a lifetime"
+    }
+  ]
+}

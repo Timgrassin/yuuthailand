@@ -1,0 +1,24 @@
+{
+  "summary": "Bangkok martial arts academy teaching Muay Thai and Brazilian Jiu-Jitsu, with group classes and personalized coaching.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Programs for all levels, from complete beginners to advanced practitioners",
+      "quote": "We offer programs for all levels, from complete beginners to advanced practitioners."
+    },
+    {
+      "key": "trainers",
+      "label": "Head Muay Thai coach",
+      "value": "Kru Viroj Wanram holds an official Muay Thai Trainer Certificate and CPR certification",
+      "quote": "Kru Viroj holds an official Muay Thai Trainer Certificate and is certified in CPR"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "259/5 Soi Sukhumvit 22, Klongtoei, Bangkok",
+      "quote": "259/5 Soi Sukhumvit 22, Sukhumvit Rd. Klongtan, Klongtoei, Bangkok 10110"
+    }
+  ]
+}

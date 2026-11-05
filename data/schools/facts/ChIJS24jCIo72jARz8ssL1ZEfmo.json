@@ -1,0 +1,24 @@
+{
+  "summary": "Thai Kitchen Cookery Centre is a family-run hands-on cooking school in Chiang Mai Old Town.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Hands-on format",
+      "value": "Students chop, cook and make their own sauces",
+      "quote": "That means that you chop, cook and make all your own sauces."
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Operating since 1995",
+      "quote": "Since 1995"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "32 Loi Khroa Road, Soi 1, Chiang Mai",
+      "quote": "32 Loi Khroa Road, Soi 1, T.Changklan, A.Muang, Chiang Mai 50100"
+    }
+  ]
+}

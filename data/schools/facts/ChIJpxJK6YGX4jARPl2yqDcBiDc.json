@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok firm offering company registration, tax filing, work permit and visa services for expats.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Visa services",
+      "value": "Non-immigrant B, O, E and retirement visas and work permit services",
+      "quote": "Non-immigrant B, O, E, Retirement Visas & Work permit Services for Expats."
+    },
+    {
+      "key": "location_note",
+      "label": "Reporting",
+      "value": "90 day reporting and residency application",
+      "quote": "90 Days reporting and Residency Application"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "summary": "International kindergarten in Chalong, Phuket for young children, running a Canadian curriculum with EYFS elements.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Chalong campus established 2021",
+      "quote": "Chalong &#8211; Established 2021"
+    },
+    {
+      "key": "levels",
+      "label": "Classes",
+      "value": "Nursery, Pre-K, K1, K2 and Grade 1",
+      "quote": "Pre-Kindergarten"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Curriculum",
+      "value": "Canadian curriculum integrated with UK EYFS",
+      "quote": "Lighthouse runs a Canadian curriculum and integrates EYFS from the UK."
+    },
+    {
+      "key": "course_length",
+      "label": "Short-term enrolment",
+      "value": "Short-term enrolments such as weekly and monthly are taken",
+      "quote": "The school also takes short-term enrollments, such as weekly and monthly"
+    }
+  ]
+}

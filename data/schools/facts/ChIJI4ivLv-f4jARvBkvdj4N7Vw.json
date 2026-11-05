@@ -1,0 +1,18 @@
+{
+  "summary": "Muay Thai gym in Bangkok (Phra Khanong) with champion trainers and weekday training hours.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Opening hours",
+      "value": "Open Monday to Friday, 06:30 to 19:00",
+      "quote": "06:30 AM - 19:00 PM (BANGKOK TIME)"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "114/2 Soi Punnawithi 20, Sukhumvit 101 Road, Bangkok",
+      "quote": "114/2 SOI PUNNAWITHI 20"
+    }
+  ]
+}

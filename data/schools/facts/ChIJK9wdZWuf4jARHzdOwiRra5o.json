@@ -1,0 +1,18 @@
+{
+  "summary": "Korean-language agency page for Thailand Privilege Card memberships and related immigration services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Official agent",
+      "value": "Official agent of Thailand Privilege Card Co. Ltd since 2019",
+      "quote": "타일랜드 엘리트 코리아는 2019년부터"
+    },
+    {
+      "key": "visa_services",
+      "label": "Membership tiers",
+      "value": "Bronze, Gold, Platinum, Diamond and Reserve memberships listed",
+      "quote": "프리빌리지 멤버십"
+    }
+  ]
+}

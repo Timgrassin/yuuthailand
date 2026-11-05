@@ -1,0 +1,18 @@
+{
+  "summary": "Coffee courses and SCA training in Bangkok, not a language school.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "Since 2016",
+      "quote": "Since 2016: Espresso Academic"
+    },
+    {
+      "key": "curriculum",
+      "label": "Courses",
+      "value": "Coffee courses and SCA training",
+      "quote": "Coffee Courses & SCA Training in Bangkok"
+    }
+  ]
+}

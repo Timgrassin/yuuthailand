@@ -1,0 +1,24 @@
+{
+ "summary": "Rungjaras Muay Thai is a Chiang Mai gym run by a Thai champion offering one-on-one and group Muay Thai classes.",
+ "facts": [
+  {
+   "key": "class_size",
+   "label": "Class format",
+   "value": "One-on-one and group classes, preferring one-on-one and smaller classes",
+   "quote": "Kru Bash offers one on one and group classes."
+  },
+  {
+   "key": "levels",
+   "label": "Levels",
+   "value": "Beginner to advanced professional fighter",
+   "quote": "From Beginner to Advanced Professional Fighter."
+  },
+  {
+   "key": "training_sessions",
+   "label": "Availability",
+   "value": "Weekdays and weekends, 8:30 AM to 17:30",
+   "quote": "Weekdays & Weekends Available 0:8:30 AM TO 17:30 PM"
+  }
+ ],
+ "price_from_thb": null
+}

@@ -1,0 +1,36 @@
+{
+  "summary": "Thai cooking class in Phuket with market trip, hotel pickup and hands-on cooking.",
+  "price_from_thb": 2200,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Half-day class",
+      "value": "Half-day cooking class THB 2,200 in 3 to 4 hours",
+      "quote": "HALF DAY cooking class, just 1 price , only THB. 2,200.- in 3-4 hours"
+    },
+    {
+      "key": "price_course",
+      "label": "Full-day price",
+      "value": "Two classes in one day for THB 3,500",
+      "quote": "FULL DAY special price to take 2 classes on the same day to learn making coconut milk and coconut oil for only THB. 3,500.-"
+    },
+    {
+      "key": "course_length",
+      "label": "Class duration",
+      "value": "About 3 to 4 hours",
+      "quote": "approximately 3-4 hours"
+    },
+    {
+      "key": "class_size",
+      "label": "Group size",
+      "value": "Maximum of 10 people",
+      "quote": "maximum of 10 people"
+    },
+    {
+      "key": "curriculum",
+      "label": "Market visit",
+      "value": "Hotel pickup and a trip to the local market for ingredients",
+      "quote": "Your day will start with a hotel pick-upand follow by a trip to the local market to buy some fresh ingredients."
+    }
+  ]
+}

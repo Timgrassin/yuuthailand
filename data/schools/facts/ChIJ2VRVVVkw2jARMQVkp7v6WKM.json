@@ -1,0 +1,18 @@
+{
+ "summary": "Siam Legal's Chiang Mai office is a law firm handling company registration, visas, family law, property and notary services.",
+ "facts": [
+  {
+   "key": "dtv_support",
+   "label": "DTV visa",
+   "value": "Has a DTV visa service page with FAQs",
+   "quote": "DTV Visa Thailand FAQs"
+  },
+  {
+   "key": "location_note",
+   "label": "Phone",
+   "value": "Chiang Mai office phone +66 53 818 306",
+   "quote": "+66 53 818 306"
+  }
+ ],
+ "price_from_thb": null
+}

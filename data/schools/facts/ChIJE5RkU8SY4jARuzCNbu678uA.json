@@ -1,0 +1,24 @@
+{
+ "summary": "Go! Thai Cooking School runs morning, afternoon and evening Thai cooking classes with a market visit in Bangkok's Bangrak district.",
+ "price_from_thb": 1400,
+ "facts": [
+  {
+   "key": "price_session",
+   "label": "Class price",
+   "value": "1400 baht for a morning class of 5 dishes",
+   "quote": "฿ 1400.- (5 dishes) 8:30 &#8211; 13:00"
+  },
+  {
+   "key": "curriculum",
+   "label": "Menu",
+   "value": "Daily rotating menus",
+   "quote": "Our Thai cooking classes in Bangkok feature daily rotating menus"
+  },
+  {
+   "key": "course_length",
+   "label": "Class times",
+   "value": "Morning class 8:30 to 12:30",
+   "quote": "MORNING CLASS (8:30-12:30)"
+  }
+ ]
+}

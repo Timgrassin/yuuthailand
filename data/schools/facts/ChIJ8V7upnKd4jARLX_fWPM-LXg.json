@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok law and advisory firm offering company registration, work permits, visas and accounting for foreigners.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "visa_services",
+      "label": "Visa services",
+      "value": "Visa processing and overstay clearance",
+      "quote": "Visa processing, Overstay clearance, and Business Registration"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Team proficiency in Thai, English, Korean and Chinese",
+      "quote": "proficiency in 4 languages (Thai, English, Korean, Chinese)"
+    }
+  ]
+}
