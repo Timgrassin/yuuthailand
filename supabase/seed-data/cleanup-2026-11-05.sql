@@ -18,3 +18,4 @@ update public.providers set name_en = 'Siam Thai Visa, Bangkok', slug = 'siam-th
 delete from public.providers where google_place_id = 'ChIJj2vFk8UH1zARwVo1IfunuYM' and status = 'unverified';
 delete from public.providers where google_place_id = 'ChIJ7XVX62cG1zARcWeYD6MYfxY' and status = 'unverified';
 delete from public.providers where google_place_id = 'ChIJTYw_SbkxUDARKC6XvLH2lJo' and status = 'unverified';
+update public.providers set price_from_thb = null where google_place_id = 'ChIJIzkeFJ46UDARh1EKwWXHkg0' and status = 'unverified';
