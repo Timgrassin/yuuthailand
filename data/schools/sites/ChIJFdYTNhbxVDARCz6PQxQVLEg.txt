@@ -1,0 +1,19 @@
+URL: https://samuivisatech.com/
+
+Visatech -- Visas, visa runs & immigration services, Koh Samui & Koh Phangan 
+ only exists once React has rendered. srcset/sizes must match
+ the page's (HERO_SIZES) exactly or the photo downloads twice.
+ This file is also the SPA fallback for /admin, /portal and the blog
+ articles; a URL with no entry in the map preloads nothing. -->
+ Settings, change them here too, or
+ search engines see two different phone numbers. No Koh Phangan street
+ address: it is not confirmed, and a guess in structured data is worse
+ than an omission.
+ The coordinates are the office's own OpenStreetMap node (10744632371,
+ "Visatech", Mae Nam Soi 1) and the same pair the map card on the home
+ and contact pages draws, so the pin, the directions link and what
+ Google reads can never disagree.
+ openingHoursSpecification states exactly what the footer and /about
+ already publish from the `office` setting. If the office edits the
+ hours there, edit them here too -- or Google will tell people the
+ door is open when it is not. -->
