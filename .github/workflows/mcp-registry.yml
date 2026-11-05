@@ -3,6 +3,9 @@ name: Publish to MCP Registry
 # GitHub OIDC auth: no secrets. Bump "version" in server.json before each publish.
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["server.json", ".github/workflows/mcp-registry.yml"]
 jobs:
   publish:
     runs-on: ubuntu-latest
