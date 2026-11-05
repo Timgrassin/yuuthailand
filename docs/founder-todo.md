@@ -117,10 +117,10 @@ Visa pages show "Pending expert review" until a named expert signs off. Google a
 Leads and email captures pin a consent text version. v1 is a draft and is not legally reviewed. Thailand's PDPA applies.
 
 1. Open the Supabase SQL Editor: https://supabase.com/dashboard/project/fbopazqtgbukzdgbwlzf/sql/new
-2. Run: `select purpose, version, body from public.consent_texts order by purpose, version;`
+2. Run: `select key, version, body from public.consent_texts order by key, version;`
 3. Click **Export**, then **Download CSV**.
 4. Send the CSV to a Thai lawyer who handles PDPA. The reviewer from item 6 may cover this. Ask for:
-   1. Corrected text for each purpose.
+   1. Corrected text for each key.
    2. Whether Staylong needs a Data Protection Officer or a privacy notice in Thai.
 5. Forward the corrected text to me. I will publish it as v2. v1 stays frozen for existing leads, by design.
 
