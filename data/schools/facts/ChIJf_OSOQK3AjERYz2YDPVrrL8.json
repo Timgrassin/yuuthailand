@@ -1,0 +1,18 @@
+{
+  "summary": "Language school in Si Racha teaching Thai, English and Japanese to Thais, with translation and interpreting services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Languages taught",
+      "value": "Thai, English, and Japanese for Thai speakers",
+      "quote": "タイ語だけではなく英語、タイ人向け日本語レッスンも開催しております"
+    },
+    {
+      "key": "trainers",
+      "label": "Thai teachers",
+      "value": "Thai taught by native teachers who speak Japanese",
+      "quote": "タイ語は日本語の話せるネイティブ教師が授業を行っており"
+    }
+  ]
+}
