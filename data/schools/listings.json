@@ -1,0 +1,3179 @@
+[
+ {
+  "google_place_id": "ChIJfyHKn-ae4jAR0EoWmoIX0XU",
+  "name": "Duke Language School | Thai Language School Bangkok",
+  "slug": "duke-language-school-thai-language-school-bangkok-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "อาคาร เทรนดี้ 10/63 Soi Sukhumvit 13, Khlong Toei Nuea, Watthana, Bangkok 10110, Thailand",
+  "website": "https://dukelanguage.com/",
+  "phone": "+66 82 444 1595",
+  "lat": 13.7404237,
+  "lng": 100.5578047,
+  "google_rating": 4.7,
+  "google_reviews": 529,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Duke%20Language%20School%20%7C%20Thai%20Language%20School%20Bangkok&query_place_id=ChIJfyHKn-ae4jAR0EoWmoIX0XU",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 5:30 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 5:30 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 5:30 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 5:30 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 5:30 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "Closed"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Language school",
+   "Educational consultant",
+   "Educational institution",
+   "Private educational institution",
+   "Training center"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJgWFPseKe4jARHedXDUZS-0k",
+  "name": "Thai Solutions | Thai Language School in Bangkok",
+  "slug": "thai-solutions-thai-language-school-in-bangkok-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "Room 128/206,Phaya Thai Plaza Building, 19th Floor, อาคาร, Phaya Thai Rd, Thanon Phaya Thai, Ratchathewi, Bangkok 10400, Thailand",
+  "website": "https://www.thaisolutions1502.com/",
+  "phone": "+66 81 653 5788",
+  "lat": 13.7561584,
+  "lng": 100.5327325,
+  "google_rating": 4.8,
+  "google_reviews": 147,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Thai%20Solutions%20%7C%20Thai%20Language%20School%20in%20Bangkok&query_place_id=ChIJgWFPseKe4jARHedXDUZS-0k",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "10 AM to 5 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "10 AM to 5 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "10 AM to 5 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "10 AM to 5 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "10 AM to 5 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "Closed"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Language school",
+   "English language school",
+   "Japanese language instructor",
+   "Visa consulting service"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJnY_wJ-Kf4jARojq3BWR05Zo",
+  "name": "ALA Language School",
+  "slug": "ala-language-school-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "Trendy Building, Floor 1A, Soi Sukhumvit 13, Khlong Toei Nuea, Watthana, Bangkok 10110, Thailand",
+  "website": "https://alalanguage.com/?utm_source=google&utm_medium=cpc&utm_campaign=MAM-Google-Brand&gad_source=1&gclid=Cj0KCQiAgK2qBhCHARIsAGACuzljHJ6k0fJhNNCcIFogE06Bc6xz90Wm5RXvoeFLxS6FyIQt-IGnwNUaArNOEALw_wcB",
+  "phone": "+66 61 919 7947",
+  "lat": 13.7406177,
+  "lng": 100.5578439,
+  "google_rating": 4.6,
+  "google_reviews": 171,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=ALA%20Language%20School&query_place_id=ChIJnY_wJ-Kf4jARojq3BWR05Zo",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Language school",
+   "Chinese language school",
+   "English language school"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJr2Zvmx2f4jARMN_mk5-QIqM",
+  "name": "The Knowledge Language School at Lake Rajada",
+  "slug": "the-knowledge-language-school-at-lake-rajada-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "5th & 6th Floor, Lake Rajada Office Complex, 193-195 Ratchadaphisek Rd, Khwaeng Khlong Toei, Khet Khlong Toei, Bangkok 10110, Thailand",
+  "website": "https://www.theknowledge.in.th/",
+  "phone": "+66 61 828 6611",
+  "lat": 13.7312778,
+  "lng": 100.5601171,
+  "google_rating": 4.6,
+  "google_reviews": 177,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The%20Knowledge%20Language%20School%20at%20Lake%20Rajada&query_place_id=ChIJr2Zvmx2f4jARMN_mk5-QIqM",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "10 AM to 5 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "10 AM to 5 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "10 AM to 5 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "10 AM to 5 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "10 AM to 5 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "Closed"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Language school",
+   "Chinese language instructor",
+   "Chinese language school",
+   "English language camp",
+   "English language school",
+   "Foreign languages program school",
+   "Private educational institution"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJWUzLZiuf4jAR3OVKA3m4Osk",
+  "name": "Expert Education & Visa Services",
+  "slug": "expert-education-visa-services-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "140 ห้อง 1204 อาคาร วันแปซิฟิก Sukhumvit Rd, Khwaeng Khlong Toei, Khlong Toei, Bangkok 10110, Thailand",
+  "website": "",
+  "phone": "+66 84 113 2303",
+  "lat": 13.7409785,
+  "lng": 100.5545383,
+  "google_rating": 4.8,
+  "google_reviews": 107,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Expert%20Education%20%26%20Visa%20Services&query_place_id=ChIJWUzLZiuf4jAR3OVKA3m4Osk",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Educational consultant"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJmfFlcSyf4jAR1Cq4Qp1SwHM",
+  "name": "International House Bangkok",
+  "slug": "international-house-bangkok-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "9th floor, The Trendy Building, Soi Sukhumvit 13, Khlong Toei Nuea, Watthana, Bangkok 10110, Thailand",
+  "website": "https://www.ihbangkok.com/",
+  "phone": "+66 2 252 9996",
+  "lat": 13.7403827,
+  "lng": 100.5578057,
+  "google_rating": 4.8,
+  "google_reviews": 464,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=International%20House%20Bangkok&query_place_id=ChIJmfFlcSyf4jAR1Cq4Qp1SwHM",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "8 AM to 7:30 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "8 AM to 7:30 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "8 AM to 7:30 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "8 AM to 7:30 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "8 AM to 7:30 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "8 AM to 5 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "7:30 AM to 4:30 PM"
+   }
+  ],
+  "categories": [
+   "English language school",
+   "Training center"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJp6ZWweaf4jARuS3QXWFfSb4",
+  "name": "AAA Thai Language School",
+  "slug": "aaa-thai-language-school-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "Wannasorn building 12th floor, Phaya Thai Rd, Bangkok 10400, Thailand",
+  "website": "http://www.aaathai.school/",
+  "phone": "+66 95 248 3472",
+  "lat": 13.7581215,
+  "lng": 100.534956,
+  "google_rating": 4.8,
+  "google_reviews": 192,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=AAA%20Thai%20Language%20School&query_place_id=ChIJp6ZWweaf4jARuS3QXWFfSb4",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "Closed"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Language school",
+   "Adult education school",
+   "Educational institution",
+   "Foreign languages program school"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJR8LGwuOe4jAR9QNWwu8_PGY",
+  "name": "Pro Language School Bangkok",
+  "slug": "pro-language-school-bangkok-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "10th Floor,Times Square Building Sukhumvit Rd., 10110, Thailand",
+  "website": "https://prolanguage.co.th/bangkok/",
+  "phone": "+66 2 250 0072",
+  "lat": 13.7377916,
+  "lng": 100.5588262,
+  "google_rating": 4.7,
+  "google_reviews": 182,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Pro%20Language%20School%20Bangkok&query_place_id=ChIJR8LGwuOe4jAR9QNWwu8_PGY",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Language school",
+   "English language school"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJfa4iFwKf4jARO6rh5YoyQ9M",
+  "name": "TLS PhomphongThai/English School",
+  "slug": "tls-phomphongthai-english-school-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "595/15 (2fl 15 Praphai Phak Alley, Khlong Tan Nuea, Watthana, Bangkok 10110, Thailand",
+  "website": "http://www.tls-silom.com/",
+  "phone": "+66 2 662 2584",
+  "lat": 13.7320352,
+  "lng": 100.5683731,
+  "google_rating": 4.9,
+  "google_reviews": 54,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=TLS%20PhomphongThai%2FEnglish%20School&query_place_id=ChIJfa4iFwKf4jARO6rh5YoyQ9M",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "9 AM to 6 PM"
+   }
+  ],
+  "categories": [
+   "Language school"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJezO4GeWe4jARsNrUjOHXKR0",
+  "name": "The Language Thailand",
+  "slug": "the-language-thailand-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "อาคารเอสเควี เลขที่ 111 ชั้น 3 Soi Saen Sabai, Khlong Tan, Khlong Toei, Bangkok 10110, Thailand",
+  "website": "http://www.thelanguage-thailand.com/",
+  "phone": "+66 2 114 3250",
+  "lat": 13.718511,
+  "lng": 100.576315,
+  "google_rating": 5,
+  "google_reviews": 379,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The%20Language%20Thailand&query_place_id=ChIJezO4GeWe4jARsNrUjOHXKR0",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 10 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 10 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 10 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 10 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 10 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "9 AM to 5 PM"
+   }
+  ],
+  "categories": [
+   "Educational institution"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJ39OfvuSe4jARM-m1JV8KUK4",
+  "name": "GEOS Language Centre Thailand",
+  "slug": "geos-language-centre-thailand-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "2 Jasmine City Building 22Floor (at, 23 Sukhumvit Rd, Khlong Toei Nuea, Watthana, Bangkok 10110, Thailand",
+  "website": "https://geosthai.com/",
+  "phone": "+66 2 261 4646",
+  "lat": 13.7356261,
+  "lng": 100.5627652,
+  "google_rating": 4.8,
+  "google_reviews": 107,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=GEOS%20Language%20Centre%20Thailand&query_place_id=ChIJ39OfvuSe4jARM-m1JV8KUK4",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 7 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 7 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 7 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 7 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 7 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Language school"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJw9wjXQCf4jAROdNl1qKsljY",
+  "name": "Thai Language Hut School",
+  "slug": "thai-language-hut-school-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "",
+  "website": "https://www.thailanguagehut.com/",
+  "phone": "",
+  "lat": 14.1576412,
+  "lng": -17.4643322,
+  "google_rating": 4.6,
+  "google_reviews": 21,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Thai%20Language%20Hut%20School&query_place_id=ChIJw9wjXQCf4jAROdNl1qKsljY",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "9 AM to 9 PM"
+   }
+  ],
+  "categories": [
+   "Language school",
+   "Educational consultant",
+   "English language school",
+   "Service establishment"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJAW8FVtye4jARkDaeG0XyrHE",
+  "name": "Rak Thai Language School",
+  "slug": "rak-thai-language-school-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "888, 104 มหาทุนพลาซ่า, ชั้นที่ 10 Phloen Chit Rd, แขวง ลุมพีนี, Pathum Wan, Bangkok 10330, Thailand",
+  "website": "http://www.rtl-school.com/",
+  "phone": "+66 2 255 3036",
+  "lat": 13.7425055,
+  "lng": 100.5487392,
+  "google_rating": 4.5,
+  "google_reviews": 92,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Rak%20Thai%20Language%20School&query_place_id=ChIJAW8FVtye4jARkDaeG0XyrHE",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "Closed"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Language school"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJzdkp5uKe4jARiGPd_Y_C0CU",
+  "name": "Thai Language School Sukhumvit - Asoke",
+  "slug": "thai-language-school-sukhumvit-asoke-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "Exchange Tower 388 Sukhumvit Rd Phrom Phong, Bangkok, Khlong Toei, Krung Thep Maha Nakhon 10110, Thailand",
+  "website": "",
+  "phone": "+66 2 259 9099",
+  "lat": 13.735423,
+  "lng": 100.5616484,
+  "google_rating": 5,
+  "google_reviews": 4,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Thai%20Language%20School%20Sukhumvit%20-%20Asoke&query_place_id=ChIJzdkp5uKe4jARiGPd_Y_C0CU",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "7 AM to 9 PM"
+   }
+  ],
+  "categories": [
+   "Language school"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJc09yNoee4jARpoB3U54Nk7A",
+  "name": "Speak Thai Easy Co.,Ltd",
+  "slug": "speak-thai-easy-co-ltd-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "10400 Sukhumvit Rd, Khlongtoiey, Bangkok 10400, Thailand",
+  "website": "https://www.speakthaieasy.com/?fbclid=PAAaa8PtB_EbjNOHhND0Vlh-cWs1b_6LbIAkg1oAppQ5LqjCDOqfp6n6Nftok_aem_AXDDwUyg6Yu-R6OF7yob1i3sFRNtF5kx3ygCUd_QhGrXbVJbCLnaWpjpq_YYO-yFRhU",
+  "phone": "+66 95 653 9798",
+  "lat": 13.736025,
+  "lng": 100.561607,
+  "google_rating": 5,
+  "google_reviews": 120,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Speak%20Thai%20Easy%20Co.%2CLtd&query_place_id=ChIJc09yNoee4jARpoB3U54Nk7A",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 7 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 7 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 7 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 7 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 7 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "Closed"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Foreign languages program school",
+   "Board of education",
+   "General education school",
+   "Learning center",
+   "Training center"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJn2Zf5P2e4jARUHoklUsN-AA",
+  "name": "Baan Aksorn Thai Language School",
+  "slug": "baan-aksorn-thai-language-school-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "52 Soi Ekkamai 4, Phra Khanong Nuea, Watthana, Bangkok 10110, Thailand",
+  "website": "https://www.baanaksorn.com/",
+  "phone": "+66 61 636 9465",
+  "lat": 13.7237425,
+  "lng": 100.587479,
+  "google_rating": 4.9,
+  "google_reviews": 98,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Baan%20Aksorn%20Thai%20Language%20School&query_place_id=ChIJn2Zf5P2e4jARUHoklUsN-AA",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "8 AM to 9 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "8 AM to 9 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "8 AM to 9 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "8 AM to 9 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "8 AM to 9 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "8 AM to 9 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "8 AM to 9 PM"
+   }
+  ],
+  "categories": [
+   "Language school"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJw24AcBic4jARSMNc8JEH1Y8",
+  "name": "Sandee Thai Language School",
+  "slug": "sandee-thai-language-school-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "550 Asok 18 Pho Pan Alley, Din Daeng, Bangkok 10400, Thailand",
+  "website": "https://www.sandee.ac.th/",
+  "phone": "+66 2 641 4459",
+  "lat": 13.7570135,
+  "lng": 100.5623745,
+  "google_rating": 4.1,
+  "google_reviews": 136,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sandee%20Thai%20Language%20School&query_place_id=ChIJw24AcBic4jARSMNc8JEH1Y8",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Language school",
+   "Foreign languages program school"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJ5ULyCv2e4jARf2uvOguCJko",
+  "name": "Jentana & Associates Thai Language School",
+  "slug": "jentana-associates-thai-language-school-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "5 / 8 Sukhumvit 31, Klongtoey, Neua, Watthana, Bangkok 10110, Thailand",
+  "website": "http://www.thai-lessons.com/",
+  "phone": "+66 2 260 6138",
+  "lat": 13.7348036,
+  "lng": 100.5659692,
+  "google_rating": 4.7,
+  "google_reviews": 40,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Jentana%20%26%20Associates%20Thai%20Language%20School&query_place_id=ChIJ5ULyCv2e4jARf2uvOguCJko",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "Closed"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Language school"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJ9x5h5_6e4jARV7ILJ4tB9ns",
+  "name": "Easy Thai Language School at Sukhumvit 39",
+  "slug": "easy-thai-language-school-at-sukhumvit-39-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "55ไบโอเฮาส์ Sukhumvit 39, Khlong Tan Nuea, Watthana, Bangkok 10110, Thailand",
+  "website": "https://www.easythaischool39.com/",
+  "phone": "+66 88 625 1133",
+  "lat": 13.7372825,
+  "lng": 100.5712965,
+  "google_rating": 4.8,
+  "google_reviews": 25,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Easy%20Thai%20Language%20School%20at%20Sukhumvit%2039&query_place_id=ChIJ9x5h5_6e4jARV7ILJ4tB9ns",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "9 AM to 5 PM"
+   }
+  ],
+  "categories": [
+   "Foreign languages program school",
+   "Visa consulting service"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJ2WzIXdWf4jARZRk9eeecCRM",
+  "name": "BananaThai | Thai Language School",
+  "slug": "bananathai-thai-language-school-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "Common Ground, Phloen Chit Rd, Lumphini, Pathum Wan, Bangkok 10330, Thailand",
+  "website": "https://bananathaischool.com/?utm_source=google&utm_medium=organic&utm_campaign=google_business_profile",
+  "phone": "+66 92 686 7404",
+  "lat": 13.7433795,
+  "lng": 100.5462877,
+  "google_rating": 4.9,
+  "google_reviews": 64,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=BananaThai%20%7C%20Thai%20Language%20School&query_place_id=ChIJ2WzIXdWf4jARZRk9eeecCRM",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "10 AM to 5:30 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "10 AM to 5:30 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "10 AM to 5:30 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "10 AM to 5:30 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "10 AM to 5:30 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "Closed"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Training center"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJ90c9Gamf4jAR5i9BftQ5MdM",
+  "name": "TLS Thong Lo タイ語英会話学校",
+  "slug": "tls-thong-lo-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "language_school",
+  "address": "1013 Sukhumvit Rd, Klongton-nua, Watthana, Bangkok 10110, Thailand",
+  "website": "https://www.facebook.com/tls.thoglor/",
+  "phone": "+66 2 714 2229",
+  "lat": 13.7243266,
+  "lng": 100.578543,
+  "google_rating": 4.6,
+  "google_reviews": 69,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=TLS%20Thong%20Lo%20%E3%82%BF%E3%82%A4%E8%AA%9E%E8%8B%B1%E4%BC%9A%E8%A9%B1%E5%AD%A6%E6%A0%A1&query_place_id=ChIJ90c9Gamf4jAR5i9BftQ5MdM",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "9 AM to 6 PM"
+   }
+  ],
+  "categories": [
+   "Language school"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJZf8uOg6f4jARxs9GuOUiBpk",
+  "name": "Muay Thai Academy M.T.A",
+  "slug": "muay-thai-academy-m-t-a-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "Rama 4, Thang Rotfai Sai Kao Pak Nam Rd, Sai Kao Pak Nam Rd, Bangkok 10110, Thailand",
+  "website": "https://www.muaythaiacademymta.com/",
+  "phone": "+66 90 983 6459",
+  "lat": 13.7176677,
+  "lng": 100.5658608,
+  "google_rating": 4.8,
+  "google_reviews": 68,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Muay%20Thai%20Academy%20M.T.A&query_place_id=ChIJZf8uOg6f4jARxs9GuOUiBpk",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "8 AM to 8 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "8 AM to 8 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "8 AM to 8 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "8 AM to 8 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "8 AM to 8 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "8 AM to 5:30 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym",
+   "Boxing gym",
+   "Kickboxing school"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJY3QAYhyf4jARQlQC-j46aTI",
+  "name": "Yokkao Training Center Bangkok & Store",
+  "slug": "yokkao-training-center-bangkok-store-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "190, 190/1 Soi Sukhumvit 16, Khlong Toei, Bangkok 10110, Thailand",
+  "website": "http://www.yokkao.com/pages/bangkok",
+  "phone": "+66 92 829 7688",
+  "lat": 13.7286843,
+  "lng": 100.5605017,
+  "google_rating": 4.6,
+  "google_reviews": 454,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Yokkao%20Training%20Center%20Bangkok%20%26%20Store&query_place_id=ChIJY3QAYhyf4jARQlQC-j46aTI",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "8 AM to 6:30 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "8 AM to 6:30 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "8 AM to 6:30 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "8 AM to 6:30 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "8 AM to 6:30 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "8 AM to 6:30 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym",
+   "Sporting goods store"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJL0YWsoKd4jARLpst8aK8XJQ",
+  "name": "Khongsittha Muay Thai (คงสิทธา)",
+  "slug": "khongsittha-muay-thai-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "23 Sukhonthasawat Rd, Khwaeng Lat Phrao, Khet Lat Phrao, Krung Thep Maha Nakhon 10230, Thailand",
+  "website": "http://www.kstmuaythai.com/",
+  "phone": "+66 2 932 9911",
+  "lat": 13.822063,
+  "lng": 100.608328,
+  "google_rating": 5,
+  "google_reviews": 451,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Khongsittha%20Muay%20Thai%20(%E0%B8%84%E0%B8%87%E0%B8%AA%E0%B8%B4%E0%B8%97%E0%B8%98%E0%B8%B2)&query_place_id=ChIJL0YWsoKd4jARLpst8aK8XJQ",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "Closed"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "8 to 11 AM, 3 to 8 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "8 to 11 AM, 3 to 8 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "8 to 11 AM, 3 to 8 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "8 to 11 AM, 3 to 8 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "8 to 11:30 AM, 3 to 7 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "8 to 11:30 AM, 3 to 6 PM"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym",
+   "Martial arts school"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJA7zcr3qd4jARnOk6EsRaONA",
+  "name": "WKK Muay Thai Gym",
+  "slug": "wkk-muay-thai-gym-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "153/3 Lat Phrao Rd, Samsen Nok, Huai Khwang, Bangkok 10310, Thailand",
+  "website": "https://wkkgym.com/",
+  "phone": "+66 64 728 5792",
+  "lat": 13.7988312,
+  "lng": 100.5777221,
+  "google_rating": 4.9,
+  "google_reviews": 55,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=WKK%20Muay%20Thai%20Gym&query_place_id=ChIJA7zcr3qd4jARnOk6EsRaONA",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "7 AM to 7 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "7 AM to 7 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "7 AM to 7 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "7 AM to 7 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "7 AM to 7 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "7 AM to 7 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJ_zOQCWJ9HTERdVfzjRkz6Ls",
+  "name": "Rachanon Boxing Muay Thai Training Camp ค่ายมวย ราชานนท์",
+  "slug": "rachanon-boxing-muay-thai-training-camp-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "Permsin Soi16, Phahonyothin 54/1, Klongthanon, Sai Mai, Bangkok 10220, Thailand",
+  "website": "https://www.facebook.com/rachanonmuaythaitrainingcamp",
+  "phone": "+66 82 659 1718",
+  "lat": 13.8977497,
+  "lng": 100.6200004,
+  "google_rating": 4.9,
+  "google_reviews": 26,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Rachanon%20Boxing%20Muay%20Thai%20Training%20Camp%20%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%A1%E0%B8%A7%E0%B8%A2%20%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%97%E0%B9%8C&query_place_id=ChIJ_zOQCWJ9HTERdVfzjRkz6Ls",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "8 AM to 8 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "8 AM to 8 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "8 AM to 8 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "8 AM to 8 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "8 AM to 8 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "8 AM to 8 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Open 24 hours"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym",
+   "Sports school"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJNXxhKwCf4jARLRTtgXb_1oI",
+  "name": "WIT Muaythai Gym",
+  "slug": "wit-muaythai-gym-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "2nd FL, 39-41 Sukhumvit 39, Khlong Tan Nuea, Watthana, Bangkok 10110, Thailand",
+  "website": "https://witmuaythai.com/",
+  "phone": "+66 62 409 8657",
+  "lat": 13.7376561,
+  "lng": 100.5701737,
+  "google_rating": 5,
+  "google_reviews": 202,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=WIT%20Muaythai%20Gym&query_place_id=ChIJNXxhKwCf4jARLRTtgXb_1oI",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 8:30 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 8:30 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 8:30 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 8:30 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 8:30 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "9 AM to 7 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "9 AM to 7 PM"
+   }
+  ],
+  "categories": [
+   "Gym"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJNUdVL72f4jARbK1IV5EOfkI",
+  "name": "The Box Thailand Boxing Academy & Training Camp, Bangkok",
+  "slug": "the-box-thailand-boxing-academy-training-camp-bangkok-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "Nana BTS station, Ambassador Hotel Bangkok, Floor 5 Parking Area, Sukhumvit 11 Aly, Watthana, Bangkok 10110, Thailand",
+  "website": "http://www.theboxthailand.com/",
+  "phone": "+66 96 756 0010",
+  "lat": 13.7417261,
+  "lng": 100.556829,
+  "google_rating": 4.9,
+  "google_reviews": 117,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The%20Box%20Thailand%20Boxing%20Academy%20%26%20Training%20Camp%2C%20Bangkok&query_place_id=ChIJNUdVL72f4jARbK1IV5EOfkI",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9:30 AM to 8:30 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9:30 AM to 8:30 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9:30 AM to 8:30 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9:30 AM to 8:30 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9:30 AM to 7 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "9:30 AM to 5:30 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "1:30 AM to 2:30 PM"
+   }
+  ],
+  "categories": [
+   "Boxing gym"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJSWdx8Qaf4jARL1Cya7nUCFo",
+  "name": "PHETSIAM MUAY THAI GYM",
+  "slug": "phetsiam-muay-thai-gym-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "127 SATHUPRADIT SOI 58 YAK 13, BANGPONGPANG, Yan Nawa, Bangkok 10120, Thailand บางโพงพาง Yan Nawa, Bangkok 10120, Thailand",
+  "website": "https://www.instagram.com/phetsiam.muaythai/",
+  "phone": "+66 99 452 6419",
+  "lat": 13.6817634,
+  "lng": 100.5282715,
+  "google_rating": 5,
+  "google_reviews": 59,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=PHETSIAM%20MUAY%20THAI%20GYM&query_place_id=ChIJSWdx8Qaf4jARL1Cya7nUCFo",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "7 AM to 8 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "7 AM to 8 PM"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym",
+   "Gym"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJbQPhqjme4jARVYLEQINYGaQ",
+  "name": "LKT Muay Thai Gym - ค่ายมวยลูกคลองตัน",
+  "slug": "lkt-muay-thai-gym-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "51, 3 Ramkhamhaeng 3 Alley, Suan Luang, Bangkok 10250, Thailand",
+  "website": "https://www.facebook.com/share/1BLWZgru2B/?mibextid=wwXIfr",
+  "phone": "+66 66 149 1949",
+  "lat": 13.7460766,
+  "lng": 100.6000566,
+  "google_rating": 4.8,
+  "google_reviews": 54,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=LKT%20Muay%20Thai%20Gym%20-%20%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%A1%E0%B8%A7%E0%B8%A2%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%95%E0%B8%B1%E0%B8%99&query_place_id=ChIJbQPhqjme4jARVYLEQINYGaQ",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "4 to 9 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "4 to 9 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "4 to 9 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "4 to 9 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "4 to 9 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "4 to 9 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJMSs7_yeX3zARJVYmM5dut1M",
+  "name": "JP Boxing Gym",
+  "slug": "jp-boxing-gym-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "10/61 Damripattana (Sriharach Dechochai 14) Ban Klong Sub Dristic, Mung, Mueang Phitsanulok District, 65000, Thailand",
+  "website": "http://www.jpboxinggym.com/",
+  "phone": "+66 61 686 9889",
+  "lat": 16.8214239,
+  "lng": 100.2385565,
+  "google_rating": 5,
+  "google_reviews": 395,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=JP%20Boxing%20Gym&query_place_id=ChIJMSs7_yeX3zARJVYmM5dut1M",
+  "opening_hours": null,
+  "categories": [
+   "Muay Thai boxing gym",
+   "Boxing gym",
+   "Meditation instructor",
+   "Sauna",
+   "Serviced accommodation",
+   "Thai massage therapist",
+   "Training center",
+   "Wellness center",
+   "Wi-Fi spot",
+   "Yoga studio"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJEdZs0K6Y4jAReYL3TF5jZgY",
+  "name": "PK. Saenchai Muay Thai Gym",
+  "slug": "pk-saenchai-muay-thai-gym-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "3713 31 ซอยตรอกนอกเขต Bang Khlo, Bang Kho Laem, Bangkok 10120, Thailand",
+  "website": "https://www.facebook.com/P.K.Saenchaimuaythaigym/",
+  "phone": "+66 62 525 6591",
+  "lat": 13.6956221,
+  "lng": 100.52173,
+  "google_rating": 4.8,
+  "google_reviews": 269,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=PK.%20Saenchai%20Muay%20Thai%20Gym&query_place_id=ChIJEdZs0K6Y4jAReYL3TF5jZgY",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "7 to 9 AM, 2 to 6 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "7 to 9 AM, 2 to 6 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "7 to 9 AM, 2 to 6 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "7 to 9 AM, 2 to 6 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "7 to 9 AM, 2 to 6 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "7 to 9 AM, 2 to 6 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym",
+   "Gym"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJ9T392jmZ4jARuqv-kdSwUVs",
+  "name": "Project H Muay-Thai Gym (Samyan Mitrtown)",
+  "slug": "project-h-muay-thai-gym-samyan-mitrtown-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "944/1 ห้องเลขที่ 3, ยู019-3ยู021, ชั้นที่3, Wang Mai, Pathum Wan, Bangkok 10330, Thailand",
+  "website": "https://www.metahgym.com/",
+  "phone": "+66 63 916 6356",
+  "lat": 13.7337752,
+  "lng": 100.5284718,
+  "google_rating": 4.9,
+  "google_reviews": 307,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Project%20H%20Muay-Thai%20Gym%20(Samyan%20Mitrtown)&query_place_id=ChIJ9T392jmZ4jARuqv-kdSwUVs",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "10 AM to 10 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "10 AM to 10 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "10 AM to 10 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "10 AM to 10 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "10 AM to 10 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "10 AM to 10 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "10 AM to 10 PM"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJEY860eKe4jARhHG9oQ8UEho",
+  "name": "RSM Rajadamnern Singha Muay Thai Academy",
+  "slug": "rsm-rajadamnern-singha-muay-thai-academy-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "Jasmine City (2nd Floor) Klongtoey Nua, Wattana, 23 Sukhumvit Rd, Khlong Tan Nuea, Watthana, Bangkok 10110, Thailand",
+  "website": "https://www.facebook.com/RsmAcademy/?ref=bookmarks",
+  "phone": "+66 2 661 6292",
+  "lat": 13.7357156,
+  "lng": 100.5628932,
+  "google_rating": 4.4,
+  "google_reviews": 80,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=RSM%20Rajadamnern%20Singha%20Muay%20Thai%20Academy&query_place_id=ChIJEY860eKe4jARhHG9oQ8UEho",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "9 AM to 9 PM"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJuSRhKY9hHTERgWw1gNieyvQ",
+  "name": "Baan Five Muay Thai Gym",
+  "slug": "baan-five-muay-thai-gym-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "318 Soi On Nut 44, Khwaeng Suan Luang, Suan Luang, Bangkok 10250, Thailand",
+  "website": "https://www.baanfivemuaythai.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=12137909365292673916",
+  "phone": "+66 65 940 0881",
+  "lat": 13.7050734,
+  "lng": 100.6299221,
+  "google_rating": 5,
+  "google_reviews": 43,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Baan%20Five%20Muay%20Thai%20Gym&query_place_id=ChIJuSRhKY9hHTERgWw1gNieyvQ",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "7 to 11:30 AM, 5 to 9:30 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "7 to 11:30 AM, 5 to 9:30 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "7 to 11:30 AM, 5 to 9:30 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "7 to 11:30 AM, 5 to 9:30 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "7 to 11:30 AM, 5 to 9:30 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "7 to 11:30 AM, 5 to 9:30 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "7 to 11:30 AM, 5 to 9:30 PM"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym",
+   "Boxing gym",
+   "Coffee shop",
+   "Fitness center"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJsX2OAD-Z4jARH_GAahfyonY",
+  "name": "Sangmorakot Muay Thai Academy",
+  "slug": "sangmorakot-muay-thai-academy-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "21 Damrong Rak Rd, Khlong Maha Nak, Pom Prap Sattru Phai, Bangkok 10100, Thailand",
+  "website": "https://www.facebook.com/profile.php?id=100031943452947&mibextid=LQQJ4d",
+  "phone": "+66 98 962 4615",
+  "lat": 13.7556906,
+  "lng": 100.510003,
+  "google_rating": 4.6,
+  "google_reviews": 127,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sangmorakot%20Muay%20Thai%20Academy&query_place_id=ChIJsX2OAD-Z4jARH_GAahfyonY",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "7:30 to 9 AM, 3 to 7 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "7:30 to 9 AM, 3 to 7 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "7:30 to 9 AM, 3 to 7 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "7:30 to 9 AM, 3 to 7 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "7:30 to 9 AM, 3 to 7 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "7:30 to 9 AM, 3 to 7 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJx0YnAYxjHTERfvBZ4E7xuss",
+  "name": "T.C.Muay Thai Gym",
+  "slug": "t-c-muay-thai-gym-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "5, 1 Nawamin 74 Alley, Lane 3-7-3, Ram Inthra, Khan Na Yao, Bangkok 10240, Thailand",
+  "website": "https://tcmuaythaibangkok.com/",
+  "phone": "+66 80 061 9399",
+  "lat": 13.8192091,
+  "lng": 100.663193,
+  "google_rating": 4.9,
+  "google_reviews": 26,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=T.C.Muay%20Thai%20Gym&query_place_id=ChIJx0YnAYxjHTERfvBZ4E7xuss",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "7 AM to 8:30 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "7 AM to 8:30 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "7 AM to 8:30 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "7 AM to 8:30 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "7 AM to 8:30 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "7 AM to 8:30 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJNSVDcC6Z4jARSP9CCcEywQQ",
+  "name": "Valhalla mma gym",
+  "slug": "valhalla-mma-gym-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "Charan Sanitwong 30/1 Alley, บางกอกน้อย, Bangkok Noi, Bangkok 10700, Thailand",
+  "website": "https://www.facebook.com/ValhallammaGym",
+  "phone": "+66 93 115 7846",
+  "lat": 13.7604269,
+  "lng": 100.4715505,
+  "google_rating": 5,
+  "google_reviews": 30,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Valhalla%20mma%20gym&query_place_id=ChIJNSVDcC6Z4jARSP9CCcEywQQ",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "Closed"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "5 to 7 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "5 to 7 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "5 to 7 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "5 to 7 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "4 to 7 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "4 to 7 PM"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym",
+   "Sports club"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJ126lVRqa4jARF2qtPXJJz-g",
+  "name": "ค่ายมวย ส.วรพิน Sor. Vorapin Muay Thai Training Gym 2",
+  "slug": "sor-vorapin-muay-thai-training-gym-2-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "37/15 ถนน สวนผัก Taling Chan, Bangkok 10170, Thailand",
+  "website": "http://www.thaiboxings.com/",
+  "phone": "+66 2 433 9768",
+  "lat": 13.7927348,
+  "lng": 100.4552508,
+  "google_rating": 4.7,
+  "google_reviews": 22,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%A1%E0%B8%A7%E0%B8%A2%20%E0%B8%AA.%E0%B8%A7%E0%B8%A3%E0%B8%9E%E0%B8%B4%E0%B8%99%20Sor.%20Vorapin%20Muay%20Thai%20Training%20Gym%202&query_place_id=ChIJ126lVRqa4jARF2qtPXJJz-g",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "Closed"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "8:30 AM to 6 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "8:30 AM to 6 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "8:30 AM to 6 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "8:30 AM to 6 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "8:30 AM to 6 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "8:30 AM to 6 PM"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym",
+   "Education",
+   "Martial arts school"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJfQNPTNye4jARKOGSk1CNJmA",
+  "name": "FITFAC Muay Thai Phloen Chit",
+  "slug": "fitfac-muay-thai-phloen-chit-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "Mahatun Plaza Building, 888/36-39 Lumphini, Pathum Wan, Bangkok 10330, Thailand",
+  "website": "https://www.fitfacmuaythai.com/locations/ploenchit/?utm_source=gbp&utm_medium=organic&utm_campaign=ploenchit",
+  "phone": "+66 2 460 9260",
+  "lat": 13.7416974,
+  "lng": 100.5490419,
+  "google_rating": 4.8,
+  "google_reviews": 211,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=FITFAC%20Muay%20Thai%20Phloen%20Chit&query_place_id=ChIJfQNPTNye4jARKOGSk1CNJmA",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "1 to 9 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "1 to 9 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "1 to 9 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "1 to 9 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "1 to 9 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "10 AM to 5:30 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "10 AM to 5:30 PM"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym",
+   "Boxing club",
+   "Boxing gym",
+   "Fitness center",
+   "Gym",
+   "Kickboxing school",
+   "Martial arts school",
+   "Personal trainer",
+   "Self defense school"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJaTdaG3Gg4jARdkcN0cz9huA",
+  "name": "Master Toddy Muay Thai",
+  "slug": "master-toddy-muay-thai-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "Subdistrict, 55, Bearing District 103-109, Sukhumvit 107 Road Sam Rong Nua, Bangkok, Samut Prakan 10270, Thailand",
+  "website": "http://mastertoddy.com/",
+  "phone": "+66 84 499 8994",
+  "lat": 13.64949,
+  "lng": 100.6090029,
+  "google_rating": 4.6,
+  "google_reviews": 121,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Master%20Toddy%20Muay%20Thai&query_place_id=ChIJaTdaG3Gg4jARdkcN0cz9huA",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "8 AM to 6 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "8 AM to 6 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "8 AM to 6 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "8 AM to 6 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "8 AM to 6 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "8 AM to 12 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym",
+   "Boxing gym",
+   "Boxing ring",
+   "Gym",
+   "Kickboxing school",
+   "Martial arts club",
+   "Martial arts school",
+   "Sports school",
+   "Training center"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJ6YQT0nif4jAR93oU61UI-U4",
+  "name": "Superbon Muay thai",
+  "slug": "superbon-muay-thai-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "109 ชั้น 2 Sukhumvit 24 Alley, Khlong Tan, Khlong Toei, Bangkok 10110, Thailand",
+  "website": "",
+  "phone": "",
+  "lat": 13.7243933,
+  "lng": 100.5681323,
+  "google_rating": 5,
+  "google_reviews": 49,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Superbon%20Muay%20thai&query_place_id=ChIJ6YQT0nif4jAR93oU61UI-U4",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "7 AM to 10 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "7 AM to 10 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "7 AM to 10 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "7 AM to 10 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "7 AM to 10 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "7 AM to 10 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "7 AM to 10 PM"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJEyraT0CZ4jAREz5xKJKTLDM",
+  "name": "Rajadamnern Muay Thai Stadium",
+  "slug": "rajadamnern-muay-thai-stadium-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "8 Ratchadamnoen Nok Rd, เเขวง วัดโสมนัส, Pom Prap Sattru Phai, Bangkok 10100, Thailand",
+  "website": "https://www.rajadamnern.com/",
+  "phone": "+66 2 281 4205",
+  "lat": 13.7609937,
+  "lng": 100.5087949,
+  "google_rating": 4.8,
+  "google_reviews": 11357,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Rajadamnern%20Muay%20Thai%20Stadium&query_place_id=ChIJEyraT0CZ4jAREz5xKJKTLDM",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "5 to 10 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "5 to 10 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "5 to 10 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "5 to 10 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "5 to 10 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "5 to 10 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "5 to 10 PM"
+   }
+  ],
+  "categories": [
+   "Boxing ring"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJH0_MlmKf4jARr92OeOo8wr8",
+  "name": "Pak Muaythai",
+  "slug": "pak-muaythai-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "395, 4-5 Naradhiwas Rajanakarindra 24 Alley, Chong Nonsi, Yan Nawa, Bangkok 10120, Thailand",
+  "website": "",
+  "phone": "",
+  "lat": 13.7012337,
+  "lng": 100.5368029,
+  "google_rating": 5,
+  "google_reviews": 15,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Pak%20Muaythai&query_place_id=ChIJH0_MlmKf4jARr92OeOo8wr8",
+  "opening_hours": null,
+  "categories": [
+   "Muay Thai boxing gym"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJ_3r5Qd2e4jAREbauYzb3nmw",
+  "name": "Watchara MuayThai Gym",
+  "slug": "watchara-muaythai-gym-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "9 Sukhumvit 1 Alley, Khlong Toei Nuea, Watthana, Bangkok 10110, Thailand",
+  "website": "http://www.watcharagym.com/",
+  "phone": "+66 81 874 5566",
+  "lat": 13.7438614,
+  "lng": 100.5509244,
+  "google_rating": 4.9,
+  "google_reviews": 366,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Watchara%20MuayThai%20Gym&query_place_id=ChIJ_3r5Qd2e4jAREbauYzb3nmw",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "9 AM to 9 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJk6zBNwef4jARCQ5MmV1odd0",
+  "name": "Elite Fight Club",
+  "slug": "elite-fight-club-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "758/22 วอเตอร์ไดมอนด์ ทาวเวอร์ Sukhumvit 30/1 Alley, Khlong Tan, Khlong Toei, Bangkok 10110, Thailand",
+  "website": "http://www.elitefightclub.com/",
+  "phone": "+66 2 661 3546",
+  "lat": 13.7267141,
+  "lng": 100.5731067,
+  "google_rating": 4.6,
+  "google_reviews": 233,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Elite%20Fight%20Club&query_place_id=ChIJk6zBNwef4jARCQ5MmV1odd0",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "6:30 AM to 10:30 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "6:30 AM to 10:30 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "6:30 AM to 10:30 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "6:30 AM to 10:30 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "6:30 AM to 10:30 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "7 AM to 9 PM"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym",
+   "Boxing gym",
+   "Martial arts school",
+   "Nutritionist",
+   "Personal trainer",
+   "Self defense school",
+   "Sports school",
+   "Weight loss service",
+   "Women's personal trainer",
+   "Yoga studio"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJra9yKt6e4jARIyEvQsStRZc",
+  "name": "Mongkon Academy",
+  "slug": "mongkon-academy-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "muay_thai_camp",
+  "address": "171 Sukhumvit 11 Aly, Khlong Toei Nuea, Watthana, Bangkok 10110, Thailand",
+  "website": "http://mongkonacademy.com/",
+  "phone": "+66 96 095 7995",
+  "lat": 13.7421355,
+  "lng": 100.5568305,
+  "google_rating": 4.9,
+  "google_reviews": 83,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mongkon%20Academy&query_place_id=ChIJra9yKt6e4jARIyEvQsStRZc",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Muay Thai boxing gym"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJef-A1M5hHTERhETCxrWgN2Q",
+  "name": "Thai Kru Visa Agency",
+  "slug": "thai-kru-visa-agency-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "visa_agent",
+  "address": "90 Thong Lo 2, Khlong Tan Nuea, Watthana, Bangkok 10110, Thailand",
+  "website": "https://www.thaikru.com/",
+  "phone": "+66 99 333 2568",
+  "lat": 13.7261456,
+  "lng": 100.5804482,
+  "google_rating": 4.8,
+  "google_reviews": 141,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Thai%20Kru%20Visa%20Agency&query_place_id=ChIJef-A1M5hHTERhETCxrWgN2Q",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "Open 24 hours"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "Open 24 hours"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "Open 24 hours"
+   },
+   {
+    "day": "Thursday",
+    "hours": "Open 24 hours"
+   },
+   {
+    "day": "Friday",
+    "hours": "Open 24 hours"
+   },
+   {
+    "day": "Saturday",
+    "hours": "Open 24 hours"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Open 24 hours"
+   }
+  ],
+  "categories": [
+   "Visa consulting service",
+   "Immigration & naturalization service"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJa7znTelfHTERywajPZdHLX4",
+  "name": "Thai Visa Expert",
+  "slug": "thai-visa-expert-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "visa_agent",
+  "address": "Bang Na Complex Office Towers, 2/52, Floor 11th, Bang Na Trad Soi 25 Bang Na Trad Bangna, Bangkok 10260, Thailand",
+  "website": "https://thaivisaexpert.com/",
+  "phone": "+66 64 269 1922",
+  "lat": 13.6680189,
+  "lng": 100.6366828,
+  "google_rating": 4.8,
+  "google_reviews": 221,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Thai%20Visa%20Expert&query_place_id=ChIJa7znTelfHTERywajPZdHLX4",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "Closed"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Visa consulting service"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJHeLp1TCf4jARWU2JgXxAkPg",
+  "name": "Thailand Elite - Long stay visas and privileges",
+  "slug": "thailand-elite-long-stay-visas-and-privileges-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "visa_agent",
+  "address": "118, 70 Soi Sukhumvit 23, Klongtey Nua, Watthana, Bangkok 10110, Thailand",
+  "website": "https://www.thailand-elite.com/",
+  "phone": "",
+  "lat": 13.7403546,
+  "lng": 100.5656005,
+  "google_rating": 4.8,
+  "google_reviews": 133,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Thailand%20Elite%20-%20Long%20stay%20visas%20and%20privileges&query_place_id=ChIJHeLp1TCf4jARWU2JgXxAkPg",
+  "opening_hours": null,
+  "categories": [
+   "Visa consulting service"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJTWH9khNmKggRaojhKuZ149g",
+  "name": "Thailand Elite Visa",
+  "slug": "thailand-elite-visa-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "visa_agent",
+  "address": "18th Floor, Unit 1802, Two Pacific Place, 142 Sukhumvit Rd, Khwaeng Khlong Toei, Khlong Toei, Bangkok 10110, Thailand",
+  "website": "https://www.elitevisa.com/",
+  "phone": "+66 63 242 4608",
+  "lat": 13.7407668,
+  "lng": 100.5544705,
+  "google_rating": 4.9,
+  "google_reviews": 135,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Thailand%20Elite%20Visa&query_place_id=ChIJTWH9khNmKggRaojhKuZ149g",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "Closed"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Visa consulting service",
+   "Immigration attorney"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJj_QMeMhfHTERME5CBDcXO2w",
+  "name": "Thai Visa Centre - Visa Agent",
+  "slug": "thai-visa-centre-visa-agent-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "visa_agent",
+  "address": "Floor 1, Chang, The Pretium, 91/11 Cascade Bangna Moo 15, Bang Kaeo, Bang Phli District, Samut Prakan 10540, Thailand",
+  "website": "https://tvc.co.th/",
+  "phone": "+66 2 508 8428",
+  "lat": 13.662986,
+  "lng": 100.6533423,
+  "google_rating": 4.9,
+  "google_reviews": 2070,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Thai%20Visa%20Centre%20-%20Visa%20Agent&query_place_id=ChIJj_QMeMhfHTERME5CBDcXO2w",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "10 AM to 4 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "10 AM to 4 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "10 AM to 4 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "10 AM to 4 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "10 AM to 4 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "10 AM to 2 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Visa consulting service",
+   "Passport agent"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJa2mpT6Sf4jARsEFV4OSKvrk",
+  "name": "Siam Visa Agency",
+  "slug": "siam-visa-agency-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "visa_agent",
+  "address": "139, Blue Chips, 10 Thong Lo, Khlong Tan Nuea, Watthana, Bangkok 10110, Thailand",
+  "website": "http://www.siamvisaagency.com/",
+  "phone": "+66 90 894 0055",
+  "lat": 13.7322483,
+  "lng": 100.5829442,
+  "google_rating": 5,
+  "google_reviews": 12,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Siam%20Visa%20Agency&query_place_id=ChIJa2mpT6Sf4jARsEFV4OSKvrk",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 5 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "Closed"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Visa consulting service"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJHWGJSACf4jARyVoKQcIaWrI",
+  "name": "Massive Thai Bangkok Visa Services",
+  "slug": "massive-thai-bangkok-visa-services-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "visa_agent",
+  "address": "สาทร ซอย 3 Khwaeng Thung Maha Mek, Khet Sathon, Krung Thep Maha Nakhon 10120, Thailand",
+  "website": "",
+  "phone": "",
+  "lat": 13.7199091,
+  "lng": 100.5379898,
+  "google_rating": 5,
+  "google_reviews": 1,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Massive%20Thai%20Bangkok%20Visa%20Services&query_place_id=ChIJHWGJSACf4jARyVoKQcIaWrI",
+  "opening_hours": null,
+  "categories": [
+   "Visa consulting service"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJg9Ltd3A5yI4RywGUvg2TZsg",
+  "name": "V Goal Visa Service",
+  "slug": "v-goal-visa-service-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "visa_agent",
+  "address": "2556 อาคาร 66 Tower ชั้น 4 Sukhumvit Rd, Bang Na Nuea, Bang Na, Bangkok 10260, Thailand",
+  "website": "https://vgoalvisaservice.com/?utm_source=google_BP&utm_medium=directory&utm_campaign=gbp_profile&utm_content=profile_link",
+  "phone": "+66 98 154 2780",
+  "lat": 13.6819822,
+  "lng": 100.6099354,
+  "google_rating": 4.9,
+  "google_reviews": 57,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=V%20Goal%20Visa%20Service&query_place_id=ChIJg9Ltd3A5yI4RywGUvg2TZsg",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "10 AM to 6 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "10 AM to 6 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "10 AM to 6 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "10 AM to 6 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "10 AM to 6 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "Closed"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Visa consulting service"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJbyaWv6JtWwsRgX_sPi-bi-0",
+  "name": "AISA Thai Visa Consultancy",
+  "slug": "aisa-thai-visa-consultancy-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "visa_agent",
+  "address": "Summer Hill, Spaces Summer Hill, 3/F, 1106 Room No.3053 Prakhanong Khlong Toei, Bangkok 10110, Thailand",
+  "website": "https://aisathai.com/",
+  "phone": "+66 82 992 6595",
+  "lat": 13.7147407,
+  "lng": 100.5914311,
+  "google_rating": 4.9,
+  "google_reviews": 58,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=AISA%20Thai%20Visa%20Consultancy&query_place_id=ChIJbyaWv6JtWwsRgX_sPi-bi-0",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 6 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "Closed"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Visa consulting service"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJj2Awkl6f4jARPgYse2MewzA",
+  "name": "All Visa Services",
+  "slug": "all-visa-services-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "visa_agent",
+  "address": "11/39 Soi Soonvijai, Phetchaburi Rd, Huai Khwang, Bangkok 10310, Thailand",
+  "website": "",
+  "phone": "+66 86 375 5877",
+  "lat": 13.7468278,
+  "lng": 100.5828487,
+  "google_rating": 4.8,
+  "google_reviews": 59,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=All%20Visa%20Services&query_place_id=ChIJj2Awkl6f4jARPgYse2MewzA",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 5:30 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 5:30 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 5:30 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 5:30 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 5:30 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "10 AM to 1 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Visa consulting service"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJL9oV4-Oe4jARW0Rr_kd9Uqw",
+  "name": "Bangkok Buddy",
+  "slug": "bangkok-buddy-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "visa_agent",
+  "address": "212 Plaza, 8 Sukhumvit Rd, Khwaeng Khlong Toei, Khet Khlong Toei, Bangkok 10110, Thailand",
+  "website": "",
+  "phone": "+66 2 255 2130",
+  "lat": 13.738413,
+  "lng": 100.557908,
+  "google_rating": 4.3,
+  "google_reviews": 408,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bangkok%20Buddy&query_place_id=ChIJL9oV4-Oe4jARW0Rr_kd9Uqw",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "10 AM to 6 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "10 AM to 6 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "10 AM to 6 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "10 AM to 6 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "10 AM to 6 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "10 AM to 6 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Travel agency"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJ25s8oiVhHTER61pr-vFwheg",
+  "name": "Pro Visa Bangkok",
+  "slug": "pro-visa-bangkok-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "visa_agent",
+  "address": "300 On Nut 10 Alley, Suan Luang, Bangkok 10250, Thailand",
+  "website": "https://provisabangkok.com/",
+  "phone": "+66 65 924 5509",
+  "lat": 13.7074312,
+  "lng": 100.6081558,
+  "google_rating": 5,
+  "google_reviews": 15,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Pro%20Visa%20Bangkok&query_place_id=ChIJ25s8oiVhHTER61pr-vFwheg",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "Open 24 hours"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "Open 24 hours"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "Open 24 hours"
+   },
+   {
+    "day": "Thursday",
+    "hours": "Open 24 hours"
+   },
+   {
+    "day": "Friday",
+    "hours": "Open 24 hours"
+   },
+   {
+    "day": "Saturday",
+    "hours": "Open 24 hours"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Open 24 hours"
+   }
+  ],
+  "categories": [
+   "Visa consulting service"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJa7IpJfaZ4jARJ4FwX0eq1Po",
+  "name": "Thai Visa & Business Consultant",
+  "slug": "thai-visa-business-consultant-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "visa_agent",
+  "address": "146 Convent, Soi Pipat 2, Si Lom, Bangkok 10500, Thailand",
+  "website": "https://bangkokvisaservices.com/",
+  "phone": "+66 81 482 3336",
+  "lat": 13.7250287,
+  "lng": 100.5325229,
+  "google_rating": 5,
+  "google_reviews": 1,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Thai%20Visa%20%26%20Business%20Consultant&query_place_id=ChIJa7IpJfaZ4jARJ4FwX0eq1Po",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9:30 AM to 4:30 AM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9:30 AM to 4:30 AM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9:30 AM to 4:30 AM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9:30 AM to 4:30 AM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9:30 AM to 4:30 AM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "Closed"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Visa consulting service",
+   "Consultant"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJEcetj6AMf6sRaaTL06Oaw-Y",
+  "name": "Friendly Thai Visa",
+  "slug": "friendly-thai-visa-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "visa_agent",
+  "address": "",
+  "website": "https://friendlythaivisa.com/",
+  "phone": "+66 62 724 0622",
+  "lat": 13.0389969,
+  "lng": 101.490104,
+  "google_rating": 5,
+  "google_reviews": 362,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Friendly%20Thai%20Visa&query_place_id=ChIJEcetj6AMf6sRaaTL06Oaw-Y",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "7 AM to 10 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "7 AM to 10 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "7 AM to 10 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "7 AM to 10 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "7 AM to 10 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "7 AM to 10 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "7 AM to 10 PM"
+   }
+  ],
+  "categories": [
+   "Visa consulting service",
+   "Service establishment"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJv0FBDfGf4jARZjFvbKIRzD4",
+  "name": "Thailand Visa Guys",
+  "slug": "thailand-visa-guys-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "visa_agent",
+  "address": "10 Soi Sukhumvit 13, Khlong Toei Nuea, Watthana, Bangkok 10110, Thailand",
+  "website": "https://thaivisa-guys.com/",
+  "phone": "+66 95 879 9885",
+  "lat": 13.7403827,
+  "lng": 100.5578057,
+  "google_rating": 4.4,
+  "google_reviews": 39,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Thailand%20Visa%20Guys&query_place_id=ChIJv0FBDfGf4jARZjFvbKIRzD4",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "9 AM to 8 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "9 AM to 8 PM"
+   }
+  ],
+  "categories": [
+   "Visa consulting service"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJAUAiRoaf4jARJxd35ATQfEw",
+  "name": "Siam Thai Visa, Bangkok",
+  "slug": "siam-thai-visa-bangkok-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "visa_agent",
+  "address": "Suan Phlu 6 Alley, Thung Maha Mek, Sathon, Bangkok 10120, Thailand",
+  "website": "http://www.siamthaivisa.com/",
+  "phone": "+66 82 212 7713",
+  "lat": 13.7200084,
+  "lng": 100.5384231,
+  "google_rating": 5,
+  "google_reviews": 13,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Siam%20Thai%20Visa%2C%20Bangkok&query_place_id=ChIJAUAiRoaf4jARJxd35ATQfEw",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "7:30 AM to 6:30 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "7:30 AM to 6:30 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "7:30 AM to 6:30 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "7:30 AM to 6:30 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "7:30 AM to 6:30 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "7:30 AM to 5 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Counselor"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJ4SGju9UxZiMReEBXrFwlMWs",
+  "name": "Thailand Elite Information Center",
+  "slug": "thailand-elite-information-center-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "visa_agent",
+  "address": "229/9 Ratchadapisek, 44 Ratchadaphisek 42 Alley, Chan Kasem, Jatujak, Bangkok 10900, Thailand",
+  "website": "https://www.thailandelite.net/",
+  "phone": "",
+  "lat": 13.8266716,
+  "lng": 100.5755772,
+  "google_rating": 5,
+  "google_reviews": 26,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Thailand%20Elite%20Information%20Center&query_place_id=ChIJ4SGju9UxZiMReEBXrFwlMWs",
+  "opening_hours": null,
+  "categories": [
+   "Visa consulting service"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJ_VHcdu-Z4jAR7OjTh8SikKM",
+  "name": "Diamond Marriage & Visa Services",
+  "slug": "diamond-marriage-visa-services-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "visa_agent",
+  "address": "108 Yotha Rd, Talat Noi, Samphanthawong, Bangkok 10100, Thailand",
+  "website": "https://diamondmarriagevisa.com/",
+  "phone": "+66 94 562 9261",
+  "lat": 13.7321744,
+  "lng": 100.5141897,
+  "google_rating": 4.9,
+  "google_reviews": 333,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Diamond%20Marriage%20%26%20Visa%20Services&query_place_id=ChIJ_VHcdu-Z4jAR7OjTh8SikKM",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "7 AM to 9 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "7 AM to 8 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "7 AM to 8 PM"
+   }
+  ],
+  "categories": [
+   "Visa consulting service",
+   "Attorney referral service",
+   "Driver's license office",
+   "Attorney",
+   "Legal services",
+   "Marriage or relationship counselor",
+   "Marriage license bureau",
+   "Translation service"
+  ],
+  "data_source": "apify_google_maps"
+ },
+ {
+  "google_place_id": "ChIJuRZDNIiZ4jARl7zeS8UjTLM",
+  "name": "Manav & Manas Visa Service",
+  "slug": "manav-manas-visa-service-bangkok",
+  "city_slug": "bangkok",
+  "provider_type": "visa_agent",
+  "address": "Supalai Park, Ratchaphruek Rd, Bang Wa, Khet Phasi Charoen, Bangkok 10160, Thailand",
+  "website": "",
+  "phone": "+66 96 375 4914",
+  "lat": 13.718829,
+  "lng": 100.4561396,
+  "google_rating": 5,
+  "google_reviews": 12,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Manav%20%26%20Manas%20Visa%20Service&query_place_id=ChIJuRZDNIiZ4jARl7zeS8UjTLM",
+  "opening_hours": [
+   {
+    "day": "Monday",
+    "hours": "8 AM to 5 PM"
+   },
+   {
+    "day": "Tuesday",
+    "hours": "8 AM to 5 PM"
+   },
+   {
+    "day": "Wednesday",
+    "hours": "8 AM to 5 PM"
+   },
+   {
+    "day": "Thursday",
+    "hours": "8 AM to 5 PM"
+   },
+   {
+    "day": "Friday",
+    "hours": "8 AM to 5 PM"
+   },
+   {
+    "day": "Saturday",
+    "hours": "8 AM to 5 PM"
+   },
+   {
+    "day": "Sunday",
+    "hours": "Closed"
+   }
+  ],
+  "categories": [
+   "Visa consulting service"
+  ],
+  "data_source": "apify_google_maps"
+ }
+]
