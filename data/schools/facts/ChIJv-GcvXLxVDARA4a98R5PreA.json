@@ -1,0 +1,18 @@
+{
+  "summary": "Koh Samui law firm offering business, family, litigation, real estate, visa and accounting services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa applications",
+      "value": "Visa applications among legal services offered",
+      "quote": "visa applications, and accounting"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Koh Samui, Surat Thani",
+      "quote": "subdistrict Koh samui district Suratthani province 84320"
+    }
+  ]
+}

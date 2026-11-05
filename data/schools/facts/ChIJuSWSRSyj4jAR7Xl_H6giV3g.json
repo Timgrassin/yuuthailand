@@ -1,0 +1,36 @@
+{
+  "summary": "Muay Thai camp in Rama 2, Bangkok offering stay and train packages with accommodation and meals, plus drop-in group classes.",
+  "price_from_thb": 400,
+  "facts": [
+    {
+      "key": "price_month",
+      "label": "Stay and train, 30 days",
+      "value": "Training, accommodation and meals 25,000 THB for 30 days",
+      "quote": "7,000 THB / 1 week · 25,000 THB / 30 days"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Private air-conditioned room with Wi-Fi, breakfast and dinner included",
+      "quote": "Stay & Train lets you live at the camp: a private air-conditioned room with Wi-Fi, breakfast and dinner every day"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Sessions",
+      "value": "Two sessions per day, Monday to Saturday",
+      "quote": "Two sessions per day, Monday–Saturday"
+    },
+    {
+      "key": "price_session",
+      "label": "Drop-in class",
+      "value": "Classes from 400 THB per class",
+      "quote": "From 400 THB per class"
+    },
+    {
+      "key": "levels",
+      "label": "Beginners",
+      "value": "Complete beginners welcome, sparring optional",
+      "quote": "Complete beginners are welcome and sparring is optional."
+    }
+  ]
+}

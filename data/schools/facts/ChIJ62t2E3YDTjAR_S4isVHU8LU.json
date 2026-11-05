@@ -1,0 +1,24 @@
+{
+  "summary": "Thai language teacher in Krabi offering beginner to advanced Thai courses covering speaking, listening, reading and writing.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Course levels",
+      "value": "Beginner, intermediate and advanced Thai courses",
+      "quote": "Designed for learners who have a basic understanding of the Thai language and want to develop their skills to a more advanced level."
+    },
+    {
+      "key": "curriculum",
+      "label": "Reading and writing",
+      "value": "Students learn all 44 consonants, 22 vowels and tone rules",
+      "quote": "Students will learn all 44 consonants, 22 vowels, and other rules pertaining tone."
+    },
+    {
+      "key": "curriculum",
+      "label": "Beginner course",
+      "value": "Beginner course covers speaking and listening",
+      "quote": "The course covers essential skills, such as speaking and listening"
+    }
+  ]
+}

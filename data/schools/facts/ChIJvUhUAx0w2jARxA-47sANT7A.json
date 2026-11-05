@@ -1,0 +1,24 @@
+{
+  "summary": "Family-run home cooking class in Chiang Mai offering group and private classes.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established in 2001",
+      "quote": "Established in 2001"
+    },
+    {
+      "key": "curriculum",
+      "label": "Class types",
+      "value": "Group classes and private classes",
+      "quote": "Group classes"
+    },
+    {
+      "key": "class_size",
+      "label": "Group class size",
+      "value": "Small group classes",
+      "quote": "Learn a secret behind your favorite Thai dishes in a fun & small class."
+    }
+  ]
+}

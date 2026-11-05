@@ -1,0 +1,18 @@
+{
+  "summary": "English language school in Bangkok offering corporate business English training and English courses.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Corporate English",
+      "value": "Corporate business English training offered",
+      "quote": "Corporate business English training"
+    },
+    {
+      "key": "class_size",
+      "label": "Learning pace",
+      "value": "Each student in a group works at their own pace",
+      "quote": "so you can learn at your own pace"
+    }
+  ]
+}

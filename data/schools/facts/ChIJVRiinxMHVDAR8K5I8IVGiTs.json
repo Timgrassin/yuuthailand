@@ -1,0 +1,24 @@
+{
+  "summary": "Coding and AI school for children and youth in Phuket teaching Scratch, Python and Roblox Studio.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Python age range",
+      "value": "Python P1 for ages 10 to 14",
+      "quote": "PYTHON P1 · Ages 10–14"
+    },
+    {
+      "key": "levels",
+      "label": "Scratch age range",
+      "value": "Scratch P1 for ages 7 to 10",
+      "quote": "SCRATCH P1 · Ages 7–10"
+    },
+    {
+      "key": "curriculum",
+      "label": "Roblox",
+      "value": "Roblox Studio basics course",
+      "quote": "Roblox Studio basics — navigate the editor, place 3D objects, and build your first scenes."
+    }
+  ]
+}

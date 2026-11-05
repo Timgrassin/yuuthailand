@@ -1,0 +1,30 @@
+{
+  "summary": "Thai cooking school in Ao Nang, Krabi where guests choose their own dishes, with morning, afternoon and dinner sessions.",
+  "price_from_thb": 1400,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Price",
+      "value": "1,400 Baht per person for any session, everything included",
+      "quote": "The Price Only 1,400 Baht/Person All 3 Sessions Included Every Thing."
+    },
+    {
+      "key": "curriculum",
+      "label": "Dish choice",
+      "value": "Choose your own 7 favorite dishes",
+      "quote": "choose your own 7 favorite dishes"
+    },
+    {
+      "key": "curriculum",
+      "label": "Vegan",
+      "value": "Vegans and vegetarians can cook",
+      "quote": "Vegans and Vegetarians can do it."
+    },
+    {
+      "key": "location_note",
+      "label": "Drop off",
+      "value": "Free drop off at night market or Krabi Town after class",
+      "quote": "Free! Drop Off At Night Market or Krabi Town After Class."
+    }
+  ]
+}

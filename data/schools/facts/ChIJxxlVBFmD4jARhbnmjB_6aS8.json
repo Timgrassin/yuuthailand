@@ -1,0 +1,18 @@
+{
+  "summary": "International school in Nonthaburi following the International Baccalaureate framework combined with American Common Core Standards.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Curriculum",
+      "value": "IB framework combined with American Common Core Standards",
+      "quote": "Our curriculum combines the IB framework with American Common Core Standards"
+    },
+    {
+      "key": "students",
+      "label": "Student body",
+      "value": "250 students from more than 35 nationalities",
+      "quote": "With 250 students representing more than 35 nationalities"
+    }
+  ]
+}

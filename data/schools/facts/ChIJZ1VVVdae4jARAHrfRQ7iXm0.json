@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok accounting, tax, legal and HR advisory firm serving foreign-owned businesses, including visa and work permit support for employers and expatriate staff.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established in 2006",
+      "quote": "Established in 2006, AO is a trusted Accounting & Tax, Legal, and HR advisory firm in Bangkok"
+    },
+    {
+      "key": "services",
+      "label": "Visas and work permits",
+      "value": "Helps employers and expatriate staff obtain and renew visas and work permits",
+      "quote": "We support employers and expatriate staff to obtain and renew visa and work permits"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "summary": "Muay Thai gym at Karon Beach, Phuket offering group, private and beach training and ten day training camps.",
+  "price_from_thb": 6900,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Training camp, 10 days",
+      "value": "Ten day training camp 6,900 THB",
+      "quote": "6,900 THB"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Camp sessions",
+      "value": "Twice-daily training of 90 minutes",
+      "quote": "Twice-daily training (90 min)"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV visa",
+      "value": "Muay Thai training described as a route to the Destination Thailand Visa, with guidance",
+      "quote": "Muay Thai training is a recognised route to Thailand's Destination Thailand Visa — we'll guide you through it."
+    },
+    {
+      "key": "class_size",
+      "label": "Group classes",
+      "value": "Small groups by level, 90 minutes",
+      "quote": "Train in small groups by level (90 min) with real Thai fighter-trainers."
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Guests arrange their own stay",
+      "quote": "you arrange your own stay, we organise the rest"
+    }
+  ]
+}

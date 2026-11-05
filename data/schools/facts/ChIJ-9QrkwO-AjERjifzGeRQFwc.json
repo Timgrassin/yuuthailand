@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai and BJJ training centre in Pattaya with one-on-one Muay Thai training and visa and accommodation pages.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Opened",
+      "value": "Opened in 1971",
+      "quote": "Opened in 1971 Fairtex has produced champions"
+    },
+    {
+      "key": "hours",
+      "label": "Opening hours",
+      "value": "Open 6 days a week, 7:30am to 8pm",
+      "quote": "The Training Center is open 6 days a week from 7:30am – 8pm"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Training format",
+      "value": "Standard programme is one on one with trainers",
+      "quote": "The standard Muay Thai program has fighters and students work with trainers one on one."
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Beginners to advanced fighters welcome",
+      "quote": "We welcome beginners to advanced fighters and students."
+    }
+  ]
+}

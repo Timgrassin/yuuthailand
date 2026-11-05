@@ -1,0 +1,24 @@
+{
+  "summary": "Visa service in Pattaya offering retirement and family visa assistance with door to door service.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Retirement visa",
+      "value": "Retirement visa service offered",
+      "quote": "Retirement visa first time"
+    },
+    {
+      "key": "services",
+      "label": "Family visa",
+      "value": "Family visa service offered",
+      "quote": "Family Visa"
+    },
+    {
+      "key": "location_note",
+      "label": "Door to door",
+      "value": "Door to door service offered",
+      "quote": "We offer door to door service."
+    }
+  ]
+}

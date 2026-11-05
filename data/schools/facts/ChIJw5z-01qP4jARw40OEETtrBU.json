@@ -1,0 +1,30 @@
+{
+  "summary": "English and Chinese language school in Bangkok offering group and private conversation, corporate and kids courses.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Group conversation",
+      "value": "English conversation in groups offered",
+      "quote": "English Conversation (Group)"
+    },
+    {
+      "key": "curriculum",
+      "label": "Private lessons",
+      "value": "General English conversation in private lessons offered",
+      "quote": "General English Conversation (Private)"
+    },
+    {
+      "key": "curriculum",
+      "label": "Corporate English",
+      "value": "Corporate English course offered",
+      "quote": "Corporate English Course"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Chinese",
+      "value": "Chinese course and Chinese course for kids offered",
+      "quote": "Chinese Course for Kids"
+    }
+  ]
+}

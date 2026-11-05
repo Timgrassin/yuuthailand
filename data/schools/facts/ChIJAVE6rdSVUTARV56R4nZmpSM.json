@@ -1,0 +1,24 @@
+{
+  "summary": "Thai massage and spa school in Krabi offering short one-day and three-day courses with an international certificate.",
+  "price_from_thb": 4999,
+  "facts": [
+    {
+      "key": "certificate",
+      "label": "International certificate",
+      "value": "Short courses with an international certificate",
+      "quote": "Short courses for travelers | International certificate | Small class size"
+    },
+    {
+      "key": "price_course",
+      "label": "Thai massage 1-day class",
+      "value": "Thai massage 1-day class costs 4,999 THB",
+      "quote": "Price: 4,999 THB"
+    },
+    {
+      "key": "price_course",
+      "label": "Tok-Sen massage 1-day class",
+      "value": "Tok-Sen massage 1-day class costs 5,999 THB",
+      "quote": "Price: 5,999 THB"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "Pattaya law office serving foreigners, with visa and work permit, company registration and property services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages",
+      "label": "Languages",
+      "value": "Thai, English, Russian and Scandinavian spoken",
+      "quote": "We speak Thai, English, Russian as well as Scandinavian"
+    },
+    {
+      "key": "licence",
+      "label": "Lawyer registration",
+      "value": "Lawyers registered at the Lawyers Council of Thailand",
+      "quote": "All our lawyers are registered at the Lawyers Concil of Thailand"
+    },
+    {
+      "key": "pricing",
+      "label": "Price list",
+      "value": "Billed according to a published price list",
+      "quote": "Our assistance is billed according to our price list published on our web pages"
+    }
+  ]
+}

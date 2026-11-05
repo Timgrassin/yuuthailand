@@ -1,0 +1,24 @@
+{
+  "summary": "Pattaya legal service offering prepaid legal plans for expats, including visa and work permit help.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visas and work permits",
+      "value": "Visa planning, extensions and work authorization",
+      "quote": "Visa planning, extensions, and work authorization."
+    },
+    {
+      "key": "plans",
+      "label": "Plan periods",
+      "value": "Plans cover 30 days or 12 months",
+      "quote": "choose 30 days or 12 months"
+    },
+    {
+      "key": "consultation",
+      "label": "Consultation length",
+      "value": "40-minute online session on eligible plans",
+      "quote": "Book a 40-minute online session on eligible plans"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "summary": "Bangkok law firm for foreigners handling visas, legal disputes and immigration matters, with English and Thai speaking lawyers.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa types handled",
+      "value": "LTR, DTV, ED visas and extensions",
+      "quote": "Visa Specialists LTR · DTV · ED · Extensions"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Student ED visas for Thai language, Muay Thai and university enrollment",
+      "quote": "Thai language, Muay Thai, university enrollment."
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "Digital nomad DTV, 180-day stays, multiple entry",
+      "quote": "Digital nomads. 180-day stays. Multiple entry."
+    },
+    {
+      "key": "guarantee",
+      "label": "Money-back guarantee",
+      "value": "Offers a money-back guarantee",
+      "quote": "Money-Back Guarantee"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "English and Thai",
+      "quote": "We're fluent in English and Thai"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "10+ years serving tourists and expats",
+      "quote": "10+ Years serving tourists & expats across Thailand"
+    }
+  ]
+}

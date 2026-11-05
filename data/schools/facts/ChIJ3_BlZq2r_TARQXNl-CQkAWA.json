@@ -1,0 +1,36 @@
+{
+  "summary": "Thai cooking school in Hua Hin offering half day and full day classes where students choose four dishes.",
+  "price_from_thb": 1700,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Half day class",
+      "value": "Half day class 1,700 THB, full day 3,200 THB",
+      "quote": "1/2 Day: 1700 THB /student, Full Day: 3200 THB /student."
+    },
+    {
+      "key": "price_course",
+      "label": "Five class package",
+      "value": "Five classes for 6,500 Baht",
+      "quote": "IMMERSION special–take 5 classes for only 6,500 Baht"
+    },
+    {
+      "key": "course_length",
+      "label": "Class times",
+      "value": "Morning class 9:30am to 1:00pm with market tour, afternoon class 3:00pm to 6:45pm",
+      "quote": "AM morning class 9:30am-1:00pm with market tour."
+    },
+    {
+      "key": "class_size",
+      "label": "Minimum class size",
+      "value": "Minimum class size stated as one student",
+      "quote": "Minimum class size"
+    },
+    {
+      "key": "curriculum",
+      "label": "Dishes",
+      "value": "Each adult picks 4 dishes",
+      "quote": "You pick what you want to learn, each adult can pick 4 different dishes"
+    }
+  ]
+}

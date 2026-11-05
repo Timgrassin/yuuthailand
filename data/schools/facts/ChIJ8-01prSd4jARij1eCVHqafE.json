@@ -1,0 +1,24 @@
+{
+  "summary": "English language school in Bangkok at Sukhumvit EmSphere offering pre-sessional English, EAP and IELTS mock tests.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Pre-sessional English",
+      "value": "University pre-sessional English offered",
+      "quote": "University Pre-sessional English in Thailand"
+    },
+    {
+      "key": "curriculum",
+      "label": "IELTS mock test",
+      "value": "IELTS full skills mock test offered",
+      "quote": "IELTS Full Skills Mock Test"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Sukhumvit EmSphere",
+      "quote": "Sukhumvit EmSphere"
+    }
+  ]
+}

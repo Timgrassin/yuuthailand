@@ -1,0 +1,42 @@
+{
+  "summary": "Thai cooking school in Chiang Mai taught in English, with morning, afternoon and evening classes and hotel pickup.",
+  "price_from_thb": 800,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Morning course",
+      "value": "Morning course 1,000 Baht per person",
+      "quote": "Baht1,000 / Pax"
+    },
+    {
+      "key": "price_course",
+      "label": "Afternoon course",
+      "value": "Afternoon course 800 Baht per person",
+      "quote": "Baht800 / Pax"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Small intimate class of 1 to 10 people",
+      "quote": "Small intimate class (1–10 people)"
+    },
+    {
+      "key": "curriculum",
+      "label": "Menu",
+      "value": "Morning course: choose 5 dishes and 1 curry paste",
+      "quote": "Menu Choose 5 dishes + 1 curry paste"
+    },
+    {
+      "key": "curriculum",
+      "label": "Hotel pickup",
+      "value": "Free hotel transportation within 3 km of the old city",
+      "quote": "Free hotel transportation within 3 km from the old city"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Language",
+      "value": "All courses taught in English",
+      "quote": "All courses taught in English by passionate chef-owners"
+    }
+  ]
+}

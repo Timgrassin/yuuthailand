@@ -1,0 +1,30 @@
+{
+  "summary": "Phuket firm providing company registration, accounting, Non-B business visa and work permit services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Non-B visa",
+      "value": "Non-B one year business visa service",
+      "quote": "BUSINESS VISA IN THAILAND (NON-B, 1 YEAR)"
+    },
+    {
+      "key": "price_service",
+      "label": "Work permit first time",
+      "value": "Work permit application costs 15,000 THB for 1 year",
+      "quote": "Work permit application and obtaining for the first time cost is 15,000 THB for 1 year period."
+    },
+    {
+      "key": "price_service",
+      "label": "Work permit renewal",
+      "value": "Work permit renewal costs 9,500 THB for 1 year",
+      "quote": "Work permit renewal price is 9,500 THB for 1 year period."
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "15 years of accounting and visa experience",
+      "quote": "Our experience in accounting and visa services is 15 years."
+    }
+  ]
+}

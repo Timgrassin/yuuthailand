@@ -1,0 +1,36 @@
+{
+  "summary": "Thai cooking school at Royal Cliff Grand Hotel in Pattaya running a daily hands-on class with lunch of your own creations.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Teaching since",
+      "value": "Teaching Thai cuisine since 2000",
+      "quote": "Teaching the art of Thai cuisine since 2000"
+    },
+    {
+      "key": "course_length",
+      "label": "Class time",
+      "value": "Class held once daily at 3:00 PM",
+      "quote": "the cooking class will be held once daily at 3:00 PM until further notice"
+    },
+    {
+      "key": "curriculum",
+      "label": "Inclusions",
+      "value": "Recipe collection to take home and lunch of your own creations",
+      "quote": "Complete recipe collection to take home"
+    },
+    {
+      "key": "curriculum",
+      "label": "Children's classes",
+      "value": "Dedicated children's classes offered",
+      "quote": "dedicated children&#8217;s classes"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Intimate class sizes",
+      "quote": "Our intimate class sizes ensure personal attention"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "summary": "Fitness and weight loss retreat in Lamai, Koh Samui with daily group classes and Muay Thai sessions.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Muay Thai sessions",
+      "value": "Retreat options include 10 or 7 Muay Thai sessions per week",
+      "quote": "10 Muay Thai Sessions per week"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Based in Lamai, Koh Samui",
+      "quote": "Based in Lamai, we’re just minutes from the beach"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Accommodation is included in all-inclusive retreats",
+      "quote": "our accommodation allows you to focus on your fitness goals during your stay"
+    }
+  ]
+}

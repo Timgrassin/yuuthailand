@@ -1,0 +1,18 @@
+{
+  "summary": "Thailand legal, notary and translation company offering visa and notarial services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established 2019",
+      "quote": "Est. 2019 One-Stop Legal · Notary · Visa"
+    },
+    {
+      "key": "services",
+      "label": "Notarial services",
+      "value": "Attorney at law and notarial services attorney",
+      "quote": "Attorney at Law · Notarial Services Attorney"
+    }
+  ]
+}

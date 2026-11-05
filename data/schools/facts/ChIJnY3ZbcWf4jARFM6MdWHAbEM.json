@@ -1,0 +1,18 @@
+{
+  "summary": "Translation company offering translation, editing, proofreading, copywriting and localisation services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Language pairs",
+      "value": "97 language pairs and 60 in-house translators",
+      "quote": "97 Language Pairs | 60 In-House Translators"
+    },
+    {
+      "key": "services",
+      "label": "Quotation",
+      "value": "Official quotation within 1 working day",
+      "quote": "Get an official quotation in 1 working day"
+    }
+  ]
+}

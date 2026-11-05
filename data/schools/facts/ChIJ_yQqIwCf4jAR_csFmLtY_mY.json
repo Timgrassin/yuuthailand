@@ -1,0 +1,48 @@
+{
+  "summary": "Bangkok agent arranging Education (ED) visa programs through Ministry of Education accredited institutions, including Muay Thai, Thai, English, Chinese and Japanese courses.",
+  "price_from_thb": 24000,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa programs",
+      "value": "Education visa programs through accredited institutions",
+      "quote": "We provide reliable Education Visa programs through accredited institutions"
+    },
+    {
+      "key": "licence",
+      "label": "MOE accredited",
+      "value": "All programs delivered through Ministry of Education accredited institutions",
+      "quote": "All programs are delivered through institutions accredited by the"
+    },
+    {
+      "key": "dtv_support",
+      "label": "Muay Thai ED visa",
+      "value": "Muay Thai ED visa with 6-month visa, renewable up to 1 year",
+      "quote": "6-month ED Visa (renew up to 1 year)"
+    },
+    {
+      "key": "price_course",
+      "label": "Muay Thai ED visa course fee",
+      "value": "Muay Thai ED visa course fee 35,000 THB",
+      "quote": "Course Fee: 35,000 THB"
+    },
+    {
+      "key": "price_course",
+      "label": "Thai or English language ED visa course fee",
+      "value": "Thai and English language ED visa course fee 24,000 THB",
+      "quote": "Course Fee: 24,000 THB"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Attendance",
+      "value": "Minimum 1 class per week",
+      "quote": "Attendance: Minimum 1 class per week"
+    },
+    {
+      "key": "price_visa",
+      "label": "Visa fee",
+      "value": "Visa fee 2,000 THB",
+      "quote": "Visa Fee: 2,000 THB"
+    }
+  ]
+}

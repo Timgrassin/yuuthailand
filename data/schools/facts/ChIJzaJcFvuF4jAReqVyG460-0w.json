@@ -1,0 +1,18 @@
+{
+  "summary": "Dog and cat grooming school with 360 hour and 180 hour courses.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Ministry of Education licence",
+      "value": "School states it is licensed under the Ministry of Education",
+      "quote": "The School Is Licensed Under The Ministry Of Education"
+    },
+    {
+      "key": "course_length",
+      "label": "Course hours",
+      "value": "Courses of 360 hours and 180 hours listed",
+      "quote": "360 HOURS"
+    }
+  ]
+}

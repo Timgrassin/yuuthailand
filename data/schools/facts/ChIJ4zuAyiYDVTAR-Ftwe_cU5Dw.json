@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai gym in Chaloklum, Koh Phangan with Thai trainers, welcoming all levels, with accommodation and packages listed on its site.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "trainers",
+      "label": "Trainer team",
+      "value": "13 full time professional Thai trainers",
+      "quote": "13 full time professional Thai trainers"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Everyone welcome regardless of age or level of experience",
+      "quote": "no matter your age or level of experience"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Chaloklum fishing village, Koh Phangan, 700 metres from Chaloklum Village",
+      "quote": "We are located 700 metres from Chaloklum Village"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation and packages",
+      "value": "Accommodation and packages page listed",
+      "quote": "Accomodation & Packages"
+    }
+  ]
+}

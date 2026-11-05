@@ -1,0 +1,24 @@
+{
+  "summary": "Muay Thai academy in Surat Thani offering basic, technical and comprehensive Muay Thai courses.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Ministry of Education",
+      "value": "Certified by the Thailand Ministry of Education",
+      "quote": "Certified by the Thailand Ministry of Education"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Next to K-Bank on Chonkasem Road, Surat Thani",
+      "quote": "Our Muay Thai Academy is right next to K-Bank at Chonkasem Road"
+    },
+    {
+      "key": "trainers",
+      "label": "Director",
+      "value": "Director is Asst. Prof. Somboon Tapina M.Ed.",
+      "quote": "Director: Asst. Prof. Somboon Tapina M.Ed."
+    }
+  ]
+}

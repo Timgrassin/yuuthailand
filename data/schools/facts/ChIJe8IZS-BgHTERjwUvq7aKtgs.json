@@ -1,0 +1,12 @@
+{
+  "summary": "Muay Thai sanctioning body that publishes rules and weight divisions and promotes title fights.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "rules",
+      "label": "Weight divisions",
+      "value": "Weight division classifications published",
+      "quote": "Weight Division Classifications"
+    }
+  ]
+}

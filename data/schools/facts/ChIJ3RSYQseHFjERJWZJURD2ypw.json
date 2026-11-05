@@ -1,0 +1,24 @@
+{
+  "summary": "Visa consultancy in Ubon Ratchathani offering visa guidance, marriage registration and Thailand Elite Card information.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa guidance",
+      "value": "Help with visa process, documents and applications",
+      "quote": "We can help you. With guidelines and practical experience."
+    },
+    {
+      "key": "services",
+      "label": "Thailand Elite Card",
+      "value": "Guide to Thailand Elite membership benefits and types",
+      "quote": "Updated 2021! Benefits, Types, FAQs of Thailand Elite Member"
+    },
+    {
+      "key": "services",
+      "label": "Travel insurance",
+      "value": "Inbound travel insurance for foreigners offered",
+      "quote": "Inbound Travel Insurance for foreigner"
+    }
+  ]
+}

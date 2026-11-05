@@ -1,0 +1,30 @@
+{
+  "summary": "Gym in Bangkok Sukhumvit with a rooftop Muay Thai floor (iMUAYTHAI powered by UnReal), bodybuilding, powerlifting and recovery facilities.",
+  "price_from_thb": 550,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Muay Thai floor",
+      "value": "Full Muay Thai floor with a ring and certified coaches on the rooftop",
+      "quote": "a full Muay Thai floor with a proper ring and certified coaches, right on the rooftop"
+    },
+    {
+      "key": "price_session",
+      "label": "Gym day pass",
+      "value": "Gym day passes start from 550 THB",
+      "quote": "day passes start from 550 THB with walk-ins welcome"
+    },
+    {
+      "key": "hours",
+      "label": "Opening hours",
+      "value": "Open daily 06:00 to 22:00",
+      "quote": "opens daily from 06:00 to 22:00"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Sukhumvit Soi 24, two minutes from Phrom Phong BTS",
+      "quote": "UnReal Gym sits on Sukhumvit Soi 24, two minutes from Phrom Phong BTS"
+    }
+  ]
+}

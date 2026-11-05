@@ -1,0 +1,30 @@
+{
+  "summary": "English activity school for young learners in Nakhon Pathom with classes by age group.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Age groups",
+      "value": "Kids 4-6, Primary 7-12, Junior 13-16",
+      "quote": "Primary English (7-12 years old)"
+    },
+    {
+      "key": "levels",
+      "label": "Kids age group",
+      "value": "English for Kids aged 4-6",
+      "quote": "English for Kids (4-6 years old)"
+    },
+    {
+      "key": "levels",
+      "label": "Junior age group",
+      "value": "Junior English aged 13-16",
+      "quote": "Junior English (13-16 years old)"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "136/20-21 Salaya, Phuthamonthon, Nakhonpathom",
+      "quote": "Address : 136/20-21 Salaya, Phuthamonthon, Nakhonpathom, Thailand 73170"
+    }
+  ]
+}

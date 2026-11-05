@@ -1,0 +1,36 @@
+{
+  "summary": "Thailand visa and relocation consultancy advising on the Destination Thailand Visa and Long-Term Resident visa.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV consultancy",
+      "value": "DTV and LTR consultancy",
+      "quote": "This experience comes from our direct DTV and LTR consultancy work"
+    },
+    {
+      "key": "guarantee",
+      "label": "Refund policy",
+      "value": "Full refund of service fee on rejection",
+      "quote": "offer a full refund of our service fee in the event of rejection"
+    },
+    {
+      "key": "services",
+      "label": "Applicants supported",
+      "value": "Supporting over 600 applicants",
+      "quote": "Supporting over 600 applicants on their Thailand journey."
+    },
+    {
+      "key": "services",
+      "label": "Eligibility check",
+      "value": "Free WhatsApp conversation to assess eligibility before commitment",
+      "quote": "A complimentary conversation on WhatsApp evaluates your eligibility before any commitment is made"
+    },
+    {
+      "key": "services",
+      "label": "Consultant response",
+      "value": "Response time of one working day",
+      "quote": "with a response time of one working day"
+    }
+  ]
+}

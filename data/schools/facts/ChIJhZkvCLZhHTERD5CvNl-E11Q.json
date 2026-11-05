@@ -1,0 +1,30 @@
+{
+  "summary": "Mandarin learning centre for children in Bangkok offering weekly classes, holiday camps, YCT and HSK exam preparation and a trial class.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "curriculum",
+      "label": "Exam preparation",
+      "value": "Short-term exam preparation for YCT and HSK",
+      "quote": "build confidence for YCT and HSK certifications"
+    },
+    {
+      "key": "curriculum",
+      "label": "Trial class",
+      "value": "One hour guided trial experience",
+      "quote": "A guided 1 hour trial experience"
+    },
+    {
+      "key": "curriculum",
+      "label": "Weekly program",
+      "value": "Weekly Mandarin program with homework",
+      "quote": "A weekly Mandarin program featuring immersive lessons"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Mandarin",
+      "value": "Mandarin taught to children",
+      "quote": "LEARNING MANDARIN BEYOND WORDS"
+    }
+  ]
+}

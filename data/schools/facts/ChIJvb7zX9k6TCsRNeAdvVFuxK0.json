@@ -1,0 +1,18 @@
+{
+  "summary": "Bangkok law firm offering corporate, investment, intellectual property, notary and litigation services to expats and investors.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "pricing",
+      "label": "Fees",
+      "value": "Fixed rates with no hidden charges",
+      "quote": "fixed rates with no hidden charges"
+    },
+    {
+      "key": "hours",
+      "label": "Office hours",
+      "value": "Monday to Friday, 9 am to 6 pm",
+      "quote": "Monday - Friday from 9 am. - 6 pm."
+    }
+  ]
+}

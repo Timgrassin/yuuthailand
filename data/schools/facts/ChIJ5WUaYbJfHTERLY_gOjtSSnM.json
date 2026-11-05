@@ -1,0 +1,30 @@
+{
+  "summary": "British National Curriculum tuition centre in Bangkok for children from Reception to IGCSE, taught by native-speaking teachers.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Ministry of Education",
+      "value": "Accredited by the Ministry of Education, Thailand",
+      "quote": "Accredited by the Ministry of Education, Thailand"
+    },
+    {
+      "key": "levels",
+      "label": "Year groups",
+      "value": "Classes from Reception through to IGCSE",
+      "quote": "Classes run in the evenings and at weekends, from Reception through to IGCSE."
+    },
+    {
+      "key": "founded",
+      "label": "Established",
+      "value": "Established 2020",
+      "quote": "Established 2020"
+    },
+    {
+      "key": "hours",
+      "label": "Centre hours",
+      "value": "Wednesday to Friday 11:00 to 20:00, Saturday to Sunday 9:00 to 17:00",
+      "quote": "Wednesday – Friday 11:00 – 20:00"
+    }
+  ]
+}

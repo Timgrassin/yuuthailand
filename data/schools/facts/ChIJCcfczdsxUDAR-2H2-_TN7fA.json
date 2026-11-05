@@ -1,0 +1,36 @@
+{
+  "summary": "Phuket accounting firm also handling Thai visa applications and extensions, work permits and company registration.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "Visa types",
+      "value": "Handles Non-B, Non-O and ED visas",
+      "quote": "Non-B, Non-O, ED Visa"
+    },
+    {
+      "key": "services",
+      "label": "Visa applications and extensions",
+      "value": "All types of Thai visa applications and extensions with direct Immigration liaison",
+      "quote": "All types of Thai visa applications & extensions with direct Immigration liaison."
+    },
+    {
+      "key": "services",
+      "label": "Work permits",
+      "value": "New applications, renewals and employer changes",
+      "quote": "New applications, renewals, and employer changes"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "10+ years of experience serving 500+ clients",
+      "quote": "10+ years of experience serving 500+ happy clients."
+    },
+    {
+      "key": "languages_taught",
+      "label": "Support language",
+      "value": "Bilingual Thai and English support",
+      "quote": "Bilingual Thai–English support at every step."
+    }
+  ]
+}
