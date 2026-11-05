@@ -1,0 +1,36 @@
+{
+  "summary": "Combat sports gym in Sukhumvit, Bangkok, with a camp in Hua Hin, offering Muay Thai, boxing, BJJ, MMA, CrossFit, Hyrox and strength and conditioning classes.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Flagship gym on the tenth floor in Sukhumvit",
+      "quote": "Our flagship gym, ten floors up in the heart of Sukhumvit."
+    },
+    {
+      "key": "training_sessions",
+      "label": "Disciplines",
+      "value": "Seven disciplines, including Muay Thai, boxing, BJJ and MMA",
+      "quote": "Seven disciplines"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Every level",
+      "quote": "Muay Thai and combat sports training in Thailand, for every level."
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "Three world champions on the coaching team",
+      "quote": "Three world champions on the team, plus coaches with hundreds of fights under their belts."
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Private bungalows at the Hua Hin camp",
+      "quote": "Private bungalows around the pool"
+    }
+  ]
+}

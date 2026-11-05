@@ -1,0 +1,36 @@
+{
+  "summary": "BananaThai is an online Thai language school offering self-paced video courses and live private lessons, plus on-site group lessons in Bangkok.",
+  "price_from_thb": 2990,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Video course price",
+      "value": "From 2,990 baht per full course",
+      "quote": "starting from just 2,990 baht (full course)"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Beginner, intermediate and advanced courses",
+      "quote": "Beginner Courses Intermediate Courses Advanced Courses"
+    },
+    {
+      "key": "trainers",
+      "label": "Teachers",
+      "value": "Native Thai teachers for live private lessons",
+      "quote": "live private lessons  with native Thai teachers"
+    },
+    {
+      "key": "location_note",
+      "label": "Onsite lessons",
+      "value": "On-site group lessons in Bangkok",
+      "quote": "On-site Group Lessons in Bangkok"
+    },
+    {
+      "key": "course_format",
+      "label": "Format",
+      "value": "Self-paced video courses on an online platform",
+      "quote": "Learn Thai at your own pace with video courses on our online platform 24/7"
+    }
+  ]
+}

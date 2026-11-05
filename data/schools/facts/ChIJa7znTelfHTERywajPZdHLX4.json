@@ -1,0 +1,48 @@
+{
+  "summary": "Bangkok visa agency helping with retirement, family, business, education and DTV visas, extensions, 90-day reporting and related expat paperwork.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "2004",
+      "quote": "Established in Bangkok since 2004"
+    },
+    {
+      "key": "licence",
+      "label": "Registration",
+      "value": "Registered with the Department of Business Development, no. 0105560044970",
+      "quote": "registered with the Thailand Department of Business Development (DBD), registration number 0105560044970"
+    },
+    {
+      "key": "operator",
+      "label": "Operator",
+      "value": "Trading name of True Expat Services Co., Ltd.",
+      "quote": "Thai Visa Expert is the trading name of True Expat Services Co., Ltd."
+    },
+    {
+      "key": "services",
+      "label": "Compliance services",
+      "value": "Extensions, 90-day reporting, re-entry permits, overstay guidance and PR preparation",
+      "quote": "Help with visa extensions, 90-day reporting, re-entry permits, overstay guidance and PR preparation."
+    },
+    {
+      "key": "languages_spoken",
+      "label": "Languages",
+      "value": "Thai and English speaking team",
+      "quote": "Thai & English-speaking team"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Bangna Complex Office Towers, 11th floor, Bangna Trad Soi 25",
+      "quote": "Bangna Complex Office Towers 2/52, Floor 11th, Bangna Trad Soi 25, Bangna, Bangkok 10260"
+    },
+    {
+      "key": "office_hours",
+      "label": "Hours",
+      "value": "Monday to Friday, 9am to 5pm",
+      "quote": "Monday to Friday, 9am to 5pm"
+    }
+  ]
+}

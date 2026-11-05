@@ -1,0 +1,48 @@
+{
+  "summary": "Language school near Asoke offering Thai, English and Mandarin Chinese courses, including group classes with ED visa support.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Thai, English and Mandarin Chinese",
+      "quote": "We provide courses in Thai, English, and Mandarin Chinese"
+    },
+    {
+      "key": "licence",
+      "label": "Licence",
+      "value": "Courses approved by the Ministry of Education",
+      "quote": "all fully approved by the Ministry of Education (MOE)"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Thai group class with ED visa",
+      "quote": "Thai Group Class with ED VISA"
+    },
+    {
+      "key": "processing_time",
+      "label": "ED approval letter",
+      "value": "Ministry of Education approval letter takes up to 5 weeks",
+      "quote": "Wait for the approval letter from the Ministry of Education ( up to 5 weeks)"
+    },
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "2011",
+      "quote": "The Knowledge was founded in 2011"
+    },
+    {
+      "key": "online_classes",
+      "label": "Online classes",
+      "value": "Online courses via Zoom",
+      "quote": "Online interactive Courses using Zoom Application as a classroom."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Lake Rajada Office Complex, 5th and 6th floor, Ratchadapisek Road, Klong Toey",
+      "quote": "Lake Rajada Office Complex (5th & 6th Floor), 193/26,28 Ratchadapisek Road, Klong Toey, Bangkok 10110"
+    }
+  ]
+}

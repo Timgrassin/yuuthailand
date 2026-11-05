@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai gym in On Nut offering group classes, kids classes, private one-on-one training and ice baths.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Group classes for beginners through professional fighters",
+      "quote": "suitable for beginners and professional fighters alike"
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "One-on-one private classes with professional trainers",
+      "quote": "One-on-one training with professional trainers"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Opening hours",
+      "value": "Open daily, mornings 7.00 to 11.30",
+      "quote": "Monday-Sunday : 7.00AM to 11.30AM"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Soi On Nut 44, Suan Luang, Bangkok",
+      "quote": "318 Soi On Nut 44, Khwaeng Suan Luang, Suan Luang, Bangkok 10250"
+    }
+  ]
+}

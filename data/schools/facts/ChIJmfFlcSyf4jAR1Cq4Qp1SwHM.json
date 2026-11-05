@@ -1,0 +1,42 @@
+{
+  "summary": "International House Bangkok offers English courses, exam preparation, teacher training and Thai courses on Sukhumvit Soi 13, with ED visa options.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Study holiday with ED visa",
+      "quote": "Study holiday + ED VISA"
+    },
+    {
+      "key": "trainers",
+      "label": "Teachers",
+      "value": "All teachers are CELTA or DELTA qualified",
+      "quote": "All our teachers are CELTA or DELTA qualified"
+    },
+    {
+      "key": "network",
+      "label": "Affiliation",
+      "value": "Part of the International House network of over 140 schools in 45 countries",
+      "quote": "We are part of a global network of over 140 affiliated private language schools in 45 countries"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Courses",
+      "value": "English courses, exam preparation and teacher training",
+      "quote": "English language courses, exam preparation classes and teacher training programmes in Bangkok"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Thai courses",
+      "value": "Everyday Thai, language and culture, group and private",
+      "quote": "Thai Courses Everyday Thai Language & culture Group and private classes"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "9th floor, The Trendy Office Building, Sukhumvit Soi 13",
+      "quote": "9th Floor, The Trendy Office Building Sukhumvit Soi 13, Khlongtoey-Nua, Wattana, Bangkok, 10110, Thailand"
+    }
+  ]
+}

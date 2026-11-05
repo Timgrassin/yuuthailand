@@ -1,0 +1,42 @@
+{
+  "summary": "Private visa agency on Bangna-Trat Road offering retirement, DTV, LTR, 90-day reporting and other long-stay visa services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Services",
+      "value": "Retirement visa, DTV, LTR, 90-day reporting and long-stay visa services",
+      "quote": "we specialize in retirement visa , DTV , LTR, 90-day reporting, and long-stay visa services"
+    },
+    {
+      "key": "payment_terms",
+      "label": "Payment",
+      "value": "Payments taken as a refundable deposit under a written agreement",
+      "quote": "All payments for our visa services are taken as a refundable deposit under a written agreement"
+    },
+    {
+      "key": "courier",
+      "label": "Courier",
+      "value": "Free document courier in Bangkok",
+      "quote": "Free courier in Bangkok."
+    },
+    {
+      "key": "office_hours",
+      "label": "Hours",
+      "value": "10AM to 6PM, Monday to Saturday",
+      "quote": "Office hours 10AM - 6PM, Mon - Sat"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "The Pretium Bangna, Bangna-Trat Road, Bang Phli, Samut Prakan",
+      "quote": "Moo.15 Bangna-trat Rd Floor 1, Tambon Bang Kaeo, Amphoe Bang Phli, Samut Prakan 10540"
+    },
+    {
+      "key": "status",
+      "label": "Status",
+      "value": "Private agent, not affiliated with the Thai government",
+      "quote": "Not affiliated with the Thai government"
+    }
+  ]
+}

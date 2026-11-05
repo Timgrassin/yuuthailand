@@ -1,0 +1,36 @@
+{
+  "summary": "Language school on Sukhumvit 39 offering Thai and English lessons for all levels, with a free trial lesson.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Thai and English",
+      "quote": "We offer Thai and English lessons for students of all nationalities and levels"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Complete beginners to advanced",
+      "quote": "from complete beginners to advanced learners"
+    },
+    {
+      "key": "trainers",
+      "label": "Teachers",
+      "value": "Team of 6 teachers",
+      "quote": "We have a team of 6 experienced teachers"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "4th floor of Bio House, Sukhumvit 39, about 10 minutes walk from BTS Phrom Phong",
+      "quote": "located on the 4th floor of Bio House, Sukhumvit 39 , approximately a 10-minute walk from BTS Phrom Phong"
+    },
+    {
+      "key": "trial_lesson",
+      "label": "Trial lesson",
+      "value": "Free trial lesson available every day",
+      "quote": "Free Trial Lesson Every Day!"
+    }
+  ]
+}

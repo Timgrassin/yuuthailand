@@ -1,0 +1,42 @@
+{
+  "summary": "Visa and business consultant in Si Lom offering Thai visa applications, extensions, 90-day reports, company setup and relocation help.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "services",
+      "label": "Visa services",
+      "value": "Tourist, work, business, retirement, marriage, education, DTV, LTR and other Thai visas",
+      "quote": "Thai Visas: Including Tourist, Work, Business, Retirement, Marriage, Education, DTV, Medical, Volunteer, OA, OX, SMART, Family, LTR, Investment Visas and more."
+    },
+    {
+      "key": "reporting",
+      "label": "90-day reports",
+      "value": "Helps with 90-day reports",
+      "quote": "90 Day Reports (TM.47)"
+    },
+    {
+      "key": "experience",
+      "label": "Experience",
+      "value": "30+ years of experience",
+      "quote": "30+ Years of Experience"
+    },
+    {
+      "key": "consultation",
+      "label": "Consultation",
+      "value": "Free consultation",
+      "quote": "Book your free consultation with me today!"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Soi Pipat 2, Si Lom, Bangkok",
+      "quote": "146 Convent, Soi Pipat 2, Si Lom, Bangkok 10500"
+    },
+    {
+      "key": "office_hours",
+      "label": "Hours",
+      "value": "9 AM to 4:30 PM",
+      "quote": "9 AM - 4:30 PM"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "summary": "Language school in the Jasmine Building near Asoke, Bangkok, offering English, Thai and Japanese lessons in group, private and online formats, plus ED visa courses.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "English, Thai and Japanese",
+      "quote": "English, Thai, or Japanese"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Thai ED visa course offered",
+      "quote": "Thai ED Visa Course"
+    },
+    {
+      "key": "class_size",
+      "label": "Lesson format",
+      "value": "Group, private and semi-private lessons",
+      "quote": "Semi-Private Lessons"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels",
+      "quote": "For All Levels"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "22nd floor, Jasmine Building, 23 Sukhumvit Rd",
+      "quote": "GEOS Thailand is located on the 22nd floor of the prestigious Jasmine Building"
+    }
+  ]
+}

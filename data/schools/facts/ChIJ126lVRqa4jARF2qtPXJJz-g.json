@@ -1,0 +1,36 @@
+{
+  "summary": "Muay Thai training camp in Taling Chan, Bangkok, offering courses for all levels with homestay accommodation at the gym.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "1979",
+      "quote": "Sor. Vorapin Muay Thai Est. 1979"
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "Trainers with 15 to 20 years of experience training foreigners and local students",
+      "quote": "Our trainers have over 15- 20 years of experience in training foreigners and local-boxing students."
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Beginner, intermediate and advanced",
+      "quote": "whether you are a beginner, intermediate-or-advanced fighter"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "Homestay at the gym",
+      "quote": "Muay Thai training & home stay"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Talingchun, Bangkok 10170",
+      "quote": "37/15 Soi Suanpak 1Rd, Moo. 10. Talingchun Bangkok 10170"
+    }
+  ]
+}

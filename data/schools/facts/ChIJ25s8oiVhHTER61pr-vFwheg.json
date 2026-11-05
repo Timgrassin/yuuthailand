@@ -1,0 +1,42 @@
+{
+  "summary": "Pro Visa Bangkok is a visa agency in Suan Luang that assists with retirement, DTV, marriage, business, education, Muay Thai education and other Thai visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "Assists with DTV, including for Muay Thai and cooking students",
+      "quote": "02 Destination Thailand Visa (DTV) Remote workers, digital nomads, Muay Thai and cooking students"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Assists with education visas",
+      "quote": "06 Education Visa Students, interns and Buddhism studies"
+    },
+    {
+      "key": "ed_visa",
+      "label": "Muay Thai ED visa",
+      "value": "Assists with Muay Thai education visas",
+      "quote": "07 Muay Thai Education Visa Anyone training at a certified Muay Thai centre"
+    },
+    {
+      "key": "retirement_visa",
+      "label": "Retirement visa",
+      "value": "Assists with retirement visas for people aged 50+",
+      "quote": "01 Retirement Visa People aged 50 and over"
+    },
+    {
+      "key": "free_consultation",
+      "label": "Consultation",
+      "value": "Initial consultation is free",
+      "quote": "Your initial consultation is free."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "300 Soi Onnuch 10, Suan Luang, Bangkok",
+      "quote": "Office 300 Soi Onnuch 10, Suan Luang, Bangkok 10250"
+    }
+  ]
+}

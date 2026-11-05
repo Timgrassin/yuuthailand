@@ -1,0 +1,42 @@
+{
+  "summary": "Rak Thai Language School runs weekday Thai group courses in morning, afternoon and evening slots, online or at its Ploenchit school, with ED visa support.",
+  "price_from_thb": 8500,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Students can apply for an ED visa to stay up to 14 months",
+      "quote": "With us you can apply for an education (ED) visa that allows you to stay in Thailand for up to 14 months."
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "5 to 12 students",
+      "quote": "Small class sizes of five to twelve students."
+    },
+    {
+      "key": "price_month",
+      "label": "Price (morning)",
+      "value": "8500 THB for 1 month, weekdays 9:00 to 12:00",
+      "quote": "Morning courses Classes every weekday 9:00 - 12:00 Duration 1 month ฿8500"
+    },
+    {
+      "key": "price_month",
+      "label": "Price (evening)",
+      "value": "9500 THB for 1 month, weekdays 18:00 to 20:00",
+      "quote": "Evening courses Classes every weekday 18:00 - 20:00 Duration 1 month ฿9500"
+    },
+    {
+      "key": "trainers",
+      "label": "Teachers",
+      "value": "All teachers are university educated",
+      "quote": "All our teachers are university educated."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Mahatun Plaza, next to Phloen Chit BTS",
+      "quote": "Our school is located in Mahatun Plaza building, right next to Phloen Chit BTS station."
+    }
+  ]
+}

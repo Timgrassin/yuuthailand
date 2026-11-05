@@ -1,0 +1,42 @@
+{
+  "summary": "Mongkon Academy is a Muay Thai gym at the Ambassador Hotel on Sukhumvit Soi 11 offering group classes, private and group private training, a youth program and corporate training.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "5th floor car park building, Ambassador Hotel, Sukhumvit Soi 11",
+      "quote": "5th Floor, Car Park Building, Ambassador Hotel Address: 171 Sukhumvit Soi 11."
+    },
+    {
+      "key": "location_note",
+      "label": "Nearest BTS",
+      "value": "Nana BTS",
+      "quote": "Closest BTS station: Nana"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Evening training",
+      "value": "Monday to Friday, 6 to 7.30pm",
+      "quote": "Evening Training: Mon-Fri: 6-7.30pm"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Saturday group class",
+      "value": "Saturday group Muay Thai class, 12 to 1.30pm",
+      "quote": "Group Muaythai Class: 12-1.30pm"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Beginners to advanced",
+      "quote": "fit or unfit, beginner or master"
+    },
+    {
+      "key": "free_trial",
+      "label": "Free trial",
+      "value": "Free introduction session",
+      "quote": "Come for a free introduction session"
+    }
+  ]
+}

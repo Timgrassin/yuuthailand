@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai gym on Sukhumvit Soi 16 in the Asoke area offering drop-in classes and private sessions with Thai trainers.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Sukhumvit Soi 16, Asoke",
+      "quote": "Our training center is located on Sukhumvit Soi 16, in the vibrant Asoke district"
+    },
+    {
+      "key": "price_session",
+      "label": "Drop-in class",
+      "value": "20.00 USD per session",
+      "quote": "Sale price $20.00/Session"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels",
+      "quote": "All Levels Welcome"
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "Thai trainers with experience coaching international champions",
+      "quote": "top-level Thai trainers with experience coaching international champions"
+    }
+  ]
+}

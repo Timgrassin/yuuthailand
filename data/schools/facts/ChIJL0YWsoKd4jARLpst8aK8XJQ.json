@@ -1,0 +1,48 @@
+{
+  "summary": "Muay Thai camp in Bangkok with resort rooms behind the gym, train and stay packages, private and kids classes, and a Muay Thai education visa option.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "2013",
+      "quote": "Established in 2013"
+    },
+    {
+      "key": "licence",
+      "label": "Licence",
+      "value": "Registered Muay Thai school with the Ministry of Education",
+      "quote": "We are a registered Muay Thai School by the Ministry of Education Thailand"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Educational Muay Thai visa for 3 or 12 months",
+      "quote": "Khongsittha Muay Thai can provide you with an Educational Muay Thai Visa for 3 months or 12 months."
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "80 boutique rooms directly behind the gym",
+      "quote": "Our Muay Thai Camp has 80 boutique rooms located directly behind the gym."
+    },
+    {
+      "key": "training_sessions",
+      "label": "Training sessions",
+      "value": "Twice a day",
+      "quote": "Train twice a day like a fighter"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "No experience needed",
+      "quote": "No experience needed to join our camp"
+    },
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "Certificate given after 30 days or more of training",
+      "quote": "For completion of training (of 30 days or longer), we will provide you with our Muay Thai Certificate!"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "summary": "Thai language teacher offering online, group and private lessons, with the option of lessons at the learner's home or office.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Thai",
+      "quote": "Learn Thai Easily"
+    },
+    {
+      "key": "location_note",
+      "label": "Lesson location",
+      "value": "Teacher can come to the learner's chosen place",
+      "quote": "Teacher will go to your place as you prefer."
+    }
+  ]
+}

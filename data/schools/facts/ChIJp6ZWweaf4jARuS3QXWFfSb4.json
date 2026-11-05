@@ -1,0 +1,36 @@
+{
+  "summary": "Thai language school at Phaya Thai offering group and private Thai courses from beginner to advanced, plus an ED visa course package.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Licence",
+      "value": "Approved by the Ministry of Education in 2004",
+      "quote": "AAA Thai language school in Bangkok was approved by the Ministry of Education in 2004."
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Beginner, intermediate and advanced",
+      "quote": "Beginner, Intermediate and Advanced"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Offers a Thai course and ED visa package",
+      "quote": "Thai course - ED visa package (New)"
+    },
+    {
+      "key": "course_length",
+      "label": "ED visa package length",
+      "value": "6 months to 1 year",
+      "quote": "6 months - 1 Year"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Near BTS and ARL Phaya Thai, exit 4",
+      "quote": "Access: BTS / ARL Phaya Thai (Exit 4)"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "summary": "Duke Language School teaches Thai, English and Chinese in group, private, online and corporate classes on Sukhumvit Soi 13, with ED visa support.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Offers ED visa support",
+      "quote": "ED Visa Support"
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Thai, English and Chinese",
+      "quote": "offering Thai, English, and Chinese courses"
+    },
+    {
+      "key": "course_length",
+      "label": "Course length",
+      "value": "Thai and Chinese: 20 days (40 hours); English: 15 days (30 hours)",
+      "quote": "Our Thai and Chinese courses are 20-day programs (40 hours), while our English course is a 15-day program (30 hours)."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Soi Sukhumvit 13, 4 minute walk from Nana BTS",
+      "quote": "located in Bangkok on Soi Sukhumvit 13, a quick 4 minute walk from the Nana BTS station"
+    },
+    {
+      "key": "trainers",
+      "label": "Teachers",
+      "value": "Certified native-speaker instructors",
+      "quote": "Certified native-speaker instructors"
+    },
+    {
+      "key": "free_trial",
+      "label": "Free trial",
+      "value": "60 minute free trial class, 15 minutes online",
+      "quote": "You can join a free trial class for 60 minutes or 15 minutes for an online class."
+    }
+  ]
+}

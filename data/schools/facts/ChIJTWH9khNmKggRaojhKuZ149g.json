@@ -1,0 +1,36 @@
+{
+  "summary": "Agent that says it is the authorized General Sales and Services Agent for Thailand Privilege memberships and assists with applications.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Agent status",
+      "value": "States it is an authorized GSSA for Thailand Privilege memberships",
+      "quote": "As the authorized General Sales and Services Agent (GSSA) for Thailand Privilege memberships in Thailand"
+    },
+    {
+      "key": "agent_fee",
+      "label": "Agent fee",
+      "value": "No fee charged for assistance",
+      "quote": "We do not charge any fee to assist you."
+    },
+    {
+      "key": "visa_validity",
+      "label": "Validity",
+      "value": "Renewable up to 20 years depending on membership",
+      "quote": "The Thai Elite Visa validity can be renewed upto 20 years depending on the type of membership."
+    },
+    {
+      "key": "included_services",
+      "label": "Legal consultation",
+      "value": "Two hours of legal consultation included",
+      "quote": "An allotted two hours for legal consultation with our adept legal advisors"
+    },
+    {
+      "key": "included_services",
+      "label": "Bank account",
+      "value": "Bank account opening service at no cost",
+      "quote": "A no-cost service for opening a bank account"
+    }
+  ]
+}

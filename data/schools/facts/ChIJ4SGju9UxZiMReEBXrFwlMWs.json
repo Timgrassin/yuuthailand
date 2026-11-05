@@ -1,0 +1,42 @@
+{
+  "summary": "Agent that says it is an authorized sales agent for Thailand Privilege (formerly Thailand Elite) memberships and handles applications for 5 to 20 year visas.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Agent licence",
+      "value": "States licence no. SA15/029 as a Thailand Privilege sales agent",
+      "quote": "License No. SA15/029"
+    },
+    {
+      "key": "founded",
+      "label": "Agent since",
+      "value": "2015",
+      "quote": "residency program since 2015"
+    },
+    {
+      "key": "membership_fee",
+      "label": "Membership fee",
+      "value": "650,000 THB (Bronze, 5 years) to 5,000,000 THB (Reserve, 20 years), one-time",
+      "quote": "The Thailand Privilege Visa costs ฿650,000 (Bronze, 5 years) to ฿5,000,000 (Reserve, 20 years) as a one-time fee"
+    },
+    {
+      "key": "payment_terms",
+      "label": "Payment timing",
+      "value": "Membership fee paid only after the background check is approved",
+      "quote": "You only pay the membership fee after your background check is approved by Thai authorities"
+    },
+    {
+      "key": "processing_time",
+      "label": "Processing time",
+      "value": "Whole application typically 6 to 8 weeks",
+      "quote": "the whole application process typically takes 6–8 weeks"
+    },
+    {
+      "key": "extension_service",
+      "label": "Annual extension",
+      "value": "Annual stay extension handled at Chaengwattana Immigration",
+      "quote": "the annual stay extension handled for you at Chaengwattana Immigration by your Elite Personal Liaison"
+    }
+  ]
+}

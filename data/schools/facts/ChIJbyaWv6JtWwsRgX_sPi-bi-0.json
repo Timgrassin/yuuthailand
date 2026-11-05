@@ -1,0 +1,30 @@
+{
+  "summary": "AISA Thai Visa Consultancy is a Bangkok firm offering visa and immigration services, work permits, company formation, accounting, legal and real estate services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "2013",
+      "quote": "established in 2013"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Summer Hill Spaces 3/F, 1106 Sukhumvit Road, Phra Khanong",
+      "quote": "Summer Hill Spaces 3/F, 1106 Sukhumvit Road Phakanong Klongtoey, Bangkok 10110"
+    },
+    {
+      "key": "opening_hours",
+      "label": "Opening hours",
+      "value": "Monday to Friday, 9am to 6pm",
+      "quote": "Business hours: Mon - Fri: 9AM - 6PM"
+    },
+    {
+      "key": "work_permit",
+      "label": "Work permits",
+      "value": "Offers work permit services",
+      "quote": "Visa and immigration services Work permits"
+    }
+  ]
+}

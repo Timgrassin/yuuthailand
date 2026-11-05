@@ -1,0 +1,24 @@
+{
+  "summary": "Boxing gym in central Bangkok offering boxing, beginner, teenager, MMA, private and fighter conditioning classes plus fight training camps.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Training camp",
+      "value": "Fight preparation training camp available",
+      "quote": "Sign up for our training camp"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels",
+      "quote": "offering elite training for all levels"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Central Bangkok",
+      "quote": "Boxing Academy and Training Camp located in central Bangkok"
+    }
+  ]
+}

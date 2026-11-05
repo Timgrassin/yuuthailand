@@ -1,0 +1,36 @@
+{
+  "summary": "Bangkok-based visa agency handling Thai visas including DTV, education, retirement, business and family visas, plus relocation and expat services.",
+  "price_from_thb": 13500,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "DTV service fee",
+      "value": "Fixed 13,500 THB to build a DTV file",
+      "quote": "builds your DTV file for a fixed ฿13,500"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "DTV visa service, half the fee paid when the visa is issued",
+      "quote": "with half paid when your visa is issued"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Education visa through a partner language school in Bangkok",
+      "quote": "We work with a trusted language school in Bangkok, handle the paperwork, and guide you through immigration"
+    },
+    {
+      "key": "licence",
+      "label": "Registration",
+      "value": "DBD-registered Thai company",
+      "quote": "DBD-registered Thai company"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "90 Thong Lo 2, Watthana, Bangkok 10110",
+      "quote": "90 Thong Lo 2, Khlong Tan Nuea, Watthana, Bangkok 10110, Thailand"
+    }
+  ]
+}

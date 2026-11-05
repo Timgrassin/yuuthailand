@@ -1,0 +1,48 @@
+{
+  "summary": "Thai and English language school in the Rama 9 area of Bangkok, licensed by the Ministry of Education, offering courses of 8 to 14 months for students staying long term.",
+  "price_from_thb": 37000,
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Licence",
+      "value": "Licensed by the Ministry of Education (MOE)",
+      "quote": "fully licensed by the Ministry of Education (MOE)"
+    },
+    {
+      "key": "price_course",
+      "label": "Thai course price",
+      "value": "37,000 THB for Thai Levels 1 to 3 (14 months, special price)",
+      "quote": "37,000 Thai Baht"
+    },
+    {
+      "key": "course_length",
+      "label": "Course length",
+      "value": "8 to 14 months",
+      "quote": "Thai and English Language courses for 8 up to 14 months"
+    },
+    {
+      "key": "hours_per_week",
+      "label": "Study schedule",
+      "value": "4 days per week, up to 2 hours per class",
+      "quote": "Students need to study 4 days per week, up to 2 hours per class."
+    },
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Thai and English",
+      "quote": "Learn Thai and English at Sandee Language School in Bangkok"
+    },
+    {
+      "key": "ed_visa",
+      "label": "Visa",
+      "value": "Courses allow students to enter and stay in Thailand while studying",
+      "quote": "offers you an opportunity to enter and stay in Thailand while learning the Thai or English language"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Rama 9 area, Bangkok",
+      "quote": "conveniently located in the vibrant Rama 9 area of Bangkok"
+    }
+  ]
+}

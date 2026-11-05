@@ -1,0 +1,36 @@
+{
+  "summary": "Diamond Marriage & Visa Services helps with marriage in Thailand and Thai visas including education, retirement, BOI and visa extensions, plus property and insurance services.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Offers help with education visas",
+      "quote": "Do you need help with an Education Visa?"
+    },
+    {
+      "key": "retirement_visa",
+      "label": "Retirement visa",
+      "value": "Offers help with retirement visas",
+      "quote": "Do you need help with Retirement Visa?"
+    },
+    {
+      "key": "visa_extension",
+      "label": "Visa extension",
+      "value": "Offers a visa extension service",
+      "quote": "We can provide an extremely efficient Visa extension service."
+    },
+    {
+      "key": "boi_visa",
+      "label": "BOI visa",
+      "value": "Helps process BOI visa applications",
+      "quote": "we can help you process your BOI visa application"
+    },
+    {
+      "key": "free_consultation",
+      "label": "Consultation",
+      "value": "Free initial consultation for marriage service",
+      "quote": "please contact us for a free initial no-obligation consultation"
+    }
+  ]
+}

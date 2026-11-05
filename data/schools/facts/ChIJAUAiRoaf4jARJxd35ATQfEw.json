@@ -1,0 +1,36 @@
+{
+  "summary": "Siam Thai Visa Consultancy is a Bangkok visa agency that handles tourist, business, retirement, marriage, education, DTV and other Thai visa applications.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "Handles Destination Thailand Visa (DTV) applications",
+      "quote": "Destination Thailand Visa (DTV) 5-year visa for digital nomads, remote workers & freelancers."
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Handles Non-Immigrant ED visas, including for Muay Thai courses",
+      "quote": "Student / Education Visa (Non-Immigrant ED) For studying, training, seminars & Muay Thai courses in Thailand."
+    },
+    {
+      "key": "retirement_visa",
+      "label": "Retirement visa",
+      "value": "Handles retirement visas (O-A, O-X) for people aged 50+",
+      "quote": "Thailand Retirement Visa (Non-Immigrant OA / OX) Long-stay visas for retirees aged 50+, from 1 to 10 years."
+    },
+    {
+      "key": "passport_collection",
+      "label": "Passport collection",
+      "value": "Collects passports from home or office",
+      "quote": "pick up your passport from your home or office"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Sunaphlu Soi 6, near Le D'Tel Bangkok",
+      "quote": "Sunaphlu Soi 6, near Le D’Tel Bangkok"
+    }
+  ]
+}

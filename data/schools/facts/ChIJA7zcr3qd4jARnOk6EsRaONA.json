@@ -1,0 +1,48 @@
+{
+  "summary": "Muay Thai gym in Huai Khwang offering group classes, fighter training day passes, private coaching and multi-week camps.",
+  "price_from_thb": 700,
+  "facts": [
+    {
+      "key": "price_month",
+      "label": "Group class pack",
+      "value": "5,300 THB per month for 10 sessions",
+      "quote": "5,300 THB/ month"
+    },
+    {
+      "key": "price_course",
+      "label": "Camp price",
+      "value": "25,000 THB per camp",
+      "quote": "25,000 THB/ camp"
+    },
+    {
+      "key": "course_length",
+      "label": "Camp length",
+      "value": "4 weeks, all inclusive, accommodation not included",
+      "quote": "4 weeks - All Inclusive (no Accomm)"
+    },
+    {
+      "key": "price_session",
+      "label": "Day pass",
+      "value": "700 THB per fighter training session",
+      "quote": "700 THB/ SESSION"
+    },
+    {
+      "key": "training_sessions",
+      "label": "Schedule",
+      "value": "Two sessions daily, 8:00 to 9:30 AM and 4:00 to 5:30 PM",
+      "quote": "Train in authentic Muay Thai sessions twice daily at 8:00-9:30 AM and 4:00-5:30 PM."
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "Senior coach Kru Udd Noi, 330 pro fights",
+      "quote": "Kru Udd Noi (Senior Muay Thai Coach) A true veteran with 330 Pro Fights"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Lat Phrao 34, Lat Phrao Road, Huai Khwang",
+      "quote": "153/2 Lat Phrao 34, Lat Phrao Road, Samsen Nok Subdistrict"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "summary": "Muay Thai academy with gyms in Bangkok and Phetchaburi offering training packages, a train and stay program, an instructor course and a 15-month ED visa program.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "15-month ED visa program",
+      "quote": "LIVE IN THAILAND -15 Month ED Visa"
+    },
+    {
+      "key": "accommodation",
+      "label": "Accommodation",
+      "value": "All-inclusive live-in program at the gym",
+      "quote": "Live and train at the gym with our all-inclusive program."
+    },
+    {
+      "key": "licence",
+      "label": "Instructor certification",
+      "value": "Instructor course with Thai government certification",
+      "quote": "Earn Thai Government Certification in Muay Thai Instruction."
+    },
+    {
+      "key": "trainers",
+      "label": "Head trainer",
+      "value": "Master Toddy, over 50 years in Muay Thai",
+      "quote": "Over 50 years of experience in Muay Thai."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Bangkok headquarters gym",
+      "quote": "Bangkok HQ Gym"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "summary": "Watchara Gym offers Muay Thai training in Bangkok for all levels.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels welcome",
+      "quote": "MuayThai training for everyone. All levels are welcome."
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Sukhumvit Soi 1, Khlong Toei Nuea, Watthana, Bangkok",
+      "quote": "9 Sukhumvit Soi 1 Khlong Toei Nuea, Watthana,"
+    }
+  ]
+}

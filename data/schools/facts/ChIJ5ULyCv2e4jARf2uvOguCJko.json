@@ -1,0 +1,42 @@
+{
+  "summary": "Thai language school on Sukhumvit Soi 31 offering private and group lessons in speaking, reading and writing Thai, in person or online.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "languages_taught",
+      "label": "Languages",
+      "value": "Thai speaking, reading and writing",
+      "quote": "complete syllabus for Speaking, Reading & Writing Thai"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Basic (Survival Thai) to Advanced",
+      "quote": "Lessons from Basic (Survival Thai) to Advanced"
+    },
+    {
+      "key": "class_size",
+      "label": "Lesson format",
+      "value": "Private and group lessons",
+      "quote": "both Private & Group lessons"
+    },
+    {
+      "key": "course_length",
+      "label": "Lesson length",
+      "value": "90 minutes per lesson",
+      "quote": "Students can enjoy 90 minutes lessons"
+    },
+    {
+      "key": "founded",
+      "label": "Experience",
+      "value": "Teaching Thai to foreign students for more than 25 years",
+      "quote": "Success in teaching Thai to foreign students for more than 25 years"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "5/8 Sukhumvit Soi 31, Wattana, Bangkok 10110",
+      "quote": "5/8 Sukhumvit Soi 31, Sukhumvit Road,Klongtoey-Neua, Wattana, Bangkok 10110"
+    }
+  ]
+}

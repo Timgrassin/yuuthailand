@@ -1,0 +1,48 @@
+{
+  "summary": "Visa agency running border runs from Bangkok and Pattaya to Laos, plus airport fast track and help with education, retirement, marriage and DTV visas.",
+  "price_from_thb": 4200,
+  "facts": [
+    {
+      "key": "price_session",
+      "label": "Laos run from Bangkok",
+      "value": "6,200 THB for many Western nationalities, incl. Laos visa and fees",
+      "quote": "6,200 THB for: Australia, Austria, Belgium"
+    },
+    {
+      "key": "price_session",
+      "label": "Laos run from Bangkok, ASEAN",
+      "value": "4,200 THB for ASEAN nationals, incl. fees",
+      "quote": "4,200 THB for ASEAN: Brunei, Laos, Indonesia, Malaysia, Philippines, Singapore and Vietnam"
+    },
+    {
+      "key": "schedule",
+      "label": "Bangkok departures",
+      "value": "Sunday, Tuesday, Thursday and Saturday, meeting at 19:00",
+      "quote": "(EVERY SUNDAY, TUESDAY, THURSDAY AND SATURDAY MEETING AT 19:00PM)"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "Extra 1,000 THB to activate or extend a DTV for 180 days",
+      "quote": "+1,000 THB – For activate or extend your DTV visa with 180 days"
+    },
+    {
+      "key": "requirements",
+      "label": "Passport",
+      "value": "Passport with 6 months validity and two free pages",
+      "quote": "Passport 6 month validity, at least two free pages"
+    },
+    {
+      "key": "location_note",
+      "label": "Meeting point",
+      "value": "BTS On Nut, Sukhumvit Soi 50, Lotus parking",
+      "quote": "MEETING POINT, BTS station ON NUT, Sukhumvit Soi 50, Parking Lotus"
+    },
+    {
+      "key": "service_note",
+      "label": "Cambodia run",
+      "value": "Cambodia border run not available at the moment",
+      "quote": "Border Run to Cambodia (Not available at the moment !!)"
+    }
+  ]
+}

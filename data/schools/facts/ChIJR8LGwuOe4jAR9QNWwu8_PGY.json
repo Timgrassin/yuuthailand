@@ -1,0 +1,30 @@
+{
+  "summary": "Language school in the Times Square Building at Asok, Bangkok, offering language courses, corporate training, and Education visa and DTV programs.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "2000",
+      "quote": "a leader in language training since 2000"
+    },
+    {
+      "key": "ed_visa",
+      "label": "ED visa",
+      "value": "Education visa program offered",
+      "quote": "Education VISA"
+    },
+    {
+      "key": "dtv_support",
+      "label": "DTV",
+      "value": "DTV program offered",
+      "quote": "Destination Thailand Visa (DTV)"
+    },
+    {
+      "key": "location_note",
+      "label": "Address",
+      "value": "10th Floor, Times Square Building, 246 Sukhumvit Rd., Bangkok 10110",
+      "quote": "10th Floor, Times Square Building, 246 Sukhumvit Rd., Bangkok, 10110"
+    }
+  ]
+}

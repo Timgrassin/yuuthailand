@@ -1,0 +1,42 @@
+{
+  "summary": "Thai language school in Ekkamai offering private and small group lessons in speaking and reading and writing tracks from beginner to advanced.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "founded",
+      "label": "Founded",
+      "value": "2004",
+      "quote": "Est. 2004"
+    },
+    {
+      "key": "class_size",
+      "label": "Class size",
+      "value": "Maximum 6 students",
+      "quote": "maximum 6 students"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "Two tracks with levels from beginner to advanced",
+      "quote": "Two distinct tracks, each with structured levels from beginner to advanced."
+    },
+    {
+      "key": "course_length",
+      "label": "Reading and writing beginner course",
+      "value": "50 hours",
+      "quote": "syllable structures. 50 hours."
+    },
+    {
+      "key": "trainers",
+      "label": "Teachers",
+      "value": "Native Thai speakers with professional credentials",
+      "quote": "Native Thai speakers with professional credentials"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Soi Ekkamai 4, Watthana, Bangkok",
+      "quote": "52 Soi Ekkamai 4, Khlong Tan Nuea, Watthana, Bangkok 10110"
+    }
+  ]
+}

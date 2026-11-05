@@ -1,0 +1,30 @@
+{
+  "summary": "Muay Thai gym in Bangkok offering morning and afternoon group classes and private coaching for all levels.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "training_sessions",
+      "label": "Group classes",
+      "value": "Morning group class 8:00 to 9:30 AM",
+      "quote": "MuayThai Group Class( 8:00-9:30 AM)"
+    },
+    {
+      "key": "trainers",
+      "label": "Trainers",
+      "value": "Thai champion coaches",
+      "quote": "Our trainers are real Thai champions with years of experience"
+    },
+    {
+      "key": "levels",
+      "label": "Levels",
+      "value": "All levels, beginners to fighters",
+      "quote": "All levels welcome"
+    },
+    {
+      "key": "location_note",
+      "label": "Location",
+      "value": "Next to Super Export Shop, Bangkok",
+      "quote": "Located next to Super Export Shop"
+    }
+  ]
+}
