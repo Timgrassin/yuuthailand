@@ -48,7 +48,7 @@ export const AREAS: { city: string; location: string }[] = [
   { city: "ubon-ratchathani", location: "Ubon Ratchathani, Thailand" },
   { city: "nakhon-si-thammarat", location: "Nakhon Si Thammarat, Thailand" },
   { city: "trang", location: "Trang, Thailand" },
-  { city: "koh-chang", location: "Ko Chang, Trat, Thailand" },
+  { city: "koh-chang", location: "Ko Chang District, Trat, Thailand" },
   { city: "phitsanulok", location: "Phitsanulok, Thailand" },
 ];
 /** @deprecated kept for older callers; use AREAS. */
