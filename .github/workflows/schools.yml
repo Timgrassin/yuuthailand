@@ -4,14 +4,15 @@ name: Scrape schools
 on:
   workflow_dispatch:
     inputs:
-      cities: { description: "Comma-separated city slugs (blank = all 10)", required: false, default: "" }
-      max: { description: "Max places per search", required: false, default: "25" }
+      cities: { description: "Comma-separated city slugs (blank = all areas in scripts/apify/lib.ts)", required: false, default: "" }
+      max: { description: "Max places per search phrase per area", required: false, default: "300" }
+      parallel: { description: "Apify runs at once (keep within your plan memory)", required: false, default: "3" }
 permissions:
   contents: write
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 330
     env:
       APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
       STAYLONG_IMPORT_TOKEN: ${{ secrets.STAYLONG_IMPORT_TOKEN }}
@@ -26,8 +27,9 @@ jobs:
       - name: Scrape
         env:
           MAX: ${{ inputs.max }}
+          PARALLEL: ${{ inputs.parallel }}
           CITIES: ${{ inputs.cities }}
-        run: pnpm tsx scripts/apify/scrape-schools.ts --max "$MAX" ${CITIES:+--cities "$CITIES"}
+        run: pnpm tsx scripts/apify/scrape-schools.ts --max "$MAX" --parallel "${PARALLEL:-3}" ${CITIES:+--cities "$CITIES"}
       - run: pnpm tsx scripts/apify/import-schools.ts
       - run: pnpm tsx scripts/apify/fetch-sites.ts
       - run: pnpm tsx scripts/apify/apply-facts.ts

@@ -4,7 +4,7 @@ Verified long-stay Thailand directory at staylong.co. Next.js App Router, TypeSc
 
 ## Commands
 
-`pnpm dev`, `pnpm lint`, `pnpm typecheck`, `pnpm test`, `pnpm build`. Migrations live in `supabase/migrations` (0001 to 0030). `scripts/db-smoke.sh` applies them to plain Postgres and runs `supabase/tests/smoke.sql`; CI runs it on every push.
+`pnpm dev`, `pnpm lint`, `pnpm typecheck`, `pnpm test`, `pnpm build`. Migrations live in `supabase/migrations` (0001 to 0032). `scripts/db-smoke.sh` applies them to plain Postgres and runs `supabase/tests/smoke.sql`; CI runs it on every push.
 
 ## Layout
 
@@ -15,7 +15,7 @@ Verified long-stay Thailand directory at staylong.co. Next.js App Router, TypeSc
 - `src/lib/tools.ts` + `src/components/tools/` free tools at `/tools/<slug>`; each has an answer, FAQs, WebApplication schema and an `EmailCapture` lead magnet. `src/content/faq.ts` feeds `/faq`; `src/content/countries.ts` feeds `/visas-for/<country>`.
 - `src/content/` editorial layer: `guides/*.ts` (Guide) render at `/guides/<slug>`, `visas/<track>.ts` (VisaContent) render inside `/visa-rules/<slug>`. Register new files in `src/content/index.ts`. Writing rules: see `docs/editorial-brief.md`; research in `docs/research/`.
 - Places: `src/content/places.ts` (28 places) and `src/content/immigration-offices.ts` (20 offices) render at `/places/<slug>` and `/immigration-offices/<slug>`. POIs come from `src/content/data/pois.json`, written by `.github/workflows/pois.yml` (OpenStreetMap via Nominatim, monthly). Maps use `src/components/map/poi-map.tsx` (MapLibre).
-- Schools pipeline: `scripts/apify/*` run by `.github/workflows/schools.yml` (manual). Scrape Google Maps, import, fetch site text, then apply quoted facts written per `data/schools/brief.md`.
+- Schools pipeline: `scripts/apify/*` run by `.github/workflows/schools.yml` (manual). Areas, search phrases and the category classifier live in `scripts/apify/lib.ts`; each area is one Apify run with `locationQuery`, so results are not capped per search. Types: language_school, muay_thai_camp, visa_agent, cooking_school, massage_school. Scrape Google Maps, import, fetch site text, then apply quoted facts written per `data/schools/brief.md`.
 - MCP server: `src/app/mcp/route.ts` (Streamable HTTP, stateless, read-only) with tools in `src/lib/mcp/tools.ts` and a search corpus in `src/lib/mcp/corpus.ts`. Docs at `/mcp-server`, card at `/.well-known/mcp/server-card.json`. Registry entry `server.json`, published by `.github/workflows/mcp-registry.yml` (runs when `server.json` changes, GitHub OIDC). Bump its version before each publish. Listed as `io.github.Timgrassin/staylong`.
 - Local design previews without Supabase: `STAYLONG_FIXTURES=1 pnpm dev` (FAKE providers, real seeded rules).
 - Design tokens in `src/app/globals.css` `:root`. Replace values with `yuu.css` when `/handoff` lands. Register new color tokens in `src/lib/cn.ts`.
@@ -58,4 +58,4 @@ Every public page follows `docs/seo.md`. Use `pageMetadata()` for metadata, `gra
 
 ## Open
 
-All migrations 0001 to 0030 are applied in production (5 Nov 2026). School scrape is set up (secrets and `import_keys` row in place). All 10 cities scraped 5 Nov 2026: 396 listings, 223 with quote-verified facts (926 facts), 161 with 3+ facts and so indexable. Pending: run `supabase/seed-data/cleanup-2026-11-05.sql` in the SQL Editor (renames, non-provider deletes, one price reset). Supabase Pro at launch (Q5). Owner email for GitHub, Vercel, Supabase, Resend, LINE (Q5). Placeholders: [PRICE], [AMOUNT], [REVIEWER NAME], [ROLE]. Consent text v1 needs legal review; publish v2 to change. Resend not set up: email captures are stored but no email is sent yet. `fx_rates` empty: checker uses a 33 THB/USD fallback. Handoff files (`/handoff`) not yet in repo, so design tokens from `yuu.css` are not applied.
+All migrations 0001 to 0032 are applied in production (5 Nov 2026). School scrape is set up (secrets and `import_keys` row in place). All 10 cities scraped 5 Nov 2026: 396 listings, 223 with quote-verified facts (926 facts), 161 with 3+ facts and so indexable. Pending: run `supabase/seed-data/cleanup-2026-11-05.sql` in the SQL Editor (renames, non-provider deletes, one price reset). Supabase Pro at launch (Q5). Owner email for GitHub, Vercel, Supabase, Resend, LINE (Q5). Placeholders: [PRICE], [AMOUNT], [REVIEWER NAME], [ROLE]. Consent text v1 needs legal review; publish v2 to change. Resend not set up: email captures are stored but no email is sent yet. `fx_rates` empty: checker uses a 33 THB/USD fallback. Handoff files (`/handoff`) not yet in repo, so design tokens from `yuu.css` are not applied.

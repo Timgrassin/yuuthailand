@@ -17,28 +17,78 @@ export async function rpc<T>(fn: string, body: Record<string, unknown>): Promise
   return (await res.json()) as T;
 }
 
-// Cities seeded in migration 0021, with the search label Google Maps understands.
-export const CITIES: { slug: string; query: string }[] = [
-  { slug: "bangkok", query: "Bangkok" },
-  { slug: "chiang-mai", query: "Chiang Mai" },
-  { slug: "phuket", query: "Phuket" },
-  { slug: "pattaya", query: "Pattaya" },
-  { slug: "hua-hin", query: "Hua Hin" },
-  { slug: "koh-samui", query: "Koh Samui" },
-  { slug: "krabi", query: "Krabi" },
-  { slug: "khon-kaen", query: "Khon Kaen" },
-  { slug: "chiang-rai", query: "Chiang Rai" },
-  { slug: "udon-thani", query: "Udon Thani" },
+// Search areas. city_slug must exist in public.cities (0021 + 0031). Several areas can feed one city
+// (Bangkok metro). locationQuery lets the actor tile the whole area, so results are not capped at ~120.
+export const AREAS: { city: string; location: string }[] = [
+  { city: "bangkok", location: "Bangkok, Thailand" },
+  { city: "bangkok", location: "Nonthaburi, Thailand" },
+  { city: "bangkok", location: "Samut Prakan, Thailand" },
+  { city: "chiang-mai", location: "Chiang Mai, Thailand" },
+  { city: "phuket", location: "Phuket, Thailand" },
+  { city: "pattaya", location: "Pattaya, Chonburi, Thailand" },
+  { city: "pattaya", location: "Si Racha, Chonburi, Thailand" },
+  { city: "hua-hin", location: "Hua Hin, Thailand" },
+  { city: "koh-samui", location: "Ko Samui, Thailand" },
+  { city: "koh-phangan", location: "Ko Pha-ngan, Thailand" },
+  { city: "koh-tao", location: "Ko Tao, Thailand" },
+  { city: "krabi", location: "Krabi, Thailand" },
+  { city: "koh-lanta", location: "Ko Lanta, Thailand" },
+  { city: "khon-kaen", location: "Khon Kaen, Thailand" },
+  { city: "chiang-rai", location: "Chiang Rai, Thailand" },
+  { city: "udon-thani", location: "Udon Thani, Thailand" },
+  { city: "pai", location: "Pai, Mae Hong Son, Thailand" },
+  { city: "hat-yai", location: "Hat Yai, Songkhla, Thailand" },
+  { city: "korat", location: "Nakhon Ratchasima, Thailand" },
+  { city: "nong-khai", location: "Nong Khai, Thailand" },
+  { city: "rayong", location: "Rayong, Thailand" },
+  { city: "surat-thani", location: "Surat Thani, Thailand" },
+  { city: "kanchanaburi", location: "Kanchanaburi, Thailand" },
+  { city: "ayutthaya", location: "Ayutthaya, Thailand" },
+  { city: "lampang", location: "Lampang, Thailand" },
+  { city: "ubon-ratchathani", location: "Ubon Ratchathani, Thailand" },
+  { city: "nakhon-si-thammarat", location: "Nakhon Si Thammarat, Thailand" },
+  { city: "trang", location: "Trang, Thailand" },
+  { city: "koh-chang", location: "Ko Chang, Trat, Thailand" },
+  { city: "phitsanulok", location: "Phitsanulok, Thailand" },
+];
+/** @deprecated kept for older callers; use AREAS. */
+export const CITIES = AREAS.map((a) => ({ slug: a.city, query: a.location.split(",")[0] }));
+
+export type ProviderType = "language_school" | "muay_thai_camp" | "visa_agent" | "cooking_school" | "massage_school";
+// Every phrase runs in every area. The type here is only a fallback: classify() uses Google's category first.
+export const SEARCHES: { q: string; type: ProviderType }[] = [
+  { q: "Thai language school", type: "language_school" },
+  { q: "language school", type: "language_school" },
+  { q: "Thai lessons", type: "language_school" },
+  { q: "language institute", type: "language_school" },
+  { q: "ED visa school", type: "language_school" },
+  { q: "Muay Thai", type: "muay_thai_camp" },
+  { q: "Muay Thai camp", type: "muay_thai_camp" },
+  { q: "Muay Thai gym", type: "muay_thai_camp" },
+  { q: "boxing gym", type: "muay_thai_camp" },
+  { q: "visa agent", type: "visa_agent" },
+  { q: "visa service", type: "visa_agent" },
+  { q: "visa consultant", type: "visa_agent" },
+  { q: "immigration lawyer", type: "visa_agent" },
+  { q: "retirement visa", type: "visa_agent" },
+  { q: "Thai cooking school", type: "cooking_school" },
+  { q: "cooking class", type: "cooking_school" },
+  { q: "Thai massage school", type: "massage_school" },
+  { q: "massage training course", type: "massage_school" },
 ];
 
-// Search phrase -> provider_type. Mirrors the RoxSkin gym scraper: one Google Maps search per phrase per city.
-export const SEARCHES: { q: string; type: "language_school" | "muay_thai_camp" | "visa_agent" }[] = [
-  { q: "Thai language school", type: "language_school" },
-  { q: "language school ED visa", type: "language_school" },
-  { q: "Muay Thai camp", type: "muay_thai_camp" },
-  { q: "Muay Thai gym training camp", type: "muay_thai_camp" },
-  { q: "visa agent", type: "visa_agent" },
-];
+// Type from Google's category and the name. Returns null for places that are not providers.
+export function classify(categories: string[], title: string, fallback: ProviderType): ProviderType | null {
+  const cat = categories.join(" | ").toLowerCase();
+  const all = `${cat} ${title.toLowerCase()}`;
+  if (/muay|boxing|kickbox|martial art|mma\b/.test(all)) return "muay_thai_camp";
+  if (/cooking (school|class)|culinary/.test(all)) return "cooking_school";
+  if (/massage/.test(all)) return /school|training|academy|institute|course/.test(all) ? "massage_school" : null;
+  if (/visa|immigration (lawyer|attorney|consult)|lawyer|law firm|legal services|attorney/.test(all)) return "visa_agent";
+  if (/language|tutor|english school|thai school|education cent|learning cent/.test(all)) return "language_school";
+  if (/school|academy|institute|college/.test(cat) && fallback === "language_school") return "language_school";
+  return null;
+}
 
 export function slugify(s: string) {
   return s.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 80);

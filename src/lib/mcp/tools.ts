@@ -123,8 +123,8 @@ export const TOOL_DEFS: ToolDef[] = [
   {
     name: "find_providers",
     title: "Find schools, camps and visa agents",
-    description: "List language schools, Muay Thai camps and visa agents in a Thai city with Staylong's verification status (verified, contacted, unverified).",
-    inputSchema: { type: "object", properties: { city: { type: "string", description: "City slug, e.g. bangkok, chiang-mai, phuket" }, type: { type: "string", enum: ["language_school", "muay_thai_camp", "visa_agent"] }, verified_only: { type: "boolean" } } },
+    description: "List language schools, Muay Thai camps, Thai cooking and massage schools and visa agents in a Thai city with Staylong's verification status (verified, contacted, unverified).",
+    inputSchema: { type: "object", properties: { city: { type: "string", description: "City slug, e.g. bangkok, chiang-mai, phuket" }, type: { type: "string", enum: ["language_school", "muay_thai_camp", "visa_agent", "cooking_school", "massage_school"] }, verified_only: { type: "boolean" } } },
     run: async (a) => {
       const rows = await getProviders({ city: typeof a.city === "string" ? a.city.toLowerCase().replace(/\s+/g, "-") : undefined });
       const list = rows.filter((p) => p.status !== "suspended" && (!a.type || p.provider_type === a.type) && (!a.verified_only || p.status === "verified"));
