@@ -1,6 +1,7 @@
 import { cache } from "react";
 import { publicDb } from "@/lib/supabase/public";
 import { fixtureTable } from "@/lib/fixtures";
+import { isListed } from "@/lib/listing";
 
 // Read model only (migration 0018 views + public tables). Every query fails soft to empty.
 export type Provider = {
@@ -75,13 +76,14 @@ async function q<T>(fn: (db: NonNullable<ReturnType<typeof publicDb>>) => Promis
 export const getCities = cache(() => q<City>((db) => db.from("cities").select("*").order("sort_order")));
 export const getCity = cache(async (slug: string) => (await q<City>((db) => db.from("cities").select("*").eq("slug", slug).limit(1)))[0]);
 
-export const getProviders = cache((f: { city?: string; status?: string } = {}) =>
-  q<Provider>((db) => {
+// Public lists only: unverified listings with no facts and no description are left out (see isListed).
+export const getProviders = cache(async (f: { city?: string; status?: string } = {}) =>
+  (await q<Provider>((db) => {
     let s = db.from("public_providers").select("*").neq("status", "suspended");
     if (f.city) s = s.eq("city_slug", f.city);
     if (f.status) s = s.eq("status", f.status);
     return s.order("is_partner", { ascending: false }).order("status", { ascending: true }).order("name_en");
-  }),
+  })).filter(isListed),
 );
 export const getProvider = cache(async (slug: string) => (await q<Provider>((db) => db.from("public_providers").select("*").eq("slug", slug).limit(1)))[0]);
 

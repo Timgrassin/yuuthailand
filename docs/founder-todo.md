@@ -1,21 +1,35 @@
 # Staylong: founder to-do list
 
-Updated 5 Nov 2026. Items are in priority order. Each one takes 2 to 20 minutes unless noted.
+Updated 6 Nov 2026. Items are in priority order. DNS for staylong.co is at Namecheap (Domain List, staylong.co, Advanced DNS), not Vercel. The Vercel project is named `yuu`. Each one takes 2 to 20 minutes unless noted.
 
 | # | Item | Time | Blocks |
 |---|---|---|---|
 | 1 | ~~Run the listings cleanup SQL~~ Done 6 Nov | 2 min | Clean names and slugs on 15 Bangkok pages |
-| 2 | Add `LEAD_IP_SALT` in Vercel | 3 min | Private IP hashing for leads |
-| 3 | Google Search Console + sitemap | 15 min | Google indexing |
-| 4 | Bing Webmaster Tools + sitemap | 5 min | Bing, ChatGPT search, Copilot |
-| 5 | Set up Resend | 20 min | Every email capture on the site |
+| 2 | ~~Add `LEAD_IP_SALT` in Vercel~~ Done 6 Nov | 3 min | Private IP hashing for leads |
+| 3 | ~~Google Search Console + sitemap~~ Done 6 Nov | 15 min | Google indexing |
+| 4 | ~~Bing Webmaster Tools + sitemap~~ Done 6 Nov | 5 min | Bing, ChatGPT search, Copilot |
+| 5 | Set up Resend: domain + DNS done 6 Nov; **API key left (steps 6-7)** | 5 min | Every email capture on the site |
 | 6 | Book an expert reviewer | 1 to 3 days | "Pending expert review" badges, E-E-A-T |
-| 7 | Legal review of consent text v1 | 1 to 5 days | Lawful lead capture under PDPA |
-| 8 | Decide three open questions | 5 min | Lead flow and directory quality |
+| 7 | Legal review of consent text v1 (CSV ready: `docs/legal/consent-texts-v1.csv`) | 1 to 5 days | Lawful lead capture under PDPA |
+| 8 | ~~Decide three open questions~~ Defaults applied 6 Nov; **run `cleanup-2026-11-06.sql`** | 2 min | Lead flow and directory quality |
 | 9 | Upload the `/handoff` design files | 5 min | Final design tokens |
 | 10 | Pick an owner email and move accounts | 30 min | Bus factor, billing |
-| 11 | Upgrade Supabase to Pro at launch | 3 min | Backups, no auto-pause |
+| 11 | ~~Upgrade Supabase to Pro~~ Org already on Pro (checked 6 Nov); confirm backups | 2 min | Backups, no auto-pause |
 | 12 | Check Apify spend | 2 min | Budget |
+
+## Status 6 Nov 2026 (Claude)
+
+- **2.** `LEAD_IP_SALT` added to Vercel project `yuu` as Sensitive, Production + Preview, with a "never change" comment. Production redeployed.
+- **3.** Domain property `staylong.co` verified by TXT at Namecheap. Sitemap `https://staylong.co/sitemap.xml` submitted (1,106 URLs; Search Console first shows "Couldn't fetch" for new properties, recheck in a day). Indexing requested for `/`, `/visa-rules`, `/places`, `/immigration-offices`, `/tools`. Step 9 (add owner email) waits for item 10.
+- **4.** Imported from Search Console as `https://staylong.co/`. Sitemap submitted. The same five URLs submitted.
+- **5.** `staylong.co` added to Resend (Tokyo, ap-northeast-1). Records added at Namecheap: TXT `resend._domainkey` (DKIM), CNAME `rsend` and CNAME `send` (sending), TXT `_dmarc` `v=DMARC1; p=none;`. The receiving MX on `@` was not added: it would replace Namecheap email forwarding. **Your part:** steps 6 and 7 (create the `staylong-vercel` key with sending access and add `RESEND_API_KEY` in Vercel), then tell Claude "Resend done".
+- **6.** Candidate shortlist and a draft email: `docs/reviewer-shortlist.md`. You send it.
+- **7.** Consent texts exported to `docs/legal/consent-texts-v1.csv`. Ask the lawyer to also fix: `lead_form` v1 still says "Yuu" instead of Staylong, and `subscribe` v1 only covers visa-rule-change emails, not lead-magnet emails.
+- **8.** Defaults applied. (1) A: lead details after accept, unchanged. (2) A: public lists, city and place pages and MCP `find_providers` now leave out unverified listings with no facts and no description (`src/lib/listing.ts`). That hides 3,335 of 4,194 listings; 859 stay listed. Pages still resolve, noindex. (3) A: delete SQL in `supabase/seed-data/cleanup-2026-11-06.sql` for Knight Visa Phuket, Knight Visa Udon Thani, Visatogo Khon Kaen. **Your part:** run it in the SQL Editor like item 1. Other Knight Visa and Visatogo branches (Bangkok, Korat, Ubon, Chiang Mai, Pattaya, Phuket, Bangkok Asia) were not named and are kept; all but Knight Visa Services Ubon (3 facts) are now hidden by (2). A future rescrape can re-import deleted places.
+- **9.** Not done: the handoff files are not on this machine.
+- **10.** Not done: needs your choice of mailbox provider and an account in your name.
+- **11.** Organization "Private Projects" is already on Pro. Optional: confirm daily backups and rename the project `yuu` to `staylong` in the dashboard.
+- **12.** Not done: Apify console needs your sign-in.
 
 ---
 
@@ -38,7 +52,7 @@ Fixes 15 names and slugs, deletes 5 non-providers (a stadium, two immigration of
 Lead IPs are stored as a SHA-256 hash. Without this variable the salt is a public default, so the hash can be reversed.
 
 1. On your Mac, open Terminal and run `openssl rand -hex 32`. Copy the output.
-2. Open https://vercel.com/dashboard, select the **staylong** project.
+2. Open https://vercel.com/dashboard, select the **yuu** project.
 3. Go to **Settings**, then **Environment Variables**.
 4. Key: `LEAD_IP_SALT`. Value: the string from step 1.
 5. Environments: tick **Production** and **Preview**. Tick **Sensitive**.
@@ -54,7 +68,7 @@ Lead IPs are stored as a SHA-256 hash. Without this variable the salt is a publi
 2. Click **Add property**. Choose **Domain** (left box). Enter `staylong.co`. Click **Continue**.
 3. Google shows a TXT record starting with `google-site-verification=`. Click **Copy**.
 4. Add the TXT record where the domain's DNS lives:
-   1. If the domain was bought on Vercel: Vercel dashboard, **Domains**, click `staylong.co`, **DNS Records**, **Add**.
+   1. Namecheap, **Domain List**, `staylong.co`, **Advanced DNS**, **Add New Record**.
    2. Name: leave empty (or `@`). Type: `TXT`. Value: the copied string. TTL: default. Click **Add**.
 5. Back in Search Console, click **Verify**. If it fails, wait 10 minutes and click Verify again.
 6. In the left menu, click **Sitemaps**. Enter `sitemap.xml` and click **Submit**. Status should read "Success".
@@ -87,7 +101,7 @@ Email captures are stored but no email is sent. Every lead magnet on the site de
 1. Open https://resend.com/signup and sign up with the owner email from item 10.
 2. Go to **Domains**, click **Add Domain**. Enter `staylong.co`. Region: **Tokyo (ap-northeast-1)**, the closest to Bangkok.
 3. Resend shows 3 to 4 DNS records (MX, TXT for SPF, TXT for DKIM, optional DMARC).
-4. Add each record in Vercel: **Domains**, `staylong.co`, **DNS Records**, **Add**. Copy Name, Type, Value and Priority exactly as Resend shows them.
+4. Add each record in Namecheap: **Domain List**, `staylong.co`, **Advanced DNS**, **Add New Record**. Copy Name, Type, Value and Priority exactly as Resend shows them.
 5. Back in Resend, click **Verify DNS Records**. Wait until every record shows "Verified" (5 to 60 minutes).
 6. Go to **API Keys**, click **Create API Key**. Name: `staylong-vercel`. Permission: **Sending access**. Domain: `staylong.co`. Click **Add**. Copy the key (starts with `re_`). Resend shows it once.
 7. In Vercel: **Settings**, **Environment Variables**. Key: `RESEND_API_KEY`. Value: the key. Environments: **Production** only. Tick **Sensitive**. Save.
@@ -159,7 +173,7 @@ The site uses placeholder tokens (Fraunces, Inter, ink, jade, saffron) until the
 
 Every service is on personal logins today. Use one role address so the business is not tied to one inbox.
 
-1. Create a mailbox such as `ops@staylong.co`. Fastest: Google Workspace (https://workspace.google.com), add domain `staylong.co`, add its MX records in Vercel DNS the same way as item 5, step 4. Do this before item 5 so Resend's MX records do not clash: Resend uses the `send` subdomain, Workspace uses the root.
+1. Create a mailbox such as `ops@staylong.co`. Fastest: Google Workspace (https://workspace.google.com), add domain `staylong.co`, add its MX records in Namecheap the same way as item 5, step 4 (this replaces Namecheap email forwarding). Do this before item 5 so Resend's MX records do not clash: Resend uses the `send` subdomain, Workspace uses the root.
 2. Add the address as owner or admin on each service:
    1. GitHub: https://github.com/Timgrassin/yuuthailand/settings/access, **Add people**. Or move the repo to a GitHub organization: **Settings**, **Danger Zone**, **Transfer**.
    2. Vercel: team **Settings**, **Members**, **Invite**, role **Owner**.
