@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Yuu components and states</title>
+<link rel="stylesheet" href="./yuu.css">
+</head>
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anuphan:wght@300..700&amp;display=swap">
+<style>body{margin:0}a{color:#0F5246}a:hover{color:#0A3D34}
+.spec{background:#fff;border:1px solid #E3DDD1;border-radius:16px;padding:24px;display:flex;flex-direction:column;gap:16px}
+.spec>h2{font-size:19px;font-weight:650;margin:0}
+.spec>p.k{font-size:14px;color:#47514C;margin:-8px 0 0}
+.lbl{font-size:13px;color:#626C67;font-weight:600}
+</style>
+<div style="width:1440px;min-height:2800px;background:#FAF8F3;padding:64px 72px;font-family:'Anuphan',system-ui,sans-serif;color:#17201D">
+  <div class="col g8" style="padding-bottom:40px"><span class="t-eyebrow">Design system · Components and states</span><h1 class="t-h1">Every rule shows its source. Every status says its name.</h1></div>
+
+  <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:start">
+
+    <section class="spec">
+      <h2>Buttons</h2><p class="k">One primary per view. Min height 48, small 44.</p>
+      <div class="row g12 wrap"><a class="btn btn-primary" href="#">Check my route</a><a class="btn btn-secondary" href="#">Browse</a></div>
+      <div class="row g12 wrap"><a class="btn btn-ghost" href="#">Save results</a><a class="btn btn-dark btn-sm" href="#">Compare 2</a><button class="btn btn-sm" disabled>Send enquiry</button></div>
+      <div class="row g12 wrap"><a class="btn btn-primary focus" href="#">Focused</a><button class="iconbtn" aria-label="Chat on WhatsApp"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5h16v10.5H9.5L4 20z"/></svg></button><span class="lbl">Icon buttons carry aria-label</span></div>
+    </section>
+
+    <section class="spec">
+      <h2>Verification badge</h2><p class="k">Shape and word change with state, not only color.</p>
+      <div class="col g12">
+        <div class="row between"><span class="tag b-unverified"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" stroke-dasharray="3 3"/></svg>Unverified</span><span class="t-cap muted">Listed from public info</span></div>
+        <div class="row between"><span class="tag b-contacted"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>Contacted</span><span class="t-cap muted">Checks in progress</span></div>
+        <div class="row between"><span class="tag b-verified"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8 12.5l2.7 2.7L16.2 9.5"/></svg>Verified · 12 Oct 2026</span><span class="t-cap muted">License + letter checked</span></div>
+        <div class="row between"><span class="tag b-partner"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 12.5v-8a1 1 0 0 1 1-1h8l8 8-9 9z"/><circle cx="8" cy="8" r="1.4"/></svg>Partner · paid</span><span class="t-cap muted">Pays per enquiry. Same checks.</span></div>
+        <div class="row between"><span class="tag b-suspended"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M6 18L18 6"/></svg>Suspended</span><span class="t-cap muted">Enquiries paused. Reason shown.</span></div>
+      </div>
+    </section>
+
+    <section class="spec">
+      <h2>Last checked + source footnote</h2><p class="k">Attached to every rule or requirement.</p>
+      <div class="row g8 wrap"><span class="checked"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Checked 2 Nov 2026</span><span class="tag r-possible"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>Needs recheck · 64 days</span></div>
+      <p class="t-body">Show 500,000 THB in savings.<a class="fn" href="#">1</a> Statements must be in your name.<a class="fn" href="#">2</a></p>
+      <ol class="col g6" style="border-top:1px solid #E3DDD1;padding-top:12px">
+        <li class="src"><b>1</b> Thai e-Visa official site, DTV page. <a href="#">thaievisa.go.th</a> · checked 2 Nov 2026</li>
+        <li class="src"><b>2</b> Royal Thai Embassy London, notice of 31 Aug 2026. <a href="#">Source</a> · checked 1 Nov 2026</li>
+      </ol>
+    </section>
+
+    <section class="spec">
+      <h2>Route result card</h2><p class="k">Strong, Possible, Not a fit. One-sentence reason.</p>
+      <article class="card p16 col g8"><div class="row between start g12"><h3 class="t-h3">DTV · Workcation</h3><span class="tag r-strong"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Strong</span></div><p class="t-small">You earn from clients abroad and can show 500,000 THB.</p><a class="t-small strong" href="#">What Berlin asks for</a></article>
+      <article class="card p16 col g8"><div class="row between start g12"><h3 class="t-h3">DTV · Muay Thai</h3><span class="tag r-possible"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 8v4.5M12 15.5h.01"/></svg>Possible</span></div><p class="t-small">Works if you enroll 6+ months with a licensed gym.</p></article>
+      <article class="card p16 col g8" style="background:#FAF8F3"><div class="row between start g12"><h3 class="t-h3 muted">Visa exemption + extension</h3><span class="tag r-nofit"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>Not a fit</span></div><p class="t-small muted">60 days max. You want 9 months.</p></article>
+    </section>
+
+    <section class="spec">
+      <h2>Price display</h2><p class="k">THB primary. Converted value secondary, marked ≈, dated.</p>
+      <div class="col g4"><div class="row g6" style="align-items:baseline"><span class="price" style="font-size:24px">฿14,500</span><span class="t-small muted">/ month</span></div><span class="price-alt">≈ $420 · €385 · rate 2 Nov</span></div>
+      <div class="col g4"><span class="price" style="font-size:17px">฿130,500 total for 9 months</span><span class="price-alt">≈ $3,780</span></div>
+      <div class="seg" role="group" aria-label="Currency"><button class="on">THB</button><button>USD</button><button>EUR</button></div>
+    </section>
+
+    <section class="spec">
+      <h2>Filter chips + sort</h2><p class="k">44px tall. Selected flips to ink. Count bubble on the Filters button.</p>
+      <div class="row g8 wrap"><button class="chip on"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>9 months</button><button class="chip">DTV documents</button><button class="chip off" disabled>Ministry of Education · 0</button></div>
+      <div class="row g8 wrap"><button class="chip"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Filters<span class="count">2</span></button><label class="field" style="flex:1;min-width:180px"><span class="lbl">Sort</span><select class="input select"><option>Best match</option><option>Price</option><option>Most approvals reported</option><option>Fastest reply</option></select></label></div>
+    </section>
+
+    <section class="spec">
+      <h2>Stepper + progress</h2><p class="k">Numeric stepper for months. Progress bar for the checker.</p>
+      <div class="row g12"><div class="stepper"><button aria-label="Fewer months">−</button><output>9 months</output><button aria-label="More months">+</button></div><span class="t-cap muted">Min 6 · Max 12</span></div>
+      <div class="col g8"><div class="row between t-cap"><span class="strong">Step 4 of 8</span><span class="muted">About 2 minutes left</span></div><div class="progress"><i style="width:50%"></i></div></div>
+    </section>
+
+    <section class="spec">
+      <h2>Bottom sheet</h2><p class="k">Mobile filters, report flow, currency picker. Footer pinned.</p>
+      <div style="position:relative;height:260px;border-radius:16px;overflow:hidden;background:#E9E5DC">
+        <div class="scrim"></div>
+        <div class="sheet" style="position:absolute;left:0;right:0;bottom:0;padding:0 16px 16px">
+          <div class="grab"></div>
+          <div class="row between" style="padding:12px 0"><b class="t-h3">Filters</b><button class="btn btn-ghost btn-sm">Clear</button></div>
+          <div class="row g8 wrap" style="padding-bottom:12px"><button class="chip">6 mo</button><button class="chip on">9 mo</button><button class="chip">12+ mo</button></div>
+          <a class="btn btn-primary btn-block" href="#">Show 14 programs</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="spec">
+      <h2>Map pins + clusters</h2><p class="k">Pin shows monthly price. Cluster shows count. Selected pin fills teal.</p>
+      <div class="map" style="height:220px">
+        <div class="sea" style="left:0;top:0;width:80px;height:220px"></div>
+        <span class="pin" style="left:110px;top:40px">฿14.5k</span>
+        <span class="pin on" style="left:200px;top:110px"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>฿12k</span>
+        <span class="cluster" style="left:290px;top:40px">8</span>
+        <span class="pin" style="left:130px;top:160px">฿18k</span>
+      </div>
+    </section>
+
+    <section class="spec">
+      <h2>Comparison tray</h2><p class="k">Sticks to the bottom while scrolling. Max 4.</p>
+      <div class="tray" style="position:relative;border-radius:14px">
+        <div class="row g6"><span class="slot full">KM</span><span class="slot full">SB</span><span class="slot"></span><span class="slot"></span></div>
+        <span class="grow t-small">2 of 4</span>
+        <a class="btn btn-accent btn-sm" href="#">Compare</a>
+      </div>
+      <p class="t-cap muted">5th add: “You can compare up to 4. Remove one first.”</p>
+    </section>
+
+    <section class="spec">
+      <h2>Sticky mobile CTA</h2><p class="k">One primary. Chat options as icon + name.</p>
+      <div class="sticky-cta" style="position:relative;border-radius:14px;border:1px solid #E3DDD1">
+        <a class="btn btn-primary grow" href="#">Request enrollment pack</a>
+        <a class="iconbtn" href="#" aria-label="Chat on WhatsApp"><svg class="ic wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5h16v10.5H9.5L4 20z"/></svg></a>
+        <a class="iconbtn" href="#" aria-label="Chat on LINE"><span style="font-size:12px;font-weight:800" class="line">LINE</span></a>
+      </div>
+    </section>
+
+    <section class="spec">
+      <h2>Alert banner</h2><p class="k">New rule change under 30 days old. Dismissible.</p>
+      <div class="alert" style="border-radius:12px;border:1px solid #EAD49E">
+        <span class="tag b-new">New</span>
+        <span class="grow">London now asks for a criminal record certificate. Since 31 Aug 2026. <a href="#">What changed</a></span>
+        <button class="iconbtn" style="width:44px;height:44px;border:0;background:transparent" aria-label="Dismiss"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      </div>
+    </section>
+
+    <section class="spec">
+      <h2>Inputs</h2><p class="k">Label above. Help below. Error keeps the value.</p>
+      <label class="field"><span class="label">Email</span><input class="input" value="maya@example.com"></label>
+      <label class="field"><span class="label">WhatsApp number</span><input class="input err" value="+49 151 22"><span class="help row g6" style="color:#A3262A"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg>Add the full number with country code.</span></label>
+      <label class="opt on"><input type="radio" name="o" checked>500,000 THB or more</label>
+      <label class="checkrow"><input type="checkbox" checked><span>Share my enquiry with up to 3 matching providers.</span></label>
+    </section>
+
+    <section class="spec">
+      <h2>Empty state</h2><p class="k">Offer the exact filters to drop, with counts.</p>
+      <div class="col g12" style="align-items:center;text-align:center;padding:16px 8px">
+        <svg class="ic ic-l" viewBox="0 0 24 24" aria-hidden="true" style="color:#626C67"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4 4"/></svg>
+        <b class="t-h3">No programs match every filter</b>
+        <p class="t-small muted">Drop one of these to see more.</p>
+        <div class="row g8 wrap" style="justify-content:center"><button class="chip">Any length · +11</button><button class="chip">No accommodation · +6</button></div>
+        <a class="btn btn-secondary btn-sm" href="#">Clear all filters</a>
+      </div>
+    </section>
+
+    <section class="spec">
+      <h2>Loading skeleton</h2><p class="k">Same shape as the card. No spinner on lists.</p>
+      <div class="card p16 row g12 start">
+        <div class="sk" style="width:88px;height:88px;border-radius:12px"></div>
+        <div class="col g8 grow"><div class="sk" style="width:70%;height:18px"></div><div class="sk" style="width:45%"></div><div class="sk" style="width:85%"></div><div class="sk" style="width:60%"></div></div>
+      </div>
+      <div class="card p16 row g12 start">
+        <div class="sk" style="width:88px;height:88px;border-radius:12px"></div>
+        <div class="col g8 grow"><div class="sk" style="width:60%;height:18px"></div><div class="sk" style="width:50%"></div><div class="sk" style="width:80%"></div></div>
+      </div>
+    </section>
+
+    <section class="spec">
+      <h2>Error + dropped connection</h2><p class="k">Never lose answers. Say what is kept and what to do.</p>
+      <div class="err-box"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg><div class="col g8"><span>We could not load programs. Your filters are kept.</span><a class="btn btn-secondary btn-sm" href="#" style="align-self:flex-start">Try again</a></div></div>
+      <div class="note"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3l18 18M8.5 16.5a5 5 0 0 1 7 0M5 12.5a10 10 0 0 1 4.5-2.4M14.5 10.1A10 10 0 0 1 19 12.5M12 20h.01"/></svg><div class="col g4"><b>You are offline.</b><span>Answers 1 to 4 are saved on this phone. We will continue when you reconnect.</span></div></div>
+      <div class="row g6 t-cap muted"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Saved on this device · 14:32</div>
+    </section>
+
+  </div>
+</div>
+</body>
+</html>

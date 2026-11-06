@@ -22,7 +22,7 @@ export function ExemptionCalculator() {
           <Stat big label="Last legal day" value={(extend ? lastExt : last).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })} note={longDate(extend ? lastExt : last)} />
           <Stat label={extend ? "Without extension" : "With one extension"} value={longDate(extend ? last : lastExt)} note={extend ? "Apply for the extension before this date." : "Extend at an immigration office before your last day."} />
         </Panel>
-        <p className="rounded-sm border border-accent/30 bg-accent-soft p-4 text-sm text-[#7a4b09]">Staying longer than this means an overstay fine of 500 THB a day. For stays beyond 60 days, you need a long-stay visa.</p>
+        <p className="rounded-sm border border-accent/30 bg-accent-soft p-4 text-sm text-warn">Staying longer than this means an overstay fine of 500 THB a day. For stays beyond 60 days, you need a long-stay visa.</p>
         <EmailCapture title="Email me these dates and my long-stay options" body="Your last legal day and extension deadline, plus the visa routes that let you stay longer." leadMagnet="exemption_dates" meta={{ entry, days, last: toISO(last) }} />
       </div>
     </div>

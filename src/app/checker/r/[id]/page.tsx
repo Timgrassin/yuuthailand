@@ -33,7 +33,7 @@ export default async function SavedResult({ params, searchParams }: P) {
     <Container className="py-10">
       <SectionHeading as="h1" title={t.title} intro={`${"Checked on"} ${fmtDate(data.created_at)}`} />
       {saved ? <p role="status" className="mb-4 rounded-card bg-verified-soft p-4 font-semibold text-verified">{t.saved}</p> : null}
-      {version > Number(data.rules_version) ? <p role="alert" className="mb-4 rounded-card bg-accent-soft p-4 font-semibold text-accent">{t.rulesChanged}</p> : null}
+      {version > Number(data.rules_version) ? <p role="alert" className="mb-4 rounded-card bg-accent-soft p-4 font-semibold text-warn">{t.rulesChanged}</p> : null}
       <div className="grid gap-8 lg:grid-cols-[1fr_22rem]">
         <CheckerResults results={results} labels={{ likely: t.likely, maybe: t.maybe, unlikely: t.unlikely, seeRules: t.seeRules }} />
         <Card className="self-start"><LeadForm checkerResultId={id} track={top} /></Card>

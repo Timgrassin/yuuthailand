@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Fraunces, Inter } from "next/font/google";
+import { Anuphan } from "next/font/google";
 import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
 import { JsonLd } from "@/components/seo/json-ld";
@@ -7,8 +7,8 @@ import { graph, organizationSchema, websiteSchema } from "@/lib/seo/schema";
 import { SITE_NAME, isIndexable, siteUrl } from "@/lib/seo/site";
 import "./globals.css";
 
-const body = Inter({ variable: "--font-body", subsets: ["latin"], display: "swap" });
-const display = Fraunces({ variable: "--font-display-face", subsets: ["latin"], display: "swap", axes: ["opsz", "SOFT"] });
+// D26: one variable font from the handoff, used for body and headings.
+const body = Anuphan({ variable: "--font-body", subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   alternates: { types: { "application/rss+xml": "/feeds/rule-changes.xml", "text/plain": "/llms.txt" } },
 };
 
-export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#0b5e4f" };
+export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#0F5246" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${body.variable} ${display.variable}`}>
+    <html lang="en" className={body.variable}>
       <body className="antialiased">
         <JsonLd data={graph(organizationSchema(), websiteSchema())} />
         <Header />

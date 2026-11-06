@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Admin lead board, low fidelity</title>
+<link rel="stylesheet" href="./yuu.css">
+</head>
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anuphan:wght@300..700&amp;display=swap">
+<style>body{margin:0}a{color:#17201D}a:hover{color:#000}
+.board{display:grid;grid-template-columns:repeat(6,minmax(210px,1fr));gap:16px;min-width:1340px}
+.coln{background:#F1EDE4;border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:10px;min-height:720px}
+.coln h2{font-size:15px;font-weight:700;display:flex;justify-content:space-between;align-items:center;padding:4px 4px 6px}
+.lc{background:#fff;border:1px solid #CDC5B5;border-radius:10px;padding:12px;display:flex;flex-direction:column;gap:6px;font-size:14px;line-height:1.4}
+.lc b{font-size:14px}
+.lc .m2{color:#47514C}
+.sla{display:inline-flex;align-items:center;gap:4px;font-size:12px;font-weight:700;color:#A3262A;border:1px solid #A3262A;border-radius:4px;padding:1px 6px;align-self:flex-start}
+</style>
+<div class="d" style="min-height:1100px;font-family:'Anuphan',system-ui,sans-serif;background:#FAF8F3">
+  <header class="row between wrap g16" style="padding:12px 32px;border-bottom:1px solid #CDC5B5;background:#fff">
+    <div class="row g16"><span class="logo"><span class="logo-mark" style="background:#626C67"></span>yuu admin</span><span class="tag b-contacted">Low fidelity</span></div>
+    <div class="row g12 wrap">
+      <input class="input" style="width:240px;min-height:44px" aria-label="Search leads" placeholder="Search code or name">
+      <select class="input select" style="width:auto;min-height:44px;padding-right:40px" aria-label="City"><option>All cities</option></select>
+      <select class="input select" style="width:auto;min-height:44px;padding-right:40px" aria-label="Route"><option>All routes</option></select>
+    </div>
+  </header>
+  <div class="row between wrap g12" style="padding:20px 32px 12px"><h1 class="t-h2">Leads · this week</h1><span class="t-small muted">Drag cards between columns. Every move is logged.</span></div>
+
+  <div class="scrollx" style="padding:0 32px 40px">
+    <div class="board">
+      <section class="coln"><h2>New <span class="num">4</span></h2>
+        <article class="lc"><b class="num">YU-9P2L-CNX</b><span>Lina V. · Netherlands</span><span class="m2">Medical · Bangkok · The Hague</span><span class="m2 num">8 min</span></article>
+        <article class="lc"><b class="num">YU-4H7T-BKK</b><span>Ola N. · Norway</span><span class="m2">Muay Thai · Phuket · Oslo</span><span class="m2 num">40 min</span></article>
+        <article class="lc"><b class="num">YU-1C5R-BKK</b><span>R. Rossi · Italy</span><span class="m2">Workcation + 3 dependents · Rome</span><span class="m2 num">1 h</span></article>
+        <article class="lc"><b class="num">YU-6W3E-CNX</b><span>Tom B. · UK</span><span class="m2">Cooking · Chiang Mai · London</span><span class="m2 num">2 h</span></article>
+      </section>
+      <section class="coln"><h2>Qualified <span class="num">3</span></h2>
+        <article class="lc"><b class="num">YU-7K3Q-PKT</b><span>Jake T. · Australia</span><span class="m2">Kiri Muay Thai Camp · Canberra</span><span class="m2 num">12 min</span></article>
+        <article class="lc"><b class="num">YU-2M8D-PKT</b><span>Ola N. · Norway</span><span class="m2">Sea Breeze Fight Camp · Oslo</span><span class="m2 num">2 h</span></article>
+        <article class="lc"><b class="num">YU-5S1A-BKK</b><span>Maya S. · Germany</span><span class="m2">Visa agent · Berlin</span><span class="m2 num">5 h</span></article>
+      </section>
+      <section class="coln"><h2>Sent <span class="num">5</span></h2>
+        <article class="lc"><b class="num">YU-3B9F-PKT</b><span>Sam L. · Canada</span><span class="m2">Ban Khlong Muay Thai · Ottawa</span><span class="sla"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>No reply 26 h</span></article>
+        <article class="lc"><b class="num">YU-8N4C-CNX</b><span>Eva K. · Finland</span><span class="m2">Ping River Fight Club · Helsinki</span><span class="m2 num">6 h</span></article>
+        <article class="lc"><b class="num">YU-2Q6V-BKK</b><span>Lina V. · Netherlands</span><span class="m2">Kluay Mai Dental and Rehab · The Hague</span><span class="m2 num">9 h</span></article>
+        <article class="lc"><b class="num">YU-7D2X-PKT</b><span>Ken M. · Japan</span><span class="m2">Kiri Muay Thai Camp · Tokyo</span><span class="m2 num">14 h</span></article>
+        <article class="lc"><b class="num">YU-4R8J-USM</b><span>Ana P. · Spain</span><span class="m2">Lamai Kitchen School · Madrid</span><span class="m2 num">20 h</span></article>
+      </section>
+      <section class="coln"><h2>Accepted <span class="num">2</span></h2>
+        <article class="lc"><b class="num">YU-9F3K-PKT</b><span>Chris D. · USA</span><span class="m2">Sea Breeze Fight Camp · Los Angeles</span><span class="m2 num">1 d</span></article>
+        <article class="lc"><b class="num">YU-1L7M-CNX</b><span>Paul R. · France</span><span class="m2">Ping River Fight Club · Paris</span><span class="m2 num">2 d</span></article>
+      </section>
+      <section class="coln"><h2>Enrolled <span class="num">1</span></h2>
+        <article class="lc"><b class="num">YU-6T2B-PKT</b><span>Mia H. · Germany</span><span class="m2">Kiri Muay Thai Camp · Berlin</span><span class="m2">Paid 9 months · billable</span></article>
+      </section>
+      <section class="coln"><h2>Disputed <span class="num">1</span></h2>
+        <article class="lc"><b class="num">YU-5Z9P-PKT</b><span>Unknown</span><span class="m2">Sea Breeze Fight Camp</span><span class="m2">Reason: can't reach · opened 1 Nov</span><span class="sla" style="color:#17201D;border-color:#17201D">Review by 8 Nov</span></article>
+      </section>
+    </div>
+  </div>
+</div>
+</body>
+</html>

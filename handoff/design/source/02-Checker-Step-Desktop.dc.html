@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Route checker step 4, desktop</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./yuu.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anuphan:wght@300..700&amp;display=swap">
+<style>body{margin:0}a{color:#0F5246}a:hover{color:#0A3D34}
+.stp{display:flex;flex-direction:column;gap:6px;font-size:14px;color:#626C67;flex:1 1 0;min-width:72px}
+.stp i{display:block;height:6px;border-radius:99px;background:#F1EDE4}
+.stp.done i{background:#0F5246}.stp.now i{background:#0F5246}.stp.now{color:#17201D;font-weight:650}.stp.done{color:#47514C}
+</style>
+</helmet>
+<div class="d" style="min-height:900px;font-family:'Anuphan',system-ui,sans-serif">
+  <header style="border-bottom:1px solid #E3DDD1"><div class="container row between" style="padding-top:12px;padding-bottom:12px">
+    <a class="logo" href="01-Home-Desktop.dc.html"><span class="logo-mark"></span>yuu</a>
+    <div class="row g16"><span class="t-small muted row g6"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Saved on this device</span><a class="btn btn-secondary btn-sm" href="01-Home-Desktop.dc.html">Save and exit</a></div>
+  </div></header>
+
+  <div class="container col g40" style="padding-top:40px;padding-bottom:64px;gap:40px">
+    <ol class="row g8 wrap" aria-label="Steps">
+      <li class="stp done"><i></i>Passport</li><li class="stp done"><i></i>Apply from</li><li class="stp done"><i></i>Income</li><li class="stp now" aria-current="step"><i></i>Savings</li><li class="stp"><i></i>Activity</li><li class="stp"><i></i>City</li><li class="stp"><i></i>Length</li><li class="stp"><i></i>Family</li>
+    </ol>
+
+    <div class="row start wrap g48">
+      <aside class="col g12" style="flex:1 1 260px;max-width:320px">
+        <span class="t-eyebrow">Your answers</span>
+        <div class="card">
+          <div class="row between p16" style="border-bottom:1px solid #E3DDD1"><div class="col"><span class="t-cap muted">Passport</span><b class="t-small">Germany</b></div><a class="t-small" href="#">Edit</a></div>
+          <div class="row between p16" style="border-bottom:1px solid #E3DDD1"><div class="col"><span class="t-cap muted">Apply from</span><b class="t-small">Germany · Berlin</b></div><a class="t-small" href="#">Edit</a></div>
+          <div class="row between p16"><div class="col"><span class="t-cap muted">Income</span><b class="t-small">Clients abroad</b></div><a class="t-small" href="#">Edit</a></div>
+        </div>
+      </aside>
+
+      <main class="card p32 col g24 lift" style="flex:999 1 560px;max-width:760px">
+        <div class="col g8"><span class="t-small strong muted">Step 4 of 8</span><h1 class="t-h1">How much savings can you show in your name?</h1><p class="muted">Pick the closest range. Any currency counts.</p></div>
+        <fieldset style="border:0;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:12px">
+          <legend class="sr" style="position:absolute;left:-9999px">Savings range</legend>
+          <label class="opt"><input type="radio" name="s">Under 250,000 THB</label>
+          <label class="opt"><input type="radio" name="s">250,000 to 499,999 THB</label>
+          <label class="opt on"><input type="radio" name="s" checked><span class="col"><span>500,000 THB or more</span><span class="price-alt">≈ $14,500 · €13,300 · rate 2 Nov</span></span></label>
+          <label class="opt"><input type="radio" name="s">Not sure yet</label>
+        </fieldset>
+        <div class="card-sunk p16 row start g12"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8h.01"/></svg><div class="col g8"><b class="t-small">Why we ask</b><p class="t-small">Most embassies ask for bank statements showing about 500,000 THB. Below that, some routes drop to Possible.</p><div class="row g12 wrap"><a class="src" href="#">Source: Thai e-Visa, DTV page</a><span class="checked">Checked 2 Nov 2026</span></div></div></div>
+        <div class="row between"><a class="btn btn-ghost" href="#"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Back</a><a class="btn btn-primary btn-lg" href="02-Checker-Results-Desktop.dc.html">Continue<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+      </main>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":900}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

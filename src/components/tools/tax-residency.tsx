@@ -42,7 +42,7 @@ export function TaxResidencyCounter() {
           <Stat big label={`Days in Thailand in ${y}`} value={String(n)} note={n >= 180 ? "You meet the 180-day test." : `${180 - n} days until 180.`} />
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.12em] text-muted">Status</p>
-            <p className={`mt-2 inline-block rounded-full px-3 py-1 text-sm font-semibold ${n >= 180 ? "bg-accent-soft text-[#9a5f0b]" : "bg-verified-soft text-verified"}`}>{n >= 180 ? "Likely Thai tax resident" : "Below 180 days"}</p>
+            <p className={`mt-2 inline-block rounded-full px-3 py-1 text-sm font-semibold ${n >= 180 ? "bg-accent-soft text-warn" : "bg-verified-soft text-verified"}`}>{n >= 180 ? "Likely Thai tax resident" : "Below 180 days"}</p>
             <div className="mt-4 h-2 overflow-hidden rounded-full bg-sunken"><div className="h-full bg-primary" style={{ width: `${Math.min(100, (n / 180) * 100)}%` }} /></div>
           </div>
         </Panel>

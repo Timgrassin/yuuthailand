@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Enquiry form, desktop</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./yuu.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anuphan:wght@300..700&amp;display=swap">
+<style>body{margin:0}a{color:#0F5246}a:hover{color:#0A3D34}</style>
+</helmet>
+<div class="d" style="min-height:1400px;font-family:'Anuphan',system-ui,sans-serif">
+  <header style="border-bottom:1px solid #E3DDD1"><div class="container row between wrap g16" style="padding-top:12px;padding-bottom:12px">
+    <a class="logo" href="01-Home-Desktop.dc.html"><span class="logo-mark"></span>yuu</a>
+    <div class="row g16"><span class="t-small muted row g6"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Draft saved on this device</span><a class="btn btn-ghost btn-sm" href="04-Provider-Desktop.dc.html">Back to Kiri Muay Thai Camp</a></div>
+  </div></header>
+
+  <div class="container row start wrap g48" style="padding-top:48px;padding-bottom:72px">
+    <main style="flex:999 1 560px;max-width:680px" class="col g24">
+      <div class="col g8"><h1 class="t-h1">Request an enrollment pack</h1><p class="muted">We filled this in from your route check. Change anything.</p></div>
+      <form class="card p32 col g20">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:20px">
+          <label class="field"><span class="label">Full name</span><input class="input" value="Jake Turner" autocomplete="name"></label>
+          <label class="field"><span class="label">Email</span><input class="input" type="email" value="jake@example.com" autocomplete="email"></label>
+        </div>
+        <div class="field">
+          <span class="label" id="ch">Where should they reply?</span>
+          <div class="row g12 wrap">
+            <div class="seg" role="group" aria-labelledby="ch"><button type="button">WhatsApp</button><button type="button" class="on">LINE</button></div>
+            <input class="input grow" style="flex:1 1 220px;width:auto" aria-label="LINE ID" value="jake.trains">
+          </div>
+          <span class="help">Only the providers you choose see it.</span>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(180px,100%),1fr));gap:20px">
+          <label class="field"><span class="label">Start month</span><select class="input select"><option>January 2027</option></select></label>
+          <label class="field"><span class="label">Program</span><select class="input select"><option>Standard · 12 months</option></select></label>
+          <label class="field"><span class="label">Embassy</span><select class="input select"><option>Canberra</option></select></label>
+        </div>
+        <fieldset class="col g12" style="border:0;margin:0;padding:20px 0 0;border-top:1px solid #E3DDD1">
+          <legend class="label" style="padding:0 0 8px">Your choices</legend>
+          <label class="checkrow"><input type="checkbox" checked><span>Also share my enquiry with up to 2 more matching providers. <span class="muted">Max 3 in total.</span></span></label>
+          <label class="checkrow"><input type="checkbox"><span>Email me when rules change for my embassy.</span></label>
+        </fieldset>
+        <div class="row between wrap g12" style="padding-top:8px">
+          <span class="t-small muted">Free. No booking. You never pay Yuu.</span>
+          <a class="btn btn-primary btn-lg" href="07-Enquiry-Confirm-Desktop.dc.html">Send enquiry</a>
+        </div>
+      </form>
+    </main>
+
+    <aside class="col g16" style="flex:1 1 320px;max-width:400px">
+      <div class="card p20 col g12">
+        <div class="ph" style="height:140px"><span>Photo: open-air ring</span></div>
+        <div class="row between start g8"><b class="t-h3">Kiri Muay Thai Camp</b><span class="tag b-verified">Verified</span></div>
+        <span class="t-small muted">Chalong, Phuket · median reply ~3 h</span>
+        <span class="row g6" style="align-items:baseline"><span class="price">฿14,500</span><span class="t-small muted">/ month · 5 of 5 documents</span></span>
+      </div>
+      <div class="card-sunk p20 col g12">
+        <b>What happens next</b>
+        <ol class="col g8 t-small">
+          <li class="row g8 start"><span class="num strong">1</span>Kiri gets your enquiry now.</li>
+          <li class="row g8 start"><span class="num strong">2</span>They reply on LINE, usually within 3 hours.</li>
+          <li class="row g8 start"><span class="num strong">3</span>They send prices, a sample letter and next steps.</li>
+        </ol>
+      </div>
+      <p class="t-cap muted">We share your details only with the providers above. <a href="#">Privacy</a></p>
+    </aside>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1400}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

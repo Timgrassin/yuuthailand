@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Report your outcome, 3 steps, mobile</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./yuu.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anuphan:wght@300..700&amp;display=swap">
+<style>body{margin:0}a{color:#0F5246}a:hover{color:#0A3D34}
+.ph3{width:390px;height:844px;background:#FAF8F3;display:flex;flex-direction:column;border:1px solid #E3DDD1;border-radius:24px;overflow:hidden;flex:none}
+.hd{padding:10px 16px 14px;display:flex;flex-direction:column;gap:10px}
+.bd{flex:1 1 auto;padding:4px 16px 16px;display:flex;flex-direction:column;gap:16px;overflow:hidden}
+.ft{padding:12px 16px 20px;border-top:1px solid #E3DDD1;background:#fff;display:flex;flex-direction:column;gap:8px}
+.drop{border:2px dashed #CDC5B5;border-radius:14px;background:#fff;padding:24px 16px;display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center}
+</style>
+</helmet>
+<div class="row g40 start" style="width:1250px;height:844px;gap:40px;font-family:'Anuphan',system-ui,sans-serif">
+
+  <section class="ph3" aria-label="Step 1">
+    <div class="hd"><div class="row between"><button class="iconbtn" style="border:0;background:transparent" aria-label="Close"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button><span class="t-small strong">Step 1 of 3</span><span style="width:44px"></span></div><div class="progress"><i style="width:33%"></i></div></div>
+    <div class="bd">
+      <div class="col g4"><span class="t-cap muted">Royal Thai Embassy, London</span><h1 class="t-h2">What happened?</h1></div>
+      <div class="col g10">
+        <label class="opt on"><input type="radio" name="o1" checked><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" style="color:#1D6B3B"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Approved</label>
+        <label class="opt"><input type="radio" name="o1"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" style="color:#A3262A"><path d="M6 6l12 12M18 6L6 18"/></svg>Rejected</label>
+        <label class="opt"><input type="radio" name="o1"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>Still waiting</label>
+      </div>
+      <label class="field"><span class="label">Route</span><select class="input select"><option>DTV · Muay Thai</option></select></label>
+      <label class="field"><span class="label">When did you apply?</span><select class="input select"><option>October 2026</option></select></label>
+    </div>
+    <div class="ft"><a class="btn btn-primary btn-block" href="#">Next</a><span class="t-cap muted" style="text-align:center">Draft saved on this phone</span></div>
+  </section>
+
+  <section class="ph3" aria-label="Step 2">
+    <div class="hd"><div class="row between"><button class="iconbtn" style="border:0;background:transparent" aria-label="Back"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button><span class="t-small strong">Step 2 of 3</span><span style="width:44px"></span></div><div class="progress"><i style="width:66%"></i></div></div>
+    <div class="bd">
+      <h1 class="t-h2">A few details</h1>
+      <label class="field"><span class="label">Your provider <span class="muted" style="font-weight:400">(optional)</span></span><input class="input" value="Kiri Muay Thai Camp"><span class="help">Links your outcome to their profile.</span></label>
+      <div class="field"><span class="label">Working days to a decision</span><div class="stepper" style="align-self:flex-start"><button aria-label="Fewer days">−</button><output>9 days</output><button aria-label="More days">+</button></div></div>
+      <fieldset class="field" style="border:0;margin:0;padding:0"><legend class="label" style="padding:0;margin-bottom:6px">Did they ask for anything extra?</legend><div class="row g8 wrap"><button class="chip on">More statements</button><button class="chip">Interview</button><button class="chip">Course proof</button><button class="chip">Nothing extra</button></div></fieldset>
+      <label class="field"><span class="label">Anything else <span class="muted" style="font-weight:400">(optional)</span></span><textarea class="input" rows="3" style="padding:12px 14px;min-height:88px">They wanted 3 months of statements.</textarea></label>
+    </div>
+    <div class="ft"><a class="btn btn-primary btn-block" href="#">Next</a></div>
+  </section>
+
+  <section class="ph3" aria-label="Step 3">
+    <div class="hd"><div class="row between"><button class="iconbtn" style="border:0;background:transparent" aria-label="Back"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button><span class="t-small strong">Step 3 of 3</span><span style="width:44px"></span></div><div class="progress"><i style="width:100%"></i></div></div>
+    <div class="bd">
+      <div class="col g4"><h1 class="t-h2">Add proof</h1><span class="t-small muted">Optional. Reports with proof count more.</span></div>
+      <div class="drop">
+        <svg class="ic ic-l" viewBox="0 0 24 24" aria-hidden="true" style="color:#0F5246"><path d="M12 16V4M7 9l5-5 5 5M4 20h16"/></svg>
+        <b class="t-small">Upload a screenshot or PDF</b>
+        <span class="t-cap muted">JPG, PNG or PDF, up to 10 MB</span>
+        <a class="btn btn-secondary btn-sm" href="#">Choose file</a>
+      </div>
+      <div class="note" style="background:#FBF0D6"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg><span class="t-small">Cover your name, passport number and address before you upload.</span></div>
+      <div class="note"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8h.01"/></svg><span class="t-small">A person checks every report within 2 working days. We never show your name or your file.</span></div>
+      <label class="checkrow"><input type="checkbox" checked><span>I applied at London myself.</span></label>
+    </div>
+    <div class="ft"><a class="btn btn-primary btn-block" href="#">Send report</a><a class="btn btn-ghost btn-block" href="#">Skip proof and send</a></div>
+  </section>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1250,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

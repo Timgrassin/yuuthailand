@@ -71,7 +71,7 @@ export default async function OfficePage({ params }: P) {
       </Container>
       <Container className="grid gap-12 py-14 lg:grid-cols-[1fr_20rem]">
         <article className="min-w-0 space-y-14">
-          {o.confidence !== "high" ? <p className="flex gap-3 rounded-sm border border-accent/30 bg-accent-soft p-4 text-sm text-[#7a4b09]"><AlertTriangle className="size-5 shrink-0" aria-hidden />Some details for this office come from secondary sources or conflict. Confirm the address and hours before you travel.</p> : null}
+          {o.confidence !== "high" ? <p className="flex gap-3 rounded-sm border border-accent/30 bg-accent-soft p-4 text-sm text-warn"><AlertTriangle className="size-5 shrink-0" aria-hidden />Some details for this office come from secondary sources or conflict. Confirm the address and hours before you travel.</p> : null}
           {!geoConfirmed(o) ? <p className="text-sm text-muted">The map pin is approximate. Use the address or the Google Maps link to navigate.</p> : null}
           <section>
             <h2 className="mb-5 text-3xl">Address and map</h2>

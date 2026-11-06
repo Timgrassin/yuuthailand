@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Yuu canvas index and route map</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./yuu.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anuphan:wght@300..700&amp;display=swap">
+<style>body{margin:0}a{color:#0F5246}a:hover{color:#0A3D34}</style>
+</helmet>
+<div style="width:1440px;height:1100px;background:#FAF8F3;display:grid;grid-template-columns:520px 1fr;font-family:'Anuphan',system-ui,sans-serif;color:#17201D">
+  <div style="background:#0F5246;color:#FAF8F3;padding:72px 64px;display:flex;flex-direction:column;justify-content:space-between">
+    <div class="col g24">
+      <div class="row g12"><span class="logo-mark" style="width:44px;height:44px"></span><span style="font-size:64px;font-weight:700;letter-spacing:-.04em;line-height:1">yuu</span></div>
+      <p style="font-size:30px;line-height:1.2;font-weight:600;letter-spacing:-.01em;max-width:380px">Stay longer in Thailand. Legally. With sources.</p>
+      <p style="font-size:17px;line-height:1.55;color:#CFE3DC;max-width:380px">Yuu (อยู่) means "to stay" in Thai. Short, easy for a Thai gym owner to say, and free of the word DTV.</p>
+    </div>
+    <div class="col g12" style="font-size:15px;color:#CFE3DC">
+      <div class="row g8"><span style="width:12px;height:12px;border-radius:3px;background:#E8A92B"></span>Direction A · Visa Desk, chosen</div>
+      <div>Independent guide. Not the Thai government. Not an embassy.</div>
+      <div>Mobile 390 · Desktop 1440 · Light mode · Anuphan variable</div>
+    </div>
+  </div>
+  <div style="padding:64px 72px;display:flex;flex-direction:column;gap:24px">
+    <div class="row between">
+      <h1 class="t-h1">Route map</h1>
+      <span class="checked">Canvas v1 · 3 Nov 2026</span>
+    </div>
+    <table class="tbl" style="font-size:16px">
+      <thead><tr><th style="width:260px">Screen</th><th>Route</th><th style="width:220px">Artboards</th></tr></thead>
+      <tbody>
+        <tr><td class="strong">01 Home</td><td class="num">/</td><td><span class="row g16"><a href="01-Home-Mobile.dc.html">Mobile</a><a href="01-Home-Desktop.dc.html">Desktop</a></span></td></tr>
+        <tr><td class="strong">00B Home, Direction B</td><td class="muted">Alternative, not built</td><td><span class="row g16"><a href="00B-Home-Alt-Mobile.dc.html">Mobile</a><a href="00B-Home-Alt-Desktop.dc.html">Desktop</a></span></td></tr>
+        <tr><td class="strong">02 Route checker step</td><td class="num">/check/[step]</td><td><span class="row g16"><a href="02-Checker-Step-Mobile.dc.html">Mobile</a><a href="02-Checker-Step-Desktop.dc.html">Desktop</a></span></td></tr>
+        <tr><td class="strong">02 Route results</td><td class="num">/check/results</td><td><span class="row g16"><a href="02-Checker-Results-Mobile.dc.html">Mobile</a><a href="02-Checker-Results-Desktop.dc.html">Desktop</a></span></td></tr>
+        <tr><td class="strong">03 Listing</td><td class="num">/[activity]/[city]</td><td><span class="row g16"><a href="03-Listing-Mobile.dc.html">Mobile</a><a href="03-Listing-Desktop.dc.html">Desktop</a></span></td></tr>
+        <tr><td class="strong">03 Filters sheet</td><td class="num">/[activity]/[city]?filters=open</td><td><span class="row g16"><a href="03-Listing-Filters-Mobile.dc.html">Mobile</a><span class="faint">Rail on desktop</span></span></td></tr>
+        <tr><td class="strong">04 Provider profile</td><td class="num">/p/[slug]</td><td><span class="row g16"><a href="04-Provider-Mobile.dc.html">Mobile</a><a href="04-Provider-Desktop.dc.html">Desktop</a></span></td></tr>
+        <tr><td class="strong">05 Compare</td><td class="num">/compare?ids=a,b,c</td><td><span class="row g16"><a href="05-Compare-Mobile.dc.html">Mobile</a><a href="05-Compare-Desktop.dc.html">Desktop</a></span></td></tr>
+        <tr><td class="strong">06 Embassy page</td><td class="num">/embassy/[country]/[city]</td><td><span class="row g16"><a href="06-Embassy-Mobile.dc.html">Mobile</a><a href="06-Embassy-Desktop.dc.html">Desktop</a></span></td></tr>
+        <tr><td class="strong">06 Report your outcome</td><td class="num">/embassy/[country]/[city]/report</td><td><span class="row g16"><a href="06-Report-Outcome-Mobile.dc.html">Mobile</a><span class="faint">Modal on desktop</span></span></td></tr>
+        <tr><td class="strong">07 Enquiry</td><td class="num">/enquire/[provider]</td><td><span class="row g16"><a href="07-Enquiry-Mobile.dc.html">Mobile</a><a href="07-Enquiry-Desktop.dc.html">Desktop</a></span></td></tr>
+        <tr><td class="strong">07 Confirmation</td><td class="num">/enquire/done/[code]</td><td><span class="row g16"><a href="07-Enquiry-Confirm-Mobile.dc.html">Mobile</a><a href="07-Enquiry-Confirm-Desktop.dc.html">Desktop</a></span></td></tr>
+        <tr><td class="strong">08 Rule changes</td><td class="num">/changes</td><td><span class="row g16"><a href="08-Rules-Mobile.dc.html">Mobile</a><a href="08-Rules-Desktop.dc.html">Desktop</a></span></td></tr>
+        <tr><td class="strong">09 Guide article</td><td class="num">/guides/[slug]</td><td><span class="row g16"><a href="09-Guide-Mobile.dc.html">Mobile</a><a href="09-Guide-Desktop.dc.html">Desktop</a></span></td></tr>
+        <tr><td class="strong">10 For providers</td><td class="num">/providers</td><td><span class="row g16"><a href="10-Providers-Landing-Mobile.dc.html">Mobile</a><a href="10-Providers-Landing-Desktop.dc.html">Desktop</a></span></td></tr>
+        <tr><td class="strong">10 Portal inbox</td><td class="num">/portal/inbox</td><td><span class="row g16"><a href="10-Portal-Inbox-Mobile.dc.html">Mobile</a><span class="faint">Mobile first</span></span></td></tr>
+        <tr><td class="strong">11 Admin lead board</td><td class="num">/admin/leads</td><td><span class="row g16"><span class="faint">Desktop only</span><a href="11-Admin-Board-Desktop.dc.html">Desktop</a></span></td></tr>
+        <tr><td class="strong">Design system</td><td class="num">project/yuu.css</td><td><span class="row g16"><a href="DS-Foundations.dc.html">Foundations</a><a href="DS-Components.dc.html">Components</a></span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1100}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

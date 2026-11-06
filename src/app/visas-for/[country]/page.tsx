@@ -63,7 +63,7 @@ export default async function CountryPage({ params }: P) {
       </Container>
       <Container className="grid gap-12 py-14 lg:grid-cols-[1fr_20rem]">
         <article className="min-w-0 space-y-14">
-          {c.confidence === "low" ? <p className="flex gap-3 rounded-sm border border-accent/30 bg-accent-soft p-4 text-sm text-[#7a4b09]"><AlertTriangle className="size-5 shrink-0" aria-hidden />Some details for {c.name} are not yet confirmed by the missions. Check the linked mission pages before you apply.</p> : null}
+          {c.confidence === "low" ? <p className="flex gap-3 rounded-sm border border-accent/30 bg-accent-soft p-4 text-sm text-warn"><AlertTriangle className="size-5 shrink-0" aria-hidden />Some details for {c.name} are not yet confirmed by the missions. Check the linked mission pages before you apply.</p> : null}
           <section>
             <h2 className="mb-5 text-3xl">Where to apply in {c.name}</h2>
             <div className="grid gap-3 sm:grid-cols-2">{c.missions.map((m) => <a key={m.url} href={m.url} rel="noopener nofollow" target="_blank"><Card className="h-full hover:border-primary/40"><p className="font-semibold">{m.name}</p><p className="text-sm text-muted">{m.city}</p><p className="mt-2 inline-flex items-center gap-1 text-sm font-semibold text-primary">Visa page <ExternalLink className="size-3.5" aria-hidden /></p></Card></a>)}</div>

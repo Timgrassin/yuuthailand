@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Listing filters sheet, mobile</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./yuu.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anuphan:wght@300..700&amp;display=swap">
+<style>body{margin:0}a{color:#0F5246}a:hover{color:#0A3D34}
+.fs{display:flex;flex-direction:column;gap:10px;padding:14px 0;border-bottom:1px solid #E3DDD1}
+.fs>b{font-size:16px}
+.tog{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:44px;font-size:16px}
+</style>
+</helmet>
+<div class="m" style="height:844px;font-family:'Anuphan',system-ui,sans-serif">
+  <div aria-hidden="true">
+    <div class="topbar"><span class="logo"><span class="logo-mark"></span>yuu</span></div>
+    <div style="padding:16px" class="col g12"><div class="sk" style="width:80%;height:24px"></div><div class="sk" style="width:55%"></div></div>
+  </div>
+  <div class="scrim"></div>
+  <section class="sheet col" role="dialog" aria-modal="true" aria-label="Filters" style="position:absolute;left:0;right:0;bottom:0;top:48px">
+    <div class="grab"></div>
+    <div class="row between" style="padding:8px 16px 8px"><h2 class="t-h2">Filters</h2><button class="iconbtn" style="border:0" aria-label="Close filters"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <div class="col grow" style="overflow:auto;padding:0 16px">
+      <div class="fs"><b>Program length</b><div class="seg" role="group" aria-label="Program length" style="align-self:stretch"><button style="flex:1;justify-content:center">6 mo</button><button class="on" style="flex:1;justify-content:center">9 mo</button><button style="flex:1;justify-content:center">12+ mo</button></div></div>
+      <div class="fs"><b>Monthly budget</b><div class="row g8"><label class="field grow"><span class="help">Min</span><input class="input num" value="฿8,000"></label><span class="muted" style="margin-top:22px">to</span><label class="field grow"><span class="help">Max</span><input class="input num" value="฿18,000"></label></div></div>
+      <div class="fs"><b>Level</b><div class="row g8 wrap"><button class="chip">Beginner</button><button class="chip on">Intermediate</button><button class="chip">Advanced</button><button class="chip">Fighter</button></div></div>
+      <div class="fs" style="gap:2px">
+        <div class="tog"><span>DTV documents provided</span><button class="switch on" role="switch" aria-checked="true" aria-label="DTV documents provided"></button></div>
+        <div class="tog"><span>Accommodation included</span><button class="switch" role="switch" aria-checked="false" aria-label="Accommodation included"></button></div>
+      </div>
+      <div class="fs"><b>Accreditation</b>
+        <label class="checkrow"><input type="checkbox" checked><span>Sports Authority of Thailand <span class="muted num">· 21</span></span></label>
+        <label class="checkrow"><input type="checkbox"><span>Ministry of Education <span class="muted num">· 4</span></span></label>
+      </div>
+      <div class="fs" style="border-bottom:0"><b>Languages</b><div class="row g8 wrap"><button class="chip on">English</button><button class="chip">Thai</button><button class="chip">Russian</button><button class="chip">French</button><button class="chip">German</button></div></div>
+    </div>
+    <div class="row g12" style="padding:12px 16px 16px;border-top:1px solid #E3DDD1">
+      <button class="btn btn-ghost">Clear all</button>
+      <a class="btn btn-primary grow" href="03-Listing-Mobile.dc.html">Show 14 programs</a>
+    </div>
+  </section>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

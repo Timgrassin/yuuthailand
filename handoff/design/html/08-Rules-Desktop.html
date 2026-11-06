@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Rule changes timeline, desktop</title>
+<link rel="stylesheet" href="./yuu.css">
+</head>
+<body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anuphan:wght@300..700&amp;display=swap">
+<style>body{margin:0}a{color:#0F5246}a:hover{color:#0A3D34}
+.ent{display:flex;flex-wrap:wrap;gap:16px 32px;padding:28px 0;border-top:1px solid #E3DDD1}
+.ent .when{flex:0 0 170px;display:flex;flex-direction:column;gap:8px}
+.ent .what{flex:1 1 420px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.ent .src-col{flex:0 0 230px;display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.kv2{display:grid;grid-template-columns:120px 1fr;gap:6px 16px}
+.kv2 dt{color:#47514C}
+</style>
+<div class="d" style="font-family:'Anuphan',system-ui,sans-serif">
+  <header style="border-bottom:1px solid #E3DDD1"><div class="container row between wrap g16" style="padding-top:12px;padding-bottom:12px">
+    <div class="row g16"><a class="logo" href="01-Home-Desktop.html"><span class="logo-mark"></span>yuu</a><span class="indie">Independent guide</span></div>
+    <nav class="row g24 wrap" aria-label="Main"><a class="navlink" href="02-Checker-Step-Desktop.html">Route checker</a><a class="navlink" href="03-Listing-Desktop.html">Browse</a><a class="navlink" href="06-Embassy-Desktop.html">Embassies</a><a class="navlink" href="#" aria-current="page" style="color:#0F5246">Rule changes</a><a class="navlink" href="09-Guide-Desktop.html">Guides</a></nav>
+    <a class="btn btn-primary btn-sm" href="02-Checker-Step-Desktop.html">Check my route</a>
+  </div></header>
+
+  <div class="container row start wrap g48" style="padding-top:48px;padding-bottom:72px">
+    <main style="flex:999 1 640px;min-width:0" class="col g24">
+      <div class="col g8"><h1 class="t-display" style="font-size:48px">Rule changes</h1><p class="muted" style="font-size:19px">Every change we track, newest first. Each one links to its source.</p></div>
+      <div class="row g8 wrap"><button class="chip on">All</button><button class="chip">Official</button><button class="chip">Embassy notices</button><button class="chip">Corrections</button><button class="chip">DTV</button><button class="chip">Visa-free</button></div>
+      <ol>
+        <li class="ent">
+          <div class="when"><b class="num t-h3">20 Oct 2026</b><span class="tag b-contacted" style="align-self:flex-start">Correction</span></div>
+          <div class="what"><h2 class="t-h3">We removed a closed gym in Chiang Mai</h2><dl class="kv2"><dt>What changed</dt><dd>One listing had closed. We re-checked 14 nearby listings.</dd><dt>Affects</dt><dd>Anyone who enquired there since August. We emailed them.</dd></dl></div>
+          <div class="src-col"><a class="src" href="#">Our correction log</a><span class="checked">Logged 20 Oct 2026</span></div>
+        </li>
+        <li class="ent">
+          <div class="when"><b class="num t-h3">15 Sep 2026</b><span class="tag b-verified" style="align-self:flex-start">Official</span></div>
+          <div class="what"><h2 class="t-h3">Visa-free stay cut to 30 days</h2><dl class="kv2"><dt>What changed</dt><dd>30 days visa-free, down from 60. You can extend once by 30 days.</dd><dt>Affects</dt><dd>Most visa-exempt passports.</dd></dl></div>
+          <div class="src-col"><a class="src row g6" href="#"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"/></svg>MFA announcement</a><span class="checked">Checked 2 Nov 2026</span></div>
+        </li>
+        <li class="ent">
+          <div class="when"><b class="num t-h3">31 Aug 2026</b><span class="tag" style="align-self:flex-start;color:#17201D;background:#F1EDE4;border:1px solid #CDC5B5">Embassy notice</span></div>
+          <div class="what"><h2 class="t-h3">London adds two documents</h2><dl class="kv2"><dt>What changed</dt><dd>Proof of permanent UK residence for non-citizens. A criminal record certificate.</dd><dt>Affects</dt><dd>Everyone applying at London.</dd></dl><a class="t-small strong" href="06-Embassy-Desktop.html">See the London page</a></div>
+          <div class="src-col"><a class="src row g6" href="#"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"/></svg>Embassy notice</a><span class="checked">Checked 1 Nov 2026</span></div>
+        </li>
+        <li class="ent" style="border-bottom:1px solid #E3DDD1">
+          <div class="when"><b class="num t-h3">15 Jul 2024</b><span class="tag b-verified" style="align-self:flex-start">Official</span></div>
+          <div class="what"><h2 class="t-h3">DTV introduced</h2><dl class="kv2"><dt>What changed</dt><dd>A 5-year, multiple-entry visa. Up to 180 days per entry.</dd><dt>Affects</dt><dd>Remote workers and soft power applicants.</dd></dl></div>
+          <div class="src-col"><a class="src row g6" href="#"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"/></svg>MFA announcement</a><span class="checked">Checked 2 Nov 2026</span></div>
+        </li>
+      </ol>
+    </main>
+    <aside style="flex:1 1 300px;max-width:360px;position:sticky;top:24px" class="col g16">
+      <form class="card p24 col g12">
+        <div class="row g8"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16v-5a6 6 0 0 1 12 0v5l1.5 2h-15z"/><path d="M10 20.5h4"/></svg><b class="t-h3">Get alerts</b></div>
+        <p class="t-small muted">One email per change that affects you.</p>
+        <label class="field"><span class="label">Email</span><input class="input" type="email" placeholder="you@example.com"></label>
+        <label class="field"><span class="label">Embassy <span class="muted" style="font-weight:400">(optional)</span></span><select class="input select"><option>All embassies</option></select></label>
+        <label class="field"><span class="label">Route <span class="muted" style="font-weight:400">(optional)</span></span><select class="input select"><option>All routes</option></select></label>
+        <button class="btn btn-dark" type="button">Subscribe</button>
+      </form>
+      <span class="t-small muted">Partners: <a href="#">changes.xml</a> feed</span>
+    </aside>
+  </div>
+</div>
+</body>
+</html>

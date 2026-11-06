@@ -6,7 +6,7 @@ import { TRACK_INFO, trackName } from "@/lib/tracks";
 
 const STYLE = {
   likely: { card: "border-verified/30 bg-surface ring-1 ring-verified/20", pill: "bg-verified-soft text-verified" },
-  maybe: { card: "border-accent/30 bg-surface", pill: "bg-accent-soft text-[#9a5f0b]" },
+  maybe: { card: "border-accent/30 bg-surface", pill: "bg-accent-soft text-warn" },
   unlikely: { card: "border-line bg-surface/60", pill: "bg-unverified-soft text-unverified" },
 };
 

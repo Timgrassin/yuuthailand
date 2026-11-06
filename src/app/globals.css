@@ -1,35 +1,37 @@
 @import "tailwindcss";
 
 /* Staylong design tokens. Swap values here only; components use token names.
-   Replace with design/html/yuu.css values when /handoff lands. */
+   Source: handoff/design/html/yuu.css. */
 :root {
-  --sl-bg: #f7f4ee;
-  --sl-surface: #ffffff;
-  --sl-sunken: #efeae1;
-  --sl-ink: #0d1b24;
-  --sl-ink-2: #3b4a52;
-  --sl-muted: #66737a;
-  --sl-line: #e3ddd2;
-  --sl-line-strong: #cfc6b7;
-  --sl-primary: #0b5e4f;
-  --sl-primary-2: #0e7c66;
-  --sl-primary-ink: #ffffff;
-  --sl-primary-soft: #e2f0ec;
-  --sl-accent: #d98a1c;
-  --sl-accent-soft: #fbefdb;
-  --sl-night: #0d1b24;
-  --sl-verified: #14794a;
-  --sl-verified-soft: #dff2e7;
-  --sl-contacted: #2b5ea8;
-  --sl-contacted-soft: #e3ebf8;
-  --sl-unverified: #6b6f6e;
-  --sl-unverified-soft: #ecebe7;
-  --sl-suspended: #b23a33;
-  --sl-suspended-soft: #f9e2df;
-  --sl-radius: 20px;
-  --sl-radius-sm: 12px;
-  --sl-shadow: 0 1px 2px rgb(13 27 36 / 0.04), 0 8px 24px -12px rgb(13 27 36 / 0.12);
-  --sl-shadow-lg: 0 2px 4px rgb(13 27 36 / 0.04), 0 24px 48px -20px rgb(13 27 36 / 0.25);
+  /* Values from handoff/design/html/yuu.css (D26). Names stay --sl-* so components do not change. */
+  --sl-bg: #FAF8F3;            /* paper */
+  --sl-surface: #FFFFFF;       /* surface */
+  --sl-sunken: #F1EDE4;        /* sunk */
+  --sl-ink: #17201D;           /* ink */
+  --sl-ink-2: #47514C;         /* ink-2 */
+  --sl-muted: #626C67;         /* ink-3 */
+  --sl-line: #E3DDD1;          /* line */
+  --sl-line-strong: #CDC5B5;   /* line-strong */
+  --sl-primary: #0F5246;       /* teal */
+  --sl-primary-2: #0A3D34;     /* teal-hover */
+  --sl-primary-ink: #FFFFFF;
+  --sl-primary-soft: #E2EFEA;  /* teal-tint */
+  --sl-accent: #E8A92B;        /* turmeric: fills and icons on dark only, never text on light */
+  --sl-accent-soft: #FBF0D6;   /* turmeric-tint */
+  --sl-warn: #7A4D00;          /* amber: text on accent-soft */
+  --sl-night: #121619;         /* night */
+  --sl-verified: #1D6B3B;      /* green */
+  --sl-verified-soft: #E1F0E5;
+  --sl-contacted: #1F4E8C;     /* blue */
+  --sl-contacted-soft: #E3EBF6;
+  --sl-unverified: #626C67;    /* ink-3 */
+  --sl-unverified-soft: #F1EDE4;
+  --sl-suspended: #A3262A;     /* red */
+  --sl-suspended-soft: #F9E4E2;
+  --sl-radius: 14px;           /* r-lg */
+  --sl-radius-sm: 10px;        /* r-md */
+  --sl-shadow: 0 1px 2px rgba(23,32,29,.06), 0 1px 1px rgba(23,32,29,.04);   /* sh-1 */
+  --sl-shadow-lg: 0 8px 24px rgba(23,32,29,.08), 0 1px 2px rgba(23,32,29,.06); /* sh-2 */
 }
 
 @theme inline {
@@ -47,6 +49,7 @@
   --color-primary-soft: var(--sl-primary-soft);
   --color-accent: var(--sl-accent);
   --color-accent-soft: var(--sl-accent-soft);
+  --color-warn: var(--sl-warn);
   --color-night: var(--sl-night);
   --color-verified: var(--sl-verified);
   --color-verified-soft: var(--sl-verified-soft);
@@ -61,27 +64,26 @@
   --shadow-card: var(--sl-shadow);
   --shadow-lift: var(--sl-shadow-lg);
   --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif;
-  --font-display: var(--font-display-face), ui-serif, Georgia, serif;
+  --font-display: var(--font-body), ui-sans-serif, system-ui, sans-serif;
 }
 
 html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
-body { overflow-x: clip; background: var(--sl-bg); color: var(--sl-ink); font-family: var(--font-sans); line-height: 1.6; font-feature-settings: "ss01", "cv11"; }
-h1, h2, h3, .font-display { font-family: var(--font-display); letter-spacing: -0.015em; }
-h1 { font-weight: 600; }
+body { overflow-x: clip; background: var(--sl-bg); color: var(--sl-ink); font-family: var(--font-sans); line-height: 1.6; font-variant-numeric: tabular-nums; }
+h1, h2, h3, .font-display { font-family: var(--font-display); letter-spacing: -0.015em; font-weight: 650; text-wrap: balance; }
 ::selection { background: var(--sl-accent-soft); }
-:focus-visible { outline: 3px solid var(--sl-accent); outline-offset: 2px; border-radius: 6px; }
+:focus-visible { outline: 3px solid var(--sl-primary); outline-offset: 2px; border-radius: 6px; }
 
 /* Soft tropical mesh used behind hero sections. */
 .bg-mesh {
   background:
-    radial-gradient(60rem 30rem at 85% -10%, rgb(14 124 102 / 0.18), transparent 60%),
-    radial-gradient(40rem 24rem at 0% 10%, rgb(217 138 28 / 0.14), transparent 60%),
-    linear-gradient(180deg, #fbf9f5, var(--sl-bg));
+    radial-gradient(60rem 30rem at 85% -10%, rgb(15 82 70 / 0.14), transparent 60%),
+    radial-gradient(40rem 24rem at 0% 10%, rgb(232 169 43 / 0.14), transparent 60%),
+    linear-gradient(180deg, #fdfcf8, var(--sl-bg));
 }
 .bg-night-mesh {
   background:
-    radial-gradient(50rem 26rem at 90% 0%, rgb(14 124 102 / 0.45), transparent 60%),
-    radial-gradient(36rem 20rem at 0% 100%, rgb(217 138 28 / 0.22), transparent 60%),
+    radial-gradient(50rem 26rem at 90% 0%, rgb(15 82 70 / 0.55), transparent 60%),
+    radial-gradient(36rem 20rem at 0% 100%, rgb(232 169 43 / 0.2), transparent 60%),
     var(--sl-night);
 }
 .grain { position: relative; }

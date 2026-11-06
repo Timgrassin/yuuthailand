@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Compare providers, desktop</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./yuu.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anuphan:wght@300..700&amp;display=swap">
+<style>body{margin:0}a{color:#0F5246}a:hover{color:#0A3D34}
+.ct{border-collapse:separate;border-spacing:0;font-size:16px;line-height:1.45;width:100%;min-width:900px;background:#fff}
+.ct th,.ct td{padding:14px 16px;border-bottom:1px solid #E3DDD1;vertical-align:top;text-align:left}
+.ct th[scope=row]{width:200px;font-weight:620;font-size:15px;background:#FAF8F3;border-right:1px solid #E3DDD1;position:sticky;left:0}
+.ct thead th{vertical-align:bottom;border-bottom:1px solid #CDC5B5}
+.ct .diff{background:#FBF0D6;font-weight:650}
+.dt{display:inline-flex;margin-left:8px;font-size:12px;font-weight:700;color:#17201D;background:#E8A92B;border-radius:4px;padding:1px 6px;vertical-align:middle}
+.rm{width:44px;height:44px;border:0;background:transparent;display:inline-flex;align-items:center;justify-content:center;border-radius:10px;cursor:pointer;margin:-10px -12px 0 0;flex:none}
+</style>
+</helmet>
+<div class="d" style="font-family:'Anuphan',system-ui,sans-serif">
+  <header style="border-bottom:1px solid #E3DDD1"><div class="container row between wrap g16" style="padding-top:12px;padding-bottom:12px">
+    <div class="row g16"><a class="logo" href="01-Home-Desktop.dc.html"><span class="logo-mark"></span>yuu</a><span class="indie">Independent guide</span></div>
+    <nav class="row g24 wrap" aria-label="Main"><a class="navlink" href="02-Checker-Step-Desktop.dc.html">Route checker</a><a class="navlink" href="03-Listing-Desktop.dc.html">Browse</a><a class="navlink" href="06-Embassy-Desktop.dc.html">Embassies</a><a class="navlink" href="08-Rules-Desktop.dc.html">Rule changes</a></nav>
+    <a class="btn btn-primary btn-sm" href="02-Checker-Step-Desktop.dc.html">Check my route</a>
+  </div></header>
+
+  <section class="container row between wrap g16" style="padding-top:32px;padding-bottom:24px;align-items:flex-end">
+    <div class="col g8"><a class="t-small strong" href="03-Listing-Desktop.dc.html">Back to Muay Thai in Phuket</a><h1 class="t-h1">Compare 4 programs</h1><span class="muted">Totals for 9 months. Differences highlighted and tagged.</span></div>
+    <label class="row g12 card p12" style="padding-left:16px"><span class="t-small strong">Show differences only</span><button class="switch" role="switch" aria-checked="false" aria-label="Show differences only"></button></label>
+  </section>
+
+  <section class="container" style="padding-bottom:56px">
+    <div class="card scrollx" style="overflow-x:auto">
+      <table class="ct">
+        <thead><tr>
+          <th scope="row" style="vertical-align:bottom"><span class="t-small muted" style="font-weight:500">4 of 4</span></th>
+          <th><div class="col g8"><div class="row between start"><a class="t-h3" href="04-Provider-Desktop.dc.html" style="color:#17201D;text-decoration:none">Kiri Muay Thai Camp</a><button class="rm" aria-label="Remove Kiri Muay Thai Camp"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div><span class="t-small muted">Chalong</span><span class="tag b-verified" style="align-self:flex-start">Verified</span></div></th>
+          <th><div class="col g8"><div class="row between start"><a class="t-h3" href="#" style="color:#17201D;text-decoration:none">Sea Breeze Fight Camp</a><button class="rm" aria-label="Remove Sea Breeze Fight Camp"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div><span class="t-small muted">Rawai</span><span class="tag b-partner" style="align-self:flex-start">Partner · paid</span></div></th>
+          <th><div class="col g8"><div class="row between start"><a class="t-h3" href="#" style="color:#17201D;text-decoration:none">Ban Khlong Muay Thai</a><button class="rm" aria-label="Remove Ban Khlong Muay Thai"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div><span class="t-small muted">Kathu</span><span class="tag b-verified" style="align-self:flex-start">Verified</span></div></th>
+          <th><div class="col g8"><div class="row between start"><a class="t-h3" href="#" style="color:#17201D;text-decoration:none">Karon Hill Gym</a><button class="rm" aria-label="Remove Karon Hill Gym"><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div><span class="t-small muted">Karon</span><span class="tag b-contacted" style="align-self:flex-start">Contacted</span></div></th>
+        </tr></thead>
+        <tbody>
+          <tr><th scope="row">Price / month<span class="dt">Differs</span></th><td class="diff num">฿14,500</td><td class="diff num">฿16,000</td><td class="diff num">฿11,500 · lowest</td><td class="diff num">฿13,000</td></tr>
+          <tr><th scope="row">Total, 9 months<span class="dt">Differs</span></th><td class="diff num">฿130,500</td><td class="diff num">฿144,000</td><td class="diff num">฿103,500</td><td class="diff num">฿117,000</td></tr>
+          <tr><th scope="row">Min length<span class="dt">Differs</span></th><td class="diff">6 months</td><td class="diff">6 months</td><td class="diff">9 months</td><td class="diff">6 months</td></tr>
+          <tr><th scope="row">Training days</th><td>6 a week</td><td>6 a week</td><td>6 a week</td><td>6 a week</td></tr>
+          <tr><th scope="row">DTV documents<span class="dt">Differs</span></th><td class="diff">5 of 5</td><td class="diff">5 of 5</td><td class="diff">4 of 5 · no license copy</td><td class="diff">3 of 5 · no schedule, no license</td></tr>
+          <tr><th scope="row">Accreditation<span class="dt">Differs</span></th><td class="diff">Sports Authority of Thailand</td><td class="diff">Sports Authority of Thailand</td><td class="diff">Sports Authority of Thailand</td><td class="diff">Not yet confirmed</td></tr>
+          <tr><th scope="row">Approvals reported<span class="dt">Differs</span></th><td class="diff num">41 · 2 rejected</td><td class="diff num">29 · 1 rejected</td><td class="diff num">12 · 3 rejected</td><td class="diff num">4 · 0 rejected</td></tr>
+          <tr><th scope="row">Room<span class="dt">Differs</span></th><td class="diff">No</td><td class="diff">Optional, ฿8,000 / mo</td><td class="diff">No</td><td class="diff">No</td></tr>
+          <tr><th scope="row">Reply time<span class="dt">Differs</span></th><td class="diff num">~3 h</td><td class="diff num">~5 h</td><td class="diff num">~1 day</td><td class="diff num">~8 h</td></tr>
+          <tr><th scope="row" style="border-bottom:0"></th><td style="border-bottom:0"><a class="btn btn-primary btn-sm btn-block" href="07-Enquiry-Desktop.dc.html">Request pack</a></td><td style="border-bottom:0"><a class="btn btn-primary btn-sm btn-block" href="07-Enquiry-Desktop.dc.html">Request pack</a></td><td style="border-bottom:0"><a class="btn btn-primary btn-sm btn-block" href="07-Enquiry-Desktop.dc.html">Request pack</a></td><td style="border-bottom:0"><a class="btn btn-secondary btn-sm btn-block" href="#">Request pack</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="row between wrap g16" style="padding-top:20px">
+      <span class="t-small muted">Sea Breeze pays us per enquiry. That never changes what we show. <a href="#">Methodology</a></span>
+      <a class="btn btn-secondary" href="#">Send one enquiry to all 3 verified</a>
+    </div>
+  </section>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1300}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

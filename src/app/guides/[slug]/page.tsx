@@ -52,7 +52,7 @@ export default async function GuidePage({ params }: P) {
       <Container className="grid gap-12 py-12 lg:grid-cols-[1fr_18rem]">
         <article className="min-w-0">
           {g.confidence === "low" ? (
-            <p className="mb-8 flex gap-3 rounded-sm border border-accent/30 bg-accent-soft p-4 text-sm text-[#7a4b09]"><AlertTriangle className="size-5 shrink-0" aria-hidden />Some details on this page are still being confirmed with official sources. Check the linked sources before you act.</p>
+            <p className="mb-8 flex gap-3 rounded-sm border border-accent/30 bg-accent-soft p-4 text-sm text-warn"><AlertTriangle className="size-5 shrink-0" aria-hidden />Some details on this page are still being confirmed with official sources. Check the linked sources before you act.</p>
           ) : null}
           {g.keyFacts?.length ? <div className="mb-12"><KeyFacts facts={g.keyFacts} /></div> : null}
           <div className="prose-sl">

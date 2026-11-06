@@ -57,7 +57,7 @@ export default async function Home() {
         <Container className="relative grid gap-12 pb-16 pt-14 sm:pb-24 sm:pt-20 lg:grid-cols-[1.15fr_1fr] lg:items-center">
           <div>
             <Badge tone="neutral" className="mb-6"><BadgeCheck className="size-3.5" aria-hidden />{rules.length} rules, each with an official source</Badge>
-            <h1 className="text-[2.75rem] leading-[1.02] sm:text-[4.25rem]">Live in Thailand longer, <em className="font-normal text-primary-2 not-italic sm:italic">without the visa guesswork.</em></h1>
+            <h1 className="text-[2.75rem] leading-[1.02] sm:text-[4.25rem]">Live in Thailand longer, <em className="font-normal not-italic text-primary">without the visa guesswork.</em></h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink-2 sm:text-xl">
               Staylong compares Thailand&apos;s eight long-stay visas against current, dated rules, and lists schools and providers we have actually checked.
             </p>
