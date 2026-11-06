@@ -4,7 +4,7 @@ Updated 5 Nov 2026. Items are in priority order. Each one takes 2 to 20 minutes 
 
 | # | Item | Time | Blocks |
 |---|---|---|---|
-| 1 | Run the listings cleanup SQL | 2 min | Clean names and slugs on 15 Bangkok pages |
+| 1 | ~~Run the listings cleanup SQL~~ Done 6 Nov | 2 min | Clean names and slugs on 15 Bangkok pages |
 | 2 | Add `LEAD_IP_SALT` in Vercel | 3 min | Private IP hashing for leads |
 | 3 | Google Search Console + sitemap | 15 min | Google indexing |
 | 4 | Bing Webmaster Tools + sitemap | 5 min | Bing, ChatGPT search, Copilot |
