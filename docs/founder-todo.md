@@ -8,7 +8,7 @@ Updated 6 Nov 2026. Items are in priority order. DNS for staylong.co is at Namec
 | 2 | ~~Add `LEAD_IP_SALT` in Vercel~~ Done 6 Nov | 3 min | Private IP hashing for leads |
 | 3 | ~~Google Search Console + sitemap~~ Done 6 Nov | 15 min | Google indexing |
 | 4 | ~~Bing Webmaster Tools + sitemap~~ Done 6 Nov | 5 min | Bing, ChatGPT search, Copilot |
-| 5 | Set up Resend: domain verified, opt-in code live in Supabase; **API key into Supabase secrets, then push** | 5 min | Every email capture on the site |
+| 5 | Set up Resend: done except **push `main`, then test with your own email** | 2 min | Every email capture on the site |
 | 6 | Book an expert reviewer: **2 drafts in Gmail (tim@wangift.com), review and send** | 1 to 3 days | "Pending expert review" badges, E-E-A-T |
 | 7 | Legal review of consent text v1 (CSV and a v2 draft in `docs/legal/`) | 1 to 5 days | Lawful lead capture under PDPA |
 | 8 | ~~Decide three open questions~~ Defaults applied 6 Nov; 3 listings suspended; **run `cleanup-2026-11-06.sql` to delete them** | 2 min | Lead flow and directory quality |
@@ -25,8 +25,8 @@ Updated 6 Nov 2026. Items are in priority order. DNS for staylong.co is at Namec
 - **5.** `staylong.co` added to Resend (Tokyo, ap-northeast-1). Records added at Namecheap: TXT `resend._domainkey` (DKIM), CNAME `rsend` and CNAME `send` (sending), TXT `_dmarc` `v=DMARC1; p=none;`. Resend shows the domain **Verified** (6 Nov, 14:51). The receiving MX on `@` was not added: it would replace Namecheap email forwarding. **Changed 6 Nov (D27): the key goes in Supabase, not Vercel.** Sending code is written (double opt-in, unsubscribe). Your part:
   1. ~~Apply migration 0033~~ Applied 6 Nov.
   2. ~~Deploy the Edge Function `send-confirmation`~~ Deployed 6 Nov with Verify JWT off. Checked: it answers `not_configured` until the key is set; anon cannot read confirm tokens.
-  3. Resend, **API Keys**, **Create API Key**: name `staylong-supabase`, permission **Sending access**, domain `staylong.co`. Copy the key.
-  4. Supabase dashboard, project `staylong`, **Edge Functions**, **Secrets**, add `RESEND_API_KEY` with the key. Do not paste it in chat.
+  3. ~~Create the Resend key~~ Done 6 Nov. Resend, **API Keys**, **Create API Key**: name `staylong-supabase`, permission **Sending access**, domain `staylong.co`. Copy the key.
+  4. ~~Add `RESEND_API_KEY` in Supabase Edge Function secrets~~ Done 6 Nov; the function now reads it.
   5. Push `main` so Vercel deploys the new pages. Then submit your own email on any tool page to test.
 - **6.** Candidate shortlist: `docs/reviewer-shortlist.md`. Gmail drafts (account tim@wangift.com, not sent) to candidate 1, ThaiLawOnline (info@thailawonline.com), and candidate 3, Juslaws (inquiries@juslaws.com), signed Tim Grassin. Candidate 2 (Forvis Mazars) only has a web form.
 - **7.** Consent texts exported to `docs/legal/consent-texts-v1.csv`. A v2 draft with facts and questions for the lawyer: `docs/legal/consent-texts-v2-draft.md`. Ask the lawyer to also fix: `lead_form` v1 still says "Yuu" instead of Staylong, and `subscribe` v1 only covers visa-rule-change emails, not lead-magnet emails.
