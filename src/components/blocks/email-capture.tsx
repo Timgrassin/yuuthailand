@@ -2,6 +2,7 @@
 import { CheckCircle2, Mail } from "lucide-react";
 import { useActionState } from "react";
 import { subscribe, type SubscribeState } from "@/lib/actions/lead";
+import { copy } from "@/lib/copy";
 
 type Props = {
   title: string;
@@ -24,7 +25,7 @@ export function EmailCapture({ title, body, leadMagnet, button = "Email it to me
         <h2 className={`mt-3 text-2xl ${dark ? "text-white" : ""}`}>{title}</h2>
         <p className={`mt-2 text-[15px] ${dark ? "text-white/75" : "text-ink-2"}`}>{body}</p>
         {state.ok ? (
-          <p role="status" className={`mt-5 flex items-center gap-2 font-semibold ${dark ? "text-white" : "text-verified"}`}><CheckCircle2 className="size-5" aria-hidden />Done. Check your inbox.</p>
+          <p role="status" className={`mt-5 flex items-center gap-2 font-semibold ${dark ? "text-white" : "text-verified"}`}><CheckCircle2 className="size-5" aria-hidden />{copy.subscription.checkInbox}</p>
         ) : (
           <form action={action} className="mt-5">
             <input type="hidden" name="lead_magnet" value={leadMagnet} />

@@ -8,7 +8,7 @@ Updated 6 Nov 2026. Items are in priority order. DNS for staylong.co is at Namec
 | 2 | ~~Add `LEAD_IP_SALT` in Vercel~~ Done 6 Nov | 3 min | Private IP hashing for leads |
 | 3 | ~~Google Search Console + sitemap~~ Done 6 Nov | 15 min | Google indexing |
 | 4 | ~~Bing Webmaster Tools + sitemap~~ Done 6 Nov | 5 min | Bing, ChatGPT search, Copilot |
-| 5 | Set up Resend: domain + DNS done 6 Nov; **API key left (steps 6-7)** | 5 min | Every email capture on the site |
+| 5 | Set up Resend: domain verified, sending code written; **apply 0033, deploy function, key in Supabase secrets** | 10 min | Every email capture on the site |
 | 6 | Book an expert reviewer: **2 drafts in Gmail (tim@wangift.com), review and send** | 1 to 3 days | "Pending expert review" badges, E-E-A-T |
 | 7 | Legal review of consent text v1 (CSV and a v2 draft in `docs/legal/`) | 1 to 5 days | Lawful lead capture under PDPA |
 | 8 | ~~Decide three open questions~~ Defaults applied 6 Nov; 3 listings suspended; **run `cleanup-2026-11-06.sql` to delete them** | 2 min | Lead flow and directory quality |
@@ -22,7 +22,12 @@ Updated 6 Nov 2026. Items are in priority order. DNS for staylong.co is at Namec
 - **2.** `LEAD_IP_SALT` added to Vercel project `yuu` as Sensitive, Production + Preview, with a "never change" comment. Production redeployed.
 - **3.** Domain property `staylong.co` verified by TXT at Namecheap. Sitemap `https://staylong.co/sitemap.xml` submitted (1,106 URLs; Search Console first shows "Couldn't fetch" for new properties, recheck in a day). Indexing requested for `/`, `/visa-rules`, `/places`, `/immigration-offices`, `/tools`. Step 9 (add owner email) waits for item 10.
 - **4.** Imported from Search Console as `https://staylong.co/`. Sitemap submitted. The same five URLs submitted.
-- **5.** `staylong.co` added to Resend (Tokyo, ap-northeast-1). Records added at Namecheap: TXT `resend._domainkey` (DKIM), CNAME `rsend` and CNAME `send` (sending), TXT `_dmarc` `v=DMARC1; p=none;`. Resend shows the domain **Verified** (6 Nov, 14:51). The receiving MX on `@` was not added: it would replace Namecheap email forwarding. **Your part:** steps 6 and 7 (create the `staylong-vercel` key with sending access and add `RESEND_API_KEY` in Vercel), then tell Claude "Resend done".
+- **5.** `staylong.co` added to Resend (Tokyo, ap-northeast-1). Records added at Namecheap: TXT `resend._domainkey` (DKIM), CNAME `rsend` and CNAME `send` (sending), TXT `_dmarc` `v=DMARC1; p=none;`. Resend shows the domain **Verified** (6 Nov, 14:51). The receiving MX on `@` was not added: it would replace Namecheap email forwarding. **Changed 6 Nov (D27): the key goes in Supabase, not Vercel.** Sending code is written (double opt-in, unsubscribe). Your part:
+  1. Apply migration `supabase/migrations/20261106000033_email_optin.sql` (or tell Claude to apply it).
+  2. Deploy the Edge Function `send-confirmation` from `supabase/functions/send-confirmation/index.ts` with **Verify JWT off** (or tell Claude to deploy it).
+  3. Resend, **API Keys**, **Create API Key**: name `staylong-supabase`, permission **Sending access**, domain `staylong.co`. Copy the key.
+  4. Supabase dashboard, project `staylong`, **Edge Functions**, **Secrets**, add `RESEND_API_KEY` with the key. Do not paste it in chat.
+  5. Push `main` so Vercel deploys the new pages. Then submit your own email on any tool page to test.
 - **6.** Candidate shortlist: `docs/reviewer-shortlist.md`. Gmail drafts (account tim@wangift.com, not sent) to candidate 1, ThaiLawOnline (info@thailawonline.com), and candidate 3, Juslaws (inquiries@juslaws.com), signed Tim Grassin. Candidate 2 (Forvis Mazars) only has a web form.
 - **7.** Consent texts exported to `docs/legal/consent-texts-v1.csv`. A v2 draft with facts and questions for the lawyer: `docs/legal/consent-texts-v2-draft.md`. Ask the lawyer to also fix: `lead_form` v1 still says "Yuu" instead of Staylong, and `subscribe` v1 only covers visa-rule-change emails, not lead-magnet emails.
 - **8.** Defaults applied. (1) A: lead details after accept, unchanged. (2) A: public lists, city and place pages and MCP `find_providers` now leave out unverified listings with no facts and no description (`src/lib/listing.ts`). That hides 3,335 of 4,194 listings; 859 stay listed. Pages still resolve, noindex. (3) A: delete SQL in `supabase/seed-data/cleanup-2026-11-06.sql` for Knight Visa Phuket, Knight Visa Udon Thani, Visatogo Khon Kaen. The three were set to `suspended` on 6 Nov, which hides them everywhere now and can be undone. **Your part:** run the SQL in the SQL Editor like item 1 to delete them. Other Knight Visa and Visatogo branches (Bangkok, Korat, Ubon, Chiang Mai, Pattaya, Phuket, Bangkok Asia) were not named and are kept; all but Knight Visa Services Ubon (3 facts) are now hidden by (2). A future rescrape can re-import deleted places.
@@ -103,9 +108,9 @@ Email captures are stored but no email is sent. Every lead magnet on the site de
 3. Resend shows 3 to 4 DNS records (MX, TXT for SPF, TXT for DKIM, optional DMARC).
 4. Add each record in Namecheap: **Domain List**, `staylong.co`, **Advanced DNS**, **Add New Record**. Copy Name, Type, Value and Priority exactly as Resend shows them.
 5. Back in Resend, click **Verify DNS Records**. Wait until every record shows "Verified" (5 to 60 minutes).
-6. Go to **API Keys**, click **Create API Key**. Name: `staylong-vercel`. Permission: **Sending access**. Domain: `staylong.co`. Click **Add**. Copy the key (starts with `re_`). Resend shows it once.
-7. In Vercel: **Settings**, **Environment Variables**. Key: `RESEND_API_KEY`. Value: the key. Environments: **Production** only. Tick **Sensitive**. Save.
-8. Do not paste the key in chat. Tell me "Resend done". I will build the sending code (welcome email per lead magnet, double opt-in) and redeploy.
+6. Go to **API Keys**, click **Create API Key**. Name: `staylong-supabase`. Permission: **Sending access**. Domain: `staylong.co`. Click **Add**. Copy the key (starts with `re_`). Resend shows it once.
+7. In Supabase (not Vercel, see D27): project `staylong`, **Edge Functions**, **Secrets**, **Add new secret**. Name: `RESEND_API_KEY`. Value: the key. Save.
+8. Do not paste the key in chat. The double opt-in code is already written; see the 6 Nov status above for the deploy steps. Welcome content per lead magnet is not built yet.
 
 ---
 

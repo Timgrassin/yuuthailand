@@ -2,6 +2,7 @@
 import { createHash } from "node:crypto";
 import { headers } from "next/headers";
 import { z } from "zod";
+import { requestConfirmationEmail } from "@/lib/email/confirmation";
 import { publicDb } from "@/lib/supabase/public";
 
 export type LeadState = { ok?: boolean; error?: "invalid" | "unavailable" | "rate"; fields?: string[] };
@@ -44,6 +45,7 @@ export async function submitLead(_prev: LeadState, form: FormData): Promise<Lead
   const c = await client();
   const { error } = await db.rpc("submit_lead", { p: { ...parsed.data, source_path: parsed.data.source_path || new URL(c.referer || "http://x/").pathname, ip_hash: c.ip_hash, user_agent: c.user_agent } });
   if (error) return { error: error.code === "53400" ? "rate" : error.code === "22023" ? "invalid" : "unavailable" };
+  if (parsed.data.marketing === "on") await requestConfirmationEmail(parsed.data.email); // submit_lead subscribed them as pending
   return { ok: true };
 }
 
@@ -68,5 +70,6 @@ export async function subscribe(_prev: SubscribeState, form: FormData): Promise<
     p_meta: meta,
   });
   if (error) return { error: error.code === "22023" ? "invalid" : "unavailable" };
+  await requestConfirmationEmail(email.data); // double opt-in (D27): only pending subscribers get it
   return { ok: true };
 }

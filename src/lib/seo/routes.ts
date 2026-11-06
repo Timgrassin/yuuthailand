@@ -27,4 +27,4 @@ export const routes = {
 } as const;
 
 // Never indexed: private, personal or internal surfaces.
-export const NOINDEX_PREFIXES = ["/admin", "/portal", "/api", "/dev", "/checker/r", "/auth"] as const;
+export const NOINDEX_PREFIXES = ["/admin", "/portal", "/api", "/dev", "/checker/r", "/auth", "/subscribe", "/unsubscribe"] as const;

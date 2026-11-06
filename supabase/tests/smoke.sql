@@ -75,3 +75,28 @@ select 'save checker ok: ' || (public.save_checker_result('{"age":30}') is not n
 select pg_temp.expect_error($$select public.subscribe('not-an-email')$$, 'subscribe rejects bad email');
 select pg_temp.expect_error($$select public.submit_lead('{"full_name":"FAKE","email":"a@b.co"}')$$, 'lead needs consent');
 reset role;
+
+-- 0033 double opt-in
+create or replace function pg_temp.check(ok boolean, label text) returns text language sql as $$ select case when ok then 'ok: ' else 'FAIL: ' end || label $$;
+set role anon;
+select pg_temp.expect_error($$select * from public.claim_confirmation_email('smoke@example.com')$$, 'anon cannot claim confirmation email');
+reset role;
+set role service_role;
+select pg_temp.check((select count(*) from public.claim_confirmation_email('smoke@example.com')) = 1, 'first confirmation claim returns the subscriber');
+select pg_temp.check((select count(*) from public.claim_confirmation_email('smoke@example.com')) = 0, 'second claim within 10 minutes is refused');
+reset role;
+do $$ begin
+  perform set_config('smoke.ct', (select confirm_token::text from public.subscribers where email = 'smoke@example.com'), false);
+  perform set_config('smoke.ut', (select unsubscribe_token::text from public.subscribers where email = 'smoke@example.com'), false);
+end $$;
+set role anon;
+select pg_temp.check(public.confirm_subscription(gen_random_uuid()) = 'invalid', 'unknown confirm token is invalid');
+select pg_temp.check(public.confirm_subscription(current_setting('smoke.ct')::uuid) = 'confirmed', 'confirm token confirms');
+select pg_temp.check(public.confirm_subscription(current_setting('smoke.ct')::uuid) = 'already', 'second confirm says already');
+select pg_temp.check(public.unsubscribe(current_setting('smoke.ut')::uuid), 'unsubscribe token matches');
+select pg_temp.check(not public.unsubscribe(gen_random_uuid()), 'unknown unsubscribe token does nothing');
+reset role;
+select pg_temp.check((select status = 'unsubscribed' and unsubscribed_at is not null from public.subscribers where email = 'smoke@example.com'), 'unsubscribe sets status');
+set role service_role;
+select pg_temp.check((select count(*) from public.claim_confirmation_email('smoke@example.com')) = 0, 'no confirmation claim after unsubscribe');
+reset role;
