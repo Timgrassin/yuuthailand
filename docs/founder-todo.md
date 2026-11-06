@@ -14,7 +14,7 @@ Updated 6 Nov 2026. Items are in priority order. DNS for staylong.co is at Namec
 | 8 | ~~Decide three open questions~~ Defaults applied 6 Nov; **run `cleanup-2026-11-06.sql`** | 2 min | Lead flow and directory quality |
 | 9 | Upload the `/handoff` design files | 5 min | Final design tokens |
 | 10 | Pick an owner email and move accounts | 30 min | Bus factor, billing |
-| 11 | ~~Upgrade Supabase to Pro~~ Org already on Pro (checked 6 Nov); confirm backups | 2 min | Backups, no auto-pause |
+| 11 | ~~Upgrade Supabase to Pro~~ Already on Pro, daily backups confirmed 6 Nov | 0 min | Backups, no auto-pause |
 | 12 | Check Apify spend | 2 min | Budget |
 
 ## Status 6 Nov 2026 (Claude)
@@ -22,14 +22,14 @@ Updated 6 Nov 2026. Items are in priority order. DNS for staylong.co is at Namec
 - **2.** `LEAD_IP_SALT` added to Vercel project `yuu` as Sensitive, Production + Preview, with a "never change" comment. Production redeployed.
 - **3.** Domain property `staylong.co` verified by TXT at Namecheap. Sitemap `https://staylong.co/sitemap.xml` submitted (1,106 URLs; Search Console first shows "Couldn't fetch" for new properties, recheck in a day). Indexing requested for `/`, `/visa-rules`, `/places`, `/immigration-offices`, `/tools`. Step 9 (add owner email) waits for item 10.
 - **4.** Imported from Search Console as `https://staylong.co/`. Sitemap submitted. The same five URLs submitted.
-- **5.** `staylong.co` added to Resend (Tokyo, ap-northeast-1). Records added at Namecheap: TXT `resend._domainkey` (DKIM), CNAME `rsend` and CNAME `send` (sending), TXT `_dmarc` `v=DMARC1; p=none;`. The receiving MX on `@` was not added: it would replace Namecheap email forwarding. **Your part:** steps 6 and 7 (create the `staylong-vercel` key with sending access and add `RESEND_API_KEY` in Vercel), then tell Claude "Resend done".
+- **5.** `staylong.co` added to Resend (Tokyo, ap-northeast-1). Records added at Namecheap: TXT `resend._domainkey` (DKIM), CNAME `rsend` and CNAME `send` (sending), TXT `_dmarc` `v=DMARC1; p=none;`. Resend shows the domain **Verified** (6 Nov, 14:51). The receiving MX on `@` was not added: it would replace Namecheap email forwarding. **Your part:** steps 6 and 7 (create the `staylong-vercel` key with sending access and add `RESEND_API_KEY` in Vercel), then tell Claude "Resend done".
 - **6.** Candidate shortlist and a draft email: `docs/reviewer-shortlist.md`. You send it.
 - **7.** Consent texts exported to `docs/legal/consent-texts-v1.csv`. Ask the lawyer to also fix: `lead_form` v1 still says "Yuu" instead of Staylong, and `subscribe` v1 only covers visa-rule-change emails, not lead-magnet emails.
 - **8.** Defaults applied. (1) A: lead details after accept, unchanged. (2) A: public lists, city and place pages and MCP `find_providers` now leave out unverified listings with no facts and no description (`src/lib/listing.ts`). That hides 3,335 of 4,194 listings; 859 stay listed. Pages still resolve, noindex. (3) A: delete SQL in `supabase/seed-data/cleanup-2026-11-06.sql` for Knight Visa Phuket, Knight Visa Udon Thani, Visatogo Khon Kaen. **Your part:** run it in the SQL Editor like item 1. Other Knight Visa and Visatogo branches (Bangkok, Korat, Ubon, Chiang Mai, Pattaya, Phuket, Bangkok Asia) were not named and are kept; all but Knight Visa Services Ubon (3 facts) are now hidden by (2). A future rescrape can re-import deleted places.
 - **9.** Not done: the handoff files are not on this machine.
 - **10.** Not done: needs your choice of mailbox provider and an account in your name.
-- **11.** Organization "Private Projects" is already on Pro. Optional: confirm daily backups and rename the project `yuu` to `staylong` in the dashboard.
-- **12.** Not done: Apify console needs your sign-in.
+- **11.** Organization "Private Projects" is already on Pro. Daily physical backups are listed (3, 4 and 5 Nov). Optional: rename the project `yuu` to `staylong` in the dashboard.
+- **12.** Not done: the Apify console was still on its login page on 6 Nov. Sign in at https://console.apify.com and follow the steps below.
 
 ---
 
