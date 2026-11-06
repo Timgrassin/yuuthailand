@@ -15,7 +15,7 @@ Updated 6 Nov 2026. Items are in priority order. DNS for staylong.co is at Namec
 | 9 | Upload the `/handoff` design files | 5 min | Final design tokens |
 | 10 | Pick an owner email and move accounts | 30 min | Bus factor, billing |
 | 11 | ~~Upgrade Supabase to Pro~~ Already on Pro, daily backups confirmed 6 Nov | 0 min | Backups, no auto-pause |
-| 12 | Check Apify spend | 2 min | Budget |
+| 12 | ~~Check Apify spend~~ Done 6 Nov: $46.11 of a $100 cap | 2 min | Budget |
 
 ## Status 6 Nov 2026 (Claude)
 
@@ -29,7 +29,7 @@ Updated 6 Nov 2026. Items are in priority order. DNS for staylong.co is at Namec
 - **9.** Not done: the handoff files are not on this machine.
 - **10.** Not done: needs your choice of mailbox provider and an account in your name.
 - **11.** Organization "Private Projects" is already on Pro. Daily physical backups are listed (3, 4 and 5 Nov). Optional: rename the project `yuu` to `staylong` in the dashboard.
-- **12.** Not done: the Apify console was still on its login page on 6 Nov. Sign in at https://console.apify.com and follow the steps below.
+- **12.** Usage for 1 to 30 Nov: $46.11 ($46.10 Actors, $0.01 storage). That is $19.00 of prepaid plan usage plus $27.12 overage. A custom monthly usage limit of $100 was already set, so no change was made. At the limit, Apify pauses platform services until next month. 0 schedules exist, so rescrapes only run when started by hand.
 
 ---
 
