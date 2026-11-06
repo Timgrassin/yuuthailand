@@ -9,10 +9,10 @@ Updated 6 Nov 2026. Items are in priority order. DNS for staylong.co is at Namec
 | 3 | ~~Google Search Console + sitemap~~ Done 6 Nov | 15 min | Google indexing |
 | 4 | ~~Bing Webmaster Tools + sitemap~~ Done 6 Nov | 5 min | Bing, ChatGPT search, Copilot |
 | 5 | Set up Resend: domain + DNS done 6 Nov; **API key left (steps 6-7)** | 5 min | Every email capture on the site |
-| 6 | Book an expert reviewer | 1 to 3 days | "Pending expert review" badges, E-E-A-T |
-| 7 | Legal review of consent text v1 (CSV ready: `docs/legal/consent-texts-v1.csv`) | 1 to 5 days | Lawful lead capture under PDPA |
-| 8 | ~~Decide three open questions~~ Defaults applied 6 Nov; **run `cleanup-2026-11-06.sql`** | 2 min | Lead flow and directory quality |
-| 9 | Upload the `/handoff` design files | 5 min | Final design tokens |
+| 6 | Book an expert reviewer: **2 drafts in Gmail (tim@wangift.com), review and send** | 1 to 3 days | "Pending expert review" badges, E-E-A-T |
+| 7 | Legal review of consent text v1 (CSV and a v2 draft in `docs/legal/`) | 1 to 5 days | Lawful lead capture under PDPA |
+| 8 | ~~Decide three open questions~~ Defaults applied 6 Nov; 3 listings suspended; **run `cleanup-2026-11-06.sql` to delete them** | 2 min | Lead flow and directory quality |
+| 9 | ~~Upload the `/handoff` design files~~ Done 6 Nov from `~/Dropbox/Mac/Downloads/yuu-claude-code-handoff.zip`; tokens and font applied (D26) | 0 min | Final design tokens |
 | 10 | Pick an owner email and move accounts | 30 min | Bus factor, billing |
 | 11 | ~~Upgrade Supabase to Pro~~ Already on Pro, daily backups confirmed 6 Nov | 0 min | Backups, no auto-pause |
 | 12 | ~~Check Apify spend~~ Done 6 Nov: $46.11 of a $100 cap | 2 min | Budget |
@@ -23,12 +23,12 @@ Updated 6 Nov 2026. Items are in priority order. DNS for staylong.co is at Namec
 - **3.** Domain property `staylong.co` verified by TXT at Namecheap. Sitemap `https://staylong.co/sitemap.xml` submitted (1,106 URLs; Search Console first shows "Couldn't fetch" for new properties, recheck in a day). Indexing requested for `/`, `/visa-rules`, `/places`, `/immigration-offices`, `/tools`. Step 9 (add owner email) waits for item 10.
 - **4.** Imported from Search Console as `https://staylong.co/`. Sitemap submitted. The same five URLs submitted.
 - **5.** `staylong.co` added to Resend (Tokyo, ap-northeast-1). Records added at Namecheap: TXT `resend._domainkey` (DKIM), CNAME `rsend` and CNAME `send` (sending), TXT `_dmarc` `v=DMARC1; p=none;`. Resend shows the domain **Verified** (6 Nov, 14:51). The receiving MX on `@` was not added: it would replace Namecheap email forwarding. **Your part:** steps 6 and 7 (create the `staylong-vercel` key with sending access and add `RESEND_API_KEY` in Vercel), then tell Claude "Resend done".
-- **6.** Candidate shortlist and a draft email: `docs/reviewer-shortlist.md`. You send it.
-- **7.** Consent texts exported to `docs/legal/consent-texts-v1.csv`. Ask the lawyer to also fix: `lead_form` v1 still says "Yuu" instead of Staylong, and `subscribe` v1 only covers visa-rule-change emails, not lead-magnet emails.
-- **8.** Defaults applied. (1) A: lead details after accept, unchanged. (2) A: public lists, city and place pages and MCP `find_providers` now leave out unverified listings with no facts and no description (`src/lib/listing.ts`). That hides 3,335 of 4,194 listings; 859 stay listed. Pages still resolve, noindex. (3) A: delete SQL in `supabase/seed-data/cleanup-2026-11-06.sql` for Knight Visa Phuket, Knight Visa Udon Thani, Visatogo Khon Kaen. **Your part:** run it in the SQL Editor like item 1. Other Knight Visa and Visatogo branches (Bangkok, Korat, Ubon, Chiang Mai, Pattaya, Phuket, Bangkok Asia) were not named and are kept; all but Knight Visa Services Ubon (3 facts) are now hidden by (2). A future rescrape can re-import deleted places.
-- **9.** Not done: the handoff files are not on this machine.
+- **6.** Candidate shortlist: `docs/reviewer-shortlist.md`. Gmail drafts (account tim@wangift.com, not sent) to candidate 1, ThaiLawOnline (info@thailawonline.com), and candidate 3, Juslaws (inquiries@juslaws.com), signed Tim Grassin. Candidate 2 (Forvis Mazars) only has a web form.
+- **7.** Consent texts exported to `docs/legal/consent-texts-v1.csv`. A v2 draft with facts and questions for the lawyer: `docs/legal/consent-texts-v2-draft.md`. Ask the lawyer to also fix: `lead_form` v1 still says "Yuu" instead of Staylong, and `subscribe` v1 only covers visa-rule-change emails, not lead-magnet emails.
+- **8.** Defaults applied. (1) A: lead details after accept, unchanged. (2) A: public lists, city and place pages and MCP `find_providers` now leave out unverified listings with no facts and no description (`src/lib/listing.ts`). That hides 3,335 of 4,194 listings; 859 stay listed. Pages still resolve, noindex. (3) A: delete SQL in `supabase/seed-data/cleanup-2026-11-06.sql` for Knight Visa Phuket, Knight Visa Udon Thani, Visatogo Khon Kaen. The three were set to `suspended` on 6 Nov, which hides them everywhere now and can be undone. **Your part:** run the SQL in the SQL Editor like item 1 to delete them. Other Knight Visa and Visatogo branches (Bangkok, Korat, Ubon, Chiang Mai, Pattaya, Phuket, Bangkok Asia) were not named and are kept; all but Knight Visa Services Ubon (3 facts) are now hidden by (2). A future rescrape can re-import deleted places.
+- **9.** Found at `~/Dropbox/Mac/Downloads/yuu-claude-code-handoff.zip` (3 Nov) and added as `handoff/`. Token values and the Anuphan font are applied (D26). Components are not yet restyled to the screen designs in `handoff/design/screenshots/`.
 - **10.** Not done: needs your choice of mailbox provider and an account in your name.
-- **11.** Organization "Private Projects" is already on Pro. Daily physical backups are listed (3, 4 and 5 Nov). Optional: rename the project `yuu` to `staylong` in the dashboard.
+- **11.** Organization "Private Projects" is already on Pro. Daily physical backups are listed (3, 4 and 5 Nov). Project renamed from `yuu` to `staylong` on 6 Nov (the ref is unchanged).
 - **12.** Usage for 1 to 30 Nov: $46.11 ($46.10 Actors, $0.01 storage). That is $19.00 of prepaid plan usage plus $27.12 overage. A custom monthly usage limit of $100 was already set, so no change was made. At the limit, Apify pauses platform services until next month. 0 schedules exist, so rescrapes only run when started by hand.
 
 ---
@@ -211,6 +211,6 @@ The 5 Nov full scrape ran 31 Google Maps actor runs.
 
 ## Handled by Claude, no action needed
 
-`fx_rates` is empty, so the checker uses a 33 THB per USD fallback. Claude will seed it from the Bank of Thailand reference rate.
+`fx_rates` was seeded on 6 Nov with the Bank of Thailand USD reference rate for 5 Nov 2026 (33.4310 THB). It is a one-off value; a scheduled refresh is not set up yet.
 
 The MCP registry name `io.github.Timgrassin/staylong` can move to `co.staylong/staylong` later. It needs one key pair stored as a GitHub secret. Ask Claude when you want it.
