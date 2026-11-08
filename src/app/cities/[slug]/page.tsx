@@ -8,6 +8,7 @@ import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { Container, EmptyState } from "@/components/ui/primitives";
 import Link from "next/link";
 import { getCities, getCity, getProviders } from "@/lib/data";
+import { isIndexableCity } from "@/lib/listing";
 import { pageMetadata } from "@/lib/seo/metadata";
 import { routes } from "@/lib/seo/routes";
 import { graph, itemListSchema } from "@/lib/seo/schema";
@@ -32,8 +33,8 @@ export async function generateMetadata({ params }: P): Promise<Metadata> {
     path: routes.city(slug),
     title: `Visa schools and long-stay providers in ${name}`,
     description: `${providers.length} schools and providers in ${name} with verification status, programs and prices.`,
-    // docs/seo.md: thin city pages stay out of the index until 3 verified providers.
-    noindex: providers.filter((p) => p.status === "verified").length < 3,
+    // D28: indexable once the city lists 5+ indexable listings (docs/seo.md, Programmatic pages).
+    noindex: !isIndexableCity(providers),
   });
 }
 

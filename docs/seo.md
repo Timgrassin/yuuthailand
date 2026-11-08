@@ -56,8 +56,8 @@ Goal: every indexable page is two clicks from the home page, gets contextual lin
    - Provider: the visas that fit its programs or type, a guide for its type, the places and immigration offices in its city, and up to six nearby providers, indexable ones first.
 3. **Rotate long lists.** When a list is longer than the block, it rotates by the page it is on, so every target gets links instead of the first few getting all of them.
 4. **Anchors are page names.** Use the target's title ("Retirement visa (Non-O)", "Thailand visas for British citizens"), never a bare path, "click here" or the same exact-match phrase everywhere. Editorial text may write a bare path ("See /visa-rules/dtv."); `LinkedText` renders it with `pathLabel()`.
-5. **Noindex pages still pass links.** Thin pages (cities under 3 verified providers, unverified listings, filtered lists) are `noindex, follow`, so crawlers reach the listings they link to. Only previews are `nofollow`.
-6. **Do not link to noindex pages from sitewide nav** unless they are hubs that lead to indexable pages (the footer city links lead to provider listings).
+5. **Noindex pages still pass links.** Thin pages (cities under 5 indexable listings, unverified listings, filtered lists) are `noindex, follow`, so crawlers reach the listings they link to. Only previews are `nofollow`.
+6. **Do not link to noindex pages from sitewide nav** unless they are hubs that lead to indexable pages. The footer links Bangkok, Chiang Mai and Phuket, which are indexable.
 7. **Guard it.** `src/lib/seo/related.test.ts` fails if any guide, visa, tool or nationality page gets fewer than three contextual links, if a page links to itself, or if an anchor is a bare path.
 
 **Checking it.** Crawl the site from `/` and compare with the sitemap: every sitemap URL should be reachable by links, at depth 3 or less, and every indexable page should be in the sitemap.
@@ -68,7 +68,8 @@ These are the page families that scale. Each one needs unique data on the page, 
 
 | Family | Pattern | Index when |
 |---|---|---|
-| Track x city | `/cities/[city]?track=` then promote to a static path | at least 3 verified providers |
+| City | `/cities/[city]` | at least 5 indexable listings, verified or not (`isIndexableCity`, D28) |
+| Track x city | `/cities/[city]?track=` then promote to a static path | not built yet; same rule as City once built |
 | Provider | `/providers/[slug]` | verified, described, or 3+ quoted facts (`isIndexableListing`, D14/D23) |
 | Embassy | `/embassies/[slug]` | it has address and checked date |
 | Rule | `/visa-rules#[track]` | always |

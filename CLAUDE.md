@@ -44,7 +44,7 @@ Every public page follows `docs/seo.md`. Use `pageMetadata()` for metadata, `gra
 | 2026-11-03 | D10 | Providers see lead contact details only after they accept the delivery. Confirmed 6 Nov (D25). |
 | 2026-11-03 | D11 | ~~Public writes use the service role.~~ Superseded by D19. |
 | 2026-11-03 | D13 | Visa rules seeded from official-source research (docs/visa-rules-research.md) with a `confidence` per rule. Pages show "Pending expert review" until `reviewed_at` is set. Low-confidence values show an "Unconfirmed" badge. |
-| 2026-11-03 | D14 | Thin pages stay noindex: city pages until 3 verified providers, embassies until address and check date, filtered provider lists always. |
+| 2026-11-03 | D14 | Thin pages stay noindex: ~~city pages until 3 verified providers~~ (city rule superseded by D28), embassies until address and check date, filtered provider lists always. |
 | 2026-11-03 | D15 | English-only website. No Thai routes, copy, columns or consent texts (migration 0024). Database `locale` enums stay but only `en` is used. |
 | 2026-11-03 | D16 | Brand is Staylong. Domain staylong.co (bought 3 Nov 2026), www redirects to apex. `NEXT_PUBLIC_SITE_URL=https://staylong.co` in Vercel production turns on indexing. |
 | 2026-11-04 | D17 | ~~Design system: Fraunces display + Inter body, ink/jade/saffron tokens.~~ Superseded by D26. |
@@ -58,6 +58,7 @@ Every public page follows `docs/seo.md`. Use `pageMetadata()` for metadata, `gra
 | 2026-11-06 | D25 | Founder defaults (to-do item 8): D10 confirmed, providers see lead details only after accepting. Public lists and MCP `find_providers` hide unverified listings with no facts and no description (`src/lib/listing.ts`); rows stay in the database and their pages stay reachable, noindex. Knight Visa Phuket and Udon Thani and Visatogo Khon Kaen are deleted. |
 | 2026-11-06 | D26 | Handoff applied: `handoff/` is in the repo; tokens in `globals.css` take `yuu.css` values (paper, teal, turmeric, status colors, 14/10px radii, sh-1/sh-2). One font, Anuphan, for body and headings, no italics. New `warn` token (#7A4D00) for text on turmeric tint. Component restyle to the screen designs is still to do. |
 | 2026-11-06 | D27 | Double opt-in. Resend is called only from the Supabase Edge Function `send-confirmation`, which reads confirm tokens with the service role; Vercel keeps no service role key (D19 holds). The database rate-limits confirmation emails (10 minutes apart, 3 a day). Every email carries List-Unsubscribe with one-click POST. Lead-magnet content (reports, reminders) is not built yet; forms say only "check your inbox to confirm". |
+| 2026-11-08 | D28 | City pages are indexable once they list 5+ indexable listings (D23), verified or not (`isIndexableCity`). Thin public pages are noindex, follow. Internal links come from `src/lib/seo/related.ts`. |
 | 2026-11-03 | D12 | All AI search and answer bots are allowed in robots.txt, including training bots. AI citation growth outranks blocking training. |
 
 ## Open

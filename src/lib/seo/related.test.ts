@@ -5,7 +5,7 @@ import { COUNTRIES, people } from "@/content/countries";
 import { IMMIGRATION_OFFICES, PLACES, splitPaths } from "@/lib/places";
 import { TOOLS } from "@/lib/tools";
 import { TRACKS, TRACK_INFO } from "@/lib/tracks";
-import { isIndexableListing } from "@/lib/listing";
+import { isIndexableCity, isIndexableListing } from "@/lib/listing";
 import { pathLabel, relatedForCountry, relatedForGuide, relatedForProvider, relatedForTool, relatedForTrack, trackGuides, type RelGroup } from "./related";
 import { routes } from "./routes";
 
@@ -65,4 +65,11 @@ test("indexable listings: verified, described, or 3+ facts; never suspended", ()
   assert.equal(isIndexableListing({ status: "unverified", description_en: "x" }), true);
   assert.equal(isIndexableListing({ status: "verified" }), true);
   assert.equal(isIndexableListing({ status: "suspended", facts: [1, 2, 3] }), false);
+});
+
+test("city pages index at 5 indexable listings, verified or not (D28)", () => {
+  const rich = { status: "unverified", facts: [1, 2, 3] };
+  assert.equal(isIndexableCity(Array(5).fill(rich)), true);
+  assert.equal(isIndexableCity(Array(4).fill(rich)), false);
+  assert.equal(isIndexableCity([...Array(4).fill(rich), { status: "unverified", facts: [1] }]), false);
 });

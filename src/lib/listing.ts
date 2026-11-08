@@ -10,3 +10,8 @@ export const isListed = (p: ListingLike) =>
 // The provider page's robots tag and the sitemap both use this, so they never disagree.
 export const isIndexableListing = (p: ListingLike) =>
   p.status !== "suspended" && (p.status === "verified" || (p.facts?.length ?? 0) >= 3 || !!p.description_en);
+
+// D28 (replaces the city part of D14): a city page is indexable once it lists at least 5 indexable listings,
+// verified or not. Used by the city page's robots tag and the sitemap.
+export const CITY_MIN_INDEXABLE = 5;
+export const isIndexableCity = (listings: ListingLike[]) => listings.filter(isIndexableListing).length >= CITY_MIN_INDEXABLE;
