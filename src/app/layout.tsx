@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Anuphan } from "next/font/google";
+import { Tracking } from "@/components/analytics/tracking";
 import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
 import { JsonLd } from "@/components/seo/json-ld";
@@ -28,6 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main id="main">{children}</main>
         <Footer />
+        {isIndexable() ? <Tracking /> : null}
       </body>
     </html>
   );

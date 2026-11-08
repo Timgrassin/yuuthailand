@@ -1,3 +1,4 @@
+import { CookieSettingsButton } from "@/components/analytics/tracking";
 import Link from "next/link";
 import { Rss } from "lucide-react";
 import { copy } from "@/lib/copy";
@@ -24,7 +25,7 @@ export async function Footer() {
       </Container>
       <Container className="border-t border-line py-6 text-xs leading-relaxed text-muted">
         <p>{t.disclaimer}</p>
-        <p className="mt-2">© {new Date().getFullYear()} Staylong</p>
+        <p className="mt-2">© {new Date().getFullYear()} Staylong · <Link href={routes.cookies()} className="underline">Cookies</Link> · <CookieSettingsButton /></p>
       </Container>
     </footer>
   );

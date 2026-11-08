@@ -59,7 +59,7 @@ export default async function Home() {
             <Badge tone="neutral" className="mb-6"><BadgeCheck className="size-3.5" aria-hidden />{rules.length} rules, each with an official source</Badge>
             <h1 className="text-[2.75rem] leading-[1.02] sm:text-[4.25rem]">Live in Thailand longer, <em className="font-normal not-italic text-primary">without the visa guesswork.</em></h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink-2 sm:text-xl">
-              Staylong compares Thailand&apos;s eight long-stay visas against current, dated rules, and lists schools and providers we have actually checked.
+              Staylong compares Thailand&apos;s eight long-stay visas against current, dated rules, and lists schools and providers with a public verification status.
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <Button asChild size="lg"><Link href={routes.checker()}>Check my visa options <ArrowRight className="size-4" aria-hidden /></Link></Button>
@@ -190,7 +190,7 @@ export default async function Home() {
           <div className="grid gap-5 md:grid-cols-3">
             {[
               { icon: BookOpenCheck, t: "Every rule is dated and sourced", d: "Each requirement shows the value, the date it took effect and a link to the Thai government page it comes from. Unconfirmed values are labelled." },
-              { icon: BadgeCheck, t: "Providers we actually checked", d: "Schools, Muay Thai camps and agents carry a status and the date of our last check. Verification cannot be bought." },
+              { icon: BadgeCheck, t: "A public status on every provider", d: "Schools, Muay Thai camps and agents each show whether we have verified them. Verification cannot be bought." },
               { icon: BellRing, t: "A public log of every change", d: "When a rule moves, it is logged with the date and pushed to the RSS feed. Saved checker results tell you if the rules changed since you checked." },
             ].map((x) => (
               <Card key={x.t} className="p-7">

@@ -134,7 +134,7 @@ Use the mission's checklist as your file index. Name each upload clearly, for ex
 1. Read the refusal message for any clue about the missing item.
 2. Fix that item first: wait out the funds period, get a better letter, or a new police certificate.
 3. Reapply at the correct mission with a new fee. The 10,000 THB fee is widely reported as non-refundable.
-4. Consider a verified agent if you were refused more than once. Staylong lists [providers we check](/providers) and explains [how we verify them](/how-we-verify).
+4. Consider a verified agent if you were refused more than once. Staylong lists [schools and providers with their status](/providers) and explains [how we verify them](/how-we-verify).
 
 Avoid anyone who promises "guaranteed approval" or offers to supply bank statements. Forged documents can lead to a ban.
 `,

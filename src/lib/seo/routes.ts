@@ -17,6 +17,7 @@ export const routes = {
   tools: () => "/tools",
   tool: (slug: string) => `/tools/${slug}`,
   faq: () => "/faq",
+  cookies: () => "/cookies",
   country: (slug: string) => `/visas-for/${slug}`,
   countries: () => "/visas-for",
   methodology: () => "/how-we-verify",

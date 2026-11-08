@@ -1,6 +1,7 @@
 "use client";
 import { copy } from "@/lib/copy";
-import { useActionState } from "react";
+import { useActionState, useEffect } from "react";
+import { track as trackEvent } from "@/lib/analytics";
 import { submitLead, type LeadState } from "@/lib/actions/lead";
 
 type Props = { providerId?: string; cityId?: string; track?: string; checkerResultId?: string; compact?: boolean };
@@ -10,10 +11,12 @@ const input = "mt-1 h-11 w-full rounded-sm border border-line bg-bg px-3 font-no
 export function LeadForm({ providerId, cityId, track, checkerResultId, compact }: Props) {
   const t = copy.lead;
   const [state, action, pending] = useActionState<LeadState, FormData>(submitLead, {});
+  const source = providerId ? "provider" : checkerResultId ? "checker" : "other";
+  useEffect(() => { if (state.ok) trackEvent("generate_lead", { source }); }, [state.ok, source]);
   if (state.ok) return <p role="status" className="font-semibold text-verified">{t.sent}</p>;
   const bad = (f: string) => state.fields?.includes(f);
   return (
-    <form action={action} className="grid gap-3 text-sm" noValidate>
+    <form action={action} className="grid gap-3 text-sm" noValidate data-clarity-mask="true">
       <div>
         <h2 className="text-lg font-bold">{t.title}</h2>
         {!compact ? <p className="text-muted">{t.intro}</p> : null}

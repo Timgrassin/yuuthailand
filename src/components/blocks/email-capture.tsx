@@ -1,6 +1,7 @@
 "use client";
 import { CheckCircle2, Mail } from "lucide-react";
-import { useActionState } from "react";
+import { useActionState, useEffect } from "react";
+import { track } from "@/lib/analytics";
 import { subscribe, type SubscribeState } from "@/lib/actions/lead";
 import { copy } from "@/lib/copy";
 
@@ -17,6 +18,7 @@ type Props = {
 // Lead capture used on tools, guides and visa pages. One field, honest promise, consent line.
 export function EmailCapture({ title, body, leadMagnet, button = "Email it to me", tracks = [], meta = {}, tone = "card" }: Props) {
   const [state, action, pending] = useActionState<SubscribeState, FormData>(subscribe, {});
+  useEffect(() => { if (state.ok) track("sign_up", { method: "email", lead_magnet: leadMagnet }); }, [state.ok, leadMagnet]);
   const dark = tone === "dark";
   return (
     <div className={dark ? "rounded-card bg-night-mesh grain p-7 text-white shadow-lift" : "rounded-card border border-primary/20 bg-primary-soft/60 p-7"}>
@@ -27,7 +29,7 @@ export function EmailCapture({ title, body, leadMagnet, button = "Email it to me
         {state.ok ? (
           <p role="status" className={`mt-5 flex items-center gap-2 font-semibold ${dark ? "text-white" : "text-verified"}`}><CheckCircle2 className="size-5" aria-hidden />{copy.subscription.checkInbox}</p>
         ) : (
-          <form action={action} className="mt-5">
+          <form action={action} className="mt-5" data-clarity-mask="true">
             <input type="hidden" name="lead_magnet" value={leadMagnet} />
             <input type="hidden" name="tracks" value={tracks.join(",")} />
             <input type="hidden" name="meta" value={JSON.stringify(meta)} />

@@ -2,6 +2,7 @@
 import { Briefcase, GraduationCap, Heart, Laptop, Landmark, Palmtree, type LucideIcon } from "lucide-react";
 import { useActionState, useMemo, useState } from "react";
 import { copy } from "@/lib/copy";
+import { track } from "@/lib/analytics";
 import { saveCheckerResult, type SaveState } from "@/lib/actions/checker";
 import { evaluate, PURPOSES, type Answers, type RuleLike } from "@/lib/checker/engine";
 import { CheckerResults } from "./checker-results";
@@ -32,7 +33,7 @@ export function CheckerForm({ rules, usdRate }: { rules: RuleLike[]; usdRate: nu
 
   return (
     <div className="grid gap-8 lg:grid-cols-[24rem_1fr]">
-      <form className="grid content-start gap-6 rounded-card border border-line bg-surface p-6 shadow-card lg:sticky lg:top-24" onSubmit={(e) => { e.preventDefault(); setShown(true); document.getElementById("results")?.scrollIntoView({ behavior: "smooth", block: "start" }); }}>
+      <form data-clarity-mask="true" className="grid content-start gap-6 rounded-card border border-line bg-surface p-6 shadow-card lg:sticky lg:top-24" onSubmit={(e) => { e.preventDefault(); track("checker_run"); setShown(true); document.getElementById("results")?.scrollIntoView({ behavior: "smooth", block: "start" }); }}>
         <fieldset>
           <legend className="text-sm font-semibold">{t.purpose}</legend>
           <div className="mt-3 grid grid-cols-2 gap-2">
