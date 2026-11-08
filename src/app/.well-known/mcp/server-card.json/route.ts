@@ -10,7 +10,7 @@ export function GET() {
       version: "1.0",
       protocolVersion: "2025-11-25",
       serverInfo: SERVER_INFO,
-      description: "Thailand long-stay visas, rules, 90-day reports, immigration offices, places to live and verified schools. Read-only, no auth.",
+      description: "Thailand long-stay visas, rules, 90-day reports, immigration offices, places to live and schools with their verification status. Read-only, no auth.",
       transport: { type: "streamable-http", endpoint: absoluteUrl("/mcp") },
       authentication: { required: false },
       capabilities: { tools: { listChanged: false } },

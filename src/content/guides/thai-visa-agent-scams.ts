@@ -104,7 +104,7 @@ If you have already paid a lookalike site, submit a real application on the offi
 
 We re-check at least every six months and after any complaint. Verification cannot be bought. **Partner** is a separate commercial label, shown only while a provider stays Verified.
 
-**It does not mean** we guarantee your visa, vouch for every staff member, or check each document a provider gives you. Only an embassy or immigration officer decides your application. Read the full method on [how we verify](/how-we-verify), or browse [verified providers](/providers).
+**It does not mean** we guarantee your visa, vouch for every staff member, or check each document a provider gives you. Only an embassy or immigration officer decides your application. Read the full method on [how we verify](/how-we-verify), or browse [schools and providers](/providers), where every listing shows its status.
 `,
     },
   ],

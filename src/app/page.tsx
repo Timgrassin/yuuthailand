@@ -20,7 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return pageMetadata({
     path: "/",
     title: "Staylong: Thailand long-stay visas, compared and checked",
-    description: "Find the right Thailand long-stay visa in minutes. DTV, education, retirement, LTR and more, compared against current rules with official sources. Verified schools and providers.",
+    description: "Find the right Thailand long-stay visa in minutes. DTV, education, retirement, LTR and more, compared against current rules with official sources. Schools and providers with a public status.",
   });
 }
 
@@ -39,7 +39,7 @@ const HOME_FAQ = [
   { question: "What is the easiest way to live in Thailand long term?", answer: "For most people it is the Destination Thailand Visa (DTV) if you work remotely and can show 500,000 THB, the retirement visa if you are 50+ with 800,000 THB, or Thailand Privilege if you would rather pay a membership fee than meet income tests. The checker compares all eight routes against your situation." },
   { question: "How does Staylong keep visa rules current?", answer: "Every rule has a value, an effective date and a link to the official source such as the Ministry of Foreign Affairs, the Immigration Bureau or the Board of Investment. Every change is logged publicly with its date and published as an RSS feed." },
   { question: "What does Verified mean on a school or provider?", answer: "Staylong checked the provider's licence, address and visa support documents, and shows the date of the last check. Verification cannot be bought. Partner is a separate commercial label shown only while a provider stays Verified." },
-  { question: "Is Staylong a visa agent?", answer: "No. Staylong does not file visa applications. It explains the rules, compares options and connects you with verified schools and providers if you want help." },
+  { question: "Is Staylong a visa agent?", answer: "No. Staylong does not file visa applications. It explains the rules, compares options and can pass your request to verified schools and providers once they complete our checks." },
 ];
 
 export default async function Home() {
@@ -222,7 +222,7 @@ export default async function Home() {
           <div>
             <Eyebrow className="mb-3">Directory</Eyebrow>
             <h2 className="text-3xl">Schools and providers by city</h2>
-            <p className="mt-3 text-ink-2">{providers.length ? `${providers.length} verified providers so far.` : "The first providers are being verified now."} Language schools for the ED visa, Muay Thai camps for the DTV, and visa agents.</p>
+            <p className="mt-3 text-ink-2">{providers.length ? `${providers.length} verified providers so far.` : "No provider has completed verification yet, and each listing shows its status."} Language schools for the ED visa, Muay Thai camps for the DTV, and visa agents.</p>
             <div className="mt-6 flex flex-wrap gap-2">
               {cities.map((c) => <Link key={c.id} href={routes.city(c.slug)} className="rounded-full border border-line-strong bg-surface px-4 py-2 text-sm font-medium hover:border-primary hover:text-primary">{c.name_en}</Link>)}
             </div>

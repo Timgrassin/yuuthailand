@@ -115,7 +115,7 @@ Practical points:
 - An ED visa for a child is a separate route that ties the stay to the school. See [DTV vs ED visa](/guides/dtv-vs-ed-visa).
 - School fees are not set by any visa rule. Compare them directly with each school.
 
-Staylong does not list schools until we have verified them. See [how we verify](/how-we-verify).
+Staylong lists schools from public records and marks each one with its status. An Unverified school has not been checked by us. See [how we verify](/how-we-verify).
 `,
     },
   ],

@@ -2,7 +2,7 @@
 export const copy = {
   nav: { providers: "Schools & providers", rules: "Visa rules", checker: "Visa checker", embassies: "Embassies", method: "How we verify", skip: "Skip to content", menu: "Menu" },
   footer: {
-    tagline: "Verified long-stay Thailand directory.",
+    tagline: "Long-stay Thailand directory with a public status on every listing.",
     disclaimer: "Staylong is not a law firm or a government agency. Rules change. Always confirm with the Thai embassy or Immigration Bureau before you apply.",
     changes: "Rule change log",
     feed: "RSS feed",
@@ -63,12 +63,12 @@ export const copy = {
     unlikely: "Unlikely",
     why: "Why",
     seeRules: "See full rules",
-    findSchools: "Find verified schools",
+    findSchools: "Find schools",
     disclaimer: "This is guidance, not legal advice. Officers have discretion.",
   },
   lead: {
-    title: "Get matched with a verified provider",
-    intro: "Tell us what you need. We send your request to up to three verified providers. They reply within two working days.",
+    title: "Ask to be matched with a verified provider",
+    intro: "Tell us what you need. We only share requests with verified providers, and we are still verifying our first ones. Until a match is available, your request stays with Staylong.",
     name: "Full name",
     email: "Email",
     phone: "Phone or WhatsApp",

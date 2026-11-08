@@ -14,7 +14,7 @@ export async function Footer() {
       <Container className="grid gap-10 py-14 md:grid-cols-[1.4fr_1fr_1fr_1fr_1fr]">
         <div>
           <Logo />
-          <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted">{t.tagline} Every rule is dated and sourced. Every provider shows when we last checked it.</p>
+          <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted">{t.tagline} Every rule is dated and sourced. Every provider shows its verification status.</p>
           <a href="/feeds/rule-changes.xml" className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-primary"><Rss className="size-4" aria-hidden />Rule change feed</a>
         </div>
         <FooterCol title="Visas" links={TRACKS.map((tr) => ({ href: routes.rule(TRACK_INFO[tr].slug), label: TRACK_INFO[tr].short === "Education" ? "Education (ED)" : TRACK_INFO[tr].short }))} />

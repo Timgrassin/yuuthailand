@@ -19,7 +19,7 @@ export async function GET() {
   const lines = [
     `# ${SITE_NAME}`,
     "",
-    `> ${SITE_TAGLINE}. Staylong checks long-stay visa providers in Thailand and records when each one was last verified. Visa rules carry an effective date and a source link. Every rule change is logged publicly.`,
+    `> ${SITE_TAGLINE}. Staylong lists long-stay visa providers in Thailand and shows each one's verification status. Visa rules carry an effective date and a source link. Every rule change is logged publicly.`,
     "",
     "Content is in English. Prices are in THB.",
     "",

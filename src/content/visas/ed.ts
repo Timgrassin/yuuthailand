@@ -95,7 +95,7 @@ Red flags:
 
 If a school loses its registration, immigration reportedly gives students about 30 days to move to another registered school or leave Thailand. Choosing a well-established school protects you from that.
 
-Staylong checks licences before it lists a school. See [verified providers](/providers) and [how we verify](/how-we-verify).
+Staylong has not yet verified the schools it lists, so ask each school for its licence yourself. Every listing shows its status. See [schools and providers](/providers) and [how we verify](/how-we-verify).
 `,
     },
     {

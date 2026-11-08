@@ -35,7 +35,7 @@ export default async function ProvidersPage({ searchParams }: P) {
 
   return (
     <>
-    <PageHero crumbs={<Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Providers", path: routes.providers() }]} />} eyebrow="Directory" title={"Visa schools and providers in Thailand"} lead={<AnswerBlock answer={"Every provider on Staylong carries a status: Verified means we checked its licence, address and visa support documents. Contacted means checks are in progress. Unverified means listed from public records only. Each card shows the date of our last check."} />} />
+    <PageHero crumbs={<Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Providers", path: routes.providers() }]} />} eyebrow="Directory" title={"Visa schools and providers in Thailand"} lead={<AnswerBlock answer={"Every provider on Staylong carries a status: Verified means we checked its licence, address and visa support documents. Contacted means checks are in progress. Unverified means listed from public records only. Verified listings show the date of our last check. No listing has completed these checks yet."} />} />
     <Container className="py-12">
 
       <form className="mt-8 grid gap-3 rounded-card border border-line bg-surface p-4 sm:grid-cols-4" role="search">

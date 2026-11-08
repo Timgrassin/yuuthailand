@@ -47,7 +47,7 @@ export default async function CityPage({ params }: P) {
   const name = c.name_en;
   return (
     <>
-    <PageHero crumbs={<Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Providers", path: routes.providers() }, { name, path: routes.city(slug) }]} />} eyebrow="City directory" title={`Long-stay visa schools and providers in ${name}`} lead={<AnswerBlock answer={`Staylong lists ${providers.length} providers in ${name}, ${verified} of them verified. Each listing shows its visa programs, prices in THB and the date Staylong last checked it.`} />} />
+    <PageHero crumbs={<Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Providers", path: routes.providers() }, { name, path: routes.city(slug) }]} />} eyebrow="City directory" title={`Long-stay visa schools and providers in ${name}`} lead={<AnswerBlock answer={`Staylong lists ${providers.length} providers in ${name}, ${verified} of them verified. Each listing shows its verification status, and visa programs and THB prices where we have them.`} />} />
     <Container className="py-12">
       <div className="mt-6 flex flex-wrap gap-2 text-sm">
         {(["ed", "dtv", "retirement"] as const).map((t) => (

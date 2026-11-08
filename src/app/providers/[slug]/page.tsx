@@ -181,10 +181,11 @@ export default async function ProviderPage({ params }: P) {
                   <li key={a.id} className="flex flex-wrap items-center gap-2">
                     <span className="font-semibold">{a.body_en}</span>
                     {a.reference ? <span className="text-sm text-muted">{a.reference}</span> : null}
-                    {a.is_checked ? <Badge tone="verified">{"Checked"} {fmtDate(a.checked_at)}</Badge> : <Badge tone="unverified">{"Not checked"}</Badge>}
+                    {!a.is_checked ? <Badge tone="unverified">{"Not checked"}</Badge> : p.status === "verified" ? <Badge tone="verified">{"Checked"} {fmtDate(a.checked_at)}</Badge> : <Badge tone="contacted">{"Found on list"} {fmtDate(a.checked_at)}</Badge>}
                   </li>
                 ))}
               </ul>
+              {p.status === "verified" ? null : <p className="mt-3 text-sm text-muted">{"Found on a published government list. This is not Verified status and does not show that this provider can support a visa. "}<Link href={`${routes.methodology()}#government-lists`} className="text-primary underline">{"About these lists"}</Link></p>}
             </section>
           ) : null}
 

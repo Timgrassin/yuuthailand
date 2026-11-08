@@ -1,7 +1,7 @@
 // Single source for site identity and URL building. English only.
 // Production URL comes from NEXT_PUBLIC_SITE_URL once the domain (Q2) is bought.
 export const SITE_NAME = "Staylong";
-export const SITE_TAGLINE = "Verified long-stay Thailand directory";
+export const SITE_TAGLINE = "Long-stay Thailand directory with a public status on every listing";
 
 export function siteUrl(): string {
   if (process.env.NEXT_PUBLIC_SITE_URL) return process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/, "");

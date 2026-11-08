@@ -103,7 +103,7 @@ Before you pay a camp, ask it four questions:
 
 Course length is the most disputed point. Gym and agency guides cite minimums of 3, 6, 9 and 12 months for different missions. No official source sets one number. Choose a programme that covers most of your planned stay, and keep proof that you attend.
 
-Staylong lists camps only after checking they can issue these documents. See [verified providers](/providers) and [how we verify](/how-we-verify).
+Staylong has not yet checked whether the camps it lists can issue these documents, so ask each camp before you pay. Every listing shows its status. See [schools and providers](/providers) and [how we verify](/how-we-verify).
 `,
     },
     {
