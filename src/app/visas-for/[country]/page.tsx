@@ -8,11 +8,13 @@ import { KeyFacts } from "@/components/marketing/key-facts";
 import { PageHero } from "@/components/marketing/page-hero";
 import { AnswerBlock } from "@/components/seo/answer-block";
 import { JsonLd } from "@/components/seo/json-ld";
+import { RelatedLinks } from "@/components/seo/related-links";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { Faq } from "@/components/ui/faq";
 import { Card, Container } from "@/components/ui/primitives";
-import { COUNTRIES, COUNTRY_SHARED_SOURCES } from "@/content/countries";
+import { COUNTRIES, COUNTRY_SHARED_SOURCES, people } from "@/content/countries";
 import { pageMetadata } from "@/lib/seo/metadata";
+import { relatedForCountry } from "@/lib/seo/related";
 import { routes } from "@/lib/seo/routes";
 import { articleSchema, graph } from "@/lib/seo/schema";
 
@@ -29,8 +31,8 @@ export async function generateMetadata({ params }: P): Promise<Metadata> {
   if (!c) return {};
   return pageMetadata({
     path: routes.country(c.slug),
-    title: `Thailand long-stay visas for ${c.demonym}s (2026)`,
-    description: `How ${c.demonym}s apply for the DTV, retirement and other Thai long-stay visas: which mission, police certificate, income proof and visa-free days.`,
+    title: `Thailand long-stay visas for ${people(c)} (2026)`,
+    description: `How ${people(c)} apply for the DTV, retirement and other Thai long-stay visas: which mission, police certificate, income proof and visa-free days.`,
     updatedAt: c.updated,
   });
 }
@@ -39,9 +41,9 @@ export default async function CountryPage({ params }: P) {
   const c = get((await params).country);
   if (!c) notFound();
   const faqs = [
-    { question: `How long can ${c.demonym}s stay in Thailand without a visa?`, answer: c.exemptionDays ? `${c.exemptionDays} days on the visa exemption. ${c.exemptionNote}` : c.exemptionNote },
-    { question: `Where do ${c.demonym}s apply for a DTV?`, answer: `At the Thai embassy or consulate covering your area of ${c.name}${c.usesThaiEvisa ? ", through the thaievisa.go.th e-visa portal" : ""}. Since 31 August 2026 you must apply in your country of nationality or permanent residence.` },
-    { question: `Which police certificate do ${c.demonym}s need for a DTV?`, answer: `${c.dtv.policeCertificate}${c.dtv.certificateMaxAge ? ` ${c.dtv.certificateMaxAge}.` : ""}` },
+    { question: `How long can ${people(c)} stay in Thailand without a visa?`, answer: c.exemptionDays ? `${c.exemptionDays} days on the visa exemption. ${c.exemptionNote}` : c.exemptionNote },
+    { question: `Where do ${people(c)} apply for a DTV?`, answer: `At the Thai embassy or consulate covering your area of ${c.name}${c.usesThaiEvisa ? ", through the thaievisa.go.th e-visa portal" : ""}. Since 31 August 2026 you must apply in your country of nationality or permanent residence.` },
+    { question: `Which police certificate do ${people(c)} need for a DTV?`, answer: `${c.dtv.policeCertificate}${c.dtv.certificateMaxAge ? ` ${c.dtv.certificateMaxAge}.` : ""}` },
     { question: `How do ${c.demonym} retirees prove income in Thailand?`, answer: c.retirement.incomeProof },
     { question: `Does ${c.name} have a tax treaty with Thailand?`, answer: c.taxTreaty === true ? `Yes. ${c.name} has a double tax agreement with Thailand. Ask a tax adviser how it applies to you.` : c.taxTreaty === false ? `No double tax agreement was found between ${c.name} and Thailand.` : "Check the Thai Revenue Department's list of double tax agreements." },
   ];
@@ -49,9 +51,9 @@ export default async function CountryPage({ params }: P) {
     <>
       <PageHero
         crumbs={<Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "By nationality", path: routes.countries() }, { name: c.name, path: routes.country(c.slug) }]} />}
-        eyebrow={`For ${c.demonym}s`}
-        title={`Thailand long-stay visas for ${c.demonym}s`}
-        lead={<AnswerBlock answer={`${c.demonym}s get ${c.exemptionDays ?? "a limited number of"} days visa-free. To stay longer, most use the DTV (apply at a Thai mission in ${c.name} with a ${c.dtv.policeCertificate.split(".")[0]}) or, at 50+, the retirement visa. ${c.retirement.incomeProof.split(".")[0]}.`} checkedAt={c.updated} sources={c.sources.slice(0, 3)} />}
+        eyebrow={`For ${people(c)}`}
+        title={`Thailand long-stay visas for ${people(c)}`}
+        lead={<AnswerBlock answer={`${people(c)} get ${c.exemptionDays ?? "a limited number of"} days visa-free. To stay longer, most use the DTV (apply at a Thai mission in ${c.name} with a ${c.dtv.policeCertificate.split(".")[0]}) or, at 50+, the retirement visa. ${c.retirement.incomeProof.split(".")[0]}.`} checkedAt={c.updated} sources={c.sources.slice(0, 3)} />}
       />
       <Container className="-mt-8 relative">
         <KeyFacts facts={[
@@ -69,7 +71,7 @@ export default async function CountryPage({ params }: P) {
             <div className="grid gap-3 sm:grid-cols-2">{c.missions.map((m) => <a key={m.url} href={m.url} rel="noopener nofollow" target="_blank"><Card className="h-full hover:border-primary/40"><p className="font-semibold">{m.name}</p><p className="text-sm text-muted">{m.city}</p><p className="mt-2 inline-flex items-center gap-1 text-sm font-semibold text-primary">Visa page <ExternalLink className="size-3.5" aria-hidden /></p></Card></a>)}</div>
           </section>
           <section>
-            <h2 className="mb-5 text-3xl">DTV for {c.demonym}s</h2>
+            <h2 className="mb-5 text-3xl">DTV for {people(c)}</h2>
             <Card className="p-0"><dl className="divide-y divide-line text-[15px]">
               {[["Police certificate", `${c.dtv.policeCertificate}${c.dtv.certificateMaxAge ? ` ${c.dtv.certificateMaxAge}.` : ""}`], ["Proof of residence", c.dtv.residenceProof], ["Fee", c.dtv.fee ?? "Check with your mission"]].map(([k, v]) => <div key={k} className="grid gap-1 px-6 py-4 sm:grid-cols-[12rem_1fr]"><dt className="font-semibold">{k}</dt><dd className="text-ink-2">{v}</dd></div>)}
             </dl></Card>
@@ -84,22 +86,23 @@ export default async function CountryPage({ params }: P) {
           </section>
           {c.notes.length ? (
             <section>
-              <h2 className="mb-5 text-3xl">What {c.demonym}s often run into</h2>
+              <h2 className="mb-5 text-3xl">What {people(c)} often run into</h2>
               <ul className="space-y-3">{c.notes.map((q) => <li key={q} className="rounded-sm border border-line bg-surface p-4 text-ink-2">{q}</li>)}</ul>
             </section>
           ) : null}
-          <Faq title={`Questions from ${c.demonym}s`} items={faqs} />
+          <Faq title={`Questions from ${people(c)}`} items={faqs} />
           <section className="rounded-card border border-line bg-surface p-6 text-sm">
             <h2 className="text-xl">Sources</h2>
             <ol className="mt-4 list-decimal space-y-1.5 pl-5">{[...c.sources, ...COUNTRY_SHARED_SOURCES].map((s) => <li key={s.url}><a href={s.url} rel="noopener nofollow" target="_blank" className="text-primary underline underline-offset-2">{s.label}</a></li>)}</ol>
           </section>
         </article>
         <aside className="space-y-6 lg:sticky lg:top-24 lg:self-start">
-          <EmailCapture title={`Rule alerts for ${c.demonym}s`} body={`Get an email when the rules for ${c.demonym} applicants change.`} leadMagnet={`country_${c.slug}`} button="Alert me" meta={{ country: c.slug }} />
+          <EmailCapture title={`Rule alerts for ${people(c)}`} body={`Get an email when the rules for ${c.demonym} applicants change.`} leadMagnet={`country_${c.slug}`} button="Alert me" meta={{ country: c.slug }} />
         </aside>
       </Container>
+      <RelatedLinks groups={relatedForCountry(c.slug)} />
       <CtaBand title="Which visa fits you?" body="Six questions, checked against current rules." primary={{ href: routes.checker(), label: "Run the visa checker" }} />
-      <JsonLd data={graph(articleSchema({ path: routes.country(c.slug), headline: `Thailand long-stay visas for ${c.demonym}s`, description: `Long-stay visa guidance for ${c.demonym}s`, publishedAt: c.updated, updatedAt: c.updated, authorName: "Staylong", citations: c.sources.map((s) => s.url) }))} />
+      <JsonLd data={graph(articleSchema({ path: routes.country(c.slug), headline: `Thailand long-stay visas for ${people(c)}`, description: `Long-stay visa guidance for ${people(c)}`, publishedAt: c.updated, updatedAt: c.updated, authorName: "Staylong", citations: c.sources.map((s) => s.url) }))} />
     </>
   );
 }

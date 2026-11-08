@@ -17,11 +17,12 @@ Staylong owns three facts nobody else publishes in one place. Each must appear a
 | Metadata | `src/lib/seo/metadata.ts` | Every page calls `pageMetadata()`. It sets canonical, OG and Twitter. |
 | Indexing guard | `src/lib/seo/site.ts` | Only production on the real domain is indexable. Previews are noindex and robots blocks them. |
 | Robots | `src/app/robots.ts` | All AI search and answer bots are allowed by name. `/admin`, `/portal`, `/api`, `/dev`, `/r/`, `/auth` are disallowed. |
-| Sitemap | `src/app/sitemap.ts` | Lists static routes, visa pages, indexable cities and embassies, and non-suspended providers, with real `lastModified`. |
+| Sitemap | `src/app/sitemap.ts` | Lists static routes, visa pages, indexable cities and embassies, and every indexable provider (`isIndexableListing`, read past the 1,000-row page), with real `lastModified`. Never list a noindex page. |
 | llms.txt | `src/app/llms.txt/route.ts` | Plain-text site map for AI engines. Lists every verified provider. |
 | Rule change feed | `src/app/feeds/rule-changes.xml/route.ts` | RSS of the last 50 rule changes. |
 | JSON-LD | `src/lib/seo/schema.ts` | Organization and WebSite site-wide. Builders for provider, program, embassy, FAQ, breadcrumb, item list and article. |
 | Answer block | `src/components/seo/answer-block.tsx` | Answer-first summary with a visible "Last checked" date and source links. |
+| Related links | `src/lib/seo/related.ts`, `src/components/seo/related-links.tsx` | The "Related on Staylong" block on guide, visa, tool, nationality and provider pages. See Internal linking. |
 
 ## Page template checklist
 
@@ -33,10 +34,33 @@ Staylong owns three facts nobody else publishes in one place. Each must appear a
 6. **FAQ.** Three to eight real questions per template, from `provider_faqs` or the page config. Emit `FAQPage` JSON-LD only when the questions are visible on the page.
 7. **JSON-LD.** Each template emits its builder plus `BreadcrumbList` through `graph()`.
 8. **Named author or reviewer.** Guides and rule pages show [REVIEWER NAME], [ROLE] and the review date.
-9. **Internal links.** Each provider links to its city, track and the methodology. Each city links to its providers and the matching rules. Each rule links to the checker.
+9. **Internal links.** Follow the Internal linking section below.
 10. **English only.** One language, one URL per page. No hreflang.
 11. **Server-rendered.** Content and prices are in the initial HTML. No client-only rendering for indexable text.
 12. **No keyword stuffing.** It lowers AI citation. Write plainly, with specific numbers.
+
+## Internal linking
+
+Goal: every indexable page is two clicks from the home page, gets contextual links from at least three related pages, and every link says where it goes.
+
+**Structure.** The site is hub and spoke. Hubs: `/visa-rules`, `/guides`, `/tools`, `/visas-for`, `/places`, `/immigration-offices`, `/providers`. Each visa page is the pillar for its track. Guides, tools, nationality pages and providers are spokes that link up to their pillar and across to siblings.
+
+**Rules.**
+
+1. **One source of truth.** Related links come from `src/lib/seo/related.ts` (`relatedForGuide`, `relatedForTrack`, `relatedForTool`, `relatedForCountry`, `relatedForProvider`). Add a new page family there, not with hand-written links in a template.
+2. **What links to what.**
+   - Visa page: all nationality pages (DTV and retirement tracks), its tools, the other seven visas, the FAQ and the change log. Its sidebar lists its guides (`trackGuides`).
+   - Guide: its visa pages, the best-matching tools, guides it does not already show in "Read next", the FAQ, and nationality pages for DTV and retirement topics.
+   - Tool: its visa pages, its guides, other tools, and nationality pages for the DTV checklist.
+   - Nationality page: the four visas that vary by nationality, DTV and retirement guides, six other nationalities, the DTV checklist, the exemption calculator and the embassy list.
+   - Provider: the visas that fit its programs or type, a guide for its type, the places and immigration offices in its city, and up to six nearby providers, indexable ones first.
+3. **Rotate long lists.** When a list is longer than the block, it rotates by the page it is on, so every target gets links instead of the first few getting all of them.
+4. **Anchors are page names.** Use the target's title ("Retirement visa (Non-O)", "Thailand visas for British citizens"), never a bare path, "click here" or the same exact-match phrase everywhere. Editorial text may write a bare path ("See /visa-rules/dtv."); `LinkedText` renders it with `pathLabel()`.
+5. **Noindex pages still pass links.** Thin pages (cities under 3 verified providers, unverified listings, filtered lists) are `noindex, follow`, so crawlers reach the listings they link to. Only previews are `nofollow`.
+6. **Do not link to noindex pages from sitewide nav** unless they are hubs that lead to indexable pages (the footer city links lead to provider listings).
+7. **Guard it.** `src/lib/seo/related.test.ts` fails if any guide, visa, tool or nationality page gets fewer than three contextual links, if a page links to itself, or if an anchor is a bare path.
+
+**Checking it.** Crawl the site from `/` and compare with the sitemap: every sitemap URL should be reachable by links, at depth 3 or less, and every indexable page should be in the sitemap.
 
 ## Programmatic pages
 
@@ -45,7 +69,7 @@ These are the page families that scale. Each one needs unique data on the page, 
 | Family | Pattern | Index when |
 |---|---|---|
 | Track x city | `/cities/[city]?track=` then promote to a static path | at least 3 verified providers |
-| Provider | `/providers/[slug]` | the provider is not suspended |
+| Provider | `/providers/[slug]` | verified, described, or 3+ quoted facts (`isIndexableListing`, D14/D23) |
 | Embassy | `/embassies/[slug]` | it has address and checked date |
 | Rule | `/visa-rules#[track]` | always |
 

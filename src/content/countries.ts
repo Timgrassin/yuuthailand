@@ -700,3 +700,7 @@ export const COUNTRIES: CountryData[] = [
 
 // Shared sources used by every country page.
 export const COUNTRY_SHARED_SOURCES = [MFA_OA_CHECKLIST, MFA_NON_O_RETIREMENT, BANGKOK_IMMIGRATION, RD_FOREIGN_COMPANY_GUIDE];
+
+// Plural for headings and anchors: "Americans", but "British citizens", not "Britishs".
+const PEOPLE: Record<string, string> = { British: "British citizens", French: "French citizens", Dutch: "Dutch citizens", Swedish: "Swedes", Swiss: "Swiss citizens", Irish: "Irish citizens", Japanese: "Japanese citizens" };
+export const people = (c: Pick<CountryData, "demonym">) => PEOPLE[c.demonym] ?? `${c.demonym}s`;

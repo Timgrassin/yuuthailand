@@ -23,7 +23,7 @@ Verified long-stay Thailand directory at staylong.co. Next.js App Router, TypeSc
 
 ## SEO and AI search
 
-Every public page follows `docs/seo.md`. Use `pageMetadata()` for metadata, `graph()` builders for JSON-LD, and `AnswerBlock` above the fold. Never index previews. Never show a date that is not from the database.
+Every public page follows `docs/seo.md`. Use `pageMetadata()` for metadata, `graph()` builders for JSON-LD, and `AnswerBlock` above the fold. Never index previews. Never show a date that is not from the database. Internal links come from `src/lib/seo/related.ts` (rendered by `RelatedLinks`); `related.test.ts` guards the link graph. Long Supabase lists go through `all()` in `src/lib/data.ts` (PostgREST caps a request at 1,000 rows).
 
 ## A2 decisions log
 

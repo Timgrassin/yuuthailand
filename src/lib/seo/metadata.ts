@@ -17,7 +17,9 @@ export function pageMetadata(m: PageMeta): Metadata {
     title: m.title,
     description: m.description,
     alternates: { canonical: m.path },
-    robots: m.noindex || !isIndexable() ? { index: false, follow: false } : { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
+    // Thin public pages (cities, unverified listings, filtered lists) stay out of the index but pass link
+    // equity on (noindex, follow), so the listings they link to are still discovered. Previews follow nothing.
+    robots: !isIndexable() ? { index: false, follow: false } : m.noindex ? { index: false, follow: true } : { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
     openGraph: {
       type: "website",
       siteName: SITE_NAME,

@@ -8,6 +8,7 @@ import { PageHero } from "@/components/marketing/page-hero";
 import { Toc } from "@/components/marketing/toc";
 import { AnswerBlock } from "@/components/seo/answer-block";
 import { JsonLd } from "@/components/seo/json-ld";
+import { RelatedLinks } from "@/components/seo/related-links";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { Faq } from "@/components/ui/faq";
 import { EmailCapture } from "@/components/blocks/email-capture";
@@ -16,6 +17,7 @@ import { GUIDES, getGuide } from "@/content";
 import { md } from "@/content/render";
 import { fmtDate } from "@/lib/format";
 import { pageMetadata } from "@/lib/seo/metadata";
+import { relatedForGuide } from "@/lib/seo/related";
 import { routes } from "@/lib/seo/routes";
 import { articleSchema, graph } from "@/lib/seo/schema";
 import { TRACK_INFO, trackName, type Track } from "@/lib/tracks";
@@ -92,6 +94,7 @@ export default async function GuidePage({ params }: P) {
           <div className="grid gap-4 md:grid-cols-3">{related.map((r) => <Link key={r!.slug} href={routes.guide(r!.slug)}><Card className="h-full hover:border-primary/40"><p className="text-xs font-semibold uppercase tracking-[0.12em] text-primary-2">{KIND_LABEL[r!.kind]}</p><p className="mt-2 font-display text-lg leading-snug">{r!.title}</p></Card></Link>)}</div>
         </Container>
       ) : null}
+      <RelatedLinks groups={relatedForGuide(g.slug)} />
       <CtaBand title="Check your own situation." body="The checker scores all eight visas against the rules on this page." primary={{ href: routes.checker(), label: "Start the checker" }} />
       <JsonLd data={graph(articleSchema({ path: routes.guide(g.slug), headline: g.title, description: g.description, publishedAt: g.published, updatedAt: g.updated, authorName: "Staylong", citations: g.sources.map((s) => s.url) }))} />
     </>

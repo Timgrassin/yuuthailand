@@ -1,7 +1,7 @@
 // Plain-text documents for the MCP `search` and `fetch` tools. Built from the same typed content
 // modules the pages render, so agents and readers see the same facts (D18).
 import { GUIDES, VISA_CONTENT } from "@/content";
-import { COUNTRIES } from "@/content/countries";
+import { COUNTRIES, people } from "@/content/countries";
 import { FAQ } from "@/content/faq";
 import { IMMIGRATION_OFFICES, PLACES, POI_META, POI_ORDER, poisFor } from "@/lib/places";
 import { routes } from "@/lib/seo/routes";
@@ -42,7 +42,7 @@ function build(): Doc[] {
   }
   for (const c of COUNTRIES) {
     docs.push({
-      id: `country:${c.slug}`, kind: "nationality", title: `Thailand long-stay visas for ${c.demonym}s`, url: absoluteUrl(routes.country(c.slug)), updated: c.updated,
+      id: `country:${c.slug}`, kind: "nationality", title: `Thailand long-stay visas for ${people(c)}`, url: absoluteUrl(routes.country(c.slug)), updated: c.updated,
       summary: `${c.exemptionDays ? `${c.exemptionDays} days visa-free. ` : ""}${c.exemptionNote}`,
       text: join(`Visa exemption: ${c.exemptionDays ?? "check"} days. ${c.exemptionNote}`,
         `Thai missions in ${c.name}:\n${c.missions.map((m) => `- ${m.name}, ${m.city}: ${m.url}`).join("\n")}`,

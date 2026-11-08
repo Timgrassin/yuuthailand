@@ -52,6 +52,7 @@ function fixtureDb() {
       not: () => b,
       order: () => b,
       limit: (n: number) => ((rows = rows.slice(0, n)), b),
+      range: (from: number, to: number) => ((rows = rows.slice(from, to + 1)), b),
       then: (res: (v: { data: unknown; error: null }) => unknown) => Promise.resolve({ data: rows, error: null }).then(res),
     };
     return b;
@@ -76,13 +77,24 @@ async function q<T>(fn: (db: NonNullable<ReturnType<typeof publicDb>>) => Promis
 export const getCities = cache(() => q<City>((db) => db.from("cities").select("*").order("sort_order")));
 export const getCity = cache(async (slug: string) => (await q<City>((db) => db.from("cities").select("*").eq("slug", slug).limit(1)))[0]);
 
+// PostgREST returns at most 1,000 rows per request, so long lists are read page by page.
+const PAGE = 1000;
+export async function all<T>(page: (db: NonNullable<ReturnType<typeof publicDb>>, from: number, to: number) => PromiseLike<{ data: unknown; error: unknown }>): Promise<T[]> {
+  const out: T[] = [];
+  for (let from = 0; ; from += PAGE) {
+    const rows = await q<T>((db) => page(db, from, from + PAGE - 1));
+    out.push(...rows);
+    if (rows.length < PAGE) return out;
+  }
+}
+
 // Public lists only: unverified listings with no facts and no description are left out (see isListed).
 export const getProviders = cache(async (f: { city?: string; status?: string } = {}) =>
-  (await q<Provider>((db) => {
+  (await all<Provider>((db, from, to) => {
     let s = db.from("public_providers").select("*").neq("status", "suspended");
     if (f.city) s = s.eq("city_slug", f.city);
     if (f.status) s = s.eq("status", f.status);
-    return s.order("is_partner", { ascending: false }).order("status", { ascending: true }).order("name_en");
+    return s.order("is_partner", { ascending: false }).order("status", { ascending: true }).order("name_en").order("id").range(from, to);
   })).filter(isListed),
 );
 export const getProvider = cache(async (slug: string) => (await q<Provider>((db) => db.from("public_providers").select("*").eq("slug", slug).limit(1)))[0]);

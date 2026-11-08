@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { splitPaths } from "@/lib/places";
+import { pathLabel } from "@/lib/seo/related";
 
-// Editorial text that mentions site paths ("/visa-rules/dtv") renders those paths as links.
+// Editorial text that mentions site paths ("/visa-rules/dtv") renders them as links with the page's name as anchor.
 export function LinkedText({ text }: { text: string }) {
-  return <>{splitPaths(text).map((part, i) => (typeof part === "string" ? part : <Link key={i} href={part.href} className="font-medium text-primary underline underline-offset-2">{part.href}</Link>))}</>;
+  return <>{splitPaths(text).map((part, i) => (typeof part === "string" ? part : <Link key={i} href={part.href} className="font-medium text-primary underline underline-offset-2">{pathLabel(part.href)}</Link>))}</>;
 }
 
 export function BulletList({ items, tone = "primary" }: { items: string[]; tone?: "primary" | "muted" }) {

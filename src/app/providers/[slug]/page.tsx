@@ -4,6 +4,7 @@ import { Fragment } from "react";
 import { LeadForm } from "@/components/blocks/lead-form";
 import { AnswerBlock } from "@/components/seo/answer-block";
 import { JsonLd } from "@/components/seo/json-ld";
+import { RelatedLinks } from "@/components/seo/related-links";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { Faq } from "@/components/ui/faq";
 import { Badge, Card, Container } from "@/components/ui/primitives";
@@ -15,7 +16,9 @@ import { KeyFacts } from "@/components/marketing/key-facts";
 import { getAccreditations, getPrograms, getProvider, getProviderFaqs, getProviders, getVerificationEvents } from "@/lib/data";
 import { IMMIGRATION_OFFICES, PLACES, POI_META, distanceKm, officePinNote, poisFor } from "@/lib/places";
 import { fmtDate, fmtNumber } from "@/lib/format";
+import { isIndexableListing } from "@/lib/listing";
 import { pageMetadata } from "@/lib/seo/metadata";
+import { relatedForProvider } from "@/lib/seo/related";
 import { routes } from "@/lib/seo/routes";
 import { graph, providerSchema } from "@/lib/seo/schema";
 import { trackName } from "@/lib/tracks";
@@ -34,8 +37,8 @@ export async function generateMetadata({ params }: P): Promise<Metadata> {
     path: routes.provider(slug),
     title: `${name}, ${city}: visa support, programs and verification`,
     description: p.summary_en ?? `${name} in ${city}. Verification status, programs and prices.`,
-    // D14: scraped listings stay noindex until verified or enriched with at least 3 quoted facts.
-    noindex: p.status === "suspended" || (p.status !== "verified" && (p.facts?.length ?? 0) < 3 && !p.description_en),
+    // D14/D23: scraped listings stay noindex until verified, described or enriched with 3+ quoted facts.
+    noindex: !isIndexableListing(p),
     updatedAt: p.updated_at,
   });
 }
@@ -62,7 +65,8 @@ export default async function ProviderPage({ params }: P) {
   const nearPois = here && place ? poisFor(place.slug).filter((x) => distanceKm(here, x) < 3) : [];
   const others = (await getProviders({ city: p.city_slug }).catch(() => [])).filter((x) => x.id !== p.id && x.status !== "suspended")
     .map((x) => ({ x, d: here && x.lat != null && x.lng != null ? distanceKm(here, { lat: Number(x.lat), lng: Number(x.lng) }) : null }))
-    .sort((a, b) => (a.d ?? 1e9) - (b.d ?? 1e9)).slice(0, 6);
+    // Indexable neighbours first, so link equity reaches pages that can rank; then by distance.
+    .sort((a, b) => Number(isIndexableListing(b.x)) - Number(isIndexableListing(a.x)) || (a.d ?? 1e9) - (b.d ?? 1e9)).slice(0, 6);
   const supportsVisa = programs.some((g) => g.supports_visa);
   const autoFaqs = [
     ...(p.address_en ? [{ question: `Where is ${name}?`, answer: `${name} is at ${p.address_en}.` }] : []),
@@ -202,6 +206,8 @@ export default async function ProviderPage({ params }: P) {
               <ul className="grid gap-3 sm:grid-cols-2">{others.map(({ x, d }) => <li key={x.id}><Link href={routes.provider(x.slug)} className="block rounded-card border border-line bg-surface p-4 hover:border-primary/40"><span className="font-semibold">{x.name_en}</span><span className="block text-xs text-muted">{x.provider_type.replace(/_/g, " ")}{d != null ? ` · ${d < 1 ? "<1" : Math.round(d)} km away` : ""}</span></Link></li>)}</ul>
             </section>
           ) : null}
+
+          <RelatedLinks bare title={`Visas and living near ${name}`} groups={relatedForProvider(p, programs.map((g) => g.track))} />
 
           <Faq title={"Questions about this provider"} items={allFaqs} />
 

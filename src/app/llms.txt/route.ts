@@ -3,7 +3,7 @@ import { SITE_NAME, SITE_TAGLINE, absoluteUrl } from "@/lib/seo/site";
 import { publicDb } from "@/lib/supabase/public";
 import { TRACKS, TRACK_INFO } from "@/lib/tracks";
 import { GUIDES } from "@/content";
-import { COUNTRIES } from "@/content/countries";
+import { COUNTRIES, people } from "@/content/countries";
 import { TOOLS } from "@/lib/tools";
 import { IMMIGRATION_OFFICES, PLACES } from "@/lib/places";
 
@@ -44,7 +44,7 @@ export async function GET() {
     `- [Thailand long-stay FAQ](${absoluteUrl(routes.faq())}): 150 short answers on visas, reports, money, tax and daily life.`,
     "",
     "## By nationality",
-    ...COUNTRIES.map((c) => `- [Thailand long-stay visas for ${c.demonym}s](${absoluteUrl(routes.country(c.slug))})`),
+    ...COUNTRIES.map((c) => `- [Thailand long-stay visas for ${people(c)}](${absoluteUrl(routes.country(c.slug))})`),
     "",
     "## Where to live",
     `- [All long-stay places](${absoluteUrl(routes.places())}): neighbourhoods, towns and islands with immigration offices, banks and hospitals mapped.`,

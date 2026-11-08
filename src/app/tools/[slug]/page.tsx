@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CtaBand } from "@/components/marketing/cta-band";
 import { PageHero } from "@/components/marketing/page-hero";
 import { AnswerBlock } from "@/components/seo/answer-block";
 import { JsonLd } from "@/components/seo/json-ld";
+import { RelatedLinks } from "@/components/seo/related-links";
 import { BankPlanner } from "@/components/tools/bank-planner";
 import { CostCalculator } from "@/components/tools/cost-calculator";
 import { DtvChecklist } from "@/components/tools/dtv-checklist";
@@ -15,10 +15,10 @@ import { TaxResidencyCounter } from "@/components/tools/tax-residency";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { Faq } from "@/components/ui/faq";
 import { Container } from "@/components/ui/primitives";
-import { getGuide } from "@/content";
 import { COUNTRIES } from "@/content/countries";
 import { getRules, latestDate } from "@/lib/data";
 import { pageMetadata } from "@/lib/seo/metadata";
+import { relatedForTool } from "@/lib/seo/related";
 import { routes } from "@/lib/seo/routes";
 import { graph, webAppSchema } from "@/lib/seo/schema";
 import { TOOLS, getTool } from "@/lib/tools";
@@ -54,28 +54,14 @@ export default async function ToolPage({ params }: P) {
     "dtv-document-checklist": <DtvChecklist countries={COUNTRIES.map((c) => ({ slug: c.slug, name: c.name, dtv: c.dtv }))} />,
   }[t.slug];
 
-  const related = t.related.map(getGuide).filter(Boolean);
-  const others = TOOLS.filter((x) => x.slug !== t.slug).slice(0, 3);
-
   return (
     <>
       <PageHero crumbs={<Breadcrumbs items={[{ name: "Staylong", path: "/" }, { name: "Tools", path: routes.tools() }, { name: t.name, path: routes.tool(t.slug) }]} />} eyebrow="Free tool" title={t.name} lead={<AnswerBlock answer={t.answer} checkedAt={latestDate(rules)} />} />
       <Container className="py-12">{tool}</Container>
-      <Container className="grid gap-12 pb-8 lg:grid-cols-[1fr_20rem]">
+      <Container className="max-w-4xl pb-8">
         <Faq title="Questions about this tool" items={t.faqs} />
-        <aside className="mt-14 space-y-6">
-          {related.length ? (
-            <div className="text-sm">
-              <p className="mb-3 text-xs font-semibold uppercase tracking-[0.12em] text-muted">Read the guide</p>
-              <ul className="space-y-2.5">{related.map((g) => <li key={g!.slug}><Link href={routes.guide(g!.slug)} className="text-ink-2 hover:text-primary">{g!.title}</Link></li>)}</ul>
-            </div>
-          ) : null}
-          <div className="text-sm">
-            <p className="mb-3 text-xs font-semibold uppercase tracking-[0.12em] text-muted">More free tools</p>
-            <ul className="space-y-2.5">{others.map((o) => <li key={o.slug}><Link href={routes.tool(o.slug)} className="text-ink-2 hover:text-primary">{o.name}</Link></li>)}</ul>
-          </div>
-        </aside>
       </Container>
+      <RelatedLinks groups={relatedForTool(t.slug)} />
       <CtaBand title="Which visa fits you?" body="The checker scores all eight long-stay routes against your situation." primary={{ href: routes.checker(), label: "Run the visa checker" }} secondary={{ href: routes.tools(), label: "All tools" }} />
       <JsonLd data={graph(webAppSchema({ path: routes.tool(t.slug), name: t.name, description: t.description }))} />
     </>

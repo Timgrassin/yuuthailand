@@ -3,7 +3,7 @@ import Link from "next/link";
 import { PageHero } from "@/components/marketing/page-hero";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { Card, Container } from "@/components/ui/primitives";
-import { COUNTRIES } from "@/content/countries";
+import { COUNTRIES, people } from "@/content/countries";
 import { pageMetadata } from "@/lib/seo/metadata";
 import { routes } from "@/lib/seo/routes";
 
@@ -18,7 +18,7 @@ export default function CountriesHub() {
           <Link key={c.slug} href={routes.country(c.slug)} className="group">
             <Card className="flex h-full items-center gap-4 transition-all group-hover:-translate-y-0.5 group-hover:shadow-lift">
               <span className="text-3xl" aria-hidden>{String.fromCodePoint(...[...c.iso2.toUpperCase()].map((ch) => 0x1f1e6 + ch.charCodeAt(0) - 65))}</span>
-              <span><span className="block font-display text-lg">{c.name}</span><span className="text-sm text-muted">For {c.demonym}s</span></span>
+              <span><span className="block font-display text-lg">{c.name}</span><span className="text-sm text-muted">For {people(c)}</span></span>
             </Card>
           </Link>
         ))}

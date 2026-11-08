@@ -10,16 +10,18 @@ import { PageHero } from "@/components/marketing/page-hero";
 import { Toc } from "@/components/marketing/toc";
 import { AnswerBlock } from "@/components/seo/answer-block";
 import { JsonLd } from "@/components/seo/json-ld";
+import { RelatedLinks } from "@/components/seo/related-links";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { Faq } from "@/components/ui/faq";
 import { Button, Card, Container } from "@/components/ui/primitives";
-import { VISA_CONTENT, getGuide, guidesForTrack } from "@/content";
+import { VISA_CONTENT } from "@/content";
 import { md } from "@/content/render";
 import { visaFacts } from "@/lib/visa-facts";
 import { EmailCapture } from "@/components/blocks/email-capture";
 import { getPrograms, getRules, latestDate, type Rule } from "@/lib/data";
 import { fmtValue } from "@/lib/format";
 import { pageMetadata } from "@/lib/seo/metadata";
+import { relatedForTrack, trackGuides } from "@/lib/seo/related";
 import { routes } from "@/lib/seo/routes";
 import { articleSchema, graph } from "@/lib/seo/schema";
 import { TRACKS, TRACK_INFO, trackBySlug, trackName } from "@/lib/tracks";
@@ -76,7 +78,7 @@ export default async function TrackPage({ params }: P) {
   const ruleSources = [...new Set(rules.map((r) => r.source_url).filter(Boolean) as string[])];
   const name = trackName(track);
   const f = visaFacts(rules, track);
-  const guides = [...new Set([...(c?.related ?? []), ...guidesForTrack(track).map((g) => g.slug)])].map(getGuide).filter(Boolean).slice(0, 6);
+  const guides = trackGuides(track);
   const faqs = [...faqFrom(rules, track), ...(c?.faqs ?? [])];
   const toc = [
     c ? { id: "who", label: "Who it suits" } : null,
@@ -214,6 +216,7 @@ export default async function TrackPage({ params }: P) {
         </aside>
       </Container>
 
+      <RelatedLinks groups={relatedForTrack(track)} />
       <CtaBand title={`Not sure the ${trackName(track, true)} is right?`} body="The checker scores all eight long-stay routes against your age, savings, income and purpose." primary={{ href: routes.checker(), label: "Run the visa checker" }} secondary={{ href: routes.rules(), label: "Compare all visas" }} />
       {updated ? <JsonLd data={graph(articleSchema({ path: routes.rule(slug), headline: name, description: TRACK_INFO[track].desc, publishedAt: rules.map((r) => r.effective_from).sort()[0] ?? updated, updatedAt: c?.updated && c.updated > updated ? c.updated : updated, authorName: "Staylong", citations: ruleSources }))} /> : null}
     </>
