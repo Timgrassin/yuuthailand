@@ -76,7 +76,7 @@ You need a criminal record certificate from your country of nationality or the c
 |---|---|---|---|
 | United States | FBI Identity History Summary (not a state check) | Issued within 3 months | Stated by the Thai consulate in Los Angeles and the embassy in Washington |
 | United Kingdom | ACRO police certificate (or Irish police certificate) | Issued within 6 months of submission | Stated by the Thai embassy in London |
-| Australia | Not confirmed | Not confirmed | Check your mission: [Royal Thai Embassy Canberra](https://canberra.thaiembassy.org/destination-thailand-visa-dtv) |
+| Australia | Not confirmed | Not confirmed | Check your mission: [Royal Thai Embassy Canberra](https://canberra.thaiembassy.org/en/content/destination-thailand-visa-dtv) |
 | Canada | Not confirmed | Not confirmed | Check your mission: [Royal Thai Embassy Ottawa](https://ottawa.thaiembassy.org/en/page/types-of-visas-periods-of-stay-and-fees) |
 | Germany | Not confirmed | Not confirmed | Check your mission: [Royal Thai Consulate-General Frankfurt](https://frankfurt.thaiembassy.org/de/page/destination-thailand-visa-dtv-thai-soft-power) (Berlin and Munich cover other states) |
 

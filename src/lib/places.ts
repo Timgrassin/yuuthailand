@@ -27,7 +27,8 @@ export const poiSource = { label: `Map data: ${DATA.source} (${DATA.license})`, 
 
 export type Poi = { id: string; cat: PoiCat; name: string; lat: number; lng: number; street: string; website: string };
 export function poisFor(slug: string): Poi[] {
-  return (DATA.places[slug] ?? []).map(([cat, name, lat, lng, street, website, ref]) => ({ id: ref, cat, name, lat, lng, street, website }));
+  // OpenStreetMap allows several websites separated by ";". Only the first is a usable link.
+  return (DATA.places[slug] ?? []).map(([cat, name, lat, lng, street, website, ref]) => ({ id: ref, cat, name, lat, lng, street, website: website.split(";")[0].trim() }));
 }
 
 export const getPlace = (slug: string) => PLACES.find((p) => p.slug === slug);

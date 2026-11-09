@@ -85,8 +85,8 @@ const SAMUI_IMM = {
   url: "https://kohplanner.com/immigration-office-koh-samui/",
 };
 const PHANGAN_IMM = {
-  label: "Phanganist: immigration office opening on Koh Phangan (secondary)",
-  url: "https://phanganist.com/koh-phangan-news-visa-koh-phangan-life-article/immigration-office-opening-koh-phangan",
+  label: "Phanganist: immigration office opening on Koh Phangan (secondary, archived)",
+  url: "https://web.archive.org/web/20260122170539/https://phanganist.com/koh-phangan-news-visa-koh-phangan-life-article/immigration-office-opening-koh-phangan",
 };
 const KRABI_IMM = {
   label: "Thai Visa Services: Krabi Immigration Office, Sai Thai (secondary)",

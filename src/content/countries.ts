@@ -209,7 +209,7 @@ export const COUNTRIES: CountryData[] = [
     ],
     sources: [
       TAT_EXEMPTION,
-      { label: "Royal Thai Embassy Canberra: DTV", url: "https://canberra.thaiembassy.org/destination-thailand-visa-dtv" },
+      { label: "Royal Thai Embassy Canberra: DTV", url: "https://canberra.thaiembassy.org/en/content/destination-thailand-visa-dtv" },
       { label: "Royal Thai Embassy Canberra: visa (NSW residents to Sydney)", url: "https://canberra.thaiembassy.org/en/content/visa" },
       { label: "Australian Embassy Thailand: consular FAQs", url: "https://thailand.embassy.gov.au/bkok/Consular_FAQs.html" },
       { label: "Australian Consulate-General Phuket: notarial services", url: "https://phuket.consulate.gov.au/pket/Notarialservices.html" },
