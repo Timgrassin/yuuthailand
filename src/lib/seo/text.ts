@@ -70,6 +70,7 @@ export function listingTitle({ name, city, type, slug, address }: Listing): stri
   const placed = [full, noBrackets, firstPart].map(place).find((t) => t.length <= TITLE_MAX) ?? place(shortened);
 
   const label = TYPE_LABELS[type] ?? type.replace(/_/g, " ");
-  const isGeneric = placed.toLowerCase().includes(label.split(" ")[0].toLowerCase());
-  return firstFit(isGeneric ? placed : `${placed}: ${label}`, placed);
+  // Skip a label that repeats the name, unless the title would otherwise be too short to say much.
+  const redundant = placed.length >= 20 && placed.toLowerCase().includes(label.split(" ")[0].toLowerCase());
+  return firstFit(redundant ? placed : `${placed}: ${label}`, placed);
 }

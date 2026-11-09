@@ -28,7 +28,7 @@ export function ProviderList({ providers, heading, moreHeading, listName, showCi
           <ul className="gap-8 text-sm sm:columns-2 lg:columns-3">
             {rest.map((p) => (
               <li key={p.id} className="break-inside-avoid py-1">
-                <Link href={routes.provider(p.slug)} prefetch={false} className="text-primary hover:underline">{p.name_en}</Link>{" "}
+                <Link href={routes.provider(p.slug)} prefetch={false} className="text-primary underline">{p.name_en}</Link>{" "}
                 <span className="text-xs text-muted">{showCity ? `${p.city_name_en} · ` : ""}{statusLabels[p.status] ?? statusLabels.unverified}</span>
               </li>
             ))}

@@ -12,6 +12,10 @@ test("listing titles fit, with the type added only when there is room and it add
   }
 });
 
+test("very short names keep their label", () => {
+  assert.equal(listing("HD Visa", "Koh Samui", "visa_agent"), "HD Visa, Koh Samui: visa agent");
+});
+
 test("a city already in the name is not repeated, and a bracketed city label is dropped", () => {
   assert.equal(listing("Tiger Muay Thai Bangkok", "Bangkok", "muay_thai_camp"), "Tiger Muay Thai Bangkok");
   assert.equal(listing("Saranya School", "Korat (Nakhon Ratchasima)", "massage_school"), "Saranya School, Korat: massage school");

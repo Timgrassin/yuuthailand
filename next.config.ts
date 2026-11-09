@@ -1,6 +1,10 @@
 import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   poweredByHeader: false,
+  async rewrites() {
+    const filtered = (key: string) => ({ source: "/providers", has: [{ type: "query" as const, key }], destination: "/providers/filtered" });
+    return { beforeFiles: ["city", "track", "q"].map(filtered), afterFiles: [], fallback: [] };
+  },
   async headers() {
     return [
       {
