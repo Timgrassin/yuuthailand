@@ -15,7 +15,7 @@ const PATH = "/mcp-server";
 export const metadata: Metadata = pageMetadata({
   path: PATH,
   title: "Thailand visa MCP server for Claude, ChatGPT and Cursor",
-  description: "Connect your AI assistant to Staylong's Thailand long-stay data: current visa rules, eligibility checks, immigration offices, places to live and schools with their verification status. Free, no key.",
+  description: "Connect your AI assistant to Staylong's Thailand visa rules, eligibility checks, immigration offices and places to live. Free, no key.",
   updatedAt: "2026-11-04",
 });
 

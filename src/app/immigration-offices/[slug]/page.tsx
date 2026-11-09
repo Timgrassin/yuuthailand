@@ -16,6 +16,7 @@ import { Card, Container } from "@/components/ui/primitives";
 import { IMMIGRATION_OFFICES, PLACES, POI_META, distanceKm, geoConfirmed, getOffice, officePinNote, officesInCity } from "@/lib/places";
 import { pageMetadata } from "@/lib/seo/metadata";
 import { routes } from "@/lib/seo/routes";
+import { firstFit } from "@/lib/seo/text";
 import { breadcrumbSchema, faqSchema, graph, officeSchema } from "@/lib/seo/schema";
 
 export const dynamicParams = false;
@@ -29,8 +30,8 @@ export async function generateMetadata({ params }: P): Promise<Metadata> {
   if (!o) return {};
   return pageMetadata({
     path: routes.office(o.slug),
-    title: `${o.name}: hours, address and 90-day report tips`,
-    description: `Address, opening hours, services and queue tips for ${o.name}. Where to do your 90-day report, extension and TM30 in ${o.city}.`,
+    title: firstFit(`${o.name}: hours, address and 90-day report tips`, `${o.name}: hours and 90-day reports`, `${o.name}: hours and address`, o.name),
+    description: `Address, hours and queue tips for ${o.name}. Where to file 90-day reports, extensions and TM30 in ${o.city}.`,
     updatedAt: o.updated,
   });
 }

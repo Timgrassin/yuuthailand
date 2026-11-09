@@ -11,6 +11,11 @@ import { embassySchema, graph } from "@/lib/seo/schema";
 import { trackName } from "@/lib/tracks";
 
 export const revalidate = 86400;
+
+// An empty list turns on incremental caching for these pages.
+export function generateStaticParams() {
+  return [];
+}
 type P = { params: Promise<{ slug: string }> };
 
 export async function generateMetadata({ params }: P): Promise<Metadata> {

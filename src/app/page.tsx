@@ -20,7 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return pageMetadata({
     path: "/",
     title: "Staylong: Thailand long-stay visas, compared and checked",
-    description: "Find the right Thailand long-stay visa in minutes. DTV, education, retirement, LTR and more, compared against current rules with official sources. Schools and providers with a public status.",
+    description: "Find the right Thailand long-stay visa in minutes. Compare DTV, education, retirement and LTR against current rules, with official sources.",
   });
 }
 

@@ -27,10 +27,14 @@ export function PoiMap({ points, categories, center, zoom, height = 520, initial
   const [active, setActive] = useState<string | null>(null);
   const color = useMemo(() => Object.fromEntries(categories.map((c) => [c.id, c.color])), [categories]);
   const visible = points.filter((p) => on.has(p.cat));
+  // Read when the map finally loads, so layers switched off before then stay off.
+  const onRef = useRef(on);
+  onRef.current = on;
 
+  // MapLibre is heavy, so it loads only when the map is about to scroll into view.
   useEffect(() => {
     let cancelled = false;
-    (async () => {
+    const start = async () => {
       const ml = await import("maplibre-gl");
       if (cancelled || !el.current || map.current) return;
       const m = new ml.Map({ container: el.current, style: STYLE, center, zoom, attributionControl: { compact: true }, cooperativeGestures: true });
@@ -41,17 +45,24 @@ export function PoiMap({ points, categories, center, zoom, height = 520, initial
         dot.type = "button";
         dot.setAttribute("aria-label", p.name);
         dot.className = "sl-pin";
-        dot.style.background = color[p.cat] ?? "#0b5e4f";
+        dot.style.setProperty("--pin", color[p.cat] ?? "#0b5e4f");
         const popup = new ml.Popup({ offset: 14, closeButton: false }).setHTML(
           `<div class="sl-pop"><strong>${escapeHtml(p.name)}</strong>${p.sub ? `<span>${escapeHtml(p.sub)}</span>` : ""}${safeHref(p.href) ? `<a href="${escapeHtml(p.href!)}"${p.href!.startsWith("/") ? "" : ' rel="noopener nofollow" target="_blank"'}>${p.href!.startsWith("/") ? "View page" : "Website"}</a>` : ""}</div>`,
         );
         const mk = new ml.Marker({ element: dot }).setLngLat([p.lng, p.lat]).setPopup(popup).addTo(m);
         dot.addEventListener("click", () => setActive(p.id));
+        if (!onRef.current.has(p.cat)) dot.style.display = "none";
         markers.current.set(p.id, mk);
       }
-    })();
+    };
+    const seen = new IntersectionObserver((entries) => {
+      if (!entries.some((e) => e.isIntersecting)) return;
+      seen.disconnect();
+      void start();
+    }, { rootMargin: "200px" });
+    if (el.current) seen.observe(el.current);
     const mks = markers.current;
-    return () => { cancelled = true; map.current?.remove(); map.current = null; mks.clear(); };
+    return () => { cancelled = true; seen.disconnect(); map.current?.remove(); map.current = null; mks.clear(); };
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {

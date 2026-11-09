@@ -15,8 +15,7 @@ export function organizationSchema(): Thing {
     description: SITE_TAGLINE,
     logo: `${siteUrl()}/logo.png`,
     areaServed: { "@type": "Country", name: "Thailand" },
-    // Add LINE OA, Facebook, YouTube, Wikidata once they exist: entity disambiguation for AI engines.
-    sameAs: [] as string[],
+    // Add sameAs with LINE OA, Facebook, YouTube and Wikidata once they exist: entity disambiguation for AI engines.
   };
 }
 
@@ -90,11 +89,11 @@ export function providerSchema(p: ProviderInput): Thing {
   };
 }
 
-export function itemListSchema(name: string, items: { name: string; path: string }[]): Thing {
+export function itemListSchema(name: string, items: { name: string; path: string }[], total = items.length): Thing {
   return {
     "@type": "ItemList",
     name,
-    numberOfItems: items.length,
+    numberOfItems: total,
     itemListElement: items.map((it, i) => ({ "@type": "ListItem", position: i + 1, name: it.name, url: absoluteUrl(it.path) })),
   };
 }
@@ -120,7 +119,8 @@ export function articleSchema(a: { path: string; headline: string; description: 
     inLanguage: "en",
     datePublished: a.publishedAt,
     dateModified: a.updatedAt,
-    author: { "@type": "Person", name: a.authorName, jobTitle: a.authorRole },
+    image: absoluteUrl("/og.png"),
+    author: a.authorName === SITE_NAME ? { "@id": ORG_ID() } : { "@type": "Person", name: a.authorName, jobTitle: a.authorRole },
     publisher: { "@id": ORG_ID() },
     citation: a.citations,
   };
@@ -157,6 +157,12 @@ export function placeSchema(p: { path: string; name: string; city: string; descr
   };
 }
 
+// schema.org wants "Mo-Fr 08:30-16:30". Free-text hours that do not follow the weekday pattern are left out.
+export function schemaHours(hours: string | null | undefined): string[] | undefined {
+  const m = hours?.match(/^Mon to Fri ((?:\d\d:\d\d to \d\d:\d\d(?: and )?)+)/);
+  return m ? [...m[1].matchAll(/(\d\d:\d\d) to (\d\d:\d\d)/g)].map((h) => `Mo-Fr ${h[1]}-${h[2]}`) : undefined;
+}
+
 // Thai immigration offices.
 export function officeSchema(o: { path: string; name: string; city: string; address: string; lat: number; lng: number; phone?: string | null; website?: string | null; hours?: string | null; exactGeo: boolean }): Thing {
   return {
@@ -167,7 +173,7 @@ export function officeSchema(o: { path: string; name: string; city: string; addr
     geo: o.exactGeo ? { "@type": "GeoCoordinates", latitude: o.lat, longitude: o.lng } : undefined,
     telephone: o.phone ?? undefined,
     sameAs: o.website ? [o.website] : undefined,
-    openingHours: o.hours ?? undefined,
+    openingHours: schemaHours(o.hours),
     parentOrganization: { "@type": "GovernmentOrganization", name: "Immigration Bureau, Royal Thai Police", url: "https://www.immigration.go.th/en/" },
   };
 }

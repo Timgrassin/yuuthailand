@@ -21,7 +21,7 @@ export function NinetyDayCalculator() {
           <Stat label="Last day, no fine" value={longDate(addDays(due, 7))} note="7 days after" />
         </Panel>
         <Panel>
-          <h3 className="font-sans font-semibold">Following reports, if you stay</h3>
+          <h2 className="font-sans text-base font-semibold">Following reports, if you stay</h2>
           <ul className="mt-3 divide-y divide-line">{next.map((d, i) => <li key={i} className="flex justify-between py-2 text-[15px]"><span className="text-muted">Report {i + 2}</span><span className="font-semibold">{longDate(d)}</span></li>)}</ul>
         </Panel>
         <EmailCapture title="Get a reminder before each report" body="We email you when your filing window opens, so you never pay a late fine." leadMagnet="ninety_day_reminders" meta={{ start, due: toISO(due) }} />

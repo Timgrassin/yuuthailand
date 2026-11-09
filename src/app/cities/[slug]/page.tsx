@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { PageHero } from "@/components/marketing/page-hero";
 import { notFound } from "next/navigation";
-import { ProviderCard } from "@/components/blocks/provider-card";
+import { ProviderList } from "@/components/blocks/provider-list";
 import { AnswerBlock } from "@/components/seo/answer-block";
-import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { Container, EmptyState } from "@/components/ui/primitives";
 import Link from "next/link";
@@ -11,7 +10,6 @@ import { getCities, getCity, getProviders } from "@/lib/data";
 import { isIndexableCity } from "@/lib/listing";
 import { pageMetadata } from "@/lib/seo/metadata";
 import { routes } from "@/lib/seo/routes";
-import { graph, itemListSchema } from "@/lib/seo/schema";
 import { TRACK_INFO, trackName } from "@/lib/tracks";
 
 export const revalidate = 3600;
@@ -55,9 +53,8 @@ export default async function CityPage({ params }: P) {
         ))}
       </div>
       <div className="mt-8">
-        {providers.length ? <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{providers.map((p) => <ProviderCard key={p.id} p={p} />)}</div> : <EmptyState>{`We are checking providers in ${name} now.`}</EmptyState>}
+        {providers.length ? <ProviderList providers={providers} heading={`Schools and providers in ${name}`} moreHeading={`All other listings in ${name}`} listName={name} /> : <EmptyState>{`We are checking providers in ${name} now.`}</EmptyState>}
       </div>
-      {providers.length ? <JsonLd data={graph(itemListSchema(name, providers.map((p) => ({ name: p.name_en, path: routes.provider(p.slug) }))))} /> : null}
     </Container>
     </>
   );

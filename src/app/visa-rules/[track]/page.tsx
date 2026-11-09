@@ -23,6 +23,7 @@ import { fmtValue } from "@/lib/format";
 import { pageMetadata } from "@/lib/seo/metadata";
 import { relatedForTrack, trackGuides } from "@/lib/seo/related";
 import { routes } from "@/lib/seo/routes";
+import { firstFit } from "@/lib/seo/text";
 import { articleSchema, graph } from "@/lib/seo/schema";
 import { TRACKS, TRACK_INFO, trackBySlug, trackName } from "@/lib/tracks";
 
@@ -43,7 +44,7 @@ export async function generateMetadata({ params }: P): Promise<Metadata> {
   const year = new Date().getFullYear();
   return pageMetadata({
     path: routes.rule(slug),
-    title: `${trackName(track)}: requirements and cost (${year})`,
+    title: firstFit(`${trackName(track)}: requirements and cost (${year})`, `${trackName(track)}: requirements, cost (${year})`),
     description: `${TRACK_INFO[track].desc}${funds ? ` Money test: ${fmtValue(funds)}.` : ""} Fees, stay length, documents and official sources.`,
     updatedAt: latestDate(rules),
   });

@@ -106,8 +106,10 @@ h1, h2, h3, .font-display { font-family: var(--font-display); letter-spacing: -0
 .prose-sl thead th { background: var(--sl-sunken); color: var(--sl-ink); font-family: var(--font-sans); font-weight: 600; }
 
 /* Map pins and popups */
-.sl-pin { width: 16px; height: 16px; border-radius: 99px; border: 2.5px solid #fff; box-shadow: 0 1px 4px rgb(0 0 0 / .35); cursor: pointer; padding: 0; }
-.sl-pin:hover { transform: scale(1.25); }
+/* A 24px tap target around a 16px dot. Only the dot scales: MapLibre positions the button itself with a transform. */
+.sl-pin { display: grid; place-items: center; width: 24px; height: 24px; padding: 0; border: 0; background: transparent; cursor: pointer; }
+.sl-pin::before { content: ""; width: 16px; height: 16px; border-radius: 99px; background: var(--pin); border: 2.5px solid #fff; box-shadow: 0 1px 4px rgb(0 0 0 / .35); }
+.sl-pin:hover::before { transform: scale(1.25); }
 .maplibregl-popup-content { border-radius: 12px !important; padding: 10px 12px !important; box-shadow: var(--sl-shadow-lg) !important; font-family: var(--font-sans); }
 .sl-pop { display: grid; gap: 2px; font-size: 13px; color: var(--sl-ink); }
 .sl-pop span { color: var(--sl-muted); }

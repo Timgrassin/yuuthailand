@@ -1,14 +1,12 @@
 import type { Metadata } from "next";
 import { PageHero } from "@/components/marketing/page-hero";
-import { ProviderCard } from "@/components/blocks/provider-card";
+import { ProviderList } from "@/components/blocks/provider-list";
 import { AnswerBlock } from "@/components/seo/answer-block";
-import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { Container, EmptyState } from "@/components/ui/primitives";
 import { getCities, getPrograms, getProviders } from "@/lib/data";
 import { pageMetadata } from "@/lib/seo/metadata";
 import { routes } from "@/lib/seo/routes";
-import { graph, itemListSchema } from "@/lib/seo/schema";
 import { TRACKS, trackName } from "@/lib/tracks";
 
 export const dynamic = "force-dynamic";
@@ -19,8 +17,8 @@ export async function generateMetadata({ searchParams }: P): Promise<Metadata> {
   const sp = await searchParams;
   return pageMetadata({
     path: routes.providers(),
-    title: "Verified visa schools and providers in Thailand",
-    description: "Language schools, Muay Thai camps and visa providers in Thailand with a verification status and the date we last checked.",
+    title: "Visa schools and long-stay providers in Thailand",
+    description: "Language schools, Muay Thai camps and visa agents in Thailand. Every listing shows its verification status and where its facts come from.",
     // Filtered views are duplicates of city pages: keep them out of the index.
     noindex: Boolean(sp.city || sp.track || sp.q),
   });
@@ -59,12 +57,11 @@ export default async function ProvidersPage({ searchParams }: P) {
 
       <div className="mt-8">
         {list.length ? (
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{list.map((p) => <ProviderCard key={p.id} p={p} />)}</div>
+          <ProviderList providers={list} heading={`${list.length} schools and providers`} moreHeading="All other listings" listName="Visa providers in Thailand" showCity />
         ) : (
           <EmptyState>{"No providers match yet. We add and verify providers every week."}</EmptyState>
         )}
       </div>
-      {list.length ? <JsonLd data={graph(itemListSchema("Visa providers in Thailand", list.map((p) => ({ name: p.name_en, path: routes.provider(p.slug) }))))} /> : null}
     </Container>
     </>
   );

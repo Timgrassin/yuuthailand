@@ -19,11 +19,17 @@ import { fmtDate, fmtNumber } from "@/lib/format";
 import { isIndexableListing } from "@/lib/listing";
 import { pageMetadata } from "@/lib/seo/metadata";
 import { relatedForProvider } from "@/lib/seo/related";
+import { listingDescription, listingTitle } from "@/lib/seo/text";
 import { routes } from "@/lib/seo/routes";
 import { graph, providerSchema } from "@/lib/seo/schema";
 import { trackName } from "@/lib/tracks";
 
 export const revalidate = 3600;
+
+// An empty list turns on incremental caching: each page is built on its first visit, then served from the CDN.
+export function generateStaticParams() {
+  return [];
+}
 
 type P = { params: Promise<{ slug: string }> };
 
@@ -35,8 +41,8 @@ export async function generateMetadata({ params }: P): Promise<Metadata> {
   const city = p.city_name_en;
   return pageMetadata({
     path: routes.provider(slug),
-    title: `${name}, ${city}: visa support, programs and verification`,
-    description: p.summary_en ?? `${name} in ${city}. Verification status, programs and prices.`,
+    title: listingTitle({ name, city, type: p.provider_type, slug, address: p.address_en }),
+    description: listingDescription(p.summary_en ?? `${name} in ${city}. Verification status, programs and prices.`),
     // D14/D23: scraped listings stay noindex until verified, described or enriched with 3+ quoted facts.
     noindex: !isIndexableListing(p),
     updatedAt: p.updated_at,

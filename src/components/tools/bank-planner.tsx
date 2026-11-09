@@ -24,7 +24,7 @@ export function BankPlanner({ beforeMonths = 2, afterMonths = 3, floor = 400000,
             <li key={s.title} className="relative">
               <span className="absolute -left-[2.85rem] flex size-9 items-center justify-center rounded-full border-2 border-bg bg-primary font-semibold text-primary-ink">{i + 1}</span>
               <p className="text-sm font-semibold text-primary-2">{longDate(s.date)}</p>
-              <h3 className="mt-1 font-sans text-lg font-semibold">{s.title}</h3>
+              <h2 className="mt-1 font-sans text-lg font-semibold">{s.title}</h2>
               <p className="mt-1 text-ink-2">{s.body}</p>
             </li>
           ))}

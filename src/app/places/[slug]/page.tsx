@@ -18,6 +18,7 @@ import { getProviders } from "@/lib/data";
 import { PLACES, POI_META, POI_ORDER, getPlace, placeMap, placesInCity, poiSource } from "@/lib/places";
 import { pageMetadata } from "@/lib/seo/metadata";
 import { routes } from "@/lib/seo/routes";
+import { firstFit } from "@/lib/seo/text";
 import { breadcrumbSchema, faqSchema, graph, placeSchema } from "@/lib/seo/schema";
 
 export const revalidate = 86400;
@@ -36,8 +37,8 @@ export async function generateMetadata({ params }: P): Promise<Metadata> {
   const where = p.kind === "neighbourhood" ? `${p.name}, ${p.city}` : p.name;
   return pageMetadata({
     path: routes.place(p.slug),
-    title: `Living in ${where}: long-stay guide and map`,
-    description: `${p.tagline} Immigration office, banks, hospitals, coworking and schools on one map, plus visa notes for long stays.`,
+    title: firstFit(`Living in ${where}: long-stay guide and map`, `Living in ${where}: guide and map`, `Living in ${where}`),
+    description: `${p.tagline} Immigration, banks, hospitals and schools on one map, plus visa notes.`,
     updatedAt: p.updated,
   });
 }
