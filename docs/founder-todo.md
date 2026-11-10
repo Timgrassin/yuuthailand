@@ -9,7 +9,7 @@ Updated 6 Nov 2026. Items are in priority order. DNS for staylong.co is at Namec
 | 3 | ~~Google Search Console + sitemap~~ Done 6 Nov | 15 min | Google indexing |
 | 4 | ~~Bing Webmaster Tools + sitemap~~ Done 6 Nov | 5 min | Bing, ChatGPT search, Copilot |
 | 5 | Set up Resend: done except **push `main`, then test with your own email** | 2 min | Every email capture on the site |
-| 6 | Book an expert reviewer: **2 drafts in Gmail (tim@wangift.com), review and send** | 1 to 3 days | "Pending expert review" badges, E-E-A-T |
+| 6 | Book an expert reviewer: **set up hello@staylong.co sending (item 13), then send the 2 emails in `docs/outreach/reviewer-emails.md`. Do not send the wangift drafts.** | 1 to 3 days | "Pending expert review" badges, E-E-A-T |
 | 7 | Legal review of consent text v1 (CSV and a v2 draft in `docs/legal/`) | 1 to 5 days | Lawful lead capture under PDPA |
 | 8 | ~~Decide three open questions~~ Defaults applied 6 Nov; 3 listings suspended; **run `cleanup-2026-11-06.sql` to delete them** | 2 min | Lead flow and directory quality |
 | 9 | ~~Upload the `/handoff` design files~~ Done 6 Nov from `~/Dropbox/Mac/Downloads/yuu-claude-code-handoff.zip`; tokens and font applied (D26) | 0 min | Final design tokens |
@@ -219,3 +219,41 @@ The 5 Nov full scrape ran 31 Google Maps actor runs.
 `fx_rates` was seeded on 6 Nov with the Bank of Thailand USD reference rate for 5 Nov 2026 (33.4310 THB). It is a one-off value; a scheduled refresh is not set up yet.
 
 The MCP registry name `io.github.Timgrassin/staylong` can move to `co.staylong/staylong` later. It needs one key pair stored as a GitHub secret. Ask Claude when you want it.
+
+---
+
+## 13. Send personal email as hello@staylong.co (D32)
+
+All Staylong email goes out from `@staylong.co`. Namecheap already forwards `hello@staylong.co` to your Gmail. This step lets that Gmail also send as `hello@staylong.co`, through Resend's SMTP server on the already verified domain. Cost: 0.
+
+Part A: a Resend key for Gmail
+
+1. Open https://resend.com/api-keys and log in.
+2. Click **Create API Key**.
+3. Name: `gmail-smtp`. Permission: **Sending access**. Domain: `staylong.co`.
+4. Click **Add**. Copy the key (starts with `re_`). Keep the tab open. Do not paste it in any chat.
+
+Part B: Gmail "Send mail as"
+
+5. Open Gmail in the account that receives the hello@ forwards.
+6. Click the gear icon, then **See all settings**.
+7. Open the **Accounts and Import** tab (Workspace accounts: **Accounts**).
+8. Next to **Send mail as**, click **Add another email address**.
+9. Name: `Tim Grassin | Staylong`. Email: `hello@staylong.co`. Leave **Treat as an alias** ticked. Click **Next Step**.
+10. SMTP Server: `smtp.resend.com`. Port: `465`. Username: `resend`. Password: the key from step 4.
+11. Select **Secured connection using SSL**. Click **Add Account**.
+12. Gmail sends a code to hello@staylong.co. It arrives in this same inbox through the Namecheap forward. Open it and click the link, or paste the code.
+13. Back in **Accounts and Import**, under **When replying to a message**, select **Reply from the same address the message was sent to**.
+14. Optional: click **make default** next to hello@staylong.co if this Gmail is used mainly for Staylong.
+
+Part C: test
+
+15. Click **Compose**. In the **From** field, pick `hello@staylong.co`.
+16. Send a test to another address you own. Check it arrives, shows hello@staylong.co, and is not in spam.
+17. Reply to it from the other address. The reply should land in this Gmail.
+
+Part D: the reviewer emails
+
+18. Open `docs/outreach/reviewer-emails.md` on GitHub.
+19. For each of the 2 emails: Compose, From `hello@staylong.co`, paste To, subject and body, send.
+20. Delete the two old drafts in tim@wangift.com (Gmail, **Drafts**, subject "Paid review request").
