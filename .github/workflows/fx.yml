@@ -1,0 +1,35 @@
+name: Refresh exchange rates
+# Daily European Central Bank reference rates (api.frankfurter.dev, no key) into fx_rates (migration 0036).
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "40 16 * * 1-5" # 23:40 Bangkok, after the ECB publishes
+permissions: {}
+jobs:
+  fx:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Fetch and import
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_PUBLISHABLE_KEY: ${{ secrets.SUPABASE_PUBLISHABLE_KEY }}
+          STAYLONG_IMPORT_TOKEN: ${{ secrets.STAYLONG_IMPORT_TOKEN }}
+        run: |
+          node --input-type=module -e '
+          const cur = ["USD", "EUR", "GBP", "AUD"];
+          const rows = [];
+          for (const c of cur) {
+            const r = await fetch(`https://api.frankfurter.dev/v1/latest?base=${c}&symbols=THB`);
+            if (!r.ok) throw new Error(`frankfurter ${c} ${r.status}`);
+            const j = await r.json();
+            rows.push({ currency: c, as_of: j.date, thb_per_unit: j.rates.THB, source: "European Central Bank reference rate (frankfurter.dev)" });
+          }
+          const res = await fetch(`${process.env.SUPABASE_URL}/rest/v1/rpc/import_fx_rates`, {
+            method: "POST",
+            headers: { apikey: process.env.SUPABASE_PUBLISHABLE_KEY, "content-type": "application/json" },
+            body: JSON.stringify({ p_token: process.env.STAYLONG_IMPORT_TOKEN, p_rows: rows }),
+          });
+          console.log(res.status, await res.text(), JSON.stringify(rows));
+          if (!res.ok) process.exit(1);
+          '

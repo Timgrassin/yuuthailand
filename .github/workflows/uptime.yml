@@ -1,0 +1,29 @@
+name: Uptime
+# Every 30 minutes: the home page, the visa checker, a visa page and the MCP server must answer.
+# A failed run emails the repository owner (GitHub's default notification for failed scheduled workflows).
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+permissions: {}
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check staylong.co
+        run: |
+          set -u
+          fail=0
+          check() {
+            code=$(curl -s -o /tmp/body -w '%{http_code}' --max-time 30 "$@")
+            echo "$code ${*: -1}"
+            [ "$code" = "200" ] || fail=1
+          }
+          check https://staylong.co/
+          check https://staylong.co/checker
+          check https://staylong.co/visa-rules/dtv
+          check -X POST -H 'content-type: application/json' -H 'accept: application/json, text/event-stream' \
+            -d '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' https://staylong.co/mcp
+          grep -q '"search"' /tmp/body || { echo "MCP tools/list missing search"; fail=1; }
+          exit $fail
