@@ -114,3 +114,17 @@ h1, h2, h3, .font-display { font-family: var(--font-display); letter-spacing: -0
 .sl-pop { display: grid; gap: 2px; font-size: 13px; color: var(--sl-ink); }
 .sl-pop span { color: var(--sl-muted); }
 .sl-pop a { color: var(--sl-primary); font-weight: 600; margin-top: 4px; }
+
+/* Activity tiles: tinted art panels with a soft pattern, used where we have no photos. */
+.tile-art { position: relative; overflow: hidden; background: var(--art-bg); }
+.tile-art::before { content: ""; position: absolute; inset: 0; background:
+  radial-gradient(9rem 6rem at 0% 0%, rgb(255 255 255 / .55), transparent 70%),
+  repeating-linear-gradient(135deg, rgb(255 255 255 / .18) 0 2px, transparent 2px 14px); }
+.tile-art > * { position: relative; }
+.art-teal { --art-bg: linear-gradient(135deg, #CFE5DD, #9FCBBC); }
+.art-turmeric { --art-bg: linear-gradient(135deg, #FBE9C2, #F2C86E); }
+.art-clay { --art-bg: linear-gradient(135deg, #F6DDD0, #E7B49C); }
+.art-sage { --art-bg: linear-gradient(135deg, #E3EBD9, #BFD1A8); }
+.art-sky { --art-bg: linear-gradient(135deg, #DCE8F3, #AEC8E2); }
+.art-sand { --art-bg: linear-gradient(135deg, #F1EDE4, #DDD3C0); }
+@media (prefers-reduced-motion: reduce) { * { transition-duration: 0s !important; } }

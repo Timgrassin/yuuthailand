@@ -8,7 +8,7 @@ export function Container({ className, ...p }: ComponentProps<"div">) {
 }
 
 export const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-semibold transition-all duration-150 active:scale-[.98] disabled:pointer-events-none disabled:opacity-50",
+  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-[10px] font-semibold transition-all duration-150 active:scale-[.98] disabled:pointer-events-none disabled:opacity-50",
   {
     variants: {
       variant: {
@@ -19,7 +19,7 @@ export const buttonVariants = cva(
         light: "bg-white text-night hover:bg-white/90",
         outlineLight: "border border-white/30 text-white hover:bg-white/10",
       },
-      size: { sm: "h-9 px-4 text-sm", md: "h-11 px-5 text-[15px]", lg: "h-13 px-7 text-base" },
+      size: { sm: "h-9 px-4 text-sm", md: "h-11 px-5 text-[15px]", lg: "h-14 px-7 text-[17px]" },
     },
     defaultVariants: { variant: "primary", size: "md" },
   },

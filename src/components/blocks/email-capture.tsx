@@ -36,8 +36,8 @@ export function EmailCapture({ title, body, leadMagnet, button = "Email it to me
             <div aria-hidden className="hidden"><label>Website<input name="company_website" tabIndex={-1} autoComplete="off" /></label></div>
             <div className="flex flex-col gap-2 sm:flex-row">
               <label className="sr-only" htmlFor={`email-${leadMagnet}`}>Email</label>
-              <input id={`email-${leadMagnet}`} name="email" type="email" required autoComplete="email" placeholder="you@email.com" className="h-12 min-w-0 flex-1 rounded-full border border-line-strong bg-surface px-5 text-ink outline-none focus:border-primary focus:ring-2 focus:ring-primary/15" />
-              <button disabled={pending} className={`h-12 shrink-0 rounded-full px-6 font-semibold disabled:opacity-50 ${dark ? "bg-white text-night" : "bg-primary text-primary-ink hover:bg-primary-2"}`}>{button}</button>
+              <input id={`email-${leadMagnet}`} name="email" type="email" required autoComplete="email" spellCheck={false} placeholder="you@email.com" className="h-12 w-full min-w-0 rounded-[10px] sm:flex-1 border border-line-strong bg-surface px-5 text-ink outline-none focus:border-primary focus:ring-2 focus:ring-primary/15" />
+              <button disabled={pending} className={`h-12 shrink-0 rounded-[10px] px-6 font-semibold disabled:opacity-50 ${dark ? "bg-white text-night" : "bg-primary text-primary-ink hover:bg-primary-2"}`}>{button}</button>
             </div>
             <p className={`mt-3 text-xs ${dark ? "text-white/60" : "text-muted"}`}>We also email you when these visa rules change. One click to unsubscribe. No spam.</p>
             {state.error ? <p role="alert" className="mt-2 text-sm text-suspended">{state.error === "invalid" ? "Please enter a valid email." : "Something went wrong. Please try again."}</p> : null}
