@@ -128,3 +128,7 @@ h1, h2, h3, .font-display { font-family: var(--font-display); letter-spacing: -0
 .art-sky { --art-bg: linear-gradient(135deg, #DCE8F3, #AEC8E2); }
 .art-sand { --art-bg: linear-gradient(135deg, #F1EDE4, #DDD3C0); }
 @media (prefers-reduced-motion: reduce) { * { transition-duration: 0s !important; } }
+
+/* Numbered section headings on long pages (visa pages): "1. Who it suits". */
+.numbered { counter-reset: sec; }
+.numbered h2.sec::before { counter-increment: sec; content: counter(sec) ". "; }
