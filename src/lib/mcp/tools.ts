@@ -21,7 +21,8 @@ const READ_ONLY = { readOnlyHint: true, destructiveHint: false, idempotentHint: 
 const KINDS = ["guide", "visa", "faq", "nationality", "place", "immigration_office", "tool"];
 const trackSlugs = TRACKS.map((t) => TRACK_INFO[t].slug);
 const resolveTrack = (s: string) => (TRACKS as readonly string[]).includes(s) ? s : trackBySlug(s);
-const NOTE = "Information, not legal advice. Rules change: confirm with the Thai embassy or Immigration Bureau before you apply.";
+// Added to every tool result by the route.
+export const DISCLAIMER = "Information, not legal advice. Rules change: confirm with the Thai embassy or Immigration Bureau before you apply.";
 
 export const TOOL_DEFS: ToolDef[] = [
   {
@@ -30,7 +31,10 @@ export const TOOL_DEFS: ToolDef[] = [
     description: "Search Staylong's Thailand long-stay content: visa guides, rules, 150 FAQs, nationality pages, place guides, immigration offices and tools. Returns ids for the fetch tool.",
     inputSchema: { type: "object", properties: { query: { type: "string", description: "Natural-language query, e.g. 'DTV bank balance' or '90-day report Chiang Mai'" }, kind: { type: "string", enum: KINDS, description: "Optional filter" } }, required: ["query"] },
     run: async (a) => {
-      const results = search(String(a.query ?? ""), { kind: typeof a.kind === "string" ? a.kind : undefined }).map((d) => ({ id: d.id, title: d.title, url: d.url, text: d.summary }));
+      const query = String(a.query ?? "").trim();
+      if (query.length < 2) throw new Error("query is required: describe what you want, e.g. 'DTV bank balance' or '90-day report Chiang Mai'");
+      if (a.kind !== undefined && !KINDS.includes(String(a.kind))) throw new Error(`Unknown kind. Use one of ${KINDS.join(", ")}`);
+      const results = search(query, { kind: typeof a.kind === "string" ? a.kind : undefined }).map((d) => ({ id: d.id, title: d.title, url: d.url, text: d.summary }));
       return { results };
     },
   },
@@ -57,7 +61,6 @@ export const TOOL_DEFS: ToolDef[] = [
       return {
         track: TRACK_INFO[track as keyof typeof TRACK_INFO].name, url: absoluteUrl(routes.rule(TRACK_INFO[track as keyof typeof TRACK_INFO].slug)),
         rules: rules.map((r) => ({ key: r.key, label: r.label_en, value: r.value_num ?? r.value_json, unit: r.unit, note: r.note_en, effective_from: r.effective_from, source: r.source_url, confidence: r.confidence, expert_reviewed: !!r.reviewed_at })),
-        note: NOTE,
       };
     },
   },
@@ -83,7 +86,7 @@ export const TOOL_DEFS: ToolDef[] = [
       if (!parsed.success) throw new Error(`Invalid answers: ${z.prettifyError(parsed.error)}`);
       const [rules, usd] = await Promise.all([getRules(), getUsdRate()]);
       const results = evaluate(parsed.data, rules, usd.rate).map((r) => ({ visa: TRACK_INFO[r.track].name, verdict: r.verdict, score: r.score, reasons: r.reasons.map((x) => `${x.ok === true ? "Meets" : x.ok === false ? "Fails" : "Check"}: ${x.text}`), url: absoluteUrl(routes.rule(TRACK_INFO[r.track].slug)) }));
-      return { results, checker: absoluteUrl(routes.checker()), note: NOTE };
+      return { results, checker: absoluteUrl(routes.checker()) };
     },
   },
   {

@@ -221,8 +221,8 @@ export default async function ProviderPage({ params }: P) {
           {p.status !== "verified" ? (
             <Card className="mt-10">
               <h2 className="text-xl font-bold">Is this your school?</h2>
-              <p className="mt-2 text-sm text-ink-2">Claim the listing to correct details, add programs and prices, and get verified. Verified providers receive student enquiries.</p>
-              <Link href={`${routes.methodology()}#claim`} className="mt-3 inline-block text-sm font-semibold text-primary underline">Claim or correct this listing</Link>
+              <p className="mt-2 text-sm text-ink-2">Claim the listing to correct details, add programs and prices, and get verified. Verified providers can receive requests from students.</p>
+              <Link href={`${routes.forProviders()}?listing=${encodeURIComponent(p.ref_code)}#claim`} className="mt-3 inline-block text-sm font-semibold text-primary underline">Claim or correct this listing</Link>
             </Card>
           ) : null}
         </div>

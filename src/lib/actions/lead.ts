@@ -3,6 +3,7 @@ import { createHash } from "node:crypto";
 import { headers } from "next/headers";
 import { z } from "zod";
 import { requestConfirmationEmail } from "@/lib/email/confirmation";
+import { kickOutbox } from "@/lib/email/outbox";
 import { publicDb } from "@/lib/supabase/public";
 
 export type LeadState = { ok?: boolean; error?: "invalid" | "unavailable" | "rate"; fields?: string[] };
@@ -46,6 +47,7 @@ export async function submitLead(_prev: LeadState, form: FormData): Promise<Lead
   const { error } = await db.rpc("submit_lead", { p: { ...parsed.data, source_path: parsed.data.source_path || new URL(c.referer || "http://x/").pathname, ip_hash: c.ip_hash, user_agent: c.user_agent } });
   if (error) return { error: error.code === "53400" ? "rate" : error.code === "22023" ? "invalid" : "unavailable" };
   if (parsed.data.marketing === "on") await requestConfirmationEmail(parsed.data.email); // submit_lead subscribed them as pending
+  await kickOutbox(); // acknowledgement to the person, alert to the team, and any provider emails (migration 0035)
   return { ok: true };
 }
 

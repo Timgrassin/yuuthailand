@@ -30,7 +30,7 @@ export async function GET() {
     `- [Visa eligibility checker](${absoluteUrl(routes.checker())}): answers a few questions and returns the long-stay options that fit.`,
     `- [Visa rules](${absoluteUrl(routes.rules())}): current requirements per track, with effective dates and official sources.`,
     `- [Rule change log](${absoluteUrl(routes.ruleChanges())}): every change to the rules, dated. RSS: ${absoluteUrl("/feeds/rule-changes.xml")}`,
-    `- [Provider directory](${absoluteUrl(routes.providers())}): verified schools and providers with ref codes.`,
+    `- [Provider directory](${absoluteUrl(routes.providers())}): schools, camps and visa agents with ref codes and verification status.`,
     `- [Thai embassies abroad](${absoluteUrl(routes.embassies())})`,
     `- [How we verify](${absoluteUrl(routes.methodology())}): the verification method behind every status.`,
     "",

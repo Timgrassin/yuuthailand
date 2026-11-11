@@ -21,11 +21,11 @@ export async function Footer() {
         <FooterCol title="Visas" links={TRACKS.map((tr) => ({ href: routes.rule(TRACK_INFO[tr].slug), label: TRACK_INFO[tr].short === "Education" ? "Education (ED)" : TRACK_INFO[tr].short }))} />
         <FooterCol title="Free tools" links={[{ href: routes.checker(), label: "Visa checker" }, ...TOOLS.map((x) => ({ href: routes.tool(x.slug), label: x.name.replace("Thailand ", "") }))]} />
         <FooterCol title="Learn" links={[{ href: routes.guides(), label: "Guides" }, { href: routes.faq(), label: "FAQ" }, { href: routes.countries(), label: "By nationality" }, { href: routes.ruleChanges(), label: "Rule change log" }, { href: routes.embassies(), label: "Thai embassies" }, { href: "/mcp-server", label: "MCP server for AI" }]} />
-        <FooterCol title="Directory" links={[{ href: routes.places(), label: "Where to live" }, { href: routes.offices(), label: "Immigration offices" }, { href: routes.providers(), label: "All providers" }, { href: routes.city("bangkok"), label: "Bangkok" }, { href: routes.city("chiang-mai"), label: "Chiang Mai" }, { href: routes.city("phuket"), label: "Phuket" }, { href: routes.methodology(), label: "How we verify" }]} />
+        <FooterCol title="Directory" links={[{ href: routes.places(), label: "Where to live" }, { href: routes.offices(), label: "Immigration offices" }, { href: routes.providers(), label: "All providers" }, { href: routes.city("bangkok"), label: "Bangkok" }, { href: routes.city("chiang-mai"), label: "Chiang Mai" }, { href: routes.city("phuket"), label: "Phuket" }, { href: routes.methodology(), label: "How we verify" }, { href: routes.forProviders(), label: "For providers" }]} />
       </Container>
       <Container className="border-t border-line py-6 text-xs leading-relaxed text-muted">
         <p>{t.disclaimer}</p>
-        <p className="mt-2">© {new Date().getFullYear()} Staylong · <Link href={routes.cookies()} className="underline">Cookies</Link> · <CookieSettingsButton /></p>
+        <p className="mt-2">© {new Date().getFullYear()} Staylong · <Link href={routes.about()} className="underline">About</Link> · <Link href={routes.privacy()} className="underline">Privacy</Link> · <Link href={routes.terms()} className="underline">Terms</Link> · <Link href={routes.disclosures()} className="underline">How we make money</Link> · <Link href={routes.cookies()} className="underline">Cookies</Link> · <CookieSettingsButton /></p>
       </Container>
     </footer>
   );

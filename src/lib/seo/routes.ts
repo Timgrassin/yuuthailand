@@ -21,6 +21,13 @@ export const routes = {
   country: (slug: string) => `/visas-for/${slug}`,
   countries: () => "/visas-for",
   methodology: () => "/how-we-verify",
+  privacy: () => "/privacy",
+  privacyRequest: () => "/privacy/request",
+  terms: () => "/terms",
+  about: () => "/about",
+  disclosures: () => "/disclosures",
+  forProviders: () => "/for-providers",
+  leadResponse: (token: string) => `/lead/${token}`,
   places: () => "/places",
   place: (slug: string) => `/places/${slug}`,
   offices: () => "/immigration-offices",
@@ -28,4 +35,4 @@ export const routes = {
 } as const;
 
 // Never indexed: private, personal or internal surfaces.
-export const NOINDEX_PREFIXES = ["/admin", "/portal", "/api", "/dev", "/checker/r", "/auth", "/subscribe", "/unsubscribe"] as const;
+export const NOINDEX_PREFIXES = ["/admin", "/portal", "/api", "/dev", "/checker/r", "/auth", "/subscribe", "/unsubscribe", "/lead"] as const;

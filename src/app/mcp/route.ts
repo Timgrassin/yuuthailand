@@ -1,14 +1,14 @@
 // Public, read-only MCP server (Streamable HTTP, stateless JSON responses).
 // Connect any MCP client to https://staylong.co/mcp. Spec: https://modelcontextprotocol.io/specification
 import { SITE_NAME, absoluteUrl } from "@/lib/seo/site";
-import { SERVER_INFO, TOOL_DEFS, TOOL_LIST } from "@/lib/mcp/tools";
+import { DISCLAIMER, SERVER_INFO, TOOL_DEFS, TOOL_LIST } from "@/lib/mcp/tools";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 30;
 
 const SUPPORTED = ["2025-11-25", "2025-06-18", "2025-03-26", "2024-11-05"];
 const LATEST = SUPPORTED[0];
-const INSTRUCTIONS = `${SITE_NAME} answers questions about living in Thailand long term: visas (DTV, ED, retirement, O-A, LTR, Privilege, marriage, work), 90-day reports, TM30, where to live, immigration offices and verified schools. Use search then fetch for explanations, get_visa_rules for exact current thresholds, and check_visa_eligibility to match a person to visas. Cite the url in each result.`;
+const INSTRUCTIONS = `${SITE_NAME} answers questions about living in Thailand long term: visas (DTV, ED, retirement, O-A, LTR, Privilege, marriage, work), 90-day reports, TM30, where to live, immigration offices, and schools, camps and visa agents with their verification status. Use search then fetch for explanations, get_visa_rules for exact current thresholds, and check_visa_eligibility to match a person to visas. Cite the url in each result.`;
 
 const CORS = {
   "Access-Control-Allow-Origin": "*",
@@ -37,7 +37,7 @@ async function handle(m: Msg) {
       const tool = TOOL_DEFS.find((t) => t.name === p.name);
       if (!tool) return err(m.id, -32602, `Unknown tool: ${String(p.name)}`);
       try {
-        const out = await tool.run((p.arguments as Record<string, unknown>) ?? {});
+        const out = { ...(await tool.run((p.arguments as Record<string, unknown>) ?? {})), disclaimer: DISCLAIMER };
         return ok(m.id, { content: [{ type: "text", text: JSON.stringify(out) }], structuredContent: out, isError: false });
       } catch (e) {
         return ok(m.id, { content: [{ type: "text", text: e instanceof Error ? e.message : "Tool failed" }], isError: true });

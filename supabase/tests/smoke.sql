@@ -100,3 +100,44 @@ select pg_temp.check((select status = 'unsubscribed' and unsubscribed_at is not 
 set role service_role;
 select pg_temp.check((select count(*) from public.claim_confirmation_email('smoke@example.com')) = 0, 'no confirmation claim after unsubscribe');
 reset role;
+
+-- 0034 privacy requests, claims, outbox, retention; 0035 lead routing; 0036 fx import
+update providers set email = 'school@example.com';
+do $$ begin
+  perform set_config('smoke.city', (select id::text from cities where code = 'SMK'), false);
+  perform set_config('smoke.ref', (select ref_code from providers where slug = 'fake-school'), false);
+end $$;
+set role anon;
+select pg_temp.check(public.submit_lead(jsonb_build_object('full_name', 'FAKE Routed', 'email', 'routed@example.com', 'consent', 'on', 'track', 'ed', 'city_id', current_setting('smoke.city'))) is not null, 'submit_lead stores a lead');
+select pg_temp.expect_error($$select * from outbox$$, 'anon cannot read outbox');
+select pg_temp.expect_error($$select * from public.claim_outbox(5)$$, 'anon cannot claim outbox');
+select pg_temp.expect_error($$select public.erase_person('routed@example.com')$$, 'anon cannot erase');
+select pg_temp.expect_error($$select public.route_lead(gen_random_uuid())$$, 'anon cannot route');
+reset role;
+select pg_temp.check((select status = 'qualified' from leads where email = 'routed@example.com'), 'routed lead is qualified');
+select pg_temp.check((select count(*) = 1 from lead_deliveries d join leads l on l.id = d.lead_id where l.email = 'routed@example.com' and d.token ~ '^[0-9a-f]{64}$'), 'routed lead has one delivery with a token');
+select pg_temp.check((select count(*) = 3 from outbox where kind in ('provider_new_lead', 'lead_received', 'ops_new_lead')), 'provider, person and team emails queued');
+select pg_temp.check((select payload ->> 'email' is null and payload ->> 'track' = 'ed' from outbox where kind = 'provider_new_lead'), 'provider email has no contact details');
+do $$ begin perform set_config('smoke.tok', (select d.token from lead_deliveries d join leads l on l.id = d.lead_id where l.email = 'routed@example.com'), false); end $$;
+set role anon;
+select pg_temp.check((public.get_delivery(current_setting('smoke.tok')) -> 'contact') = 'null'::jsonb, 'no contact details before accepting');
+select pg_temp.check(public.get_delivery(repeat('0', 64)) is null, 'unknown token finds nothing');
+select pg_temp.expect_error($$select public.respond_to_delivery(current_setting('smoke.tok'), 'decline', '')$$, 'decline needs a reason');
+select pg_temp.check((public.respond_to_delivery(current_setting('smoke.tok'), 'accept') -> 'contact' ->> 'email') = 'routed@example.com', 'accept reveals contact details');
+select pg_temp.check((public.respond_to_delivery(current_setting('smoke.tok'), 'decline', 'too late') ->> 'status') = 'accepted', 'second answer does not change an accepted delivery');
+select pg_temp.check(public.submit_lead('{"full_name":"FAKE Routed","email":"routed@example.com","consent":"on"}') is not null, 'second lead from the same person stored');
+select pg_temp.check(public.submit_privacy_request('routed@example.com', 'delete', 'please') is not null, 'privacy request stored');
+select pg_temp.expect_error($$select public.submit_privacy_request('routed@example.com', 'sell')$$, 'privacy request kind checked');
+select pg_temp.check(public.submit_provider_claim(jsonb_build_object('listing', current_setting('smoke.ref'), 'full_name', 'FAKE Owner', 'email', 'owner@example.com')) is not null, 'claim stored');
+select pg_temp.expect_error($$select public.import_fx_rates('wrong-token-wrong-token-wrong-token', '[]')$$, 'fx import needs a key');
+reset role;
+select pg_temp.check((select count(*) = 1 from leads where email = 'routed@example.com' and status = 'duplicate'), 'repeat request marked duplicate');
+select pg_temp.check((select count(*) = 2 from outbox where kind in ('provider_lead_contact', 'lead_matched')), 'accept queues contact and match emails');
+select pg_temp.check((select provider_id is not null from provider_claims), 'claim matched by ref code');
+set role service_role;
+select pg_temp.check((select count(*) > 0 from public.claim_outbox(50)), 'service role claims outbox');
+reset role;
+select pg_temp.check((public.erase_person('routed@example.com') ->> 'leads')::int = 2, 'erase_person deletes both leads');
+select pg_temp.check((select status = 'done' from privacy_requests), 'erase closes the delete request');
+select pg_temp.check(public.apply_retention() is not null, 'retention runs');
+select pg_temp.check(public.lead_followups() is not null, 'follow-ups run');

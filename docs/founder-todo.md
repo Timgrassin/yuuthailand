@@ -1,5 +1,26 @@
 # Staylong: founder to-do list
 
+## Current list (11 Nov 2026)
+
+Only you can do these. Everything else on the build list is Claude's.
+
+| # | Item | Why |
+|---|---|---|
+| 1 | Approve migration 0037 (advisor fixes: search_path on two helpers, move `pg_net` out of `public`) | Clears three Supabase security warnings; nothing depends on it |
+| 2 | Verify the first providers (premises and visa documents) and add their email address | No provider is Verified, so no request can be routed |
+| 3 | Set up sending as hello@staylong.co (item 13), then send the two emails in `docs/outreach/reviewer-emails.md`. Not the wangift drafts (D32) | 0 of 111 rules are expert-reviewed |
+| 4 | Legal review: consent texts v1 (lead form still says "Yuu"), `/privacy`, `/terms` | PDPA; the pages are drafts |
+| 5 | Give the legal name of the company or person running Staylong | The privacy policy must name the data controller |
+| 6 | Set the per-request price (`[PRICE]`, `[AMOUNT]`) and create a pricing plan | Providers must see the price before they accept |
+| 7 | Test the emails with your own address: subscribe, send a request, send a privacy request | No email has been sent end to end |
+| 8 | Turn on Vercel Web Analytics (project `yuu`) | No full visitor count today |
+| 9 | Microsoft Clarity: create a staylong.co project or drop it | The connected Clarity account is Wangift's |
+| 10 | Owner email and a real mailbox; move GitHub, Vercel, Supabase, Resend, Apify | hello@ only forwards to Gmail |
+| 11 | Submit the MCP server to the Claude directory (after 3 and 4) | Needs your paid Claude plan and policy acknowledgments |
+| 12 | Say yes to deleting the 3 suspended listings (`cleanup-2026-11-06.sql`) | Cannot be undone |
+
+## Earlier list (6 Nov 2026)
+
 Updated 6 Nov 2026. Items are in priority order. DNS for staylong.co is at Namecheap (Domain List, staylong.co, Advanced DNS), not Vercel. The Vercel project is named `yuu`. Each one takes 2 to 20 minutes unless noted.
 
 | # | Item | Time | Blocks |

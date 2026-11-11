@@ -1,4 +1,4 @@
-import { EmailCapture } from "@/components/blocks/email-capture";
+import Link from "next/link";
 import type { Metadata } from "next";
 import { PageHero } from "@/components/marketing/page-hero";
 import { AnswerBlock } from "@/components/seo/answer-block";
@@ -42,9 +42,8 @@ export default async function MethodPage() {
         <h2 id="government-lists" className="scroll-mt-24">{"Government lists"}</h2>
         <p>{"Some Unverified listings also show that we found them on a published government list: the "}<a href="https://data.go.th/dataset/sat-standardized-boxingcamps">{"Sports Authority of Thailand list of certified boxing camps"}</a>{" or the "}<a href="https://data.go.th/dataset/dataset-1-1-02">{"Department of Health Service Support list of institutions with certified courses"}</a>{". We compared the name, the province and, where the list gives one, the address. These lists can be years old and do not cover most providers, so a listing that is not found may still be properly registered. Being found on a list is not Verified status and does not show that a provider can support a visa."}</p>
         <h2 id="claim" className="scroll-mt-24">{"Claim or correct a listing"}</h2>
-        <p>{"If you run a school, camp or agency listed here, leave your work email below. We reply with the documents we need to verify the listing and correct its details."}</p>
+        <p>{"If you run a school, camp or agency listed here, "}<Link href={`${routes.forProviders()}#claim`}>{"claim your listing"}</Link>{". We reply with the documents we need to verify it and correct its details."}</p>
       </div>
-      <div className="mt-8"><EmailCapture title="Claim your listing" body="Use an email at your school's domain if you have one." leadMagnet="provider_claim" button="Start my claim" /></div>
     </Container>
     </>
   );
