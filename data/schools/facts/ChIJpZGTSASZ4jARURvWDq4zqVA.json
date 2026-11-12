@@ -1,0 +1,30 @@
+{
+  "summary": "Thai massage school offering basic, advanced and professional hour-based courses.",
+  "price_from_thb": null,
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "Professional Thai massage",
+      "value": "165 hours",
+      "quote": "Professional Thai Massage for Health (165 Hrs.)"
+    },
+    {
+      "key": "course_length",
+      "label": "Professional oil and aromatherapy",
+      "value": "150 hours",
+      "quote": "Oil massage and Aroma therapy for Health (150 Hrs.)"
+    },
+    {
+      "key": "course_length",
+      "label": "Basic Thai massage",
+      "value": "30 hours",
+      "quote": "General Thai Massage course (30 Hrs.)"
+    },
+    {
+      "key": "course_length",
+      "label": "Foot reflexology",
+      "value": "30 hours",
+      "quote": "Foot reflexology massage course (30 Hrs.)"
+    }
+  ]
+}

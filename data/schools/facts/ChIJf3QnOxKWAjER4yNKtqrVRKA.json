@@ -1,5 +1,24 @@
 {
-  "summary": null,
+  "summary": "Massage school in central Pattaya offering vocational training in Thai massage, aromatherapy, Swedish massage and foot reflexology.",
   "price_from_thb": null,
-  "facts": []
+  "facts": [
+    {
+      "key": "licence",
+      "label": "Stated certification",
+      "value": "States it is certified by the Ministry of Education and Ministry of Health",
+      "quote": "Certified by the Ministry of Education and Ministry of Health"
+    },
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "150-hour certificate in Thai and English",
+      "quote": "Receive a certificate for 150 hours in Thai and English"
+    },
+    {
+      "key": "curriculum",
+      "label": "Curriculum",
+      "value": "Thai massage, aromatherapy, Swedish massage, foot reflexology and hand treatment",
+      "quote": "vocational training in Thai Massage, Aromatheraphy, Swedish massage, Foot Reflexology, Hand Treatment"
+    }
+  ]
 }

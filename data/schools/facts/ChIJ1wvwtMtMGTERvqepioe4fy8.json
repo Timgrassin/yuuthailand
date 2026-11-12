@@ -1,5 +1,30 @@
 {
-  "summary": null,
-  "price_from_thb": null,
-  "facts": []
+  "summary": "Massage school with priced courses in Thai, foot and aroma oil massage and spa treatments.",
+  "price_from_thb": 4500,
+  "facts": [
+    {
+      "key": "price_course",
+      "label": "Thai traditional massage, 150 hours",
+      "value": "6,500 Baht",
+      "quote": "Thai Traditional Massage 150 hrs. Price 6,500 Baht."
+    },
+    {
+      "key": "price_course",
+      "label": "Foot massage, 60 hours",
+      "value": "4,500 Baht",
+      "quote": "Foot Massage 60 hrs. Price 4,500 Baht."
+    },
+    {
+      "key": "price_course",
+      "label": "Aroma oil massage, 100 hours",
+      "value": "6,500 Baht",
+      "quote": "Aroma Oil Massage 100 hrs. Price 6,500 Baht."
+    },
+    {
+      "key": "price_course",
+      "label": "Advanced Thai massage, 400 hours",
+      "value": "15,000 Baht",
+      "quote": "Advance Thai Massage 400 hrs. Price 15,000 Baht."
+    }
+  ]
 }

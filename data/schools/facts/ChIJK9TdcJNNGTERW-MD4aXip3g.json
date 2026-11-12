@@ -1,5 +1,24 @@
 {
-  "summary": null,
+  "summary": "Massage training school offering Thai, oil and foot massage courses for beginners and advanced students.",
   "price_from_thb": null,
-  "facts": []
+  "facts": [
+    {
+      "key": "certificate",
+      "label": "Certificate",
+      "value": "Certificate on successful completion",
+      "quote": "students receive a certificate upon successful completion of the course"
+    },
+    {
+      "key": "levels",
+      "label": "Experience needed",
+      "value": "No previous experience required",
+      "quote": "No previous experience is required."
+    },
+    {
+      "key": "curriculum",
+      "label": "Curriculum",
+      "value": "Traditional Thai massage training",
+      "quote": "Comprehensive Training in Traditional Thai Massage"
+    }
+  ]
 }

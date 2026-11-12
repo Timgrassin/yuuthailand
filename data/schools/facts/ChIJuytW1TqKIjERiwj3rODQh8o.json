@@ -1,5 +1,36 @@
 {
-  "summary": null,
+  "summary": "Massage and spa school offering hour-based courses in Thai, foot, Swedish and aromatherapy massage.",
   "price_from_thb": null,
-  "facts": []
+  "facts": [
+    {
+      "key": "course_length",
+      "label": "Thai massage course",
+      "value": "150 hours",
+      "quote": "150-hour Thai Massage Course for Health"
+    },
+    {
+      "key": "course_length",
+      "label": "Aromatherapy course",
+      "value": "150 hours",
+      "quote": "150-hour Aromatherapy Massage Course"
+    },
+    {
+      "key": "course_length",
+      "label": "Foot massage course",
+      "value": "60 hours",
+      "quote": "60-Hour Foot Massage Course"
+    },
+    {
+      "key": "price_course",
+      "label": "Thai massage course price",
+      "value": "From 5,900 Baht",
+      "quote": "Thai Massage Course for Health, Start at 5,900 Baht"
+    },
+    {
+      "key": "price_course",
+      "label": "Foot massage course price",
+      "value": "3,900 Baht",
+      "quote": "Foot Massage Course for Health 3,900 Baht"
+    }
+  ]
 }
